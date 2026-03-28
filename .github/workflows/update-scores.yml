@@ -2,8 +2,8 @@ name: Update Fantasy Scores
 
 on:
   schedule:
-    # Every 5 minutes — the script early-exits if no live matches
-    - cron: '*/5 * * * *'
+    # Every 10 minutes during IPL match hours (9:30 AM - 6:30 PM UTC = 3 PM - midnight IST)
+    - cron: '*/10 9-18 * 3-5 *'
   workflow_dispatch: {}
 
 permissions:
