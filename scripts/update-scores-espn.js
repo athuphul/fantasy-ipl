@@ -303,7 +303,7 @@ function writeAndPush(output) {
     console.log('No changes to commit');
   } catch (e) {
     if (e.status === 1) {
-      const msg = `Update scores (ESPN) ${new Date().toISOString()}`;
+      const msg = `Update scores (ESPN) ${new Date().toISOString()} [skip ci]`;
       execSync(`git commit -m "${msg}"`, { cwd: path.join(__dirname, '..') });
       execSync('git push', { cwd: path.join(__dirname, '..') });
       console.log('Committed and pushed');

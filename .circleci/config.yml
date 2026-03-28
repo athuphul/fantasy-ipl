@@ -1,0 +1,73 @@
+version: 2.1
+
+jobs:
+  update-scores:
+    docker:
+      - image: cimg/node:20.0
+    resource_class: small
+    steps:
+      - checkout
+      - run:
+          name: Configure Git
+          command: |
+            git config user.name "circleci-bot"
+            git config user.email "circleci-bot@users.noreply.github.com"
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/athuphul/fantasy-ipl.git
+      - run:
+          name: Fetch and update scores
+          command: node scripts/update-scores-espn.js
+          no_output_timeout: 5m
+
+workflows:
+  # Evening matches: 19:30 IST = 14:00 UTC, run for 4 hours (14:00-17:59)
+  # Matches every day Mar 28 - May 24
+  evening-march:
+    triggers:
+      - schedule:
+          cron: "*/10 14,15,16,17 28,29,30,31 3 *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - update-scores
+
+  evening-april:
+    triggers:
+      - schedule:
+          cron: "*/10 14,15,16,17 * 4 *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - update-scores
+
+  evening-may:
+    triggers:
+      - schedule:
+          cron: "*/10 14,15,16,17 1-24 5 *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - update-scores
+
+  # Double header afternoons: 15:30 IST = 10:00 UTC, run for 4 hours (10:00-13:59)
+  dh-april:
+    triggers:
+      - schedule:
+          cron: "*/10 10,11,12,13 4,5,11,12,18,19,25,26 4 *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - update-scores
+
+  dh-may:
+    triggers:
+      - schedule:
+          cron: "*/10 10,11,12,13 3,10,17,24 5 *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - update-scores
