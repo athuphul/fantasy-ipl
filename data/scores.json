@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T16:09:18.767Z",
+  "lastUpdated": "2026-03-28T16:11:19.958Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527674",
@@ -14,24 +14,36 @@
         "o": 20
       },
       {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 0,
+        "w": 0,
+        "o": 0.1
+      },
+      {
         "inning": "Sunrisers Hyderabad",
         "r": 201,
         "w": 9,
         "o": 20
+      },
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 0,
+        "w": 0,
+        "o": 0.1
       }
     ],
     "playerScores": {
-      "Virat Kohli": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
       "Phil Salt": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 24,
-        "total": 24
+        "total": 19
+      },
+      "Virat Kohli": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 3
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -144,8 +156,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 62,
-      "top11Points": 62
+      "totalPointsAll": 57,
+      "top11Points": 57
     },
     {
       "team": "Manav",
@@ -154,8 +166,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 53,
-      "top11Points": 53
+      "totalPointsAll": 48,
+      "top11Points": 48
     },
     {
       "team": "Athu",
@@ -193,24 +205,36 @@
           "o": 20
         },
         {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 0,
+          "w": 0,
+          "o": 0.1
+        },
+        {
           "inning": "Sunrisers Hyderabad",
           "r": 201,
           "w": 9,
           "o": 20
+        },
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 0,
+          "w": 0,
+          "o": 0.1
         }
       ],
       "playerScores": {
-        "Virat Kohli": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
-        },
         "Phil Salt": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 24,
-          "total": 24
+          "total": 19
+        },
+        "Virat Kohli": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 3
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -877,8 +901,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 62,
-      "top11Points": 62,
+      "totalPointsAll": 57,
+      "top11Points": 57,
       "players": [
         {
           "name": "Bhuvneshwar Kumar",
@@ -905,12 +929,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 8,
+          "rawPoints": 3,
           "multiplier": 1,
-          "effectivePoints": 8,
+          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -1291,8 +1315,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 53,
-      "top11Points": 53,
+      "totalPointsAll": 48,
+      "top11Points": 48,
       "players": [
         {
           "name": "Travis Head",
@@ -1308,12 +1332,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 24,
+          "rawPoints": 19,
           "multiplier": 1,
-          "effectivePoints": 24,
+          "effectivePoints": 19,
           "countsInTop11": true
         },
         {
