@@ -6,7 +6,16 @@ on:
     - cron: '5 10 * 3-5 *'
     # 7:05 AM PDT = 14:05 PM UTC (second match window)
     - cron: '5 14 * 3-5 *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      backend:
+        description: 'Backend to use (cricapi or espn)'
+        required: false
+        default: ''
+
+env:
+  # Change this value to switch backends: "cricapi" or "espn"
+  BACKEND: espn
 
 concurrency:
   group: score-update
@@ -32,7 +41,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Fetch scores and poll until match ends
-        run: node scripts/update-scores.js
+        run: |
+          SELECTED="${{ github.event.inputs.backend || env.BACKEND }}"
+          echo "Using backend: $SELECTED"
+          if [ "$SELECTED" = "espn" ]; then
+            node scripts/update-scores-espn.js
+          else
+            node scripts/update-scores.js
+          fi
         env:
           API_KEY_1: ${{ secrets.API_KEY_1 }}
           API_KEY_2: ${{ secrets.API_KEY_2 }}
