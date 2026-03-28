@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy IPL 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fantasy IPL 2026</h1>
+    <p id="last-updated"></p>
+  </header>
+
+  <div id="current-match" class="card hidden"></div>
+
+  <section id="leaderboard-section">
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Team</th>
+          <th>Top 11 Pts</th>
+          <th>All Players Pts</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="team-detail" class="hidden">
+    <button id="back-btn">&larr; Back to Leaderboard</button>
+    <h2 id="team-name"></h2>
+    <div id="team-summary"></div>
+    <table id="team-players">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Player</th>
+          <th>Role</th>
+          <th>Bat</th>
+          <th>Bowl</th>
+          <th>Field</th>
+          <th>Raw</th>
+          <th>Mult</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h3>Match History</h3>
+    <div id="match-history"></div>
+  </section>
+
+  <section id="all-matches" class="hidden">
+    <h2>All Matches</h2>
+    <div id="matches-list"></div>
+  </section>
+
+  <nav id="bottom-nav">
+    <button class="nav-btn active" data-view="leaderboard-section">Leaderboard</button>
+    <button class="nav-btn" data-view="all-matches">Matches</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

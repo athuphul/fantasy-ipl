@@ -1,0 +1,40 @@
+name: Update Fantasy Scores
+
+on:
+  schedule:
+    # Every 5 minutes — the script early-exits if no live matches
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch scores and compute points
+        run: node scripts/update-scores.js
+        env:
+          API_KEY_1: ${{ secrets.API_KEY_1 }}
+          API_KEY_2: ${{ secrets.API_KEY_2 }}
+          API_KEY_3: ${{ secrets.API_KEY_3 }}
+          API_KEY_4: ${{ secrets.API_KEY_4 }}
+          API_KEY_5: ${{ secrets.API_KEY_5 }}
+          API_KEY_6: ${{ secrets.API_KEY_6 }}
+          IPL_SERIES_ID: ${{ vars.IPL_SERIES_ID }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/scores.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update fantasy scores $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

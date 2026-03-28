@@ -1,0 +1,9 @@
+{
+  "name": "fantasy-ipl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fantasy IPL 2026 Score Tracker",
+  "scripts": {
+    "update": "node scripts/update-scores.js"
+  }
+}
