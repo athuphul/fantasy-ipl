@@ -2,9 +2,15 @@ name: Update Fantasy Scores
 
 on:
   schedule:
-    # Every 10 minutes during IPL match hours (9:30 AM - 6:30 PM UTC = 3 PM - midnight IST)
-    - cron: '*/10 9-18 * 3-5 *'
+    # 3:05 AM PDT = 10:05 AM UTC (first match window)
+    - cron: '5 10 * 3-5 *'
+    # 7:05 AM PDT = 14:05 PM UTC (second match window)
+    - cron: '5 14 * 3-5 *'
   workflow_dispatch: {}
+
+concurrency:
+  group: score-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -12,6 +18,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 300  # 5 hours max
     steps:
       - uses: actions/checkout@v4
 
@@ -19,7 +26,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch scores and compute points
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch scores and poll until match ends
         run: node scripts/update-scores.js
         env:
           API_KEY_1: ${{ secrets.API_KEY_1 }}
@@ -29,15 +41,3 @@ jobs:
           API_KEY_5: ${{ secrets.API_KEY_5 }}
           API_KEY_6: ${{ secrets.API_KEY_6 }}
           IPL_SERIES_ID: ${{ vars.IPL_SERIES_ID }}
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/scores.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update fantasy scores $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          fi
