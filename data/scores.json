@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T16:45:53.984Z",
+  "lastUpdated": "2026-03-28T17:14:19.459Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527674",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 89,
-        "w": 1,
-        "o": 7
+        "r": 163,
+        "w": 3,
+        "o": 12.2
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -28,22 +28,22 @@
         "total": 34
       },
       "Virat Kohli": {
-        "batting": 44,
+        "batting": 62,
         "bowling": 0,
         "fielding": 8,
-        "total": 52
+        "total": 70
       },
       "Devdutt Padikkal": {
-        "batting": 72,
+        "batting": 101,
         "bowling": 0,
         "fielding": 24,
-        "total": 96
+        "total": 125
       },
       "Rajat Patidar": {
-        "batting": 0,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 54
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -114,28 +114,33 @@
       "Heinrich Klaasen": {
         "batting": 35,
         "bowling": 0,
-        "fielding": 8,
-        "total": 43
+        "fielding": 16,
+        "total": 51
       },
       "Harsh Dubey": {
         "batting": 3,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 3
+        "bowling": 20,
+        "fielding": 8,
+        "total": 31
       },
       "Harshal Patel": {
         "batting": -5,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": -5
+        "total": -10
       }
     }
   },
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 178,
-      "top11Points": 178
+      "totalPointsAll": 225,
+      "top11Points": 225
+    },
+    {
+      "team": "Tanay",
+      "totalPointsAll": 145,
+      "top11Points": 145
     },
     {
       "team": "Ritik",
@@ -148,19 +153,14 @@
       "top11Points": 75
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 63,
-      "top11Points": 63
-    },
-    {
       "team": "Manav",
       "totalPointsAll": 47,
       "top11Points": 57
     },
     {
       "team": "Athu",
-      "totalPointsAll": 38,
-      "top11Points": 43
+      "totalPointsAll": 41,
+      "top11Points": 51
     },
     {
       "team": "Ali",
@@ -188,9 +188,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 89,
-          "w": 1,
-          "o": 7
+          "r": 163,
+          "w": 3,
+          "o": 12.2
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -207,22 +207,22 @@
           "total": 34
         },
         "Virat Kohli": {
-          "batting": 44,
+          "batting": 62,
           "bowling": 0,
           "fielding": 8,
-          "total": 52
+          "total": 70
         },
         "Devdutt Padikkal": {
-          "batting": 72,
+          "batting": 101,
           "bowling": 0,
           "fielding": 24,
-          "total": 96
+          "total": 125
         },
         "Rajat Patidar": {
-          "batting": 0,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 54
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -293,20 +293,20 @@
         "Heinrich Klaasen": {
           "batting": 35,
           "bowling": 0,
-          "fielding": 8,
-          "total": 43
+          "fielding": 16,
+          "total": 51
         },
         "Harsh Dubey": {
           "batting": 3,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 3
+          "bowling": 20,
+          "fielding": 8,
+          "total": 31
         },
         "Harshal Patel": {
           "batting": -5,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": -10
         }
       },
       "isComplete": false
@@ -314,18 +314,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 38,
-      "top11Points": 43,
+      "totalPointsAll": 41,
+      "top11Points": 51,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
           "batting": 35,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 43,
+          "fielding": 16,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 43,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -453,11 +453,11 @@
           "name": "Harshal Patel",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "rawPoints": -5,
+          "rawPoints": -10,
           "multiplier": 1,
-          "effectivePoints": -5,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
@@ -877,29 +877,29 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 178,
-      "top11Points": 178,
+      "totalPointsAll": 225,
+      "top11Points": 225,
       "players": [
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 72,
+          "batting": 101,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 96,
+          "rawPoints": 125,
           "multiplier": 1,
-          "effectivePoints": 96,
+          "effectivePoints": 125,
           "countsInTop11": true
         },
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 44,
+          "batting": 62,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 52,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 52,
+          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
@@ -1291,9 +1291,20 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 63,
-      "top11Points": 63,
+      "totalPointsAll": 145,
+      "top11Points": 145,
       "players": [
+        {
+          "name": "Rajat Patidar",
+          "role": "Batsman",
+          "batting": 54,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 54,
+          "multiplier": 1,
+          "effectivePoints": 54,
+          "countsInTop11": true
+        },
         {
           "name": "Phil Salt",
           "role": "Opener",
@@ -1306,6 +1317,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Harsh Dubey",
+          "role": "All-Rounder",
+          "batting": 3,
+          "bowling": 20,
+          "fielding": 8,
+          "rawPoints": 31,
+          "multiplier": 1,
+          "effectivePoints": 31,
+          "countsInTop11": true
+        },
+        {
           "name": "Travis Head",
           "role": "Opener",
           "batting": 13,
@@ -1314,17 +1336,6 @@
           "rawPoints": 13,
           "multiplier": 2,
           "effectivePoints": 26,
-          "countsInTop11": true
-        },
-        {
-          "name": "Harsh Dubey",
-          "role": "All-Rounder",
-          "batting": 3,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 3,
-          "multiplier": 1,
-          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -1374,17 +1385,6 @@
         {
           "name": "Trent Boult",
           "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rajat Patidar",
-          "role": "Batsman",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
