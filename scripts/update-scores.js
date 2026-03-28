@@ -12,7 +12,7 @@ const API_KEYS = [
 ].filter(Boolean);
 
 const IPL_SERIES_ID = process.env.IPL_SERIES_ID;
-const POLL_INTERVAL_MS = 2 * 60 * 1000; // 2 minutes
+const POLL_INTERVAL_MS = 8 * 60 * 1000; // 8 minutes (scorecard = 10 credits; 600/day budget)
 const MAX_RUNTIME_MS = 4.5 * 60 * 60 * 1000; // 4.5 hours (GH Actions limit is 6h)
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const SCORES_FILE = path.join(DATA_DIR, 'scores.json');
