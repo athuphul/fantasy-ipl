@@ -24,9 +24,14 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     timeout-minutes: 300  # 5 hours max
     steps:
@@ -41,7 +46,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch scores and poll until match ends
+      - name: Fetch scores and update
         run: |
           SELECTED="${{ github.event.inputs.backend || env.BACKEND }}"
           echo "Using backend: $SELECTED"
@@ -57,3 +62,11 @@ jobs:
           API_KEY_4: ${{ secrets.API_KEY_4 }}
           API_KEY_5: ${{ secrets.API_KEY_5 }}
           API_KEY_6: ${{ secrets.API_KEY_6 }}
+
+      # Deploy directly — pushes by github-actions[bot] don't trigger other workflows
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
