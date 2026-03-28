@@ -222,12 +222,15 @@ function renderAllMatches() {
     let lastDate = '';
     for (const m of nextUp) {
       const dateLabel = m.date === lastDate ? '' : formatScheduleDate(m.date);
-      const timeIST = m.time === '15:30' ? '3:30 PM' : '7:30 PM';
+      // Convert IST to local time. Schedule times are IST (UTC+5:30)
+      const [h, min] = m.time.split(':').map(Number);
+      const matchUTC = new Date(`${m.date}T${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}:00+05:30`);
+      const localTime = matchUTC.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
       lastDate = m.date;
       html += `<div class="schedule-row${dateLabel ? '' : ' same-day'}">
         <div class="schedule-date">${dateLabel}</div>
         <div class="schedule-teams"><span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span></div>
-        <div class="schedule-meta">${timeIST} IST &middot; ${m.venue}</div>
+        <div class="schedule-meta">${localTime} &middot; ${m.venue}</div>
       </div>`;
     }
     if (upcoming.length > 10) {
