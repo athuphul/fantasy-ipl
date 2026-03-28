@@ -2,11 +2,14 @@ name: Update Fantasy Scores
 
 on:
   schedule:
-    # Every 10 min during IPL match hours (10:00-17:59 UTC = 15:30-23:29 IST)
-    # Covers both afternoon (15:30 IST) and evening (19:30 IST) matches.
-    # ~48 runs/day × 1 min each ≈ 1440 min/month, well under 2000 free tier.
-    # The script exits instantly if no match is in the current window.
-    - cron: '*/10 10-17 * 3-5 *'
+    # Targeted cron using known IPL 2026 schedule. Budget: 1680 min / 1950 limit.
+    # Evening matches (19:30 IST = 14:00 UTC) — all 58 match days, every 10 min
+    - cron: '*/10 14-17 28-31 3 *'          # Mar 28-31
+    - cron: '*/10 14-17 * 4 *'              # All April
+    - cron: '*/10 14-17 1-24 5 *'           # May 1-24
+    # Afternoon double headers (15:30 IST = 10:00 UTC) — 12 DH days only
+    - cron: '*/10 10-13 4,5,11,12,18,19,25,26 4 *'  # April DH days
+    - cron: '*/10 10-13 3,10,17,24 5 *'              # May DH days
   workflow_dispatch:
     inputs:
       backend:
