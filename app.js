@@ -4,10 +4,11 @@ let scheduleData = null;
 
 async function loadData() {
   try {
+    const cacheBust = `?t=${Date.now()}`;
     const [scoresRes, teamsRes, scheduleRes] = await Promise.all([
-      fetch('data/scores.json'),
-      fetch('data/teams.json'),
-      fetch('data/schedule.json'),
+      fetch('data/scores.json' + cacheBust),
+      fetch('data/teams.json' + cacheBust),
+      fetch('data/schedule.json' + cacheBust),
     ]);
     if (scoresRes.ok) data = await scoresRes.json();
     if (teamsRes.ok) teamsData = await teamsRes.json();
