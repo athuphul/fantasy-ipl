@@ -12,11 +12,17 @@ const API_KEYS = [
 ].filter(Boolean);
 
 const IPL_SERIES_ID = process.env.IPL_SERIES_ID;
-const POLL_INTERVAL_MS = 8 * 60 * 1000; // 8 minutes (scorecard = 10 credits; 600/day budget)
 const MAX_RUNTIME_MS = 4.5 * 60 * 60 * 1000; // 4.5 hours (GH Actions limit is 6h)
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const SCORES_FILE = path.join(DATA_DIR, 'scores.json');
 const TEAMS_FILE = path.join(DATA_DIR, 'teams.json');
+const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
+
+// Credit budget: 6 keys x 100 = 600/day. Both series_info and scorecard cost ~10 credits.
+// Single match:  1 series_info (10) + N scorecards (10 each) → budget 590/10 = 59 polls over ~3.5h → every 4 min
+// Double header: 2 series_info (20) + N scorecards (10 each) → budget 580/10 = 58 polls over ~7h  → every 8 min
+const POLL_INTERVAL_SINGLE_MS = 4 * 60 * 1000;
+const POLL_INTERVAL_DOUBLE_MS = 8 * 60 * 1000;
 
 // Round-robin API key rotation
 let apiCallCount = 0;
@@ -288,11 +294,64 @@ function isMatchComplete(match) {
   return status.includes('won') || status.includes('tied') || status.includes('no result') || status.includes('draw');
 }
 
+// --- Schedule Logic ---
+
+function getTodayIST() {
+  // IST = UTC+5:30
+  const now = new Date();
+  const ist = new Date(now.getTime() + (5.5 * 60 * 60 * 1000));
+  return ist.toISOString().slice(0, 10); // YYYY-MM-DD
+}
+
+function getScheduleForToday() {
+  const schedule = JSON.parse(fs.readFileSync(SCHEDULE_FILE, 'utf8'));
+  const today = getTodayIST();
+  return schedule.filter(m => m.date === today);
+}
+
+function isDoubleHeader(todayMatches) {
+  return todayMatches.length >= 2;
+}
+
+function isMatchWindowNow(todayMatches) {
+  // Check if current UTC time falls within any match window
+  // 15:30 IST = 10:00 UTC, 19:30 IST = 14:00 UTC
+  // Each match lasts ~3.5-4 hours
+  const nowUTC = new Date();
+  const hourUTC = nowUTC.getUTCHours() + nowUTC.getUTCMinutes() / 60;
+
+  for (const m of todayMatches) {
+    const istHour = parseInt(m.time.split(':')[0]);
+    const istMin = parseInt(m.time.split(':')[1]);
+    const startUTC = (istHour - 5.5) + istMin / 60; // Convert IST to UTC
+    const endUTC = startUTC + 4; // ~4 hour window
+    if (hourUTC >= startUTC - 0.25 && hourUTC <= endUTC) return true;
+  }
+  return false;
+}
+
 // --- Main Loop ---
 
 async function main() {
   if (!IPL_SERIES_ID) { console.error('IPL_SERIES_ID not set'); process.exit(1); }
   if (API_KEYS.length === 0) { console.error('No API keys configured'); process.exit(1); }
+
+  // Step 0: Check schedule before making any API calls (0 credits)
+  const todayMatches = getScheduleForToday();
+  if (todayMatches.length === 0) {
+    console.log(`No matches scheduled today (${getTodayIST()}). Exiting. [0 credits used]`);
+    return;
+  }
+
+  if (!isMatchWindowNow(todayMatches)) {
+    console.log(`Match(es) today but not in current window. Scheduled: ${todayMatches.map(m => `${m.home} vs ${m.away} @ ${m.time} IST`).join(', ')}. Exiting. [0 credits used]`);
+    return;
+  }
+
+  const doubleHeader = isDoubleHeader(todayMatches);
+  const pollInterval = doubleHeader ? POLL_INTERVAL_DOUBLE_MS : POLL_INTERVAL_SINGLE_MS;
+  console.log(`${doubleHeader ? 'Double header' : 'Single match'} day → polling every ${pollInterval / 60000} min`);
+  console.log(`Matches: ${todayMatches.map(m => `${m.home} vs ${m.away} @ ${m.time} IST`).join(', ')}`);
 
   // Set up git for commits
   try {
@@ -308,8 +367,8 @@ async function main() {
     try { existing = JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8')); } catch (e) { /* start fresh */ }
   }
 
-  // Step 1: Check for live matches (1 API credit)
-  console.log('Checking for live matches...');
+  // Step 1: Check for live/completed matches (10 credits)
+  console.log('Fetching series info...');
   const matchList = await apiCall('series_info', { id: IPL_SERIES_ID });
   const matches = matchList.data?.matchList || [];
 
@@ -317,7 +376,7 @@ async function main() {
   const newCompleted = matches.filter(m => isMatchComplete(m) && !existing.matchHistory.some(h => h.matchId === m.id));
 
   if (liveMatches.length === 0 && newCompleted.length === 0) {
-    console.log('No live or new completed matches. Exiting.');
+    console.log(`No live or new completed matches found via API. Exiting. [~10 credits used]`);
     return;
   }
 
@@ -337,7 +396,6 @@ async function main() {
   }
 
   if (liveMatches.length === 0) {
-    // Just had completed matches to process, write once and exit
     console.log('No live matches, writing final scores for completed matches.');
     existing.currentMatch = null;
     const output = buildOutput(existing, teams, null);
@@ -346,7 +404,7 @@ async function main() {
   }
 
   // Step 2: Live match found — enter polling loop
-  console.log(`Found ${liveMatches.length} live match(es). Starting poll loop every ${POLL_INTERVAL_MS / 1000}s...`);
+  console.log(`Found ${liveMatches.length} live match(es). Polling every ${pollInterval / 60000} min...`);
   const startTime = Date.now();
 
   while (Date.now() - startTime < MAX_RUNTIME_MS) {
@@ -392,7 +450,7 @@ async function main() {
     const output = buildOutput(existing, teams, currentMatch);
     writeAndPush(output);
 
-    console.log(`API calls so far: ${apiCallCount}`);
+    console.log(`API calls so far: ${apiCallCount} (~${apiCallCount * 10} credits)`);
     for (const entry of output.leaderboard) {
       console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
     }
@@ -402,8 +460,8 @@ async function main() {
       return;
     }
 
-    console.log(`Sleeping ${POLL_INTERVAL_MS / 1000}s...`);
-    await sleep(POLL_INTERVAL_MS);
+    console.log(`Sleeping ${pollInterval / 1000}s...`);
+    await sleep(pollInterval);
   }
 
   console.log('Max runtime reached. Exiting.');
