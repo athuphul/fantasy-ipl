@@ -33,6 +33,10 @@ function getApiKey() {
   return key;
 }
 
+class ApiNotReadyError extends Error {
+  constructor(message) { super(message); this.name = 'ApiNotReadyError'; }
+}
+
 async function apiCall(endpoint, params = {}) {
   const url = new URL(`https://api.cricapi.com/v1/${endpoint}`);
   url.searchParams.set('apikey', getApiKey());
@@ -42,7 +46,13 @@ async function apiCall(endpoint, params = {}) {
   const res = await fetch(url.toString());
   if (!res.ok) throw new Error(`API error: ${res.status} ${res.statusText}`);
   const data = await res.json();
-  if (data.status === 'failure') throw new Error(`API failure: ${JSON.stringify(data)}`);
+  if (data.status === 'failure') {
+    const reason = (data.reason || '').toLowerCase();
+    if (reason.includes('not found') || reason.includes('scorecard') || reason.includes('not available')) {
+      throw new ApiNotReadyError(`API not ready: ${data.reason || JSON.stringify(data)}`);
+    }
+    throw new Error(`API failure: ${JSON.stringify(data)}`);
+  }
   return data;
 }
 
@@ -395,12 +405,18 @@ async function main() {
   }
 
   // Polling loop — fetch scorecards directly (no series_info needed)
+  // Exponential backoff: if all matches return "not ready", double the sleep (up to 30 min).
+  // Resets to normal interval as soon as any match returns valid data.
+  const MAX_BACKOFF_MS = 30 * 60 * 1000;
+  let consecutiveNotReady = 0;
+
   console.log(`Entering poll loop...`);
   const startTime = Date.now();
 
   while (Date.now() - startTime < MAX_RUNTIME_MS) {
     let anyLive = false;
     let currentMatch = null;
+    let allNotReady = true;
 
     for (const match of todayApiMatches) {
       // Skip matches we've already finalized
@@ -416,6 +432,7 @@ async function main() {
           continue;
         }
 
+        allNotReady = false;
         const sc = scorecard.data;
         const playerScores = processScorecard(sc, allPlayers);
         const status = (sc.status || '').toLowerCase();
@@ -440,18 +457,25 @@ async function main() {
           };
         }
       } catch (err) {
-        console.error(`Error fetching ${match.id}: ${err.message}`);
+        if (err instanceof ApiNotReadyError) {
+          console.log(`  Not ready: ${err.message}`);
+        } else {
+          console.error(`Error fetching ${match.id}: ${err.message}`);
+          allNotReady = false;
+        }
         anyLive = true; // Assume still live on error, retry next loop
       }
     }
 
-    // Write, commit, push after each poll
-    const output = buildOutput(existing, teams, currentMatch);
-    writeAndPush(output);
+    // Write, commit, push after each poll (only if we got some data)
+    if (!allNotReady) {
+      const output = buildOutput(existing, teams, currentMatch);
+      writeAndPush(output);
 
-    console.log(`API calls so far: ${apiCallCount} (~${apiCallCount * 10} credits)`);
-    for (const entry of output.leaderboard) {
-      console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
+      console.log(`API calls so far: ${apiCallCount} (~${apiCallCount * 10} credits)`);
+      for (const entry of output.leaderboard) {
+        console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
+      }
     }
 
     if (!anyLive) {
@@ -459,8 +483,17 @@ async function main() {
       return;
     }
 
-    console.log(`Sleeping ${pollInterval / 1000}s...`);
-    await sleep(pollInterval);
+    // Exponential backoff when API isn't ready yet
+    if (allNotReady) {
+      consecutiveNotReady++;
+      const backoff = Math.min(pollInterval * Math.pow(2, consecutiveNotReady), MAX_BACKOFF_MS);
+      console.log(`All scorecards not ready (attempt ${consecutiveNotReady}). Backing off ${Math.round(backoff / 1000)}s...`);
+      await sleep(backoff);
+    } else {
+      consecutiveNotReady = 0;
+      console.log(`Sleeping ${pollInterval / 1000}s...`);
+      await sleep(pollInterval);
+    }
   }
 
   console.log('Max runtime reached. Exiting.');
