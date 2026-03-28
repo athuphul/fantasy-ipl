@@ -40,4 +40,3 @@ jobs:
           API_KEY_4: ${{ secrets.API_KEY_4 }}
           API_KEY_5: ${{ secrets.API_KEY_5 }}
           API_KEY_6: ${{ secrets.API_KEY_6 }}
-          IPL_SERIES_ID: ${{ vars.IPL_SERIES_ID }}

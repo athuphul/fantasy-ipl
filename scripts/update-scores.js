@@ -11,16 +11,17 @@ const API_KEYS = [
   process.env.API_KEY_6,
 ].filter(Boolean);
 
-const IPL_SERIES_ID = process.env.IPL_SERIES_ID;
+const IPL_SERIES_ID = '87c62aac-bc3c-4738-ab93-19da0690488f';
 const MAX_RUNTIME_MS = 4.5 * 60 * 60 * 1000; // 4.5 hours (GH Actions limit is 6h)
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const SCORES_FILE = path.join(DATA_DIR, 'scores.json');
 const TEAMS_FILE = path.join(DATA_DIR, 'teams.json');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
+const API_SCHEDULE_FILE = path.join(DATA_DIR, 'api_generated_schedule_response.json');
 
-// Credit budget: 6 keys x 100 = 600/day. Both series_info and scorecard cost ~10 credits.
-// Single match:  1 series_info (10) + N scorecards (10 each) → budget 590/10 = 59 polls over ~3.5h → every 4 min
-// Double header: 2 series_info (20) + N scorecards (10 each) → budget 580/10 = 58 polls over ~7h  → every 8 min
+// Credit budget: 6 keys x 100 = 600/day. Scorecard costs ~10 credits. No series_info call needed.
+// Single match:  600/10 = 60 scorecard polls over ~3.5h → every ~3.5 min, use 4 min
+// Double header: 600/10 = 60 polls but 2 scorecards when overlapping (20/poll) → use 8 min
 const POLL_INTERVAL_SINGLE_MS = 4 * 60 * 1000;
 const POLL_INTERVAL_DOUBLE_MS = 8 * 60 * 1000;
 
@@ -283,17 +284,6 @@ function writeAndPush(output) {
   }
 }
 
-function isMatchLive(match) {
-  const status = (match.status || '').toLowerCase();
-  const isComplete = status.includes('won') || status.includes('tied') || status.includes('no result') || status.includes('draw');
-  return match.matchStarted && !match.matchEnded && !isComplete;
-}
-
-function isMatchComplete(match) {
-  const status = (match.status || '').toLowerCase();
-  return status.includes('won') || status.includes('tied') || status.includes('no result') || status.includes('draw');
-}
-
 // --- Schedule Logic ---
 
 function getTodayIST() {
@@ -330,10 +320,32 @@ function isMatchWindowNow(todayMatches) {
   return false;
 }
 
+// --- Match ID Lookup ---
+
+function getApiMatchList() {
+  const apiSchedule = JSON.parse(fs.readFileSync(API_SCHEDULE_FILE, 'utf8'));
+  return apiSchedule.data?.matchList || [];
+}
+
+// Map IPL short names to full names used in the API
+const TEAM_SHORT_TO_FULL = {
+  CSK: 'Chennai Super Kings', MI: 'Mumbai Indians', RCB: 'Royal Challengers Bengaluru',
+  KKR: 'Kolkata Knight Riders', SRH: 'Sunrisers Hyderabad', RR: 'Rajasthan Royals',
+  DC: 'Delhi Capitals', PBKS: 'Punjab Kings', GT: 'Gujarat Titans', LSG: 'Lucknow Super Giants',
+};
+
+function findApiMatchForSchedule(scheduleMatch, apiMatchList) {
+  const homeFullName = TEAM_SHORT_TO_FULL[scheduleMatch.home];
+  const awayFullName = TEAM_SHORT_TO_FULL[scheduleMatch.away];
+  return apiMatchList.find(m =>
+    m.date === scheduleMatch.date &&
+    m.teams?.includes(homeFullName) && m.teams?.includes(awayFullName)
+  );
+}
+
 // --- Main Loop ---
 
 async function main() {
-  if (!IPL_SERIES_ID) { console.error('IPL_SERIES_ID not set'); process.exit(1); }
   if (API_KEYS.length === 0) { console.error('No API keys configured'); process.exit(1); }
 
   // Step 0: Check schedule before making any API calls (0 credits)
@@ -348,10 +360,25 @@ async function main() {
     return;
   }
 
+  // Look up API match IDs from local file (0 credits)
+  const apiMatchList = getApiMatchList();
+  const todayApiMatches = todayMatches.map(sm => {
+    const apiMatch = findApiMatchForSchedule(sm, apiMatchList);
+    if (!apiMatch) console.warn(`No API match found for ${sm.home} vs ${sm.away} on ${sm.date}`);
+    return apiMatch;
+  }).filter(Boolean);
+
+  if (todayApiMatches.length === 0) {
+    console.log('Could not find API match IDs for today\'s matches. Exiting. [0 credits used]');
+    return;
+  }
+
+  console.log(`Found ${todayApiMatches.length} match ID(s) for today:`);
+  for (const m of todayApiMatches) console.log(`  ${m.name} [${m.id}]`);
+
   const doubleHeader = isDoubleHeader(todayMatches);
   const pollInterval = doubleHeader ? POLL_INTERVAL_DOUBLE_MS : POLL_INTERVAL_SINGLE_MS;
   console.log(`${doubleHeader ? 'Double header' : 'Single match'} day → polling every ${pollInterval / 60000} min`);
-  console.log(`Matches: ${todayMatches.map(m => `${m.home} vs ${m.away} @ ${m.time} IST`).join(', ')}`);
 
   // Set up git for commits
   try {
@@ -367,55 +394,27 @@ async function main() {
     try { existing = JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8')); } catch (e) { /* start fresh */ }
   }
 
-  // Step 1: Check for live/completed matches (10 credits)
-  console.log('Fetching series info...');
-  const matchList = await apiCall('series_info', { id: IPL_SERIES_ID });
-  const matches = matchList.data?.matchList || [];
-
-  const liveMatches = matches.filter(m => isMatchLive(m));
-  const newCompleted = matches.filter(m => isMatchComplete(m) && !existing.matchHistory.some(h => h.matchId === m.id));
-
-  if (liveMatches.length === 0 && newCompleted.length === 0) {
-    console.log(`No live or new completed matches found via API. Exiting. [~10 credits used]`);
-    return;
-  }
-
-  // Process any newly completed matches we haven't seen
-  for (const match of newCompleted) {
-    console.log(`Processing completed match: ${match.name}`);
-    try {
-      const scorecard = await apiCall('match_scorecard', { id: match.id });
-      if (!scorecard.data) continue;
-      const playerScores = processScorecard(scorecard.data, allPlayers);
-      existing.matchHistory.push({
-        matchId: match.id, name: match.name || scorecard.data.name,
-        date: match.date || scorecard.data.date, status: match.status || scorecard.data.status,
-        venue: scorecard.data.venue, score: scorecard.data.score || [], playerScores, isComplete: true,
-      });
-    } catch (err) { console.error(`Error processing ${match.id}: ${err.message}`); }
-  }
-
-  if (liveMatches.length === 0) {
-    console.log('No live matches, writing final scores for completed matches.');
-    existing.currentMatch = null;
-    const output = buildOutput(existing, teams, null);
-    writeAndPush(output);
-    return;
-  }
-
-  // Step 2: Live match found — enter polling loop
-  console.log(`Found ${liveMatches.length} live match(es). Polling every ${pollInterval / 60000} min...`);
+  // Polling loop — fetch scorecards directly (no series_info needed)
+  console.log(`Entering poll loop...`);
   const startTime = Date.now();
 
   while (Date.now() - startTime < MAX_RUNTIME_MS) {
     let anyLive = false;
     let currentMatch = null;
 
-    for (const match of liveMatches) {
+    for (const match of todayApiMatches) {
+      // Skip matches we've already finalized
+      const existingEntry = existing.matchHistory.find(m => m.matchId === match.id);
+      if (existingEntry?.isComplete) continue;
+
       console.log(`[${new Date().toISOString()}] Fetching scorecard: ${match.name}`);
       try {
         const scorecard = await apiCall('match_scorecard', { id: match.id });
-        if (!scorecard.data) continue;
+        if (!scorecard.data) {
+          console.log(`  No scorecard data yet (match may not have started)`);
+          anyLive = true;
+          continue;
+        }
 
         const sc = scorecard.data;
         const playerScores = processScorecard(sc, allPlayers);
