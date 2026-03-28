@@ -1,14 +1,17 @@
 let data = null;
 let teamsData = null;
+let scheduleData = null;
 
 async function loadData() {
   try {
-    const [scoresRes, teamsRes] = await Promise.all([
+    const [scoresRes, teamsRes, scheduleRes] = await Promise.all([
       fetch('data/scores.json'),
       fetch('data/teams.json'),
+      fetch('data/schedule.json'),
     ]);
     if (scoresRes.ok) data = await scoresRes.json();
     if (teamsRes.ok) teamsData = await teamsRes.json();
+    if (scheduleRes.ok) scheduleData = await scheduleRes.json();
   } catch (e) {
     console.error('Failed to load data:', e);
   }
@@ -21,6 +24,7 @@ async function loadData() {
   } else {
     document.getElementById('leaderboard').querySelector('tbody').innerHTML =
       '<tr><td colspan="4" style="text-align:center;padding:20px;color:#64748b">No scores yet. Data will appear once matches begin.</td></tr>';
+    renderAllMatches(); // Still render schedule even without scores
   }
 }
 
@@ -177,14 +181,16 @@ function renderTeamMatchHistory(teamName, detail) {
   }).join('');
 }
 
+function formatScheduleDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
 function renderAllMatches() {
   const container = document.getElementById('matches-list');
-  if (!data.matchHistory || data.matchHistory.length === 0) {
-    container.innerHTML = '<p style="color:#64748b">No matches played yet</p>';
-    return;
-  }
+  let html = '';
 
-  // Build lookup maps once
+  // Build lookup maps
   const playerFantasyTeamMap = {};
   const playerIplTeamMap = {};
   if (teamsData) {
@@ -196,34 +202,76 @@ function renderAllMatches() {
     }
   }
 
-  container.innerHTML = data.matchHistory.map(match => {
-    const players = Object.entries(match.playerScores)
-      .map(([name, s]) => ({ name, ...s }))
-      .sort((a, b) => b.total - a.total);
+  // Determine which matches are completed (by date from matchHistory)
+  const completedDates = new Set();
+  const matchHistory = data?.matchHistory || [];
+  for (const m of matchHistory) {
+    if (m.date) completedDates.add(m.date);
+  }
 
-    const scoreLines = (match.score || []).map(s => `${s.inning}: ${s.r}/${s.w} (${s.o} ov)`).join(' | ');
+  // Split schedule into upcoming and completed
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = (scheduleData || []).filter(m => m.date >= today && !completedDates.has(m.date));
+  // Show next 10 upcoming
+  const nextUp = upcoming.slice(0, 10);
 
-    return `<details class="match-card">
-      <summary>
-        <span>${match.name} <span class="match-date">${match.date || ''}</span></span>
-        <span class="match-date">${match.status || ''}</span>
-      </summary>
-      <p class="score-line" style="margin:8px 0">${scoreLines}</p>
-      <table>
-        <thead><tr><th>Player</th><th>Manager</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
-        <tbody>${players.map(p =>
-          `<tr>
-            <td>${p.name} <span class="ipl-badge">${playerIplTeamMap[p.name] || ''}</span></td>
-            <td style="color:#64748b">${playerFantasyTeamMap[p.name] || '-'}</td>
-            <td>${p.batting}</td>
-            <td>${p.bowling}</td>
-            <td>${p.fielding}</td>
-            <td class="points-cell">${p.total}</td>
-          </tr>`
-        ).join('')}</tbody>
-      </table>
-    </details>`;
-  }).join('');
+  // Upcoming schedule
+  if (nextUp.length > 0) {
+    html += '<h3>Upcoming</h3>';
+    html += '<div class="schedule-grid">';
+    let lastDate = '';
+    for (const m of nextUp) {
+      const dateLabel = m.date === lastDate ? '' : formatScheduleDate(m.date);
+      const timeIST = m.time === '15:30' ? '3:30 PM' : '7:30 PM';
+      lastDate = m.date;
+      html += `<div class="schedule-row${dateLabel ? '' : ' same-day'}">
+        <div class="schedule-date">${dateLabel}</div>
+        <div class="schedule-teams"><span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span></div>
+        <div class="schedule-meta">${timeIST} IST &middot; ${m.venue}</div>
+      </div>`;
+    }
+    if (upcoming.length > 10) {
+      html += `<p style="color:#64748b;font-size:0.8rem;padding:8px 0">+ ${upcoming.length - 10} more matches</p>`;
+    }
+    html += '</div>';
+  }
+
+  // Completed matches with scores
+  if (matchHistory.length > 0) {
+    html += '<h3>Results</h3>';
+    html += matchHistory.slice().reverse().map(match => {
+      const players = Object.entries(match.playerScores)
+        .map(([name, s]) => ({ name, ...s }))
+        .sort((a, b) => b.total - a.total);
+
+      const scoreLines = (match.score || []).map(s => `${s.inning}: ${s.r}/${s.w} (${s.o} ov)`).join(' | ');
+
+      return `<details class="match-card">
+        <summary>
+          <span>${match.name} <span class="match-date">${match.date || ''}</span></span>
+          <span class="match-date">${match.status || ''}</span>
+        </summary>
+        <p class="score-line" style="margin:8px 0">${scoreLines}</p>
+        <table>
+          <thead><tr><th>Player</th><th>Manager</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
+          <tbody>${players.map(p =>
+            `<tr>
+              <td>${p.name} <span class="ipl-badge">${playerIplTeamMap[p.name] || ''}</span></td>
+              <td style="color:#64748b">${playerFantasyTeamMap[p.name] || '-'}</td>
+              <td>${p.batting}</td>
+              <td>${p.bowling}</td>
+              <td>${p.fielding}</td>
+              <td class="points-cell">${p.total}</td>
+            </tr>`
+          ).join('')}</tbody>
+        </table>
+      </details>`;
+    }).join('');
+  } else if (nextUp.length === 0) {
+    html += '<p style="color:#64748b">No matches data available</p>';
+  }
+
+  container.innerHTML = html;
 }
 
 // Navigation

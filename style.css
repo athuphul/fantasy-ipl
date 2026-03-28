@@ -255,6 +255,56 @@ tbody tr {
   display: none !important;
 }
 
+/* Schedule grid */
+.schedule-grid {
+  margin-bottom: 20px;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.schedule-row.same-day {
+  padding-top: 4px;
+}
+
+.schedule-row.same-day .schedule-date {
+  visibility: hidden;
+}
+
+.schedule-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #93c5fd;
+}
+
+.schedule-teams {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.schedule-meta {
+  font-size: 0.7rem;
+  color: #64748b;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .schedule-row {
+    grid-template-columns: 70px 1fr;
+    gap: 4px;
+  }
+  .schedule-meta {
+    grid-column: 2;
+    text-align: left;
+  }
+}
+
 /* IPL team badge */
 .ipl-badge {
   display: inline-block;
