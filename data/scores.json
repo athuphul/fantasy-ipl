@@ -1,45 +1,174 @@
 {
-  "lastUpdated": "2026-03-28T14:49:35.949Z",
+  "lastUpdated": "2026-03-28T16:01:41.612Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527674",
+    "name": "Royal Challengers Bengaluru v Sunrisers Hyderabad",
+    "status": "Live",
+    "venue": "M.Chinnaswamy Stadium, Bengaluru",
+    "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 0,
+        "w": 0,
+        "o": 20
+      },
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 201,
+        "w": 9,
+        "o": 20
+      }
+    ],
+    "playerScores": {
+      "Virat Kohli": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
+      },
+      "Phil Salt": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 24,
+        "total": 24
+      },
+      "Rajat Patidar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jitesh Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
+      },
+      "Tim David": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Romario Shepherd": {
+        "batting": 0,
+        "bowling": 75,
+        "fielding": 0,
+        "total": 75
+      },
+      "Krunal Pandya": {
+        "batting": 0,
+        "bowling": -10,
+        "fielding": 0,
+        "total": -10
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 0,
+        "bowling": 30,
+        "fielding": 0,
+        "total": 30
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 15,
+        "fielding": 8,
+        "total": 23
+      },
+      "Suyash Sharma": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Devdutt Padikkal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 24,
+        "total": 24
+      },
+      "Travis Head": {
+        "batting": 13,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 13
+      },
+      "Abhishek Sharma": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
+      },
+      "Ishan Kishan": {
+        "batting": 123,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 123
+      },
+      "Nitish Kumar Reddy": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Heinrich Klaasen": {
+        "batting": 35,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 35
+      },
+      "Harsh Dubey": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Harshal Patel": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      }
+    }
+  },
   "leaderboard": [
     {
-      "team": "Athu",
-      "totalPointsAll": 0,
-      "top11Points": 0
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 0,
-      "top11Points": 0
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 0,
-      "top11Points": 0
+      "team": "Ritik",
+      "totalPointsAll": 123,
+      "top11Points": 123
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 0,
-      "top11Points": 0
+      "totalPointsAll": 75,
+      "top11Points": 75
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 0,
-      "top11Points": 0
+      "totalPointsAll": 62,
+      "top11Points": 62
     },
     {
       "team": "Manav",
-      "totalPointsAll": 0,
-      "top11Points": 0
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 0,
-      "top11Points": 0
+      "totalPointsAll": 47,
+      "top11Points": 57
     },
     {
       "team": "Tanay",
+      "totalPointsAll": 53,
+      "top11Points": 53
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 30,
+      "top11Points": 35
+    },
+    {
+      "team": "Ali",
+      "totalPointsAll": 14,
+      "top11Points": 14
+    },
+    {
+      "team": "Aakash",
       "totalPointsAll": 0,
       "top11Points": 0
     },
@@ -49,21 +178,154 @@
       "top11Points": 0
     }
   ],
-  "matchHistory": [],
-  "teamDetails": {
-    "Athu": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
-      "players": [
+  "matchHistory": [
+    {
+      "matchId": "espn_1527674",
+      "name": "Royal Challengers Bengaluru v Sunrisers Hyderabad",
+      "date": "2026-03-28",
+      "status": "Live",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "score": [
         {
-          "name": "Harshal Patel",
-          "role": "Fast Bowler",
+          "inning": "Royal Challengers Bengaluru",
+          "r": 0,
+          "w": 0,
+          "o": 20
+        },
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 201,
+          "w": 9,
+          "o": 20
+        }
+      ],
+      "playerScores": {
+        "Virat Kohli": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
+        },
+        "Phil Salt": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 24,
+          "total": 24
+        },
+        "Rajat Patidar": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "total": 0
+        },
+        "Jitesh Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
+        },
+        "Tim David": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Romario Shepherd": {
+          "batting": 0,
+          "bowling": 75,
+          "fielding": 0,
+          "total": 75
+        },
+        "Krunal Pandya": {
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "total": -10
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 0,
+          "bowling": 30,
+          "fielding": 0,
+          "total": 30
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 15,
+          "fielding": 8,
+          "total": 23
+        },
+        "Suyash Sharma": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Devdutt Padikkal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 24,
+          "total": 24
+        },
+        "Travis Head": {
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 13
+        },
+        "Abhishek Sharma": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
+        },
+        "Ishan Kishan": {
+          "batting": 123,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 123
+        },
+        "Nitish Kumar Reddy": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Heinrich Klaasen": {
+          "batting": 35,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 35
+        },
+        "Harsh Dubey": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Harshal Patel": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        }
+      },
+      "isComplete": false
+    }
+  ],
+  "teamDetails": {
+    "Athu": {
+      "totalPointsAll": 30,
+      "top11Points": 35,
+      "players": [
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Wicket Keeper",
+          "batting": 35,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 35,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 35,
           "countsInTop11": true
         },
         {
@@ -144,17 +406,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Heinrich Klaasen",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 0,
@@ -185,7 +436,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
+          "countsInTop11": true
         },
         {
           "name": "Shahbaz Ahmed",
@@ -196,6 +447,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": false
+        },
+        {
+          "name": "Harshal Patel",
+          "role": "Fast Bowler",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
@@ -339,9 +601,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 14,
+      "top11Points": 14,
       "players": [
+        {
+          "name": "Abhishek Sharma",
+          "role": "Opener",
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 9,
+          "multiplier": 1.5,
+          "effectivePoints": 14,
+          "countsInTop11": true
+        },
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
@@ -372,17 +645,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abhishek Sharma",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1.5,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -477,9 +739,20 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 75,
+      "top11Points": 75,
       "players": [
+        {
+          "name": "Romario Shepherd",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 75,
+          "fielding": 0,
+          "rawPoints": 75,
+          "multiplier": 1,
+          "effectivePoints": 75,
+          "countsInTop11": true
+        },
         {
           "name": "Priyansh Arya",
           "role": "Opener",
@@ -558,17 +831,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Romario Shepherd",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Shashank Singh",
           "role": "Batsman",
           "batting": 0,
@@ -615,23 +877,45 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 62,
+      "top11Points": 62,
       "players": [
         {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
+          "name": "Bhuvneshwar Kumar",
+          "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 0,
+          "bowling": 30,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 30,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 30,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 24,
+          "multiplier": 1,
+          "effectivePoints": 24,
+          "countsInTop11": true
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Opener",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -652,17 +936,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Virat Kohli",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 0,
@@ -670,17 +943,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1.5,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Bhuvneshwar Kumar",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -742,9 +1004,53 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 47,
+      "top11Points": 57,
       "players": [
+        {
+          "name": "Suyash Sharma",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 15,
+          "fielding": 8,
+          "rawPoints": 23,
+          "multiplier": 1,
+          "effectivePoints": 23,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jitesh Sharma",
+          "role": "Wicket Keeper",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "role": "All-Rounder",
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 1,
+          "multiplier": 1,
+          "effectivePoints": 1,
+          "countsInTop11": true
+        },
         {
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
@@ -801,17 +1107,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 0,
@@ -842,39 +1137,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Krunal Pandya",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jitesh Sharma",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Kumar Reddy",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": false
         },
         {
@@ -889,22 +1151,33 @@
           "countsInTop11": false
         },
         {
-          "name": "Suyash Sharma",
-          "role": "Spinner",
+          "name": "Krunal Pandya",
+          "role": "All-Rounder",
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": -10,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
     },
     "Ritik": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 123,
+      "top11Points": 123,
       "players": [
+        {
+          "name": "Ishan Kishan",
+          "role": "Wicket Keeper",
+          "batting": 123,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 123,
+          "multiplier": 1,
+          "effectivePoints": 123,
+          "countsInTop11": true
+        },
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
@@ -972,17 +1245,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Ishan Kishan",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 0,
@@ -1029,9 +1291,42 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 0,
-      "top11Points": 0,
+      "totalPointsAll": 53,
+      "top11Points": 53,
       "players": [
+        {
+          "name": "Travis Head",
+          "role": "Opener",
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 13,
+          "multiplier": 2,
+          "effectivePoints": 26,
+          "countsInTop11": true
+        },
+        {
+          "name": "Phil Salt",
+          "role": "Opener",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 24,
+          "multiplier": 1,
+          "effectivePoints": 24,
+          "countsInTop11": true
+        },
+        {
+          "name": "Harsh Dubey",
+          "role": "All-Rounder",
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
+          "countsInTop11": true
+        },
         {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
@@ -1057,17 +1352,6 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Phil Salt",
-          "role": "Opener",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1110,17 +1394,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Travis Head",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Mayank Markande",
           "role": "Spinner",
           "batting": 0,
@@ -1134,17 +1407,6 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Harsh Dubey",
-          "role": "All-Rounder",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
