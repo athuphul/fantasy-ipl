@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T16:27:20.075Z",
+  "lastUpdated": "2026-03-28T16:30:33.600Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527674",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 43,
+        "r": 51,
         "w": 1,
-        "o": 3.3
+        "o": 4.1
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -29,7 +29,7 @@
         "inning": "Sunrisers Hyderabad",
         "r": 0,
         "w": 0,
-        "o": 3.3
+        "o": 4.1
       }
     ],
     "playerScores": {
@@ -40,16 +40,16 @@
         "total": 34
       },
       "Virat Kohli": {
-        "batting": 7,
+        "batting": 16,
         "bowling": 0,
         "fielding": 8,
-        "total": 15
+        "total": 24
       },
       "Devdutt Padikkal": {
-        "batting": 34,
+        "batting": 58,
         "bowling": 0,
         "fielding": 24,
-        "total": 58
+        "total": 82
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -145,14 +145,14 @@
   },
   "leaderboard": [
     {
+      "team": "Kishan",
+      "totalPointsAll": 136,
+      "top11Points": 136
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 123,
       "top11Points": 123
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 103,
-      "top11Points": 103
     },
     {
       "team": "Ashwin",
@@ -206,9 +206,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 43,
+          "r": 51,
           "w": 1,
-          "o": 3.3
+          "o": 4.1
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -220,7 +220,7 @@
           "inning": "Sunrisers Hyderabad",
           "r": 0,
           "w": 0,
-          "o": 3.3
+          "o": 4.1
         }
       ],
       "playerScores": {
@@ -231,16 +231,16 @@
           "total": 34
         },
         "Virat Kohli": {
-          "batting": 7,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "total": 15
+          "total": 24
         },
         "Devdutt Padikkal": {
-          "batting": 34,
+          "batting": 58,
           "bowling": 0,
           "fielding": 24,
-          "total": 58
+          "total": 82
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -901,18 +901,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 103,
-      "top11Points": 103,
+      "totalPointsAll": 136,
+      "top11Points": 136,
       "players": [
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 34,
+          "batting": 58,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 58,
+          "rawPoints": 82,
           "multiplier": 1,
-          "effectivePoints": 58,
+          "effectivePoints": 82,
           "countsInTop11": true
         },
         {
@@ -929,12 +929,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 7,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 15,
+          "rawPoints": 24,
           "multiplier": 1,
-          "effectivePoints": 15,
+          "effectivePoints": 24,
           "countsInTop11": true
         },
         {
