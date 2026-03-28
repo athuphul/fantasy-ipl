@@ -255,6 +255,21 @@ tbody tr {
   display: none !important;
 }
 
+/* Scoring rules */
+.rules-table {
+  margin-bottom: 20px;
+}
+
+.rules-table td:nth-child(2) {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #4ade80;
+}
+
+.rules-table tr.penalty td:nth-child(2) {
+  color: #f87171;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   th, td {

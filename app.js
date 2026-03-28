@@ -218,6 +218,7 @@ function renderAllMatches() {
 // Navigation
 document.getElementById('back-btn').addEventListener('click', () => {
   document.getElementById('team-detail').classList.add('hidden');
+  document.getElementById('scoring-rules').classList.add('hidden');
   document.getElementById('leaderboard-section').classList.remove('hidden');
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   document.querySelector('[data-view="leaderboard-section"]').classList.add('active');
@@ -230,6 +231,7 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     document.getElementById('leaderboard-section').classList.add('hidden');
     document.getElementById('all-matches').classList.add('hidden');
     document.getElementById('team-detail').classList.add('hidden');
+    document.getElementById('scoring-rules').classList.add('hidden');
     document.getElementById(btn.dataset.view).classList.remove('hidden');
   });
 });

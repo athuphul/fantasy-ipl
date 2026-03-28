@@ -58,9 +58,73 @@
     <div id="matches-list"></div>
   </section>
 
+  <section id="scoring-rules" class="hidden">
+    <h2>Scoring System</h2>
+
+    <h3>Batting</h3>
+    <table class="rules-table">
+      <thead><tr><th>Action</th><th>Points</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Run scored</td><td>+1</td><td>Per run</td></tr>
+        <tr><td>Boundary (4)</td><td>+1 bonus</td><td>Per boundary</td></tr>
+        <tr><td>Six (6)</td><td>+2 bonus</td><td>Per six</td></tr>
+        <tr><td>Half-century (50-99)</td><td>+10</td><td>Per innings</td></tr>
+        <tr><td>Century (100+)</td><td>+30</td><td>Cumulative with 50 bonus</td></tr>
+        <tr><td>SR &ge; 200</td><td>+15</td><td>Min 10 balls</td></tr>
+        <tr><td>SR 175-199</td><td>+10</td><td>Min 10 balls</td></tr>
+        <tr><td>SR 150-174</td><td>+5</td><td>Min 10 balls</td></tr>
+        <tr class="penalty"><td>SR 75-99</td><td>-5</td><td>Min 10 balls</td></tr>
+        <tr class="penalty"><td>SR &lt; 75</td><td>-10</td><td>Min 10 balls</td></tr>
+        <tr class="penalty"><td>Duck (dismissed for 0)</td><td>-5</td><td></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Bowling</h3>
+    <table class="rules-table">
+      <thead><tr><th>Action</th><th>Points</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Wicket</td><td>+25</td><td>Caught, bowled, LBW, hit wicket</td></tr>
+        <tr><td>3-wicket haul</td><td>+10 bonus</td><td></td></tr>
+        <tr><td>4-wicket haul</td><td>+20 bonus</td><td></td></tr>
+        <tr><td>5-wicket haul</td><td>+30 bonus</td><td></td></tr>
+        <tr><td>Economy &le; 6.0</td><td>+20</td><td>Min 2 overs</td></tr>
+        <tr><td>Economy &le; 7.0</td><td>+12</td><td>Min 2 overs</td></tr>
+        <tr><td>Economy &le; 8.0</td><td>+5</td><td>Min 2 overs</td></tr>
+        <tr class="penalty"><td>Economy &ge; 10.0</td><td>-5</td><td>Min 2 overs</td></tr>
+        <tr class="penalty"><td>Economy &ge; 12.0</td><td>-10</td><td>Min 2 overs</td></tr>
+        <tr class="penalty"><td>Economy &ge; 14.0</td><td>-15</td><td>Min 2 overs</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Fielding</h3>
+    <table class="rules-table">
+      <thead><tr><th>Action</th><th>Points</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Catch</td><td>+8</td><td></td></tr>
+        <tr><td>Stumping</td><td>+10</td><td>Wicketkeeper only</td></tr>
+        <tr><td>Direct run out</td><td>+10</td><td></td></tr>
+        <tr><td>Run out assist</td><td>+5</td><td></td></tr>
+      </tbody>
+    </table>
+
+    <h3>League Rules</h3>
+    <table class="rules-table">
+      <thead><tr><th>Rule</th><th>Detail</th></tr></thead>
+      <tbody>
+        <tr><td>Squad size</td><td>11-14 per team</td></tr>
+        <tr><td>Scoring</td><td>Top 11 cumulative scorers count at season end</td></tr>
+        <tr><td>Captain</td><td>2x points multiplier</td></tr>
+        <tr><td>Vice Captain</td><td>1.5x points multiplier</td></tr>
+        <tr><td>Transfers</td><td>None &mdash; season-long locked roster</td></tr>
+        <tr><td>Scoring window</td><td>Full IPL including playoffs &amp; final</td></tr>
+      </tbody>
+    </table>
+  </section>
+
   <nav id="bottom-nav">
     <button class="nav-btn active" data-view="leaderboard-section">Leaderboard</button>
     <button class="nav-btn" data-view="all-matches">Matches</button>
+    <button class="nav-btn" data-view="scoring-rules">Scoring</button>
   </nav>
 
   <script src="app.js"></script>
