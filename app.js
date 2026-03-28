@@ -100,14 +100,23 @@ function showTeam(teamName) {
     </div>
   `;
 
+  // Build iplTeam lookup from teamsData
+  const iplTeamMap = {};
+  if (teamMeta) {
+    for (const pl of teamMeta.players) {
+      iplTeamMap[pl.name] = pl.iplTeam || '';
+    }
+  }
+
   const tbody = document.getElementById('team-players').querySelector('tbody');
   tbody.innerHTML = detail.players.map((p, i) => {
     const rowClass = p.countsInTop11 ? '' : 'not-top11';
     const nameClass = p.multiplier === 2 ? 'captain' : p.multiplier === 1.5 ? 'vice-captain' : '';
     const multLabel = p.multiplier === 2 ? '(C) 2x' : p.multiplier === 1.5 ? '(VC) 1.5x' : '1x';
+    const iplTeam = iplTeamMap[p.name] || '';
     return `<tr class="${rowClass}">
       <td>${i + 1}</td>
-      <td class="${nameClass}">${p.name}</td>
+      <td class="${nameClass}">${p.name} <span class="ipl-badge">${iplTeam}</span></td>
       <td>${p.role}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
@@ -175,20 +184,22 @@ function renderAllMatches() {
     return;
   }
 
+  // Build lookup maps once
+  const playerFantasyTeamMap = {};
+  const playerIplTeamMap = {};
+  if (teamsData) {
+    for (const team of teamsData.teams) {
+      for (const p of team.players) {
+        playerFantasyTeamMap[p.name] = team.name;
+        playerIplTeamMap[p.name] = p.iplTeam || '';
+      }
+    }
+  }
+
   container.innerHTML = data.matchHistory.map(match => {
     const players = Object.entries(match.playerScores)
       .map(([name, s]) => ({ name, ...s }))
       .sort((a, b) => b.total - a.total);
-
-    // Find which fantasy team each player belongs to
-    const playerTeamMap = {};
-    if (teamsData) {
-      for (const team of teamsData.teams) {
-        for (const p of team.players) {
-          playerTeamMap[p.name] = team.name;
-        }
-      }
-    }
 
     const scoreLines = (match.score || []).map(s => `${s.inning}: ${s.r}/${s.w} (${s.o} ov)`).join(' | ');
 
@@ -199,11 +210,11 @@ function renderAllMatches() {
       </summary>
       <p class="score-line" style="margin:8px 0">${scoreLines}</p>
       <table>
-        <thead><tr><th>Player</th><th>Team</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
+        <thead><tr><th>Player</th><th>Manager</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
         <tbody>${players.map(p =>
           `<tr>
-            <td>${p.name}</td>
-            <td style="color:#64748b">${playerTeamMap[p.name] || '-'}</td>
+            <td>${p.name} <span class="ipl-badge">${playerIplTeamMap[p.name] || ''}</span></td>
+            <td style="color:#64748b">${playerFantasyTeamMap[p.name] || '-'}</td>
             <td>${p.batting}</td>
             <td>${p.bowling}</td>
             <td>${p.fielding}</td>
