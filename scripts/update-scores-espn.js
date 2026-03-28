@@ -374,6 +374,8 @@ function extractMatchInfo(summaryData) {
       for (const competitor of (comp.competitors || [])) {
         const teamName = competitor.team?.displayName || competitor.team?.abbreviation || '';
         for (const ls of (competitor.linescores || [])) {
+          // Skip fielding innings (isBatting false with 0 runs)
+          if (!ls.isBatting && (ls.runs || 0) === 0) continue;
           score.push({
             inning: `${teamName}`,
             r: ls.runs || 0,
