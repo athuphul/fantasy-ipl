@@ -2,10 +2,11 @@ name: Update Fantasy Scores
 
 on:
   schedule:
-    # 3:05 AM PDT = 10:05 AM UTC (first match window)
-    - cron: '5 10 * 3-5 *'
-    # 7:05 AM PDT = 14:05 PM UTC (second match window)
-    - cron: '5 14 * 3-5 *'
+    # Every 10 min during IPL match hours (10:00-17:59 UTC = 15:30-23:29 IST)
+    # Covers both afternoon (15:30 IST) and evening (19:30 IST) matches.
+    # ~48 runs/day × 1 min each ≈ 1440 min/month, well under 2000 free tier.
+    # The script exits instantly if no match is in the current window.
+    - cron: '*/10 10-17 * 3-5 *'
   workflow_dispatch:
     inputs:
       backend:
@@ -19,7 +20,7 @@ env:
 
 concurrency:
   group: score-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write

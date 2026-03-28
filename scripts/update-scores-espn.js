@@ -4,16 +4,14 @@ const { execSync } = require('child_process');
 
 // --- Config ---
 const IPL_LEAGUE_ID = '8048';
-const MAX_RUNTIME_MS = 4.5 * 60 * 60 * 1000;
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const SCORES_FILE = path.join(DATA_DIR, 'scores.json');
 const TEAMS_FILE = path.join(DATA_DIR, 'teams.json');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
 
-// ESPN APIs are free — no key needed. Can poll more frequently.
-// Single match: every 2 min, Double header: every 4 min
-const POLL_INTERVAL_SINGLE_MS = 2 * 60 * 1000;
-const POLL_INTERVAL_DOUBLE_MS = 4 * 60 * 1000;
+// ESPN APIs are free — no key needed.
+// This script does a SINGLE fetch and exits. Cron handles repetition (every 10 min).
+// This keeps GitHub Actions minutes low (~1 min per run vs 210 min for a long-running loop).
 
 const HEADER_URL = 'https://site.api.espn.com/apis/personalized/v2/scoreboard/header?sport=cricket&region=in&tz=Asia/Calcutta';
 const SUMMARY_URL = (eventId) =>
@@ -26,10 +24,6 @@ const SUMMARY_URL = (eventId) =>
 // rebuilt via fuzzy match on every Actions run. Would also let us manually
 // fix any mismatches.
 const espnIdToRoster = {};
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -333,10 +327,6 @@ function getScheduleForToday() {
   return schedule.filter(m => m.date === today);
 }
 
-function isDoubleHeader(todayMatches) {
-  return todayMatches.length >= 2;
-}
-
 function isMatchWindowNow(todayMatches) {
   const nowUTC = new Date();
   const hourUTC = nowUTC.getUTCHours() + nowUTC.getUTCMinutes() / 60;
@@ -397,10 +387,10 @@ function extractMatchInfo(summaryData) {
   return score;
 }
 
-// --- Main ---
+// --- Main (single fetch and exit — cron handles repetition) ---
 
 async function main() {
-  // Step 0: Check local schedule
+  // Step 0: Check local schedule (exit fast if no match today or outside window)
   const todayMatches = getScheduleForToday();
   if (todayMatches.length === 0) {
     console.log(`No matches scheduled today (${getTodayIST()}). Exiting.`);
@@ -412,9 +402,7 @@ async function main() {
     return;
   }
 
-  const doubleHeader = isDoubleHeader(todayMatches);
-  const pollInterval = doubleHeader ? POLL_INTERVAL_DOUBLE_MS : POLL_INTERVAL_SINGLE_MS;
-  console.log(`${doubleHeader ? 'Double header' : 'Single match'} day → polling every ${pollInterval / 60000} min (ESPN backend)`);
+  console.log(`ESPN backend — single fetch run`);
 
   // Set up git
   try {
@@ -430,111 +418,85 @@ async function main() {
     try { existing = JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8')); } catch (e) { /* start fresh */ }
   }
 
-  // Exponential backoff for when ESPN doesn't have the event yet
-  const MAX_BACKOFF_MS = 30 * 60 * 1000;
-  let consecutiveNoEvent = 0;
-
-  console.log('Entering poll loop (ESPN backend)...');
-  const startTime = Date.now();
-
-  while (Date.now() - startTime < MAX_RUNTIME_MS) {
-    let anyLive = false;
-    let currentMatch = null;
-
-    // Fetch current IPL events from ESPN header
-    let iplEvents;
-    try {
-      iplEvents = await getIplEventIds();
-      console.log(`[${new Date().toISOString()}] ESPN header: ${iplEvents.length} IPL event(s)`);
-      for (const ev of iplEvents) {
-        console.log(`  ${ev.name} [${ev.id}] status=${ev.status}`);
-      }
-    } catch (err) {
-      console.error(`Error fetching ESPN header: ${err.message}`);
-      anyLive = true;
-      iplEvents = [];
+  // Fetch current IPL events from ESPN header
+  let iplEvents;
+  try {
+    iplEvents = await getIplEventIds();
+    console.log(`[${new Date().toISOString()}] ESPN header: ${iplEvents.length} IPL event(s)`);
+    for (const ev of iplEvents) {
+      console.log(`  ${ev.name} [${ev.id}] status=${ev.status}`);
     }
-
-    if (iplEvents.length === 0) {
-      consecutiveNoEvent++;
-      const backoff = Math.min(pollInterval * Math.pow(2, consecutiveNoEvent), MAX_BACKOFF_MS);
-      console.log(`No IPL events found (attempt ${consecutiveNoEvent}). Backing off ${Math.round(backoff / 1000)}s...`);
-      await sleep(backoff);
-      continue;
-    }
-    consecutiveNoEvent = 0;
-
-    for (const event of iplEvents) {
-      // Skip completed matches we've already processed
-      const existingEntry = existing.matchHistory.find(m => m.matchId === `espn_${event.id}`);
-      if (existingEntry?.isComplete) continue;
-
-      // Skip pre-match events
-      if (event.status === 'pre') {
-        console.log(`  ${event.name}: pre-match, skipping scorecard fetch`);
-        anyLive = true;
-        continue;
-      }
-
-      console.log(`  Fetching summary: ${event.name}`);
-      try {
-        const summary = await fetchJson(SUMMARY_URL(event.id));
-        const playerScores = processEspnSummary(summary, allPlayers);
-        const isComplete = event.status === 'post';
-
-        const statusDetail = event.fullStatus?.type?.detail || event.status;
-        const score = extractMatchInfo(summary);
-
-        const matchEntry = {
-          matchId: `espn_${event.id}`,
-          name: event.name,
-          date: event.date ? event.date.slice(0, 10) : getTodayIST(),
-          status: statusDetail,
-          venue: summary.gameInfo?.venue?.fullName || '',
-          score,
-          playerScores,
-          isComplete,
-        };
-
-        const idx = existing.matchHistory.findIndex(m => m.matchId === matchEntry.matchId);
-        if (idx >= 0) existing.matchHistory[idx] = matchEntry;
-        else existing.matchHistory.push(matchEntry);
-
-        if (!isComplete) {
-          anyLive = true;
-          currentMatch = {
-            matchId: matchEntry.matchId,
-            name: event.name,
-            status: statusDetail,
-            venue: matchEntry.venue,
-            score,
-            playerScores,
-          };
-        }
-      } catch (err) {
-        console.error(`Error fetching summary for ${event.id}: ${err.message}`);
-        anyLive = true;
-      }
-    }
-
-    // Write, commit, push
-    const output = buildOutput(existing, teams, currentMatch);
-    writeAndPush(output);
-
-    for (const entry of output.leaderboard) {
-      console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
-    }
-
-    if (!anyLive) {
-      console.log('All matches complete. Exiting.');
-      return;
-    }
-
-    console.log(`Sleeping ${pollInterval / 1000}s...`);
-    await sleep(pollInterval);
+  } catch (err) {
+    console.error(`Error fetching ESPN header: ${err.message}`);
+    return;
   }
 
-  console.log('Max runtime reached. Exiting.');
+  if (iplEvents.length === 0) {
+    console.log('No IPL events found on ESPN. Exiting.');
+    return;
+  }
+
+  let currentMatch = null;
+
+  for (const event of iplEvents) {
+    // Skip completed matches we've already processed
+    const existingEntry = existing.matchHistory.find(m => m.matchId === `espn_${event.id}`);
+    if (existingEntry?.isComplete) continue;
+
+    // Skip pre-match events
+    if (event.status === 'pre') {
+      console.log(`  ${event.name}: pre-match, skipping scorecard fetch`);
+      continue;
+    }
+
+    console.log(`  Fetching summary: ${event.name}`);
+    try {
+      const summary = await fetchJson(SUMMARY_URL(event.id));
+      const playerScores = processEspnSummary(summary, allPlayers);
+      const isComplete = event.status === 'post';
+
+      const statusDetail = event.fullStatus?.type?.detail || event.status;
+      const score = extractMatchInfo(summary);
+
+      const matchEntry = {
+        matchId: `espn_${event.id}`,
+        name: event.name,
+        date: event.date ? event.date.slice(0, 10) : getTodayIST(),
+        status: statusDetail,
+        venue: summary.gameInfo?.venue?.fullName || '',
+        score,
+        playerScores,
+        isComplete,
+      };
+
+      const idx = existing.matchHistory.findIndex(m => m.matchId === matchEntry.matchId);
+      if (idx >= 0) existing.matchHistory[idx] = matchEntry;
+      else existing.matchHistory.push(matchEntry);
+
+      if (!isComplete) {
+        currentMatch = {
+          matchId: matchEntry.matchId,
+          name: event.name,
+          status: statusDetail,
+          venue: matchEntry.venue,
+          score,
+          playerScores,
+        };
+      }
+    } catch (err) {
+      console.error(`Error fetching summary for ${event.id}: ${err.message}`);
+    }
+  }
+
+  // Write, commit, push
+  const output = buildOutput(existing, teams, currentMatch);
+  writeAndPush(output);
+
+  for (const entry of output.leaderboard) {
+    console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
+  }
+
+  console.log('Done.');
 }
 
 main().catch(err => {
