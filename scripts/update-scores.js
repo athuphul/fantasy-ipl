@@ -105,8 +105,9 @@ function computeBowlingPoints(bowler) {
 function computeFieldingPoints(catcher) {
   let pts = 0;
   pts += (catcher.catch || 0) * 8;
+  pts += (catcher.cb || 0) * 8;     // Caught and bowled counts as a catch
   pts += (catcher.stumped || 0) * 10;
-  pts += (catcher.runout || 0) * 10;
+  pts += (catcher.runout || 0) * 10; // Direct run outs from catching section
   return pts;
 }
 
@@ -154,6 +155,16 @@ function processScorecard(scorecard, allPlayers) {
         const key = roster.name;
         if (!playerPoints[key]) playerPoints[key] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
         playerPoints[key].batting += computeBattingPoints(bat);
+
+        // Run out assist: the "bowler" field on a runout dismissal is the assisting fielder (+5)
+        if (bat.dismissal === 'runout' && bat.bowler?.name) {
+          const assister = findPlayerInRoster(bat.bowler.name, allPlayers);
+          if (assister) {
+            const aKey = assister.name;
+            if (!playerPoints[aKey]) playerPoints[aKey] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+            playerPoints[aKey].fielding += 5;
+          }
+        }
       }
     }
     if (inning.bowling) {
