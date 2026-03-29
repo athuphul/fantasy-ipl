@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T16:24:52.235Z",
+  "lastUpdated": "2026-03-29T16:35:05.069Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 59,
+        "r": 80,
         "w": 0,
-        "o": 4.2
+        "o": 6
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 53,
+        "batting": 89,
         "bowling": 0,
         "fielding": 0,
-        "total": 53
+        "total": 89
       },
       "Tilak Varma": {
         "batting": 0,
@@ -120,14 +120,14 @@
       "top11Points": 352
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 310,
+      "top11Points": 310
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 242,
       "top11Points": 262
-    },
-    {
-      "team": "Tanay",
-      "totalPointsAll": 256,
-      "top11Points": 256
     },
     {
       "team": "Ritik",
@@ -302,9 +302,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 59,
+          "r": 80,
           "w": 0,
-          "o": 4.2
+          "o": 6
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -315,10 +315,10 @@
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 53,
+          "batting": 89,
           "bowling": 0,
           "fielding": 0,
-          "total": 53
+          "total": 89
         },
         "Tilak Varma": {
           "batting": 0,
@@ -1387,18 +1387,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 256,
-      "top11Points": 256,
+      "totalPointsAll": 310,
+      "top11Points": 310,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 53,
+          "batting": 89,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 53,
+          "rawPoints": 89,
           "multiplier": 1.5,
-          "effectivePoints": 80,
+          "effectivePoints": 134,
           "countsInTop11": true
         },
         {
