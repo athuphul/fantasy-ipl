@@ -184,35 +184,38 @@ function processEspnSummary(summaryData, allPlayers) {
       const espnId = player.athlete.id;
       const espnName = player.athlete.displayName;
       const rosterName = getRosterName(espnId, espnName, allPlayers, espnTeamAbbr);
-      if (!rosterName) continue;
 
-      if (!playerPoints[rosterName]) {
-        playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-      }
-
+      // Process linescores for fantasy roster players (batting/bowling/fielding)
+      // AND for all players (run out credits to fielders)
       for (const linescore of (player.linescores || [])) {
         for (const inner of (linescore.linescores || [])) {
-          const cats = inner.statistics?.categories || [];
-          for (const cat of cats) {
-            const stats = parseStatsArray(cat.stats || []);
+          if (rosterName) {
+            const cats = inner.statistics?.categories || [];
+            for (const cat of cats) {
+              const stats = parseStatsArray(cat.stats || []);
 
-            // Batting: player batted in this period
-            if (stats.batted && stats.batted >= 1) {
-              playerPoints[rosterName].batting += computeBattingPoints(stats);
-            }
+              // Batting: player batted in this period
+              if (stats.batted && stats.batted >= 1) {
+                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+                playerPoints[rosterName].batting += computeBattingPoints(stats);
+              }
 
-            // Bowling: player bowled in this period
-            if (stats.overs && stats.overs > 0) {
-              playerPoints[rosterName].bowling += computeBowlingPoints(stats);
-            }
+              // Bowling: player bowled in this period
+              if (stats.overs && stats.overs > 0) {
+                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+                playerPoints[rosterName].bowling += computeBowlingPoints(stats);
+              }
 
-            // Fielding: catches and stumpings from fielding periods
-            if (stats.fielded && stats.fielded >= 1 && stats.inningsFielded >= 1) {
-              playerPoints[rosterName].fielding += computeFieldingPoints(stats);
+              // Fielding: catches and stumpings from fielding periods
+              if (stats.fielded && stats.fielded >= 1 && stats.inningsFielded >= 1) {
+                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+                playerPoints[rosterName].fielding += computeFieldingPoints(stats);
+              }
             }
           }
 
-          // Run outs from batting outDetails
+          // Run outs: check ALL players' outDetails (fielder may be on a fantasy team
+          // even if the dismissed batsman is not)
           const batting = inner.batting;
           if (batting?.outDetails) {
             const od = batting.outDetails;
@@ -221,20 +224,13 @@ function processEspnSummary(summaryData, allPlayers) {
                 const fielderId = f.athlete?.id;
                 const fielderName = f.athlete?.displayName;
                 if (!fielderId && !fielderName) continue;
-                const fielderRoster = getRosterName(fielderId, fielderName || '', allPlayers);
+                const fielderRoster = getRosterName(fielderId, fielderName || '', allPlayers, espnTeamAbbr);
                 if (!fielderRoster) continue;
                 if (!playerPoints[fielderRoster]) {
                   playerPoints[fielderRoster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
                 }
-                // First fielder = direct, additional = assist
                 if (f.displayOrder === 0) {
-                  // If only one fielder listed, it's a direct runout
-                  // If multiple, first is direct, rest are assists
-                  if (od.fielders.length === 1) {
-                    playerPoints[fielderRoster].fielding += 10;
-                  } else {
-                    playerPoints[fielderRoster].fielding += 10; // direct
-                  }
+                  playerPoints[fielderRoster].fielding += 10; // direct runout
                 } else {
                   playerPoints[fielderRoster].fielding += 5; // assist
                 }
