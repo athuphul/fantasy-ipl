@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T17:14:51.993Z",
+  "lastUpdated": "2026-03-29T17:25:06.551Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 179,
-        "w": 2,
-        "o": 14.2
+        "r": 189,
+        "w": 3,
+        "o": 15.4
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -34,16 +34,16 @@
         "total": 19
       },
       "Tilak Varma": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 22
       },
       "Hardik Pandya": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 15,
         "fielding": 8,
-        "total": 23
+        "total": 33
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Blessing Muzarabani": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": -5,
         "fielding": 0,
-        "total": -10
+        "total": -5
       }
     }
   },
@@ -132,8 +132,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 288,
-      "top11Points": 308
+      "totalPointsAll": 298,
+      "top11Points": 318
     },
     {
       "team": "Ritik",
@@ -147,7 +147,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 65,
+      "totalPointsAll": 70,
       "top11Points": 75
     },
     {
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 16,
-      "top11Points": 16
+      "totalPointsAll": 22,
+      "top11Points": 22
     }
   ],
   "matchHistory": [
@@ -308,9 +308,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 179,
-          "w": 2,
-          "o": 14.2
+          "r": 189,
+          "w": 3,
+          "o": 15.4
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -333,16 +333,16 @@
           "total": 19
         },
         "Tilak Varma": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 22
         },
         "Hardik Pandya": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 15,
           "fielding": 8,
-          "total": 23
+          "total": 33
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -412,9 +412,9 @@
         },
         "Blessing Muzarabani": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 0,
-          "total": -10
+          "total": -5
         }
       },
       "isComplete": false
@@ -422,8 +422,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 288,
-      "top11Points": 308,
+      "totalPointsAll": 298,
+      "top11Points": 318,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -472,12 +472,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 10,
           "bowling": 15,
           "fielding": 8,
-          "rawPoints": 23,
+          "rawPoints": 33,
           "multiplier": 1,
-          "effectivePoints": 23,
+          "effectivePoints": 33,
           "countsInTop11": true
         },
         {
@@ -571,18 +571,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 16,
-      "top11Points": 16,
+      "totalPointsAll": 22,
+      "top11Points": 22,
       "players": [
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 16,
+          "rawPoints": 22,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
@@ -1537,7 +1537,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 65,
+      "totalPointsAll": 70,
       "top11Points": 75,
       "players": [
         {
@@ -1687,11 +1687,11 @@
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 0,
-          "rawPoints": -10,
+          "rawPoints": -5,
           "multiplier": 1,
-          "effectivePoints": -10,
+          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
