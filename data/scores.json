@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-03-29T17:34:52.149Z",
+  "lastUpdated": "2026-03-29T17:45:20.886Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527675",
-    "name": "Mumbai Indians v Kolkata Knight Riders",
-    "status": "Live",
-    "venue": "Wankhede Stadium, Mumbai",
-    "score": [
-      {
-        "inning": "Mumbai Indians",
-        "r": 206,
-        "w": 3,
-        "o": 17.3
-      },
-      {
-        "inning": "Kolkata Knight Riders",
-        "r": 220,
-        "w": 4,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Rohit Sharma": {
-        "batting": 121,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 121
-      },
-      "Suryakumar Yadav": {
-        "batting": 19,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 19
-      },
-      "Tilak Varma": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 33
-      },
-      "Hardik Pandya": {
-        "batting": 13,
-        "bowling": 15,
-        "fielding": 8,
-        "total": 36
-      },
-      "Shardul Thakur": {
-        "batting": 0,
-        "bowling": 85,
-        "fielding": 0,
-        "total": 85
-      },
-      "Mayank Markande": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Trent Boult": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Ajinkya Rahane": {
-        "batting": 95,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 95
-      },
-      "Finn Allen": {
-        "batting": 62,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 62
-      },
-      "Cameron Green": {
-        "batting": 31,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 31
-      },
-      "Rinku Singh": {
-        "batting": 42,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 50
-      },
-      "Anukul Roy": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Sunil Narine": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Vaibhav Arora": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 0,
-        "total": 15
-      },
-      "Blessing Muzarabani": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tanay",
@@ -132,8 +15,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 301,
-      "top11Points": 321
+      "totalPointsAll": 314,
+      "top11Points": 334
     },
     {
       "team": "Ritik",
@@ -142,8 +25,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 68,
-      "top11Points": 75
+      "totalPointsAll": 105,
+      "top11Points": 105
     },
     {
       "team": "Tikoo",
@@ -151,14 +34,14 @@
       "top11Points": 75
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 40,
+      "top11Points": 40
+    },
+    {
       "team": "Ali",
       "totalPointsAll": 38,
       "top11Points": 38
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 33,
-      "top11Points": 33
     },
     {
       "team": "Manav",
@@ -303,14 +186,14 @@
       "matchId": "espn_1527675",
       "name": "Mumbai Indians v Kolkata Knight Riders",
       "date": "2026-03-29",
-      "status": "Live",
+      "status": "Final",
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 206,
-          "w": 3,
-          "o": 17.3
+          "r": 224,
+          "w": 4,
+          "o": 19.1
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -333,16 +216,16 @@
           "total": 19
         },
         "Tilak Varma": {
-          "batting": 17,
+          "batting": 24,
           "bowling": 0,
           "fielding": 16,
-          "total": 33
+          "total": 40
         },
         "Hardik Pandya": {
-          "batting": 13,
+          "batting": 26,
           "bowling": 15,
           "fielding": 8,
-          "total": 36
+          "total": 49
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -400,9 +283,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 20,
           "fielding": 0,
-          "total": -5
+          "total": 20
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -417,13 +300,13 @@
           "total": -5
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 301,
-      "top11Points": 321,
+      "totalPointsAll": 314,
+      "top11Points": 334,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -459,6 +342,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Hardik Pandya",
+          "role": "All-Rounder",
+          "batting": 26,
+          "bowling": 15,
+          "fielding": 8,
+          "rawPoints": 49,
+          "multiplier": 1,
+          "effectivePoints": 49,
+          "countsInTop11": true
+        },
+        {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
           "batting": 19,
@@ -467,17 +361,6 @@
           "rawPoints": 19,
           "multiplier": 2,
           "effectivePoints": 38,
-          "countsInTop11": true
-        },
-        {
-          "name": "Hardik Pandya",
-          "role": "All-Rounder",
-          "batting": 13,
-          "bowling": 15,
-          "fielding": 8,
-          "rawPoints": 36,
-          "multiplier": 1,
-          "effectivePoints": 36,
           "countsInTop11": true
         },
         {
@@ -571,18 +454,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 33,
-      "top11Points": 33,
+      "totalPointsAll": 40,
+      "top11Points": 40,
       "players": [
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 17,
+          "batting": 24,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 33,
+          "rawPoints": 40,
           "multiplier": 1,
-          "effectivePoints": 33,
+          "effectivePoints": 40,
           "countsInTop11": true
         },
         {
@@ -847,8 +730,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 68,
-      "top11Points": 75,
+      "totalPointsAll": 105,
+      "top11Points": 105,
       "players": [
         {
           "name": "Romario Shepherd",
@@ -859,6 +742,17 @@
           "rawPoints": 75,
           "multiplier": 1,
           "effectivePoints": 75,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 0,
+          "rawPoints": 20,
+          "multiplier": 1.5,
+          "effectivePoints": 30,
           "countsInTop11": true
         },
         {
@@ -969,17 +863,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sunil Narine",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1.5,
-          "effectivePoints": -7,
           "countsInTop11": false
         }
       ]
