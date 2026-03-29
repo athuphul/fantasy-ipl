@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T16:55:04.778Z",
+  "lastUpdated": "2026-03-29T17:05:23.255Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 130,
-        "w": 0,
-        "o": 10.4
+        "r": 155,
+        "w": 1,
+        "o": 12.4
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,16 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 106,
+        "batting": 121,
         "bowling": 0,
         "fielding": 0,
-        "total": 106
+        "total": 121
+      },
+      "Suryakumar Yadav": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Tilak Varma": {
         "batting": 0,
@@ -90,8 +96,8 @@
       "Anukul Roy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Sunil Narine": {
         "batting": 0,
@@ -101,9 +107,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 15,
         "fielding": 0,
-        "total": -10
+        "total": 15
       },
       "Blessing Muzarabani": {
         "batting": 0,
@@ -115,24 +121,24 @@
   },
   "leaderboard": [
     {
+      "team": "Tanay",
+      "totalPointsAll": 358,
+      "top11Points": 358
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 352,
       "top11Points": 352
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 335,
-      "top11Points": 335
-    },
-    {
       "team": "Athu",
-      "totalPointsAll": 242,
-      "top11Points": 262
+      "totalPointsAll": 262,
+      "top11Points": 282
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 113,
-      "top11Points": 113
+      "totalPointsAll": 138,
+      "top11Points": 138
     },
     {
       "team": "Ashwin",
@@ -302,9 +308,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 130,
-          "w": 0,
-          "o": 10.4
+          "r": 155,
+          "w": 1,
+          "o": 12.4
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -315,10 +321,16 @@
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 106,
+          "batting": 121,
           "bowling": 0,
           "fielding": 0,
-          "total": 106
+          "total": 121
+        },
+        "Suryakumar Yadav": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Tilak Varma": {
           "batting": 0,
@@ -383,8 +395,8 @@
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Sunil Narine": {
           "batting": 0,
@@ -394,9 +406,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 15,
           "fielding": 0,
-          "total": -10
+          "total": 15
         },
         "Blessing Muzarabani": {
           "batting": 0,
@@ -410,8 +422,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 242,
-      "top11Points": 262,
+      "totalPointsAll": 262,
+      "top11Points": 282,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -458,6 +470,28 @@
           "countsInTop11": true
         },
         {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 6,
+          "multiplier": 2,
+          "effectivePoints": 12,
+          "countsInTop11": true
+        },
+        {
+          "name": "Anukul Roy",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Matheesha Pathirana",
           "role": "Fast Bowler",
           "batting": 0,
@@ -465,17 +499,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Suryakumar Yadav",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -504,17 +527,6 @@
         {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Anukul Roy",
-          "role": "All-Rounder",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1260,8 +1272,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 113,
-      "top11Points": 113,
+      "totalPointsAll": 138,
+      "top11Points": 138,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1272,6 +1284,17 @@
           "rawPoints": 123,
           "multiplier": 1,
           "effectivePoints": 123,
+          "countsInTop11": true
+        },
+        {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 15,
+          "fielding": 0,
+          "rawPoints": 15,
+          "multiplier": 1,
+          "effectivePoints": 15,
           "countsInTop11": true
         },
         {
@@ -1372,33 +1395,22 @@
           "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": true
-        },
-        {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "rawPoints": -10,
-          "multiplier": 1,
-          "effectivePoints": -10,
-          "countsInTop11": true
         }
       ]
     },
     "Tanay": {
-      "totalPointsAll": 335,
-      "top11Points": 335,
+      "totalPointsAll": 358,
+      "top11Points": 358,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 106,
+          "batting": 121,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 106,
+          "rawPoints": 121,
           "multiplier": 1.5,
-          "effectivePoints": 159,
+          "effectivePoints": 182,
           "countsInTop11": true
         },
         {
