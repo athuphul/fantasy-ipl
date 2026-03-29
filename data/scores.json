@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T17:05:23.255Z",
+  "lastUpdated": "2026-03-29T17:14:51.993Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 155,
-        "w": 1,
-        "o": 12.4
+        "r": 179,
+        "w": 2,
+        "o": 14.2
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -28,10 +28,10 @@
         "total": 121
       },
       "Suryakumar Yadav": {
-        "batting": 6,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 19
       },
       "Tilak Varma": {
         "batting": 0,
@@ -90,8 +90,8 @@
       "Rinku Singh": {
         "batting": 42,
         "bowling": 0,
-        "fielding": 0,
-        "total": 42
+        "fielding": 8,
+        "total": 50
       },
       "Anukul Roy": {
         "batting": 0,
@@ -132,8 +132,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 262,
-      "top11Points": 282
+      "totalPointsAll": 288,
+      "top11Points": 308
     },
     {
       "team": "Ritik",
@@ -147,8 +147,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 53,
-      "top11Points": 63
+      "totalPointsAll": 65,
+      "top11Points": 75
     },
     {
       "team": "Ali",
@@ -308,9 +308,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 155,
-          "w": 1,
-          "o": 12.4
+          "r": 179,
+          "w": 2,
+          "o": 14.2
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -327,10 +327,10 @@
           "total": 121
         },
         "Suryakumar Yadav": {
-          "batting": 6,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 19
         },
         "Tilak Varma": {
           "batting": 0,
@@ -389,8 +389,8 @@
         "Rinku Singh": {
           "batting": 42,
           "bowling": 0,
-          "fielding": 0,
-          "total": 42
+          "fielding": 8,
+          "total": 50
         },
         "Anukul Roy": {
           "batting": 0,
@@ -422,8 +422,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 262,
-      "top11Points": 282,
+      "totalPointsAll": 288,
+      "top11Points": 308,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -459,6 +459,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "batting": 19,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 19,
+          "multiplier": 2,
+          "effectivePoints": 38,
+          "countsInTop11": true
+        },
+        {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 0,
@@ -467,17 +478,6 @@
           "rawPoints": 23,
           "multiplier": 1,
           "effectivePoints": 23,
-          "countsInTop11": true
-        },
-        {
-          "name": "Suryakumar Yadav",
-          "role": "Batsman",
-          "batting": 6,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 6,
-          "multiplier": 2,
-          "effectivePoints": 12,
           "countsInTop11": true
         },
         {
@@ -1537,18 +1537,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 53,
-      "top11Points": 63,
+      "totalPointsAll": 65,
+      "top11Points": 75,
       "players": [
         {
           "name": "Rinku Singh",
           "role": "Batsman",
           "batting": 42,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 42,
+          "fielding": 8,
+          "rawPoints": 50,
           "multiplier": 1.5,
-          "effectivePoints": 63,
+          "effectivePoints": 75,
           "countsInTop11": true
         },
         {
