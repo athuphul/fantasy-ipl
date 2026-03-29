@@ -108,10 +108,13 @@ function namesMatch(espnName, rosterName) {
   if (a === b) return true;
   const aParts = a.split(' ');
   const bParts = b.split(' ');
-  if (aParts.length > 0 && bParts.length > 0) {
+  // Last name + first 3 chars of first name must match (avoids Singh/Sharma/Kumar collisions)
+  if (aParts.length > 1 && bParts.length > 1) {
     const aLast = aParts[aParts.length - 1];
     const bLast = bParts[bParts.length - 1];
-    if (aLast === bLast && aParts[0][0] === bParts[0][0]) return true;
+    const aFirst3 = aParts[0].substring(0, 3);
+    const bFirst3 = bParts[0].substring(0, 3);
+    if (aLast === bLast && aFirst3 === bFirst3) return true;
   }
   if (a.includes(b) || b.includes(a)) return true;
   return false;
@@ -119,28 +122,42 @@ function namesMatch(espnName, rosterName) {
 
 function buildEspnIdMapping(rosters, allPlayers) {
   for (const roster of rosters) {
+    const espnTeamAbbr = roster.team?.abbreviation || '';
     for (const p of roster.roster) {
       const espnId = p.athlete.id;
       if (espnIdToRoster[espnId]) continue; // Already mapped
       const espnName = p.athlete.displayName;
+      // Prefer exact name match, then fuzzy match with IPL team verification
+      let bestMatch = null;
       for (const rp of allPlayers) {
-        if (namesMatch(espnName, rp.name)) {
-          espnIdToRoster[espnId] = { rosterName: rp.name, espnName };
-          break;
-        }
+        const nameOk = namesMatch(espnName, rp.name);
+        if (!nameOk) continue;
+        const exactName = normalizeName(espnName) === normalizeName(rp.name);
+        const teamOk = !espnTeamAbbr || !rp.iplTeam || espnTeamAbbr === rp.iplTeam;
+        if (exactName && teamOk) { bestMatch = rp; break; }
+        if (exactName && !bestMatch) { bestMatch = rp; continue; }
+        if (teamOk && !bestMatch) { bestMatch = rp; }
+      }
+      if (bestMatch) {
+        espnIdToRoster[espnId] = { rosterName: bestMatch.name, espnName };
       }
     }
   }
 }
 
-function getRosterName(espnId, espnDisplayName, allPlayers) {
+function getRosterName(espnId, espnDisplayName, allPlayers, espnTeamAbbr) {
   if (espnIdToRoster[espnId]) return espnIdToRoster[espnId].rosterName;
-  // Fallback: try fuzzy match by name
+  // Fallback: try fuzzy match by name, prefer team-verified matches
+  let bestMatch = null;
   for (const rp of allPlayers) {
-    if (namesMatch(espnDisplayName, rp.name)) {
-      espnIdToRoster[espnId] = { rosterName: rp.name, espnName: espnDisplayName };
-      return rp.name;
-    }
+    if (!namesMatch(espnDisplayName, rp.name)) continue;
+    const teamOk = !espnTeamAbbr || !rp.iplTeam || espnTeamAbbr === rp.iplTeam;
+    if (teamOk) { bestMatch = rp; break; }
+    if (!bestMatch) bestMatch = rp;
+  }
+  if (bestMatch) {
+    espnIdToRoster[espnId] = { rosterName: bestMatch.name, espnName: espnDisplayName };
+    return bestMatch.name;
   }
   return null;
 }
@@ -162,10 +179,11 @@ function processEspnSummary(summaryData, allPlayers) {
   buildEspnIdMapping(summaryData.rosters, allPlayers);
 
   for (const roster of summaryData.rosters) {
+    const espnTeamAbbr = roster.team?.abbreviation || '';
     for (const player of roster.roster) {
       const espnId = player.athlete.id;
       const espnName = player.athlete.displayName;
-      const rosterName = getRosterName(espnId, espnName, allPlayers);
+      const rosterName = getRosterName(espnId, espnName, allPlayers, espnTeamAbbr);
       if (!rosterName) continue;
 
       if (!playerPoints[rosterName]) {
