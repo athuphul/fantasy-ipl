@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T16:04:53.114Z",
+  "lastUpdated": "2026-03-29T16:15:09.066Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 6,
+        "r": 34,
         "w": 0,
-        "o": 1
+        "o": 3
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": -5,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 15
       },
       "Tilak Varma": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Blessing Muzarabani": {
         "batting": 0,
@@ -126,13 +126,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 169,
-      "top11Points": 176
+      "totalPointsAll": 199,
+      "top11Points": 199
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 123,
-      "top11Points": 123
+      "totalPointsAll": 113,
+      "top11Points": 113
     },
     {
       "team": "Ashwin",
@@ -302,9 +302,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 6,
+          "r": 34,
           "w": 0,
-          "o": 1
+          "o": 3
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -315,10 +315,10 @@
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": -5,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 15
         },
         "Tilak Varma": {
           "batting": 0,
@@ -394,9 +394,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Blessing Muzarabani": {
           "batting": 0,
@@ -1260,8 +1260,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 123,
-      "top11Points": 123,
+      "totalPointsAll": 113,
+      "top11Points": 113,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1352,17 +1352,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
@@ -1383,12 +1372,23 @@
           "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": true
+        },
+        {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
+          "countsInTop11": true
         }
       ]
     },
     "Tanay": {
-      "totalPointsAll": 169,
-      "top11Points": 176,
+      "totalPointsAll": 199,
+      "top11Points": 199,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -1443,6 +1443,17 @@
           "rawPoints": 13,
           "multiplier": 2,
           "effectivePoints": 26,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 15,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 15,
+          "multiplier": 1.5,
+          "effectivePoints": 23,
           "countsInTop11": true
         },
         {
@@ -1509,17 +1520,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1.5,
-          "effectivePoints": -7,
           "countsInTop11": false
         }
       ]
