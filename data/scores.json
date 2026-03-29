@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T16:15:09.066Z",
+  "lastUpdated": "2026-03-29T16:24:52.235Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 34,
+        "r": 59,
         "w": 0,
-        "o": 3
+        "o": 4.2
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 15,
+        "batting": 53,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 53
       },
       "Tilak Varma": {
         "batting": 0,
@@ -107,9 +107,9 @@
       },
       "Blessing Muzarabani": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       }
     }
   },
@@ -126,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 199,
-      "top11Points": 199
+      "totalPointsAll": 256,
+      "top11Points": 256
     },
     {
       "team": "Ritik",
@@ -141,7 +141,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 63,
+      "totalPointsAll": 53,
       "top11Points": 63
     },
     {
@@ -302,9 +302,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 34,
+          "r": 59,
           "w": 0,
-          "o": 3
+          "o": 4.2
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -315,10 +315,10 @@
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 15,
+          "batting": 53,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 53
         },
         "Tilak Varma": {
           "batting": 0,
@@ -400,9 +400,9 @@
         },
         "Blessing Muzarabani": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         }
       },
       "isComplete": false
@@ -1387,9 +1387,20 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 199,
-      "top11Points": 199,
+      "totalPointsAll": 256,
+      "top11Points": 256,
       "players": [
+        {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 53,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 53,
+          "multiplier": 1.5,
+          "effectivePoints": 80,
+          "countsInTop11": true
+        },
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
@@ -1443,17 +1454,6 @@
           "rawPoints": 13,
           "multiplier": 2,
           "effectivePoints": 26,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": 15,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 15,
-          "multiplier": 1.5,
-          "effectivePoints": 23,
           "countsInTop11": true
         },
         {
@@ -1525,7 +1525,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 63,
+      "totalPointsAll": 53,
       "top11Points": 63,
       "players": [
         {
@@ -1650,17 +1650,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Blessing Muzarabani",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
           "batting": 0,
@@ -1680,6 +1669,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": false
+        },
+        {
+          "name": "Blessing Muzarabani",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
