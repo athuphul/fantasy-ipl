@@ -8,6 +8,20 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const SCORES_FILE = path.join(DATA_DIR, 'scores.json');
 const TEAMS_FILE = path.join(DATA_DIR, 'teams.json');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
+const API_SCHEDULE_FILE = path.join(DATA_DIR, 'api_generated_schedule_response.json');
+const MATCH_SCORES_DIR = path.join(DATA_DIR, 'match_scores');
+const FANTASY_SCORES_DIR = path.join(DATA_DIR, 'fantasy_scores');
+
+// CricAPI keys (optional — used only for run out fielder data that ESPN lacks)
+const CRICAPI_KEYS = [
+  process.env.API_KEY_1,
+  process.env.API_KEY_2,
+  process.env.API_KEY_3,
+  process.env.API_KEY_4,
+  process.env.API_KEY_5,
+  process.env.API_KEY_6,
+].filter(Boolean);
+let cricApiCallCount = 0;
 
 // ESPN APIs are free — no key needed.
 // This script does a SINGLE fetch and exits. Cron handles repetition (every 10 min).
@@ -249,6 +263,153 @@ function processEspnSummary(summaryData, allPlayers) {
   return playerPoints;
 }
 
+// --- CricAPI Run Out Supplement ---
+// ESPN doesn't include run out fielder info. CricAPI does.
+// We fetch the CricAPI scorecard and extract ONLY run out data.
+
+const TEAM_SHORT_TO_FULL = {
+  CSK: 'Chennai Super Kings', MI: 'Mumbai Indians', RCB: 'Royal Challengers Bengaluru',
+  KKR: 'Kolkata Knight Riders', SRH: 'Sunrisers Hyderabad', RR: 'Rajasthan Royals',
+  DC: 'Delhi Capitals', PBKS: 'Punjab Kings', GT: 'Gujarat Titans', LSG: 'Lucknow Super Giants',
+};
+
+function getCricApiKey() {
+  const key = CRICAPI_KEYS[cricApiCallCount % CRICAPI_KEYS.length];
+  cricApiCallCount++;
+  return key;
+}
+
+async function cricApiCall(endpoint, params = {}) {
+  const url = new URL(`https://api.cricapi.com/v1/${endpoint}`);
+  url.searchParams.set('apikey', getCricApiKey());
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+  const res = await fetch(url.toString());
+  if (!res.ok) throw new Error(`CricAPI HTTP ${res.status}`);
+  return res.json();
+}
+
+function findCricApiMatchId(scheduleMatch) {
+  if (!fs.existsSync(API_SCHEDULE_FILE)) return null;
+  const apiSchedule = JSON.parse(fs.readFileSync(API_SCHEDULE_FILE, 'utf8'));
+  const matchList = apiSchedule.data?.matchList || [];
+  const homeFullName = TEAM_SHORT_TO_FULL[scheduleMatch.home];
+  const awayFullName = TEAM_SHORT_TO_FULL[scheduleMatch.away];
+  const found = matchList.find(m =>
+    m.date === scheduleMatch.date &&
+    m.teams?.includes(homeFullName) && m.teams?.includes(awayFullName)
+  );
+  return found?.id || null;
+}
+
+function findScheduleMatchForEvent(eventName, eventDate) {
+  // eventName like "Mumbai Indians v Kolkata Knight Riders"
+  const schedule = JSON.parse(fs.readFileSync(SCHEDULE_FILE, 'utf8'));
+  return schedule.find(m => {
+    if (eventDate && m.date !== eventDate) return false;
+    const home = TEAM_SHORT_TO_FULL[m.home] || '';
+    const away = TEAM_SHORT_TO_FULL[m.away] || '';
+    return eventName.includes(home) && eventName.includes(away);
+  });
+}
+
+async function supplementRunOuts(playerScores, eventName, eventDate, allPlayers) {
+  if (CRICAPI_KEYS.length === 0) return;
+
+  const scheduleMatch = findScheduleMatchForEvent(eventName, eventDate);
+  if (!scheduleMatch) {
+    console.log('  CricAPI: could not find schedule match for run out lookup');
+    return;
+  }
+
+  const cricApiMatchId = findCricApiMatchId(scheduleMatch);
+  if (!cricApiMatchId) {
+    console.log('  CricAPI: no match ID found in api_generated_schedule_response.json');
+    return;
+  }
+
+  try {
+    console.log(`  CricAPI: fetching scorecard ${cricApiMatchId} for run out data`);
+    const result = await cricApiCall('match_scorecard', { id: cricApiMatchId });
+    if (!result.data?.scorecard) {
+      console.log('  CricAPI: no scorecard data available');
+      return;
+    }
+
+    for (const inning of result.data.scorecard) {
+      // Direct run outs from catching/fielding section
+      if (inning.catching) {
+        for (const catcher of inning.catching) {
+          const runouts = catcher.runout || 0;
+          if (runouts === 0) continue;
+          const name = catcher.fielder?.name;
+          if (!name) continue;
+          const roster = findPlayerInAllPlayers(name, allPlayers);
+          if (!roster) continue;
+          if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+          playerScores[roster].fielding += runouts * 10;
+          playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
+          console.log(`  CricAPI: +${runouts * 10} run out pts for ${roster} (direct)`);
+        }
+      }
+
+      // Run out assists from batting dismissals
+      if (inning.batting) {
+        for (const bat of inning.batting) {
+          if (bat.dismissal === 'runout' && bat.bowler?.name) {
+            const assister = findPlayerInAllPlayers(bat.bowler.name, allPlayers);
+            if (!assister) continue;
+            if (!playerScores[assister]) playerScores[assister] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+            playerScores[assister].fielding += 5;
+            playerScores[assister].total = playerScores[assister].batting + playerScores[assister].bowling + playerScores[assister].fielding;
+            console.log(`  CricAPI: +5 run out assist pts for ${assister}`);
+          }
+        }
+      }
+    }
+  } catch (err) {
+    console.log(`  CricAPI run out fetch failed (non-fatal): ${err.message}`);
+  }
+}
+
+function findPlayerInAllPlayers(apiName, allPlayers) {
+  for (const rp of allPlayers) {
+    if (namesMatch(apiName, rp.name)) return rp.name;
+  }
+  return null;
+}
+
+// --- Match Score Caching ---
+
+function saveMatchScore(matchId, matchData) {
+  if (!fs.existsSync(MATCH_SCORES_DIR)) fs.mkdirSync(MATCH_SCORES_DIR, { recursive: true });
+  const file = path.join(MATCH_SCORES_DIR, `${matchId}.json`);
+  fs.writeFileSync(file, JSON.stringify(matchData, null, 2));
+  console.log(`  Saved match scorecard to ${file}`);
+}
+
+function saveFantasyScores(matchId, playerScores) {
+  if (!fs.existsSync(FANTASY_SCORES_DIR)) fs.mkdirSync(FANTASY_SCORES_DIR, { recursive: true });
+  const file = path.join(FANTASY_SCORES_DIR, `${matchId}.json`);
+  fs.writeFileSync(file, JSON.stringify(playerScores, null, 2));
+  console.log(`  Saved fantasy scores to ${file}`);
+}
+
+function loadCachedFantasyScores(matchId) {
+  const file = path.join(FANTASY_SCORES_DIR, `${matchId}.json`);
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (e) { return null; }
+}
+
+function loadCachedMatchScore(matchId) {
+  const file = path.join(MATCH_SCORES_DIR, `${matchId}.json`);
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (e) { return null; }
+}
+
 // --- Build Output (same structure as CricAPI backend) ---
 
 function buildOutput(existing, teams, currentMatch) {
@@ -418,7 +579,8 @@ async function main() {
     return;
   }
 
-  console.log(`ESPN backend — single fetch run`);
+  console.log(`\n=== ESPN backend — single fetch run ===`);
+  console.log(`[${new Date().toISOString()}] CricAPI keys available: ${CRICAPI_KEYS.length}`);
 
   // Set up git
   try {
@@ -428,17 +590,22 @@ async function main() {
 
   const teams = JSON.parse(fs.readFileSync(TEAMS_FILE, 'utf8')).teams;
   const allPlayers = teams.flatMap(t => t.players);
+  console.log(`Loaded ${teams.length} fantasy teams, ${allPlayers.length} total players`);
 
   let existing = { lastUpdated: null, matchHistory: [], leaderboard: [], teamDetails: {}, currentMatch: null };
   if (fs.existsSync(SCORES_FILE)) {
     try { existing = JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8')); } catch (e) { /* start fresh */ }
+  }
+  console.log(`Existing match history: ${existing.matchHistory.length} match(es)`);
+  for (const m of existing.matchHistory) {
+    console.log(`  ${m.name} [${m.matchId}] isComplete=${m.isComplete}`);
   }
 
   // Fetch current IPL events from ESPN header
   let iplEvents;
   try {
     iplEvents = await getIplEventIds();
-    console.log(`[${new Date().toISOString()}] ESPN header: ${iplEvents.length} IPL event(s)`);
+    console.log(`\n[${new Date().toISOString()}] ESPN header: ${iplEvents.length} IPL event(s)`);
     for (const ev of iplEvents) {
       console.log(`  ${ev.name} [${ev.id}] status=${ev.status}`);
     }
@@ -448,36 +615,59 @@ async function main() {
   }
 
   if (iplEvents.length === 0) {
-    console.log('No IPL events found on ESPN. Exiting.');
-    return;
+    console.log('No IPL events found on ESPN header.');
   }
 
   let currentMatch = null;
 
+  // Process events from ESPN header
   for (const event of iplEvents) {
-    // Skip completed matches we've already processed
-    const existingEntry = existing.matchHistory.find(m => m.matchId === `espn_${event.id}`);
-    if (existingEntry?.isComplete) continue;
+    const matchId = `espn_${event.id}`;
+    const existingEntry = existing.matchHistory.find(m => m.matchId === matchId);
 
-    // Skip pre-match events
-    if (event.status === 'pre') {
-      console.log(`  ${event.name}: pre-match, skipping scorecard fetch`);
+    // Check cache first — if we have cached fantasy scores, use them
+    const cached = loadCachedFantasyScores(matchId);
+    if (cached && existingEntry?.isComplete) {
+      console.log(`\n  [CACHED] ${event.name}: loaded from fantasy_scores/${matchId}.json`);
       continue;
     }
 
-    console.log(`  Fetching summary: ${event.name}`);
+    if (existingEntry?.isComplete && !cached) {
+      // Complete but not cached — cache it now from existing data, skip refetch
+      console.log(`\n  [CACHE-SAVE] ${event.name}: complete, saving to cache`);
+      saveFantasyScores(matchId, existingEntry.playerScores);
+      saveMatchScore(matchId, { name: existingEntry.name, date: existingEntry.date, status: existingEntry.status, venue: existingEntry.venue, score: existingEntry.score });
+      continue;
+    }
+
+    if (event.status === 'pre') {
+      console.log(`\n  [SKIP] ${event.name}: pre-match`);
+      continue;
+    }
+
+    console.log(`\n  [FETCH] ${event.name} (status=${event.status})`);
     try {
       const summary = await fetchJson(SUMMARY_URL(event.id));
       const playerScores = processEspnSummary(summary, allPlayers);
       const isComplete = event.status === 'post';
 
+      const scoredPlayers = Object.entries(playerScores).filter(([_, s]) => s.total !== 0);
+      console.log(`  ESPN: ${Object.keys(playerScores).length} fantasy players found, ${scoredPlayers.length} with non-zero scores`);
+      for (const [name, s] of scoredPlayers) {
+        console.log(`    ${name}: bat=${s.batting} bowl=${s.bowling} field=${s.fielding} total=${s.total}`);
+      }
+
+      // Supplement with CricAPI run out data (if API keys available)
+      const eventDate = event.date ? event.date.slice(0, 10) : getTodayIST();
+      await supplementRunOuts(playerScores, event.name, eventDate, allPlayers);
+
       const statusDetail = event.fullStatus?.type?.detail || event.status;
       const score = extractMatchInfo(summary);
 
       const matchEntry = {
-        matchId: `espn_${event.id}`,
+        matchId,
         name: event.name,
-        date: event.date ? event.date.slice(0, 10) : getTodayIST(),
+        date: eventDate,
         status: statusDetail,
         venue: summary.gameInfo?.venue?.fullName || '',
         score,
@@ -485,31 +675,66 @@ async function main() {
         isComplete,
       };
 
-      const idx = existing.matchHistory.findIndex(m => m.matchId === matchEntry.matchId);
-      if (idx >= 0) existing.matchHistory[idx] = matchEntry;
-      else existing.matchHistory.push(matchEntry);
+      const idx = existing.matchHistory.findIndex(m => m.matchId === matchId);
+      if (idx >= 0) {
+        console.log(`  Updating existing match entry`);
+        existing.matchHistory[idx] = matchEntry;
+      } else {
+        console.log(`  Adding new match entry`);
+        existing.matchHistory.push(matchEntry);
+      }
 
       if (!isComplete) {
         currentMatch = {
-          matchId: matchEntry.matchId,
+          matchId,
           name: event.name,
           status: statusDetail,
           venue: matchEntry.venue,
           score,
           playerScores,
         };
+      } else {
+        // Match complete — save to cache
+        saveFantasyScores(matchId, playerScores);
+        saveMatchScore(matchId, { name: event.name, date: eventDate, status: statusDetail, venue: matchEntry.venue, score });
       }
+      console.log(`  Match marked isComplete=${isComplete}`);
     } catch (err) {
-      console.error(`Error fetching summary for ${event.id}: ${err.message}`);
+      console.error(`  Error fetching summary for ${event.id}: ${err.message}`);
+    }
+  }
+
+  // Reprocess stale matches: isComplete=false but no longer in ESPN header
+  // (e.g., yesterday's match that we need to supplement with CricAPI run outs)
+  const espnEventIds = new Set(iplEvents.map(e => `espn_${e.id}`));
+  const staleMatches = existing.matchHistory.filter(m => !m.isComplete && !espnEventIds.has(m.matchId));
+  if (staleMatches.length > 0) {
+    console.log(`\n=== Reprocessing ${staleMatches.length} stale match(es) not in ESPN header ===`);
+    for (const stale of staleMatches) {
+      console.log(`\n  [STALE] ${stale.name} (${stale.date})`);
+      // Try CricAPI supplement on existing playerScores
+      await supplementRunOuts(stale.playerScores, stale.name, stale.date, allPlayers);
+      // Recalculate totals
+      for (const key of Object.keys(stale.playerScores)) {
+        const p = stale.playerScores[key];
+        p.total = p.batting + p.bowling + p.fielding;
+      }
+      stale.isComplete = true;
+      // Save to cache
+      saveFantasyScores(stale.matchId, stale.playerScores);
+      saveMatchScore(stale.matchId, { name: stale.name, date: stale.date, status: stale.status, venue: stale.venue, score: stale.score });
+      console.log(`  Marked as complete and cached`);
     }
   }
 
   // Write, commit, push
+  console.log(`\n=== Building output and writing ===`);
   const output = buildOutput(existing, teams, currentMatch);
   writeAndPush(output);
 
+  console.log(`\n=== Final Leaderboard ===`);
   for (const entry of output.leaderboard) {
-    console.log(`  ${entry.team}: ${entry.top11Points} (top 11)`);
+    console.log(`  ${entry.team}: ${entry.top11Points} (top 11) / ${entry.totalPointsAll} (all)`);
   }
 
   console.log('Done.');
