@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T17:54:52.196Z",
+  "lastUpdated": "2026-03-29T17:55:18.832Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
@@ -35,7 +35,7 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 40,
+      "totalPointsAll": 30,
       "top11Points": 40
     },
     {
@@ -287,6 +287,12 @@
           "fielding": 0,
           "total": 20
         },
+        "Varun Chakravarthy": {
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "total": -10
+        },
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 15,
@@ -300,7 +306,7 @@
           "total": -5
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -454,7 +460,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 40,
+      "totalPointsAll": 30,
       "top11Points": 40,
       "players": [
         {
@@ -466,17 +472,6 @@
           "rawPoints": 40,
           "multiplier": 1,
           "effectivePoints": 40,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakravarthy",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -587,6 +582,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
