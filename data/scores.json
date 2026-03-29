@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T16:44:55.665Z",
+  "lastUpdated": "2026-03-29T16:55:04.778Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527675",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 110,
+        "r": 130,
         "w": 0,
-        "o": 8.5
+        "o": 10.4
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 98,
+        "batting": 106,
         "bowling": 0,
         "fielding": 0,
-        "total": 98
+        "total": 106
       },
       "Tilak Varma": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Vaibhav Arora": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 323,
-      "top11Points": 323
+      "totalPointsAll": 335,
+      "top11Points": 335
     },
     {
       "team": "Athu",
@@ -136,7 +136,7 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 75,
+      "totalPointsAll": 68,
       "top11Points": 75
     },
     {
@@ -302,9 +302,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 110,
+          "r": 130,
           "w": 0,
-          "o": 8.5
+          "o": 10.4
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -315,10 +315,10 @@
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 98,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "total": 98
+          "total": 106
         },
         "Tilak Varma": {
           "batting": 0,
@@ -388,9 +388,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -835,7 +835,7 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 75,
+      "totalPointsAll": 68,
       "top11Points": 75,
       "players": [
         {
@@ -890,17 +890,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sunil Narine",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1.5,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -968,6 +957,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": -5,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1.5,
+          "effectivePoints": -7,
           "countsInTop11": false
         }
       ]
@@ -1387,18 +1387,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 323,
-      "top11Points": 323,
+      "totalPointsAll": 335,
+      "top11Points": 335,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 98,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 98,
+          "rawPoints": 106,
           "multiplier": 1.5,
-          "effectivePoints": 147,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
