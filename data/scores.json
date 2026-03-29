@@ -24,11 +24,6 @@
       "top11Points": 75
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 42,
-      "top11Points": 52
-    },
-    {
       "team": "Athu",
       "totalPointsAll": 31,
       "top11Points": 51
@@ -37,6 +32,11 @@
       "team": "Ali",
       "totalPointsAll": 38,
       "top11Points": 38
+    },
+    {
+      "team": "Manav",
+      "totalPointsAll": 19,
+      "top11Points": 29
     },
     {
       "team": "Aakash",
@@ -127,9 +127,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 15,
-          "fielding": 8,
-          "total": 23
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -875,8 +875,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 42,
-      "top11Points": 52,
+      "totalPointsAll": 19,
+      "top11Points": 29,
       "players": [
         {
           "name": "Suyash Sharma",
@@ -893,11 +893,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 15,
-          "fielding": 8,
-          "rawPoints": 23,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 23,
+          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
