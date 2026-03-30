@@ -37,6 +37,31 @@ function renderLastUpdated() {
   }
 }
 
+function renderScorecardHtml(scorecard) {
+  if (!scorecard || scorecard.length === 0) return '';
+  let html = '';
+  for (const inn of scorecard) {
+    html += `<div class="scorecard-innings">`;
+    html += `<div class="innings-header">${inn.innings}${inn.runs !== undefined ? ` — ${inn.runs}/${inn.wickets} (${inn.overs} ov)` : ''}</div>`;
+    if (inn.batting && inn.batting.length > 0) {
+      html += `<table class="scorecard-table"><thead><tr><th>Batter</th><th>R</th><th>B</th><th>4s</th><th>6s</th><th>SR</th></tr></thead><tbody>`;
+      for (const b of inn.batting) {
+        html += `<tr><td><span class="batter-name">${b.name}</span><br><span class="dismissal-text">${b.dismissal}</span></td><td>${b.runs}</td><td>${b.balls}</td><td>${b.fours}</td><td>${b.sixes}</td><td>${b.sr}</td></tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+    if (inn.bowling && inn.bowling.length > 0) {
+      html += `<table class="scorecard-table"><thead><tr><th>Bowler</th><th>O</th><th>M</th><th>R</th><th>W</th><th>Econ</th></tr></thead><tbody>`;
+      for (const b of inn.bowling) {
+        html += `<tr><td>${b.name}</td><td>${b.overs}</td><td>${b.maidens}</td><td>${b.runs}</td><td class="${b.wickets >= 3 ? 'wicket-haul' : ''}">${b.wickets}</td><td>${b.economy}</td></tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+    html += `</div>`;
+  }
+  return html;
+}
+
 function renderCurrentMatch() {
   const el = document.getElementById('current-match');
   if (!data.currentMatch) {
@@ -52,6 +77,11 @@ function renderCurrentMatch() {
     for (const s of m.score) {
       html += `<p class="score-line">${s.inning}: ${s.r}/${s.w} (${s.o} ov)</p>`;
     }
+  }
+  // Find scorecard from matchHistory
+  const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
+  if (matchEntry?.scorecard) {
+    html += renderScorecardHtml(matchEntry.scorecard);
   }
   el.innerHTML = html;
 }
@@ -250,12 +280,16 @@ function renderAllMatches() {
 
       const scoreLines = (match.score || []).map(s => `${s.inning}: ${s.r}/${s.w} (${s.o} ov)`).join(' | ');
 
+      const scorecardHtml = match.scorecard ? renderScorecardHtml(match.scorecard) : '';
+
       return `<details class="match-card">
         <summary>
           <span>${match.name} <span class="match-date">${match.date || ''}</span></span>
           <span class="match-date">${match.status || ''}</span>
         </summary>
         <p class="score-line" style="margin:8px 0">${scoreLines}</p>
+        ${scorecardHtml ? `<details class="scorecard-toggle"><summary>Full Scorecard</summary>${scorecardHtml}</details>` : ''}
+        <details class="scorecard-toggle"><summary>Fantasy Points</summary>
         <table>
           <thead><tr><th>Player</th><th>Manager</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
           <tbody>${players.map(p =>
@@ -269,6 +303,7 @@ function renderAllMatches() {
             </tr>`
           ).join('')}</tbody>
         </table>
+        </details>
       </details>`;
     }).join('');
   } else if (nextUp.length === 0) {

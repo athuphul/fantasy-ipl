@@ -221,6 +221,72 @@ tbody tr {
   margin-top: 8px;
 }
 
+/* Scorecard */
+.scorecard-innings {
+  margin: 12px 0;
+}
+
+.innings-header {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #93c5fd;
+  padding: 6px 0;
+  border-bottom: 1px solid #334155;
+  margin-bottom: 4px;
+}
+
+.scorecard-table {
+  width: 100%;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.scorecard-table th {
+  font-size: 0.7rem;
+  padding: 4px 4px;
+}
+
+.scorecard-table td {
+  padding: 4px 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.batter-name {
+  font-weight: 600;
+}
+
+.dismissal-text {
+  font-size: 0.65rem;
+  color: #64748b;
+}
+
+.wicket-haul {
+  font-weight: 700;
+  color: #4ade80;
+}
+
+.scorecard-toggle {
+  margin: 8px 0;
+}
+
+.scorecard-toggle > summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #93c5fd;
+  padding: 4px 0;
+  list-style: none;
+}
+
+.scorecard-toggle > summary::before {
+  content: '+ ';
+  color: #64748b;
+}
+
+.scorecard-toggle[open] > summary::before {
+  content: '- ';
+}
+
 /* Bottom nav */
 #bottom-nav {
   position: fixed;

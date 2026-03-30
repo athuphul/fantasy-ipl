@@ -263,6 +263,132 @@ function processEspnSummary(summaryData, allPlayers) {
   return playerPoints;
 }
 
+// --- Full Scorecard Extraction ---
+// Extracts batting and bowling cards per innings for UI display (all players, not just fantasy).
+
+function extractFullScorecard(summaryData) {
+  const innings = [];
+  if (!summaryData.rosters) return innings;
+
+  // Group players by team
+  const teamRosters = {};
+  for (const roster of summaryData.rosters) {
+    const teamAbbr = roster.team?.abbreviation || '';
+    const teamName = roster.team?.displayName || teamAbbr;
+    teamRosters[teamAbbr] = { teamName, players: roster.roster };
+  }
+
+  // Each roster player may have multiple linescores (one per innings they participated in).
+  // We need to figure out which innings each player batted/bowled in.
+  // ESPN linescores are indexed by innings period. We'll collect per-period data.
+  const periodBatting = {};  // periodIndex -> [{ name, runs, balls, fours, sixes, sr, dismissal, team }]
+  const periodBowling = {};  // periodIndex -> [{ name, overs, maidens, runs, wickets, economy, team }]
+
+  for (const roster of summaryData.rosters) {
+    const teamAbbr = roster.team?.abbreviation || '';
+    const teamName = roster.team?.displayName || teamAbbr;
+    for (const player of roster.roster) {
+      const name = player.athlete.displayName;
+      let periodIdx = 0;
+      for (const linescore of (player.linescores || [])) {
+        for (const inner of (linescore.linescores || [])) {
+          const cats = inner.statistics?.categories || [];
+          for (const cat of cats) {
+            const stats = parseStatsArray(cat.stats || []);
+
+            if (stats.batted && stats.batted >= 1) {
+              if (!periodBatting[periodIdx]) periodBatting[periodIdx] = [];
+              const dismissalText = inner.batting?.outDetails?.dismissalCard || '';
+              const dismissalDetail = inner.batting?.outDetails?.detail || '';
+              periodBatting[periodIdx].push({
+                name,
+                runs: stats.runs || 0,
+                balls: stats.ballsFaced || 0,
+                fours: stats.fours || 0,
+                sixes: stats.sixes || 0,
+                sr: stats.strikeRate || 0,
+                dismissal: dismissalDetail || dismissalText || 'not out',
+                team: teamAbbr,
+                teamName,
+              });
+            }
+
+            if (stats.overs && stats.overs > 0) {
+              if (!periodBowling[periodIdx]) periodBowling[periodIdx] = [];
+              periodBowling[periodIdx].push({
+                name,
+                overs: stats.overs || 0,
+                maidens: stats.maidens || 0,
+                runs: stats.runsConceded || stats.runs || 0,
+                wickets: stats.wickets || 0,
+                economy: stats.economyRate || 0,
+                team: teamAbbr,
+                teamName,
+              });
+            }
+          }
+          periodIdx++;
+        }
+      }
+    }
+  }
+
+  // Build innings from header competitions for labels
+  const competitions = summaryData.header?.competitions || [];
+  const inningsLabels = [];
+  for (const comp of competitions) {
+    for (const competitor of (comp.competitors || [])) {
+      const teamName = competitor.team?.displayName || competitor.team?.abbreviation || '';
+      for (const ls of (competitor.linescores || [])) {
+        if (ls.isBatting !== undefined || (ls.runs || 0) > 0 || (ls.wickets || 0) > 0) {
+          inningsLabels.push({
+            team: teamName,
+            runs: ls.runs || 0,
+            wickets: ls.wickets || 0,
+            overs: ls.overs || 0,
+          });
+        }
+      }
+    }
+  }
+
+  // Match periods to innings - batting team defines the innings
+  const periodKeys = Object.keys(periodBatting).sort((a, b) => a - b);
+  for (let i = 0; i < periodKeys.length; i++) {
+    const pk = periodKeys[i];
+    const batters = periodBatting[pk] || [];
+    const bowlers = periodBowling[pk] || [];
+    const battingTeam = batters[0]?.teamName || `Innings ${i + 1}`;
+    const label = inningsLabels[i] || {};
+
+    innings.push({
+      innings: `${battingTeam}`,
+      runs: label.runs || batters.reduce((s, b) => s + b.runs, 0),
+      wickets: label.wickets,
+      overs: label.overs,
+      batting: batters.map(b => ({
+        name: b.name,
+        runs: b.runs,
+        balls: b.balls,
+        fours: b.fours,
+        sixes: b.sixes,
+        sr: Math.round(b.sr * 100) / 100,
+        dismissal: b.dismissal,
+      })),
+      bowling: bowlers.map(b => ({
+        name: b.name,
+        overs: b.overs,
+        maidens: b.maidens,
+        runs: b.runs,
+        wickets: b.wickets,
+        economy: Math.round(b.economy * 100) / 100,
+      })),
+    });
+  }
+
+  return innings;
+}
+
 // --- CricAPI Run Out Supplement ---
 // ESPN doesn't include run out fielder info. CricAPI does.
 // We fetch the CricAPI scorecard and extract ONLY run out data.
@@ -617,6 +743,7 @@ async function main() {
         stale.playerScores = playerScores;
         const score = extractMatchInfo(summary);
         stale.score = score;
+        stale.scorecard = extractFullScorecard(summary);
         stale.status = summary.header?.competitions?.[0]?.status?.type?.detail || stale.status;
 
         // Check if match is now complete
@@ -736,6 +863,7 @@ async function main() {
 
       const statusDetail = event.fullStatus?.type?.detail || event.status;
       const score = extractMatchInfo(summary);
+      const scorecard = extractFullScorecard(summary);
 
       const matchEntry = {
         matchId,
@@ -744,6 +872,7 @@ async function main() {
         status: statusDetail,
         venue: summary.gameInfo?.venue?.fullName || '',
         score,
+        scorecard,
         playerScores,
         isComplete,
       };
@@ -790,7 +919,9 @@ async function main() {
   console.log('Done.');
 }
 
-main().catch(err => {
+main().then(() => {
+  process.exit(0);
+}).catch(err => {
   console.error('Fatal error:', err);
   process.exit(1);
 });
