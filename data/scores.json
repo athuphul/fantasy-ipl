@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T16:04:59.780Z",
+  "lastUpdated": "2026-03-30T16:15:24.984Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Barsapara Cricket Stadium, Guwahati",
     "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 20,
+        "w": 0,
+        "o": 1.5
+      },
       {
         "inning": "Chennai Super Kings",
         "r": 127,
@@ -16,10 +22,10 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 16
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -36,8 +42,8 @@
       "Shimron Hetmyer": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 5,
+        "total": 5
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -110,6 +116,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 6
+      },
+      "Khaleel Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -136,8 +148,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 114,
-      "top11Points": 124
+      "totalPointsAll": 122,
+      "top11Points": 132
     },
     {
       "team": "Tikoo",
@@ -146,8 +158,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 105,
-      "top11Points": 105
+      "totalPointsAll": 110,
+      "top11Points": 110
     },
     {
       "team": "Manav",
@@ -427,6 +439,12 @@
       "venue": "Barsapara Cricket Stadium, Guwahati",
       "score": [
         {
+          "inning": "Rajasthan Royals",
+          "r": 20,
+          "w": 0,
+          "o": 1.5
+        },
+        {
           "inning": "Chennai Super Kings",
           "r": 127,
           "w": 10,
@@ -435,10 +453,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 16
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -455,8 +473,8 @@
         "Shimron Hetmyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 5,
+          "total": 5
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -529,6 +547,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 6
+        },
+        "Khaleel Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -685,8 +709,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 114,
-      "top11Points": 124,
+      "totalPointsAll": 122,
+      "top11Points": 132,
       "players": [
         {
           "name": "Jofra Archer",
@@ -713,12 +737,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 8,
+          "rawPoints": 16,
           "multiplier": 1,
-          "effectivePoints": 8,
+          "effectivePoints": 16,
           "countsInTop11": true
         },
         {
@@ -961,8 +985,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 105,
-      "top11Points": 105,
+      "totalPointsAll": 110,
+      "top11Points": 110,
       "players": [
         {
           "name": "Romario Shepherd",
@@ -987,6 +1011,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 5,
+          "rawPoints": 5,
+          "multiplier": 1,
+          "effectivePoints": 5,
+          "countsInTop11": true
+        },
+        {
           "name": "Priyansh Arya",
           "role": "Opener",
           "batting": 0,
@@ -1000,17 +1035,6 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
