@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:14:55.598Z",
+  "lastUpdated": "2026-03-30T14:24:52.757Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 14,
-        "w": 1,
-        "o": 2.2
+        "r": 19,
+        "w": 3,
+        "o": 3.2
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Dhruv Jurel": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Riyan Parag": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Sandeep Sharma": {
         "batting": 0,
@@ -70,12 +70,18 @@
         "total": 7
       },
       "Ruturaj Gaikwad": {
-        "batting": 2,
+        "batting": -3,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": -3
       },
       "Ayush Mhatre": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Sarfaraz Khan": {
         "batting": -5,
         "bowling": 0,
         "fielding": 0,
@@ -111,13 +117,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 84,
+      "totalPointsAll": 79,
       "top11Points": 89
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 30,
-      "top11Points": 40
+      "totalPointsAll": 75,
+      "top11Points": 85
     },
     {
       "team": "Ali",
@@ -126,8 +132,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 22,
-      "top11Points": 32
+      "totalPointsAll": 23,
+      "top11Points": 37
     }
   ],
   "matchHistory": [
@@ -398,9 +404,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 14,
-          "w": 1,
-          "o": 2.2
+          "r": 19,
+          "w": 3,
+          "o": 3.2
         }
       ],
       "playerScores": {
@@ -413,8 +419,8 @@
         "Dhruv Jurel": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Riyan Parag": {
           "batting": 0,
@@ -436,9 +442,9 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Sandeep Sharma": {
           "batting": 0,
@@ -459,12 +465,18 @@
           "total": 7
         },
         "Ruturaj Gaikwad": {
-          "batting": 2,
+          "batting": -3,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": -3
         },
         "Ayush Mhatre": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Sarfaraz Khan": {
           "batting": -5,
           "bowling": 0,
           "fielding": 0,
@@ -625,9 +637,20 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 30,
-      "top11Points": 40,
+      "totalPointsAll": 75,
+      "top11Points": 85,
       "players": [
+        {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
+          "countsInTop11": true
+        },
         {
           "name": "Tilak Varma",
           "role": "Batsman",
@@ -697,17 +720,6 @@
         {
           "name": "MS Dhoni",
           "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1166,8 +1178,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 22,
-      "top11Points": 32,
+      "totalPointsAll": 23,
+      "top11Points": 37,
       "players": [
         {
           "name": "Suyash Sharma",
@@ -1181,14 +1193,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 2,
+          "name": "Dhruv Jurel",
+          "role": "Wicket Keeper",
+          "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 2,
-          "multiplier": 1.5,
-          "effectivePoints": 3,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
           "countsInTop11": true
         },
         {
@@ -1258,17 +1270,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Dhruv Jurel",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -1299,7 +1300,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
+          "countsInTop11": true
         },
         {
           "name": "Kumar Kushagra",
@@ -1310,6 +1311,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": false
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": -3,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -3,
+          "multiplier": 1.5,
+          "effectivePoints": -4,
           "countsInTop11": false
         },
         {
@@ -1591,7 +1603,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 84,
+      "totalPointsAll": 79,
       "top11Points": 89,
       "players": [
         {
@@ -1716,17 +1728,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Sarfaraz Khan",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
           "name": "Shahrukh Khan",
           "role": "Batsman",
           "batting": 0,
@@ -1742,6 +1743,17 @@
           "role": "Fast Bowler",
           "batting": 0,
           "bowling": -5,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
+          "countsInTop11": false
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "role": "Batsman",
+          "batting": -5,
+          "bowling": 0,
           "fielding": 0,
           "rawPoints": -5,
           "multiplier": 1,
