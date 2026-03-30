@@ -1,130 +1,7 @@
 {
-  "lastUpdated": "2026-03-30T17:04:59.184Z",
+  "lastUpdated": "2026-03-30T17:14:53.183Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527676",
-    "name": "Rajasthan Royals v Chennai Super Kings",
-    "status": "Live",
-    "venue": "Barsapara Cricket Stadium, Guwahati",
-    "score": [
-      {
-        "inning": "Rajasthan Royals",
-        "r": 126,
-        "w": 2,
-        "o": 11.5
-      },
-      {
-        "inning": "Chennai Super Kings",
-        "r": 127,
-        "w": 10,
-        "o": 19.4
-      }
-    ],
-    "playerScores": {
-      "Yashasvi Jaiswal": {
-        "batting": 42,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 50
-      },
-      "Dhruv Jurel": {
-        "batting": 22,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 38
-      },
-      "Riyan Parag": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 17
-      },
-      "Shimron Hetmyer": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Ravindra Jadeja": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Jofra Archer": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Sandeep Sharma": {
-        "batting": 0,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 25
-      },
-      "Ravi Bishnoi": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 16,
-        "total": 61
-      },
-      "Sanju Samson": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Ruturaj Gaikwad": {
-        "batting": -3,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -3
-      },
-      "Ayush Mhatre": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Sarfaraz Khan": {
-        "batting": 21,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 29
-      },
-      "Kartik Sharma": {
-        "batting": 20,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 20
-      },
-      "Shivam Dube": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 8
-      },
-      "Noor Ahmad": {
-        "batting": 1,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -9
-      },
-      "Matt Henry": {
-        "batting": 6,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -4
-      },
-      "Khaleel Ahmed": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Kishan",
@@ -148,8 +25,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 146,
-      "top11Points": 156
+      "totalPointsAll": 147,
+      "top11Points": 157
     },
     {
       "team": "Tikoo",
@@ -435,14 +312,14 @@
       "matchId": "espn_1527676",
       "name": "Rajasthan Royals v Chennai Super Kings",
       "date": "2026-03-30",
-      "status": "Live",
+      "status": "Final",
       "venue": "Barsapara Cricket Stadium, Guwahati",
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 126,
+          "r": 128,
           "w": 2,
-          "o": 11.5
+          "o": 12.1
         },
         {
           "inning": "Chennai Super Kings",
@@ -453,10 +330,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 42,
+          "batting": 43,
           "bowling": 0,
           "fielding": 8,
-          "total": 50
+          "total": 51
         },
         "Dhruv Jurel": {
           "batting": 22,
@@ -555,7 +432,7 @@
           "total": 20
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -709,8 +586,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 146,
-      "top11Points": 156,
+      "totalPointsAll": 147,
+      "top11Points": 157,
       "players": [
         {
           "name": "Jofra Archer",
@@ -726,12 +603,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 42,
+          "batting": 43,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 50,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 50,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
