@@ -473,7 +473,7 @@ function buildOutput(existing, teams, currentMatch) {
 function writeAndPush(output) {
   fs.writeFileSync(SCORES_FILE, JSON.stringify(output, null, 2));
   try {
-    execSync('git add data/scores.json', { cwd: path.join(__dirname, '..') });
+    execSync('git add data/scores.json data/match_scores data/fantasy_scores', { cwd: path.join(__dirname, '..') });
     execSync('git diff --staged --quiet', { cwd: path.join(__dirname, '..'), stdio: 'pipe' });
     console.log('No changes to commit');
   } catch (e) {
@@ -567,18 +567,6 @@ function extractMatchInfo(summaryData) {
 // --- Main (single fetch and exit — cron handles repetition) ---
 
 async function main() {
-  // Step 0: Check local schedule (exit fast if no match today or outside window)
-  const todayMatches = getScheduleForToday();
-  if (todayMatches.length === 0) {
-    console.log(`No matches scheduled today (${getTodayIST()}). Exiting.`);
-    return;
-  }
-
-  if (!isMatchWindowNow(todayMatches)) {
-    console.log(`Match(es) today but not in current window. Scheduled: ${todayMatches.map(m => `${m.home} vs ${m.away} @ ${m.time} IST`).join(', ')}. Exiting.`);
-    return;
-  }
-
   console.log(`\n=== ESPN backend — single fetch run ===`);
   console.log(`[${new Date().toISOString()}] CricAPI keys available: ${CRICAPI_KEYS.length}`);
 
@@ -599,6 +587,91 @@ async function main() {
   console.log(`Existing match history: ${existing.matchHistory.length} match(es)`);
   for (const m of existing.matchHistory) {
     console.log(`  ${m.name} [${m.matchId}] isComplete=${m.isComplete}`);
+  }
+
+  // Reprocess stale matches first (isComplete=false regardless of today's schedule)
+  const staleMatches = existing.matchHistory.filter(m => !m.isComplete);
+  let hasStaleUpdates = false;
+  if (staleMatches.length > 0) {
+    console.log(`\n=== Reprocessing ${staleMatches.length} incomplete match(es) ===`);
+    for (const stale of staleMatches) {
+      console.log(`\n  [INCOMPLETE] ${stale.name} (${stale.date})`);
+
+      // Try to re-fetch from ESPN first (match might still be in header)
+      const espnEventId = stale.matchId.replace('espn_', '');
+      try {
+        console.log(`  Re-fetching ESPN summary for event ${espnEventId}`);
+        const summary = await fetchJson(SUMMARY_URL(espnEventId));
+        const playerScores = processEspnSummary(summary, allPlayers);
+
+        const scoredPlayers = Object.entries(playerScores).filter(([_, s]) => s.total !== 0);
+        console.log(`  ESPN: ${Object.keys(playerScores).length} fantasy players found, ${scoredPlayers.length} with non-zero scores`);
+        for (const [name, s] of scoredPlayers) {
+          console.log(`    ${name}: bat=${s.batting} bowl=${s.bowling} field=${s.fielding} total=${s.total}`);
+        }
+
+        // Supplement with CricAPI run out data
+        await supplementRunOuts(playerScores, stale.name, stale.date, allPlayers);
+
+        // Update the match entry
+        stale.playerScores = playerScores;
+        const score = extractMatchInfo(summary);
+        stale.score = score;
+        stale.status = summary.header?.competitions?.[0]?.status?.type?.detail || stale.status;
+
+        // Check if match is now complete
+        const statusState = summary.header?.competitions?.[0]?.status?.type?.state;
+        if (statusState === 'post' || stale.status?.includes('won') || stale.status?.includes('tied')) {
+          stale.isComplete = true;
+          saveFantasyScores(stale.matchId, playerScores);
+          saveMatchScore(stale.matchId, { name: stale.name, date: stale.date, status: stale.status, venue: stale.venue, score });
+          console.log(`  Marked as complete and cached`);
+        } else {
+          console.log(`  Still in progress (status: ${stale.status})`);
+        }
+        hasStaleUpdates = true;
+      } catch (err) {
+        console.log(`  ESPN re-fetch failed: ${err.message}`);
+        // Fallback: just supplement run outs with CricAPI and mark complete
+        await supplementRunOuts(stale.playerScores, stale.name, stale.date, allPlayers);
+        for (const key of Object.keys(stale.playerScores)) {
+          const p = stale.playerScores[key];
+          p.total = p.batting + p.bowling + p.fielding;
+        }
+        stale.isComplete = true;
+        saveFantasyScores(stale.matchId, stale.playerScores);
+        saveMatchScore(stale.matchId, { name: stale.name, date: stale.date, status: stale.status, venue: stale.venue, score: stale.score });
+        console.log(`  Marked as complete (ESPN unavailable, used existing + CricAPI)`);
+        hasStaleUpdates = true;
+      }
+    }
+  }
+
+  // Check local schedule — exit early if no match today or outside window
+  // (but only after reprocessing stale matches above)
+  const todayMatches = getScheduleForToday();
+  const inWindow = todayMatches.length > 0 && isMatchWindowNow(todayMatches);
+
+  if (!inWindow && !hasStaleUpdates) {
+    if (todayMatches.length === 0) {
+      console.log(`\nNo matches scheduled today (${getTodayIST()}). Exiting.`);
+    } else {
+      console.log(`\nMatch(es) today but not in current window. Scheduled: ${todayMatches.map(m => `${m.home} vs ${m.away} @ ${m.time} IST`).join(', ')}. Exiting.`);
+    }
+    return;
+  }
+
+  if (!inWindow && hasStaleUpdates) {
+    // We updated stale matches but no live match to check — just write and exit
+    console.log(`\nNo live match window, but updated ${staleMatches.length} stale match(es). Writing output.`);
+    const output = buildOutput(existing, teams, null);
+    writeAndPush(output);
+    console.log(`\n=== Final Leaderboard ===`);
+    for (const entry of output.leaderboard) {
+      console.log(`  ${entry.team}: ${entry.top11Points} (top 11) / ${entry.totalPointsAll} (all)`);
+    }
+    console.log('Done.');
+    return;
   }
 
   // Fetch current IPL events from ESPN header
@@ -701,29 +774,6 @@ async function main() {
       console.log(`  Match marked isComplete=${isComplete}`);
     } catch (err) {
       console.error(`  Error fetching summary for ${event.id}: ${err.message}`);
-    }
-  }
-
-  // Reprocess stale matches: isComplete=false but no longer in ESPN header
-  // (e.g., yesterday's match that we need to supplement with CricAPI run outs)
-  const espnEventIds = new Set(iplEvents.map(e => `espn_${e.id}`));
-  const staleMatches = existing.matchHistory.filter(m => !m.isComplete && !espnEventIds.has(m.matchId));
-  if (staleMatches.length > 0) {
-    console.log(`\n=== Reprocessing ${staleMatches.length} stale match(es) not in ESPN header ===`);
-    for (const stale of staleMatches) {
-      console.log(`\n  [STALE] ${stale.name} (${stale.date})`);
-      // Try CricAPI supplement on existing playerScores
-      await supplementRunOuts(stale.playerScores, stale.name, stale.date, allPlayers);
-      // Recalculate totals
-      for (const key of Object.keys(stale.playerScores)) {
-        const p = stale.playerScores[key];
-        p.total = p.batting + p.bowling + p.fielding;
-      }
-      stale.isComplete = true;
-      // Save to cache
-      saveFantasyScores(stale.matchId, stale.playerScores);
-      saveMatchScore(stale.matchId, { name: stale.name, date: stale.date, status: stale.status, venue: stale.venue, score: stale.score });
-      console.log(`  Marked as complete and cached`);
     }
   }
 
