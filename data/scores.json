@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T15:17:37.232Z",
+  "lastUpdated": "2026-03-30T15:24:53.591Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 84,
+        "r": 91,
         "w": 8,
-        "o": 13.1
+        "o": 14.4
       }
     ],
     "playerScores": {
@@ -106,10 +106,10 @@
         "total": 1
       },
       "Matt Henry": {
-        "batting": -5,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 5
       }
     }
   },
@@ -135,14 +135,14 @@
       "top11Points": 163
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 113,
+      "top11Points": 123
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 114,
       "top11Points": 119
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 103,
-      "top11Points": 113
     },
     {
       "team": "Ashwin",
@@ -428,9 +428,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 84,
+          "r": 91,
           "w": 8,
-          "o": 13.1
+          "o": 14.4
         }
       ],
       "playerScores": {
@@ -525,10 +525,10 @@
           "total": 1
         },
         "Matt Henry": {
-          "batting": -5,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 5
         }
       },
       "isComplete": false
@@ -685,8 +685,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 103,
-      "top11Points": 113,
+      "totalPointsAll": 113,
+      "top11Points": 123,
       "players": [
         {
           "name": "Jofra Archer",
@@ -719,6 +719,17 @@
           "rawPoints": 8,
           "multiplier": 1,
           "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
+          "name": "Matt Henry",
+          "role": "Fast Bowler",
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 5,
+          "multiplier": 1,
+          "effectivePoints": 5,
           "countsInTop11": true
         },
         {
@@ -796,17 +807,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Matt Henry",
-          "role": "Fast Bowler",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": true
         },
         {
