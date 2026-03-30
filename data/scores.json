@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T16:15:24.984Z",
+  "lastUpdated": "2026-03-30T16:25:01.045Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 20,
+        "r": 39,
         "w": 0,
-        "o": 1.5
+        "o": 3.5
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 8,
+        "batting": 16,
         "bowling": 0,
         "fielding": 8,
-        "total": 16
+        "total": 24
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Matt Henry": {
         "batting": 6,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 6
+        "total": -9
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -148,8 +148,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 122,
-      "top11Points": 132
+      "totalPointsAll": 115,
+      "top11Points": 125
     },
     {
       "team": "Tikoo",
@@ -440,9 +440,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 20,
+          "r": 39,
           "w": 0,
-          "o": 1.5
+          "o": 3.5
         },
         {
           "inning": "Chennai Super Kings",
@@ -453,10 +453,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 8,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "total": 16
+          "total": 24
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -544,9 +544,9 @@
         },
         "Matt Henry": {
           "batting": 6,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 6
+          "total": -9
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -709,8 +709,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 122,
-      "top11Points": 132,
+      "totalPointsAll": 115,
+      "top11Points": 125,
       "players": [
         {
           "name": "Jofra Archer",
@@ -737,23 +737,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 8,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 16,
+          "rawPoints": 24,
           "multiplier": 1,
-          "effectivePoints": 16,
-          "countsInTop11": true
-        },
-        {
-          "name": "Matt Henry",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 6,
-          "multiplier": 1,
-          "effectivePoints": 6,
+          "effectivePoints": 24,
           "countsInTop11": true
         },
         {
@@ -831,6 +820,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "Matt Henry",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": -15,
+          "fielding": 0,
+          "rawPoints": -9,
+          "multiplier": 1,
+          "effectivePoints": -9,
           "countsInTop11": true
         },
         {
