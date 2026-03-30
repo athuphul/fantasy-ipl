@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T16:54:55.552Z",
+  "lastUpdated": "2026-03-30T17:04:59.184Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 102,
+        "r": 126,
         "w": 2,
-        "o": 9.3
+        "o": 11.5
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 23,
+        "batting": 42,
         "bowling": 0,
         "fielding": 8,
-        "total": 31
+        "total": 50
       },
       "Dhruv Jurel": {
         "batting": 22,
@@ -34,10 +34,10 @@
         "total": 38
       },
       "Riyan Parag": {
-        "batting": 2,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 17
       },
       "Shimron Hetmyer": {
         "batting": 0,
@@ -107,15 +107,15 @@
       },
       "Noor Ahmad": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 1
+        "total": -9
       },
       "Matt Henry": {
         "batting": 6,
-        "bowling": -15,
+        "bowling": -10,
         "fielding": 0,
-        "total": -9
+        "total": -4
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -143,18 +143,18 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 187,
-      "top11Points": 187
+      "totalPointsAll": 217,
+      "top11Points": 217
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 122,
-      "top11Points": 132
+      "totalPointsAll": 146,
+      "top11Points": 156
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 122,
-      "top11Points": 127
+      "totalPointsAll": 112,
+      "top11Points": 126
     },
     {
       "team": "Ashwin",
@@ -440,9 +440,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 102,
+          "r": 126,
           "w": 2,
-          "o": 9.3
+          "o": 11.5
         },
         {
           "inning": "Chennai Super Kings",
@@ -453,10 +453,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 23,
+          "batting": 42,
           "bowling": 0,
           "fielding": 8,
-          "total": 31
+          "total": 50
         },
         "Dhruv Jurel": {
           "batting": 22,
@@ -465,10 +465,10 @@
           "total": 38
         },
         "Riyan Parag": {
-          "batting": 2,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 17
         },
         "Shimron Hetmyer": {
           "batting": 0,
@@ -538,15 +538,15 @@
         },
         "Noor Ahmad": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 1
+          "total": -9
         },
         "Matt Henry": {
           "batting": 6,
-          "bowling": -15,
+          "bowling": -10,
           "fielding": 0,
-          "total": -9
+          "total": -4
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -709,8 +709,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 122,
-      "top11Points": 132,
+      "totalPointsAll": 146,
+      "top11Points": 156,
       "players": [
         {
           "name": "Jofra Archer",
@@ -724,6 +724,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Yashasvi Jaiswal",
+          "role": "Opener",
+          "batting": 42,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 50,
+          "multiplier": 1,
+          "effectivePoints": 50,
+          "countsInTop11": true
+        },
+        {
           "name": "Tilak Varma",
           "role": "Batsman",
           "batting": 24,
@@ -732,17 +743,6 @@
           "rawPoints": 40,
           "multiplier": 1,
           "effectivePoints": 40,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yashasvi Jaiswal",
-          "role": "Opener",
-          "batting": 23,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 31,
-          "multiplier": 1,
-          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -826,11 +826,11 @@
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 6,
-          "bowling": -15,
+          "bowling": -10,
           "fielding": 0,
-          "rawPoints": -9,
+          "rawPoints": -4,
           "multiplier": 1,
-          "effectivePoints": -9,
+          "effectivePoints": -4,
           "countsInTop11": true
         },
         {
@@ -1410,8 +1410,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 187,
-      "top11Points": 187,
+      "totalPointsAll": 217,
+      "top11Points": 217,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1422,6 +1422,17 @@
           "rawPoints": 123,
           "multiplier": 1,
           "effectivePoints": 123,
+          "countsInTop11": true
+        },
+        {
+          "name": "Riyan Parag",
+          "role": "Batsman",
+          "batting": 17,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 17,
+          "multiplier": 2,
+          "effectivePoints": 34,
           "countsInTop11": true
         },
         {
@@ -1455,17 +1466,6 @@
           "rawPoints": 15,
           "multiplier": 1,
           "effectivePoints": 15,
-          "countsInTop11": true
-        },
-        {
-          "name": "Riyan Parag",
-          "role": "Batsman",
-          "batting": 2,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 2,
-          "multiplier": 2,
-          "effectivePoints": 4,
           "countsInTop11": true
         },
         {
@@ -1675,8 +1675,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 122,
-      "top11Points": 127,
+      "totalPointsAll": 112,
+      "top11Points": 126,
       "players": [
         {
           "name": "Rinku Singh",
@@ -1720,17 +1720,6 @@
           "rawPoints": 8,
           "multiplier": 1,
           "effectivePoints": 8,
-          "countsInTop11": true
-        },
-        {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 1,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 1,
-          "multiplier": 1,
-          "effectivePoints": 1,
           "countsInTop11": true
         },
         {
@@ -1808,7 +1797,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
+          "countsInTop11": true
         },
         {
           "name": "Shahrukh Khan",
@@ -1830,6 +1819,17 @@
           "rawPoints": -5,
           "multiplier": 1,
           "effectivePoints": -5,
+          "countsInTop11": false
+        },
+        {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": 1,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -9,
+          "multiplier": 1,
+          "effectivePoints": -9,
           "countsInTop11": false
         }
       ]
