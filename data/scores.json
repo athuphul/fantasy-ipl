@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:24:52.757Z",
+  "lastUpdated": "2026-03-30T14:35:02.796Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 19,
+        "r": 37,
         "w": 3,
-        "o": 3.2
+        "o": 5.1
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Sarfaraz Khan": {
-        "batting": -5,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 18
       }
     }
   },
@@ -111,14 +111,14 @@
       "top11Points": 138
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 102,
+      "top11Points": 107
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 105,
       "top11Points": 105
-    },
-    {
-      "team": "Tikoo",
-      "totalPointsAll": 79,
-      "top11Points": 89
     },
     {
       "team": "Aakash",
@@ -404,9 +404,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 19,
+          "r": 37,
           "w": 3,
-          "o": 3.2
+          "o": 5.1
         }
       ],
       "playerScores": {
@@ -477,10 +477,10 @@
           "total": -5
         },
         "Sarfaraz Khan": {
-          "batting": -5,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 18
         }
       },
       "isComplete": false
@@ -1603,8 +1603,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 79,
-      "top11Points": 89,
+      "totalPointsAll": 102,
+      "top11Points": 107,
       "players": [
         {
           "name": "Rinku Singh",
@@ -1615,6 +1615,17 @@
           "rawPoints": 50,
           "multiplier": 1.5,
           "effectivePoints": 75,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "role": "Batsman",
+          "batting": 18,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 18,
+          "multiplier": 1,
+          "effectivePoints": 18,
           "countsInTop11": true
         },
         {
@@ -1725,7 +1736,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Shahrukh Khan",
@@ -1743,17 +1754,6 @@
           "role": "Fast Bowler",
           "batting": 0,
           "bowling": -5,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
-          "countsInTop11": false
-        },
-        {
-          "name": "Sarfaraz Khan",
-          "role": "Batsman",
-          "batting": -5,
-          "bowling": 0,
           "fielding": 0,
           "rawPoints": -5,
           "multiplier": 1,
