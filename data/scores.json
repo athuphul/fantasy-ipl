@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:35:02.796Z",
+  "lastUpdated": "2026-03-30T14:45:02.195Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 37,
-        "w": 3,
-        "o": 5.1
+        "r": 51,
+        "w": 4,
+        "o": 7.1
       }
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -53,9 +53,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -82,18 +82,24 @@
         "total": -5
       },
       "Sarfaraz Khan": {
-        "batting": 18,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 26
+      },
+      "Kartik Sharma": {
+        "batting": 13,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 13
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tanay",
-      "totalPointsAll": 358,
-      "top11Points": 358
+      "totalPointsAll": 371,
+      "top11Points": 371
     },
     {
       "team": "Kishan",
@@ -107,13 +113,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 138,
-      "top11Points": 138
+      "totalPointsAll": 163,
+      "top11Points": 163
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 102,
-      "top11Points": 107
+      "totalPointsAll": 110,
+      "top11Points": 115
     },
     {
       "team": "Ashwin",
@@ -122,8 +128,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 75,
-      "top11Points": 85
+      "totalPointsAll": 83,
+      "top11Points": 93
     },
     {
       "team": "Ali",
@@ -404,17 +410,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 37,
-          "w": 3,
-          "o": 5.1
+          "r": 51,
+          "w": 4,
+          "o": 7.1
         }
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -448,9 +454,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -477,10 +483,16 @@
           "total": -5
         },
         "Sarfaraz Khan": {
-          "batting": 18,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 26
+        },
+        "Kartik Sharma": {
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 13
         }
       },
       "isComplete": false
@@ -637,8 +649,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 75,
-      "top11Points": 85,
+      "totalPointsAll": 83,
+      "top11Points": 93,
       "players": [
         {
           "name": "Jofra Archer",
@@ -663,6 +675,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Yashasvi Jaiswal",
+          "role": "Opener",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 0,
@@ -676,17 +699,6 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yashasvi Jaiswal",
-          "role": "Opener",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1338,8 +1350,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 138,
-      "top11Points": 138,
+      "totalPointsAll": 163,
+      "top11Points": 163,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1350,6 +1362,17 @@
           "rawPoints": 123,
           "multiplier": 1,
           "effectivePoints": 123,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sandeep Sharma",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
@@ -1450,23 +1473,12 @@
           "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": true
-        },
-        {
-          "name": "Sandeep Sharma",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
         }
       ]
     },
     "Tanay": {
-      "totalPointsAll": 358,
-      "top11Points": 358,
+      "totalPointsAll": 371,
+      "top11Points": 371,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -1535,19 +1547,19 @@
           "countsInTop11": true
         },
         {
-          "name": "Avesh Khan",
-          "role": "Fast Bowler",
-          "batting": 0,
+          "name": "Kartik Sharma",
+          "role": "Wicket Keeper",
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 13,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 13,
           "countsInTop11": true
         },
         {
-          "name": "Kartik Sharma",
-          "role": "Wicket Keeper",
+          "name": "Avesh Khan",
+          "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1603,8 +1615,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 102,
-      "top11Points": 107,
+      "totalPointsAll": 110,
+      "top11Points": 115,
       "players": [
         {
           "name": "Rinku Singh",
@@ -1620,12 +1632,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 18,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 18,
+          "rawPoints": 26,
           "multiplier": 1,
-          "effectivePoints": 18,
+          "effectivePoints": 26,
           "countsInTop11": true
         },
         {
