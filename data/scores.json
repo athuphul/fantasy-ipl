@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T15:45:09.739Z",
+  "lastUpdated": "2026-03-30T15:54:54.116Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 114,
-        "w": 9,
-        "o": 18.2
+        "r": 127,
+        "w": 10,
+        "o": 19.4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Shimron Hetmyer": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 5,
+        "total": 5
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -53,9 +53,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 37,
+        "bowling": 25,
         "fielding": 0,
-        "total": 37
+        "total": 25
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -131,8 +131,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 175,
-      "top11Points": 175
+      "totalPointsAll": 163,
+      "top11Points": 163
     },
     {
       "team": "Aakash",
@@ -146,8 +146,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 105,
-      "top11Points": 105
+      "totalPointsAll": 110,
+      "top11Points": 110
     },
     {
       "team": "Manav",
@@ -428,9 +428,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 114,
-          "w": 9,
-          "o": 18.2
+          "r": 127,
+          "w": 10,
+          "o": 19.4
         }
       ],
       "playerScores": {
@@ -455,8 +455,8 @@
         "Shimron Hetmyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 5,
+          "total": 5
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -472,9 +472,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 37,
+          "bowling": 25,
           "fielding": 0,
-          "total": 37
+          "total": 25
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -961,8 +961,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 105,
-      "top11Points": 105,
+      "totalPointsAll": 110,
+      "top11Points": 110,
       "players": [
         {
           "name": "Romario Shepherd",
@@ -987,6 +987,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 5,
+          "rawPoints": 5,
+          "multiplier": 1,
+          "effectivePoints": 5,
+          "countsInTop11": true
+        },
+        {
           "name": "Priyansh Arya",
           "role": "Opener",
           "batting": 0,
@@ -1000,17 +1011,6 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1386,8 +1386,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 175,
-      "top11Points": 175,
+      "totalPointsAll": 163,
+      "top11Points": 163,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1404,11 +1404,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 37,
+          "bowling": 25,
           "fielding": 0,
-          "rawPoints": 37,
+          "rawPoints": 25,
           "multiplier": 1,
-          "effectivePoints": 37,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
