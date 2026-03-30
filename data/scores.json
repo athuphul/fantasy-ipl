@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:45:02.195Z",
+  "lastUpdated": "2026-03-30T14:54:54.315Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 51,
-        "w": 4,
-        "o": 7.1
+        "r": 62,
+        "w": 6,
+        "o": 9
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Ravindra Jadeja": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "Jofra Archer": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Ravi Bishnoi": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "bowling": 5,
+        "fielding": 8,
+        "total": 13
       },
       "Sanju Samson": {
         "batting": 7,
@@ -82,34 +82,40 @@
         "total": -5
       },
       "Sarfaraz Khan": {
-        "batting": 26,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 21
       },
       "Kartik Sharma": {
-        "batting": 13,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 22
+      },
+      "Shivam Dube": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
       }
     }
   },
   "leaderboard": [
     {
-      "team": "Tanay",
-      "totalPointsAll": 371,
-      "top11Points": 371
+      "team": "Kishan",
+      "totalPointsAll": 452,
+      "top11Points": 452
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 352,
-      "top11Points": 352
+      "team": "Tanay",
+      "totalPointsAll": 380,
+      "top11Points": 380
     },
     {
       "team": "Athu",
-      "totalPointsAll": 314,
-      "top11Points": 339
+      "totalPointsAll": 327,
+      "top11Points": 352
     },
     {
       "team": "Ritik",
@@ -118,8 +124,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 110,
-      "top11Points": 115
+      "totalPointsAll": 113,
+      "top11Points": 118
     },
     {
       "team": "Ashwin",
@@ -410,9 +416,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 51,
-          "w": 4,
-          "o": 7.1
+          "r": 62,
+          "w": 6,
+          "o": 9
         }
       ],
       "playerScores": {
@@ -442,9 +448,9 @@
         },
         "Ravindra Jadeja": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "Jofra Archer": {
           "batting": 0,
@@ -460,9 +466,9 @@
         },
         "Ravi Bishnoi": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "bowling": 5,
+          "fielding": 8,
+          "total": 13
         },
         "Sanju Samson": {
           "batting": 7,
@@ -483,16 +489,22 @@
           "total": -5
         },
         "Sarfaraz Khan": {
-          "batting": 26,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 21
         },
         "Kartik Sharma": {
-          "batting": 13,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 22
+        },
+        "Shivam Dube": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
         }
       },
       "isComplete": false
@@ -500,8 +512,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 314,
-      "top11Points": 339,
+      "totalPointsAll": 327,
+      "top11Points": 352,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -559,6 +571,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ravi Bishnoi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 5,
+          "fielding": 8,
+          "rawPoints": 13,
+          "multiplier": 1,
+          "effectivePoints": 13,
+          "countsInTop11": true
+        },
+        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 0,
@@ -572,17 +595,6 @@
         {
           "name": "Matheesha Pathirana",
           "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravi Bishnoi",
-          "role": "Spinner",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1063,8 +1075,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 352,
-      "top11Points": 352,
+      "totalPointsAll": 452,
+      "top11Points": 452,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -1086,6 +1098,17 @@
           "rawPoints": 112,
           "multiplier": 1,
           "effectivePoints": 112,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 50,
+          "fielding": 0,
+          "rawPoints": 50,
+          "multiplier": 2,
+          "effectivePoints": 100,
           "countsInTop11": true
         },
         {
@@ -1140,17 +1163,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1.5,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravindra Jadeja",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -1477,8 +1489,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 371,
-      "top11Points": 371,
+      "totalPointsAll": 380,
+      "top11Points": 380,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -1549,12 +1561,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 13,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 13,
+          "rawPoints": 22,
           "multiplier": 1,
-          "effectivePoints": 13,
+          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
@@ -1615,8 +1627,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 110,
-      "top11Points": 115,
+      "totalPointsAll": 113,
+      "top11Points": 118,
       "players": [
         {
           "name": "Rinku Singh",
@@ -1632,12 +1644,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 26,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 26,
+          "rawPoints": 21,
           "multiplier": 1,
-          "effectivePoints": 26,
+          "effectivePoints": 21,
           "countsInTop11": true
         },
         {
@@ -1649,6 +1661,17 @@
           "rawPoints": 7,
           "multiplier": 2,
           "effectivePoints": 14,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
           "countsInTop11": true
         },
         {
@@ -1687,17 +1710,6 @@
         {
           "name": "Vaibhav Suryavanshi",
           "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
