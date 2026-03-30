@@ -221,6 +221,13 @@ tbody tr {
   margin-top: 8px;
 }
 
+/* Team logos */
+.team-logo {
+  vertical-align: middle;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
 /* Scorecard */
 .scorecard-innings {
   margin: 12px 0;
@@ -265,26 +272,51 @@ tbody tr {
   color: #4ade80;
 }
 
-.scorecard-toggle {
-  margin: 8px 0;
+/* Fantasy points column */
+.fantasy-col {
+  font-weight: 700;
+  text-align: right;
+  min-width: 32px;
 }
 
-.scorecard-toggle > summary {
-  cursor: pointer;
+.fp-positive { color: #4ade80; }
+.fp-negative { color: #f87171; }
+.fp-zero { color: #64748b; }
+
+.manager-tag {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  color: #94a3b8;
+  background: rgba(59, 130, 246, 0.15);
+  padding: 0 3px;
+  border-radius: 2px;
+  margin-left: 4px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Fielding summary */
+.fielding-summary {
+  margin: 8px 0;
   font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.fielding-label {
   font-weight: 600;
   color: #93c5fd;
-  padding: 4px 0;
-  list-style: none;
 }
 
-.scorecard-toggle > summary::before {
-  content: '+ ';
-  color: #64748b;
-}
-
-.scorecard-toggle[open] > summary::before {
-  content: '- ';
+.fielding-chip {
+  display: inline-block;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 2px 2px;
+  font-size: 0.75rem;
 }
 
 /* Bottom nav */

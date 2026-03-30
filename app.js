@@ -2,6 +2,46 @@ let data = null;
 let teamsData = null;
 let scheduleData = null;
 
+const TEAM_LOGOS = {
+  CSK: 'https://g.cricapi.com/iapi/135-637852956181378533.png?w=48',
+  DC: 'https://g.cricapi.com/iapi/148-637874596301457910.png?w=48',
+  GT: 'https://g.cricapi.com/iapi/172-637852957798476823.png?w=48',
+  KKR: 'https://g.cricapi.com/iapi/206-637852958714346149.png?w=48',
+  LSG: 'https://g.cricapi.com/iapi/215-637876059669009476.png?w=48',
+  MI: 'https://g.cricapi.com/iapi/226-637852956375593901.png?w=48',
+  PBKS: 'https://g.cricapi.com/iapi/247-637852956959778791.png?w=48',
+  RCB: 'https://g.cricapi.com/iapi/21439-638468478038395955.jpg?w=48',
+  RR: 'https://g.cricapi.com/iapi/251-637852956607161886.png?w=48',
+  SRH: 'https://g.cricapi.com/iapi/279-637852957609490368.png?w=48',
+};
+
+function teamLogo(abbr, size) {
+  const sz = size || 16;
+  const url = TEAM_LOGOS[abbr];
+  if (!url) return '';
+  return `<img src="${url}" alt="${abbr}" class="team-logo" style="width:${sz}px;height:${sz}px">`;
+}
+
+function iplBadge(abbr) {
+  if (!abbr) return '';
+  return `${teamLogo(abbr, 14)}<span class="ipl-badge">${abbr}</span>`;
+}
+
+// Extract team abbreviations from match name like "Mumbai Indians v Kolkata Knight Riders"
+const TEAM_FULL_TO_ABBR = {
+  'Chennai Super Kings': 'CSK', 'Mumbai Indians': 'MI', 'Royal Challengers Bengaluru': 'RCB',
+  'Kolkata Knight Riders': 'KKR', 'Sunrisers Hyderabad': 'SRH', 'Rajasthan Royals': 'RR',
+  'Delhi Capitals': 'DC', 'Punjab Kings': 'PBKS', 'Gujarat Titans': 'GT', 'Lucknow Super Giants': 'LSG',
+};
+
+function matchTeams(matchName) {
+  const result = [];
+  for (const [full, abbr] of Object.entries(TEAM_FULL_TO_ABBR)) {
+    if (matchName.includes(full)) result.push(abbr);
+  }
+  return result;
+}
+
 async function loadData() {
   try {
     const cacheBust = `?t=${Date.now()}`;
@@ -25,7 +65,7 @@ async function loadData() {
   } else {
     document.getElementById('leaderboard').querySelector('tbody').innerHTML =
       '<tr><td colspan="4" style="text-align:center;padding:20px;color:#64748b">No scores yet. Data will appear once matches begin.</td></tr>';
-    renderAllMatches(); // Still render schedule even without scores
+    renderAllMatches();
   }
 }
 
@@ -37,31 +77,6 @@ function renderLastUpdated() {
   }
 }
 
-function renderScorecardHtml(scorecard) {
-  if (!scorecard || scorecard.length === 0) return '';
-  let html = '';
-  for (const inn of scorecard) {
-    html += `<div class="scorecard-innings">`;
-    html += `<div class="innings-header">${inn.innings}${inn.runs !== undefined ? ` — ${inn.runs}/${inn.wickets} (${inn.overs} ov)` : ''}</div>`;
-    if (inn.batting && inn.batting.length > 0) {
-      html += `<table class="scorecard-table"><thead><tr><th>Batter</th><th>R</th><th>B</th><th>4s</th><th>6s</th><th>SR</th></tr></thead><tbody>`;
-      for (const b of inn.batting) {
-        html += `<tr><td><span class="batter-name">${b.name}</span><br><span class="dismissal-text">${b.dismissal}</span></td><td>${b.runs}</td><td>${b.balls}</td><td>${b.fours}</td><td>${b.sixes}</td><td>${b.sr}</td></tr>`;
-      }
-      html += `</tbody></table>`;
-    }
-    if (inn.bowling && inn.bowling.length > 0) {
-      html += `<table class="scorecard-table"><thead><tr><th>Bowler</th><th>O</th><th>M</th><th>R</th><th>W</th><th>Econ</th></tr></thead><tbody>`;
-      for (const b of inn.bowling) {
-        html += `<tr><td>${b.name}</td><td>${b.overs}</td><td>${b.maidens}</td><td>${b.runs}</td><td class="${b.wickets >= 3 ? 'wicket-haul' : ''}">${b.wickets}</td><td>${b.economy}</td></tr>`;
-      }
-      html += `</tbody></table>`;
-    }
-    html += `</div>`;
-  }
-  return html;
-}
-
 function renderCurrentMatch() {
   const el = document.getElementById('current-match');
   if (!data.currentMatch) {
@@ -70,7 +85,14 @@ function renderCurrentMatch() {
   }
   el.classList.remove('hidden');
   const m = data.currentMatch;
-  let html = `<h3><span class="live-dot"></span>${m.name}</h3>`;
+  const teams = matchTeams(m.name);
+  let html = `<h3><span class="live-dot"></span>`;
+  if (teams.length === 2) {
+    html += `${teamLogo(teams[0], 20)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 20)}`;
+  } else {
+    html += m.name;
+  }
+  html += `</h3>`;
   html += `<p style="font-size:0.8rem;color:#64748b">${m.venue || ''}</p>`;
   html += `<p style="font-size:0.8rem;color:#94a3b8">${m.status}</p>`;
   if (m.score) {
@@ -78,10 +100,9 @@ function renderCurrentMatch() {
       html += `<p class="score-line">${s.inning}: ${s.r}/${s.w} (${s.o} ov)</p>`;
     }
   }
-  // Find scorecard from matchHistory
   const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
   if (matchEntry?.scorecard) {
-    html += renderScorecardHtml(matchEntry.scorecard);
+    html += renderCombinedScorecard(matchEntry);
   }
   el.innerHTML = html;
 }
@@ -135,7 +156,6 @@ function showTeam(teamName) {
     </div>
   `;
 
-  // Build iplTeam lookup from teamsData
   const iplTeamMap = {};
   if (teamMeta) {
     for (const pl of teamMeta.players) {
@@ -151,7 +171,7 @@ function showTeam(teamName) {
     const iplTeam = iplTeamMap[p.name] || '';
     return `<tr class="${rowClass}">
       <td>${i + 1}</td>
-      <td class="${nameClass}">${p.name} <span class="ipl-badge">${iplTeam}</span></td>
+      <td class="${nameClass}">${p.name} ${iplBadge(iplTeam)}</td>
       <td>${p.role}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
@@ -162,7 +182,6 @@ function showTeam(teamName) {
     </tr>`;
   }).join('');
 
-  // Match history for this team's players
   renderTeamMatchHistory(teamName, detail);
 }
 
@@ -217,11 +236,94 @@ function formatScheduleDate(dateStr) {
   return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
+// --- Combined Scorecard + Fantasy Points ---
+
+function renderCombinedScorecard(match) {
+  if (!match.scorecard || match.scorecard.length === 0) return '';
+
+  // Build fantasy lookup: playerName -> { team, batting, bowling, fielding, total }
+  const fantasyMap = {};
+  const playerFantasyTeamMap = {};
+  const playerIplTeamMap = {};
+  if (teamsData) {
+    for (const team of teamsData.teams) {
+      for (const p of team.players) {
+        playerFantasyTeamMap[p.name] = team.name;
+        playerIplTeamMap[p.name] = p.iplTeam || '';
+      }
+    }
+  }
+  for (const [name, s] of Object.entries(match.playerScores || {})) {
+    fantasyMap[name] = s;
+  }
+
+  let html = '';
+  for (const inn of match.scorecard) {
+    html += `<div class="scorecard-innings">`;
+    html += `<div class="innings-header">${inn.innings} — ${inn.runs}/${inn.wickets} (${inn.overs} ov)</div>`;
+
+    // Batting table with fantasy points
+    if (inn.batting && inn.batting.length > 0) {
+      html += `<table class="scorecard-table"><thead><tr><th>Batter</th><th>R</th><th>B</th><th>4s</th><th>6s</th><th>SR</th><th class="fantasy-col">FP</th></tr></thead><tbody>`;
+      for (const b of inn.batting) {
+        const fp = fantasyMap[b.name];
+        const fpBat = fp ? fp.batting : null;
+        const manager = playerFantasyTeamMap[b.name];
+        const fpClass = fpBat !== null ? (fpBat > 0 ? 'fp-positive' : fpBat < 0 ? 'fp-negative' : 'fp-zero') : '';
+        const fpCell = fpBat !== null ? `<td class="fantasy-col ${fpClass}" title="${manager}">${fpBat}</td>` : '<td class="fantasy-col"></td>';
+        const managerTag = manager ? `<span class="manager-tag">${manager}</span>` : '';
+        html += `<tr>
+          <td><span class="batter-name">${b.name}</span>${managerTag}<br><span class="dismissal-text">${b.dismissal}</span></td>
+          <td>${b.runs}</td><td>${b.balls}</td><td>${b.fours}</td><td>${b.sixes}</td><td>${b.sr}</td>
+          ${fpCell}
+        </tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+
+    // Bowling table with fantasy points
+    if (inn.bowling && inn.bowling.length > 0) {
+      html += `<table class="scorecard-table"><thead><tr><th>Bowler</th><th>O</th><th>M</th><th>R</th><th>W</th><th>Econ</th><th class="fantasy-col">FP</th></tr></thead><tbody>`;
+      for (const b of inn.bowling) {
+        const fp = fantasyMap[b.name];
+        const fpBowl = fp ? fp.bowling : null;
+        const manager = playerFantasyTeamMap[b.name];
+        const fpClass = fpBowl !== null ? (fpBowl > 0 ? 'fp-positive' : fpBowl < 0 ? 'fp-negative' : 'fp-zero') : '';
+        const fpCell = fpBowl !== null ? `<td class="fantasy-col ${fpClass}" title="${manager}">${fpBowl}</td>` : '<td class="fantasy-col"></td>';
+        const managerTag = manager ? `<span class="manager-tag">${manager}</span>` : '';
+        html += `<tr>
+          <td>${b.name}${managerTag}</td>
+          <td>${b.overs}</td><td>${b.maidens}</td><td>${b.runs}</td>
+          <td class="${b.wickets >= 3 ? 'wicket-haul' : ''}">${b.wickets}</td>
+          <td>${b.economy}</td>
+          ${fpCell}
+        </tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+    html += `</div>`;
+  }
+
+  // Fielding points summary (not shown in batting/bowling tables)
+  const fieldingEntries = Object.entries(fantasyMap)
+    .filter(([_, s]) => s.fielding !== 0)
+    .sort((a, b) => b[1].fielding - a[1].fielding);
+  if (fieldingEntries.length > 0) {
+    html += `<div class="fielding-summary"><span class="fielding-label">Fielding:</span> `;
+    html += fieldingEntries.map(([name, s]) => {
+      const manager = playerFantasyTeamMap[name];
+      return `<span class="fielding-chip" title="${manager || ''}">${name} <span class="fp-positive">+${s.fielding}</span></span>`;
+    }).join(' ');
+    html += `</div>`;
+  }
+
+  return html;
+}
+
 function renderAllMatches() {
   const container = document.getElementById('matches-list');
   let html = '';
 
-  // Build lookup maps
   const playerFantasyTeamMap = {};
   const playerIplTeamMap = {};
   if (teamsData) {
@@ -233,17 +335,14 @@ function renderAllMatches() {
     }
   }
 
-  // Determine which matches are completed (by date from matchHistory)
   const completedDates = new Set();
   const matchHistory = data?.matchHistory || [];
   for (const m of matchHistory) {
     if (m.date) completedDates.add(m.date);
   }
 
-  // Split schedule into upcoming and completed
   const today = new Date().toISOString().slice(0, 10);
   const upcoming = (scheduleData || []).filter(m => m.date >= today && !completedDates.has(m.date));
-  // Show next 10 upcoming
   const nextUp = upcoming.slice(0, 10);
 
   // Upcoming schedule
@@ -253,14 +352,13 @@ function renderAllMatches() {
     let lastDate = '';
     for (const m of nextUp) {
       const dateLabel = m.date === lastDate ? '' : formatScheduleDate(m.date);
-      // Convert IST to local time. Schedule times are IST (UTC+5:30)
       const [h, min] = m.time.split(':').map(Number);
       const matchUTC = new Date(`${m.date}T${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}:00+05:30`);
       const localTime = matchUTC.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
       lastDate = m.date;
       html += `<div class="schedule-row${dateLabel ? '' : ' same-day'}">
         <div class="schedule-date">${dateLabel}</div>
-        <div class="schedule-teams"><span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span></div>
+        <div class="schedule-teams">${teamLogo(m.home, 18)} <span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span> ${teamLogo(m.away, 18)}</div>
         <div class="schedule-meta">${localTime} &middot; ${m.venue}</div>
       </div>`;
     }
@@ -270,40 +368,27 @@ function renderAllMatches() {
     html += '</div>';
   }
 
-  // Completed matches with scores
+  // Completed matches
   if (matchHistory.length > 0) {
     html += '<h3>Results</h3>';
     html += matchHistory.slice().reverse().map(match => {
-      const players = Object.entries(match.playerScores)
-        .map(([name, s]) => ({ name, ...s }))
-        .sort((a, b) => b.total - a.total);
-
+      const teams = matchTeams(match.name);
       const scoreLines = (match.score || []).map(s => `${s.inning}: ${s.r}/${s.w} (${s.o} ov)`).join(' | ');
 
-      const scorecardHtml = match.scorecard ? renderScorecardHtml(match.scorecard) : '';
+      let headerHtml = match.name;
+      if (teams.length === 2) {
+        headerHtml = `${teamLogo(teams[0], 18)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 18)}`;
+      }
+
+      const combinedHtml = renderCombinedScorecard(match);
 
       return `<details class="match-card">
         <summary>
-          <span>${match.name} <span class="match-date">${match.date || ''}</span></span>
+          <span>${headerHtml} <span class="match-date">${match.date || ''}</span></span>
           <span class="match-date">${match.status || ''}</span>
         </summary>
         <p class="score-line" style="margin:8px 0">${scoreLines}</p>
-        ${scorecardHtml ? `<details class="scorecard-toggle"><summary>Full Scorecard</summary>${scorecardHtml}</details>` : ''}
-        <details class="scorecard-toggle"><summary>Fantasy Points</summary>
-        <table>
-          <thead><tr><th>Player</th><th>Manager</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Total</th></tr></thead>
-          <tbody>${players.map(p =>
-            `<tr>
-              <td>${p.name} <span class="ipl-badge">${playerIplTeamMap[p.name] || ''}</span></td>
-              <td style="color:#64748b">${playerFantasyTeamMap[p.name] || '-'}</td>
-              <td>${p.batting}</td>
-              <td>${p.bowling}</td>
-              <td>${p.fielding}</td>
-              <td class="points-cell">${p.total}</td>
-            </tr>`
-          ).join('')}</tbody>
-        </table>
-        </details>
+        ${combinedHtml}
       </details>`;
     }).join('');
   } else if (nextUp.length === 0) {
