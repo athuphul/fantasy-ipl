@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T16:44:53.844Z",
+  "lastUpdated": "2026-03-30T16:54:55.552Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 91,
-        "w": 1,
-        "o": 8
+        "r": 102,
+        "w": 2,
+        "o": 9.3
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,22 +22,22 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 22,
+        "batting": 23,
         "bowling": 0,
         "fielding": 8,
-        "total": 30
+        "total": 31
       },
       "Dhruv Jurel": {
-        "batting": 12,
+        "batting": 22,
         "bowling": 0,
         "fielding": 16,
-        "total": 28
+        "total": 38
       },
       "Riyan Parag": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       },
       "Shimron Hetmyer": {
         "batting": 0,
@@ -143,13 +143,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 183,
-      "top11Points": 183
+      "totalPointsAll": 187,
+      "top11Points": 187
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 121,
-      "top11Points": 131
+      "totalPointsAll": 122,
+      "top11Points": 132
     },
     {
       "team": "Tikoo",
@@ -163,8 +163,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 43,
-      "top11Points": 57
+      "totalPointsAll": 53,
+      "top11Points": 67
     },
     {
       "team": "Ali",
@@ -440,9 +440,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 91,
-          "w": 1,
-          "o": 8
+          "r": 102,
+          "w": 2,
+          "o": 9.3
         },
         {
           "inning": "Chennai Super Kings",
@@ -453,22 +453,22 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 22,
+          "batting": 23,
           "bowling": 0,
           "fielding": 8,
-          "total": 30
+          "total": 31
         },
         "Dhruv Jurel": {
-          "batting": 12,
+          "batting": 22,
           "bowling": 0,
           "fielding": 16,
-          "total": 28
+          "total": 38
         },
         "Riyan Parag": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         },
         "Shimron Hetmyer": {
           "batting": 0,
@@ -709,8 +709,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 121,
-      "top11Points": 131,
+      "totalPointsAll": 122,
+      "top11Points": 132,
       "players": [
         {
           "name": "Jofra Archer",
@@ -737,12 +737,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 22,
+          "batting": 23,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 30,
+          "rawPoints": 31,
           "multiplier": 1,
-          "effectivePoints": 30,
+          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -1250,18 +1250,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 43,
-      "top11Points": 57,
+      "totalPointsAll": 53,
+      "top11Points": 67,
       "players": [
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 12,
+          "batting": 22,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 28,
+          "rawPoints": 38,
           "multiplier": 1,
-          "effectivePoints": 28,
+          "effectivePoints": 38,
           "countsInTop11": true
         },
         {
@@ -1410,8 +1410,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 183,
-      "top11Points": 183,
+      "totalPointsAll": 187,
+      "top11Points": 187,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1458,6 +1458,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Riyan Parag",
+          "role": "Batsman",
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 2,
+          "multiplier": 2,
+          "effectivePoints": 4,
+          "countsInTop11": true
+        },
+        {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 0,
@@ -1498,17 +1509,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Riyan Parag",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
