@@ -298,8 +298,25 @@ function extractFullScorecard(summaryData) {
 
             if (stats.batted && stats.batted >= 1) {
               if (!periodBatting[periodIdx]) periodBatting[periodIdx] = [];
-              const dismissalText = inner.batting?.outDetails?.dismissalCard || '';
-              const dismissalDetail = inner.batting?.outDetails?.detail || '';
+              const od = inner.batting?.outDetails;
+              let dismissalStr = 'not out';
+              if (od && od.dismissalCard) {
+                const card = od.dismissalCard;
+                const bowler = od.bowler?.displayName || '';
+                const fielders = (od.fielders || []).map(f => f.athlete?.displayName).filter(Boolean);
+                if (card === 'c' && fielders.length > 0) dismissalStr = `c ${fielders[0]} b ${bowler}`;
+                else if (card === 'b') dismissalStr = `b ${bowler}`;
+                else if (card === 'lbw') dismissalStr = `lbw b ${bowler}`;
+                else if (card === 'st' && fielders.length > 0) dismissalStr = `st ${fielders[0]} b ${bowler}`;
+                else if (card === 'ro' || card === 'run out') dismissalStr = `run out (${fielders.join('/')})`;
+                else if (card === 'hit wicket') dismissalStr = `hit wicket b ${bowler}`;
+                else if (card === 'retired hurt' || card === 'retired out') dismissalStr = card;
+                else dismissalStr = `${card} ${bowler}`.trim();
+              } else if ((stats.dismissal || 0) >= 1) {
+                // Stats say dismissed but no outDetails — use dismissalCard from stats
+                const card = stats.dismissalCard || 'out';
+                dismissalStr = card;
+              }
               periodBatting[periodIdx].push({
                 name,
                 runs: stats.runs || 0,
@@ -307,7 +324,7 @@ function extractFullScorecard(summaryData) {
                 fours: stats.fours || 0,
                 sixes: stats.sixes || 0,
                 sr: stats.strikeRate || 0,
-                dismissal: dismissalDetail || dismissalText || 'not out',
+                dismissal: dismissalStr,
                 team: teamAbbr,
                 teamName,
               });
