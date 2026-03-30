@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-03-29T18:00:40.800Z",
+  "lastUpdated": "2026-03-30T14:05:03.473Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527676",
+    "name": "Rajasthan Royals v Chennai Super Kings",
+    "status": "Live",
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 7,
+        "w": 0,
+        "o": 0.6
+      }
+    ],
+    "playerScores": {
+      "Yashasvi Jaiswal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dhruv Jurel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Riyan Parag": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shimron Hetmyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ravindra Jadeja": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sandeep Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ravi Bishnoi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sanju Samson": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tanay",
@@ -15,8 +90,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 314,
-      "top11Points": 334
+      "totalPointsAll": 319,
+      "top11Points": 339
     },
     {
       "team": "Ritik",
@@ -30,8 +105,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 70,
-      "top11Points": 75
+      "totalPointsAll": 82,
+      "top11Points": 87
     },
     {
       "team": "Aakash",
@@ -45,8 +120,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 19,
-      "top11Points": 29
+      "totalPointsAll": 21,
+      "top11Points": 31
     }
   ],
   "matchHistory": [
@@ -180,7 +255,7 @@
           "total": -20
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527675",
@@ -278,8 +353,8 @@
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 13,
+          "total": 13
         },
         "Sunil Narine": {
           "batting": 0,
@@ -306,13 +381,91 @@
           "total": -5
         }
       },
+      "isComplete": true
+    },
+    {
+      "matchId": "espn_1527676",
+      "name": "Rajasthan Royals v Chennai Super Kings",
+      "date": "2026-03-30",
+      "status": "Live",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "score": [
+        {
+          "inning": "Chennai Super Kings",
+          "r": 7,
+          "w": 0,
+          "o": 0.6
+        }
+      ],
+      "playerScores": {
+        "Yashasvi Jaiswal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dhruv Jurel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Riyan Parag": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shimron Hetmyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ravindra Jadeja": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sandeep Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ravi Bishnoi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sanju Samson": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
       "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 314,
-      "top11Points": 334,
+      "totalPointsAll": 319,
+      "top11Points": 339,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -374,10 +527,10 @@
           "role": "All-Rounder",
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 8,
+          "fielding": 13,
+          "rawPoints": 13,
           "multiplier": 1,
-          "effectivePoints": 8,
+          "effectivePoints": 13,
           "countsInTop11": true
         },
         {
@@ -1001,8 +1154,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 19,
-      "top11Points": 29,
+      "totalPointsAll": 21,
+      "top11Points": 31,
       "players": [
         {
           "name": "Suyash Sharma",
@@ -1024,6 +1177,17 @@
           "rawPoints": 3,
           "multiplier": 1,
           "effectivePoints": 3,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 1,
+          "multiplier": 1.5,
+          "effectivePoints": 2,
           "countsInTop11": true
         },
         {
@@ -1111,17 +1275,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1.5,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -1426,8 +1579,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 70,
-      "top11Points": 75,
+      "totalPointsAll": 82,
+      "top11Points": 87,
       "players": [
         {
           "name": "Rinku Singh",
@@ -1438,6 +1591,17 @@
           "rawPoints": 50,
           "multiplier": 1.5,
           "effectivePoints": 75,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sanju Samson",
+          "role": "Wicket Keeper",
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 6,
+          "multiplier": 2,
+          "effectivePoints": 12,
           "countsInTop11": true
         },
         {
@@ -1459,17 +1623,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sanju Samson",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
