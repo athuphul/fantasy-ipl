@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T15:24:53.591Z",
+  "lastUpdated": "2026-03-30T15:35:26.037Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 91,
-        "w": 8,
-        "o": 14.4
+        "r": 94,
+        "w": 9,
+        "o": 16.3
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Ravi Bishnoi": {
         "batting": 0,
-        "bowling": 5,
-        "fielding": 8,
-        "total": 13
+        "bowling": 45,
+        "fielding": 16,
+        "total": 61
       },
       "Sanju Samson": {
         "batting": 7,
@@ -106,10 +106,10 @@
         "total": 1
       },
       "Matt Henry": {
-        "batting": 5,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 6
       }
     }
   },
@@ -120,14 +120,14 @@
       "top11Points": 492
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 375,
+      "top11Points": 400
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 378,
       "top11Points": 378
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 327,
-      "top11Points": 352
     },
     {
       "team": "Ritik",
@@ -136,8 +136,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 113,
-      "top11Points": 123
+      "totalPointsAll": 114,
+      "top11Points": 124
     },
     {
       "team": "Tikoo",
@@ -428,9 +428,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 91,
-          "w": 8,
-          "o": 14.4
+          "r": 94,
+          "w": 9,
+          "o": 16.3
         }
       ],
       "playerScores": {
@@ -478,9 +478,9 @@
         },
         "Ravi Bishnoi": {
           "batting": 0,
-          "bowling": 5,
-          "fielding": 8,
-          "total": 13
+          "bowling": 45,
+          "fielding": 16,
+          "total": 61
         },
         "Sanju Samson": {
           "batting": 7,
@@ -525,10 +525,10 @@
           "total": 1
         },
         "Matt Henry": {
-          "batting": 5,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 6
         }
       },
       "isComplete": false
@@ -536,8 +536,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 327,
-      "top11Points": 352,
+      "totalPointsAll": 375,
+      "top11Points": 400,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -559,6 +559,17 @@
           "rawPoints": 62,
           "multiplier": 1.5,
           "effectivePoints": 93,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 16,
+          "rawPoints": 61,
+          "multiplier": 1,
+          "effectivePoints": 61,
           "countsInTop11": true
         },
         {
@@ -592,17 +603,6 @@
           "rawPoints": 19,
           "multiplier": 2,
           "effectivePoints": 38,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravi Bishnoi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 5,
-          "fielding": 8,
-          "rawPoints": 13,
-          "multiplier": 1,
-          "effectivePoints": 13,
           "countsInTop11": true
         },
         {
@@ -685,8 +685,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 113,
-      "top11Points": 123,
+      "totalPointsAll": 114,
+      "top11Points": 124,
       "players": [
         {
           "name": "Jofra Archer",
@@ -724,12 +724,12 @@
         {
           "name": "Matt Henry",
           "role": "Fast Bowler",
-          "batting": 5,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 5,
+          "rawPoints": 6,
           "multiplier": 1,
-          "effectivePoints": 5,
+          "effectivePoints": 6,
           "countsInTop11": true
         },
         {
