@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T16:25:01.045Z",
+  "lastUpdated": "2026-03-30T16:35:20.451Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 39,
+        "r": 74,
         "w": 0,
-        "o": 3.5
+        "o": 6
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 16,
+        "batting": 14,
         "bowling": 0,
         "fielding": 8,
-        "total": 24
+        "total": 22
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -119,9 +119,9 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       }
     }
   },
@@ -143,13 +143,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 163,
-      "top11Points": 163
+      "totalPointsAll": 183,
+      "top11Points": 183
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 115,
-      "top11Points": 125
+      "totalPointsAll": 113,
+      "top11Points": 123
     },
     {
       "team": "Tikoo",
@@ -440,9 +440,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 39,
+          "r": 74,
           "w": 0,
-          "o": 3.5
+          "o": 6
         },
         {
           "inning": "Chennai Super Kings",
@@ -453,10 +453,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 16,
+          "batting": 14,
           "bowling": 0,
           "fielding": 8,
-          "total": 24
+          "total": 22
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -550,9 +550,9 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         }
       },
       "isComplete": false
@@ -709,8 +709,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 115,
-      "top11Points": 125,
+      "totalPointsAll": 113,
+      "top11Points": 123,
       "players": [
         {
           "name": "Jofra Archer",
@@ -737,12 +737,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 16,
+          "batting": 14,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 24,
+          "rawPoints": 22,
           "multiplier": 1,
-          "effectivePoints": 24,
+          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
@@ -1410,8 +1410,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 163,
-      "top11Points": 163,
+      "totalPointsAll": 183,
+      "top11Points": 183,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -1433,6 +1433,17 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 0,
+          "rawPoints": 20,
+          "multiplier": 1,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -1515,17 +1526,6 @@
         {
           "name": "Rashid Khan",
           "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Khaleel Ahmed",
-          "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
