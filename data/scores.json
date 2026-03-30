@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:54:54.315Z",
+  "lastUpdated": "2026-03-30T15:04:54.174Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527676",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 62,
-        "w": 6,
-        "o": 9
+        "r": 74,
+        "w": 7,
+        "o": 10.4
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Ravindra Jadeja": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 62,
         "fielding": 0,
-        "total": 50
+        "total": 62
       },
       "Jofra Archer": {
         "batting": 0,
@@ -88,29 +88,35 @@
         "total": 21
       },
       "Kartik Sharma": {
-        "batting": 22,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 20
       },
       "Shivam Dube": {
         "batting": 8,
         "bowling": 0,
         "fielding": 0,
         "total": 8
+      },
+      "Noor Ahmad": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       }
     }
   },
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 452,
-      "top11Points": 452
+      "totalPointsAll": 476,
+      "top11Points": 476
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 380,
-      "top11Points": 380
+      "totalPointsAll": 378,
+      "top11Points": 378
     },
     {
       "team": "Athu",
@@ -124,7 +130,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 113,
+      "totalPointsAll": 108,
       "top11Points": 118
     },
     {
@@ -416,9 +422,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 62,
-          "w": 6,
-          "o": 9
+          "r": 74,
+          "w": 7,
+          "o": 10.4
         }
       ],
       "playerScores": {
@@ -448,9 +454,9 @@
         },
         "Ravindra Jadeja": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 62,
           "fielding": 0,
-          "total": 50
+          "total": 62
         },
         "Jofra Archer": {
           "batting": 0,
@@ -495,16 +501,22 @@
           "total": 21
         },
         "Kartik Sharma": {
-          "batting": 22,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 20
         },
         "Shivam Dube": {
           "batting": 8,
           "bowling": 0,
           "fielding": 0,
           "total": 8
+        },
+        "Noor Ahmad": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         }
       },
       "isComplete": false
@@ -1075,8 +1087,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 452,
-      "top11Points": 452,
+      "totalPointsAll": 476,
+      "top11Points": 476,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -1090,6 +1102,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ravindra Jadeja",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 62,
+          "fielding": 0,
+          "rawPoints": 62,
+          "multiplier": 2,
+          "effectivePoints": 124,
+          "countsInTop11": true
+        },
+        {
           "name": "Virat Kohli",
           "role": "Opener",
           "batting": 104,
@@ -1098,17 +1121,6 @@
           "rawPoints": 112,
           "multiplier": 1,
           "effectivePoints": 112,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravindra Jadeja",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 50,
-          "fielding": 0,
-          "rawPoints": 50,
-          "multiplier": 2,
-          "effectivePoints": 100,
           "countsInTop11": true
         },
         {
@@ -1489,8 +1501,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 380,
-      "top11Points": 380,
+      "totalPointsAll": 378,
+      "top11Points": 378,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -1561,12 +1573,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 22,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 22,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 22,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -1627,7 +1639,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 113,
+      "totalPointsAll": 108,
       "top11Points": 118,
       "players": [
         {
@@ -1719,17 +1731,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 0,
@@ -1760,7 +1761,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
+          "countsInTop11": true
         },
         {
           "name": "Shahrukh Khan",
@@ -1771,6 +1772,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": false
+        },
+        {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
           "countsInTop11": false
         },
         {
