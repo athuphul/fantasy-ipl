@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T14:44:54.882Z",
+  "lastUpdated": "2026-03-31T14:55:09.657Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 71,
-        "w": 1,
-        "o": 8.4
+        "r": 88,
+        "w": 2,
+        "o": 10.4
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Sai Sudharsan": {
         "batting": 15,
@@ -70,16 +70,22 @@
         "total": 15
       },
       "Shubman Gill": {
-        "batting": 38,
+        "batting": 45,
         "bowling": 0,
         "fielding": 0,
-        "total": 38
+        "total": 45
       },
       "Jos Buttler": {
-        "batting": 26,
+        "batting": 33,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 33
+      },
+      "Glenn Phillips": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       }
     }
   },
@@ -100,29 +106,29 @@
       "top11Points": 378
     },
     {
+      "team": "Ritik",
+      "totalPointsAll": 267,
+      "top11Points": 267
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 248,
       "top11Points": 262
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 256,
-      "top11Points": 256
-    },
-    {
       "team": "Aakash",
-      "totalPointsAll": 177,
-      "top11Points": 187
+      "totalPointsAll": 222,
+      "top11Points": 232
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 186,
-      "top11Points": 186
+      "totalPointsAll": 200,
+      "top11Points": 200
     },
     {
       "team": "Manav",
-      "totalPointsAll": 48,
-      "top11Points": 67
+      "totalPointsAll": 51,
+      "top11Points": 70
     },
     {
       "team": "Ali",
@@ -1280,17 +1286,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 71,
-          "w": 1,
-          "o": 8.4
+          "r": 88,
+          "w": 2,
+          "o": 10.4
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 68,
+          "runs": 83,
           "wickets": 0,
-          "overs": 8.4,
+          "overs": 10.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -1303,39 +1309,48 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 33,
-              "balls": 24,
-              "fours": 5,
+              "runs": 39,
+              "balls": 27,
+              "fours": 6,
               "sixes": 0,
-              "sr": 137.5,
-              "dismissal": "not out"
+              "sr": 144.44,
+              "dismissal": "c"
             },
             {
               "name": "Jos Buttler",
-              "runs": 22,
-              "balls": 18,
-              "fours": 2,
+              "runs": 28,
+              "balls": 22,
+              "fours": 3,
               "sixes": 1,
-              "sr": 122.22,
+              "sr": 127.27,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Glenn Phillips",
+              "runs": 3,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 75,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Marco Jansen",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 4.5
+              "economy": 4.87
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 8.72
+              "economy": 10
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -1355,11 +1370,11 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 4
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
@@ -1409,9 +1424,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Sai Sudharsan": {
           "batting": 15,
@@ -1420,16 +1435,22 @@
           "total": 15
         },
         "Shubman Gill": {
-          "batting": 38,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "total": 38
+          "total": 45
         },
         "Jos Buttler": {
-          "batting": 26,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 33
+        },
+        "Glenn Phillips": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         }
       },
       "isComplete": false
@@ -1586,8 +1607,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 177,
-      "top11Points": 187,
+      "totalPointsAll": 222,
+      "top11Points": 232,
       "players": [
         {
           "name": "Jofra Archer",
@@ -1609,6 +1630,17 @@
           "rawPoints": 51,
           "multiplier": 1,
           "effectivePoints": 51,
+          "countsInTop11": true
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
           "countsInTop11": true
         },
         {
@@ -1669,17 +1701,6 @@
         {
           "name": "MS Dhoni",
           "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yuzvendra Chahal",
-          "role": "Spinner",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -1862,18 +1883,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 186,
-      "top11Points": 186,
+      "totalPointsAll": 200,
+      "top11Points": 200,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 38,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 38,
+          "rawPoints": 45,
           "multiplier": 2,
-          "effectivePoints": 76,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -2127,8 +2148,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 48,
-      "top11Points": 67,
+      "totalPointsAll": 51,
+      "top11Points": 70,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -2150,6 +2171,17 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
+          "name": "Glenn Phillips",
+          "role": "All-Rounder",
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -2219,17 +2251,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Glenn Phillips",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Sai Kishore",
           "role": "Spinner",
           "batting": 0,
@@ -2287,8 +2308,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 256,
-      "top11Points": 256,
+      "totalPointsAll": 267,
+      "top11Points": 267,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2304,12 +2325,12 @@
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 26,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 26,
+          "rawPoints": 33,
           "multiplier": 1.5,
-          "effectivePoints": 39,
+          "effectivePoints": 50,
           "countsInTop11": true
         },
         {
