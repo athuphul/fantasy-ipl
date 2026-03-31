@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T16:05:00.679Z",
+  "lastUpdated": "2026-03-31T16:15:26.320Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -8,6 +8,12 @@
     "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
     "score": [
       {
+        "inning": "Punjab Kings",
+        "r": 7,
+        "w": 0,
+        "o": 0.6
+      },
+      {
         "inning": "Gujarat Titans",
         "r": 162,
         "w": 6,
@@ -15,11 +21,17 @@
       }
     ],
     "playerScores": {
-      "Prabhsimran Singh": {
-        "batting": 0,
+      "Priyansh Arya": {
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 9
+      },
+      "Prabhsimran Singh": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -62,12 +74,6 @@
         "bowling": 62,
         "fielding": 0,
         "total": 62
-      },
-      "Priyansh Arya": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Sai Sudharsan": {
         "batting": 15,
@@ -116,6 +122,30 @@
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ashutosh Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prasidh Krishna": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -142,8 +172,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 280,
-      "top11Points": 280
+      "totalPointsAll": 275,
+      "top11Points": 275
     },
     {
       "team": "Aakash",
@@ -152,8 +182,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 200,
-      "top11Points": 200
+      "totalPointsAll": 209,
+      "top11Points": 209
     },
     {
       "team": "Manav",
@@ -1315,6 +1345,12 @@
       "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
       "score": [
         {
+          "inning": "Punjab Kings",
+          "r": 7,
+          "w": 0,
+          "o": 0.6
+        },
+        {
           "inning": "Gujarat Titans",
           "r": 162,
           "w": 6,
@@ -1443,14 +1479,56 @@
               "economy": 7
             }
           ]
+        },
+        {
+          "innings": "Punjab Kings",
+          "runs": 7,
+          "wickets": 0,
+          "overs": 0.6,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 7,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 116.66,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.6,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 7
+            }
+          ]
         }
       ],
       "playerScores": {
-        "Prabhsimran Singh": {
-          "batting": 0,
+        "Priyansh Arya": {
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 9
+        },
+        "Prabhsimran Singh": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -1493,12 +1571,6 @@
           "bowling": 62,
           "fielding": 0,
           "total": 62
-        },
-        "Priyansh Arya": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Sai Sudharsan": {
           "batting": 15,
@@ -1547,6 +1619,30 @@
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ashutosh Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -1979,8 +2075,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 200,
-      "top11Points": 200,
+      "totalPointsAll": 209,
+      "top11Points": 209,
       "players": [
         {
           "name": "Shubman Gill",
@@ -2016,6 +2112,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Priyansh Arya",
+          "role": "Opener",
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 9,
+          "multiplier": 1,
+          "effectivePoints": 9,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 0,
@@ -2024,17 +2131,6 @@
           "rawPoints": 5,
           "multiplier": 1,
           "effectivePoints": 5,
-          "countsInTop11": true
-        },
-        {
-          "name": "Priyansh Arya",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -2404,8 +2500,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 280,
-      "top11Points": 280,
+      "totalPointsAll": 275,
+      "top11Points": 275,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2509,12 +2605,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": -5,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": -5,
           "countsInTop11": true
         },
         {
