@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T15:24:54.765Z",
+  "lastUpdated": "2026-03-31T15:34:53.836Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 131,
+        "r": 144,
         "w": 4,
-        "o": 16
+        "o": 18
       }
     ],
     "playerScores": {
@@ -54,14 +54,20 @@
       "Arshdeep Singh": {
         "batting": 0,
         "bowling": -5,
-        "fielding": 0,
-        "total": -5
+        "fielding": 8,
+        "total": 3
       },
       "Yuzvendra Chahal": {
         "batting": 0,
         "bowling": 62,
         "fielding": 0,
         "total": 62
+      },
+      "Priyansh Arya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Sai Sudharsan": {
         "batting": 15,
@@ -88,24 +94,24 @@
         "total": 28
       },
       "Washington Sundar": {
-        "batting": 10,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 20
       },
       "Shahrukh Khan": {
-        "batting": 1,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 4
       }
     }
   },
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 502,
-      "top11Points": 502
+      "totalPointsAll": 512,
+      "top11Points": 512
     },
     {
       "team": "Athu",
@@ -124,8 +130,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 257,
-      "top11Points": 271
+      "totalPointsAll": 260,
+      "top11Points": 274
     },
     {
       "team": "Aakash",
@@ -139,8 +145,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 76,
-      "top11Points": 95
+      "totalPointsAll": 84,
+      "top11Points": 98
     },
     {
       "team": "Ali",
@@ -1298,17 +1304,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 131,
+          "r": 144,
           "w": 4,
-          "o": 16
+          "o": 18
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 125,
+          "runs": 137,
           "wickets": 0,
-          "overs": 16,
+          "overs": 18,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -1348,47 +1354,47 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 9,
-              "balls": 7,
-              "fours": 1,
+              "runs": 18,
+              "balls": 16,
+              "fours": 2,
               "sixes": 0,
-              "sr": 128.57,
-              "dismissal": "not out"
+              "sr": 112.5,
+              "dismissal": "c"
             },
             {
               "name": "M Shahrukh Khan",
-              "runs": 1,
-              "balls": 1,
+              "runs": 4,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 80,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 4.66
+              "economy": 5
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 9.66
+              "economy": 9
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
               "runs": 0,
-              "wickets": 1,
-              "economy": 9.33
+              "wickets": 2,
+              "economy": 8.84
             },
             {
               "name": "Arshdeep Singh",
@@ -1449,14 +1455,20 @@
         "Arshdeep Singh": {
           "batting": 0,
           "bowling": -5,
-          "fielding": 0,
-          "total": -5
+          "fielding": 8,
+          "total": 3
         },
         "Yuzvendra Chahal": {
           "batting": 0,
           "bowling": 62,
           "fielding": 0,
           "total": 62
+        },
+        "Priyansh Arya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Sai Sudharsan": {
           "batting": 15,
@@ -1483,16 +1495,16 @@
           "total": 28
         },
         "Washington Sundar": {
-          "batting": 10,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 20
         },
         "Shahrukh Khan": {
-          "batting": 1,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 4
         }
       },
       "isComplete": false
@@ -2063,8 +2075,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 502,
-      "top11Points": 502,
+      "totalPointsAll": 512,
+      "top11Points": 512,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -2124,12 +2136,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 10,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 10,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 10,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -2190,8 +2202,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 76,
-      "top11Points": 95,
+      "totalPointsAll": 84,
+      "top11Points": 98,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -2224,6 +2236,17 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -5,
+          "fielding": 8,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -2312,7 +2335,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Ruturaj Gaikwad",
@@ -2323,17 +2346,6 @@
           "rawPoints": -3,
           "multiplier": 1.5,
           "effectivePoints": -4,
-          "countsInTop11": false
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": false
         },
         {
@@ -2615,8 +2627,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 257,
-      "top11Points": 271,
+      "totalPointsAll": 260,
+      "top11Points": 274,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -2687,12 +2699,12 @@
         {
           "name": "Shahrukh Khan",
           "role": "Batsman",
-          "batting": 1,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 1,
+          "rawPoints": 4,
           "multiplier": 1,
-          "effectivePoints": 1,
+          "effectivePoints": 4,
           "countsInTop11": true
         },
         {
