@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T17:04:57.874Z",
+  "lastUpdated": "2026-03-31T17:14:53.881Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 108,
-        "w": 2,
-        "o": 11.5
+        "r": 113,
+        "w": 4,
+        "o": 13.1
       },
       {
         "inning": "Gujarat Titans",
@@ -34,16 +34,16 @@
         "total": 51
       },
       "Shreyas Iyer": {
-        "batting": 32,
+        "batting": 27,
         "bowling": 0,
         "fielding": 8,
-        "total": 40
+        "total": 35
       },
       "Nehal Wadhera": {
-        "batting": 0,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 3
       },
       "Shashank Singh": {
         "batting": 0,
@@ -84,8 +84,8 @@
       "Shubman Gill": {
         "batting": 45,
         "bowling": 0,
-        "fielding": 0,
-        "total": 45
+        "fielding": 8,
+        "total": 53
       },
       "Jos Buttler": {
         "batting": 45,
@@ -101,9 +101,9 @@
       },
       "Washington Sundar": {
         "batting": 20,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 20
+        "bowling": 25,
+        "fielding": 8,
+        "total": 53
       },
       "Shahrukh Khan": {
         "batting": 4,
@@ -143,17 +143,17 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 8,
-        "total": 8
+        "total": 33
       }
     }
   },
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 512,
-      "top11Points": 512
+      "totalPointsAll": 545,
+      "top11Points": 545
     },
     {
       "team": "Athu",
@@ -172,8 +172,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 280,
-      "top11Points": 294
+      "totalPointsAll": 305,
+      "top11Points": 319
     },
     {
       "team": "Aakash",
@@ -182,8 +182,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 209,
-      "top11Points": 209
+      "totalPointsAll": 225,
+      "top11Points": 225
     },
     {
       "team": "Manav",
@@ -192,8 +192,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 83,
-      "top11Points": 83
+      "totalPointsAll": 81,
+      "top11Points": 81
     }
   ],
   "matchHistory": [
@@ -1346,9 +1346,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 108,
-          "w": 2,
-          "o": 11.5
+          "r": 113,
+          "w": 4,
+          "o": 13.1
         },
         {
           "inning": "Gujarat Titans",
@@ -1482,9 +1482,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 108,
-          "wickets": 2,
-          "overs": 11.5,
+          "runs": 113,
+          "wickets": 4,
+          "overs": 13.1,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -1506,39 +1506,48 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 45,
-              "balls": 29,
+              "runs": 47,
+              "balls": 30,
               "fours": 2,
               "sixes": 4,
-              "sr": 155.17,
+              "sr": 156.66,
               "dismissal": "not out"
             },
             {
               "name": "Shreyas Iyer",
               "runs": 18,
-              "balls": 10,
+              "balls": 11,
               "fours": 0,
               "sixes": 2,
-              "sr": 180,
-              "dismissal": "not out"
+              "sr": 163.63,
+              "dismissal": "c"
+            },
+            {
+              "name": "Nehal Wadhera",
+              "runs": 3,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "c"
             }
           ],
           "bowling": [
             {
               "name": "Washington Sundar",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 0,
-              "wickets": 0,
-              "economy": 9
-            },
-            {
-              "name": "Rashid Khan",
-              "overs": 3.5,
+              "overs": 2.1,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 7.04
+              "economy": 8.3
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 7.25
             },
             {
               "name": "Kagiso Rabada",
@@ -1563,6 +1572,14 @@
               "runs": 0,
               "wickets": 0,
               "economy": 7.5
+            },
+            {
+              "name": "Prasidh Krishna",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 3
             }
           ]
         }
@@ -1581,16 +1598,16 @@
           "total": 51
         },
         "Shreyas Iyer": {
-          "batting": 32,
+          "batting": 27,
           "bowling": 0,
           "fielding": 8,
-          "total": 40
+          "total": 35
         },
         "Nehal Wadhera": {
-          "batting": 0,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 3
         },
         "Shashank Singh": {
           "batting": 0,
@@ -1631,8 +1648,8 @@
         "Shubman Gill": {
           "batting": 45,
           "bowling": 0,
-          "fielding": 0,
-          "total": 45
+          "fielding": 8,
+          "total": 53
         },
         "Jos Buttler": {
           "batting": 45,
@@ -1648,9 +1665,9 @@
         },
         "Washington Sundar": {
           "batting": 20,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 20
+          "bowling": 25,
+          "fielding": 8,
+          "total": 53
         },
         "Shahrukh Khan": {
           "batting": 4,
@@ -1690,9 +1707,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 8,
-          "total": 8
+          "total": 33
         }
       },
       "isComplete": false
@@ -1987,18 +2004,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 83,
-      "top11Points": 83,
+      "totalPointsAll": 81,
+      "top11Points": 81,
       "players": [
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 32,
+          "batting": 27,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 40,
+          "rawPoints": 35,
           "multiplier": 1,
-          "effectivePoints": 40,
+          "effectivePoints": 35,
           "countsInTop11": true
         },
         {
@@ -2032,6 +2049,17 @@
           "rawPoints": 5,
           "multiplier": 1,
           "effectivePoints": 5,
+          "countsInTop11": true
+        },
+        {
+          "name": "Nehal Wadhera",
+          "role": "Batsman",
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -2109,34 +2137,23 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nehal Wadhera",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": false
         }
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 209,
-      "top11Points": 209,
+      "totalPointsAll": 225,
+      "top11Points": 225,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 45,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 45,
+          "fielding": 8,
+          "rawPoints": 53,
           "multiplier": 2,
-          "effectivePoints": 90,
+          "effectivePoints": 106,
           "countsInTop11": true
         },
         {
@@ -2263,8 +2280,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 512,
-      "top11Points": 512,
+      "totalPointsAll": 545,
+      "top11Points": 545,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -2311,6 +2328,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Washington Sundar",
+          "role": "All-Rounder",
+          "batting": 20,
+          "bowling": 25,
+          "fielding": 8,
+          "rawPoints": 53,
+          "multiplier": 1,
+          "effectivePoints": 53,
+          "countsInTop11": true
+        },
+        {
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 0,
@@ -2319,17 +2347,6 @@
           "rawPoints": 30,
           "multiplier": 1,
           "effectivePoints": 30,
-          "countsInTop11": true
-        },
-        {
-          "name": "Washington Sundar",
-          "role": "All-Rounder",
-          "batting": 20,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 20,
-          "multiplier": 1,
-          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -2815,8 +2832,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 280,
-      "top11Points": 294,
+      "totalPointsAll": 305,
+      "top11Points": 319,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -2852,6 +2869,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prasidh Krishna",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 8,
+          "rawPoints": 33,
+          "multiplier": 1,
+          "effectivePoints": 33,
+          "countsInTop11": true
+        },
+        {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
           "batting": 21,
@@ -2882,17 +2910,6 @@
           "rawPoints": 12,
           "multiplier": 1,
           "effectivePoints": 12,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prasidh Krishna",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 8,
-          "multiplier": 1,
-          "effectivePoints": 8,
           "countsInTop11": true
         },
         {
