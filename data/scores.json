@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T16:34:56.157Z",
+  "lastUpdated": "2026-03-31T16:44:56.396Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 46,
+        "r": 58,
         "w": 1,
-        "o": 4.5
+        "o": 6.4
       },
       {
         "inning": "Gujarat Titans",
@@ -28,10 +28,10 @@
         "total": 9
       },
       "Prabhsimran Singh": {
-        "batting": 20,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 31
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -167,8 +167,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 300,
-      "top11Points": 300
+      "totalPointsAll": 311,
+      "top11Points": 311
     },
     {
       "team": "Tikoo",
@@ -1346,9 +1346,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 46,
+          "r": 58,
           "w": 1,
-          "o": 4.5
+          "o": 6.4
         },
         {
           "inning": "Gujarat Titans",
@@ -1482,9 +1482,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 46,
+          "runs": 58,
           "wickets": 1,
-          "overs": 4.5,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -1497,24 +1497,40 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 16,
-              "balls": 8,
-              "fours": 0,
+              "runs": 21,
+              "balls": 14,
+              "fours": 1,
               "sixes": 2,
-              "sr": 200,
+              "sr": 150,
               "dismissal": "not out"
             },
             {
               "name": "Cooper Connolly",
-              "runs": 22,
-              "balls": 13,
-              "fours": 1,
+              "runs": 29,
+              "balls": 18,
+              "fours": 2,
               "sixes": 2,
-              "sr": 169.23,
+              "sr": 161.11,
               "dismissal": "not out"
             }
           ],
           "bowling": [
+            {
+              "name": "Washington Sundar",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 4.5
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 5
+            },
             {
               "name": "Kagiso Rabada",
               "overs": 2,
@@ -1525,11 +1541,11 @@
             },
             {
               "name": "Ashok Sharma",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 10.8
+              "economy": 13
             },
             {
               "name": "Mohammed Siraj",
@@ -1550,10 +1566,10 @@
           "total": 9
         },
         "Prabhsimran Singh": {
-          "batting": 20,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 31
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -2525,8 +2541,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 300,
-      "top11Points": 300,
+      "totalPointsAll": 311,
+      "top11Points": 311,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2562,6 +2578,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 31,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 31,
+          "multiplier": 1,
+          "effectivePoints": 31,
+          "countsInTop11": true
+        },
+        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -2570,17 +2597,6 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": 20,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 20,
-          "multiplier": 1,
-          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
