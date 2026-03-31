@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T16:15:26.320Z",
+  "lastUpdated": "2026-03-31T16:24:58.014Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 7,
-        "w": 0,
-        "o": 0.6
+        "r": 14,
+        "w": 1,
+        "o": 2.5
       },
       {
         "inning": "Gujarat Titans",
@@ -28,10 +28,10 @@
         "total": 9
       },
       "Prabhsimran Singh": {
-        "batting": -5,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 2
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -125,15 +125,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Ashutosh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -157,13 +157,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 380,
-      "top11Points": 405
+      "totalPointsAll": 405,
+      "top11Points": 430
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 378,
-      "top11Points": 378
+      "totalPointsAll": 386,
+      "top11Points": 386
     },
     {
       "team": "Tikoo",
@@ -172,8 +172,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 275,
-      "top11Points": 275
+      "totalPointsAll": 282,
+      "top11Points": 282
     },
     {
       "team": "Aakash",
@@ -1346,9 +1346,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 7,
-          "w": 0,
-          "o": 0.6
+          "r": 14,
+          "w": 1,
+          "o": 2.5
         },
         {
           "inning": "Gujarat Titans",
@@ -1482,37 +1482,54 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 7,
-          "wickets": 0,
-          "overs": 0.6,
+          "runs": 14,
+          "wickets": 1,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Priyansh Arya",
               "runs": 7,
-              "balls": 6,
+              "balls": 8,
               "fours": 0,
               "sixes": 1,
-              "sr": 116.66,
-              "dismissal": "not out"
+              "sr": 87.5,
+              "dismissal": "c"
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 0,
-              "balls": 0,
+              "runs": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 66.66,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 9,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 128.57,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
+              "name": "Kagiso Rabada",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 3
+            },
+            {
               "name": "Mohammed Siraj",
-              "overs": 0.6,
+              "overs": 1.6,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 7
+              "economy": 7.5
             }
           ]
         }
@@ -1525,10 +1542,10 @@
           "total": 9
         },
         "Prabhsimran Singh": {
-          "batting": -5,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 2
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -1622,15 +1639,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Ashutosh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -1650,8 +1667,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 380,
-      "top11Points": 405,
+      "totalPointsAll": 405,
+      "top11Points": 430,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -1720,6 +1737,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 0,
@@ -1732,17 +1760,6 @@
         },
         {
           "name": "Matheesha Pathirana",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
@@ -2500,8 +2517,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 275,
-      "top11Points": 275,
+      "totalPointsAll": 282,
+      "top11Points": 282,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2570,6 +2587,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 2,
+          "multiplier": 1,
+          "effectivePoints": 2,
+          "countsInTop11": true
+        },
+        {
           "name": "Will Jacks",
           "role": "All-Rounder",
           "batting": 0,
@@ -2603,17 +2631,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
-          "countsInTop11": true
-        },
-        {
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": -5,
@@ -2627,8 +2644,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 378,
-      "top11Points": 378,
+      "totalPointsAll": 386,
+      "top11Points": 386,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -2708,6 +2725,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 0,
@@ -2732,17 +2760,6 @@
         {
           "name": "Mayank Markande",
           "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
