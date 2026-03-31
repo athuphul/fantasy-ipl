@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T17:24:53.632Z",
+  "lastUpdated": "2026-03-31T17:35:03.196Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 118,
+        "r": 141,
         "w": 6,
-        "o": 14.4
+        "o": 16.3
       },
       {
         "inning": "Gujarat Titans",
@@ -58,10 +58,10 @@
         "total": -5
       },
       "Marco Jansen": {
-        "batting": 0,
+        "batting": 11,
         "bowling": 45,
         "fielding": 8,
-        "total": 53
+        "total": 64
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -143,9 +143,9 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 85,
+        "bowling": 105,
         "fielding": 8,
-        "total": 93
+        "total": 113
       }
     }
   },
@@ -161,14 +161,14 @@
       "top11Points": 425
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 396,
+      "top11Points": 410
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 381,
       "top11Points": 381
-    },
-    {
-      "team": "Tikoo",
-      "totalPointsAll": 365,
-      "top11Points": 379
     },
     {
       "team": "Tanay",
@@ -1346,9 +1346,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 118,
+          "r": 141,
           "w": 6,
-          "o": 14.4
+          "o": 16.3
         },
         {
           "inning": "Gujarat Titans",
@@ -1482,9 +1482,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 118,
+          "runs": 141,
           "wickets": 6,
-          "overs": 14.4,
+          "overs": 16.3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -1506,11 +1506,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 48,
-              "balls": 32,
-              "fours": 2,
-              "sixes": 4,
-              "sr": 150,
+              "runs": 60,
+              "balls": 37,
+              "fours": 3,
+              "sixes": 5,
+              "sr": 162.16,
               "dismissal": "not out"
             },
             {
@@ -1548,6 +1548,15 @@
               "sixes": 0,
               "sr": 0,
               "dismissal": "c"
+            },
+            {
+              "name": "Marco Jansen",
+              "runs": 9,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 150,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -1569,11 +1578,11 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 11
+              "economy": 11.33
             },
             {
               "name": "Ashok Sharma",
@@ -1593,11 +1602,11 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 1.4,
+              "overs": 2.3,
               "maidens": 0,
               "runs": 0,
               "wickets": 3,
-              "economy": 1.8
+              "economy": 5.6
             }
           ]
         }
@@ -1640,10 +1649,10 @@
           "total": -5
         },
         "Marco Jansen": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 45,
           "fielding": 8,
-          "total": 53
+          "total": 64
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -1725,9 +1734,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 85,
+          "bowling": 105,
           "fielding": 8,
-          "total": 93
+          "total": 113
         }
       },
       "isComplete": false
@@ -2850,18 +2859,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 365,
-      "top11Points": 379,
+      "totalPointsAll": 396,
+      "top11Points": 410,
       "players": [
         {
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 85,
+          "bowling": 105,
           "fielding": 8,
-          "rawPoints": 93,
+          "rawPoints": 113,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -2889,12 +2898,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 11,
           "bowling": 45,
           "fielding": 8,
-          "rawPoints": 53,
+          "rawPoints": 64,
           "multiplier": 1,
-          "effectivePoints": 53,
+          "effectivePoints": 64,
           "countsInTop11": true
         },
         {
