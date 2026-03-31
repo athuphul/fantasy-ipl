@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-03-30T20:04:59.231Z",
+  "lastUpdated": "2026-03-31T14:04:59.119Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527677",
+    "name": "Punjab Kings v Gujarat Titans",
+    "status": "Live",
+    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 8,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shreyas Iyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nehal Wadhera": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shashank Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marcus Stoinis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Sudharsan": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
+      },
+      "Shubman Gill": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Kishan",
@@ -30,13 +105,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 147,
-      "top11Points": 157
+      "totalPointsAll": 161,
+      "top11Points": 171
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 110,
-      "top11Points": 110
+      "totalPointsAll": 114,
+      "top11Points": 114
     },
     {
       "team": "Manav",
@@ -1189,6 +1264,122 @@
           ]
         }
       ]
+    },
+    {
+      "matchId": "espn_1527677",
+      "name": "Punjab Kings v Gujarat Titans",
+      "date": "2026-03-31",
+      "status": "Live",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+      "score": [
+        {
+          "inning": "Gujarat Titans",
+          "r": 8,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Gujarat Titans",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 6,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 150,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 9.6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shreyas Iyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nehal Wadhera": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shashank Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marcus Stoinis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Shubman Gill": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -1342,8 +1533,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 147,
-      "top11Points": 157,
+      "totalPointsAll": 161,
+      "top11Points": 171,
       "players": [
         {
           "name": "Jofra Archer",
@@ -1379,6 +1570,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sai Sudharsan",
+          "role": "Opener",
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 7,
+          "multiplier": 2,
+          "effectivePoints": 14,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 0,
@@ -1397,17 +1599,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sai Sudharsan",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -1618,8 +1809,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 110,
-      "top11Points": 110,
+      "totalPointsAll": 114,
+      "top11Points": 114,
       "players": [
         {
           "name": "Romario Shepherd",
@@ -1652,6 +1843,17 @@
           "rawPoints": 5,
           "multiplier": 1,
           "effectivePoints": 5,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Opener",
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 2,
+          "multiplier": 2,
+          "effectivePoints": 4,
           "countsInTop11": true
         },
         {
@@ -1695,17 +1897,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shubman Gill",
-          "role": "Opener",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
