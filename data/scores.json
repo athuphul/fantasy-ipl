@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T17:35:03.196Z",
+  "lastUpdated": "2026-03-31T17:45:06.897Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 141,
-        "w": 6,
-        "o": 16.3
+        "r": 147,
+        "w": 7,
+        "o": 18
       },
       {
         "inning": "Gujarat Titans",
@@ -58,10 +58,10 @@
         "total": -5
       },
       "Marco Jansen": {
-        "batting": 11,
+        "batting": 6,
         "bowling": 45,
         "fielding": 8,
-        "total": 64
+        "total": 59
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -84,8 +84,8 @@
       "Shubman Gill": {
         "batting": 45,
         "bowling": 0,
-        "fielding": 8,
-        "total": 53
+        "fielding": 16,
+        "total": 61
       },
       "Jos Buttler": {
         "batting": 45,
@@ -131,9 +131,9 @@
       },
       "Ashutosh Sharma": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 20,
         "fielding": 8,
-        "total": -2
+        "total": 28
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -161,19 +161,19 @@
       "top11Points": 425
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 406,
+      "top11Points": 406
+    },
+    {
       "team": "Tikoo",
-      "totalPointsAll": 396,
-      "top11Points": 410
+      "totalPointsAll": 391,
+      "top11Points": 405
     },
     {
       "team": "Ritik",
       "totalPointsAll": 381,
       "top11Points": 381
-    },
-    {
-      "team": "Tanay",
-      "totalPointsAll": 376,
-      "top11Points": 378
     },
     {
       "team": "Aakash",
@@ -182,8 +182,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 229,
-      "top11Points": 229
+      "totalPointsAll": 245,
+      "top11Points": 245
     },
     {
       "team": "Manav",
@@ -1346,9 +1346,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 141,
-          "w": 6,
-          "o": 16.3
+          "r": 147,
+          "w": 7,
+          "o": 18
         },
         {
           "inning": "Gujarat Titans",
@@ -1482,9 +1482,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 141,
-          "wickets": 6,
-          "overs": 16.3,
+          "runs": 147,
+          "wickets": 7,
+          "overs": 18,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -1506,11 +1506,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 60,
-              "balls": 37,
+              "runs": 62,
+              "balls": 40,
               "fours": 3,
               "sixes": 5,
-              "sr": 162.16,
+              "sr": 155,
               "dismissal": "not out"
             },
             {
@@ -1552,9 +1552,18 @@
             {
               "name": "Marco Jansen",
               "runs": 9,
-              "balls": 6,
+              "balls": 10,
               "fours": 0,
               "sixes": 1,
+              "sr": 90,
+              "dismissal": "c"
+            },
+            {
+              "name": "Xavier Bartlett",
+              "runs": 3,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
               "sr": 150,
               "dismissal": "not out"
             }
@@ -1586,11 +1595,11 @@
             },
             {
               "name": "Ashok Sharma",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 13
+              "wickets": 1,
+              "economy": 10.33
             },
             {
               "name": "Mohammed Siraj",
@@ -1602,11 +1611,11 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 3,
-              "economy": 5.6
+              "economy": 5
             }
           ]
         }
@@ -1649,10 +1658,10 @@
           "total": -5
         },
         "Marco Jansen": {
-          "batting": 11,
+          "batting": 6,
           "bowling": 45,
           "fielding": 8,
-          "total": 64
+          "total": 59
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -1675,8 +1684,8 @@
         "Shubman Gill": {
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "total": 53
+          "fielding": 16,
+          "total": 61
         },
         "Jos Buttler": {
           "batting": 45,
@@ -1722,9 +1731,9 @@
         },
         "Ashutosh Sharma": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 20,
           "fielding": 8,
-          "total": -2
+          "total": 28
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -2169,18 +2178,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 229,
-      "top11Points": 229,
+      "totalPointsAll": 245,
+      "top11Points": 245,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 53,
+          "fielding": 16,
+          "rawPoints": 61,
           "multiplier": 2,
-          "effectivePoints": 106,
+          "effectivePoints": 122,
           "countsInTop11": true
         },
         {
@@ -2721,8 +2730,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 376,
-      "top11Points": 378,
+      "totalPointsAll": 406,
+      "top11Points": 406,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -2777,6 +2786,17 @@
           "rawPoints": 31,
           "multiplier": 1,
           "effectivePoints": 31,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 8,
+          "rawPoints": 28,
+          "multiplier": 1,
+          "effectivePoints": 28,
           "countsInTop11": true
         },
         {
@@ -2843,24 +2863,13 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 8,
-          "rawPoints": -2,
-          "multiplier": 1,
-          "effectivePoints": -2,
           "countsInTop11": false
         }
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 396,
-      "top11Points": 410,
+      "totalPointsAll": 391,
+      "top11Points": 405,
       "players": [
         {
           "name": "Prasidh Krishna",
@@ -2898,12 +2907,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 11,
+          "batting": 6,
           "bowling": 45,
           "fielding": 8,
-          "rawPoints": 64,
+          "rawPoints": 59,
           "multiplier": 1,
-          "effectivePoints": 64,
+          "effectivePoints": 59,
           "countsInTop11": true
         },
         {
