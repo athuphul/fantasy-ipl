@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T14:24:54.392Z",
+  "lastUpdated": "2026-03-31T14:35:14.683Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 43,
+        "r": 62,
         "w": 1,
-        "o": 4.5
+        "o": 6.3
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -70,16 +70,16 @@
         "total": 15
       },
       "Shubman Gill": {
-        "batting": 32,
+        "batting": 39,
         "bowling": 0,
         "fielding": 0,
-        "total": 32
+        "total": 39
       },
       "Jos Buttler": {
-        "batting": 6,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 27
       }
     }
   },
@@ -101,23 +101,23 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 228,
-      "top11Points": 242
+      "totalPointsAll": 248,
+      "top11Points": 262
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 226,
-      "top11Points": 226
+      "totalPointsAll": 258,
+      "top11Points": 258
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 188,
+      "top11Points": 188
     },
     {
       "team": "Aakash",
       "totalPointsAll": 177,
       "top11Points": 187
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 174,
-      "top11Points": 174
     },
     {
       "team": "Manav",
@@ -1280,17 +1280,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 43,
+          "r": 62,
           "w": 1,
-          "o": 4.5
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 41,
+          "runs": 60,
           "wickets": 0,
-          "overs": 4.4,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -1303,31 +1303,31 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 23,
-              "balls": 14,
-              "fours": 4,
+              "runs": 29,
+              "balls": 17,
+              "fours": 5,
               "sixes": 0,
-              "sr": 164.28,
+              "sr": 170.58,
               "dismissal": "not out"
             },
             {
               "name": "Jos Buttler",
-              "runs": 5,
-              "balls": 4,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 125,
+              "runs": 18,
+              "balls": 11,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 163.63,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Marco Jansen",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 2
+              "economy": 4.5
             },
             {
               "name": "Xavier Bartlett",
@@ -1339,11 +1339,11 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 0.5,
+              "overs": 1.3,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 7.2
+              "economy": 12
             },
             {
               "name": "Arshdeep Singh",
@@ -1389,9 +1389,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -1412,16 +1412,16 @@
           "total": 15
         },
         "Shubman Gill": {
-          "batting": 32,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "total": 32
+          "total": 39
         },
         "Jos Buttler": {
-          "batting": 6,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 27
         }
       },
       "isComplete": false
@@ -1854,9 +1854,20 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 174,
-      "top11Points": 174,
+      "totalPointsAll": 188,
+      "top11Points": 188,
       "players": [
+        {
+          "name": "Shubman Gill",
+          "role": "Opener",
+          "batting": 39,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 39,
+          "multiplier": 2,
+          "effectivePoints": 78,
+          "countsInTop11": true
+        },
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
@@ -1866,17 +1877,6 @@
           "rawPoints": 75,
           "multiplier": 1,
           "effectivePoints": 75,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shubman Gill",
-          "role": "Opener",
-          "batting": 32,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 32,
-          "multiplier": 2,
-          "effectivePoints": 64,
           "countsInTop11": true
         },
         {
@@ -2279,8 +2279,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 226,
-      "top11Points": 226,
+      "totalPointsAll": 258,
+      "top11Points": 258,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2291,6 +2291,17 @@
           "rawPoints": 123,
           "multiplier": 1,
           "effectivePoints": 123,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Wicket Keeper",
+          "batting": 27,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 27,
+          "multiplier": 1.5,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
@@ -2335,17 +2346,6 @@
           "rawPoints": 15,
           "multiplier": 1,
           "effectivePoints": 15,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jos Buttler",
-          "role": "Wicket Keeper",
-          "batting": 6,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 6,
-          "multiplier": 1.5,
-          "effectivePoints": 9,
           "countsInTop11": true
         },
         {
@@ -2544,8 +2544,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 228,
-      "top11Points": 242,
+      "totalPointsAll": 248,
+      "top11Points": 262,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -2570,6 +2570,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
+          "countsInTop11": true
+        },
+        {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
           "batting": 21,
@@ -2578,17 +2589,6 @@
           "rawPoints": 29,
           "multiplier": 1,
           "effectivePoints": 29,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 25,
-          "multiplier": 1,
-          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
