@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T15:34:53.836Z",
+  "lastUpdated": "2026-03-31T15:44:58.329Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527677",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 144,
-        "w": 4,
-        "o": 18
+        "r": 148,
+        "w": 5,
+        "o": 18.4
       }
     ],
     "playerScores": {
@@ -104,6 +104,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 4
+      },
+      "Rahul Tewatia": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
       }
     }
   },
@@ -130,8 +136,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 260,
-      "top11Points": 274
+      "totalPointsAll": 264,
+      "top11Points": 278
     },
     {
       "team": "Aakash",
@@ -1304,17 +1310,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 144,
-          "w": 4,
-          "o": 18
+          "r": 148,
+          "w": 5,
+          "o": 18.4
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 137,
+          "runs": 141,
           "wickets": 0,
-          "overs": 18,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -1369,6 +1375,15 @@
               "sixes": 0,
               "sr": 80,
               "dismissal": "not out"
+            },
+            {
+              "name": "Rahul Tewatia",
+              "runs": 4,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -1390,11 +1405,11 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 3.1,
+              "overs": 3.4,
               "maidens": 0,
               "runs": 0,
               "wickets": 2,
-              "economy": 8.84
+              "economy": 9
             },
             {
               "name": "Arshdeep Singh",
@@ -1501,6 +1516,12 @@
           "total": 20
         },
         "Shahrukh Khan": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
+        },
+        "Rahul Tewatia": {
           "batting": 4,
           "bowling": 0,
           "fielding": 0,
@@ -2627,8 +2648,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 260,
-      "top11Points": 274,
+      "totalPointsAll": 264,
+      "top11Points": 278,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -2697,6 +2718,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rahul Tewatia",
+          "role": "All-Rounder",
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 4,
+          "multiplier": 1,
+          "effectivePoints": 4,
+          "countsInTop11": true
+        },
+        {
           "name": "Shahrukh Khan",
           "role": "Batsman",
           "batting": 4,
@@ -2743,17 +2775,6 @@
         {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rahul Tewatia",
-          "role": "All-Rounder",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
