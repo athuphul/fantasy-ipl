@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T14:24:57.617Z",
+  "lastUpdated": "2026-04-01T14:35:16.035Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 36,
-        "w": 1,
-        "o": 4.3
+        "r": 49,
+        "w": 3,
+        "o": 6.3
       }
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 22,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 25
       },
       "Rishabh Pant": {
         "batting": 8,
@@ -28,16 +28,22 @@
         "total": 8
       },
       "Aiden Markram": {
-        "batting": 6,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 14
+      },
+      "Ayush Badoni": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       },
       "KL Rahul": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Nitish Rana": {
         "batting": 0,
@@ -53,9 +59,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 37,
         "fielding": 0,
-        "total": 0
+        "total": 37
       },
       "David Miller": {
         "batting": 0,
@@ -83,9 +89,9 @@
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
@@ -97,8 +103,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 400,
-      "top11Points": 425
+      "totalPointsAll": 395,
+      "top11Points": 420
     },
     {
       "team": "Tanay",
@@ -106,14 +112,14 @@
       "top11Points": 406
     },
     {
+      "team": "Ritik",
+      "totalPointsAll": 395,
+      "top11Points": 395
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 376,
       "top11Points": 390
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 387,
-      "top11Points": 387
     },
     {
       "team": "Ashwin",
@@ -127,13 +133,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 92,
-      "top11Points": 106
+      "totalPointsAll": 166,
+      "top11Points": 180
     },
     {
       "team": "Ali",
-      "totalPointsAll": 103,
-      "top11Points": 103
+      "totalPointsAll": 147,
+      "top11Points": 147
     }
   ],
   "matchHistory": [
@@ -1699,25 +1705,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 36,
-          "w": 1,
-          "o": 4.3
+          "r": 49,
+          "w": 3,
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 36,
-          "wickets": 1,
-          "overs": 4.3,
+          "runs": 49,
+          "wickets": 3,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 18,
-              "balls": 14,
+              "runs": 21,
+              "balls": 19,
               "fours": 2,
               "sixes": 1,
-              "sr": 128.57,
+              "sr": 110.52,
               "dismissal": "not out"
             },
             {
@@ -1731,22 +1737,31 @@
             },
             {
               "name": "Aiden Markram",
-              "runs": 5,
-              "balls": 4,
+              "runs": 11,
+              "balls": 8,
               "fours": 1,
+              "sixes": 1,
+              "sr": 137.5,
+              "dismissal": "out"
+            },
+            {
+              "name": "Ayush Badoni",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
               "sixes": 0,
-              "sr": 125,
-              "dismissal": "not out"
+              "sr": 0,
+              "dismissal": "c"
             }
           ],
           "bowling": [
             {
               "name": "Axar Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 6
+              "wickets": 1,
+              "economy": 6.5
             },
             {
               "name": "Lungi Ngidi",
@@ -1757,22 +1772,30 @@
               "economy": 10
             },
             {
+              "name": "T Natarajan",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 2
+            },
+            {
               "name": "Mukesh Kumar",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 6.4
+              "economy": 5.66
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 22,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 25
         },
         "Rishabh Pant": {
           "batting": 8,
@@ -1781,16 +1804,22 @@
           "total": 8
         },
         "Aiden Markram": {
-          "batting": 6,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 14
+        },
+        "Ayush Badoni": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         },
         "KL Rahul": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Nitish Rana": {
           "batting": 0,
@@ -1806,9 +1835,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 37,
           "fielding": 0,
-          "total": 0
+          "total": 37
         },
         "David Miller": {
           "batting": 0,
@@ -1836,9 +1865,9 @@
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -1846,8 +1875,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 400,
-      "top11Points": 425,
+      "totalPointsAll": 395,
+      "top11Points": 420,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -1949,17 +1978,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Ayush Badoni",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
           "batting": 0,
@@ -1973,6 +1991,17 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ayush Badoni",
+          "role": "Batsman",
           "batting": -5,
           "bowling": 0,
           "fielding": 0,
@@ -2133,8 +2162,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 103,
-      "top11Points": 103,
+      "totalPointsAll": 147,
+      "top11Points": 147,
       "players": [
         {
           "name": "Shreyas Iyer",
@@ -2145,6 +2174,28 @@
           "rawPoints": 35,
           "multiplier": 1,
           "effectivePoints": 35,
+          "countsInTop11": true
+        },
+        {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 25,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
@@ -2159,14 +2210,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 22,
+          "name": "KL Rahul",
+          "role": "Wicket Keeper",
+          "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 22,
-          "multiplier": 1,
-          "effectivePoints": 22,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 2,
+          "effectivePoints": 16,
           "countsInTop11": true
         },
         {
@@ -2221,28 +2272,6 @@
           "fielding": 0,
           "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "KL Rahul",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
           "effectivePoints": 0,
           "countsInTop11": true
         },
@@ -2536,9 +2565,20 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 92,
-      "top11Points": 106,
+      "totalPointsAll": 166,
+      "top11Points": 180,
       "players": [
+        {
+          "name": "Axar Patel",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 37,
+          "fielding": 0,
+          "rawPoints": 37,
+          "multiplier": 2,
+          "effectivePoints": 74,
+          "countsInTop11": true
+        },
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
@@ -2628,17 +2668,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Axar Patel",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 2,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 0,
@@ -2696,8 +2725,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 387,
-      "top11Points": 387,
+      "totalPointsAll": 395,
+      "top11Points": 395,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2790,12 +2819,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 6,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 6,
+          "rawPoints": 14,
           "multiplier": 1,
-          "effectivePoints": 6,
+          "effectivePoints": 14,
           "countsInTop11": true
         },
         {
