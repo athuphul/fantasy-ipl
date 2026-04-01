@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T14:45:00.113Z",
+  "lastUpdated": "2026-04-01T14:55:10.634Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 64,
-        "w": 3,
-        "o": 8.3
+        "r": 71,
+        "w": 5,
+        "o": 9.3
       }
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 34,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 34
+        "total": 43
       },
       "Rishabh Pant": {
         "batting": 8,
@@ -44,6 +44,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 9
+      },
+      "Abdul Samad": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       },
       "KL Rahul": {
         "batting": 0,
@@ -78,20 +84,20 @@
       "Tristan Stubbs": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "T Natarajan": {
         "batting": 0,
@@ -104,13 +110,18 @@
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 554,
-      "top11Points": 554
+      "totalPointsAll": 579,
+      "top11Points": 579
     },
     {
       "team": "Athu",
       "totalPointsAll": 395,
       "top11Points": 420
+    },
+    {
+      "team": "Tikoo",
+      "totalPointsAll": 401,
+      "top11Points": 415
     },
     {
       "team": "Tanay",
@@ -123,13 +134,8 @@
       "top11Points": 395
     },
     {
-      "team": "Tikoo",
-      "totalPointsAll": 376,
-      "top11Points": 390
-    },
-    {
       "team": "Ashwin",
-      "totalPointsAll": 253,
+      "totalPointsAll": 248,
       "top11Points": 253
     },
     {
@@ -144,8 +150,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 156,
-      "top11Points": 156
+      "totalPointsAll": 173,
+      "top11Points": 173
     }
   ],
   "matchHistory": [
@@ -1711,26 +1717,26 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 64,
-          "w": 3,
-          "o": 8.3
+          "r": 71,
+          "w": 5,
+          "o": 9.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 64,
-          "wickets": 3,
-          "overs": 8.3,
+          "runs": 71,
+          "wickets": 5,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 28,
-              "balls": 24,
+              "runs": 35,
+              "balls": 28,
               "fours": 2,
-              "sixes": 2,
-              "sr": 116.66,
-              "dismissal": "not out"
+              "sixes": 3,
+              "sr": 125,
+              "dismissal": "c"
             },
             {
               "name": "Rishabh Pant",
@@ -1762,10 +1768,19 @@
             {
               "name": "Nicholas Pooran",
               "runs": 8,
-              "balls": 7,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 114.28,
+              "sr": 100,
+              "dismissal": "out"
+            },
+            {
+              "name": "Abdul Samad",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "not out"
             }
           ],
@@ -1780,19 +1795,19 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 11.33
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 7
+              "wickets": 1,
+              "economy": 10.2
             },
             {
               "name": "T Natarajan",
@@ -1815,10 +1830,10 @@
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 34,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 34
+          "total": 43
         },
         "Rishabh Pant": {
           "batting": 8,
@@ -1843,6 +1858,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 9
+        },
+        "Abdul Samad": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         },
         "KL Rahul": {
           "batting": 0,
@@ -1877,20 +1898,20 @@
         "Tristan Stubbs": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "T Natarajan": {
           "batting": 0,
@@ -2191,9 +2212,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 156,
-      "top11Points": 156,
+      "totalPointsAll": 173,
+      "top11Points": 173,
       "players": [
+        {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 43,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 43,
+          "multiplier": 1,
+          "effectivePoints": 43,
+          "countsInTop11": true
+        },
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
@@ -2203,17 +2235,6 @@
           "rawPoints": 35,
           "multiplier": 1,
           "effectivePoints": 35,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 34,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 34,
-          "multiplier": 1,
-          "effectivePoints": 34,
           "countsInTop11": true
         },
         {
@@ -2261,6 +2282,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tristan Stubbs",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": 0,
@@ -2280,17 +2312,6 @@
           "rawPoints": 3,
           "multiplier": 1,
           "effectivePoints": 3,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tristan Stubbs",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -2329,7 +2350,7 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 253,
+      "totalPointsAll": 248,
       "top11Points": 253,
       "players": [
         {
@@ -2456,19 +2477,19 @@
         {
           "name": "Abdul Samad",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": -5,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
     },
     "Kishan": {
-      "totalPointsAll": 554,
-      "top11Points": 554,
+      "totalPointsAll": 579,
+      "top11Points": 579,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -2537,6 +2558,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
+          "countsInTop11": true
+        },
+        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 9,
@@ -2545,17 +2577,6 @@
           "rawPoints": 9,
           "multiplier": 1.5,
           "effectivePoints": 14,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -3019,8 +3040,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 376,
-      "top11Points": 390,
+      "totalPointsAll": 401,
+      "top11Points": 415,
       "players": [
         {
           "name": "Prasidh Krishna",
@@ -3075,6 +3096,17 @@
           "rawPoints": 29,
           "multiplier": 1,
           "effectivePoints": 29,
+          "countsInTop11": true
+        },
+        {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
@@ -3135,17 +3167,6 @@
         {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
