@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T17:15:01.090Z",
+  "lastUpdated": "2026-04-01T17:24:58.040Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 106,
+        "r": 126,
         "w": 4,
-        "o": 14
+        "o": 15.5
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": 14
       },
       "Sameer Rizvi": {
-        "batting": 69,
+        "batting": 84,
         "bowling": 0,
         "fielding": 0,
-        "total": 69
+        "total": 84
       },
       "Axar Patel": {
         "batting": -5,
@@ -94,10 +94,10 @@
         "total": 40
       },
       "Tristan Stubbs": {
-        "batting": 26,
+        "batting": 35,
         "bowling": 0,
         "fielding": 16,
-        "total": 42
+        "total": 51
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -159,8 +159,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 360,
-      "top11Points": 370
+      "totalPointsAll": 375,
+      "top11Points": 385
     },
     {
       "team": "Ashwin",
@@ -169,8 +169,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 262,
-      "top11Points": 262
+      "totalPointsAll": 271,
+      "top11Points": 271
     },
     {
       "team": "Manav",
@@ -1747,9 +1747,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 106,
+          "r": 126,
           "w": 4,
-          "o": 14
+          "o": 15.5
         }
       ],
       "scorecard": [
@@ -1912,9 +1912,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 91,
+          "runs": 111,
           "wickets": 0,
-          "overs": 14,
+          "overs": 15.5,
           "batting": [
             {
               "name": "KL Rahul",
@@ -1945,11 +1945,11 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 51,
-              "balls": 38,
-              "fours": 4,
-              "sixes": 2,
-              "sr": 134.21,
+              "runs": 63,
+              "balls": 43,
+              "fours": 5,
+              "sixes": 3,
+              "sr": 146.51,
               "dismissal": "not out"
             },
             {
@@ -1963,11 +1963,11 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 24,
-              "balls": 22,
-              "fours": 2,
+              "runs": 32,
+              "balls": 28,
+              "fours": 3,
               "sixes": 0,
-              "sr": 109.09,
+              "sr": 114.28,
               "dismissal": "not out"
             }
           ],
@@ -1998,19 +1998,19 @@
             },
             {
               "name": "Anrich Nortje",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 8.66
             },
             {
               "name": "Mohsin Khan",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 1,
               "runs": 0,
               "wickets": 1,
-              "economy": 2
+              "economy": 4.95
             },
             {
               "name": "Prince Yadav",
@@ -2085,10 +2085,10 @@
           "total": 14
         },
         "Sameer Rizvi": {
-          "batting": 69,
+          "batting": 84,
           "bowling": 0,
           "fielding": 0,
-          "total": 69
+          "total": 84
         },
         "Axar Patel": {
           "batting": -5,
@@ -2097,10 +2097,10 @@
           "total": 40
         },
         "Tristan Stubbs": {
-          "batting": 26,
+          "batting": 35,
           "bowling": 0,
           "fielding": 16,
-          "total": 42
+          "total": 51
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -2287,9 +2287,20 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 360,
-      "top11Points": 370,
+      "totalPointsAll": 375,
+      "top11Points": 385,
       "players": [
+        {
+          "name": "Sameer Rizvi",
+          "role": "Batsman",
+          "batting": 84,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 84,
+          "multiplier": 1,
+          "effectivePoints": 84,
+          "countsInTop11": true
+        },
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
@@ -2299,17 +2310,6 @@
           "rawPoints": 70,
           "multiplier": 1,
           "effectivePoints": 70,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sameer Rizvi",
-          "role": "Batsman",
-          "batting": 69,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 69,
-          "multiplier": 1,
-          "effectivePoints": 69,
           "countsInTop11": true
         },
         {
@@ -2425,8 +2425,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 262,
-      "top11Points": 262,
+      "totalPointsAll": 271,
+      "top11Points": 271,
       "players": [
         {
           "name": "T Natarajan",
@@ -2440,6 +2440,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tristan Stubbs",
+          "role": "Batsman",
+          "batting": 35,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 51,
+          "multiplier": 1,
+          "effectivePoints": 51,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 43,
@@ -2448,17 +2459,6 @@
           "rawPoints": 43,
           "multiplier": 1,
           "effectivePoints": 43,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tristan Stubbs",
-          "role": "Batsman",
-          "batting": 26,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 42,
-          "multiplier": 1,
-          "effectivePoints": 42,
           "countsInTop11": true
         },
         {
