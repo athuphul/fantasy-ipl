@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T15:35:36.409Z",
+  "lastUpdated": "2026-04-01T15:45:12.853Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 140,
-        "w": 8,
-        "o": 18
+        "r": 141,
+        "w": 10,
+        "o": 18.4
       }
     ],
     "playerScores": {
@@ -52,10 +52,10 @@
         "total": 41
       },
       "Shahbaz Ahmed": {
-        "batting": 15,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 11
       },
       "Mohammed Shami": {
         "batting": 1,
@@ -96,14 +96,14 @@
       "Tristan Stubbs": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 90,
         "fielding": 0,
-        "total": 25
+        "total": 90
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -126,14 +126,14 @@
       "top11Points": 625
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 410,
-      "top11Points": 435
+      "team": "Tikoo",
+      "totalPointsAll": 474,
+      "top11Points": 488
     },
     {
-      "team": "Tikoo",
-      "totalPointsAll": 409,
-      "top11Points": 423
+      "team": "Athu",
+      "totalPointsAll": 406,
+      "top11Points": 431
     },
     {
       "team": "Tanay",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 238,
-      "top11Points": 238
+      "totalPointsAll": 246,
+      "top11Points": 246
     },
     {
       "team": "Manav",
@@ -1729,17 +1729,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 140,
-          "w": 8,
-          "o": 18
+          "r": 141,
+          "w": 10,
+          "o": 18.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 140,
-          "wickets": 8,
-          "overs": 18,
+          "runs": 141,
+          "wickets": 10,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -1806,11 +1806,11 @@
             },
             {
               "name": "Shahbaz Ahmed",
-              "runs": 14,
-              "balls": 14,
+              "runs": 15,
+              "balls": 16,
               "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 93.75,
               "dismissal": "not out"
             },
             {
@@ -1820,6 +1820,24 @@
               "fours": 0,
               "sixes": 0,
               "sr": 50,
+              "dismissal": "c"
+            },
+            {
+              "name": "Anrich Nortje",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c"
+            },
+            {
+              "name": "Mohsin Khan",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "c"
             }
           ],
@@ -1842,11 +1860,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
               "runs": 0,
-              "wickets": 1,
-              "economy": 8.66
+              "wickets": 3,
+              "economy": 7.36
             },
             {
               "name": "Kuldeep Yadav",
@@ -1913,10 +1931,10 @@
           "total": 41
         },
         "Shahbaz Ahmed": {
-          "batting": 15,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 11
         },
         "Mohammed Shami": {
           "batting": 1,
@@ -1957,14 +1975,14 @@
         "Tristan Stubbs": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 90,
           "fielding": 0,
-          "total": 25
+          "total": 90
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -1984,8 +2002,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 410,
-      "top11Points": 435,
+      "totalPointsAll": 406,
+      "top11Points": 431,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -2078,12 +2096,12 @@
         {
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
-          "batting": 15,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 15,
+          "rawPoints": 11,
           "multiplier": 1,
-          "effectivePoints": 15,
+          "effectivePoints": 11,
           "countsInTop11": true
         },
         {
@@ -2271,8 +2289,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 238,
-      "top11Points": 238,
+      "totalPointsAll": 246,
+      "top11Points": 246,
       "players": [
         {
           "name": "T Natarajan",
@@ -2319,6 +2337,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tristan Stubbs",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 16,
+          "multiplier": 1,
+          "effectivePoints": 16,
+          "countsInTop11": true
+        },
+        {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
           "batting": 0,
@@ -2338,17 +2367,6 @@
           "rawPoints": 9,
           "multiplier": 1.5,
           "effectivePoints": 14,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tristan Stubbs",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 8,
-          "multiplier": 1,
-          "effectivePoints": 8,
           "countsInTop11": true
         },
         {
@@ -3099,8 +3117,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 409,
-      "top11Points": 423,
+      "totalPointsAll": 474,
+      "top11Points": 488,
       "players": [
         {
           "name": "Prasidh Krishna",
@@ -3122,6 +3140,17 @@
           "rawPoints": 91,
           "multiplier": 1,
           "effectivePoints": 91,
+          "countsInTop11": true
+        },
+        {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 90,
+          "fielding": 0,
+          "rawPoints": 90,
+          "multiplier": 1,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -3155,17 +3184,6 @@
           "rawPoints": 29,
           "multiplier": 1,
           "effectivePoints": 29,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 25,
-          "multiplier": 1,
-          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
