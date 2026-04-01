@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T15:24:53.852Z",
+  "lastUpdated": "2026-04-01T15:35:36.409Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 126,
-        "w": 6,
-        "o": 15.5
+        "r": 140,
+        "w": 8,
+        "o": 18
       }
     ],
     "playerScores": {
@@ -46,16 +46,22 @@
         "total": 9
       },
       "Abdul Samad": {
-        "batting": 42,
+        "batting": 41,
         "bowling": 0,
         "fielding": 0,
-        "total": 42
+        "total": 41
       },
       "Shahbaz Ahmed": {
-        "batting": 6,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 15
+      },
+      "Mohammed Shami": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "KL Rahul": {
         "batting": 0,
@@ -84,8 +90,8 @@
       "David Miller": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -102,32 +108,32 @@
       "Kuldeep Yadav": {
         "batting": 0,
         "bowling": 55,
-        "fielding": 8,
-        "total": 63
+        "fielding": 16,
+        "total": 71
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 90,
         "fielding": 0,
-        "total": 30
+        "total": 90
       }
     }
   },
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 617,
-      "top11Points": 617
+      "totalPointsAll": 625,
+      "top11Points": 625
     },
     {
       "team": "Athu",
-      "totalPointsAll": 401,
-      "top11Points": 426
+      "totalPointsAll": 410,
+      "top11Points": 435
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 401,
-      "top11Points": 415
+      "totalPointsAll": 409,
+      "top11Points": 423
     },
     {
       "team": "Tanay",
@@ -141,23 +147,23 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 295,
-      "top11Points": 295
+      "totalPointsAll": 294,
+      "top11Points": 294
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 239,
-      "top11Points": 249
+      "totalPointsAll": 240,
+      "top11Points": 250
+    },
+    {
+      "team": "Ali",
+      "totalPointsAll": 238,
+      "top11Points": 238
     },
     {
       "team": "Manav",
       "totalPointsAll": 182,
       "top11Points": 196
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 178,
-      "top11Points": 178
     }
   ],
   "matchHistory": [
@@ -1723,17 +1729,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 126,
-          "w": 6,
-          "o": 15.5
+          "r": 140,
+          "w": 8,
+          "o": 18
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 126,
-          "wickets": 6,
-          "overs": 15.5,
+          "runs": 140,
+          "wickets": 8,
+          "overs": 18,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -1782,12 +1788,12 @@
             },
             {
               "name": "Abdul Samad",
-              "runs": 32,
-              "balls": 21,
+              "runs": 36,
+              "balls": 25,
               "fours": 3,
               "sixes": 1,
-              "sr": 152.38,
-              "dismissal": "not out"
+              "sr": 144,
+              "dismissal": "c"
             },
             {
               "name": "Mukul Choudhary",
@@ -1800,12 +1806,21 @@
             },
             {
               "name": "Shahbaz Ahmed",
-              "runs": 6,
-              "balls": 8,
+              "runs": 14,
+              "balls": 14,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Mohammed Shami",
+              "runs": 1,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 75,
-              "dismissal": "not out"
+              "sr": 50,
+              "dismissal": "c"
             }
           ],
           "bowling": [
@@ -1827,11 +1842,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 9
+              "economy": 8.66
             },
             {
               "name": "Kuldeep Yadav",
@@ -1843,11 +1858,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
-              "wickets": 1,
-              "economy": 8
+              "wickets": 3,
+              "economy": 7.25
             },
             {
               "name": "Mukesh Kumar",
@@ -1892,16 +1907,22 @@
           "total": 9
         },
         "Abdul Samad": {
-          "batting": 42,
+          "batting": 41,
           "bowling": 0,
           "fielding": 0,
-          "total": 42
+          "total": 41
         },
         "Shahbaz Ahmed": {
-          "batting": 6,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 15
+        },
+        "Mohammed Shami": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "KL Rahul": {
           "batting": 0,
@@ -1930,8 +1951,8 @@
         "David Miller": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -1948,14 +1969,14 @@
         "Kuldeep Yadav": {
           "batting": 0,
           "bowling": 55,
-          "fielding": 8,
-          "total": 63
+          "fielding": 16,
+          "total": 71
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 90,
           "fielding": 0,
-          "total": 30
+          "total": 90
         }
       },
       "isComplete": false
@@ -1963,8 +1984,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 401,
-      "top11Points": 426,
+      "totalPointsAll": 410,
+      "top11Points": 435,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -2057,12 +2078,12 @@
         {
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
-          "batting": 6,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 6,
+          "rawPoints": 15,
           "multiplier": 1,
-          "effectivePoints": 6,
+          "effectivePoints": 15,
           "countsInTop11": true
         },
         {
@@ -2112,8 +2133,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 239,
-      "top11Points": 249,
+      "totalPointsAll": 240,
+      "top11Points": 250,
       "players": [
         {
           "name": "Jofra Archer",
@@ -2173,12 +2194,12 @@
         {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 1,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 1,
           "countsInTop11": true
         },
         {
@@ -2250,9 +2271,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 178,
-      "top11Points": 178,
+      "totalPointsAll": 238,
+      "top11Points": 238,
       "players": [
+        {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 90,
+          "fielding": 0,
+          "rawPoints": 90,
+          "multiplier": 1,
+          "effectivePoints": 90,
+          "countsInTop11": true
+        },
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
@@ -2273,17 +2305,6 @@
           "rawPoints": 35,
           "multiplier": 1,
           "effectivePoints": 35,
-          "countsInTop11": true
-        },
-        {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 30,
-          "fielding": 0,
-          "rawPoints": 30,
-          "multiplier": 1,
-          "effectivePoints": 30,
           "countsInTop11": true
         },
         {
@@ -2388,8 +2409,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 295,
-      "top11Points": 295,
+      "totalPointsAll": 294,
+      "top11Points": 294,
       "players": [
         {
           "name": "Shubman Gill",
@@ -2416,12 +2437,12 @@
         {
           "name": "Abdul Samad",
           "role": "All-Rounder",
-          "batting": 42,
+          "batting": 41,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 42,
+          "rawPoints": 41,
           "multiplier": 1,
-          "effectivePoints": 42,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
@@ -2526,8 +2547,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 617,
-      "top11Points": 617,
+      "totalPointsAll": 625,
+      "top11Points": 625,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -2578,10 +2599,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 55,
-          "fielding": 8,
-          "rawPoints": 63,
+          "fielding": 16,
+          "rawPoints": 71,
           "multiplier": 1,
-          "effectivePoints": 63,
+          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -3078,8 +3099,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 401,
-      "top11Points": 415,
+      "totalPointsAll": 409,
+      "top11Points": 423,
       "players": [
         {
           "name": "Prasidh Krishna",
@@ -3170,6 +3191,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 8,
@@ -3189,17 +3221,6 @@
           "rawPoints": 4,
           "multiplier": 1,
           "effectivePoints": 4,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
