@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T17:04:53.434Z",
+  "lastUpdated": "2026-04-01T17:15:01.090Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 86,
+        "r": 106,
         "w": 4,
-        "o": 11.5
+        "o": 14
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": 14
       },
       "Sameer Rizvi": {
-        "batting": 39,
+        "batting": 69,
         "bowling": 0,
         "fielding": 0,
-        "total": 39
+        "total": 69
       },
       "Axar Patel": {
         "batting": -5,
@@ -94,10 +94,10 @@
         "total": 40
       },
       "Tristan Stubbs": {
-        "batting": 24,
+        "batting": 26,
         "bowling": 0,
         "fielding": 16,
-        "total": 40
+        "total": 42
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -159,8 +159,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 330,
-      "top11Points": 340
+      "totalPointsAll": 360,
+      "top11Points": 370
     },
     {
       "team": "Ashwin",
@@ -169,8 +169,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 260,
-      "top11Points": 260
+      "totalPointsAll": 262,
+      "top11Points": 262
     },
     {
       "team": "Manav",
@@ -1747,9 +1747,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 86,
+          "r": 106,
           "w": 4,
-          "o": 11.5
+          "o": 14
         }
       ],
       "scorecard": [
@@ -1912,9 +1912,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 72,
+          "runs": 91,
           "wickets": 0,
-          "overs": 11.5,
+          "overs": 14,
           "batting": [
             {
               "name": "KL Rahul",
@@ -1945,11 +1945,11 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 34,
-              "balls": 28,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 121.42,
+              "runs": 51,
+              "balls": 38,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 134.21,
               "dismissal": "not out"
             },
             {
@@ -1963,15 +1963,23 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 22,
-              "balls": 20,
+              "runs": 24,
+              "balls": 22,
               "fours": 2,
               "sixes": 0,
-              "sr": 110,
+              "sr": 109.09,
               "dismissal": "not out"
             }
           ],
           "bowling": [
+            {
+              "name": "Aiden Markram",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 13
+            },
             {
               "name": "Shahbaz Ahmed",
               "overs": 1,
@@ -1998,7 +2006,7 @@
             },
             {
               "name": "Mohsin Khan",
-              "overs": 2.6,
+              "overs": 3,
               "maidens": 1,
               "runs": 0,
               "wickets": 1,
@@ -2006,11 +2014,11 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 2,
-              "economy": 7
+              "economy": 6.66
             }
           ]
         }
@@ -2077,10 +2085,10 @@
           "total": 14
         },
         "Sameer Rizvi": {
-          "batting": 39,
+          "batting": 69,
           "bowling": 0,
           "fielding": 0,
-          "total": 39
+          "total": 69
         },
         "Axar Patel": {
           "batting": -5,
@@ -2089,10 +2097,10 @@
           "total": 40
         },
         "Tristan Stubbs": {
-          "batting": 24,
+          "batting": 26,
           "bowling": 0,
           "fielding": 16,
-          "total": 40
+          "total": 42
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -2279,8 +2287,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 330,
-      "top11Points": 340,
+      "totalPointsAll": 360,
+      "top11Points": 370,
       "players": [
         {
           "name": "Jofra Archer",
@@ -2291,6 +2299,17 @@
           "rawPoints": 70,
           "multiplier": 1,
           "effectivePoints": 70,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sameer Rizvi",
+          "role": "Batsman",
+          "batting": 69,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 69,
+          "multiplier": 1,
+          "effectivePoints": 69,
           "countsInTop11": true
         },
         {
@@ -2324,17 +2343,6 @@
           "rawPoints": 40,
           "multiplier": 1,
           "effectivePoints": 40,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sameer Rizvi",
-          "role": "Batsman",
-          "batting": 39,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 39,
-          "multiplier": 1,
-          "effectivePoints": 39,
           "countsInTop11": true
         },
         {
@@ -2417,8 +2425,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 260,
-      "top11Points": 260,
+      "totalPointsAll": 262,
+      "top11Points": 262,
       "players": [
         {
           "name": "T Natarajan",
@@ -2445,12 +2453,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 24,
+          "batting": 26,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 40,
+          "rawPoints": 42,
           "multiplier": 1,
-          "effectivePoints": 40,
+          "effectivePoints": 42,
           "countsInTop11": true
         },
         {
