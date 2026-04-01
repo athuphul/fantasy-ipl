@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T14:55:10.634Z",
+  "lastUpdated": "2026-04-01T15:05:48.737Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 71,
+        "r": 99,
         "w": 5,
-        "o": 9.3
+        "o": 12.2
       }
     ],
     "playerScores": {
@@ -46,10 +46,10 @@
         "total": 9
       },
       "Abdul Samad": {
-        "batting": -5,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 12
       },
       "KL Rahul": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 37,
+        "bowling": 45,
         "fielding": 0,
-        "total": 37
+        "total": 45
       },
       "David Miller": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 20,
         "fielding": 0,
-        "total": 25
+        "total": 20
       },
       "T Natarajan": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Kishan",
-      "totalPointsAll": 579,
-      "top11Points": 579
+      "totalPointsAll": 574,
+      "top11Points": 574
     },
     {
       "team": "Athu",
@@ -135,8 +135,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 248,
-      "top11Points": 253
+      "totalPointsAll": 265,
+      "top11Points": 265
     },
     {
       "team": "Aakash",
@@ -145,8 +145,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 166,
-      "top11Points": 180
+      "totalPointsAll": 182,
+      "top11Points": 196
     },
     {
       "team": "Ali",
@@ -1717,17 +1717,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 71,
+          "r": 99,
           "w": 5,
-          "o": 9.3
+          "o": 12.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 71,
+          "runs": 99,
           "wickets": 5,
-          "overs": 9.3,
+          "overs": 12.2,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -1776,22 +1776,39 @@
             },
             {
               "name": "Abdul Samad",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 11,
+              "balls": 9,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 122.22,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Mukul Choudhary",
+              "runs": 13,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 144.44,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
+              "name": "Vipraj Nigam",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
               "name": "Axar Patel",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 6.5
+              "economy": 5.66
             },
             {
               "name": "Lungi Ngidi",
@@ -1803,19 +1820,19 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 10.2
+              "economy": 11
             },
             {
               "name": "T Natarajan",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 2
+              "economy": 3.75
             },
             {
               "name": "Mukesh Kumar",
@@ -1860,10 +1877,10 @@
           "total": 9
         },
         "Abdul Samad": {
-          "batting": -5,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 12
         },
         "KL Rahul": {
           "batting": 0,
@@ -1885,9 +1902,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 37,
+          "bowling": 45,
           "fielding": 0,
-          "total": 37
+          "total": 45
         },
         "David Miller": {
           "batting": 0,
@@ -1909,9 +1926,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "total": 25
+          "total": 20
         },
         "T Natarajan": {
           "batting": 0,
@@ -2350,8 +2367,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 248,
-      "top11Points": 253,
+      "totalPointsAll": 265,
+      "top11Points": 265,
       "players": [
         {
           "name": "Shubman Gill",
@@ -2384,6 +2401,17 @@
           "rawPoints": 20,
           "multiplier": 1.5,
           "effectivePoints": 30,
+          "countsInTop11": true
+        },
+        {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 12,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 12,
+          "multiplier": 1,
+          "effectivePoints": 12,
           "countsInTop11": true
         },
         {
@@ -2472,24 +2500,13 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
     },
     "Kishan": {
-      "totalPointsAll": 579,
-      "top11Points": 579,
+      "totalPointsAll": 574,
+      "top11Points": 574,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -2561,11 +2578,11 @@
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "rawPoints": 25,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 25,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -2615,18 +2632,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 166,
-      "top11Points": 180,
+      "totalPointsAll": 182,
+      "top11Points": 196,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 0,
-          "bowling": 37,
+          "bowling": 45,
           "fielding": 0,
-          "rawPoints": 37,
+          "rawPoints": 45,
           "multiplier": 2,
-          "effectivePoints": 74,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
