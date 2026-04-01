@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T15:55:03.475Z",
+  "lastUpdated": "2026-04-01T16:06:13.954Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527678",
@@ -12,6 +12,12 @@
         "r": 141,
         "w": 10,
         "o": 18.4
+      },
+      {
+        "inning": "Delhi Capitals",
+        "r": 12,
+        "w": 1,
+        "o": 1.5
       }
     ],
     "playerScores": {
@@ -59,21 +65,21 @@
       },
       "Mohammed Shami": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 1
+        "total": 26
       },
       "KL Rahul": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 3
       },
       "Nitish Rana": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -152,13 +158,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 240,
-      "top11Points": 250
+      "totalPointsAll": 275,
+      "top11Points": 285
     },
     {
       "team": "Ali",
-      "totalPointsAll": 246,
-      "top11Points": 246
+      "totalPointsAll": 236,
+      "top11Points": 236
     },
     {
       "team": "Manav",
@@ -1732,6 +1738,12 @@
           "r": 141,
           "w": 10,
           "o": 18.4
+        },
+        {
+          "inning": "Delhi Capitals",
+          "r": 12,
+          "w": 1,
+          "o": 1.5
         }
       ],
       "scorecard": [
@@ -1891,6 +1903,59 @@
               "economy": 5.66
             }
           ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 9,
+          "wickets": 0,
+          "overs": 1.5,
+          "batting": [
+            {
+              "name": "KL Rahul",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c"
+            },
+            {
+              "name": "Pathum Nissanka",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Nitish Rana",
+              "runs": 8,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 88.88,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 7.2
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -1938,21 +2003,21 @@
         },
         "Mohammed Shami": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 1
+          "total": 26
         },
         "KL Rahul": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 3
         },
         "Nitish Rana": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -2151,8 +2216,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 240,
-      "top11Points": 250,
+      "totalPointsAll": 275,
+      "top11Points": 285,
       "players": [
         {
           "name": "Jofra Archer",
@@ -2213,22 +2278,22 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "rawPoints": 1,
+          "rawPoints": 26,
           "multiplier": 1,
-          "effectivePoints": 1,
+          "effectivePoints": 26,
           "countsInTop11": true
         },
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 10,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 10,
           "countsInTop11": true
         },
         {
@@ -2289,8 +2354,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 246,
-      "top11Points": 246,
+      "totalPointsAll": 236,
+      "top11Points": 236,
       "players": [
         {
           "name": "T Natarajan",
@@ -2348,17 +2413,6 @@
           "countsInTop11": true
         },
         {
-          "name": "KL Rahul",
-          "role": "Wicket Keeper",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 8,
-          "multiplier": 2,
-          "effectivePoints": 16,
-          "countsInTop11": true
-        },
-        {
           "name": "Abhishek Sharma",
           "role": "Opener",
           "batting": 9,
@@ -2367,6 +2421,17 @@
           "rawPoints": 9,
           "multiplier": 1.5,
           "effectivePoints": 14,
+          "countsInTop11": true
+        },
+        {
+          "name": "KL Rahul",
+          "role": "Wicket Keeper",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 3,
+          "multiplier": 2,
+          "effectivePoints": 6,
           "countsInTop11": true
         },
         {
