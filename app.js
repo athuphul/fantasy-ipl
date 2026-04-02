@@ -236,6 +236,9 @@ function renderLeaderboard() {
   // Player of the Tournament banner
   renderPOTBanner();
 
+  // Captain Scorecard
+  renderCaptainScorecard();
+
   // Compute last match scores + per-match history for form
   const lastMatch = data.matchHistory?.[data.matchHistory.length - 1];
   const matchHistory = data.matchHistory || [];
@@ -371,6 +374,31 @@ function renderPOTBanner() {
     </div>`;
 }
 
+// === Captain Scorecard ===
+function renderCaptainScorecard() {
+  const container = document.getElementById('captain-scorecard');
+  if (!data?.matchHistory || !teamsData) { container.innerHTML = ''; return; }
+
+  const captains = teamsData.teams.map(team => {
+    const capName = team.captain;
+    let total = 0;
+    for (const match of data.matchHistory) {
+      const s = match.playerScores?.[capName];
+      if (s) total += s.total;
+    }
+    return { manager: team.name, captain: capName, iplTeam: team.players.find(p => p.name === capName)?.iplTeam || '', rawPts: total, effectivePts: total * 2 };
+  }).sort((a, b) => b.rawPts - a.rawPts);
+
+  container.innerHTML = `
+    <div class="captain-grid">
+      ${captains.map((c, i) => `<div class="captain-card${i === 0 ? ' captain-best' : ''}">
+        <div class="captain-card-name">${c.captain} ${iplBadge(c.iplTeam)}</div>
+        <div class="captain-card-manager">${c.manager}</div>
+        <div class="captain-card-pts">${c.rawPts} <span class="captain-card-mult">(2x = ${c.effectivePts})</span></div>
+      </div>`).join('')}
+    </div>`;
+}
+
 // === Team Detail ===
 function showTeam(teamName) {
   const detail = data.teamDetails[teamName];
@@ -384,6 +412,18 @@ function showTeam(teamName) {
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
 
   document.getElementById('team-name').textContent = teamName;
+
+  // Points breakdown
+  const totalBat = detail.players.reduce((s, p) => s + p.batting, 0);
+  const totalBowl = detail.players.reduce((s, p) => s + p.bowling, 0);
+  const totalField = detail.players.reduce((s, p) => s + p.fielding, 0);
+  const totalRaw = totalBat + totalBowl + totalField;
+  const pctBat = totalRaw > 0 ? Math.round((totalBat / totalRaw) * 100) : 0;
+  const pctBowl = totalRaw > 0 ? Math.round((totalBowl / totalRaw) * 100) : 0;
+  const pctField = 100 - pctBat - pctBowl;
+
+  // Bench waste
+  const benchWaste = detail.totalPointsAll - detail.top11Points;
 
   document.getElementById('team-summary').innerHTML = `
     <div class="stat-box">
@@ -401,6 +441,23 @@ function showTeam(teamName) {
     <div class="stat-box">
       <div class="label">Vice Captain</div>
       <div class="value" style="font-size:0.9rem;color:var(--vice-captain)">${teamMeta?.viceCaptain || '-'}</div>
+    </div>
+    <div class="stat-box">
+      <div class="label">Bench Waste</div>
+      <div class="value" style="font-size:1rem;color:var(--negative)">${benchWaste > 0 ? '+' : ''}${benchWaste} pts</div>
+    </div>
+    <div class="stat-box" style="min-width:200px">
+      <div class="label">Points Breakdown</div>
+      <div class="breakdown-bar">
+        <div class="breakdown-seg breakdown-bat" style="width:${pctBat}%" title="Batting ${totalBat}">${pctBat > 10 ? pctBat + '%' : ''}</div>
+        <div class="breakdown-seg breakdown-bowl" style="width:${pctBowl}%" title="Bowling ${totalBowl}">${pctBowl > 10 ? pctBowl + '%' : ''}</div>
+        <div class="breakdown-seg breakdown-field" style="width:${pctField}%" title="Fielding ${totalField}">${pctField > 10 ? pctField + '%' : ''}</div>
+      </div>
+      <div class="breakdown-legend">
+        <span><span class="breakdown-dot breakdown-bat"></span>Bat ${totalBat}</span>
+        <span><span class="breakdown-dot breakdown-bowl"></span>Bowl ${totalBowl}</span>
+        <span><span class="breakdown-dot breakdown-field"></span>Field ${totalField}</span>
+      </div>
     </div>
   `;
 
@@ -661,6 +718,18 @@ function renderAllMatches() {
         ? `<div class="mvp-strip">${mvps.map((p, i) => `<span class="mvp-chip${i === 0 ? ' mvp-gold' : ''}">${p.name} <span class="fp-positive">${p.total}</span></span>`).join('')}</div>`
         : '';
 
+      // Match Day Winner
+      let winnerHtml = '';
+      if (teamsData) {
+        const teamScores = teamsData.teams.map(team => ({
+          name: team.name,
+          total: computeTeamMatchTotal(team, match.playerScores || {}),
+        })).sort((a, b) => b.total - a.total);
+        if (teamScores.length > 0 && teamScores[0].total > 0) {
+          winnerHtml = `<div class="match-day-winner"><span class="mdw-label">Match Day Winner:</span> ${teamScores[0].name} <span class="fp-positive">${teamScores[0].total} pts</span></div>`;
+        }
+      }
+
       const combinedHtml = renderCombinedScorecard(match);
 
       return `<details class="match-card">
@@ -669,6 +738,7 @@ function renderAllMatches() {
           <span class="match-date">${match.status || ''}</span>
         </summary>
         <p class="score-line" style="margin:8px 0">${scoreLines}</p>
+        ${winnerHtml}
         ${mvpHtml}
         ${combinedHtml}
       </details>`;
