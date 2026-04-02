@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T16:24:53.303Z",
+  "lastUpdated": "2026-04-02T16:35:21.910Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 62,
-        "w": 1,
-        "o": 4.3
+        "r": 74,
+        "w": 3,
+        "o": 5.6
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -28,22 +28,22 @@
         "total": 36
       },
       "Ajinkya Rahane": {
-        "batting": 8,
+        "batting": 3,
         "bowling": 0,
         "fielding": 8,
-        "total": 16
+        "total": 11
+      },
+      "Cameron Green": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 10
       },
       "Sunil Narine": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
-      },
-      "Cameron Green": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
       },
       "Rinku Singh": {
         "batting": 0,
@@ -126,13 +126,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 574,
-      "top11Points": 599
+      "totalPointsAll": 569,
+      "top11Points": 594
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 576,
-      "top11Points": 576
+      "totalPointsAll": 578,
+      "top11Points": 578
     },
     {
       "team": "Ritik",
@@ -2122,9 +2122,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 62,
-          "w": 1,
-          "o": 4.3
+          "r": 74,
+          "w": 3,
+          "o": 5.6
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -2137,7 +2137,7 @@
         {
           "innings": "Sunrisers Hyderabad",
           "runs": 213,
-          "wickets": 0,
+          "wickets": 8,
           "overs": 20,
           "batting": [
             {
@@ -2146,8 +2146,8 @@
               "balls": 21,
               "fours": 6,
               "sixes": 3,
-              "sr": 219.04,
-              "dismissal": "c"
+              "sr": 219.05,
+              "dismissal": "c Cameron Green b Kartik Tyagi"
             },
             {
               "name": "Abhishek Sharma",
@@ -2156,7 +2156,7 @@
               "fours": 4,
               "sixes": 4,
               "sr": 228.57,
-              "dismissal": "c"
+              "dismissal": "c Varun Chakaravarthy b Blessing Muzarabani"
             },
             {
               "name": "Ishan Kishan",
@@ -2164,8 +2164,8 @@
               "balls": 9,
               "fours": 3,
               "sixes": 0,
-              "sr": 155.55,
-              "dismissal": "c"
+              "sr": 155.56,
+              "dismissal": "c Rinku Singh b Blessing Muzarabani"
             },
             {
               "name": "Heinrich Klaasen",
@@ -2174,7 +2174,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 148.57,
-              "dismissal": "c"
+              "dismissal": "c Ramandeep Singh b Blessing Muzarabani"
             },
             {
               "name": "Aniket Verma",
@@ -2183,7 +2183,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 25,
-              "dismissal": "c"
+              "dismissal": "c Rinku Singh b Anukul Roy"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -2192,7 +2192,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 162.5,
-              "dismissal": "c"
+              "dismissal": "c Varun Chakaravarthy b Vaibhav Arora"
             },
             {
               "name": "Salil Arora",
@@ -2201,7 +2201,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "out"
+              "dismissal": "b Vaibhav Arora"
             },
             {
               "name": "Harsh Dubey",
@@ -2219,65 +2219,65 @@
               "fours": 1,
               "sixes": 0,
               "sr": 200,
-              "dismissal": "c"
+              "dismissal": "c Ajinkya Rahane b Blessing Muzarabani"
             }
           ],
           "bowling": [
             {
-              "name": "Sunil Narine",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 0,
-              "wickets": 0,
-              "economy": 9.75
-            },
-            {
-              "name": "Anukul Roy",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 0,
-              "wickets": 1,
-              "economy": 8
-            },
-            {
-              "name": "Varun Chakravarthy",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 0,
-              "wickets": 0,
-              "economy": 15.5
-            },
-            {
               "name": "Vaibhav Arora",
               "overs": 4,
               "maidens": 0,
-              "runs": 0,
+              "runs": 47,
               "wickets": 2,
-              "economy": 11.75
-            },
-            {
-              "name": "Kartik Tyagi",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 0,
-              "wickets": 1,
-              "economy": 12
+              "economy": 11.8
             },
             {
               "name": "Blessing Muzarabani",
               "overs": 4,
               "maidens": 0,
-              "runs": 0,
+              "runs": 41,
               "wickets": 4,
-              "economy": 10.25
+              "economy": 10.2
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 39,
+              "wickets": 0,
+              "economy": 9.8
+            },
+            {
+              "name": "Varun Chakaravarthy",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 0,
+              "economy": 15.5
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 48,
+              "wickets": 1,
+              "economy": 12
+            },
+            {
+              "name": "Anukul Roy",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 1,
+              "economy": 8
             }
           ]
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 62,
-          "wickets": 1,
-          "overs": 4.3,
+          "runs": 226,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Finn Allen",
@@ -2286,24 +2286,33 @@
               "fours": 4,
               "sixes": 2,
               "sr": 400,
-              "dismissal": "c"
+              "dismissal": "c and b Harsh Dubey"
             },
             {
               "name": "Ajinkya Rahane",
               "runs": 8,
-              "balls": 9,
+              "balls": 10,
               "fours": 0,
               "sixes": 0,
-              "sr": 88.88,
-              "dismissal": "not out"
+              "sr": 80,
+              "dismissal": "c Eshan Malinga b Jaydev Unadkat"
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 24,
-              "balls": 11,
-              "fours": 2,
+              "runs": 31,
+              "balls": 17,
+              "fours": 3,
               "sixes": 2,
-              "sr": 218.18,
+              "sr": 182.35,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "not out"
             }
           ],
@@ -2326,10 +2335,10 @@
             },
             {
               "name": "Jaydev Unadkat",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
+              "wickets": 1,
               "economy": 10
             },
             {
@@ -2339,6 +2348,14 @@
               "runs": 0,
               "wickets": 0,
               "economy": 25
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 0.6,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 7
             }
           ]
         }
@@ -2351,22 +2368,22 @@
           "total": 36
         },
         "Ajinkya Rahane": {
-          "batting": 8,
+          "batting": 3,
           "bowling": 0,
           "fielding": 8,
-          "total": 16
+          "total": 11
+        },
+        "Cameron Green": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 10
         },
         "Sunil Narine": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Cameron Green": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
         },
         "Rinku Singh": {
           "batting": 0,
@@ -2440,8 +2457,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 574,
-      "top11Points": 599,
+      "totalPointsAll": 569,
+      "top11Points": 594,
       "players": [
         {
           "name": "Finn Allen",
@@ -2468,12 +2485,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 103,
+          "batting": 98,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 111,
+          "rawPoints": 106,
           "multiplier": 1,
-          "effectivePoints": 111,
+          "effectivePoints": 106,
           "countsInTop11": true
         },
         {
@@ -3417,8 +3434,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 576,
-      "top11Points": 576,
+      "totalPointsAll": 578,
+      "top11Points": 578,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3467,12 +3484,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 31,
+          "batting": 33,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 39,
+          "rawPoints": 41,
           "multiplier": 1,
-          "effectivePoints": 39,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
