@@ -47,14 +47,13 @@ async function fetchJson(url) {
 
 // --- Scoring Rules (identical to CricAPI backend) ---
 
-function computeBattingPoints(stats) {
+function computeBattingPoints(stats, actuallyDismissed) {
   let pts = 0;
   const runs = stats.runs || 0;
   const balls = stats.ballsFaced || 0;
   const fours = stats.fours || 0;
   const sixes = stats.sixes || 0;
   const sr = stats.strikeRate || (balls > 0 ? (runs / balls) * 100 : 0);
-  const dismissed = (stats.dismissal || 0) >= 1;
 
   pts += runs;
   pts += fours * 1;
@@ -71,7 +70,8 @@ function computeBattingPoints(stats) {
     else if (sr < 100) pts -= 5;
   }
 
-  if (runs === 0 && dismissed) pts -= 5;
+  // Duck: 0 runs AND actually dismissed (outDetails present with dismissalCard)
+  if (runs === 0 && actuallyDismissed) pts -= 5;
 
   return pts;
 }
@@ -215,7 +215,8 @@ function processEspnSummary(summaryData, allPlayers) {
               // Batting: player batted in this period
               if (stats.batted && stats.batted >= 1) {
                 if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-                playerPoints[rosterName].batting += computeBattingPoints(stats);
+                const actuallyDismissed = !!(inner.batting?.outDetails?.dismissalCard);
+                playerPoints[rosterName].batting += computeBattingPoints(stats, actuallyDismissed);
               }
 
               // Bowling: player bowled in this period

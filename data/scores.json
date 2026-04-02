@@ -20,8 +20,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 395,
-      "top11Points": 395
+      "totalPointsAll": 400,
+      "top11Points": 400
     },
     {
       "team": "Aakash",
@@ -1571,10 +1571,10 @@
           "total": 12
         },
         "Rashid Khan": {
-          "batting": -5,
+          "batting": 0,
           "bowling": 30,
           "fielding": 8,
-          "total": 33
+          "total": 38
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -2861,8 +2861,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 395,
-      "top11Points": 395,
+      "totalPointsAll": 400,
+      "top11Points": 400,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -2898,6 +2898,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rashid Khan",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 30,
+          "fielding": 8,
+          "rawPoints": 38,
+          "multiplier": 1,
+          "effectivePoints": 38,
+          "countsInTop11": true
+        },
+        {
           "name": "Riyan Parag",
           "role": "Batsman",
           "batting": 17,
@@ -2906,17 +2917,6 @@
           "rawPoints": 17,
           "multiplier": 2,
           "effectivePoints": 34,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rashid Khan",
-          "role": "Spinner",
-          "batting": -5,
-          "bowling": 30,
-          "fielding": 8,
-          "rawPoints": 33,
-          "multiplier": 1,
-          "effectivePoints": 33,
           "countsInTop11": true
         },
         {
