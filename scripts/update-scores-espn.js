@@ -319,6 +319,7 @@ function extractFullScorecard(summaryData) {
                 else if (card === 'ro' || card === 'run out') dismissalStr = 'run out';
                 else if (card === 'hit wicket' && bowler) dismissalStr = `hit wicket b ${bowler}`;
                 else if (card === 'retired hurt' || card === 'retired out') dismissalStr = card;
+                else if (od.shortText && od.shortText.length > 3) dismissalStr = od.shortText;
                 else if (shortText) dismissalStr = shortText;
                 else dismissalStr = card;
               } else if ((stats.dismissal || 0) >= 1) {
