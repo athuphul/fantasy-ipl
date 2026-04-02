@@ -164,15 +164,50 @@ function showTeam(teamName) {
     }
   }
 
+  // Build per-player match breakdown
+  const playerMatchData = {};
+  for (const match of (data.matchHistory || [])) {
+    for (const p of detail.players) {
+      const s = match.playerScores[p.name];
+      if (s) {
+        if (!playerMatchData[p.name]) playerMatchData[p.name] = [];
+        playerMatchData[p.name].push({ matchName: match.name, date: match.date, ...s });
+      }
+    }
+  }
+
   const tbody = document.getElementById('team-players').querySelector('tbody');
   tbody.innerHTML = detail.players.map((p, i) => {
     const rowClass = p.countsInTop11 ? '' : 'not-top11';
     const nameClass = p.multiplier === 2 ? 'captain' : p.multiplier === 1.5 ? 'vice-captain' : '';
     const multLabel = p.multiplier === 2 ? '(C) 2x' : p.multiplier === 1.5 ? '(VC) 1.5x' : '1x';
     const iplTeam = iplTeamMap[p.name] || '';
-    return `<tr class="${rowClass}">
+    const matches = playerMatchData[p.name] || [];
+    const hasMatches = matches.length > 0;
+    const expandId = `expand-${i}`;
+
+    let matchRows = '';
+    if (hasMatches) {
+      matchRows = `<tr id="${expandId}" class="player-expand hidden"><td colspan="9">
+        <table class="player-match-table">
+          <thead><tr><th>Match</th><th>Date</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Pts</th></tr></thead>
+          <tbody>${matches.map(m =>
+            `<tr>
+              <td>${m.matchName}</td>
+              <td class="match-date">${m.date}</td>
+              <td class="${m.batting > 0 ? 'fp-positive' : m.batting < 0 ? 'fp-negative' : ''}">${m.batting}</td>
+              <td class="${m.bowling > 0 ? 'fp-positive' : m.bowling < 0 ? 'fp-negative' : ''}">${m.bowling}</td>
+              <td class="${m.fielding > 0 ? 'fp-positive' : m.fielding < 0 ? 'fp-negative' : ''}">${m.fielding}</td>
+              <td class="points-cell">${m.total}</td>
+            </tr>`
+          ).join('')}</tbody>
+        </table>
+      </td></tr>`;
+    }
+
+    return `<tr class="${rowClass}${hasMatches ? ' expandable' : ''}" ${hasMatches ? `onclick="togglePlayerExpand('${expandId}')"` : ''}>
       <td>${i + 1}</td>
-      <td class="${nameClass}">${p.name} ${iplBadge(iplTeam)}</td>
+      <td class="${nameClass}">${p.name} ${iplBadge(iplTeam)}${hasMatches ? ' <span class="expand-arrow">&#9662;</span>' : ''}</td>
       <td>${p.role}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
@@ -180,7 +215,7 @@ function showTeam(teamName) {
       <td>${p.rawPoints}</td>
       <td>${multLabel}</td>
       <td class="points-cell">${p.effectivePoints}</td>
-    </tr>`;
+    </tr>${matchRows}`;
   }).join('');
 
   renderTeamMatchHistory(teamName, detail);
@@ -465,6 +500,11 @@ function renderTopScorers() {
   html += '</tbody></table>';
 
   container.innerHTML = html;
+}
+
+function togglePlayerExpand(id) {
+  const row = document.getElementById(id);
+  if (row) row.classList.toggle('hidden');
 }
 
 const allSections = ['leaderboard-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];

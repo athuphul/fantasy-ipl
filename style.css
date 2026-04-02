@@ -487,3 +487,46 @@ tbody tr {
 .top-scorer-1 { background: rgba(234, 179, 8, 0.08); }
 .top-scorer-2 { background: rgba(148, 163, 184, 0.08); }
 .top-scorer-3 { background: rgba(180, 83, 9, 0.08); }
+
+/* Player expandable rows */
+tr.expandable {
+  cursor: pointer;
+}
+
+tr.expandable:hover {
+  background: #1e293b;
+}
+
+.expand-arrow {
+  font-size: 0.6rem;
+  color: #64748b;
+  transition: transform 0.2s;
+}
+
+.player-expand {
+  cursor: default;
+}
+
+.player-expand > td {
+  padding: 0 4px 8px;
+  background: #0f172a;
+}
+
+.player-match-table {
+  width: 100%;
+  font-size: 0.75rem;
+  background: #1e293b;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.player-match-table th {
+  font-size: 0.65rem;
+  padding: 4px 4px;
+  background: #334155;
+}
+
+.player-match-table td {
+  padding: 4px 4px;
+  border-bottom: 1px solid #0f172a;
+}
