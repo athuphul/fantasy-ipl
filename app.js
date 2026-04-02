@@ -443,28 +443,23 @@ function renderTopScorers() {
   }
 
   const sorted = Object.entries(totals)
-    .map(([name, t]) => {
-      const mult = playerMultiplierMap[name] || 1;
-      return { name, ...t, mult, effective: Math.round(t.total * mult) };
-    })
-    .sort((a, b) => b.effective - a.effective);
+    .map(([name, t]) => ({ name, ...t }))
+    .sort((a, b) => b.total - a.total);
 
   let html = `<table class="top-scorers-table">
-    <thead><tr><th>#</th><th>Player</th><th>Manager</th><th>M</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Raw</th><th>Eff</th></tr></thead>
+    <thead><tr><th>#</th><th>Player</th><th>Manager</th><th>M</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Pts</th></tr></thead>
     <tbody>`;
   html += sorted.map((p, i) => {
     const iplTeam = playerIplTeamMap[p.name] || '';
-    const multLabel = p.mult > 1 ? ` (${p.mult}x)` : '';
     return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''}">
       <td>${i + 1}</td>
-      <td>${p.name}${multLabel} ${iplBadge(iplTeam)}</td>
+      <td>${p.name} ${iplBadge(iplTeam)}</td>
       <td style="color:#94a3b8">${playerFantasyTeamMap[p.name]}</td>
       <td>${p.matches}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
       <td>${p.fielding}</td>
-      <td>${p.total}</td>
-      <td class="points-cell">${p.effective}</td>
+      <td class="points-cell">${p.total}</td>
     </tr>`;
   }).join('');
   html += '</tbody></table>';
