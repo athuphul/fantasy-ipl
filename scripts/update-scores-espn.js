@@ -275,36 +275,6 @@ function extractFullScorecard(summaryData) {
   const innings = [];
   if (!summaryData.rosters) return innings;
 
-  // Build player ID → name lookup from rosters (ESPN live often has IDs but no displayName in outDetails)
-  const playerIdToName = {};
-  for (const roster of summaryData.rosters) {
-    for (const player of (roster.roster || [])) {
-      const id = player.athlete?.id;
-      const name = player.athlete?.displayName;
-      if (id && name) playerIdToName[id] = name;
-    }
-  }
-
-  function extractIdFromRef(ref) {
-    // ESPN $ref URLs look like: "https://sports.core.api.espn.com/v2/sports/cricket/athletes/12345"
-    if (!ref) return null;
-    const m = String(ref).match(/athletes\/(\d+)/);
-    return m ? m[1] : null;
-  }
-
-  function resolvePlayerName(obj) {
-    // obj could be a bowler or fielder reference from outDetails
-    // During live matches, ESPN often sends { "$ref": "...athletes/12345" } instead of full objects
-    if (!obj) return '';
-    return obj.displayName || obj.fullName || obj.lastName
-      || (obj.id && playerIdToName[obj.id])
-      || (obj.athlete?.displayName || obj.athlete?.fullName || obj.athlete?.lastName)
-      || (obj.athlete?.id && playerIdToName[obj.athlete.id])
-      || (obj.$ref && playerIdToName[extractIdFromRef(obj.$ref)])
-      || (obj.athlete?.$ref && playerIdToName[extractIdFromRef(obj.athlete?.$ref)])
-      || '';
-  }
-
   // Group players by team
   const teamRosters = {};
   for (const roster of summaryData.rosters) {
@@ -337,23 +307,20 @@ function extractFullScorecard(summaryData) {
               let dismissalStr = 'not out';
               if (od && od.dismissalCard) {
                 const card = od.dismissalCard;
-                // ESPN provides a pre-formatted shortText like "c Green b Kartik Tyagi" — use it first
-                if (od.shortText && od.shortText.length > 3) {
-                  dismissalStr = od.shortText;
-                } else {
-                  // Fallback: construct from bowler/fielder objects using roster ID lookup
-                  const bowler = resolvePlayerName(od.bowler);
-                  const fielders = (od.fielders || []).map(f => resolvePlayerName(f)).filter(Boolean);
-                  if (card === 'c' && fielders.length > 0 && bowler) dismissalStr = `c ${fielders[0]} b ${bowler}`;
-                  else if (card === 'b' && bowler) dismissalStr = `b ${bowler}`;
-                  else if (card === 'lbw' && bowler) dismissalStr = `lbw b ${bowler}`;
-                  else if (card === 'st' && fielders.length > 0 && bowler) dismissalStr = `st ${fielders[0]} b ${bowler}`;
-                  else if ((card === 'ro' || card === 'run out') && fielders.length > 0) dismissalStr = `run out (${fielders.join('/')})`;
-                  else if (card === 'ro' || card === 'run out') dismissalStr = 'run out';
-                  else if (card === 'hit wicket' && bowler) dismissalStr = `hit wicket b ${bowler}`;
-                  else if (card === 'retired hurt' || card === 'retired out') dismissalStr = card;
-                  else dismissalStr = card;
-                }
+                const bowler = od.bowler?.displayName || od.bowler?.fullName || od.bowler?.lastName || '';
+                const fielders = (od.fielders || []).map(f => f.athlete?.displayName || f.athlete?.fullName || f.athlete?.lastName).filter(Boolean);
+                // Try shortText first (e.g. "Duffy to Head, OUT") — extract just the dismissal part
+                const shortText = od.details?.shortText || '';
+                if (card === 'c' && fielders.length > 0 && bowler) dismissalStr = `c ${fielders[0]} b ${bowler}`;
+                else if (card === 'b' && bowler) dismissalStr = `b ${bowler}`;
+                else if (card === 'lbw' && bowler) dismissalStr = `lbw b ${bowler}`;
+                else if (card === 'st' && fielders.length > 0 && bowler) dismissalStr = `st ${fielders[0]} b ${bowler}`;
+                else if ((card === 'ro' || card === 'run out') && fielders.length > 0) dismissalStr = `run out (${fielders.join('/')})`;
+                else if (card === 'ro' || card === 'run out') dismissalStr = 'run out';
+                else if (card === 'hit wicket' && bowler) dismissalStr = `hit wicket b ${bowler}`;
+                else if (card === 'retired hurt' || card === 'retired out') dismissalStr = card;
+                else if (shortText) dismissalStr = shortText;
+                else dismissalStr = card;
               } else if ((stats.dismissal || 0) >= 1) {
                 const card = stats.dismissalCard || 'out';
                 dismissalStr = card;
