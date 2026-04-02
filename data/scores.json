@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T15:45:04.009Z",
+  "lastUpdated": "2026-04-02T15:54:54.252Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 211,
-        "w": 6,
-        "o": 18.6
+        "r": 226,
+        "w": 8,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Ajinkya Rahane": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Cameron Green": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Blessing Muzarabani": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 115,
         "fielding": 0,
-        "total": 50
+        "total": 115
       },
       "Travis Head": {
         "batting": 73,
@@ -82,10 +82,10 @@
         "total": 17
       },
       "Heinrich Klaasen": {
-        "batting": 46,
+        "batting": 68,
         "bowling": 0,
         "fielding": 0,
-        "total": 46
+        "total": 68
       },
       "Nitish Kumar Reddy": {
         "batting": 50,
@@ -109,8 +109,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 548,
-      "top11Points": 553
+      "totalPointsAll": 613,
+      "top11Points": 618
     },
     {
       "team": "Tanay",
@@ -119,8 +119,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 482,
-      "top11Points": 507
+      "totalPointsAll": 512,
+      "top11Points": 537
     },
     {
       "team": "Ritik",
@@ -2110,17 +2110,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 211,
-          "w": 6,
-          "o": 18.6
+          "r": 226,
+          "w": 8,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 211,
-          "wickets": 6,
-          "overs": 18.6,
+          "runs": 213,
+          "wickets": 0,
+          "overs": 20,
           "batting": [
             {
               "name": "Travis Head",
@@ -2129,7 +2129,7 @@
               "fours": 6,
               "sixes": 3,
               "sr": 219.04,
-              "dismissal": "c Cameron Green b Kartik Tyagi"
+              "dismissal": "c"
             },
             {
               "name": "Abhishek Sharma",
@@ -2138,7 +2138,7 @@
               "fours": 4,
               "sixes": 4,
               "sr": 228.57,
-              "dismissal": "c Varun Chakaravarthy b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Ishan Kishan",
@@ -2147,16 +2147,16 @@
               "fours": 3,
               "sixes": 0,
               "sr": 155.55,
-              "dismissal": "c Rinku Singh b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 42,
-              "balls": 31,
-              "fours": 2,
+              "runs": 52,
+              "balls": 35,
+              "fours": 4,
               "sixes": 1,
-              "sr": 135.48,
-              "dismissal": "not out"
+              "sr": 148.57,
+              "dismissal": "c"
             },
             {
               "name": "Aniket Verma",
@@ -2165,7 +2165,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 25,
-              "dismissal": "c Rinku Singh b Anukul Roy"
+              "dismissal": "c"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -2174,7 +2174,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 162.5,
-              "dismissal": "c Varun Chakaravarthy b Vaibhav Arora"
+              "dismissal": "c"
             },
             {
               "name": "Salil Arora",
@@ -2183,7 +2183,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "b Vaibhav Arora"
+              "dismissal": "out"
             },
             {
               "name": "Harsh Dubey",
@@ -2193,6 +2193,15 @@
               "sixes": 0,
               "sr": 300,
               "dismissal": "not out"
+            },
+            {
+              "name": "Shivang Kumar",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "c"
             }
           ],
           "bowling": [
@@ -2222,7 +2231,7 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 3.6,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
               "wickets": 2,
@@ -2238,11 +2247,11 @@
             },
             {
               "name": "Blessing Muzarabani",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
-              "wickets": 2,
-              "economy": 8.66
+              "wickets": 4,
+              "economy": 10.25
             }
           ]
         }
@@ -2257,8 +2266,8 @@
         "Ajinkya Rahane": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Cameron Green": {
           "batting": 0,
@@ -2292,9 +2301,9 @@
         },
         "Blessing Muzarabani": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 115,
           "fielding": 0,
-          "total": 50
+          "total": 115
         },
         "Travis Head": {
           "batting": 73,
@@ -2315,10 +2324,10 @@
           "total": 17
         },
         "Heinrich Klaasen": {
-          "batting": 46,
+          "batting": 68,
           "bowling": 0,
           "fielding": 0,
-          "total": 46
+          "total": 68
         },
         "Nitish Kumar Reddy": {
           "batting": 50,
@@ -2338,18 +2347,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 482,
-      "top11Points": 507,
+      "totalPointsAll": 512,
+      "top11Points": 537,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 81,
+          "batting": 103,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 97,
+          "rawPoints": 119,
           "multiplier": 1,
-          "effectivePoints": 97,
+          "effectivePoints": 119,
           "countsInTop11": true
         },
         {
@@ -2357,10 +2366,10 @@
           "role": "Batsman",
           "batting": 95,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 95,
+          "fielding": 8,
+          "rawPoints": 103,
           "multiplier": 1,
-          "effectivePoints": 95,
+          "effectivePoints": 103,
           "countsInTop11": true
         },
         {
@@ -3453,9 +3462,20 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 548,
-      "top11Points": 553,
+      "totalPointsAll": 613,
+      "top11Points": 618,
       "players": [
+        {
+          "name": "Blessing Muzarabani",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 110,
+          "fielding": 0,
+          "rawPoints": 110,
+          "multiplier": 1,
+          "effectivePoints": 110,
+          "countsInTop11": true
+        },
         {
           "name": "Rinku Singh",
           "role": "Batsman",
@@ -3509,17 +3529,6 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
-          "name": "Blessing Muzarabani",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 45,
-          "fielding": 0,
-          "rawPoints": 45,
-          "multiplier": 1,
-          "effectivePoints": 45,
           "countsInTop11": true
         },
         {
