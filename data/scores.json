@@ -1,118 +1,7 @@
 {
-  "lastUpdated": "2026-04-02T17:35:22.833Z",
+  "lastUpdated": "2026-04-02T17:45:06.124Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527679",
-    "name": "Kolkata Knight Riders v Sunrisers Hyderabad",
-    "status": "Live",
-    "venue": "Eden Gardens, Kolkata",
-    "score": [
-      {
-        "inning": "Kolkata Knight Riders",
-        "r": 161,
-        "w": 9,
-        "o": 15.5
-      },
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 226,
-        "w": 8,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Finn Allen": {
-        "batting": 36,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 36
-      },
-      "Ajinkya Rahane": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 11
-      },
-      "Cameron Green": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 10
-      },
-      "Rinku Singh": {
-        "batting": 41,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 57
-      },
-      "Anukul Roy": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Sunil Narine": {
-        "batting": 16,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 16
-      },
-      "Vaibhav Arora": {
-        "batting": 1,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 46
-      },
-      "Varun Chakravarthy": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 16,
-        "total": 1
-      },
-      "Blessing Muzarabani": {
-        "batting": 0,
-        "bowling": 115,
-        "fielding": 0,
-        "total": 115
-      },
-      "Travis Head": {
-        "batting": 73,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 73
-      },
-      "Abhishek Sharma": {
-        "batting": 75,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 75
-      },
-      "Ishan Kishan": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 25
-      },
-      "Heinrich Klaasen": {
-        "batting": 68,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 68
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 50,
-        "bowling": 50,
-        "fielding": 8,
-        "total": 108
-      },
-      "Harsh Dubey": {
-        "batting": 11,
-        "bowling": 25,
-        "fielding": 8,
-        "total": 44
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -2117,14 +2006,14 @@
       "matchId": "espn_1527679",
       "name": "Kolkata Knight Riders v Sunrisers Hyderabad",
       "date": "2026-04-02",
-      "status": "Live",
+      "status": "Final",
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
           "inning": "Kolkata Knight Riders",
           "r": 161,
-          "w": 9,
-          "o": 15.5
+          "w": 10,
+          "o": 16
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -2137,7 +2026,7 @@
         {
           "innings": "Sunrisers Hyderabad",
           "runs": 213,
-          "wickets": 8,
+          "wickets": 0,
           "overs": 20,
           "batting": [
             {
@@ -2146,8 +2035,8 @@
               "balls": 21,
               "fours": 6,
               "sixes": 3,
-              "sr": 219.05,
-              "dismissal": "c Cameron Green b Kartik Tyagi"
+              "sr": 219.04,
+              "dismissal": "c"
             },
             {
               "name": "Abhishek Sharma",
@@ -2156,7 +2045,7 @@
               "fours": 4,
               "sixes": 4,
               "sr": 228.57,
-              "dismissal": "c Varun Chakaravarthy b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Ishan Kishan",
@@ -2164,8 +2053,8 @@
               "balls": 9,
               "fours": 3,
               "sixes": 0,
-              "sr": 155.56,
-              "dismissal": "c Rinku Singh b Blessing Muzarabani"
+              "sr": 155.55,
+              "dismissal": "c"
             },
             {
               "name": "Heinrich Klaasen",
@@ -2174,7 +2063,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 148.57,
-              "dismissal": "c Ramandeep Singh b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Aniket Verma",
@@ -2183,7 +2072,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 25,
-              "dismissal": "c Rinku Singh b Anukul Roy"
+              "dismissal": "c"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -2192,7 +2081,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 162.5,
-              "dismissal": "c Varun Chakaravarthy b Vaibhav Arora"
+              "dismissal": "c"
             },
             {
               "name": "Salil Arora",
@@ -2201,7 +2090,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "b Vaibhav Arora"
+              "dismissal": "out"
             },
             {
               "name": "Harsh Dubey",
@@ -2219,65 +2108,65 @@
               "fours": 1,
               "sixes": 0,
               "sr": 200,
-              "dismissal": "c Ajinkya Rahane b Blessing Muzarabani"
+              "dismissal": "c"
             }
           ],
           "bowling": [
             {
-              "name": "Vaibhav Arora",
-              "overs": 4,
+              "name": "Anukul Roy",
+              "overs": 2,
               "maidens": 0,
-              "runs": 47,
-              "wickets": 2,
-              "economy": 11.8
-            },
-            {
-              "name": "Blessing Muzarabani",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 41,
-              "wickets": 4,
-              "economy": 10.2
+              "runs": 0,
+              "wickets": 1,
+              "economy": 8
             },
             {
               "name": "Sunil Narine",
               "overs": 4,
               "maidens": 0,
-              "runs": 39,
+              "runs": 0,
               "wickets": 0,
-              "economy": 9.8
-            },
-            {
-              "name": "Varun Chakaravarthy",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 31,
-              "wickets": 0,
-              "economy": 15.5
+              "economy": 9.75
             },
             {
               "name": "Kartik Tyagi",
               "overs": 4,
               "maidens": 0,
-              "runs": 48,
+              "runs": 0,
               "wickets": 1,
               "economy": 12
             },
             {
-              "name": "Anukul Roy",
+              "name": "Vaibhav Arora",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 2,
+              "economy": 11.75
+            },
+            {
+              "name": "Varun Chakravarthy",
               "overs": 2,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 1,
-              "economy": 8
+              "runs": 0,
+              "wickets": 0,
+              "economy": 15.5
+            },
+            {
+              "name": "Blessing Muzarabani",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 4,
+              "economy": 10.25
             }
           ]
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 226,
-          "wickets": 8,
-          "overs": 20,
+          "runs": 161,
+          "wickets": 10,
+          "overs": 16,
           "batting": [
             {
               "name": "Finn Allen",
@@ -2286,7 +2175,7 @@
               "fours": 4,
               "sixes": 2,
               "sr": 400,
-              "dismissal": "c and b Harsh Dubey"
+              "dismissal": "c"
             },
             {
               "name": "Ajinkya Rahane",
@@ -2295,7 +2184,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 80,
-              "dismissal": "c Eshan Malinga b Jaydev Unadkat"
+              "dismissal": "c"
             },
             {
               "name": "Angkrish Raghuvanshi",
@@ -2304,7 +2193,7 @@
               "fours": 6,
               "sixes": 2,
               "sr": 179.31,
-              "dismissal": "run out (Eshan Malinga/Shivang Kumar)"
+              "dismissal": "run out"
             },
             {
               "name": "Cameron Green",
@@ -2313,7 +2202,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "run out (Eshan Malinga)"
+              "dismissal": "run out"
             },
             {
               "name": "Rinku Singh",
@@ -2322,7 +2211,7 @@
               "fours": 4,
               "sixes": 1,
               "sr": 140,
-              "dismissal": "c Jaydev Unadkat b Nitish Reddy"
+              "dismissal": "c"
             },
             {
               "name": "Anukul Roy",
@@ -2331,7 +2220,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Ishan Kishan b Nitish Reddy"
+              "dismissal": "c"
             },
             {
               "name": "Ramandeep Singh",
@@ -2340,7 +2229,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 111.11,
-              "dismissal": "c Jaydev Unadkat b Eshan Malinga"
+              "dismissal": "c"
             },
             {
               "name": "Sunil Narine",
@@ -2349,7 +2238,7 @@
               "fours": 0,
               "sixes": 2,
               "sr": 300,
-              "dismissal": "c Aniket Verma b Eshan Malinga"
+              "dismissal": "c"
             },
             {
               "name": "Kartik Tyagi",
@@ -2358,7 +2247,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "c Ishan Kishan b Jaydev Unadkat"
+              "dismissal": "c"
             },
             {
               "name": "Vaibhav Arora",
@@ -2368,6 +2257,15 @@
               "sixes": 0,
               "sr": 50,
               "dismissal": "not out"
+            },
+            {
+              "name": "Varun Chakravarthy",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "out"
             }
           ],
           "bowling": [
@@ -2405,11 +2303,11 @@
             },
             {
               "name": "Jaydev Unadkat",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
-              "wickets": 2,
-              "economy": 7.41
+              "wickets": 3,
+              "economy": 7
             },
             {
               "name": "David Payne",
@@ -2522,7 +2420,7 @@
           "total": 44
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
