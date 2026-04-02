@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T14:14:55.154Z",
+  "lastUpdated": "2026-04-02T14:24:55.609Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 42,
+        "r": 71,
         "w": 0,
-        "o": 2.5
+        "o": 4.6
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Blessing Muzarabani": {
         "batting": 0,
@@ -64,16 +64,16 @@
         "total": 0
       },
       "Travis Head": {
-        "batting": 58,
+        "batting": 60,
         "bowling": 0,
         "fielding": 0,
-        "total": 58
+        "total": 60
       },
       "Abhishek Sharma": {
-        "batting": 10,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 57
       }
     }
   },
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 494,
-      "top11Points": 494
+      "totalPointsAll": 498,
+      "top11Points": 498
     },
     {
       "team": "Tikoo",
@@ -99,24 +99,24 @@
       "top11Points": 431
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 400,
-      "top11Points": 400
-    },
-    {
       "team": "Aakash",
       "totalPointsAll": 384,
       "top11Points": 394
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 310,
-      "top11Points": 310
+      "team": "Ritik",
+      "totalPointsAll": 390,
+      "top11Points": 390
     },
     {
       "team": "Ali",
-      "totalPointsAll": 295,
-      "top11Points": 295
+      "totalPointsAll": 365,
+      "top11Points": 365
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 310,
+      "top11Points": 310
     },
     {
       "team": "Manav",
@@ -2086,45 +2086,61 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 42,
+          "r": 71,
           "w": 0,
-          "o": 2.5
+          "o": 4.6
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 42,
+          "runs": 69,
           "wickets": 0,
-          "overs": 2.5,
+          "overs": 4.6,
           "batting": [
             {
               "name": "Travis Head",
-              "runs": 34,
-              "balls": 13,
+              "runs": 36,
+              "balls": 17,
               "fours": 5,
               "sixes": 2,
-              "sr": 261.53,
+              "sr": 211.76,
               "dismissal": "not out"
             },
             {
               "name": "Abhishek Sharma",
-              "runs": 8,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 200,
+              "runs": 33,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 253.84,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
-              "name": "Vaibhav Arora",
-              "overs": 1.5,
+              "name": "Sunil Narine",
+              "overs": 1,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 14.72
+              "economy": 3
+            },
+            {
+              "name": "Varun Chakravarthy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 25
+            },
+            {
+              "name": "Vaibhav Arora",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 13.5
             },
             {
               "name": "Blessing Muzarabani",
@@ -2176,9 +2192,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Blessing Muzarabani": {
           "batting": 0,
@@ -2187,16 +2203,16 @@
           "total": 0
         },
         "Travis Head": {
-          "batting": 58,
+          "batting": 60,
           "bowling": 0,
           "fielding": 0,
-          "total": 58
+          "total": 60
         },
         "Abhishek Sharma": {
-          "batting": 10,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 57
         }
       },
       "isComplete": false
@@ -2491,9 +2507,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 295,
-      "top11Points": 295,
+      "totalPointsAll": 365,
+      "top11Points": 365,
       "players": [
+        {
+          "name": "Abhishek Sharma",
+          "role": "Opener",
+          "batting": 66,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 66,
+          "multiplier": 1.5,
+          "effectivePoints": 99,
+          "countsInTop11": true
+        },
         {
           "name": "T Natarajan",
           "role": "Fast Bowler",
@@ -2536,17 +2563,6 @@
           "rawPoints": 35,
           "multiplier": 1,
           "effectivePoints": 35,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abhishek Sharma",
-          "role": "Opener",
-          "batting": 19,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 19,
-          "multiplier": 1.5,
-          "effectivePoints": 29,
           "countsInTop11": true
         },
         {
@@ -3054,8 +3070,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 400,
-      "top11Points": 400,
+      "totalPointsAll": 390,
+      "top11Points": 390,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -3135,17 +3151,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 15,
-          "fielding": 0,
-          "rawPoints": 15,
-          "multiplier": 1,
-          "effectivePoints": 15,
-          "countsInTop11": true
-        },
-        {
           "name": "Aiden Markram",
           "role": "Opener",
           "batting": 14,
@@ -3154,6 +3159,17 @@
           "rawPoints": 14,
           "multiplier": 1,
           "effectivePoints": 14,
+          "countsInTop11": true
+        },
+        {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 5,
+          "fielding": 0,
+          "rawPoints": 5,
+          "multiplier": 1,
+          "effectivePoints": 5,
           "countsInTop11": true
         },
         {
@@ -3181,8 +3197,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 494,
-      "top11Points": 494,
+      "totalPointsAll": 498,
+      "top11Points": 498,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3198,12 +3214,12 @@
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 71,
+          "batting": 73,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 71,
+          "rawPoints": 73,
           "multiplier": 2,
-          "effectivePoints": 142,
+          "effectivePoints": 146,
           "countsInTop11": true
         },
         {
