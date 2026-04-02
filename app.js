@@ -62,6 +62,7 @@ async function loadData() {
     renderCurrentMatch();
     renderLeaderboard();
     renderAllMatches();
+    renderTopScorers();
   } else {
     document.getElementById('leaderboard').querySelector('tbody').innerHTML =
       '<tr><td colspan="4" style="text-align:center;padding:20px;color:#64748b">No scores yet. Data will appear once matches begin.</td></tr>';
@@ -380,6 +381,16 @@ function renderAllMatches() {
         headerHtml = `${teamLogo(teams[0], 18)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 18)}`;
       }
 
+      // MVP strip — top 3 fantasy scorers for this match
+      const mvps = Object.entries(match.playerScores || {})
+        .map(([name, s]) => ({ name, total: s.total, manager: playerFantasyTeamMap[name] || '' }))
+        .filter(p => p.total > 0)
+        .sort((a, b) => b.total - a.total)
+        .slice(0, 3);
+      const mvpHtml = mvps.length > 0
+        ? `<div class="mvp-strip">${mvps.map((p, i) => `<span class="mvp-chip${i === 0 ? ' mvp-gold' : ''}">${p.name} <span class="fp-positive">${p.total}</span></span>`).join('')}</div>`
+        : '';
+
       const combinedHtml = renderCombinedScorecard(match);
 
       return `<details class="match-card">
@@ -388,6 +399,7 @@ function renderAllMatches() {
           <span class="match-date">${match.status || ''}</span>
         </summary>
         <p class="score-line" style="margin:8px 0">${scoreLines}</p>
+        ${mvpHtml}
         ${combinedHtml}
       </details>`;
     }).join('');
@@ -398,10 +410,73 @@ function renderAllMatches() {
   container.innerHTML = html;
 }
 
+function renderTopScorers() {
+  const container = document.getElementById('top-scorers-list');
+  if (!data?.matchHistory || !teamsData) {
+    container.innerHTML = '<p style="color:#64748b">No data yet</p>';
+    return;
+  }
+
+  const playerFantasyTeamMap = {};
+  const playerIplTeamMap = {};
+  const playerMultiplierMap = {};
+  for (const team of teamsData.teams) {
+    for (const p of team.players) {
+      playerFantasyTeamMap[p.name] = team.name;
+      playerIplTeamMap[p.name] = p.iplTeam || '';
+      playerMultiplierMap[p.name] = p.name === team.captain ? 2 : p.name === team.viceCaptain ? 1.5 : 1;
+    }
+  }
+
+  // Accumulate totals across all matches
+  const totals = {};
+  for (const match of data.matchHistory) {
+    for (const [name, s] of Object.entries(match.playerScores || {})) {
+      if (!playerFantasyTeamMap[name]) continue; // not a fantasy player
+      if (!totals[name]) totals[name] = { batting: 0, bowling: 0, fielding: 0, total: 0, matches: 0 };
+      totals[name].batting += s.batting;
+      totals[name].bowling += s.bowling;
+      totals[name].fielding += s.fielding;
+      totals[name].total += s.total;
+      totals[name].matches++;
+    }
+  }
+
+  const sorted = Object.entries(totals)
+    .map(([name, t]) => {
+      const mult = playerMultiplierMap[name] || 1;
+      return { name, ...t, mult, effective: Math.round(t.total * mult) };
+    })
+    .sort((a, b) => b.effective - a.effective);
+
+  let html = `<table class="top-scorers-table">
+    <thead><tr><th>#</th><th>Player</th><th>Manager</th><th>M</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Raw</th><th>Eff</th></tr></thead>
+    <tbody>`;
+  html += sorted.map((p, i) => {
+    const iplTeam = playerIplTeamMap[p.name] || '';
+    const multLabel = p.mult > 1 ? ` (${p.mult}x)` : '';
+    return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''}">
+      <td>${i + 1}</td>
+      <td>${p.name}${multLabel} ${iplBadge(iplTeam)}</td>
+      <td style="color:#94a3b8">${playerFantasyTeamMap[p.name]}</td>
+      <td>${p.matches}</td>
+      <td>${p.batting}</td>
+      <td>${p.bowling}</td>
+      <td>${p.fielding}</td>
+      <td>${p.total}</td>
+      <td class="points-cell">${p.effective}</td>
+    </tr>`;
+  }).join('');
+  html += '</tbody></table>';
+
+  container.innerHTML = html;
+}
+
+const allSections = ['leaderboard-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];
+
 // Navigation
 document.getElementById('back-btn').addEventListener('click', () => {
-  document.getElementById('team-detail').classList.add('hidden');
-  document.getElementById('scoring-rules').classList.add('hidden');
+  allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
   document.getElementById('leaderboard-section').classList.remove('hidden');
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
   document.querySelector('[data-view="leaderboard-section"]').classList.add('active');
@@ -411,10 +486,7 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    document.getElementById('leaderboard-section').classList.add('hidden');
-    document.getElementById('all-matches').classList.add('hidden');
-    document.getElementById('team-detail').classList.add('hidden');
-    document.getElementById('scoring-rules').classList.add('hidden');
+    allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
     document.getElementById(btn.dataset.view).classList.remove('hidden');
   });
 });
