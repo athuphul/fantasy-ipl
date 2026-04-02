@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T14:24:55.609Z",
+  "lastUpdated": "2026-04-02T14:34:58.575Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 71,
-        "w": 0,
-        "o": 4.6
+        "r": 96,
+        "w": 1,
+        "o": 6.5
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Cameron Green": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rinku Singh": {
         "batting": 0,
@@ -64,16 +64,22 @@
         "total": 0
       },
       "Travis Head": {
-        "batting": 60,
+        "batting": 73,
         "bowling": 0,
         "fielding": 0,
-        "total": 60
+        "total": 73
       },
       "Abhishek Sharma": {
-        "batting": 57,
+        "batting": 72,
         "bowling": 0,
         "fielding": 0,
-        "total": 57
+        "total": 72
+      },
+      "Ishan Kishan": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -85,8 +91,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 498,
-      "top11Points": 498
+      "totalPointsAll": 532,
+      "top11Points": 532
     },
     {
       "team": "Tikoo",
@@ -105,13 +111,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 390,
-      "top11Points": 390
+      "totalPointsAll": 392,
+      "top11Points": 392
     },
     {
       "team": "Ali",
-      "totalPointsAll": 365,
-      "top11Points": 365
+      "totalPointsAll": 388,
+      "top11Points": 388
     },
     {
       "team": "Ashwin",
@@ -2086,45 +2092,54 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 71,
-          "w": 0,
-          "o": 4.6
+          "r": 96,
+          "w": 1,
+          "o": 6.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 69,
+          "runs": 93,
           "wickets": 0,
-          "overs": 4.6,
+          "overs": 6.5,
           "batting": [
             {
               "name": "Travis Head",
-              "runs": 36,
-              "balls": 17,
-              "fours": 5,
-              "sixes": 2,
-              "sr": 211.76,
-              "dismissal": "not out"
+              "runs": 46,
+              "balls": 21,
+              "fours": 6,
+              "sixes": 3,
+              "sr": 219.04,
+              "dismissal": "c"
             },
             {
               "name": "Abhishek Sharma",
-              "runs": 33,
-              "balls": 13,
-              "fours": 3,
-              "sixes": 3,
-              "sr": 253.84,
+              "runs": 45,
+              "balls": 18,
+              "fours": 4,
+              "sixes": 4,
+              "sr": 250,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Ishan Kishan",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 3
+              "economy": 8.18
             },
             {
               "name": "Varun Chakravarthy",
@@ -2141,6 +2156,14 @@
               "runs": 0,
               "wickets": 0,
               "economy": 13.5
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 13
             },
             {
               "name": "Blessing Muzarabani",
@@ -2169,8 +2192,8 @@
         "Cameron Green": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rinku Singh": {
           "batting": 0,
@@ -2203,16 +2226,22 @@
           "total": 0
         },
         "Travis Head": {
-          "batting": 60,
+          "batting": 73,
           "bowling": 0,
           "fielding": 0,
-          "total": 60
+          "total": 73
         },
         "Abhishek Sharma": {
-          "batting": 57,
+          "batting": 72,
           "bowling": 0,
           "fielding": 0,
-          "total": 57
+          "total": 72
+        },
+        "Ishan Kishan": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -2507,18 +2536,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 365,
-      "top11Points": 365,
+      "totalPointsAll": 388,
+      "top11Points": 388,
       "players": [
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 66,
+          "batting": 81,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 66,
+          "rawPoints": 81,
           "multiplier": 1.5,
-          "effectivePoints": 99,
+          "effectivePoints": 122,
           "countsInTop11": true
         },
         {
@@ -3070,18 +3099,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 390,
-      "top11Points": 390,
+      "totalPointsAll": 392,
+      "top11Points": 392,
       "players": [
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 123,
+          "batting": 125,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 123,
+          "rawPoints": 125,
           "multiplier": 1,
-          "effectivePoints": 123,
+          "effectivePoints": 125,
           "countsInTop11": true
         },
         {
@@ -3197,8 +3226,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 498,
-      "top11Points": 498,
+      "totalPointsAll": 532,
+      "top11Points": 532,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3214,12 +3243,12 @@
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 73,
+          "batting": 86,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 73,
+          "rawPoints": 86,
           "multiplier": 2,
-          "effectivePoints": 146,
+          "effectivePoints": 172,
           "countsInTop11": true
         },
         {
@@ -3234,6 +3263,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 31,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 39,
+          "multiplier": 1,
+          "effectivePoints": 39,
+          "countsInTop11": true
+        },
+        {
           "name": "Phil Salt",
           "role": "Opener",
           "batting": 10,
@@ -3242,17 +3282,6 @@
           "rawPoints": 34,
           "multiplier": 1,
           "effectivePoints": 34,
-          "countsInTop11": true
-        },
-        {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 31,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 31,
-          "multiplier": 1,
-          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
