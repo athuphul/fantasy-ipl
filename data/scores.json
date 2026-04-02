@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-04-01T17:54:54.121Z",
+  "lastUpdated": "2026-04-02T14:05:07.910Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527679",
+    "name": "Kolkata Knight Riders v Sunrisers Hyderabad",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 6,
+        "w": 0,
+        "o": 0.6
+      }
+    ],
+    "playerScores": {
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ajinkya Rahane": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Vaibhav Arora": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Blessing Muzarabani": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Travis Head": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Abhishek Sharma": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Kishan",
@@ -30,8 +105,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 378,
-      "top11Points": 378
+      "totalPointsAll": 390,
+      "top11Points": 390
     },
     {
       "team": "Ashwin",
@@ -40,8 +115,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 280,
-      "top11Points": 280
+      "totalPointsAll": 281,
+      "top11Points": 281
     },
     {
       "team": "Manav",
@@ -2001,6 +2076,122 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527679",
+      "name": "Kolkata Knight Riders v Sunrisers Hyderabad",
+      "date": "2026-04-02",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 6,
+          "w": 0,
+          "o": 0.6
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Sunrisers Hyderabad",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Travis Head",
+              "runs": 1,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 25,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Abhishek Sharma",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Vaibhav Arora",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 1.5
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ajinkya Rahane": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Vaibhav Arora": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Blessing Muzarabani": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Travis Head": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Abhishek Sharma": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -2292,8 +2483,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 280,
-      "top11Points": 280,
+      "totalPointsAll": 281,
+      "top11Points": 281,
       "players": [
         {
           "name": "T Natarajan",
@@ -2353,12 +2544,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 9,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 9,
+          "rawPoints": 10,
           "multiplier": 1.5,
-          "effectivePoints": 14,
+          "effectivePoints": 15,
           "countsInTop11": true
         },
         {
@@ -2982,8 +3173,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 378,
-      "top11Points": 378,
+      "totalPointsAll": 390,
+      "top11Points": 390,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3005,6 +3196,17 @@
           "rawPoints": 54,
           "multiplier": 1,
           "effectivePoints": 54,
+          "countsInTop11": true
+        },
+        {
+          "name": "Travis Head",
+          "role": "Opener",
+          "batting": 19,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 19,
+          "multiplier": 2,
+          "effectivePoints": 38,
           "countsInTop11": true
         },
         {
@@ -3038,17 +3240,6 @@
           "rawPoints": 31,
           "multiplier": 1,
           "effectivePoints": 31,
-          "countsInTop11": true
-        },
-        {
-          "name": "Travis Head",
-          "role": "Opener",
-          "batting": 13,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 13,
-          "multiplier": 2,
-          "effectivePoints": 26,
           "countsInTop11": true
         },
         {
