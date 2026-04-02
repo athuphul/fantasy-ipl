@@ -530,3 +530,13 @@ tr.expandable:hover {
   padding: 4px 4px;
   border-bottom: 1px solid #0f172a;
 }
+
+/* Sortable table headers */
+.sortable-th {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable-th:hover {
+  color: #60a5fa;
+}

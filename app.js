@@ -445,6 +445,9 @@ function renderAllMatches() {
   container.innerHTML = html;
 }
 
+let topScorersSortKey = 'total';
+let topScorersSortAsc = false;
+
 function renderTopScorers() {
   const container = document.getElementById('top-scorers-list');
   if (!data?.matchHistory || !teamsData) {
@@ -480,14 +483,37 @@ function renderTopScorers() {
     }
   }
 
-  const sorted = Object.entries(totals)
-    .map(([name, t]) => ({ name, ...t }))
-    .sort((a, b) => b.total - a.total);
+  const players = Object.entries(totals)
+    .map(([name, t]) => ({ name, manager: playerFantasyTeamMap[name], ...t }));
+
+  // Sort
+  const key = topScorersSortKey;
+  const dir = topScorersSortAsc ? 1 : -1;
+  if (key === 'name' || key === 'manager') {
+    players.sort((a, b) => dir * a[key].localeCompare(b[key]));
+  } else {
+    players.sort((a, b) => dir * (a[key] - b[key]));
+  }
+
+  const columns = [
+    { key: 'name', label: 'Player' },
+    { key: 'manager', label: 'Manager' },
+    { key: 'matches', label: 'M' },
+    { key: 'batting', label: 'Bat' },
+    { key: 'bowling', label: 'Bowl' },
+    { key: 'fielding', label: 'Field' },
+    { key: 'total', label: 'Pts' },
+  ];
+
+  const headerCells = columns.map(c => {
+    const arrow = topScorersSortKey === c.key ? (topScorersSortAsc ? ' &#9650;' : ' &#9660;') : '';
+    return `<th class="sortable-th" data-sort="${c.key}">${c.label}${arrow}</th>`;
+  }).join('');
 
   let html = `<table class="top-scorers-table">
-    <thead><tr><th>#</th><th>Player</th><th>Manager</th><th>M</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Pts</th></tr></thead>
+    <thead><tr><th>#</th>${headerCells}</tr></thead>
     <tbody>`;
-  html += sorted.map((p, i) => {
+  html += players.map((p, i) => {
     const iplTeam = playerIplTeamMap[p.name] || '';
     const matches = playerMatches[p.name] || [];
     const expandId = `ts-expand-${i}`;
@@ -508,10 +534,10 @@ function renderTopScorers() {
           </table>
         </td></tr>`
       : '';
-    return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''} expandable" onclick="togglePlayerExpand('${expandId}')">
+    return `<tr class="expandable" onclick="togglePlayerExpand('${expandId}')">
       <td>${i + 1}</td>
       <td>${p.name} ${iplBadge(iplTeam)} <span class="expand-arrow">&#9662;</span></td>
-      <td style="color:#94a3b8">${playerFantasyTeamMap[p.name]}</td>
+      <td style="color:#94a3b8">${p.manager}</td>
       <td>${p.matches}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
@@ -522,6 +548,21 @@ function renderTopScorers() {
   html += '</tbody></table>';
 
   container.innerHTML = html;
+
+  // Attach sort handlers
+  container.querySelectorAll('.sortable-th').forEach(th => {
+    th.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const col = th.dataset.sort;
+      if (topScorersSortKey === col) {
+        topScorersSortAsc = !topScorersSortAsc;
+      } else {
+        topScorersSortKey = col;
+        topScorersSortAsc = (col === 'name' || col === 'manager');
+      }
+      renderTopScorers();
+    });
+  });
 }
 
 function togglePlayerExpand(id) {
