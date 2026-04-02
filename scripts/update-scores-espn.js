@@ -150,6 +150,7 @@ function buildEspnIdMapping(rosters, allPlayers) {
         const teamOk = !espnTeamAbbr || !rp.iplTeam || espnTeamAbbr === rp.iplTeam;
         if (exactName && teamOk) { bestMatch = rp; break; }
         if (exactName && !bestMatch) { bestMatch = rp; continue; }
+        // For fuzzy matches, REQUIRE team to match (avoids Ashok/Ashutosh-style collisions)
         if (teamOk && !bestMatch) { bestMatch = rp; }
       }
       if (bestMatch) {
@@ -165,9 +166,12 @@ function getRosterName(espnId, espnDisplayName, allPlayers, espnTeamAbbr) {
   let bestMatch = null;
   for (const rp of allPlayers) {
     if (!namesMatch(espnDisplayName, rp.name)) continue;
+    const exactName = normalizeName(espnDisplayName) === normalizeName(rp.name);
     const teamOk = !espnTeamAbbr || !rp.iplTeam || espnTeamAbbr === rp.iplTeam;
-    if (teamOk) { bestMatch = rp; break; }
-    if (!bestMatch) bestMatch = rp;
+    if (exactName && teamOk) { bestMatch = rp; break; }
+    if (exactName && !bestMatch) { bestMatch = rp; continue; }
+    // For fuzzy matches, REQUIRE team to match
+    if (teamOk && !bestMatch) { bestMatch = rp; }
   }
   if (bestMatch) {
     espnIdToRoster[espnId] = { rosterName: bestMatch.name, espnName: espnDisplayName };
@@ -302,18 +306,21 @@ function extractFullScorecard(summaryData) {
               let dismissalStr = 'not out';
               if (od && od.dismissalCard) {
                 const card = od.dismissalCard;
-                const bowler = od.bowler?.displayName || '';
-                const fielders = (od.fielders || []).map(f => f.athlete?.displayName).filter(Boolean);
-                if (card === 'c' && fielders.length > 0) dismissalStr = `c ${fielders[0]} b ${bowler}`;
-                else if (card === 'b') dismissalStr = `b ${bowler}`;
-                else if (card === 'lbw') dismissalStr = `lbw b ${bowler}`;
-                else if (card === 'st' && fielders.length > 0) dismissalStr = `st ${fielders[0]} b ${bowler}`;
-                else if (card === 'ro' || card === 'run out') dismissalStr = `run out (${fielders.join('/')})`;
-                else if (card === 'hit wicket') dismissalStr = `hit wicket b ${bowler}`;
+                const bowler = od.bowler?.displayName || od.bowler?.fullName || od.bowler?.lastName || '';
+                const fielders = (od.fielders || []).map(f => f.athlete?.displayName || f.athlete?.fullName || f.athlete?.lastName).filter(Boolean);
+                // Try shortText first (e.g. "Duffy to Head, OUT") — extract just the dismissal part
+                const shortText = od.details?.shortText || '';
+                if (card === 'c' && fielders.length > 0 && bowler) dismissalStr = `c ${fielders[0]} b ${bowler}`;
+                else if (card === 'b' && bowler) dismissalStr = `b ${bowler}`;
+                else if (card === 'lbw' && bowler) dismissalStr = `lbw b ${bowler}`;
+                else if (card === 'st' && fielders.length > 0 && bowler) dismissalStr = `st ${fielders[0]} b ${bowler}`;
+                else if ((card === 'ro' || card === 'run out') && fielders.length > 0) dismissalStr = `run out (${fielders.join('/')})`;
+                else if (card === 'ro' || card === 'run out') dismissalStr = 'run out';
+                else if (card === 'hit wicket' && bowler) dismissalStr = `hit wicket b ${bowler}`;
                 else if (card === 'retired hurt' || card === 'retired out') dismissalStr = card;
-                else dismissalStr = `${card} ${bowler}`.trim();
+                else if (shortText) dismissalStr = shortText;
+                else dismissalStr = card;
               } else if ((stats.dismissal || 0) >= 1) {
-                // Stats say dismissed but no outDetails — use dismissalCard from stats
                 const card = stats.dismissalCard || 'out';
                 dismissalStr = card;
               }
