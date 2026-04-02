@@ -237,7 +237,7 @@ function renderLeaderboard() {
         <div class="league-stat-value">${avg}</div>
       </div>
       <div class="league-stat-box">
-        <div class="league-stat-label">Median</div>
+        <div class="league-stat-label">Median Points</div>
         <div class="league-stat-value">${median}</div>
       </div>
     </div>`;
