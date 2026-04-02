@@ -227,10 +227,19 @@ function renderLeaderboard() {
   const avg = Math.round(points.reduce((a, b) => a + b, 0) / points.length);
   const median = points[Math.floor(points.length / 2)];
   document.getElementById('league-stats').innerHTML = `
-    <div class="league-stats">
-      <span class="stat-chip">${data.leaderboard.length} Teams</span>
-      <span class="stat-chip">Avg <span class="chip-value">${avg}</span></span>
-      <span class="stat-chip">Median <span class="chip-value">${median}</span></span>
+    <div class="league-stats-row">
+      <div class="league-stat-box">
+        <div class="league-stat-label">Teams</div>
+        <div class="league-stat-value">${data.leaderboard.length}</div>
+      </div>
+      <div class="league-stat-box">
+        <div class="league-stat-label">Avg Points</div>
+        <div class="league-stat-value">${avg}</div>
+      </div>
+      <div class="league-stat-box">
+        <div class="league-stat-label">Median</div>
+        <div class="league-stat-value">${median}</div>
+      </div>
     </div>`;
 
   // Player of the Tournament banner
@@ -390,6 +399,7 @@ function renderCaptainScorecard() {
   }).sort((a, b) => b.rawPts - a.rawPts);
 
   container.innerHTML = `
+    <h2 style="margin-top:20px">Captains</h2>
     <div class="captain-grid">
       ${captains.map((c, i) => `<div class="captain-card${i === 0 ? ' captain-best' : ''}">
         <div class="captain-card-name">${c.captain} ${iplBadge(c.iplTeam)}</div>
@@ -715,7 +725,7 @@ function renderAllMatches() {
         .sort((a, b) => b.total - a.total)
         .slice(0, 3);
       const mvpHtml = mvps.length > 0
-        ? `<div class="mvp-strip">${mvps.map((p, i) => `<span class="mvp-chip${i === 0 ? ' mvp-gold' : ''}">${p.name} <span class="fp-positive">${p.total}</span></span>`).join('')}</div>`
+        ? `<div class="mvp-strip">${mvps.map((p, i) => `<span class="mvp-chip${i === 0 ? ' mvp-gold' : ''}">${p.name}${p.manager ? ` <span class="manager-tag">${p.manager}</span>` : ''} <span class="fp-positive">${p.total}</span></span>`).join('')}</div>`
         : '';
 
       // Match Day Winner

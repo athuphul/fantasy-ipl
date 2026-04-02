@@ -320,28 +320,37 @@ tbody tr {
   font-weight: 600;
 }
 
-/* === League Stats Strip === */
-.league-stats {
+/* === League Stats === */
+.league-stats-row {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 14px;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.stat-chip {
-  background: var(--accent-glow);
+.league-stat-box {
+  flex: 1;
+  background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 4px 12px;
-  font-size: 0.75rem;
+  border-radius: 10px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.league-stat-label {
+  font-size: 0.65rem;
   font-family: var(--font-display);
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   color: var(--text-secondary);
 }
 
-.stat-chip .chip-value {
+.league-stat-value {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
   color: var(--accent-light);
-  margin-left: 2px;
+  margin-top: 2px;
 }
 
 /* === Player of Tournament Banner === */
