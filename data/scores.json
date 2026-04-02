@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T14:44:54.331Z",
+  "lastUpdated": "2026-04-02T14:54:54.248Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 111,
-        "w": 1,
-        "o": 8.1
+        "r": 117,
+        "w": 3,
+        "o": 8.5
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Rinku Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Anukul Roy": {
         "batting": 0,
@@ -48,8 +48,8 @@
       "Varun Chakravarthy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Vaibhav Arora": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Blessing Muzarabani": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "Travis Head": {
         "batting": 73,
@@ -80,6 +80,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 17
+      },
+      "Heinrich Klaasen": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -90,19 +96,19 @@
       "top11Points": 625
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 536,
+      "top11Points": 541
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 532,
       "top11Points": 532
     },
     {
-      "team": "Tikoo",
-      "totalPointsAll": 474,
-      "top11Points": 488
-    },
-    {
       "team": "Athu",
-      "totalPointsAll": 406,
-      "top11Points": 431
+      "totalPointsAll": 407,
+      "top11Points": 432
     },
     {
       "team": "Ritik",
@@ -111,8 +117,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 384,
-      "top11Points": 394
+      "totalPointsAll": 392,
+      "top11Points": 396
     },
     {
       "team": "Ali",
@@ -2092,17 +2098,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 111,
-          "w": 1,
-          "o": 8.1
+          "r": 117,
+          "w": 3,
+          "o": 8.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 108,
+          "runs": 109,
           "wickets": 0,
-          "overs": 8.1,
+          "overs": 8.5,
           "batting": [
             {
               "name": "Travis Head",
@@ -2116,19 +2122,37 @@
             {
               "name": "Abhishek Sharma",
               "runs": 48,
-              "balls": 20,
+              "balls": 21,
               "fours": 4,
               "sixes": 4,
-              "sr": 240,
-              "dismissal": "not out"
+              "sr": 228.57,
+              "dismissal": "c"
             },
             {
               "name": "Ishan Kishan",
               "runs": 14,
-              "balls": 8,
+              "balls": 9,
               "fours": 3,
               "sixes": 0,
-              "sr": 175,
+              "sr": 155.55,
+              "dismissal": "c"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Aniket Verma",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "not out"
             }
           ],
@@ -2167,11 +2191,11 @@
             },
             {
               "name": "Blessing Muzarabani",
-              "overs": 1.1,
+              "overs": 1.5,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 14.57
+              "wickets": 2,
+              "economy": 10.36
             }
           ]
         }
@@ -2198,8 +2222,8 @@
         "Rinku Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Anukul Roy": {
           "batting": 0,
@@ -2210,8 +2234,8 @@
         "Varun Chakravarthy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -2221,9 +2245,9 @@
         },
         "Blessing Muzarabani": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "Travis Head": {
           "batting": 73,
@@ -2242,6 +2266,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 17
+        },
+        "Heinrich Klaasen": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -2249,8 +2279,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 406,
-      "top11Points": 431,
+      "totalPointsAll": 407,
+      "top11Points": 432,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -2288,12 +2318,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 35,
+          "batting": 36,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 51,
+          "rawPoints": 52,
           "multiplier": 1,
-          "effectivePoints": 51,
+          "effectivePoints": 52,
           "countsInTop11": true
         },
         {
@@ -2398,8 +2428,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 384,
-      "top11Points": 394,
+      "totalPointsAll": 392,
+      "top11Points": 396,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -2512,6 +2542,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Varun Chakravarthy",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 8,
+          "rawPoints": -2,
+          "multiplier": 1,
+          "effectivePoints": -2,
+          "countsInTop11": true
+        },
+        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 6,
@@ -2520,17 +2561,6 @@
           "rawPoints": -4,
           "multiplier": 1,
           "effectivePoints": -4,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakravarthy",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "rawPoints": -10,
-          "multiplier": 1,
-          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
@@ -3364,8 +3394,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 474,
-      "top11Points": 488,
+      "totalPointsAll": 536,
+      "top11Points": 541,
       "players": [
         {
           "name": "Prasidh Krishna",
@@ -3405,10 +3435,10 @@
           "role": "Batsman",
           "batting": 42,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 50,
+          "fielding": 16,
+          "rawPoints": 58,
           "multiplier": 1.5,
-          "effectivePoints": 75,
+          "effectivePoints": 87,
           "countsInTop11": true
         },
         {
@@ -3420,6 +3450,17 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
+          "countsInTop11": true
+        },
+        {
+          "name": "Blessing Muzarabani",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
           "countsInTop11": true
         },
         {
@@ -3486,7 +3527,7 @@
           "rawPoints": 4,
           "multiplier": 1,
           "effectivePoints": 4,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Mitchell Santner",
@@ -3497,17 +3538,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
-          "name": "Blessing Muzarabani",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": false
         },
         {
