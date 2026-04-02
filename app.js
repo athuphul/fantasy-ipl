@@ -463,17 +463,20 @@ function renderTopScorers() {
     }
   }
 
-  // Accumulate totals across all matches
+  // Accumulate totals and per-match data
   const totals = {};
+  const playerMatches = {};
   for (const match of data.matchHistory) {
     for (const [name, s] of Object.entries(match.playerScores || {})) {
-      if (!playerFantasyTeamMap[name]) continue; // not a fantasy player
+      if (!playerFantasyTeamMap[name]) continue;
       if (!totals[name]) totals[name] = { batting: 0, bowling: 0, fielding: 0, total: 0, matches: 0 };
       totals[name].batting += s.batting;
       totals[name].bowling += s.bowling;
       totals[name].fielding += s.fielding;
       totals[name].total += s.total;
       totals[name].matches++;
+      if (!playerMatches[name]) playerMatches[name] = [];
+      playerMatches[name].push({ matchName: match.name, date: match.date, ...s });
     }
   }
 
@@ -486,16 +489,35 @@ function renderTopScorers() {
     <tbody>`;
   html += sorted.map((p, i) => {
     const iplTeam = playerIplTeamMap[p.name] || '';
-    return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''}">
+    const matches = playerMatches[p.name] || [];
+    const expandId = `ts-expand-${i}`;
+    const matchRows = matches.length > 0
+      ? `<tr id="${expandId}" class="player-expand hidden"><td colspan="8">
+          <table class="player-match-table">
+            <thead><tr><th>Match</th><th>Date</th><th>Bat</th><th>Bowl</th><th>Field</th><th>Pts</th></tr></thead>
+            <tbody>${matches.map(m =>
+              `<tr>
+                <td>${m.matchName}</td>
+                <td class="match-date">${m.date}</td>
+                <td class="${m.batting > 0 ? 'fp-positive' : m.batting < 0 ? 'fp-negative' : ''}">${m.batting}</td>
+                <td class="${m.bowling > 0 ? 'fp-positive' : m.bowling < 0 ? 'fp-negative' : ''}">${m.bowling}</td>
+                <td class="${m.fielding > 0 ? 'fp-positive' : m.fielding < 0 ? 'fp-negative' : ''}">${m.fielding}</td>
+                <td class="points-cell">${m.total}</td>
+              </tr>`
+            ).join('')}</tbody>
+          </table>
+        </td></tr>`
+      : '';
+    return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''} expandable" onclick="togglePlayerExpand('${expandId}')">
       <td>${i + 1}</td>
-      <td>${p.name} ${iplBadge(iplTeam)}</td>
+      <td>${p.name} ${iplBadge(iplTeam)} <span class="expand-arrow">&#9662;</span></td>
       <td style="color:#94a3b8">${playerFantasyTeamMap[p.name]}</td>
       <td>${p.matches}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
       <td>${p.fielding}</td>
       <td class="points-cell">${p.total}</td>
-    </tr>`;
+    </tr>${matchRows}`;
   }).join('');
   html += '</tbody></table>';
 
