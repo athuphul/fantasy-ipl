@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T15:01:49.509Z",
+  "lastUpdated": "2026-04-02T15:04:53.866Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 124,
+        "r": 130,
         "w": 4,
-        "o": 10.1
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Varun Chakravarthy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 8,
-        "total": 8
+        "total": -7
       },
       "Vaibhav Arora": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 17
       },
       "Heinrich Klaasen": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
+      },
+      "Nitish Kumar Reddy": {
         "batting": 5,
         "bowling": 0,
         "fielding": 0,
         "total": 5
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 3
       }
     }
   },
@@ -113,8 +113,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 436,
-      "top11Points": 461
+      "totalPointsAll": 440,
+      "top11Points": 465
     },
     {
       "team": "Ritik",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 392,
-      "top11Points": 396
+      "totalPointsAll": 377,
+      "top11Points": 394
     },
     {
       "team": "Ali",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 175,
-      "top11Points": 189
+      "totalPointsAll": 177,
+      "top11Points": 191
     }
   ],
   "matchHistory": [
@@ -2104,17 +2104,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 124,
+          "r": 130,
           "w": 4,
-          "o": 10.1
+          "o": 11.1
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 117,
+          "runs": 123,
           "wickets": 0,
-          "overs": 10.1,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Travis Head",
@@ -2145,11 +2145,11 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 5,
-              "balls": 4,
+              "runs": 9,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 125,
+              "sr": 128.57,
               "dismissal": "not out"
             },
             {
@@ -2163,8 +2163,8 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 3,
-              "balls": 3,
+              "runs": 5,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
@@ -2182,19 +2182,19 @@
             },
             {
               "name": "Anukul Roy",
-              "overs": 1,
+              "overs": 1.1,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 5
+              "economy": 6
             },
             {
               "name": "Varun Chakravarthy",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 20.25
+              "economy": 15.5
             },
             {
               "name": "Vaibhav Arora",
@@ -2256,9 +2256,9 @@
         },
         "Varun Chakravarthy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 8,
-          "total": 8
+          "total": -7
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -2291,16 +2291,16 @@
           "total": 17
         },
         "Heinrich Klaasen": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
+        },
+        "Nitish Kumar Reddy": {
           "batting": 5,
           "bowling": 0,
           "fielding": 0,
           "total": 5
-        },
-        "Nitish Kumar Reddy": {
-          "batting": 3,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 3
         }
       },
       "isComplete": false
@@ -2308,8 +2308,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 436,
-      "top11Points": 461,
+      "totalPointsAll": 440,
+      "top11Points": 465,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -2347,12 +2347,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 40,
+          "batting": 44,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 56,
+          "rawPoints": 60,
           "multiplier": 1,
-          "effectivePoints": 56,
+          "effectivePoints": 60,
           "countsInTop11": true
         },
         {
@@ -2457,8 +2457,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 392,
-      "top11Points": 396,
+      "totalPointsAll": 377,
+      "top11Points": 394,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -2571,17 +2571,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Varun Chakravarthy",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 8,
-          "rawPoints": -2,
-          "multiplier": 1,
-          "effectivePoints": -2,
-          "countsInTop11": true
-        },
-        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 6,
@@ -2590,6 +2579,17 @@
           "rawPoints": -4,
           "multiplier": 1,
           "effectivePoints": -4,
+          "countsInTop11": true
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -25,
+          "fielding": 8,
+          "rawPoints": -17,
+          "multiplier": 1,
+          "effectivePoints": -17,
           "countsInTop11": false
         }
       ]
@@ -2998,8 +2998,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 175,
-      "top11Points": 189,
+      "totalPointsAll": 177,
+      "top11Points": 191,
       "players": [
         {
           "name": "Axar Patel",
@@ -3059,12 +3059,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 4,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 4,
+          "rawPoints": 6,
           "multiplier": 1,
-          "effectivePoints": 4,
+          "effectivePoints": 6,
           "countsInTop11": true
         },
         {
