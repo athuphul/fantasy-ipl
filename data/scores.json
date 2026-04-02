@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T16:04:54.325Z",
+  "lastUpdated": "2026-04-02T16:14:58.130Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -8,6 +8,12 @@
     "venue": "Eden Gardens, Kolkata",
     "score": [
       {
+        "inning": "Kolkata Knight Riders",
+        "r": 30,
+        "w": 1,
+        "o": 1.4
+      },
+      {
         "inning": "Sunrisers Hyderabad",
         "r": 226,
         "w": 8,
@@ -15,17 +21,23 @@
       }
     ],
     "playerScores": {
+      "Finn Allen": {
+        "batting": 36,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 36
+      },
+      "Ajinkya Rahane": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 10
+      },
       "Sunil Narine": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
-      },
-      "Ajinkya Rahane": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
       },
       "Cameron Green": {
         "batting": 0,
@@ -95,9 +107,9 @@
       },
       "Harsh Dubey": {
         "batting": 11,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 11
+        "bowling": 25,
+        "fielding": 8,
+        "total": 44
       }
     }
   },
@@ -113,14 +125,14 @@
       "top11Points": 618
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 543,
-      "top11Points": 543
+      "team": "Athu",
+      "totalPointsAll": 568,
+      "top11Points": 593
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 512,
-      "top11Points": 537
+      "team": "Tanay",
+      "totalPointsAll": 576,
+      "top11Points": 576
     },
     {
       "team": "Ritik",
@@ -2109,6 +2121,12 @@
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
+          "inning": "Kolkata Knight Riders",
+          "r": 30,
+          "w": 1,
+          "o": 1.4
+        },
+        {
           "inning": "Sunrisers Hyderabad",
           "r": 226,
           "w": 8,
@@ -2118,7 +2136,7 @@
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 226,
+          "runs": 213,
           "wickets": 8,
           "overs": 20,
           "batting": [
@@ -2254,20 +2272,79 @@
               "economy": 8
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 226,
+          "wickets": 8,
+          "overs": 20,
+          "batting": [
+            {
+              "name": "Finn Allen",
+              "runs": 28,
+              "balls": 7,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 400,
+              "dismissal": "c and b Harsh Dubey"
+            },
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Harsh Dubey",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 7.2
+            },
+            {
+              "name": "David Payne",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 25
+            }
+          ]
         }
       ],
       "playerScores": {
+        "Finn Allen": {
+          "batting": 36,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 36
+        },
+        "Ajinkya Rahane": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 10
+        },
         "Sunil Narine": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Ajinkya Rahane": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
         },
         "Cameron Green": {
           "batting": 0,
@@ -2337,9 +2414,9 @@
         },
         "Harsh Dubey": {
           "batting": 11,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 11
+          "bowling": 25,
+          "fielding": 8,
+          "total": 44
         }
       },
       "isComplete": false
@@ -2347,9 +2424,20 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 512,
-      "top11Points": 537,
+      "totalPointsAll": 568,
+      "top11Points": 593,
       "players": [
+        {
+          "name": "Finn Allen",
+          "role": "Wicket Keeper",
+          "batting": 98,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 98,
+          "multiplier": 1.5,
+          "effectivePoints": 147,
+          "countsInTop11": true
+        },
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
@@ -2364,23 +2452,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 95,
+          "batting": 97,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 103,
+          "rawPoints": 105,
           "multiplier": 1,
-          "effectivePoints": 103,
-          "countsInTop11": true
-        },
-        {
-          "name": "Finn Allen",
-          "role": "Wicket Keeper",
-          "batting": 62,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 62,
-          "multiplier": 1.5,
-          "effectivePoints": 93,
+          "effectivePoints": 105,
           "countsInTop11": true
         },
         {
@@ -3324,8 +3401,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 543,
-      "top11Points": 543,
+      "totalPointsAll": 576,
+      "top11Points": 576,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3350,6 +3427,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Harsh Dubey",
+          "role": "All-Rounder",
+          "batting": 14,
+          "bowling": 45,
+          "fielding": 16,
+          "rawPoints": 75,
+          "multiplier": 1,
+          "effectivePoints": 75,
+          "countsInTop11": true
+        },
+        {
           "name": "Rajat Patidar",
           "role": "Batsman",
           "batting": 54,
@@ -3358,17 +3446,6 @@
           "rawPoints": 54,
           "multiplier": 1,
           "effectivePoints": 54,
-          "countsInTop11": true
-        },
-        {
-          "name": "Harsh Dubey",
-          "role": "All-Rounder",
-          "batting": 14,
-          "bowling": 20,
-          "fielding": 8,
-          "rawPoints": 42,
-          "multiplier": 1,
-          "effectivePoints": 42,
           "countsInTop11": true
         },
         {
