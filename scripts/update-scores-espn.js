@@ -591,6 +591,73 @@ function convertCricApiScorecard(cricData) {
   return innings;
 }
 
+// Merge CricAPI and ESPN scorecards for live matches.
+// CricAPI has both innings with proper dismissal text but can be 10 min stale.
+// ESPN may only have the current innings but with more recent figures.
+// Strategy: use CricAPI for completed innings, ESPN for the live innings (updated with live score totals).
+function mergeScorecards(cricInnings, espnInnings, liveScore) {
+  const merged = [];
+
+  // CricAPI innings are reliable for completed innings
+  for (const cInn of cricInnings) {
+    merged.push(cInn);
+  }
+
+  // Check if ESPN has an innings that CricAPI doesn't (i.e., a new innings just started)
+  // ESPN scorecard during live matches often only has the current innings
+  for (const eInn of espnInnings) {
+    const espnTeam = eInn.innings?.toLowerCase() || '';
+    const alreadyInMerged = merged.some(m => {
+      const mTeam = m.innings?.toLowerCase() || '';
+      return mTeam === espnTeam;
+    });
+
+    if (!alreadyInMerged) {
+      // This is a new innings ESPN has that CricAPI doesn't — add it
+      merged.push(eInn);
+    } else {
+      // ESPN has the same innings as CricAPI — check if ESPN has more recent data
+      const mIdx = merged.findIndex(m => (m.innings?.toLowerCase() || '') === espnTeam);
+      if (mIdx >= 0) {
+        const mInn = merged[mIdx];
+        // If ESPN has more batters or more recent over count, prefer ESPN for this innings
+        if (eInn.batting.length > mInn.batting.length ||
+            (eInn.overs > mInn.overs) ||
+            (eInn.runs > mInn.runs)) {
+          // ESPN is more recent — but CricAPI has better dismissal text
+          // Merge: use ESPN structure but fill in CricAPI dismissal text where available
+          const cricDismissals = {};
+          for (const b of mInn.batting) {
+            if (b.dismissal && b.dismissal !== 'not out') {
+              cricDismissals[b.name] = b.dismissal;
+            }
+          }
+          for (const b of eInn.batting) {
+            if (cricDismissals[b.name] && (b.dismissal === 'c' || b.dismissal === 'b' || b.dismissal === 'lbw' || b.dismissal === 'ro' || b.dismissal === 'run out' || b.dismissal.length <= 3)) {
+              b.dismissal = cricDismissals[b.name];
+            }
+          }
+          merged[mIdx] = eInn;
+        }
+      }
+    }
+  }
+
+  // Update the last innings totals from live score if available
+  if (liveScore && liveScore.length > 0 && merged.length > 0) {
+    const lastLiveScore = liveScore[liveScore.length - 1];
+    const lastMerged = merged[merged.length - 1];
+    // Update if the live score is more recent
+    if (lastLiveScore.r > lastMerged.runs || lastLiveScore.w > lastMerged.wickets) {
+      lastMerged.runs = lastLiveScore.r;
+      lastMerged.wickets = lastLiveScore.w;
+      lastMerged.overs = lastLiveScore.o;
+    }
+  }
+
+  return merged;
+}
+
 async function fetchCricApiScorecard(eventName, eventDate, matchId, forceComplete) {
   if (CRICAPI_KEYS.length === 0) return null;
 
@@ -868,7 +935,7 @@ async function main() {
         stale.playerScores = playerScores;
         const score = extractMatchInfo(summary);
         stale.score = score;
-        stale.scorecard = extractFullScorecard(summary);
+        const staleEspnScorecard = extractFullScorecard(summary);
         stale.status = summary.header?.competitions?.[0]?.status?.type?.detail || stale.status;
 
         // Check if match is now complete
@@ -877,9 +944,14 @@ async function main() {
 
         // Try CricAPI scorecard for better dismissal text
         const staleCricScorecard = await fetchCricApiScorecard(stale.name, stale.date, stale.matchId, staleIsComplete);
-        if (staleCricScorecard && staleCricScorecard.length > 0) {
+        if (staleIsComplete && staleCricScorecard && staleCricScorecard.length > 0) {
           stale.scorecard = staleCricScorecard;
           console.log(`  Using CricAPI scorecard for stale match`);
+        } else if (staleCricScorecard && staleCricScorecard.length > 0 && staleEspnScorecard.length > 0) {
+          stale.scorecard = mergeScorecards(staleCricScorecard, staleEspnScorecard, score);
+          console.log(`  Merged scorecard for stale match`);
+        } else {
+          stale.scorecard = staleCricScorecard && staleCricScorecard.length > 0 ? staleCricScorecard : staleEspnScorecard;
         }
 
         if (staleIsComplete) {
@@ -997,13 +1069,27 @@ async function main() {
 
       const statusDetail = event.fullStatus?.type?.detail || event.status;
       const score = extractMatchInfo(summary);
-      let scorecard = extractFullScorecard(summary);
+      const espnScorecard = extractFullScorecard(summary);
 
       // Try CricAPI scorecard for better dismissal text
       const cricScorecard = await fetchCricApiScorecard(event.name, eventDate, matchId, isComplete);
-      if (cricScorecard && cricScorecard.length > 0) {
+
+      // Merge: CricAPI has proper dismissals and both innings, ESPN has latest live data
+      let scorecard;
+      if (isComplete && cricScorecard && cricScorecard.length > 0) {
+        // Completed match: CricAPI is authoritative
         scorecard = cricScorecard;
         console.log(`  Using CricAPI scorecard (${cricScorecard.length} innings)`);
+      } else if (cricScorecard && cricScorecard.length > 0 && espnScorecard.length > 0) {
+        // Live match: merge CricAPI (complete innings) with ESPN (current innings)
+        scorecard = mergeScorecards(cricScorecard, espnScorecard, score);
+        console.log(`  Merged scorecard: CricAPI(${cricScorecard.length} inn) + ESPN(${espnScorecard.length} inn) = ${scorecard.length} inn`);
+      } else if (cricScorecard && cricScorecard.length > 0) {
+        scorecard = cricScorecard;
+        console.log(`  Using CricAPI scorecard (${cricScorecard.length} innings)`);
+      } else {
+        scorecard = espnScorecard;
+        console.log(`  Using ESPN scorecard (${espnScorecard.length} innings)`);
       }
 
       const matchEntry = {
