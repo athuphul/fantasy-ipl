@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T15:34:54.590Z",
+  "lastUpdated": "2026-04-02T15:41:13.994Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 195,
-        "w": 4,
-        "o": 17.4
+        "r": 200,
+        "w": 6,
+        "o": 18.2
       }
     ],
     "playerScores": {
@@ -48,14 +48,14 @@
       "Varun Chakravarthy": {
         "batting": 0,
         "bowling": -15,
-        "fielding": 8,
-        "total": -7
+        "fielding": 16,
+        "total": 1
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 45,
         "fielding": 0,
-        "total": -10
+        "total": 45
       },
       "Blessing Muzarabani": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": 45
       },
       "Nitish Kumar Reddy": {
-        "batting": 49,
+        "batting": 50,
         "bowling": 0,
         "fielding": 0,
-        "total": 49
+        "total": 50
       }
     }
   },
@@ -118,12 +118,12 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 407,
-      "top11Points": 407
+      "totalPointsAll": 462,
+      "top11Points": 462
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 377,
+      "totalPointsAll": 385,
       "top11Points": 394
     },
     {
@@ -138,8 +138,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 221,
-      "top11Points": 235
+      "totalPointsAll": 222,
+      "top11Points": 236
     }
   ],
   "matchHistory": [
@@ -2104,17 +2104,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 195,
-          "w": 4,
-          "o": 17.4
+          "r": 200,
+          "w": 6,
+          "o": 18.2
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 195,
-          "wickets": 4,
-          "overs": 17.4,
+          "runs": 189,
+          "wickets": 0,
+          "overs": 18.2,
           "batting": [
             {
               "name": "Travis Head",
@@ -2123,7 +2123,7 @@
               "fours": 6,
               "sixes": 3,
               "sr": 219.04,
-              "dismissal": "c Cameron Green b Kartik Tyagi"
+              "dismissal": "c"
             },
             {
               "name": "Abhishek Sharma",
@@ -2132,7 +2132,7 @@
               "fours": 4,
               "sixes": 4,
               "sr": 228.57,
-              "dismissal": "c Varun Chakaravarthy b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Ishan Kishan",
@@ -2141,7 +2141,7 @@
               "fours": 3,
               "sixes": 0,
               "sr": 155.55,
-              "dismissal": "c Rinku Singh b Blessing Muzarabani"
+              "dismissal": "c"
             },
             {
               "name": "Heinrich Klaasen",
@@ -2159,16 +2159,25 @@
               "fours": 0,
               "sixes": 0,
               "sr": 25,
-              "dismissal": "c Rinku Singh b Anukul Roy"
+              "dismissal": "c"
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 38,
-              "balls": 22,
+              "runs": 39,
+              "balls": 24,
               "fours": 4,
               "sixes": 1,
-              "sr": 172.72,
-              "dismissal": "not out"
+              "sr": 162.5,
+              "dismissal": "c"
+            },
+            {
+              "name": "Salil Arora",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "out"
             }
           ],
           "bowling": [
@@ -2198,19 +2207,19 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
               "runs": 0,
-              "wickets": 0,
-              "economy": 12
+              "wickets": 2,
+              "economy": 10.8
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 12.26
+              "economy": 12
             },
             {
               "name": "Blessing Muzarabani",
@@ -2257,14 +2266,14 @@
         "Varun Chakravarthy": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 8,
-          "total": -7
+          "fielding": 16,
+          "total": 1
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 45,
           "fielding": 0,
-          "total": -10
+          "total": 45
         },
         "Blessing Muzarabani": {
           "batting": 0,
@@ -2297,10 +2306,10 @@
           "total": 45
         },
         "Nitish Kumar Reddy": {
-          "batting": 49,
+          "batting": 50,
           "bowling": 0,
           "fielding": 0,
-          "total": 49
+          "total": 50
         }
       },
       "isComplete": false
@@ -2457,7 +2466,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 377,
+      "totalPointsAll": 385,
       "top11Points": 394,
       "players": [
         {
@@ -2586,10 +2595,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": -25,
-          "fielding": 8,
-          "rawPoints": -17,
+          "fielding": 16,
+          "rawPoints": -9,
           "multiplier": 1,
-          "effectivePoints": -17,
+          "effectivePoints": -9,
           "countsInTop11": false
         }
       ]
@@ -2998,8 +3007,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 221,
-      "top11Points": 235,
+      "totalPointsAll": 222,
+      "top11Points": 236,
       "players": [
         {
           "name": "Axar Patel",
@@ -3015,12 +3024,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 50,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 50,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 50,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3158,8 +3167,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 407,
-      "top11Points": 407,
+      "totalPointsAll": 462,
+      "top11Points": 462,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -3181,6 +3190,17 @@
           "rawPoints": 53,
           "multiplier": 1.5,
           "effectivePoints": 80,
+          "countsInTop11": true
+        },
+        {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 60,
+          "fielding": 0,
+          "rawPoints": 60,
+          "multiplier": 1,
+          "effectivePoints": 60,
           "countsInTop11": true
         },
         {
@@ -3247,17 +3267,6 @@
           "rawPoints": 14,
           "multiplier": 1,
           "effectivePoints": 14,
-          "countsInTop11": true
-        },
-        {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 5,
-          "fielding": 0,
-          "rawPoints": 5,
-          "multiplier": 1,
-          "effectivePoints": 5,
           "countsInTop11": true
         },
         {
