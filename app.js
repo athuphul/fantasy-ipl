@@ -726,12 +726,14 @@ function renderHeroTiles() {
 
   if (players.length === 0) { container.innerHTML = ''; return; }
 
-  const bestBat = players.reduce((a, b) => b.batting > a.batting ? b : a);
-  const bestBowl = players.reduce((a, b) => b.bowling > a.bowling ? b : a);
+  const total = p => p.batting + p.bowling + p.fielding;
+  const batsmen = players.filter(p => playerRoleMap[p.name]?.includes('Batsman') || playerRoleMap[p.name]?.includes('WK'));
+  const bowlers = players.filter(p => playerRoleMap[p.name]?.includes('Bowler'));
   const allRounders = players.filter(p => playerRoleMap[p.name] === 'All-Rounder');
-  const bestAR = allRounders.length > 0
-    ? allRounders.reduce((a, b) => (b.batting + b.bowling + b.fielding) > (a.batting + a.bowling + a.fielding) ? b : a)
-    : null;
+
+  const bestBat = batsmen.length > 0 ? batsmen.reduce((a, b) => total(b) > total(a) ? b : a) : null;
+  const bestBowl = bowlers.length > 0 ? bowlers.reduce((a, b) => total(b) > total(a) ? b : a) : null;
+  const bestAR = allRounders.length > 0 ? allRounders.reduce((a, b) => total(b) > total(a) ? b : a) : null;
 
   function tile(cls, label, player, pts) {
     return `<div class="hero-tile ${cls}">
@@ -743,9 +745,9 @@ function renderHeroTiles() {
   }
 
   container.innerHTML = `<div class="hero-tiles">
-    ${tile('hero-bat', 'Best Batsman', bestBat, bestBat.batting)}
-    ${tile('hero-bowl', 'Best Bowler', bestBowl, bestBowl.bowling)}
-    ${bestAR ? tile('hero-ar', 'Best All-Rounder', bestAR, bestAR.batting + bestAR.bowling + bestAR.fielding) : ''}
+    ${bestBat ? tile('hero-bat', 'Best Batsman', bestBat, total(bestBat)) : ''}
+    ${bestBowl ? tile('hero-bowl', 'Best Bowler', bestBowl, total(bestBowl)) : ''}
+    ${bestAR ? tile('hero-ar', 'Best All-Rounder', bestAR, total(bestAR)) : ''}
   </div>`;
 }
 
