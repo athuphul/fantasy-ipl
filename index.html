@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fantasy IPL 2026</title>
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
   <header>
     <h1>Fantasy IPL 2026</h1>
     <p id="last-updated"></p>
+    <button id="theme-toggle" aria-label="Toggle theme"></button>
   </header>
 
   <div id="current-match" class="card hidden"></div>
 
   <section id="leaderboard-section">
+    <div id="pot-banner"></div>
+    <div id="match-progress"></div>
+    <div id="league-stats"></div>
     <h2>Leaderboard</h2>
     <table id="leaderboard">
       <thead>
         <tr>
           <th>#</th>
           <th>Team</th>
-          <th>Top 11 Pts</th>
-          <th>All Players Pts</th>
+          <th class="hide-mobile">Form</th>
+          <th>Top 11</th>
+          <th>Last</th>
+          <th class="hide-mobile">Gap</th>
+          <th class="hide-mobile">All Pts</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -123,6 +133,7 @@
 
   <section id="top-scorers" class="hidden">
     <h2>Top Scorers</h2>
+    <div id="hero-tiles"></div>
     <div id="top-scorers-list"></div>
   </section>
 
@@ -133,6 +144,6 @@
     <button class="nav-btn" data-view="scoring-rules">Scoring</button>
   </nav>
 
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

@@ -1,7 +1,24 @@
 let data = null;
 let teamsData = null;
 let scheduleData = null;
+let initialLoadDone = false;
+let previousLeaderboard = null;
+let countdownInterval = null;
 
+// === Theme Toggle ===
+const themeToggle = document.getElementById('theme-toggle');
+const savedTheme = localStorage.getItem('fipl-theme') || 'dark';
+document.documentElement.setAttribute('data-theme', savedTheme);
+themeToggle.textContent = savedTheme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('fipl-theme', next);
+  themeToggle.textContent = next === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+});
+
+// === Team Logos ===
 const TEAM_LOGOS = {
   CSK: 'https://g.cricapi.com/iapi/135-637852956181378533.png?w=48',
   DC: 'https://g.cricapi.com/iapi/148-637874596301457910.png?w=48',
@@ -27,7 +44,6 @@ function iplBadge(abbr) {
   return `${teamLogo(abbr, 14)}<span class="ipl-badge">${abbr}</span>`;
 }
 
-// Extract team abbreviations from match name like "Mumbai Indians v Kolkata Knight Riders"
 const TEAM_FULL_TO_ABBR = {
   'Chennai Super Kings': 'CSK', 'Mumbai Indians': 'MI', 'Royal Challengers Bengaluru': 'RCB',
   'Kolkata Knight Riders': 'KKR', 'Sunrisers Hyderabad': 'SRH', 'Rajasthan Royals': 'RR',
@@ -42,6 +58,7 @@ function matchTeams(matchName) {
   return result;
 }
 
+// === Data Loading ===
 async function loadData() {
   try {
     const cacheBust = `?t=${Date.now()}`;
@@ -58,14 +75,24 @@ async function loadData() {
   }
 
   if (data) {
+    // Snapshot leaderboard for animation on refresh
+    if (initialLoadDone && data.leaderboard) {
+      previousLeaderboard = {};
+      for (const entry of data.leaderboard) {
+        previousLeaderboard[entry.team] = entry.top11Points;
+      }
+    }
+
     renderLastUpdated();
     renderCurrentMatch();
     renderLeaderboard();
     renderAllMatches();
     renderTopScorers();
+
+    if (!initialLoadDone) initialLoadDone = true;
   } else {
     document.getElementById('leaderboard').querySelector('tbody').innerHTML =
-      '<tr><td colspan="4" style="text-align:center;padding:20px;color:#64748b">No scores yet. Data will appear once matches begin.</td></tr>';
+      '<tr><td colspan="7" style="text-align:center;padding:20px;color:var(--text-muted)">No scores yet. Data will appear once matches begin.</td></tr>';
     renderAllMatches();
   }
 }
@@ -78,53 +105,273 @@ function renderLastUpdated() {
   }
 }
 
+// === Countdown Timer ===
 function renderCurrentMatch() {
   const el = document.getElementById('current-match');
-  if (!data.currentMatch) {
+
+  if (data.currentMatch) {
+    el.classList.remove('hidden', 'countdown-mode');
+    const m = data.currentMatch;
+    const teams = matchTeams(m.name);
+    let html = `<h3><span class="live-dot"></span>`;
+    if (teams.length === 2) {
+      html += `${teamLogo(teams[0], 20)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 20)}`;
+    } else {
+      html += m.name;
+    }
+    html += `</h3>`;
+    html += `<p style="font-size:0.8rem;color:var(--text-muted)">${m.venue || ''}</p>`;
+    html += `<p style="font-size:0.8rem;color:var(--text-secondary)">${m.status}</p>`;
+    if (m.score) {
+      for (const s of m.score) {
+        html += `<p class="score-line">${s.inning}: ${s.r}/${s.w} (${s.o} ov)</p>`;
+      }
+    }
+    const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
+    if (matchEntry?.scorecard) {
+      html += renderCombinedScorecard(matchEntry);
+    }
+    el.innerHTML = html;
+    if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
+    return;
+  }
+
+  // No live match — check for countdown
+  if (!scheduleData || scheduleData.length === 0) {
     el.classList.add('hidden');
     return;
   }
+
+  const now = new Date();
+  const completedDates = new Set((data?.matchHistory || []).map(m => m.date));
+  const nextMatch = scheduleData.find(m => {
+    if (completedDates.has(m.date)) return false;
+    const [h, min] = m.time.split(':').map(Number);
+    const matchTime = new Date(`${m.date}T${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}:00+05:30`);
+    return matchTime > now;
+  });
+
+  if (!nextMatch) {
+    el.classList.add('hidden');
+    return;
+  }
+
+  const [h, min] = nextMatch.time.split(':').map(Number);
+  const matchTime = new Date(`${nextMatch.date}T${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}:00+05:30`);
+  const diffMs = matchTime - now;
+
+  if (diffMs > 24 * 60 * 60 * 1000) {
+    el.classList.add('hidden');
+    return;
+  }
+
   el.classList.remove('hidden');
-  const m = data.currentMatch;
-  const teams = matchTeams(m.name);
-  let html = `<h3><span class="live-dot"></span>`;
-  if (teams.length === 2) {
-    html += `${teamLogo(teams[0], 20)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 20)}`;
-  } else {
-    html += m.name;
-  }
-  html += `</h3>`;
-  html += `<p style="font-size:0.8rem;color:#64748b">${m.venue || ''}</p>`;
-  html += `<p style="font-size:0.8rem;color:#94a3b8">${m.status}</p>`;
-  if (m.score) {
-    for (const s of m.score) {
-      html += `<p class="score-line">${s.inning}: ${s.r}/${s.w} (${s.o} ov)</p>`;
+  el.classList.add('countdown-mode');
+
+  function updateCountdown() {
+    const remaining = matchTime - new Date();
+    if (remaining <= 0) {
+      el.classList.add('hidden');
+      if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
+      return;
     }
+    const hrs = Math.floor(remaining / 3600000);
+    const mins = Math.floor((remaining % 3600000) / 60000);
+    const secs = Math.floor((remaining % 60000) / 1000);
+    const timeStr = hrs > 0 ? `${hrs}h ${mins}m ${secs}s` : `${mins}m ${secs}s`;
+    el.innerHTML = `
+      <p class="countdown-text">Next match in ${timeStr}</p>
+      <p class="countdown-match">${teamLogo(nextMatch.home, 20)} ${nextMatch.home} vs ${nextMatch.away} ${teamLogo(nextMatch.away, 20)}</p>
+      <p style="font-size:0.75rem;color:var(--text-muted);margin-top:4px">${nextMatch.venue}</p>
+    `;
   }
-  const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
-  if (matchEntry?.scorecard) {
-    html += renderCombinedScorecard(matchEntry);
-  }
-  el.innerHTML = html;
+
+  updateCountdown();
+  if (countdownInterval) clearInterval(countdownInterval);
+  countdownInterval = setInterval(updateCountdown, 1000);
 }
 
+// === Helper: compute per-team match total ===
+function computeTeamMatchTotal(teamMeta, matchPlayerScores) {
+  let total = 0;
+  for (const p of teamMeta.players) {
+    const s = matchPlayerScores[p.name];
+    if (s) {
+      const mult = p.name === teamMeta.captain ? 2 : p.name === teamMeta.viceCaptain ? 1.5 : 1;
+      total += Math.round(s.total * mult);
+    }
+  }
+  return total;
+}
+
+// === Leaderboard ===
 function renderLeaderboard() {
   const tbody = document.getElementById('leaderboard').querySelector('tbody');
   if (!data.leaderboard || data.leaderboard.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:20px;color:#64748b">No data yet</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:20px;color:var(--text-muted)">No data yet</td></tr>';
     return;
   }
+
+  // Match progress
+  const matchesPlayed = (data.matchHistory || []).length;
+  const totalMatches = scheduleData ? scheduleData.length : 74;
+  const pct = Math.round((matchesPlayed / totalMatches) * 100);
+  document.getElementById('match-progress').innerHTML = `
+    <div class="match-progress">
+      <span class="progress-text">${matchesPlayed} of ${totalMatches} matches played</span>
+      <div class="progress-bar-track"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+    </div>`;
+
+  // League stats
+  const points = data.leaderboard.map(e => e.top11Points).sort((a, b) => a - b);
+  const avg = Math.round(points.reduce((a, b) => a + b, 0) / points.length);
+  const median = points[Math.floor(points.length / 2)];
+  document.getElementById('league-stats').innerHTML = `
+    <div class="league-stats">
+      <span class="stat-chip">${data.leaderboard.length} Teams</span>
+      <span class="stat-chip">Avg <span class="chip-value">${avg}</span></span>
+      <span class="stat-chip">Median <span class="chip-value">${median}</span></span>
+    </div>`;
+
+  // Player of the Tournament banner
+  renderPOTBanner();
+
+  // Compute last match scores + per-match history for form
+  const lastMatch = data.matchHistory?.[data.matchHistory.length - 1];
+  const matchHistory = data.matchHistory || [];
+  const teamMatchTotals = {};
+  if (teamsData) {
+    for (const team of teamsData.teams) {
+      teamMatchTotals[team.name] = [];
+      for (const match of matchHistory) {
+        teamMatchTotals[team.name].push(computeTeamMatchTotal(team, match.playerScores || {}));
+      }
+    }
+  }
+
+  const medals = ['\uD83E\uDD47', '\uD83E\uDD48', '\uD83E\uDD49'];
+
   tbody.innerHTML = data.leaderboard.map((entry, i) => {
     const rankClass = i < 3 ? `rank-${i + 1}` : '';
+    const rankDisplay = i < 3 ? medals[i] : `${i + 1}`;
+
+    // IPL logo strip
+    const teamMeta = teamsData?.teams?.find(t => t.name === entry.team);
+    const iplTeams = teamMeta ? [...new Set(teamMeta.players.map(p => p.iplTeam).filter(Boolean))] : [];
+    const logoStrip = iplTeams.length > 0
+      ? `<div class="team-logos-strip">${iplTeams.map(t => teamLogo(t, 16)).join('')}</div>`
+      : '';
+
+    // Form: last 3 match scores as colored bars
+    const matchTotals = teamMatchTotals[entry.team] || [];
+    const recentTotals = matchTotals.slice(-3);
+    const allMatchAvg = matchTotals.length > 0 ? matchTotals.reduce((a, b) => a + b, 0) / matchTotals.length : 0;
+    const maxMatchScore = Math.max(...matchTotals, 1);
+
+    const formBars = recentTotals.map(score => {
+      const height = Math.max(4, Math.round((score / maxMatchScore) * 20));
+      const color = score >= allMatchAvg * 1.1 ? 'var(--positive)' : score >= allMatchAvg * 0.9 ? 'var(--captain)' : 'var(--negative)';
+      return `<div class="form-bar" style="height:${height}px;background:${color}" title="${score}"></div>`;
+    }).join('');
+
+    // Momentum arrow
+    let momentum = '';
+    if (matchTotals.length >= 2) {
+      const lastScore = matchTotals[matchTotals.length - 1];
+      const ratio = allMatchAvg > 0 ? lastScore / allMatchAvg : 1;
+      if (ratio > 1.2) momentum = `<span class="momentum-arrow" style="color:var(--positive)">\u2191</span>`;
+      else if (ratio > 1.05) momentum = `<span class="momentum-arrow" style="color:var(--positive)">\u2197</span>`;
+      else if (ratio >= 0.95) momentum = `<span class="momentum-arrow" style="color:var(--text-muted)">\u2192</span>`;
+      else if (ratio >= 0.8) momentum = `<span class="momentum-arrow" style="color:var(--captain)">\u2198</span>`;
+      else momentum = `<span class="momentum-arrow" style="color:var(--negative)">\u2193</span>`;
+    }
+
+    // Last match score
+    const lastMatchScore = lastMatch && teamMeta ? computeTeamMatchTotal(teamMeta, lastMatch.playerScores || {}) : '-';
+
+    // Gap
+    const gap = i === 0 ? '-' : `${entry.top11Points - data.leaderboard[i - 1].top11Points}`;
+
     return `<tr class="${rankClass}" onclick="showTeam('${entry.team}')">
-      <td>${i + 1}</td>
-      <td>${entry.team}</td>
+      <td class="rank-cell">${rankDisplay}</td>
+      <td class="team-cell">${entry.team}${logoStrip}</td>
+      <td class="hide-mobile"><div class="form-cell">${formBars}${momentum}</div></td>
       <td class="points-cell">${entry.top11Points}</td>
-      <td class="points-cell" style="opacity:0.6">${entry.totalPointsAll}</td>
+      <td class="last-match-cell">${lastMatchScore}</td>
+      <td class="gap-cell hide-mobile">${gap}</td>
+      <td class="points-cell hide-mobile" style="opacity:0.6">${entry.totalPointsAll}</td>
     </tr>`;
   }).join('');
+
+  // Animate numbers on refresh
+  if (initialLoadDone && previousLeaderboard) {
+    tbody.querySelectorAll('tr').forEach(tr => {
+      const teamName = tr.querySelector('.team-cell')?.textContent?.split('\n')?.[0]?.trim();
+      if (teamName && previousLeaderboard[teamName] !== undefined) {
+        const pointsCell = tr.querySelector('.points-cell');
+        if (pointsCell) {
+          const oldVal = previousLeaderboard[teamName];
+          const newVal = parseInt(pointsCell.textContent);
+          if (oldVal !== newVal) {
+            pointsCell.classList.add('updated');
+            animateNumber(pointsCell, oldVal, newVal);
+            pointsCell.addEventListener('animationend', () => pointsCell.classList.remove('updated'), { once: true });
+          }
+        }
+      }
+    });
+  }
 }
 
+function animateNumber(el, from, to, duration) {
+  duration = duration || 600;
+  const start = performance.now();
+  const step = (now) => {
+    const pct = Math.min((now - start) / duration, 1);
+    el.textContent = Math.round(from + (to - from) * pct);
+    if (pct < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+// === Player of the Tournament Banner ===
+function renderPOTBanner() {
+  const container = document.getElementById('pot-banner');
+  if (!data?.matchHistory || !teamsData) { container.innerHTML = ''; return; }
+
+  const playerFantasyTeamMap = {};
+  const playerIplTeamMap = {};
+  for (const team of teamsData.teams) {
+    for (const p of team.players) {
+      playerFantasyTeamMap[p.name] = team.name;
+      playerIplTeamMap[p.name] = p.iplTeam || '';
+    }
+  }
+
+  const totals = {};
+  for (const match of data.matchHistory) {
+    for (const [name, s] of Object.entries(match.playerScores || {})) {
+      if (!playerFantasyTeamMap[name]) continue;
+      totals[name] = (totals[name] || 0) + s.total;
+    }
+  }
+
+  const entries = Object.entries(totals);
+  if (entries.length === 0) { container.innerHTML = ''; return; }
+  const [bestName, bestPts] = entries.reduce((a, b) => b[1] > a[1] ? b : a);
+
+  container.innerHTML = `
+    <div class="pot-banner">
+      <div>
+        <div class="pot-label">Player of the Tournament</div>
+        <div class="pot-name">${bestName} ${iplBadge(playerIplTeamMap[bestName])}</div>
+        <div class="pot-manager">${playerFantasyTeamMap[bestName]}'s team</div>
+      </div>
+      <div class="pot-points">${bestPts} pts</div>
+    </div>`;
+}
+
+// === Team Detail ===
 function showTeam(teamName) {
   const detail = data.teamDetails[teamName];
   if (!detail) return;
@@ -149,11 +396,11 @@ function showTeam(teamName) {
     </div>
     <div class="stat-box">
       <div class="label">Captain</div>
-      <div class="value" style="font-size:0.9rem;color:#fbbf24">${teamMeta?.captain || '-'}</div>
+      <div class="value" style="font-size:0.9rem;color:var(--captain)">${teamMeta?.captain || '-'}</div>
     </div>
     <div class="stat-box">
       <div class="label">Vice Captain</div>
-      <div class="value" style="font-size:0.9rem;color:#a78bfa">${teamMeta?.viceCaptain || '-'}</div>
+      <div class="value" style="font-size:0.9rem;color:var(--vice-captain)">${teamMeta?.viceCaptain || '-'}</div>
     </div>
   `;
 
@@ -164,7 +411,6 @@ function showTeam(teamName) {
     }
   }
 
-  // Build per-player match breakdown
   const playerMatchData = {};
   for (const match of (data.matchHistory || [])) {
     for (const p of detail.players) {
@@ -224,7 +470,7 @@ function showTeam(teamName) {
 function renderTeamMatchHistory(teamName, detail) {
   const container = document.getElementById('match-history');
   if (!data.matchHistory || data.matchHistory.length === 0) {
-    container.innerHTML = '<p style="color:#64748b">No matches played yet</p>';
+    container.innerHTML = '<p style="color:var(--text-muted)">No matches played yet</p>';
     return;
   }
 
@@ -272,20 +518,16 @@ function formatScheduleDate(dateStr) {
   return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-// --- Combined Scorecard + Fantasy Points ---
-
+// === Combined Scorecard + Fantasy Points ===
 function renderCombinedScorecard(match) {
   if (!match.scorecard || match.scorecard.length === 0) return '';
 
-  // Build fantasy lookup: playerName -> { team, batting, bowling, fielding, total }
   const fantasyMap = {};
   const playerFantasyTeamMap = {};
-  const playerIplTeamMap = {};
   if (teamsData) {
     for (const team of teamsData.teams) {
       for (const p of team.players) {
         playerFantasyTeamMap[p.name] = team.name;
-        playerIplTeamMap[p.name] = p.iplTeam || '';
       }
     }
   }
@@ -296,9 +538,8 @@ function renderCombinedScorecard(match) {
   let html = '';
   for (const inn of match.scorecard) {
     html += `<div class="scorecard-innings">`;
-    html += `<div class="innings-header">${inn.innings} — ${inn.runs}/${inn.wickets} (${inn.overs} ov)</div>`;
+    html += `<div class="innings-header">${inn.innings} \u2014 ${inn.runs}/${inn.wickets} (${inn.overs} ov)</div>`;
 
-    // Batting table with fantasy points
     if (inn.batting && inn.batting.length > 0) {
       html += `<table class="scorecard-table"><thead><tr><th>Batter</th><th>R</th><th>B</th><th>4s</th><th>6s</th><th>SR</th><th class="fantasy-col">FP</th></tr></thead><tbody>`;
       for (const b of inn.batting) {
@@ -317,7 +558,6 @@ function renderCombinedScorecard(match) {
       html += `</tbody></table>`;
     }
 
-    // Bowling table with fantasy points
     if (inn.bowling && inn.bowling.length > 0) {
       html += `<table class="scorecard-table"><thead><tr><th>Bowler</th><th>O</th><th>M</th><th>R</th><th>W</th><th>Econ</th><th class="fantasy-col">FP</th></tr></thead><tbody>`;
       for (const b of inn.bowling) {
@@ -340,7 +580,6 @@ function renderCombinedScorecard(match) {
     html += `</div>`;
   }
 
-  // Fielding points summary (not shown in batting/bowling tables)
   const fieldingEntries = Object.entries(fantasyMap)
     .filter(([_, s]) => s.fielding !== 0)
     .sort((a, b) => b[1].fielding - a[1].fielding);
@@ -356,17 +595,16 @@ function renderCombinedScorecard(match) {
   return html;
 }
 
+// === All Matches ===
 function renderAllMatches() {
   const container = document.getElementById('matches-list');
   let html = '';
 
   const playerFantasyTeamMap = {};
-  const playerIplTeamMap = {};
   if (teamsData) {
     for (const team of teamsData.teams) {
       for (const p of team.players) {
         playerFantasyTeamMap[p.name] = team.name;
-        playerIplTeamMap[p.name] = p.iplTeam || '';
       }
     }
   }
@@ -381,7 +619,6 @@ function renderAllMatches() {
   const upcoming = (scheduleData || []).filter(m => m.date >= today && !completedDates.has(m.date));
   const nextUp = upcoming.slice(0, 10);
 
-  // Upcoming schedule
   if (nextUp.length > 0) {
     html += '<h3>Upcoming</h3>';
     html += '<div class="schedule-grid">';
@@ -399,12 +636,11 @@ function renderAllMatches() {
       </div>`;
     }
     if (upcoming.length > 10) {
-      html += `<p style="color:#64748b;font-size:0.8rem;padding:8px 0">+ ${upcoming.length - 10} more matches</p>`;
+      html += `<p style="color:var(--text-muted);font-size:0.8rem;padding:8px 0">+ ${upcoming.length - 10} more matches</p>`;
     }
     html += '</div>';
   }
 
-  // Completed matches
   if (matchHistory.length > 0) {
     html += '<h3>Results</h3>';
     html += matchHistory.slice().reverse().map(match => {
@@ -416,7 +652,6 @@ function renderAllMatches() {
         headerHtml = `${teamLogo(teams[0], 18)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 18)}`;
       }
 
-      // MVP strip — top 3 fantasy scorers for this match
       const mvps = Object.entries(match.playerScores || {})
         .map(([name, s]) => ({ name, total: s.total, manager: playerFantasyTeamMap[name] || '' }))
         .filter(p => p.total > 0)
@@ -439,37 +674,31 @@ function renderAllMatches() {
       </details>`;
     }).join('');
   } else if (nextUp.length === 0) {
-    html += '<p style="color:#64748b">No matches data available</p>';
+    html += '<p style="color:var(--text-muted)">No matches data available</p>';
   }
 
   container.innerHTML = html;
 }
 
+// === Top Scorers ===
 let topScorersSortKey = 'total';
 let topScorersSortAsc = false;
 
-function renderTopScorers() {
-  const container = document.getElementById('top-scorers-list');
-  if (!data?.matchHistory || !teamsData) {
-    container.innerHTML = '<p style="color:#64748b">No data yet</p>';
-    return;
-  }
-
+function getPlayerAggregates() {
   const playerFantasyTeamMap = {};
   const playerIplTeamMap = {};
-  const playerMultiplierMap = {};
-  for (const team of teamsData.teams) {
-    for (const p of team.players) {
-      playerFantasyTeamMap[p.name] = team.name;
-      playerIplTeamMap[p.name] = p.iplTeam || '';
-      playerMultiplierMap[p.name] = p.name === team.captain ? 2 : p.name === team.viceCaptain ? 1.5 : 1;
+  if (teamsData) {
+    for (const team of teamsData.teams) {
+      for (const p of team.players) {
+        playerFantasyTeamMap[p.name] = team.name;
+        playerIplTeamMap[p.name] = p.iplTeam || '';
+      }
     }
   }
 
-  // Accumulate totals and per-match data
   const totals = {};
   const playerMatches = {};
-  for (const match of data.matchHistory) {
+  for (const match of (data?.matchHistory || [])) {
     for (const [name, s] of Object.entries(match.playerScores || {})) {
       if (!playerFantasyTeamMap[name]) continue;
       if (!totals[name]) totals[name] = { batting: 0, bowling: 0, fielding: 0, total: 0, matches: 0 };
@@ -483,10 +712,52 @@ function renderTopScorers() {
     }
   }
 
+  return { totals, playerMatches, playerFantasyTeamMap, playerIplTeamMap };
+}
+
+function renderHeroTiles() {
+  const container = document.getElementById('hero-tiles');
+  if (!data?.matchHistory || !teamsData) { container.innerHTML = ''; return; }
+
+  const { totals, playerFantasyTeamMap, playerIplTeamMap } = getPlayerAggregates();
+  const players = Object.entries(totals).map(([name, t]) => ({ name, ...t }));
+
+  if (players.length === 0) { container.innerHTML = ''; return; }
+
+  const bestBat = players.reduce((a, b) => b.batting > a.batting ? b : a);
+  const bestBowl = players.reduce((a, b) => b.bowling > a.bowling ? b : a);
+  const bestAR = players.reduce((a, b) => (b.batting + b.bowling + b.fielding) > (a.batting + a.bowling + a.fielding) ? b : a);
+
+  function tile(cls, label, player, pts) {
+    return `<div class="hero-tile ${cls}">
+      <div class="hero-tile-label">${label}</div>
+      <div class="hero-tile-name">${player.name} ${iplBadge(playerIplTeamMap[player.name])}</div>
+      <div class="hero-tile-manager">${playerFantasyTeamMap[player.name]}'s team</div>
+      <div class="hero-tile-pts">${pts} pts</div>
+    </div>`;
+  }
+
+  container.innerHTML = `<div class="hero-tiles">
+    ${tile('hero-bat', 'Best Batsman', bestBat, bestBat.batting)}
+    ${tile('hero-bowl', 'Best Bowler', bestBowl, bestBowl.bowling)}
+    ${tile('hero-ar', 'Best All-Rounder', bestAR, bestAR.batting + bestAR.bowling + bestAR.fielding)}
+  </div>`;
+}
+
+function renderTopScorers() {
+  renderHeroTiles();
+
+  const container = document.getElementById('top-scorers-list');
+  if (!data?.matchHistory || !teamsData) {
+    container.innerHTML = '<p style="color:var(--text-muted)">No data yet</p>';
+    return;
+  }
+
+  const { totals, playerMatches, playerFantasyTeamMap, playerIplTeamMap } = getPlayerAggregates();
+
   const players = Object.entries(totals)
     .map(([name, t]) => ({ name, manager: playerFantasyTeamMap[name], ...t }));
 
-  // Sort
   const key = topScorersSortKey;
   const dir = topScorersSortAsc ? 1 : -1;
   if (key === 'name' || key === 'manager') {
@@ -506,7 +777,7 @@ function renderTopScorers() {
   ];
 
   const headerCells = columns.map(c => {
-    const arrow = topScorersSortKey === c.key ? (topScorersSortAsc ? ' &#9650;' : ' &#9660;') : '';
+    const arrow = topScorersSortKey === c.key ? (topScorersSortAsc ? ' \u25B2' : ' \u25BC') : '';
     return `<th class="sortable-th" data-sort="${c.key}">${c.label}${arrow}</th>`;
   }).join('');
 
@@ -534,10 +805,10 @@ function renderTopScorers() {
           </table>
         </td></tr>`
       : '';
-    return `<tr class="expandable" onclick="togglePlayerExpand('${expandId}')">
+    return `<tr class="${i < 3 ? 'top-scorer-' + (i + 1) : ''} expandable" onclick="togglePlayerExpand('${expandId}')">
       <td>${i + 1}</td>
       <td>${p.name} ${iplBadge(iplTeam)} <span class="expand-arrow">&#9662;</span></td>
-      <td style="color:#94a3b8">${p.manager}</td>
+      <td style="color:var(--text-secondary)">${p.manager}</td>
       <td>${p.matches}</td>
       <td>${p.batting}</td>
       <td>${p.bowling}</td>
@@ -549,7 +820,6 @@ function renderTopScorers() {
 
   container.innerHTML = html;
 
-  // Attach sort handlers
   container.querySelectorAll('.sortable-th').forEach(th => {
     th.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -570,9 +840,9 @@ function togglePlayerExpand(id) {
   if (row) row.classList.toggle('hidden');
 }
 
+// === Navigation ===
 const allSections = ['leaderboard-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];
 
-// Navigation
 document.getElementById('back-btn').addEventListener('click', () => {
   allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
   document.getElementById('leaderboard-section').classList.remove('hidden');
