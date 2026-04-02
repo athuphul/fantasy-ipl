@@ -529,6 +529,106 @@ function findPlayerInAllPlayers(apiName, allPlayers) {
   return null;
 }
 
+// --- CricAPI Scorecard for Display ---
+// Fetches full scorecard from CricAPI every ~10 minutes during live matches
+// and once on completion. CricAPI has proper dismissal text ("c Salt b Duffy")
+// while ESPN often only has the dismissal type ("c").
+
+const CRICAPI_SCORECARD_INTERVAL = 10 * 60 * 1000; // 10 minutes
+const CRICAPI_LAST_FETCH_DIR = path.join(DATA_DIR, 'cricapi_timestamps');
+
+function shouldFetchCricApiScorecard(matchId) {
+  if (CRICAPI_KEYS.length === 0) return false;
+  if (!fs.existsSync(CRICAPI_LAST_FETCH_DIR)) fs.mkdirSync(CRICAPI_LAST_FETCH_DIR, { recursive: true });
+  const file = path.join(CRICAPI_LAST_FETCH_DIR, `${matchId}.txt`);
+  if (!fs.existsSync(file)) return true;
+  const lastFetch = parseInt(fs.readFileSync(file, 'utf8'), 10);
+  return (Date.now() - lastFetch) >= CRICAPI_SCORECARD_INTERVAL;
+}
+
+function markCricApiFetched(matchId) {
+  if (!fs.existsSync(CRICAPI_LAST_FETCH_DIR)) fs.mkdirSync(CRICAPI_LAST_FETCH_DIR, { recursive: true });
+  fs.writeFileSync(path.join(CRICAPI_LAST_FETCH_DIR, `${matchId}.txt`), String(Date.now()));
+}
+
+function convertCricApiScorecard(cricData) {
+  const innings = [];
+  for (const inn of (cricData.data?.scorecard || [])) {
+    const inningName = (inn.inning || 'Unknown').replace(/ Inning \d+$/, '');
+    const batting = inn.batting || [];
+    const bowling = inn.bowling || [];
+    const extras = inn.extras || {};
+    const batRuns = batting.reduce((s, b) => s + (b.r || 0), 0);
+    const extraRuns = extras.r || 0;
+    const totalRuns = batRuns + extraRuns;
+    const wickets = batting.filter(b => b.dismissal && b.dismissal !== 'not out').length;
+    const totalOvers = bowling.reduce((s, b) => s + (b.o || 0), 0);
+
+    innings.push({
+      innings: inningName,
+      runs: totalRuns,
+      wickets,
+      overs: totalOvers,
+      batting: batting.map(b => ({
+        name: b.batsman?.name || '',
+        runs: b.r || 0,
+        balls: b.b || 0,
+        fours: b['4s'] || 0,
+        sixes: b['6s'] || 0,
+        sr: b.sr || 0,
+        dismissal: b['dismissal-text'] || 'not out',
+      })),
+      bowling: bowling.map(b => ({
+        name: b.bowler?.name || '',
+        overs: b.o || 0,
+        maidens: b.m || 0,
+        runs: b.r || 0,
+        wickets: b.w || 0,
+        economy: b.eco || 0,
+      })),
+    });
+  }
+  return innings;
+}
+
+async function fetchCricApiScorecard(eventName, eventDate, matchId, forceComplete) {
+  if (CRICAPI_KEYS.length === 0) return null;
+
+  // Throttle: only fetch every 10 minutes unless forced (match complete)
+  if (!forceComplete && !shouldFetchCricApiScorecard(matchId)) {
+    console.log(`  CricAPI scorecard: skipping (last fetch < ${CRICAPI_SCORECARD_INTERVAL / 60000} min ago)`);
+    return null;
+  }
+
+  const scheduleMatch = findScheduleMatchForEvent(eventName, eventDate);
+  if (!scheduleMatch) {
+    console.log('  CricAPI scorecard: could not find schedule match');
+    return null;
+  }
+
+  const cricApiMatchId = findCricApiMatchId(scheduleMatch);
+  if (!cricApiMatchId) {
+    console.log('  CricAPI scorecard: no match ID found');
+    return null;
+  }
+
+  try {
+    console.log(`  CricAPI scorecard: fetching ${cricApiMatchId}${forceComplete ? ' (final)' : ''}`);
+    const result = await cricApiCall('match_scorecard', { id: cricApiMatchId });
+    if (!result.data?.scorecard || result.data.scorecard.length === 0) {
+      console.log('  CricAPI scorecard: no data available');
+      return null;
+    }
+    markCricApiFetched(matchId);
+    const scorecard = convertCricApiScorecard(result);
+    console.log(`  CricAPI scorecard: ${scorecard.length} innings fetched`);
+    return scorecard;
+  } catch (err) {
+    console.log(`  CricAPI scorecard fetch failed (non-fatal): ${err.message}`);
+    return null;
+  }
+}
+
 // --- Match Score Caching ---
 
 function saveMatchScore(matchId, matchData) {
@@ -624,7 +724,7 @@ function buildOutput(existing, teams, currentMatch) {
 function writeAndPush(output) {
   fs.writeFileSync(SCORES_FILE, JSON.stringify(output, null, 2));
   try {
-    execSync('git add data/scores.json data/match_scores data/fantasy_scores', { cwd: path.join(__dirname, '..') });
+    execSync('git add data/scores.json data/match_scores data/fantasy_scores data/cricapi_timestamps', { cwd: path.join(__dirname, '..') });
     execSync('git diff --staged --quiet', { cwd: path.join(__dirname, '..'), stdio: 'pipe' });
     console.log('No changes to commit');
   } catch (e) {
@@ -773,7 +873,16 @@ async function main() {
 
         // Check if match is now complete
         const statusState = summary.header?.competitions?.[0]?.status?.type?.state;
-        if (statusState === 'post' || stale.status?.includes('won') || stale.status?.includes('tied')) {
+        const staleIsComplete = statusState === 'post' || stale.status?.includes('won') || stale.status?.includes('tied');
+
+        // Try CricAPI scorecard for better dismissal text
+        const staleCricScorecard = await fetchCricApiScorecard(stale.name, stale.date, stale.matchId, staleIsComplete);
+        if (staleCricScorecard && staleCricScorecard.length > 0) {
+          stale.scorecard = staleCricScorecard;
+          console.log(`  Using CricAPI scorecard for stale match`);
+        }
+
+        if (staleIsComplete) {
           stale.isComplete = true;
           saveFantasyScores(stale.matchId, playerScores);
           saveMatchScore(stale.matchId, { name: stale.name, date: stale.date, status: stale.status, venue: stale.venue, score });
@@ -888,7 +997,14 @@ async function main() {
 
       const statusDetail = event.fullStatus?.type?.detail || event.status;
       const score = extractMatchInfo(summary);
-      const scorecard = extractFullScorecard(summary);
+      let scorecard = extractFullScorecard(summary);
+
+      // Try CricAPI scorecard for better dismissal text
+      const cricScorecard = await fetchCricApiScorecard(event.name, eventDate, matchId, isComplete);
+      if (cricScorecard && cricScorecard.length > 0) {
+        scorecard = cricScorecard;
+        console.log(`  Using CricAPI scorecard (${cricScorecard.length} innings)`);
+      }
 
       const matchEntry = {
         matchId,
