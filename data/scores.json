@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T15:04:53.866Z",
+  "lastUpdated": "2026-04-02T15:08:16.353Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 130,
+        "r": 140,
         "w": 4,
-        "o": 11.1
+        "o": 12
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Anukul Roy": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 30,
         "fielding": 0,
-        "total": 25
+        "total": 30
       },
       "Varun Chakravarthy": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 17
       },
       "Heinrich Klaasen": {
-        "batting": 9,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 12
       },
       "Nitish Kumar Reddy": {
-        "batting": 5,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 10
       }
     }
   },
@@ -113,8 +113,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 440,
-      "top11Points": 465
+      "totalPointsAll": 448,
+      "top11Points": 473
     },
     {
       "team": "Ritik",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 177,
-      "top11Points": 191
+      "totalPointsAll": 182,
+      "top11Points": 196
     }
   ],
   "matchHistory": [
@@ -2104,17 +2104,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 130,
+          "r": 140,
           "w": 4,
-          "o": 11.1
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 123,
+          "runs": 130,
           "wickets": 0,
-          "overs": 11.1,
+          "overs": 12,
           "batting": [
             {
               "name": "Travis Head",
@@ -2145,11 +2145,11 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 9,
-              "balls": 7,
+              "runs": 12,
+              "balls": 11,
               "fours": 0,
               "sixes": 0,
-              "sr": 128.57,
+              "sr": 109.09,
               "dismissal": "not out"
             },
             {
@@ -2163,11 +2163,11 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 5,
-              "balls": 5,
-              "fours": 0,
+              "runs": 9,
+              "balls": 6,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 150,
               "dismissal": "not out"
             }
           ],
@@ -2182,11 +2182,11 @@
             },
             {
               "name": "Anukul Roy",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 1,
-              "economy": 6
+              "economy": 8
             },
             {
               "name": "Varun Chakravarthy",
@@ -2250,9 +2250,9 @@
         },
         "Anukul Roy": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 30,
           "fielding": 0,
-          "total": 25
+          "total": 30
         },
         "Varun Chakravarthy": {
           "batting": 0,
@@ -2291,16 +2291,16 @@
           "total": 17
         },
         "Heinrich Klaasen": {
-          "batting": 9,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 12
         },
         "Nitish Kumar Reddy": {
-          "batting": 5,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 10
         }
       },
       "isComplete": false
@@ -2308,8 +2308,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 440,
-      "top11Points": 465,
+      "totalPointsAll": 448,
+      "top11Points": 473,
       "players": [
         {
           "name": "Ajinkya Rahane",
@@ -2334,6 +2334,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Heinrich Klaasen",
+          "role": "Wicket Keeper",
+          "batting": 47,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 63,
+          "multiplier": 1,
+          "effectivePoints": 63,
+          "countsInTop11": true
+        },
+        {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": 0,
@@ -2342,17 +2353,6 @@
           "rawPoints": 61,
           "multiplier": 1,
           "effectivePoints": 61,
-          "countsInTop11": true
-        },
-        {
-          "name": "Heinrich Klaasen",
-          "role": "Wicket Keeper",
-          "batting": 44,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 60,
-          "multiplier": 1,
-          "effectivePoints": 60,
           "countsInTop11": true
         },
         {
@@ -2370,11 +2370,11 @@
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 0,
-          "bowling": 25,
+          "bowling": 30,
           "fielding": 18,
-          "rawPoints": 43,
+          "rawPoints": 48,
           "multiplier": 1,
-          "effectivePoints": 43,
+          "effectivePoints": 48,
           "countsInTop11": true
         },
         {
@@ -2998,8 +2998,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 177,
-      "top11Points": 191,
+      "totalPointsAll": 182,
+      "top11Points": 196,
       "players": [
         {
           "name": "Axar Patel",
@@ -3059,12 +3059,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 6,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 6,
+          "rawPoints": 11,
           "multiplier": 1,
-          "effectivePoints": 6,
+          "effectivePoints": 11,
           "countsInTop11": true
         },
         {
