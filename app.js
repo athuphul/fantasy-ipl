@@ -687,11 +687,13 @@ let topScorersSortAsc = false;
 function getPlayerAggregates() {
   const playerFantasyTeamMap = {};
   const playerIplTeamMap = {};
+  const playerRoleMap = {};
   if (teamsData) {
     for (const team of teamsData.teams) {
       for (const p of team.players) {
         playerFantasyTeamMap[p.name] = team.name;
         playerIplTeamMap[p.name] = p.iplTeam || '';
+        playerRoleMap[p.name] = p.role || '';
       }
     }
   }
@@ -712,21 +714,24 @@ function getPlayerAggregates() {
     }
   }
 
-  return { totals, playerMatches, playerFantasyTeamMap, playerIplTeamMap };
+  return { totals, playerMatches, playerFantasyTeamMap, playerIplTeamMap, playerRoleMap };
 }
 
 function renderHeroTiles() {
   const container = document.getElementById('hero-tiles');
   if (!data?.matchHistory || !teamsData) { container.innerHTML = ''; return; }
 
-  const { totals, playerFantasyTeamMap, playerIplTeamMap } = getPlayerAggregates();
+  const { totals, playerFantasyTeamMap, playerIplTeamMap, playerRoleMap } = getPlayerAggregates();
   const players = Object.entries(totals).map(([name, t]) => ({ name, ...t }));
 
   if (players.length === 0) { container.innerHTML = ''; return; }
 
   const bestBat = players.reduce((a, b) => b.batting > a.batting ? b : a);
   const bestBowl = players.reduce((a, b) => b.bowling > a.bowling ? b : a);
-  const bestAR = players.reduce((a, b) => (b.batting + b.bowling + b.fielding) > (a.batting + a.bowling + a.fielding) ? b : a);
+  const allRounders = players.filter(p => playerRoleMap[p.name] === 'All-Rounder');
+  const bestAR = allRounders.length > 0
+    ? allRounders.reduce((a, b) => (b.batting + b.bowling + b.fielding) > (a.batting + a.bowling + a.fielding) ? b : a)
+    : null;
 
   function tile(cls, label, player, pts) {
     return `<div class="hero-tile ${cls}">
@@ -740,7 +745,7 @@ function renderHeroTiles() {
   container.innerHTML = `<div class="hero-tiles">
     ${tile('hero-bat', 'Best Batsman', bestBat, bestBat.batting)}
     ${tile('hero-bowl', 'Best Bowler', bestBowl, bestBowl.bowling)}
-    ${tile('hero-ar', 'Best All-Rounder', bestAR, bestAR.batting + bestAR.bowling + bestAR.fielding)}
+    ${bestAR ? tile('hero-ar', 'Best All-Rounder', bestAR, bestAR.batting + bestAR.bowling + bestAR.fielding) : ''}
   </div>`;
 }
 
