@@ -122,13 +122,14 @@ function renderCurrentMatch() {
     html += `</h3>`;
     html += `<p style="font-size:0.8rem;color:var(--text-muted)">${m.venue || ''}</p>`;
     html += `<p style="font-size:0.8rem;color:var(--text-secondary)">${m.status}</p>`;
-    const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
-    if (matchEntry?.scorecard) {
-      html += renderCombinedScorecard(matchEntry);
-    } else if (m.score) {
+    if (m.score) {
       for (const s of m.score) {
         html += `<p class="score-line">${s.inning}: ${s.r}/${s.w} (${s.o} ov)</p>`;
       }
+    }
+    const matchEntry = data.matchHistory?.find(mh => mh.matchId === m.matchId);
+    if (matchEntry?.scorecard) {
+      html += renderCombinedScorecard(matchEntry);
     }
     el.innerHTML = html;
     if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
