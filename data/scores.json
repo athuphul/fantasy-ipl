@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T16:54:55.648Z",
+  "lastUpdated": "2026-04-02T17:05:10.507Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527679",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 100,
-        "w": 3,
-        "o": 9
+        "r": 120,
+        "w": 5,
+        "o": 11.2
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -40,22 +40,22 @@
         "total": 10
       },
       "Rinku Singh": {
-        "batting": 9,
+        "batting": 29,
         "bowling": 0,
         "fielding": 16,
-        "total": 25
-      },
-      "Sunil Narine": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Anukul Roy": {
         "batting": 0,
         "bowling": 30,
         "fielding": 0,
         "total": 30
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Varun Chakravarthy": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 50,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 50
+        "bowling": 25,
+        "fielding": 8,
+        "total": 83
       },
       "Harsh Dubey": {
         "batting": 11,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 627,
-      "top11Points": 632
+      "totalPointsAll": 657,
+      "top11Points": 662
     },
     {
       "team": "Kishan",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 222,
-      "top11Points": 236
+      "totalPointsAll": 255,
+      "top11Points": 269
     }
   ],
   "matchHistory": [
@@ -2122,9 +2122,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 100,
-          "w": 3,
-          "o": 9
+          "r": 120,
+          "w": 5,
+          "o": 11.2
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -2299,12 +2299,12 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 50,
-              "balls": 27,
+              "runs": 52,
+              "balls": 29,
               "fours": 6,
               "sixes": 2,
-              "sr": 185.18,
-              "dismissal": "not out"
+              "sr": 179.31,
+              "dismissal": "run out (Eshan Malinga/Shivang Kumar)"
             },
             {
               "name": "Cameron Green",
@@ -2317,12 +2317,21 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 8,
-              "balls": 9,
-              "fours": 1,
+              "runs": 25,
+              "balls": 18,
+              "fours": 4,
               "sixes": 0,
-              "sr": 88.88,
+              "sr": 138.88,
               "dismissal": "not out"
+            },
+            {
+              "name": "Anukul Roy",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Ishan Kishan b Nitish Reddy"
             }
           ],
           "bowling": [
@@ -2335,6 +2344,14 @@
               "economy": 15
             },
             {
+              "name": "Nitish Kumar Reddy",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
+            },
+            {
               "name": "Harsh Dubey",
               "overs": 2,
               "maidens": 0,
@@ -2344,11 +2361,11 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 8.5
+              "economy": 9
             },
             {
               "name": "Jaydev Unadkat",
@@ -2360,11 +2377,11 @@
             },
             {
               "name": "David Payne",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
               "runs": 0,
               "wickets": 0,
-              "economy": 22.28
+              "economy": 17.5
             },
             {
               "name": "Eshan Malinga",
@@ -2397,22 +2414,22 @@
           "total": 10
         },
         "Rinku Singh": {
-          "batting": 9,
+          "batting": 29,
           "bowling": 0,
           "fielding": 16,
-          "total": 25
-        },
-        "Sunil Narine": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Anukul Roy": {
           "batting": 0,
           "bowling": 30,
           "fielding": 0,
           "total": 30
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Varun Chakravarthy": {
           "batting": 0,
@@ -2458,9 +2475,9 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 50,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 50
+          "bowling": 25,
+          "fielding": 8,
+          "total": 83
         },
         "Harsh Dubey": {
           "batting": 11,
@@ -3164,9 +3181,20 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 222,
-      "top11Points": 236,
+      "totalPointsAll": 255,
+      "top11Points": 269,
       "players": [
+        {
+          "name": "Nitish Kumar Reddy",
+          "role": "All-Rounder",
+          "batting": 51,
+          "bowling": 25,
+          "fielding": 8,
+          "rawPoints": 84,
+          "multiplier": 1,
+          "effectivePoints": 84,
+          "countsInTop11": true
+        },
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
@@ -3176,17 +3204,6 @@
           "rawPoints": 40,
           "multiplier": 2,
           "effectivePoints": 80,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Kumar Reddy",
-          "role": "All-Rounder",
-          "batting": 51,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 51,
-          "multiplier": 1,
-          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3589,18 +3606,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 627,
-      "top11Points": 632,
+      "totalPointsAll": 657,
+      "top11Points": 662,
       "players": [
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 51,
+          "batting": 71,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 75,
+          "rawPoints": 95,
           "multiplier": 1.5,
-          "effectivePoints": 113,
+          "effectivePoints": 143,
           "countsInTop11": true
         },
         {
