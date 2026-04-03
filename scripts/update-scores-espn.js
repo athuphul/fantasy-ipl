@@ -215,7 +215,9 @@ function processEspnSummary(summaryData, allPlayers) {
               // Batting: player batted in this period
               if (stats.batted && stats.batted >= 1) {
                 if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-                const actuallyDismissed = !!(inner.batting?.outDetails?.dismissalCard);
+                // Use stats.dismissal (reliable in ESPN stats array) over outDetails.dismissalCard
+                // (outDetails can be incomplete during live matches)
+                const actuallyDismissed = (stats.dismissal >= 1) || !!(inner.batting?.outDetails?.dismissalCard);
                 playerPoints[rosterName].batting += computeBattingPoints(stats, actuallyDismissed);
               }
 
@@ -225,11 +227,9 @@ function processEspnSummary(summaryData, allPlayers) {
                 playerPoints[rosterName].bowling += computeBowlingPoints(stats);
               }
 
-              // Fielding: catches and stumpings from fielding periods
-              if (stats.fielded && stats.fielded >= 1 && stats.inningsFielded >= 1) {
-                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-                playerPoints[rosterName].fielding += computeFieldingPoints(stats);
-              }
+              // Fielding: ESPN stats.caught/stats.stumped are unreliable.
+              // Catches and stumpings are handled by CricAPI in supplementFieldingFromCricApi().
+              // ESPN only contributes run out points (from outDetails below).
             }
           }
 
@@ -464,6 +464,10 @@ function findScheduleMatchForEvent(eventName, eventDate) {
   });
 }
 
+// Add catches and stumpings from CricAPI.
+// ESPN stats.caught/stats.stumped are unreliable, so processEspnSummary only contributes
+// run out points (from outDetails, which are accurate). CricAPI's catching section is the
+// authoritative source for catches and stumpings.
 async function supplementFieldingFromCricApi(playerScores, eventName, eventDate, allPlayers) {
   if (CRICAPI_KEYS.length === 0) return;
 
@@ -487,52 +491,23 @@ async function supplementFieldingFromCricApi(playerScores, eventName, eventDate,
       return;
     }
 
-    // Build CricAPI fielding totals: catches, stumpings, run outs per player
-    const cricFielding = {};  // playerName -> { catches, stumpings, runouts }
     for (const inning of result.data.scorecard) {
-      if (inning.catching) {
-        for (const catcher of inning.catching) {
-          const name = catcher.fielder?.name;
-          if (!name) continue;
-          if (!cricFielding[name]) cricFielding[name] = { catches: 0, stumpings: 0, runouts: 0 };
-          cricFielding[name].catches += catcher.catch || 0;
-          cricFielding[name].stumpings += catcher.stumped || catcher.stumping || 0;
-          cricFielding[name].runouts += catcher.runout || 0;
-        }
-      }
+      if (!inning.catching) continue;
+      for (const entry of inning.catching) {
+        const name = entry.fielder?.name;
+        if (!name) continue;
+        const roster = findPlayerInAllPlayers(name, allPlayers);
+        if (!roster) continue;
+        if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
 
-      // Run out assists from batting dismissals
-      if (inning.batting) {
-        for (const bat of inning.batting) {
-          if (bat.dismissal === 'runout' && bat.bowler?.name) {
-            const name = bat.bowler.name;
-            if (!cricFielding[name]) cricFielding[name] = { catches: 0, stumpings: 0, runouts: 0, assists: 0 };
-            if (!cricFielding[name].assists) cricFielding[name].assists = 0;
-            cricFielding[name].assists += 1;
-          }
+        const catches = entry.catch || 0;
+        const stumpings = entry.stumped || entry.stumping || 0;
+        const catchPts = (catches * 8) + (stumpings * 10);
+        if (catchPts > 0) {
+          playerScores[roster].fielding += catchPts;
+          playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
+          console.log(`  CricAPI fielding: ${roster} +${catchPts} (${catches}c ${stumpings}st)`);
         }
-      }
-    }
-
-    // Reset ESPN fielding for all fantasy players, then apply CricAPI values.
-    // ESPN catches are unreliable; CricAPI catching section is authoritative.
-    for (const roster of Object.keys(playerScores)) {
-      if (playerScores[roster].fielding !== 0) {
-        console.log(`  CricAPI fielding: resetting ${roster} ESPN fielding=${playerScores[roster].fielding} → 0`);
-        playerScores[roster].fielding = 0;
-        playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling;
-      }
-    }
-    // Apply CricAPI fielding totals
-    for (const [cricName, field] of Object.entries(cricFielding)) {
-      const roster = findPlayerInAllPlayers(cricName, allPlayers);
-      if (!roster) continue;
-      if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-      const cricPts = (field.catches * 8) + (field.stumpings * 10) + (field.runouts * 10) + ((field.assists || 0) * 5);
-      if (cricPts > 0) {
-        playerScores[roster].fielding = cricPts;
-        playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
-        console.log(`  CricAPI fielding: ${roster}: ${cricPts} pts (${field.catches}c ${field.stumpings}st ${field.runouts}ro ${field.assists || 0}ast)`);
       }
     }
   } catch (err) {
