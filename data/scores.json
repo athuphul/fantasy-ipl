@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:24:53.894Z",
+  "lastUpdated": "2026-04-03T16:34:56.967Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 29,
+        "r": 55,
         "w": 0,
-        "o": 1.4
+        "o": 4
       }
     ],
     "playerScores": {
@@ -77,21 +77,21 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Priyansh Arya": {
-        "batting": 33,
+        "batting": 42,
         "bowling": 0,
         "fielding": 0,
-        "total": 33
+        "total": 42
       },
       "Prabhsimran Singh": {
-        "batting": 0,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 23
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -160,8 +160,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 459,
-      "top11Points": 459
+      "totalPointsAll": 477,
+      "top11Points": 477
     },
     {
       "team": "Aakash",
@@ -175,8 +175,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 331,
-      "top11Points": 331
+      "totalPointsAll": 340,
+      "top11Points": 340
     },
     {
       "team": "Manav",
@@ -2572,9 +2572,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 29,
+          "r": 55,
           "w": 0,
-          "o": 1.4
+          "o": 4
         }
       ],
       "scorecard": [
@@ -2701,45 +2701,53 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 29,
+          "runs": 55,
           "wickets": 0,
-          "overs": 1.4,
+          "overs": 4,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 26,
-              "balls": 7,
+              "runs": 33,
+              "balls": 9,
               "fours": 3,
-              "sixes": 2,
-              "sr": 371.42,
+              "sixes": 3,
+              "sr": 366.66,
               "dismissal": "not out"
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 0,
-              "balls": 3,
-              "fours": 0,
+              "runs": 19,
+              "balls": 15,
+              "fours": 4,
               "sixes": 0,
-              "sr": 0,
+              "sr": 126.66,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
-              "name": "Matt Henry",
-              "overs": 0.4,
+              "name": "Anshul Kamboj",
+              "overs": 1,
               "maidens": 0,
-              "runs": 15,
+              "runs": 12,
               "wickets": 0,
-              "economy": 22.5
+              "economy": 12
+            },
+            {
+              "name": "Matt Henry",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 0,
+              "economy": 20
             },
             {
               "name": "Khaleel Ahmed",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
+              "runs": 23,
               "wickets": 0,
-              "economy": 14
+              "economy": 11.5
             }
           ]
         }
@@ -2801,21 +2809,21 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Priyansh Arya": {
-          "batting": 33,
+          "batting": 42,
           "bowling": 0,
           "fielding": 0,
-          "total": 33
+          "total": 42
         },
         "Prabhsimran Singh": {
-          "batting": 0,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 23
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -3290,8 +3298,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 331,
-      "top11Points": 331,
+      "totalPointsAll": 340,
+      "top11Points": 340,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3329,12 +3337,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 42,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 42,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 42,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3715,8 +3723,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 459,
-      "top11Points": 459,
+      "totalPointsAll": 477,
+      "top11Points": 477,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -3727,6 +3735,17 @@
           "rawPoints": 156,
           "multiplier": 1,
           "effectivePoints": 156,
+          "countsInTop11": true
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 74,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 74,
+          "multiplier": 1,
+          "effectivePoints": 74,
           "countsInTop11": true
         },
         {
@@ -3749,17 +3768,6 @@
           "rawPoints": 61,
           "multiplier": 1,
           "effectivePoints": 61,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": 51,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 51,
-          "multiplier": 1,
-          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3799,11 +3807,11 @@
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "rawPoints": 20,
+          "rawPoints": 15,
           "multiplier": 1,
-          "effectivePoints": 20,
+          "effectivePoints": 15,
           "countsInTop11": true
         },
         {
