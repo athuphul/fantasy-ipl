@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:04:53.708Z",
+  "lastUpdated": "2026-04-03T16:08:34.365Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -66,8 +66,8 @@
       "Prabhsimran Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "Shashank Singh": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Nehal Wadhera": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 16,
-        "total": 16
+        "fielding": 0,
+        "total": 0
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -102,8 +102,8 @@
       "Yuzvendra Chahal": {
         "batting": 0,
         "bowling": 37,
-        "fielding": 8,
-        "total": 45
+        "fielding": 0,
+        "total": 37
       },
       "Priyansh Arya": {
         "batting": 0,
@@ -116,48 +116,48 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 823,
-      "top11Points": 828
+      "totalPointsAll": 799,
+      "top11Points": 808
     },
     {
       "team": "Athu",
-      "totalPointsAll": 663,
-      "top11Points": 688
+      "totalPointsAll": 618,
+      "top11Points": 643
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 625,
-      "top11Points": 625
+      "totalPointsAll": 569,
+      "top11Points": 569
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 579,
-      "top11Points": 579
+      "totalPointsAll": 539,
+      "top11Points": 539
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 474,
-      "top11Points": 474
+      "totalPointsAll": 459,
+      "top11Points": 459
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 425,
-      "top11Points": 439
+      "totalPointsAll": 401,
+      "top11Points": 415
     },
     {
       "team": "Ali",
-      "totalPointsAll": 408,
-      "top11Points": 408
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 341,
-      "top11Points": 341
+      "totalPointsAll": 352,
+      "top11Points": 362
     },
     {
       "team": "Manav",
-      "totalPointsAll": 320,
-      "top11Points": 330
+      "totalPointsAll": 293,
+      "top11Points": 318
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 298,
+      "top11Points": 298
     }
   ],
   "matchHistory": [
@@ -185,20 +185,20 @@
         "Phil Salt": {
           "batting": 10,
           "bowling": 0,
-          "fielding": 24,
-          "total": 34
+          "fielding": 0,
+          "total": 10
         },
         "Virat Kohli": {
           "batting": 104,
           "bowling": 0,
-          "fielding": 8,
-          "total": 112
+          "fielding": 0,
+          "total": 104
         },
         "Devdutt Padikkal": {
           "batting": 101,
           "bowling": 0,
-          "fielding": 24,
-          "total": 125
+          "fielding": 0,
+          "total": 101
         },
         "Rajat Patidar": {
           "batting": 54,
@@ -209,8 +209,8 @@
         "Jitesh Sharma": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 8,
-          "total": 3
+          "fielding": 0,
+          "total": -5
         },
         "Tim David": {
           "batting": 24,
@@ -269,14 +269,14 @@
         "Heinrich Klaasen": {
           "batting": 35,
           "bowling": 0,
-          "fielding": 16,
-          "total": 51
+          "fielding": 0,
+          "total": 35
         },
         "Harsh Dubey": {
           "batting": 3,
           "bowling": 20,
-          "fielding": 8,
-          "total": 31
+          "fielding": 0,
+          "total": 23
         },
         "Harshal Patel": {
           "batting": -5,
@@ -285,11 +285,11 @@
           "total": -20
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 195,
+          "runs": 201,
           "wickets": 9,
           "overs": 20,
           "batting": [
@@ -300,7 +300,7 @@
               "fours": 2,
               "sixes": 0,
               "sr": 122.22,
-              "dismissal": "c Phil Salt b Jacob Duffy"
+              "dismissal": "c"
             },
             {
               "name": "Abhishek Sharma",
@@ -309,7 +309,7 @@
               "fours": 0,
               "sixes": 1,
               "sr": 87.5,
-              "dismissal": "c Jitesh Sharma b Jacob Duffy"
+              "dismissal": "c"
             },
             {
               "name": "Ishan Kishan",
@@ -317,8 +317,8 @@
               "balls": 38,
               "fours": 8,
               "sixes": 5,
-              "sr": 210.53,
-              "dismissal": "c Phil Salt b Abhinandan Singh"
+              "sr": 210.52,
+              "dismissal": "c"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -326,8 +326,8 @@
               "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 16.67,
-              "dismissal": "c Abhinandan Singh b Jacob Duffy"
+              "sr": 16.66,
+              "dismissal": "c"
             },
             {
               "name": "Heinrich Klaasen",
@@ -335,8 +335,8 @@
               "balls": 22,
               "fours": 2,
               "sixes": 1,
-              "sr": 140.91,
-              "dismissal": "c Phil Salt b Romario Shepherd"
+              "sr": 140.9,
+              "dismissal": "c"
             },
             {
               "name": "Salil Arora",
@@ -345,7 +345,7 @@
               "fours": 0,
               "sixes": 1,
               "sr": 150,
-              "dismissal": "c Devdutt Padikkal b Suyash Sharma"
+              "dismissal": "c"
             },
             {
               "name": "Aniket Verma",
@@ -353,8 +353,8 @@
               "balls": 18,
               "fours": 3,
               "sixes": 4,
-              "sr": 238.89,
-              "dismissal": "c Virat Kohli b Romario Shepherd"
+              "sr": 238.88,
+              "dismissal": "c"
             },
             {
               "name": "Harsh Dubey",
@@ -363,7 +363,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "c Devdutt Padikkal b Romario Shepherd"
+              "dismissal": "c"
             },
             {
               "name": "Harshal Patel",
@@ -372,7 +372,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Devdutt Padikkal b Bhuvneshwar Kumar"
+              "dismissal": "c"
             },
             {
               "name": "David Payne",
@@ -395,30 +395,6 @@
           ],
           "bowling": [
             {
-              "name": "Jacob Duffy",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 22,
-              "wickets": 3,
-              "economy": 5.5
-            },
-            {
-              "name": "Bhuvneshwar Kumar",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 31,
-              "wickets": 1,
-              "economy": 7.8
-            },
-            {
-              "name": "Abhinandan Singh",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 38,
-              "wickets": 1,
-              "economy": 12.7
-            },
-            {
               "name": "Romario Shepherd",
               "overs": 4,
               "maidens": 0,
@@ -427,37 +403,61 @@
               "economy": 13.5
             },
             {
-              "name": "Suyash Sharma",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 28,
-              "wickets": 1,
-              "economy": 9.3
-            },
-            {
               "name": "Krunal Pandya",
               "overs": 2,
               "maidens": 0,
               "runs": 26,
               "wickets": 0,
               "economy": 13
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 1,
+              "economy": 7.75
+            },
+            {
+              "name": "Arshdeep Singh",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 38,
+              "wickets": 1,
+              "economy": 12.66
+            },
+            {
+              "name": "Suyash Sharma",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 28,
+              "wickets": 1,
+              "economy": 9.33
+            },
+            {
+              "name": "Jacob Duffy",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 22,
+              "wickets": 3,
+              "economy": 5.5
             }
           ]
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 185,
+          "runs": 203,
           "wickets": 4,
           "overs": 15.4,
           "batting": [
             {
-              "name": "Philip Salt",
+              "name": "Phil Salt",
               "runs": 8,
               "balls": 7,
               "fours": 2,
               "sixes": 0,
-              "sr": 114.29,
-              "dismissal": "c Heinrich Klaasen b Jaydev Unadkat"
+              "sr": 114.28,
+              "dismissal": "c"
             },
             {
               "name": "Virat Kohli",
@@ -465,7 +465,7 @@
               "balls": 38,
               "fours": 5,
               "sixes": 5,
-              "sr": 181.58,
+              "sr": 181.57,
               "dismissal": "not out"
             },
             {
@@ -474,8 +474,8 @@
               "balls": 26,
               "fours": 7,
               "sixes": 4,
-              "sr": 234.62,
-              "dismissal": "c Heinrich Klaasen b Harsh Dubey"
+              "sr": 234.61,
+              "dismissal": "c"
             },
             {
               "name": "Rajat Patidar",
@@ -484,7 +484,7 @@
               "fours": 2,
               "sixes": 3,
               "sr": 258.33,
-              "dismissal": "c Harsh Dubey b David Payne"
+              "dismissal": "c"
             },
             {
               "name": "Jitesh Sharma",
@@ -493,7 +493,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Jaydev Unadkat b David Payne"
+              "dismissal": "c"
             },
             {
               "name": "Tim David",
@@ -515,12 +515,20 @@
               "economy": 9.5
             },
             {
-              "name": "Jaydev Unadkat",
+              "name": "Harsh Dubey",
               "overs": 3,
               "maidens": 0,
-              "runs": 29,
+              "runs": 35,
               "wickets": 1,
-              "economy": 9.7
+              "economy": 11.66
+            },
+            {
+              "name": "Harshal Patel",
+              "overs": 2.4,
+              "maidens": 0,
+              "runs": 39,
+              "wickets": 0,
+              "economy": 14.62
             },
             {
               "name": "David Payne",
@@ -528,15 +536,15 @@
               "maidens": 0,
               "runs": 35,
               "wickets": 2,
-              "economy": 11.7
+              "economy": 11.66
             },
             {
-              "name": "Harsh Dubey",
+              "name": "Jaydev Unadkat",
               "overs": 3,
               "maidens": 0,
-              "runs": 35,
+              "runs": 29,
               "wickets": 1,
-              "economy": 11.7
+              "economy": 9.66
             },
             {
               "name": "Eshan Malinga",
@@ -545,14 +553,6 @@
               "runs": 35,
               "wickets": 0,
               "economy": 17.5
-            },
-            {
-              "name": "Harshal Patel",
-              "overs": 2.4,
-              "maidens": 0,
-              "runs": 39,
-              "wickets": 0,
-              "economy": 14.6
             }
           ]
         }
@@ -594,14 +594,14 @@
         "Tilak Varma": {
           "batting": 24,
           "bowling": 0,
-          "fielding": 16,
-          "total": 40
+          "fielding": 0,
+          "total": 24
         },
         "Hardik Pandya": {
           "batting": 26,
           "bowling": 15,
-          "fielding": 8,
-          "total": 49
+          "fielding": 0,
+          "total": 41
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -648,14 +648,14 @@
         "Rinku Singh": {
           "batting": 42,
           "bowling": 0,
-          "fielding": 8,
-          "total": 50
+          "fielding": 0,
+          "total": 42
         },
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 13,
-          "total": 13
+          "fielding": 0,
+          "total": 0
         },
         "Sunil Narine": {
           "batting": 0,
@@ -682,11 +682,11 @@
           "total": -5
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 210,
+          "runs": 220,
           "wickets": 4,
           "overs": 20,
           "batting": [
@@ -697,7 +697,7 @@
               "fours": 3,
               "sixes": 5,
               "sr": 167.5,
-              "dismissal": "c Hardik Pandya b Shardul Thakur"
+              "dismissal": "c"
             },
             {
               "name": "Finn Allen",
@@ -705,8 +705,8 @@
               "balls": 17,
               "fours": 6,
               "sixes": 2,
-              "sr": 217.65,
-              "dismissal": "c Tilak Varma b Shardul Thakur"
+              "sr": 217.64,
+              "dismissal": "c"
             },
             {
               "name": "Cameron Green",
@@ -715,7 +715,7 @@
               "fours": 1,
               "sixes": 1,
               "sr": 180,
-              "dismissal": "c Sherfane Rutherford b Shardul Thakur"
+              "dismissal": "c"
             },
             {
               "name": "Angkrish Raghuvanshi",
@@ -724,7 +724,7 @@
               "fours": 6,
               "sixes": 2,
               "sr": 175.86,
-              "dismissal": "c Tilak Varma b Hardik Pandya"
+              "dismissal": "c"
             },
             {
               "name": "Rinku Singh",
@@ -736,7 +736,7 @@
               "dismissal": "not out"
             },
             {
-              "name": "Ramandeep Singh",
+              "name": "Rinku Singh",
               "runs": 4,
               "balls": 4,
               "fours": 0,
@@ -747,14 +747,6 @@
           ],
           "bowling": [
             {
-              "name": "Trent Boult",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 38,
-              "wickets": 0,
-              "economy": 9.5
-            },
-            {
               "name": "Hardik Pandya",
               "overs": 3,
               "maidens": 0,
@@ -763,28 +755,12 @@
               "economy": 13
             },
             {
-              "name": "AM Ghazanfar",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 51,
-              "wickets": 0,
-              "economy": 12.8
-            },
-            {
-              "name": "Jasprit Bumrah",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 35,
-              "wickets": 0,
-              "economy": 8.8
-            },
-            {
               "name": "Shardul Thakur",
               "overs": 4,
               "maidens": 0,
               "runs": 39,
               "wickets": 3,
-              "economy": 9.8
+              "economy": 9.75
             },
             {
               "name": "Mayank Markande",
@@ -793,12 +769,36 @@
               "runs": 16,
               "wickets": 0,
               "economy": 16
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 51,
+              "wickets": 0,
+              "economy": 12.75
+            },
+            {
+              "name": "Trent Boult",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 38,
+              "wickets": 0,
+              "economy": 9.5
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 35,
+              "wickets": 0,
+              "economy": 8.75
             }
           ]
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 218,
+          "runs": 224,
           "wickets": 4,
           "overs": 19.1,
           "batting": [
@@ -809,7 +809,7 @@
               "fours": 4,
               "sixes": 8,
               "sr": 188.37,
-              "dismissal": "run out (Anukul Roy)"
+              "dismissal": "run out"
             },
             {
               "name": "Rohit Sharma",
@@ -818,7 +818,7 @@
               "fours": 6,
               "sixes": 6,
               "sr": 205.26,
-              "dismissal": "c Anukul Roy b Vaibhav Arora"
+              "dismissal": "c"
             },
             {
               "name": "Suryakumar Yadav",
@@ -827,7 +827,7 @@
               "fours": 3,
               "sixes": 0,
               "sr": 200,
-              "dismissal": "c Rinku Singh b Kartik Tyagi"
+              "dismissal": "c"
             },
             {
               "name": "Tilak Varma",
@@ -835,8 +835,8 @@
               "balls": 14,
               "fours": 4,
               "sixes": 0,
-              "sr": 142.86,
-              "dismissal": "c (sub)Manish Pandey b Sunil Narine"
+              "sr": 142.85,
+              "dismissal": "c"
             },
             {
               "name": "Hardik Pandya",
@@ -844,7 +844,7 @@
               "balls": 11,
               "fours": 3,
               "sixes": 0,
-              "sr": 163.64,
+              "sr": 163.63,
               "dismissal": "not out"
             },
             {
@@ -859,6 +859,30 @@
           ],
           "bowling": [
             {
+              "name": "Anukul Roy",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 12.85
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 30,
+              "wickets": 1,
+              "economy": 10
+            },
+            {
+              "name": "Varun Chakravarthy",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 48,
+              "wickets": 0,
+              "economy": 12
+            },
+            {
               "name": "Vaibhav Arora",
               "overs": 4,
               "maidens": 0,
@@ -872,15 +896,7 @@
               "maidens": 0,
               "runs": 34,
               "wickets": 0,
-              "economy": 11.3
-            },
-            {
-              "name": "Varun Chakaravarthy",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 48,
-              "wickets": 0,
-              "economy": 12
+              "economy": 11.33
             },
             {
               "name": "Kartik Tyagi",
@@ -888,23 +904,7 @@
               "maidens": 0,
               "runs": 43,
               "wickets": 1,
-              "economy": 10.8
-            },
-            {
-              "name": "Sunil Narine",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 30,
-              "wickets": 1,
-              "economy": 10
-            },
-            {
-              "name": "Anukul Roy",
-              "overs": 1.1,
-              "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 12.9
+              "economy": 10.75
             }
           ]
         }
@@ -946,8 +946,8 @@
         "Dhruv Jurel": {
           "batting": 22,
           "bowling": 0,
-          "fielding": 16,
-          "total": 38
+          "fielding": 21,
+          "total": 43
         },
         "Riyan Parag": {
           "batting": 17,
@@ -958,8 +958,8 @@
         "Shimron Hetmyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 5,
-          "total": 5
+          "fielding": 10,
+          "total": 10
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -982,8 +982,8 @@
         "Ravi Bishnoi": {
           "batting": 0,
           "bowling": 45,
-          "fielding": 16,
-          "total": 61
+          "fielding": 8,
+          "total": 53
         },
         "Sanju Samson": {
           "batting": 7,
@@ -1040,11 +1040,11 @@
           "total": 20
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 111,
+          "runs": 127,
           "wickets": 10,
           "overs": 19.4,
           "batting": [
@@ -1201,7 +1201,7 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 122,
+          "runs": 128,
           "wickets": 2,
           "overs": 12.1,
           "batting": [
@@ -1318,7 +1318,7 @@
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 148,
+          "runs": 162,
           "wickets": 6,
           "overs": 20,
           "batting": [
@@ -1329,7 +1329,7 @@
               "fours": 2,
               "sixes": 0,
               "sr": 118.18,
-              "dismissal": "c Shreyas Iyer b Marco Jansen"
+              "dismissal": "c"
             },
             {
               "name": "Shubman Gill",
@@ -1338,7 +1338,7 @@
               "fours": 6,
               "sixes": 0,
               "sr": 144.44,
-              "dismissal": "c Cooper Connolly b Yuzvendra Chahal"
+              "dismissal": "c"
             },
             {
               "name": "Jos Buttler",
@@ -1347,7 +1347,7 @@
               "fours": 3,
               "sixes": 2,
               "sr": 115.15,
-              "dismissal": "c Xavier Bartlett b Yuzvendra Chahal"
+              "dismissal": "c"
             },
             {
               "name": "Glenn Phillips",
@@ -1355,8 +1355,8 @@
               "balls": 17,
               "fours": 1,
               "sixes": 1,
-              "sr": 147.06,
-              "dismissal": "c Marco Jansen b Vijaykumar Vyshak"
+              "sr": 147.05,
+              "dismissal": "c"
             },
             {
               "name": "Washington Sundar",
@@ -1365,16 +1365,16 @@
               "fours": 2,
               "sixes": 0,
               "sr": 112.5,
-              "dismissal": "c Arshdeep Singh b Vijaykumar Vyshak"
+              "dismissal": "c"
             },
             {
-              "name": "Shahrukh Khan",
+              "name": "Musheer Khan",
               "runs": 4,
               "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "c Arshdeep Singh b Vijaykumar Vyshak"
+              "sr": 66.66,
+              "dismissal": "c"
             },
             {
               "name": "Rahul Tewatia",
@@ -1397,12 +1397,12 @@
           ],
           "bowling": [
             {
-              "name": "Arshdeep Singh",
+              "name": "Marco Jansen",
               "overs": 4,
               "maidens": 0,
-              "runs": 42,
-              "wickets": 0,
-              "economy": 10.5
+              "runs": 20,
+              "wickets": 1,
+              "economy": 5
             },
             {
               "name": "Xavier Bartlett",
@@ -1413,20 +1413,20 @@
               "economy": 9
             },
             {
-              "name": "Marco Jansen",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 20,
-              "wickets": 1,
-              "economy": 5
-            },
-            {
               "name": "Vijaykumar Vyshak",
               "overs": 4,
               "maidens": 0,
               "runs": 34,
               "wickets": 3,
               "economy": 8.5
+            },
+            {
+              "name": "Arshdeep Singh",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 42,
+              "wickets": 0,
+              "economy": 10.5
             },
             {
               "name": "Yuzvendra Chahal",
@@ -1440,7 +1440,7 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 161,
+          "runs": 165,
           "wickets": 7,
           "overs": 19.1,
           "batting": [
@@ -1451,7 +1451,7 @@
               "fours": 0,
               "sixes": 1,
               "sr": 87.5,
-              "dismissal": "c Ashok Sharma b Kagiso Rabada"
+              "dismissal": "c"
             },
             {
               "name": "Prabhsimran Singh",
@@ -1459,8 +1459,8 @@
               "balls": 24,
               "fours": 1,
               "sixes": 4,
-              "sr": 154.17,
-              "dismissal": "c Prasidh Krishna b Rashid Khan"
+              "sr": 154.16,
+              "dismissal": "c"
             },
             {
               "name": "Cooper Connolly",
@@ -1468,7 +1468,7 @@
               "balls": 44,
               "fours": 5,
               "sixes": 5,
-              "sr": 163.64,
+              "sr": 163.63,
               "dismissal": "not out"
             },
             {
@@ -1477,8 +1477,8 @@
               "balls": 11,
               "fours": 0,
               "sixes": 2,
-              "sr": 163.64,
-              "dismissal": "c Washington Sundar b Prasidh Krishna"
+              "sr": 163.63,
+              "dismissal": "c"
             },
             {
               "name": "Nehal Wadhera",
@@ -1487,7 +1487,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 50,
-              "dismissal": "c Shubman Gill b Washington Sundar"
+              "dismissal": "c"
             },
             {
               "name": "Shashank Singh",
@@ -1496,7 +1496,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 80,
-              "dismissal": "c Jos Buttler b Prasidh Krishna"
+              "dismissal": "c"
             },
             {
               "name": "Marcus Stoinis",
@@ -1505,7 +1505,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Rashid Khan b Prasidh Krishna"
+              "dismissal": "c"
             },
             {
               "name": "Marco Jansen",
@@ -1514,7 +1514,7 @@
               "fours": 0,
               "sixes": 1,
               "sr": 90,
-              "dismissal": "c Shubman Gill b Ashok Sharma"
+              "dismissal": "c"
             },
             {
               "name": "Xavier Bartlett",
@@ -1528,6 +1528,38 @@
           ],
           "bowling": [
             {
+              "name": "Washington Sundar",
+              "overs": 3.1,
+              "maidens": 0,
+              "runs": 27,
+              "wickets": 1,
+              "economy": 8.52
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 29,
+              "wickets": 1,
+              "economy": 7.25
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 34,
+              "wickets": 1,
+              "economy": 11.33
+            },
+            {
+              "name": "Abhishek Sharma",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 1,
+              "economy": 10.33
+            },
+            {
               "name": "Mohammed Siraj",
               "overs": 2,
               "maidens": 0,
@@ -1536,44 +1568,12 @@
               "economy": 7.5
             },
             {
-              "name": "Kagiso Rabada",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 34,
-              "wickets": 1,
-              "economy": 11.3
-            },
-            {
-              "name": "Ashok Sharma",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 31,
-              "wickets": 1,
-              "economy": 10.3
-            },
-            {
-              "name": "Rashid Khan",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 29,
-              "wickets": 1,
-              "economy": 7.2
-            },
-            {
-              "name": "Washington Sundar",
-              "overs": 3.1,
-              "maidens": 0,
-              "runs": 27,
-              "wickets": 1,
-              "economy": 8.5
-            },
-            {
               "name": "Prasidh Krishna",
               "overs": 4,
               "maidens": 0,
               "runs": 29,
               "wickets": 3,
-              "economy": 7.2
+              "economy": 7.25
             }
           ]
         }
@@ -1594,8 +1594,8 @@
         "Shreyas Iyer": {
           "batting": 27,
           "bowling": 0,
-          "fielding": 8,
-          "total": 35
+          "fielding": 0,
+          "total": 27
         },
         "Nehal Wadhera": {
           "batting": 3,
@@ -1618,14 +1618,14 @@
         "Marco Jansen": {
           "batting": 6,
           "bowling": 45,
-          "fielding": 8,
-          "total": 59
+          "fielding": 0,
+          "total": 51
         },
         "Arshdeep Singh": {
           "batting": 0,
           "bowling": -5,
-          "fielding": 16,
-          "total": 11
+          "fielding": 0,
+          "total": -5
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -1642,14 +1642,14 @@
         "Shubman Gill": {
           "batting": 45,
           "bowling": 0,
-          "fielding": 16,
-          "total": 61
+          "fielding": 0,
+          "total": 45
         },
         "Jos Buttler": {
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "total": 53
+          "fielding": 0,
+          "total": 45
         },
         "Glenn Phillips": {
           "batting": 28,
@@ -1660,8 +1660,8 @@
         "Washington Sundar": {
           "batting": 20,
           "bowling": 25,
-          "fielding": 8,
-          "total": 53
+          "fielding": 0,
+          "total": 45
         },
         "Shahrukh Khan": {
           "batting": 4,
@@ -1676,10 +1676,10 @@
           "total": 12
         },
         "Rashid Khan": {
-          "batting": -5,
+          "batting": 0,
           "bowling": 30,
-          "fielding": 8,
-          "total": 33
+          "fielding": 0,
+          "total": 30
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -1696,11 +1696,11 @@
         "Prasidh Krishna": {
           "batting": 0,
           "bowling": 90,
-          "fielding": 8,
-          "total": 98
+          "fielding": 0,
+          "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527678",
@@ -1725,7 +1725,7 @@
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 127,
+          "runs": 141,
           "wickets": 10,
           "overs": 18.4,
           "batting": [
@@ -1736,7 +1736,7 @@
               "fours": 2,
               "sixes": 3,
               "sr": 125,
-              "dismissal": "c Tristan Stubbs b Kuldeep Yadav"
+              "dismissal": "c"
             },
             {
               "name": "Rishabh Pant",
@@ -1744,8 +1744,8 @@
               "balls": 9,
               "fours": 1,
               "sixes": 0,
-              "sr": 77.78,
-              "dismissal": "run out (Mukesh Kumar)"
+              "sr": 77.77,
+              "dismissal": "run out"
             },
             {
               "name": "Aiden Markram",
@@ -1754,7 +1754,7 @@
               "fours": 1,
               "sixes": 1,
               "sr": 137.5,
-              "dismissal": "b Axar Patel"
+              "dismissal": "out"
             },
             {
               "name": "Ayush Badoni",
@@ -1763,7 +1763,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c KL Rahul b T Natarajan"
+              "dismissal": "c"
             },
             {
               "name": "Nicholas Pooran",
@@ -1772,7 +1772,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "b Lungi Ngidi"
+              "dismissal": "out"
             },
             {
               "name": "Abdul Samad",
@@ -1781,7 +1781,7 @@
               "fours": 3,
               "sixes": 1,
               "sr": 144,
-              "dismissal": "c David Miller b T Natarajan"
+              "dismissal": "c"
             },
             {
               "name": "Mukul Choudhary",
@@ -1790,7 +1790,7 @@
               "fours": 2,
               "sixes": 0,
               "sr": 127.27,
-              "dismissal": "c and b Kuldeep Yadav"
+              "dismissal": "c"
             },
             {
               "name": "Shahbaz Ahmed",
@@ -1808,7 +1808,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 50,
-              "dismissal": "c Kuldeep Yadav b T Natarajan"
+              "dismissal": "c"
             },
             {
               "name": "Anrich Nortje",
@@ -1817,58 +1817,26 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Tristan Stubbs b Lungi Ngidi"
+              "dismissal": "c"
             },
             {
-              "name": "Mohsin Khan",
+              "name": "Musheer Khan",
               "runs": 0,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Mukesh Kumar b Lungi Ngidi"
+              "dismissal": "c"
             }
           ],
           "bowling": [
-            {
-              "name": "Mukesh Kumar",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 17,
-              "wickets": 0,
-              "economy": 5.7
-            },
-            {
-              "name": "Lungi Ngidi",
-              "overs": 3.4,
-              "maidens": 0,
-              "runs": 27,
-              "wickets": 3,
-              "economy": 7.4
-            },
             {
               "name": "Axar Patel",
               "overs": 3,
               "maidens": 0,
               "runs": 17,
               "wickets": 1,
-              "economy": 5.7
-            },
-            {
-              "name": "T Natarajan",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 29,
-              "wickets": 3,
-              "economy": 7.2
-            },
-            {
-              "name": "Kuldeep Yadav",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 31,
-              "wickets": 2,
-              "economy": 7.8
+              "economy": 5.66
             },
             {
               "name": "Vipraj Nigam",
@@ -1877,12 +1845,44 @@
               "runs": 8,
               "wickets": 0,
               "economy": 8
+            },
+            {
+              "name": "Lungi Ngidi",
+              "overs": 3.4,
+              "maidens": 0,
+              "runs": 27,
+              "wickets": 3,
+              "economy": 7.36
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 2,
+              "economy": 7.75
+            },
+            {
+              "name": "Mukesh Kumar",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 5.66
+            },
+            {
+              "name": "T Natarajan",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 29,
+              "wickets": 3,
+              "economy": 7.25
             }
           ]
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 125,
+          "runs": 145,
           "wickets": 4,
           "overs": 17.1,
           "batting": [
@@ -1893,7 +1893,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c Mohsin Khan b Mohammed Shami"
+              "dismissal": "c"
             },
             {
               "name": "Pathum Nissanka",
@@ -1902,7 +1902,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 20,
-              "dismissal": "c Rishabh Pant b Prince Yadav"
+              "dismissal": "c"
             },
             {
               "name": "Nitish Rana",
@@ -1910,8 +1910,8 @@
               "balls": 17,
               "fours": 2,
               "sixes": 1,
-              "sr": 88.24,
-              "dismissal": "c Abdul Samad b Mohsin Khan"
+              "sr": 88.23,
+              "dismissal": "c"
             },
             {
               "name": "Sameer Rizvi",
@@ -1919,7 +1919,7 @@
               "balls": 47,
               "fours": 5,
               "sixes": 4,
-              "sr": 148.94,
+              "sr": 148.93,
               "dismissal": "not out"
             },
             {
@@ -1929,7 +1929,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "b Prince Yadav"
+              "dismissal": "out"
             },
             {
               "name": "Tristan Stubbs",
@@ -1937,51 +1937,11 @@
               "balls": 32,
               "fours": 3,
               "sixes": 1,
-              "sr": 121.88,
+              "sr": 121.87,
               "dismissal": "not out"
             }
           ],
           "bowling": [
-            {
-              "name": "Mohammed Shami",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 28,
-              "wickets": 1,
-              "economy": 7
-            },
-            {
-              "name": "Prince Yadav",
-              "overs": 3,
-              "maidens": 0,
-              "runs": 20,
-              "wickets": 2,
-              "economy": 6.7
-            },
-            {
-              "name": "Mohsin Khan",
-              "overs": 4,
-              "maidens": 1,
-              "runs": 19,
-              "wickets": 1,
-              "economy": 4.8
-            },
-            {
-              "name": "Anrich Nortje",
-              "overs": 4,
-              "maidens": 0,
-              "runs": 39,
-              "wickets": 0,
-              "economy": 9.8
-            },
-            {
-              "name": "Shahbaz Ahmed",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 16,
-              "wickets": 0,
-              "economy": 16
-            },
             {
               "name": "Aiden Markram",
               "overs": 1,
@@ -1997,6 +1957,46 @@
               "runs": 6,
               "wickets": 0,
               "economy": 36
+            },
+            {
+              "name": "Shahbaz Ahmed",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
+            },
+            {
+              "name": "Mohammed Shami",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 28,
+              "wickets": 1,
+              "economy": 7
+            },
+            {
+              "name": "Anrich Nortje",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 39,
+              "wickets": 0,
+              "economy": 9.75
+            },
+            {
+              "name": "Musheer Khan",
+              "overs": 4,
+              "maidens": 1,
+              "runs": 19,
+              "wickets": 1,
+              "economy": 4.75
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 2,
+              "economy": 6.66
             }
           ]
         }
@@ -2011,8 +2011,8 @@
         "Rishabh Pant": {
           "batting": 8,
           "bowling": 0,
-          "fielding": 8,
-          "total": 16
+          "fielding": 0,
+          "total": 8
         },
         "Aiden Markram": {
           "batting": 14,
@@ -2035,8 +2035,8 @@
         "Abdul Samad": {
           "batting": 41,
           "bowling": 0,
-          "fielding": 8,
-          "total": 49
+          "fielding": 0,
+          "total": 41
         },
         "Shahbaz Ahmed": {
           "batting": 11,
@@ -2053,8 +2053,8 @@
         "KL Rahul": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 8,
-          "total": 3
+          "fielding": 0,
+          "total": -5
         },
         "Nitish Rana": {
           "batting": 14,
@@ -2077,8 +2077,8 @@
         "Tristan Stubbs": {
           "batting": 44,
           "bowling": 0,
-          "fielding": 16,
-          "total": 60
+          "fielding": 0,
+          "total": 44
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -2089,8 +2089,8 @@
         "David Miller": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -2101,8 +2101,8 @@
         "Kuldeep Yadav": {
           "batting": 0,
           "bowling": 55,
-          "fielding": 16,
-          "total": 71
+          "fielding": 0,
+          "total": 55
         },
         "T Natarajan": {
           "batting": 0,
@@ -2111,7 +2111,7 @@
           "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527679",
@@ -2136,7 +2136,7 @@
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 213,
+          "runs": 226,
           "wickets": 8,
           "overs": 20,
           "batting": [
@@ -2248,7 +2248,7 @@
               "economy": 9.8
             },
             {
-              "name": "Varun Chakaravarthy",
+              "name": "Varun Chakravarthy",
               "overs": 2,
               "maidens": 0,
               "runs": 31,
@@ -2275,7 +2275,7 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 153,
+          "runs": 161,
           "wickets": 10,
           "overs": 16,
           "batting": [
@@ -2334,7 +2334,7 @@
               "dismissal": "c Ishan Kishan b Nitish Reddy"
             },
             {
-              "name": "Ramandeep Singh",
+              "name": "Rinku Singh",
               "runs": 10,
               "balls": 9,
               "fours": 1,
@@ -2370,7 +2370,7 @@
               "dismissal": "not out"
             },
             {
-              "name": "Varun Chakaravarthy",
+              "name": "Varun Chakravarthy",
               "runs": 0,
               "balls": 1,
               "fours": 0,
@@ -2461,8 +2461,8 @@
         "Rinku Singh": {
           "batting": 41,
           "bowling": 0,
-          "fielding": 16,
-          "total": 57
+          "fielding": 24,
+          "total": 65
         },
         "Anukul Roy": {
           "batting": -5,
@@ -2509,8 +2509,8 @@
         "Ishan Kishan": {
           "batting": 17,
           "bowling": 0,
-          "fielding": 8,
-          "total": 25
+          "fielding": 16,
+          "total": 33
         },
         "Heinrich Klaasen": {
           "batting": 68,
@@ -2521,17 +2521,17 @@
         "Nitish Kumar Reddy": {
           "batting": 50,
           "bowling": 50,
-          "fielding": 8,
-          "total": 108
+          "fielding": 0,
+          "total": 100
         },
         "Harsh Dubey": {
           "batting": 11,
           "bowling": 25,
-          "fielding": 8,
-          "total": 44
+          "fielding": 0,
+          "total": 36
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527680",
@@ -2722,8 +2722,8 @@
         "Prabhsimran Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Shashank Singh": {
           "batting": 0,
@@ -2734,8 +2734,8 @@
         "Nehal Wadhera": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 0,
+          "total": 0
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -2758,8 +2758,8 @@
         "Yuzvendra Chahal": {
           "batting": 0,
           "bowling": 37,
-          "fielding": 8,
-          "total": 45
+          "fielding": 0,
+          "total": 37
         },
         "Priyansh Arya": {
           "batting": 0,
@@ -2773,8 +2773,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 663,
-      "top11Points": 688,
+      "totalPointsAll": 618,
+      "top11Points": 643,
       "players": [
         {
           "name": "Finn Allen",
@@ -2788,17 +2788,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Heinrich Klaasen",
-          "role": "Wicket Keeper",
-          "batting": 103,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 119,
-          "multiplier": 1,
-          "effectivePoints": 119,
-          "countsInTop11": true
-        },
-        {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
           "batting": 98,
@@ -2807,6 +2796,17 @@
           "rawPoints": 106,
           "multiplier": 1,
           "effectivePoints": 106,
+          "countsInTop11": true
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Wicket Keeper",
+          "batting": 103,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 103,
+          "multiplier": 1,
+          "effectivePoints": 103,
           "countsInTop11": true
         },
         {
@@ -2825,10 +2825,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 45,
-          "fielding": 16,
-          "rawPoints": 61,
+          "fielding": 8,
+          "rawPoints": 53,
           "multiplier": 1,
-          "effectivePoints": 61,
+          "effectivePoints": 53,
           "countsInTop11": true
         },
         {
@@ -2836,10 +2836,10 @@
           "role": "All-Rounder",
           "batting": 26,
           "bowling": 15,
-          "fielding": 8,
-          "rawPoints": 49,
+          "fielding": 0,
+          "rawPoints": 41,
           "multiplier": 1,
-          "effectivePoints": 49,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
@@ -2858,10 +2858,10 @@
           "role": "All-Rounder",
           "batting": -5,
           "bowling": 30,
-          "fielding": 13,
-          "rawPoints": 38,
+          "fielding": 0,
+          "rawPoints": 25,
           "multiplier": 1,
-          "effectivePoints": 38,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
@@ -2922,18 +2922,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 425,
-      "top11Points": 439,
+      "totalPointsAll": 401,
+      "top11Points": 415,
       "players": [
         {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
           "bowling": 99,
-          "fielding": 8,
-          "rawPoints": 107,
+          "fielding": 0,
+          "rawPoints": 99,
           "multiplier": 1,
-          "effectivePoints": 107,
+          "effectivePoints": 99,
           "countsInTop11": true
         },
         {
@@ -2970,17 +2970,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Tilak Varma",
-          "role": "Batsman",
-          "batting": 24,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 40,
-          "multiplier": 1,
-          "effectivePoints": 40,
-          "countsInTop11": true
-        },
-        {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 1,
@@ -3000,6 +2989,17 @@
           "rawPoints": 15,
           "multiplier": 2,
           "effectivePoints": 30,
+          "countsInTop11": true
+        },
+        {
+          "name": "Tilak Varma",
+          "role": "Batsman",
+          "batting": 24,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 24,
+          "multiplier": 1,
+          "effectivePoints": 24,
           "countsInTop11": true
         },
         {
@@ -3060,8 +3060,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 408,
-      "top11Points": 408,
+      "totalPointsAll": 352,
+      "top11Points": 362,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3090,10 +3090,10 @@
           "role": "Batsman",
           "batting": 44,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 60,
+          "fielding": 0,
+          "rawPoints": 44,
           "multiplier": 1,
-          "effectivePoints": 60,
+          "effectivePoints": 44,
           "countsInTop11": true
         },
         {
@@ -3112,10 +3112,10 @@
           "role": "Batsman",
           "batting": 27,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 35,
+          "fielding": 0,
+          "rawPoints": 27,
           "multiplier": 1,
-          "effectivePoints": 35,
+          "effectivePoints": 27,
           "countsInTop11": true
         },
         {
@@ -3130,28 +3130,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Nehal Wadhera",
-          "role": "Batsman",
-          "batting": 3,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 19,
-          "multiplier": 1,
-          "effectivePoints": 19,
-          "countsInTop11": true
-        },
-        {
-          "name": "KL Rahul",
-          "role": "Wicket Keeper",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 3,
-          "multiplier": 2,
-          "effectivePoints": 6,
-          "countsInTop11": true
-        },
-        {
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": 0,
@@ -3160,6 +3138,17 @@
           "rawPoints": 5,
           "multiplier": 1,
           "effectivePoints": 5,
+          "countsInTop11": true
+        },
+        {
+          "name": "Nehal Wadhera",
+          "role": "Batsman",
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -3193,23 +3182,34 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "KL Rahul",
+          "role": "Wicket Keeper",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 2,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 341,
-      "top11Points": 341,
+      "totalPointsAll": 298,
+      "top11Points": 298,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 45,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 61,
+          "fielding": 0,
+          "rawPoints": 45,
           "multiplier": 2,
-          "effectivePoints": 122,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -3239,21 +3239,21 @@
           "role": "All-Rounder",
           "batting": 41,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 49,
+          "fielding": 0,
+          "rawPoints": 41,
           "multiplier": 1,
-          "effectivePoints": 49,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
-          "name": "Rishabh Pant",
-          "role": "Wicket Keeper",
-          "batting": 8,
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 16,
+          "fielding": 10,
+          "rawPoints": 10,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 10,
           "countsInTop11": true
         },
         {
@@ -3268,6 +3268,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rishabh Pant",
+          "role": "Wicket Keeper",
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Prashant Veer",
           "role": "All-Rounder",
           "batting": 7,
@@ -3276,17 +3287,6 @@
           "rawPoints": 7,
           "multiplier": 1,
           "effectivePoints": 7,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 5,
-          "rawPoints": 5,
-          "multiplier": 1,
-          "effectivePoints": 5,
           "countsInTop11": true
         },
         {
@@ -3336,8 +3336,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 625,
-      "top11Points": 625,
+      "totalPointsAll": 569,
+      "top11Points": 569,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -3351,25 +3351,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Devdutt Padikkal",
-          "role": "Batsman",
-          "batting": 101,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 125,
-          "multiplier": 1,
-          "effectivePoints": 125,
-          "countsInTop11": true
-        },
-        {
           "name": "Virat Kohli",
           "role": "Opener",
           "batting": 104,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 112,
+          "fielding": 0,
+          "rawPoints": 104,
           "multiplier": 1,
-          "effectivePoints": 112,
+          "effectivePoints": 104,
+          "countsInTop11": true
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "role": "Batsman",
+          "batting": 101,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 101,
+          "multiplier": 1,
+          "effectivePoints": 101,
           "countsInTop11": true
         },
         {
@@ -3388,10 +3388,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 55,
-          "fielding": 16,
-          "rawPoints": 71,
+          "fielding": 0,
+          "rawPoints": 55,
           "multiplier": 1,
-          "effectivePoints": 71,
+          "effectivePoints": 55,
           "countsInTop11": true
         },
         {
@@ -3399,10 +3399,10 @@
           "role": "All-Rounder",
           "batting": 20,
           "bowling": 25,
-          "fielding": 8,
-          "rawPoints": 53,
+          "fielding": 0,
+          "rawPoints": 45,
           "multiplier": 1,
-          "effectivePoints": 53,
+          "effectivePoints": 45,
           "countsInTop11": true
         },
         {
@@ -3463,18 +3463,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 320,
-      "top11Points": 330,
+      "totalPointsAll": 293,
+      "top11Points": 318,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 51,
           "bowling": 50,
-          "fielding": 8,
-          "rawPoints": 109,
+          "fielding": 0,
+          "rawPoints": 101,
           "multiplier": 1,
-          "effectivePoints": 109,
+          "effectivePoints": 101,
           "countsInTop11": true
         },
         {
@@ -3489,6 +3489,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dhruv Jurel",
+          "role": "Wicket Keeper",
+          "batting": 22,
+          "bowling": 0,
+          "fielding": 21,
+          "rawPoints": 43,
+          "multiplier": 1,
+          "effectivePoints": 43,
+          "countsInTop11": true
+        },
+        {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
           "batting": 27,
@@ -3497,17 +3508,6 @@
           "rawPoints": 27,
           "multiplier": 1.5,
           "effectivePoints": 41,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dhruv Jurel",
-          "role": "Wicket Keeper",
-          "batting": 22,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 38,
-          "multiplier": 1,
-          "effectivePoints": 38,
           "countsInTop11": true
         },
         {
@@ -3530,28 +3530,6 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 16,
-          "rawPoints": 6,
-          "multiplier": 1,
-          "effectivePoints": 6,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jitesh Sharma",
-          "role": "Wicket Keeper",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 3,
-          "multiplier": 1,
-          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -3596,7 +3574,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
+          "countsInTop11": true
         },
         {
           "name": "Kumar Kushagra",
@@ -3607,6 +3585,28 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jitesh Sharma",
+          "role": "Wicket Keeper",
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
+          "countsInTop11": false
+        },
+        {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
           "countsInTop11": false
         },
         {
@@ -3623,18 +3623,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 474,
-      "top11Points": 474,
+      "totalPointsAll": 459,
+      "top11Points": 459,
       "players": [
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
           "batting": 140,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 148,
+          "fielding": 16,
+          "rawPoints": 156,
           "multiplier": 1,
-          "effectivePoints": 148,
+          "effectivePoints": 156,
           "countsInTop11": true
         },
         {
@@ -3642,10 +3642,10 @@
           "role": "Wicket Keeper",
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 53,
+          "fielding": 0,
+          "rawPoints": 45,
           "multiplier": 1.5,
-          "effectivePoints": 80,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -3664,10 +3664,10 @@
           "role": "Wicket Keeper",
           "batting": 51,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 59,
+          "fielding": 0,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 59,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3684,12 +3684,12 @@
         {
           "name": "Rashid Khan",
           "role": "Spinner",
-          "batting": -5,
+          "batting": 0,
           "bowling": 30,
-          "fielding": 8,
-          "rawPoints": 33,
+          "fielding": 0,
+          "rawPoints": 30,
           "multiplier": 1,
-          "effectivePoints": 33,
+          "effectivePoints": 30,
           "countsInTop11": true
         },
         {
@@ -3750,8 +3750,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 579,
-      "top11Points": 579,
+      "totalPointsAll": 539,
+      "top11Points": 539,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -3780,10 +3780,10 @@
           "role": "All-Rounder",
           "batting": 14,
           "bowling": 45,
-          "fielding": 16,
-          "rawPoints": 75,
+          "fielding": 0,
+          "rawPoints": 59,
           "multiplier": 1,
-          "effectivePoints": 75,
+          "effectivePoints": 59,
           "countsInTop11": true
         },
         {
@@ -3809,17 +3809,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Phil Salt",
-          "role": "Opener",
-          "batting": 10,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 34,
-          "multiplier": 1,
-          "effectivePoints": 34,
-          "countsInTop11": true
-        },
-        {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
           "batting": 21,
@@ -3828,6 +3817,17 @@
           "rawPoints": 21,
           "multiplier": 1,
           "effectivePoints": 21,
+          "countsInTop11": true
+        },
+        {
+          "name": "Phil Salt",
+          "role": "Opener",
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 10,
+          "multiplier": 1,
+          "effectivePoints": 10,
           "countsInTop11": true
         },
         {
@@ -3888,8 +3888,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 823,
-      "top11Points": 828,
+      "totalPointsAll": 799,
+      "top11Points": 808,
       "players": [
         {
           "name": "Rinku Singh",
@@ -3914,17 +3914,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Prasidh Krishna",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 90,
-          "fielding": 8,
-          "rawPoints": 98,
-          "multiplier": 1,
-          "effectivePoints": 98,
-          "countsInTop11": true
-        },
-        {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
           "batting": 91,
@@ -3933,6 +3922,17 @@
           "rawPoints": 91,
           "multiplier": 1,
           "effectivePoints": 91,
+          "countsInTop11": true
+        },
+        {
+          "name": "Prasidh Krishna",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 90,
+          "fielding": 0,
+          "rawPoints": 90,
+          "multiplier": 1,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -3962,10 +3962,10 @@
           "role": "All-Rounder",
           "batting": 6,
           "bowling": 65,
-          "fielding": 8,
-          "rawPoints": 79,
+          "fielding": 0,
+          "rawPoints": 71,
           "multiplier": 1,
-          "effectivePoints": 79,
+          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -4002,17 +4002,6 @@
           "countsInTop11": true
         },
         {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 8,
-          "multiplier": 1,
-          "effectivePoints": 8,
-          "countsInTop11": true
-        },
-        {
           "name": "Shahrukh Khan",
           "role": "Batsman",
           "batting": 4,
@@ -4021,6 +4010,17 @@
           "rawPoints": 4,
           "multiplier": 1,
           "effectivePoints": 4,
+          "countsInTop11": true
+        },
+        {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 0,
+          "multiplier": 1,
+          "effectivePoints": 0,
           "countsInTop11": false
         },
         {
