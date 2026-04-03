@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T17:05:00.786Z",
+  "lastUpdated": "2026-04-03T17:14:53.893Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 98,
+        "r": 127,
         "w": 2,
-        "o": 9.4
+        "o": 11.4
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Matt Henry": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 51
       },
       "Shreyas Iyer": {
-        "batting": 2,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 4
       },
       "Shashank Singh": {
         "batting": 0,
@@ -140,7 +140,7 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 799,
+      "totalPointsAll": 794,
       "top11Points": 808
     },
     {
@@ -170,8 +170,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 354,
-      "top11Points": 364
+      "totalPointsAll": 356,
+      "top11Points": 366
     },
     {
       "team": "Ashwin",
@@ -2572,9 +2572,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 98,
+          "r": 127,
           "w": 2,
-          "o": 9.4
+          "o": 11.4
         }
       ],
       "scorecard": [
@@ -2701,9 +2701,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 98,
+          "runs": 127,
           "wickets": 2,
-          "overs": 9.4,
+          "overs": 11.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -2725,39 +2725,39 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 14,
-              "balls": 12,
-              "fours": 2,
+              "runs": 36,
+              "balls": 21,
+              "fours": 6,
               "sixes": 0,
-              "sr": 116.66,
+              "sr": 171.42,
               "dismissal": "not out"
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 2,
-              "balls": 2,
+              "runs": 4,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 80,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Noor Ahmad",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 19,
+              "runs": 33,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 11
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 12,
+              "runs": 22,
               "wickets": 0,
-              "economy": 12
+              "economy": 13.2
             },
             {
               "name": "Matt Henry",
@@ -2777,11 +2777,11 @@
             },
             {
               "name": "Rahul Chahar",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 16,
               "wickets": 0,
-              "economy": 8.18
+              "economy": 8
             }
           ]
         }
@@ -2831,9 +2831,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Matt Henry": {
           "batting": 0,
@@ -2860,10 +2860,10 @@
           "total": 51
         },
         "Shreyas Iyer": {
-          "batting": 2,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 4
         },
         "Shashank Singh": {
           "batting": 0,
@@ -3194,8 +3194,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 354,
-      "top11Points": 364,
+      "totalPointsAll": 356,
+      "top11Points": 366,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3244,12 +3244,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 29,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 29,
+          "rawPoints": 31,
           "multiplier": 1,
-          "effectivePoints": 29,
+          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -4022,7 +4022,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 799,
+      "totalPointsAll": 794,
       "top11Points": 808,
       "players": [
         {
@@ -4172,11 +4172,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 1,
-          "bowling": -10,
+          "bowling": -15,
           "fielding": 0,
-          "rawPoints": -9,
+          "rawPoints": -14,
           "multiplier": 1,
-          "effectivePoints": -9,
+          "effectivePoints": -14,
           "countsInTop11": false
         }
       ]
