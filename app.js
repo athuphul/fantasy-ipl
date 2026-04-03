@@ -225,7 +225,8 @@ function renderLeaderboard() {
   // League stats
   const points = data.leaderboard.map(e => e.top11Points).sort((a, b) => a - b);
   const avg = Math.round(points.reduce((a, b) => a + b, 0) / points.length);
-  const median = points[Math.floor(points.length / 2)];
+  const mid = Math.floor(points.length / 2);
+  const median = points.length % 2 === 1 ? points[mid] : Math.round((points[mid - 1] + points[mid]) / 2);
   document.getElementById('league-stats').innerHTML = `
     <div class="league-stats-row">
       <div class="league-stat-box">
@@ -807,9 +808,11 @@ function renderHeroTiles() {
   if (players.length === 0) { container.innerHTML = ''; return; }
 
   const total = p => p.batting + p.bowling + p.fielding;
-  const batsmen = players.filter(p => playerRoleMap[p.name]?.includes('Batsman') || playerRoleMap[p.name]?.includes('WK'));
-  const bowlers = players.filter(p => playerRoleMap[p.name]?.includes('Bowler'));
-  const allRounders = players.filter(p => playerRoleMap[p.name] === 'All-Rounder');
+  const batRoles = ['Opener', 'Batsman', 'Wicket Keeper'];
+  const arRole = 'All-Rounder';
+  const batsmen = players.filter(p => batRoles.includes(playerRoleMap[p.name]));
+  const allRounders = players.filter(p => playerRoleMap[p.name] === arRole);
+  const bowlers = players.filter(p => !batRoles.includes(playerRoleMap[p.name]) && playerRoleMap[p.name] !== arRole);
 
   const bestBat = batsmen.length > 0 ? batsmen.reduce((a, b) => total(b) > total(a) ? b : a) : null;
   const bestBowl = bowlers.length > 0 ? bowlers.reduce((a, b) => total(b) > total(a) ? b : a) : null;
