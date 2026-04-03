@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T06:39:39.233Z",
+  "lastUpdated": "2026-04-03T06:50:20.488Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
@@ -20,8 +20,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 503,
-      "top11Points": 528
+      "totalPointsAll": 498,
+      "top11Points": 523
     },
     {
       "team": "Ritik",
@@ -30,7 +30,7 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 345,
+      "totalPointsAll": 340,
       "top11Points": 370
     },
     {
@@ -174,7 +174,7 @@
           "total": -20
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
@@ -571,7 +571,7 @@
           "total": -5
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
@@ -844,6 +844,12 @@
           "fielding": 0,
           "total": 17
         },
+        "Shimron Hetmyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Ravindra Jadeja": {
           "batting": 0,
           "bowling": 70,
@@ -923,7 +929,7 @@
           "total": 20
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
@@ -1583,7 +1589,7 @@
           "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527678",
@@ -1969,6 +1975,12 @@
           "fielding": 0,
           "total": 0
         },
+        "David Miller": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Lungi Ngidi": {
           "batting": 0,
           "bowling": 90,
@@ -1988,7 +2000,7 @@
           "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527679",
@@ -2342,10 +2354,10 @@
           "total": 41
         },
         "Anukul Roy": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 30,
           "fielding": 0,
-          "total": 30
+          "total": 25
         },
         "Sunil Narine": {
           "batting": 16,
@@ -2360,10 +2372,10 @@
           "total": 46
         },
         "Varun Chakravarthy": {
-          "batting": 0,
+          "batting": -5,
           "bowling": -15,
           "fielding": 0,
-          "total": -15
+          "total": -20
         },
         "Blessing Muzarabani": {
           "batting": 0,
@@ -2408,13 +2420,13 @@
           "total": 36
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 503,
-      "top11Points": 528,
+      "totalPointsAll": 498,
+      "top11Points": 523,
       "players": [
         {
           "name": "Finn Allen",
@@ -2485,12 +2497,12 @@
         {
           "name": "Anukul Roy",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": -5,
           "bowling": 30,
           "fielding": 0,
-          "rawPoints": 30,
+          "rawPoints": 25,
           "multiplier": 1,
-          "effectivePoints": 30,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
@@ -2562,7 +2574,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 345,
+      "totalPointsAll": 340,
       "top11Points": 370,
       "players": [
         {
@@ -2689,12 +2701,12 @@
         {
           "name": "Varun Chakravarthy",
           "role": "Spinner",
-          "batting": 0,
+          "batting": -5,
           "bowling": -25,
           "fielding": 0,
-          "rawPoints": -25,
+          "rawPoints": -30,
           "multiplier": 1,
-          "effectivePoints": -25,
+          "effectivePoints": -30,
           "countsInTop11": false
         }
       ]
