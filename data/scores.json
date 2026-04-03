@@ -1,12 +1,87 @@
 {
-  "lastUpdated": "2026-04-03T07:10:12.401Z",
+  "lastUpdated": "2026-04-03T14:05:06.556Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527680",
+    "name": "Chennai Super Kings v Punjab Kings",
+    "status": "Live",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 5,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Sanju Samson": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Shreyas Iyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shashank Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nehal Wadhera": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marcus Stoinis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 675,
-      "top11Points": 680
+      "totalPointsAll": 681,
+      "top11Points": 686
     },
     {
       "team": "Kishan",
@@ -45,7 +120,7 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 280,
+      "totalPointsAll": 281,
       "top11Points": 294
     }
   ],
@@ -2421,6 +2496,122 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527680",
+      "name": "Chennai Super Kings v Punjab Kings",
+      "date": "2026-04-03",
+      "status": "Live",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "score": [
+        {
+          "inning": "Chennai Super Kings",
+          "r": 5,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sanju Samson": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Shreyas Iyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shashank Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nehal Wadhera": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marcus Stoinis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -3115,7 +3306,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 280,
+      "totalPointsAll": 281,
       "top11Points": 294,
       "players": [
         {
@@ -3253,12 +3444,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": -3,
+          "batting": -2,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": -3,
+          "rawPoints": -2,
           "multiplier": 1.5,
-          "effectivePoints": -4,
+          "effectivePoints": -3,
           "countsInTop11": false
         },
         {
@@ -3540,8 +3731,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 675,
-      "top11Points": 680,
+      "totalPointsAll": 681,
+      "top11Points": 686,
       "players": [
         {
           "name": "Rinku Singh",
@@ -3623,12 +3814,12 @@
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 7,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 7,
+          "rawPoints": 10,
           "multiplier": 2,
-          "effectivePoints": 14,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
