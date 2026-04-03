@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:44:53.344Z",
+  "lastUpdated": "2026-04-03T16:54:53.882Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 67,
+        "r": 83,
         "w": 1,
-        "o": 5.4
+        "o": 7.4
       }
     ],
     "playerScores": {
@@ -77,9 +77,9 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 0
       },
       "Priyansh Arya": {
         "batting": 65,
@@ -88,10 +88,10 @@
         "total": 65
       },
       "Prabhsimran Singh": {
-        "batting": 29,
+        "batting": 46,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 46
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -160,8 +160,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 483,
-      "top11Points": 483
+      "totalPointsAll": 505,
+      "top11Points": 505
     },
     {
       "team": "Aakash",
@@ -2572,9 +2572,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 67,
+          "r": 83,
           "w": 1,
-          "o": 5.4
+          "o": 7.4
         }
       ],
       "scorecard": [
@@ -2701,9 +2701,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 67,
+          "runs": 83,
           "wickets": 1,
-          "overs": 5.4,
+          "overs": 7.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -2716,24 +2716,32 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 24,
-              "balls": 22,
-              "fours": 5,
-              "sixes": 0,
-              "sr": 109.09,
+              "runs": 38,
+              "balls": 31,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 122.58,
               "dismissal": "not out"
             },
             {
               "name": "Cooper Connolly",
-              "runs": 0,
-              "balls": 1,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 60,
               "dismissal": "not out"
             }
           ],
           "bowling": [
+            {
+              "name": "Noor Ahmad",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
+            },
             {
               "name": "Anshul Kamboj",
               "overs": 1,
@@ -2752,11 +2760,19 @@
             },
             {
               "name": "Khaleel Ahmed",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 27,
+              "runs": 28,
               "wickets": 0,
-              "economy": 10.12
+              "economy": 9.33
+            },
+            {
+              "name": "Rahul Chahar",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 4.5
             }
           ]
         }
@@ -2818,9 +2834,9 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 0
         },
         "Priyansh Arya": {
           "batting": 65,
@@ -2829,10 +2845,10 @@
           "total": 65
         },
         "Prabhsimran Singh": {
-          "batting": 29,
+          "batting": 46,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 46
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -3732,8 +3748,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 483,
-      "top11Points": 483,
+      "totalPointsAll": 505,
+      "top11Points": 505,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -3749,12 +3765,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 80,
+          "batting": 97,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 80,
+          "rawPoints": 97,
           "multiplier": 1,
-          "effectivePoints": 80,
+          "effectivePoints": 97,
           "countsInTop11": true
         },
         {
@@ -3816,11 +3832,11 @@
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 15,
+          "bowling": 20,
           "fielding": 0,
-          "rawPoints": 15,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 15,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
