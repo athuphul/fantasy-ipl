@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T14:34:53.396Z",
+  "lastUpdated": "2026-04-03T14:44:52.939Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 57,
+        "r": 83,
         "w": 1,
-        "o": 6
+        "o": 8.1
       }
     ],
     "playerScores": {
@@ -22,16 +22,16 @@
         "total": 8
       },
       "Ruturaj Gaikwad": {
-        "batting": 16,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 19
       },
       "Ayush Mhatre": {
-        "batting": 40,
+        "batting": 84,
         "bowling": 0,
         "fielding": 0,
-        "total": 40
+        "total": 84
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -86,18 +86,18 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 691,
-      "top11Points": 696
+      "totalPointsAll": 681,
+      "top11Points": 686
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 643,
+      "top11Points": 668
     },
     {
       "team": "Kishan",
       "totalPointsAll": 625,
       "top11Points": 625
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 599,
-      "top11Points": 624
     },
     {
       "team": "Tanay",
@@ -126,8 +126,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 316,
-      "top11Points": 326
+      "totalPointsAll": 320,
+      "top11Points": 330
     }
   ],
   "matchHistory": [
@@ -2512,17 +2512,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 57,
+          "r": 83,
           "w": 1,
-          "o": 6
+          "o": 8.1
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 57,
+          "runs": 83,
           "wickets": 1,
-          "overs": 6,
+          "overs": 8.1,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -2531,35 +2531,43 @@
               "fours": 1,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "c Prabhsimran Singh b Xavier Bartlett"
+              "dismissal": "c"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 14,
-              "balls": 10,
+              "runs": 17,
+              "balls": 13,
               "fours": 2,
               "sixes": 0,
-              "sr": 140,
+              "sr": 130.76,
               "dismissal": "not out"
             },
             {
               "name": "Ayush Mhatre",
-              "runs": 29,
-              "balls": 19,
+              "runs": 52,
+              "balls": 29,
               "fours": 4,
-              "sixes": 1,
-              "sr": 152.63,
+              "sixes": 4,
+              "sr": 179.31,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
-              "name": "Marco Jansen",
-              "overs": 1,
+              "name": "Marcus Stoinis",
+              "overs": 0.1,
               "maidens": 0,
-              "runs": 10,
+              "runs": 6,
               "wickets": 0,
-              "economy": 10
+              "economy": 36
+            },
+            {
+              "name": "Marco Jansen",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 24,
+              "wickets": 0,
+              "economy": 12
             },
             {
               "name": "Xavier Bartlett",
@@ -2584,6 +2592,14 @@
               "runs": 13,
               "wickets": 0,
               "economy": 6.5
+            },
+            {
+              "name": "Yuzvendra Chahal",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -2596,16 +2612,16 @@
           "total": 8
         },
         "Ruturaj Gaikwad": {
-          "batting": 16,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 19
         },
         "Ayush Mhatre": {
-          "batting": 40,
+          "batting": 84,
           "bowling": 0,
           "fielding": 0,
-          "total": 40
+          "total": 84
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -2639,9 +2655,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -2661,8 +2677,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 599,
-      "top11Points": 624,
+      "totalPointsAll": 643,
+      "top11Points": 668,
       "players": [
         {
           "name": "Finn Allen",
@@ -2695,6 +2711,17 @@
           "rawPoints": 106,
           "multiplier": 1,
           "effectivePoints": 106,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ayush Mhatre",
+          "role": "Opener",
+          "batting": 79,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 79,
+          "multiplier": 1,
+          "effectivePoints": 79,
           "countsInTop11": true
         },
         {
@@ -2739,17 +2766,6 @@
           "rawPoints": 38,
           "multiplier": 1,
           "effectivePoints": 38,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ayush Mhatre",
-          "role": "Opener",
-          "batting": 35,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 35,
-          "multiplier": 1,
-          "effectivePoints": 35,
           "countsInTop11": true
         },
         {
@@ -3351,8 +3367,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 316,
-      "top11Points": 326,
+      "totalPointsAll": 320,
+      "top11Points": 330,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -3410,6 +3426,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 16,
+          "multiplier": 1.5,
+          "effectivePoints": 24,
+          "countsInTop11": true
+        },
+        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -3418,17 +3445,6 @@
           "rawPoints": 23,
           "multiplier": 1,
           "effectivePoints": 23,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 13,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 13,
-          "multiplier": 1.5,
-          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -3776,8 +3792,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 691,
-      "top11Points": 696,
+      "totalPointsAll": 681,
+      "top11Points": 686,
       "players": [
         {
           "name": "Rinku Singh",
@@ -3838,11 +3854,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 6,
-          "bowling": 45,
+          "bowling": 35,
           "fielding": 8,
-          "rawPoints": 59,
+          "rawPoints": 49,
           "multiplier": 1,
-          "effectivePoints": 59,
+          "effectivePoints": 49,
           "countsInTop11": true
         },
         {
