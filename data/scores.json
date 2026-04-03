@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:34:56.967Z",
+  "lastUpdated": "2026-04-03T16:44:53.344Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 55,
-        "w": 0,
-        "o": 4
+        "r": 67,
+        "w": 1,
+        "o": 5.4
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Matt Henry": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 15,
         "fielding": 0,
-        "total": 0
+        "total": 15
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": -5
       },
       "Priyansh Arya": {
-        "batting": 42,
+        "batting": 65,
         "bowling": 0,
         "fielding": 0,
-        "total": 42
+        "total": 65
       },
       "Prabhsimran Singh": {
-        "batting": 23,
+        "batting": 29,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 29
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -160,23 +160,23 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 477,
-      "top11Points": 477
+      "totalPointsAll": 483,
+      "top11Points": 483
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 401,
-      "top11Points": 415
+      "totalPointsAll": 416,
+      "top11Points": 430
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 363,
+      "top11Points": 363
     },
     {
       "team": "Ali",
       "totalPointsAll": 352,
       "top11Points": 362
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 340,
-      "top11Points": 340
     },
     {
       "team": "Manav",
@@ -2572,9 +2572,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 55,
-          "w": 0,
-          "o": 4
+          "r": 67,
+          "w": 1,
+          "o": 5.4
         }
       ],
       "scorecard": [
@@ -2701,26 +2701,35 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 55,
-          "wickets": 0,
-          "overs": 4,
+          "runs": 67,
+          "wickets": 1,
+          "overs": 5.4,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 33,
-              "balls": 9,
+              "runs": 39,
+              "balls": 11,
               "fours": 3,
-              "sixes": 3,
-              "sr": 366.66,
-              "dismissal": "not out"
+              "sixes": 4,
+              "sr": 354.54,
+              "dismissal": "out"
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 19,
-              "balls": 15,
-              "fours": 4,
+              "runs": 24,
+              "balls": 22,
+              "fours": 5,
               "sixes": 0,
-              "sr": 126.66,
+              "sr": 109.09,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "not out"
             }
           ],
@@ -2735,19 +2744,19 @@
             },
             {
               "name": "Matt Henry",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 0,
-              "economy": 20
+              "runs": 27,
+              "wickets": 1,
+              "economy": 13.5
             },
             {
               "name": "Khaleel Ahmed",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 27,
               "wickets": 0,
-              "economy": 11.5
+              "economy": 10.12
             }
           ]
         }
@@ -2803,9 +2812,9 @@
         },
         "Matt Henry": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 15,
           "fielding": 0,
-          "total": 0
+          "total": 15
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -2814,16 +2823,16 @@
           "total": -5
         },
         "Priyansh Arya": {
-          "batting": 42,
+          "batting": 65,
           "bowling": 0,
           "fielding": 0,
-          "total": 42
+          "total": 65
         },
         "Prabhsimran Singh": {
-          "batting": 23,
+          "batting": 29,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 29
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -3022,8 +3031,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 401,
-      "top11Points": 415,
+      "totalPointsAll": 416,
+      "top11Points": 430,
       "players": [
         {
           "name": "Yuzvendra Chahal",
@@ -3114,6 +3123,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Matt Henry",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": 5,
+          "fielding": 0,
+          "rawPoints": 11,
+          "multiplier": 1,
+          "effectivePoints": 11,
+          "countsInTop11": true
+        },
+        {
           "name": "Rachin Ravindra",
           "role": "All-Rounder",
           "batting": 0,
@@ -3133,17 +3153,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Matt Henry",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": -10,
-          "fielding": 0,
-          "rawPoints": -4,
-          "multiplier": 1,
-          "effectivePoints": -4,
           "countsInTop11": true
         },
         {
@@ -3298,8 +3307,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 340,
-      "top11Points": 340,
+      "totalPointsAll": 363,
+      "top11Points": 363,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3324,6 +3333,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Priyansh Arya",
+          "role": "Opener",
+          "batting": 74,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 74,
+          "multiplier": 1,
+          "effectivePoints": 74,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -3332,17 +3352,6 @@
           "rawPoints": 36,
           "multiplier": 1.5,
           "effectivePoints": 54,
-          "countsInTop11": true
-        },
-        {
-          "name": "Priyansh Arya",
-          "role": "Opener",
-          "batting": 51,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 51,
-          "multiplier": 1,
-          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
@@ -3723,8 +3732,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 477,
-      "top11Points": 477,
+      "totalPointsAll": 483,
+      "top11Points": 483,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -3740,12 +3749,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 74,
+          "batting": 80,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 74,
+          "rawPoints": 80,
           "multiplier": 1,
-          "effectivePoints": 74,
+          "effectivePoints": 80,
           "countsInTop11": true
         },
         {
