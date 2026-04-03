@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T17:34:53.550Z",
+  "lastUpdated": "2026-04-03T17:44:53.263Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 177,
-        "w": 3,
-        "o": 16
+        "r": 186,
+        "w": 5,
+        "o": 17.1
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Matt Henry": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 40,
         "fielding": 0,
-        "total": 10
+        "total": 40
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 51
       },
       "Shreyas Iyer": {
-        "batting": 60,
+        "batting": 75,
         "bowling": 0,
         "fielding": 0,
-        "total": 60
+        "total": 75
       },
       "Nehal Wadhera": {
         "batting": 12,
@@ -164,14 +164,14 @@
       "top11Points": 510
     },
     {
-      "team": "Ali",
-      "totalPointsAll": 424,
-      "top11Points": 434
+      "team": "Aakash",
+      "totalPointsAll": 441,
+      "top11Points": 455
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 411,
-      "top11Points": 425
+      "team": "Ali",
+      "totalPointsAll": 439,
+      "top11Points": 449
     },
     {
       "team": "Ashwin",
@@ -2572,9 +2572,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 177,
-          "w": 3,
-          "o": 16
+          "r": 186,
+          "w": 5,
+          "o": 17.1
         }
       ],
       "scorecard": [
@@ -2701,9 +2701,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 177,
-          "wickets": 3,
-          "overs": 16,
+          "runs": 186,
+          "wickets": 5,
+          "overs": 17.1,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -2734,20 +2734,29 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 42,
-              "balls": 22,
-              "fours": 2,
+              "runs": 50,
+              "balls": 29,
+              "fours": 4,
               "sixes": 3,
-              "sr": 190.9,
-              "dismissal": "not out"
+              "sr": 172.41,
+              "dismissal": "c"
             },
             {
               "name": "Nehal Wadhera",
               "runs": 10,
-              "balls": 8,
+              "balls": 9,
               "fours": 0,
               "sixes": 1,
-              "sr": 125,
+              "sr": 111.11,
+              "dismissal": "c"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "not out"
             }
           ],
@@ -2762,19 +2771,19 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
-              "wickets": 1,
-              "economy": 11
+              "runs": 31,
+              "wickets": 2,
+              "economy": 10.33
             },
             {
               "name": "Matt Henry",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
               "runs": 42,
-              "wickets": 1,
-              "economy": 14
+              "wickets": 2,
+              "economy": 13.26
             },
             {
               "name": "Khaleel Ahmed",
@@ -2846,9 +2855,9 @@
         },
         "Matt Henry": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 40,
           "fielding": 0,
-          "total": 10
+          "total": 40
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -2869,10 +2878,10 @@
           "total": 51
         },
         "Shreyas Iyer": {
-          "batting": 60,
+          "batting": 75,
           "bowling": 0,
           "fielding": 0,
-          "total": 60
+          "total": 75
         },
         "Nehal Wadhera": {
           "batting": 12,
@@ -3065,8 +3074,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 411,
-      "top11Points": 425,
+      "totalPointsAll": 441,
+      "top11Points": 455,
       "players": [
         {
           "name": "Yuzvendra Chahal",
@@ -3124,6 +3133,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Matt Henry",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": 30,
+          "fielding": 0,
+          "rawPoints": 36,
+          "multiplier": 1,
+          "effectivePoints": 36,
+          "countsInTop11": true
+        },
+        {
           "name": "Sai Sudharsan",
           "role": "Opener",
           "batting": 15,
@@ -3154,17 +3174,6 @@
           "rawPoints": 14,
           "multiplier": 1,
           "effectivePoints": 14,
-          "countsInTop11": true
-        },
-        {
-          "name": "Matt Henry",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 6,
-          "multiplier": 1,
-          "effectivePoints": 6,
           "countsInTop11": true
         },
         {
@@ -3203,8 +3212,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 424,
-      "top11Points": 434,
+      "totalPointsAll": 439,
+      "top11Points": 449,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3218,6 +3227,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shreyas Iyer",
+          "role": "Batsman",
+          "batting": 102,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 102,
+          "multiplier": 1,
+          "effectivePoints": 102,
+          "countsInTop11": true
+        },
+        {
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 0,
@@ -3226,17 +3246,6 @@
           "rawPoints": 90,
           "multiplier": 1,
           "effectivePoints": 90,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shreyas Iyer",
-          "role": "Batsman",
-          "batting": 87,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 87,
-          "multiplier": 1,
-          "effectivePoints": 87,
           "countsInTop11": true
         },
         {
