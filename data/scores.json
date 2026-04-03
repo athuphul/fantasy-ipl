@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T14:54:53.721Z",
+  "lastUpdated": "2026-04-03T15:04:53.409Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 101,
-        "w": 1,
-        "o": 10
+        "r": 116,
+        "w": 2,
+        "o": 11.5
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 8
       },
       "Ruturaj Gaikwad": {
-        "batting": 27,
+        "batting": 30,
         "bowling": 0,
         "fielding": 0,
-        "total": 27
+        "total": 30
       },
       "Ayush Mhatre": {
-        "batting": 96,
+        "batting": 99,
         "bowling": 0,
         "fielding": 0,
-        "total": 96
+        "total": 99
+      },
+      "Shivam Dube": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -54,8 +60,8 @@
       "Nehal Wadhera": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -77,22 +83,22 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": 37,
         "fielding": 0,
-        "total": 12
+        "total": 37
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 681,
-      "top11Points": 686
+      "totalPointsAll": 682,
+      "top11Points": 687
     },
     {
       "team": "Athu",
-      "totalPointsAll": 655,
-      "top11Points": 680
+      "totalPointsAll": 658,
+      "top11Points": 683
     },
     {
       "team": "Kishan",
@@ -111,18 +117,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 392,
-      "top11Points": 406
+      "totalPointsAll": 417,
+      "top11Points": 431
     },
     {
       "team": "Ali",
-      "totalPointsAll": 392,
-      "top11Points": 392
+      "totalPointsAll": 400,
+      "top11Points": 400
     },
     {
       "team": "Manav",
-      "totalPointsAll": 332,
-      "top11Points": 342
+      "totalPointsAll": 337,
+      "top11Points": 347
     },
     {
       "team": "Ashwin",
@@ -2512,17 +2518,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 101,
-          "w": 1,
-          "o": 10
+          "r": 116,
+          "w": 2,
+          "o": 11.5
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 101,
-          "wickets": 1,
-          "overs": 10,
+          "runs": 116,
+          "wickets": 2,
+          "overs": 11.5,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -2531,24 +2537,33 @@
               "fours": 1,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "c Prabhsimran Singh b Xavier Bartlett"
+              "dismissal": "c"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 25,
-              "balls": 19,
+              "runs": 28,
+              "balls": 22,
               "fours": 2,
               "sixes": 0,
-              "sr": 131.57,
-              "dismissal": "not out"
+              "sr": 127.27,
+              "dismissal": "c"
             },
             {
               "name": "Ayush Mhatre",
-              "runs": 62,
-              "balls": 35,
-              "fours": 4,
+              "runs": 69,
+              "balls": 41,
+              "fours": 5,
               "sixes": 5,
-              "sr": 177.14,
+              "sr": 168.29,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Shivam Dube",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "not out"
             }
           ],
@@ -2579,11 +2594,11 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 19,
               "wickets": 0,
-              "economy": 9.42
+              "economy": 9.5
             },
             {
               "name": "Arshdeep Singh",
@@ -2595,11 +2610,11 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 6.5
+              "runs": 19,
+              "wickets": 1,
+              "economy": 6.7
             }
           ]
         }
@@ -2612,16 +2627,22 @@
           "total": 8
         },
         "Ruturaj Gaikwad": {
-          "batting": 27,
+          "batting": 30,
           "bowling": 0,
           "fielding": 0,
-          "total": 27
+          "total": 30
         },
         "Ayush Mhatre": {
-          "batting": 96,
+          "batting": 99,
           "bowling": 0,
           "fielding": 0,
-          "total": 96
+          "total": 99
+        },
+        "Shivam Dube": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -2644,8 +2665,8 @@
         "Nehal Wadhera": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -2667,9 +2688,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": 37,
           "fielding": 0,
-          "total": 12
+          "total": 37
         }
       },
       "isComplete": false
@@ -2677,8 +2698,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 655,
-      "top11Points": 680,
+      "totalPointsAll": 658,
+      "top11Points": 683,
       "players": [
         {
           "name": "Finn Allen",
@@ -2716,12 +2737,12 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
-          "batting": 91,
+          "batting": 94,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 91,
+          "rawPoints": 94,
           "multiplier": 1,
-          "effectivePoints": 91,
+          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -2826,9 +2847,20 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 392,
-      "top11Points": 406,
+      "totalPointsAll": 417,
+      "top11Points": 431,
       "players": [
+        {
+          "name": "Yuzvendra Chahal",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 99,
+          "fielding": 0,
+          "rawPoints": 99,
+          "multiplier": 1,
+          "effectivePoints": 99,
+          "countsInTop11": true
+        },
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
@@ -2838,17 +2870,6 @@
           "rawPoints": 93,
           "multiplier": 1,
           "effectivePoints": 93,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yuzvendra Chahal",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 74,
-          "fielding": 0,
-          "rawPoints": 74,
-          "multiplier": 1,
-          "effectivePoints": 74,
           "countsInTop11": true
         },
         {
@@ -2964,8 +2985,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 392,
-      "top11Points": 392,
+      "totalPointsAll": 400,
+      "top11Points": 400,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3034,6 +3055,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nehal Wadhera",
+          "role": "Batsman",
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 11,
+          "multiplier": 1,
+          "effectivePoints": 11,
+          "countsInTop11": true
+        },
+        {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
           "batting": -5,
@@ -3053,17 +3085,6 @@
           "rawPoints": 5,
           "multiplier": 1,
           "effectivePoints": 5,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nehal Wadhera",
-          "role": "Batsman",
-          "batting": 3,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 3,
-          "multiplier": 1,
-          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -3367,8 +3388,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 332,
-      "top11Points": 342,
+      "totalPointsAll": 337,
+      "top11Points": 347,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -3393,6 +3414,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 27,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 27,
+          "multiplier": 1.5,
+          "effectivePoints": 41,
+          "countsInTop11": true
+        },
+        {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
           "batting": 22,
@@ -3401,17 +3433,6 @@
           "rawPoints": 38,
           "multiplier": 1,
           "effectivePoints": 38,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 24,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 24,
-          "multiplier": 1.5,
-          "effectivePoints": 36,
           "countsInTop11": true
         },
         {
@@ -3792,8 +3813,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 681,
-      "top11Points": 686,
+      "totalPointsAll": 682,
+      "top11Points": 687,
       "players": [
         {
           "name": "Rinku Singh",
@@ -3895,22 +3916,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 9,
+          "multiplier": 1,
+          "effectivePoints": 9,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 0,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 8,
-          "multiplier": 1,
-          "effectivePoints": 8,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 8,
-          "bowling": 0,
-          "fielding": 0,
           "rawPoints": 8,
           "multiplier": 1,
           "effectivePoints": 8,
