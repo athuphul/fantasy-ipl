@@ -232,64 +232,85 @@ const TEAM_SLUGS = {
   'Delhi Capitals': 'dc', 'Lucknow Super Giants': 'lsg',
 };
 
-// Try to discover a Cricbuzz match ID for an ESPN event by probing IDs near known ones.
-// espnMatchId: "espn_NNNNNNN", eventName: "Team A v Team B"
-async function discoverCricbuzzId(espnMatchId, eventName) {
-  // Already known?
-  const existing = getCricbuzzId(espnMatchId);
-  if (existing) return existing;
+const IPL_SERIES_URL = 'https://www.cricbuzz.com/cricket-series/9241/indian-premier-league-2026/matches';
 
-  // Extract team names from event name ("Team A v Team B")
-  const teams = eventName.split(/\s+v\s+/i).map(t => t.trim());
-  if (teams.length !== 2) return null;
+// Scrape the Cricbuzz series fixtures page to discover match IDs for upcoming matches.
+// Returns array of { cricbuzzId, slug, teams: [abbr1, abbr2] }
+async function scrapeSeriesFixtures() {
+  try {
+    console.log('  Scraping Cricbuzz series page for match IDs...');
+    const html = await fetchHTML(IPL_SERIES_URL);
+    if (!html || html.length < 1000) return [];
 
-  // Build expected slug fragments
-  const slugFragments = teams.map(t => {
-    for (const [full, abbr] of Object.entries(TEAM_SLUGS)) {
-      if (t.toLowerCase().includes(full.toLowerCase().split(' ')[0])) return abbr;
+    const matches = [];
+    const seen = new Set();
+    const pattern = /href="\/live-cricket-score[s]?\/(\d+)\/([^"]+)"/g;
+    let m;
+    while ((m = pattern.exec(html)) !== null) {
+      const id = parseInt(m[1]);
+      const slug = m[2];
+      if (seen.has(id) || !slug.includes('ipl')) continue;
+      seen.add(id);
+
+      // Extract team abbreviations from slug: "dc-vs-mi-8th-match-ipl-2026"
+      const slugMatch = slug.match(/^([a-z]+)-vs-([a-z]+)-/);
+      if (slugMatch) {
+        matches.push({ cricbuzzId: id, slug, teams: [slugMatch[1], slugMatch[2]] });
+      }
     }
-    return t.toLowerCase().split(' ')[0];
-  });
+    console.log(`  Found ${matches.length} IPL matches on Cricbuzz series page`);
+    return matches;
+  } catch (err) {
+    console.log(`  Cricbuzz series page fetch failed: ${err.message}`);
+    return [];
+  }
+}
 
-  // Find the highest known Cricbuzz ID to start probing from
-  const allKnown = { ...ESPN_TO_CRICBUZZ, ...loadCricbuzzMap() };
-  let maxId = Math.max(...Object.values(allKnown).filter(v => typeof v === 'number'));
-  if (!isFinite(maxId)) maxId = 149684;
+// Discover Cricbuzz IDs for ESPN events by scraping the series fixtures page.
+// espnEvents: array of { id, name } from ESPN header.
+// Matches ESPN event team names to Cricbuzz slug abbreviations.
+// Saves discovered mappings to cricbuzz_map.json for future runs.
+async function discoverCricbuzzIds(espnEvents) {
+  // Only discover for events we don't already have
+  const missing = espnEvents.filter(ev => !getCricbuzzId(`espn_${ev.id}`));
+  if (missing.length === 0) return;
 
-  console.log(`  Discovering Cricbuzz ID for "${eventName}" (probing from ${maxId})`);
+  const fixtures = await scrapeSeriesFixtures();
+  if (fixtures.length === 0) return;
 
-  // Probe IDs in a range around the max known ID (Cricbuzz IDs increment by ~11 per match)
-  for (let offset = 0; offset <= 55; offset += 11) {
-    for (const delta of [offset, -offset]) {
-      const probeId = maxId + delta;
-      if (probeId <= 0) continue;
-      if (Object.values(allKnown).includes(probeId)) continue;
+  const map = loadCricbuzzMap();
+  let discovered = 0;
 
-      try {
-        const url = `https://www.cricbuzz.com/live-cricket-scorecard/${probeId}/match`;
-        const html = await fetchHTML(url);
-        if (!html || html.length < 1000) continue;
+  for (const ev of missing) {
+    // Extract team abbreviations from ESPN event name ("Delhi Capitals v Mumbai Indians")
+    const teams = ev.name.split(/\s+v\s+/i).map(t => t.trim());
+    if (teams.length !== 2) continue;
 
-        // Check if this page is for our match by looking for both team slugs in the URL/title
-        const titleMatch = html.match(/<title>([^<]+)<\/title>/);
-        const title = (titleMatch ? titleMatch[1] : '').toLowerCase();
+    const evSlugs = teams.map(t => {
+      for (const [full, abbr] of Object.entries(TEAM_SLUGS)) {
+        if (full.toLowerCase().startsWith(t.toLowerCase().split(' ')[0].toLowerCase())) return abbr;
+      }
+      return t.toLowerCase().split(' ')[0];
+    });
 
-        const matchesTeams = slugFragments.every(frag => title.includes(frag));
-        if (matchesTeams && title.includes('ipl')) {
-          console.log(`  Discovered Cricbuzz ID ${probeId} for "${eventName}"`);
-          const map = loadCricbuzzMap();
-          map[espnMatchId] = probeId;
-          saveCricbuzzMap(map);
-          return probeId;
-        }
-      } catch (e) {
-        // Probe failed, continue
+    // Find matching Cricbuzz fixture
+    for (const fix of fixtures) {
+      const matchesForward = fix.teams[0] === evSlugs[0] && fix.teams[1] === evSlugs[1];
+      const matchesReverse = fix.teams[0] === evSlugs[1] && fix.teams[1] === evSlugs[0];
+      if (matchesForward || matchesReverse) {
+        const espnMatchId = `espn_${ev.id}`;
+        map[espnMatchId] = fix.cricbuzzId;
+        console.log(`  Discovered: ${ev.name} → Cricbuzz ${fix.cricbuzzId} (${fix.slug})`);
+        discovered++;
+        break;
       }
     }
   }
 
-  console.log(`  Could not discover Cricbuzz ID for "${eventName}"`);
-  return null;
+  if (discovered > 0) {
+    saveCricbuzzMap(map);
+    console.log(`  Saved ${discovered} new Cricbuzz ID(s) to cricbuzz_map.json`);
+  }
 }
 
-module.exports = { fetchCricbuzzScorecard, getCricbuzzId, discoverCricbuzzId, parseScorecardHTML, parseMatchStatus, ESPN_TO_CRICBUZZ };
+module.exports = { fetchCricbuzzScorecard, getCricbuzzId, discoverCricbuzzIds, parseScorecardHTML, parseMatchStatus, ESPN_TO_CRICBUZZ };

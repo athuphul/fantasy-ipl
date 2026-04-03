@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const { fetchCricbuzzScorecard, getCricbuzzId, discoverCricbuzzId } = require('./cricbuzz-scraper');
+const { fetchCricbuzzScorecard, getCricbuzzId, discoverCricbuzzIds } = require('./cricbuzz-scraper');
 
 // --- Config ---
 const IPL_LEAGUE_ID = '8048';
@@ -959,7 +959,7 @@ function buildOutput(existing, teams, currentMatch) {
 function writeAndPush(output) {
   fs.writeFileSync(SCORES_FILE, JSON.stringify(output, null, 2));
   try {
-    execSync('git add data/scores.json data/match_scores data/fantasy_scores data/cricapi_timestamps', { cwd: path.join(__dirname, '..') });
+    execSync('git add data/scores.json data/match_scores data/fantasy_scores data/cricapi_timestamps data/cricbuzz_map.json', { cwd: path.join(__dirname, '..') });
     execSync('git diff --staged --quiet', { cwd: path.join(__dirname, '..'), stdio: 'pipe' });
     console.log('No changes to commit');
   } catch (e) {
@@ -1111,8 +1111,7 @@ async function main() {
         const staleIsComplete = statusState === 'post' || stale.status?.includes('won') || stale.status?.includes('tied');
 
         // Try Cricbuzz scorecard (authoritative dismissal text + correct fielding)
-        let cbId = getCricbuzzId(stale.matchId);
-        if (!cbId) cbId = await discoverCricbuzzId(stale.matchId, stale.name);
+        const cbId = getCricbuzzId(stale.matchId);
         let staleCbScorecard = null;
         if (cbId) {
           const cbResult = await fetchCricbuzzScorecard(cbId);
@@ -1200,6 +1199,10 @@ async function main() {
     console.log('No IPL events found on ESPN header.');
   }
 
+  // Discover Cricbuzz IDs for any ESPN events we don't have mapped yet.
+  // Scrapes the series fixtures page once — subsequent getCricbuzzId() calls are just map lookups.
+  await discoverCricbuzzIds(iplEvents);
+
   let currentMatch = null;
 
   // Process events from ESPN header
@@ -1248,8 +1251,7 @@ async function main() {
       const espnScorecard = extractFullScorecard(summary);
 
       // Try Cricbuzz scorecard (authoritative dismissal text + correct fielding)
-      let cbId = getCricbuzzId(matchId);
-      if (!cbId) cbId = await discoverCricbuzzId(matchId, event.name);
+      const cbId = getCricbuzzId(matchId);
       let cbScorecard = null;
       if (cbId) {
         const cbResult = await fetchCricbuzzScorecard(cbId);
