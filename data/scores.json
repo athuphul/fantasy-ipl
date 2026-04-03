@@ -1,142 +1,7 @@
 {
-  "lastUpdated": "2026-04-03T17:44:53.263Z",
+  "lastUpdated": "2026-04-03T17:54:53.278Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527680",
-    "name": "Chennai Super Kings v Punjab Kings",
-    "status": "Live",
-    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-    "score": [
-      {
-        "inning": "Chennai Super Kings",
-        "r": 209,
-        "w": 5,
-        "o": 20
-      },
-      {
-        "inning": "Punjab Kings",
-        "r": 186,
-        "w": 5,
-        "o": 17.1
-      }
-    ],
-    "playerScores": {
-      "Sanju Samson": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 8
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 30,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 30
-      },
-      "Ayush Mhatre": {
-        "batting": 104,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 104
-      },
-      "Shivam Dube": {
-        "batting": 57,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 57
-      },
-      "Kartik Sharma": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Sarfaraz Khan": {
-        "batting": 55,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 55
-      },
-      "Prashant Veer": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Matt Henry": {
-        "batting": 0,
-        "bowling": 40,
-        "fielding": 0,
-        "total": 40
-      },
-      "Khaleel Ahmed": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Priyansh Arya": {
-        "batting": 65,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 65
-      },
-      "Prabhsimran Singh": {
-        "batting": 51,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 51
-      },
-      "Shreyas Iyer": {
-        "batting": 75,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 75
-      },
-      "Nehal Wadhera": {
-        "batting": 12,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 12
-      },
-      "Shashank Singh": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Marcus Stoinis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Marco Jansen": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 37
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -150,8 +15,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 569,
-      "top11Points": 569
+      "totalPointsAll": 580,
+      "top11Points": 580
     },
     {
       "team": "Tanay",
@@ -175,8 +40,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 363,
-      "top11Points": 363
+      "totalPointsAll": 379,
+      "top11Points": 379
     },
     {
       "team": "Manav",
@@ -2561,7 +2426,7 @@
       "matchId": "espn_1527680",
       "name": "Chennai Super Kings v Punjab Kings",
       "date": "2026-04-03",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
@@ -2572,9 +2437,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 186,
+          "r": 210,
           "w": 5,
-          "o": 17.1
+          "o": 18.4
         }
       ],
       "scorecard": [
@@ -2701,9 +2566,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 186,
+          "runs": 210,
           "wickets": 5,
-          "overs": 17.1,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -2752,11 +2617,20 @@
             },
             {
               "name": "Shashank Singh",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 14,
+              "balls": 6,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 233.33,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Marcus Stoinis",
+              "runs": 9,
+              "balls": 3,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 300,
               "dismissal": "not out"
             }
           ],
@@ -2771,19 +2645,19 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 43,
               "wickets": 2,
-              "economy": 10.33
+              "economy": 11.72
             },
             {
               "name": "Matt Henry",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 42,
+              "runs": 54,
               "wickets": 2,
-              "economy": 13.26
+              "economy": 13.5
             },
             {
               "name": "Khaleel Ahmed",
@@ -2890,16 +2764,16 @@
           "total": 12
         },
         "Shashank Singh": {
-          "batting": 0,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 16
         },
         "Marcus Stoinis": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 11
         },
         "Marco Jansen": {
           "batting": 0,
@@ -2920,7 +2794,7 @@
           "total": 37
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -3350,8 +3224,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 363,
-      "top11Points": 363,
+      "totalPointsAll": 379,
+      "top11Points": 379,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3409,6 +3283,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shashank Singh",
+          "role": "Batsman",
+          "batting": 20,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 20,
+          "multiplier": 1,
+          "effectivePoints": 20,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 0,
@@ -3439,17 +3324,6 @@
           "rawPoints": 7,
           "multiplier": 1,
           "effectivePoints": 7,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shashank Singh",
-          "role": "Batsman",
-          "batting": 4,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 4,
-          "multiplier": 1,
-          "effectivePoints": 4,
           "countsInTop11": true
         },
         {
@@ -3488,8 +3362,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 569,
-      "top11Points": 569,
+      "totalPointsAll": 580,
+      "top11Points": 580,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -3580,6 +3454,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marcus Stoinis",
+          "role": "All-Rounder",
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 6,
+          "multiplier": 1,
+          "effectivePoints": 6,
+          "countsInTop11": true
+        },
+        {
           "name": "Abhishek Porel",
           "role": "Wicket Keeper",
           "batting": 0,
@@ -3599,17 +3484,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marcus Stoinis",
-          "role": "All-Rounder",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": true
         }
       ]
