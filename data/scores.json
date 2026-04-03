@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T15:34:53.536Z",
+  "lastUpdated": "2026-04-03T15:44:53.137Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 168,
-        "w": 4,
-        "o": 16.3
+        "r": 182,
+        "w": 5,
+        "o": 17.6
       }
     ],
     "playerScores": {
@@ -34,10 +34,10 @@
         "total": 104
       },
       "Shivam Dube": {
-        "batting": 14,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 24
       },
       "Kartik Sharma": {
         "batting": 1,
@@ -50,6 +50,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 55
+      },
+      "Prashant Veer": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -72,8 +78,8 @@
       "Nehal Wadhera": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -83,9 +89,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 20,
         "fielding": 0,
-        "total": 25
+        "total": 20
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -104,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 785,
-      "top11Points": 790
+      "totalPointsAll": 790,
+      "top11Points": 795
     },
     {
       "team": "Athu",
@@ -134,18 +140,18 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 400,
-      "top11Points": 400
+      "totalPointsAll": 408,
+      "top11Points": 408
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 340,
+      "top11Points": 340
     },
     {
       "team": "Manav",
       "totalPointsAll": 325,
       "top11Points": 335
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 334,
-      "top11Points": 334
     }
   ],
   "matchHistory": [
@@ -2530,17 +2536,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 168,
-          "w": 4,
-          "o": 16.3
+          "r": 182,
+          "w": 5,
+          "o": 17.6
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 168,
-          "wickets": 4,
-          "overs": 16.3,
+          "runs": 182,
+          "wickets": 5,
+          "overs": 17.6,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -2549,7 +2555,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "c Prabhsimran Singh b Xavier Bartlett"
+              "dismissal": "c"
             },
             {
               "name": "Ruturaj Gaikwad",
@@ -2558,7 +2564,7 @@
               "fours": 2,
               "sixes": 0,
               "sr": 127.27,
-              "dismissal": "c Nehal Wadhera b Yuzvendra Chahal"
+              "dismissal": "c"
             },
             {
               "name": "Ayush Mhatre",
@@ -2567,15 +2573,15 @@
               "fours": 6,
               "sixes": 5,
               "sr": 169.76,
-              "dismissal": "c Yuzvendra Chahal b Vijaykumar Vyshak"
+              "dismissal": "c"
             },
             {
               "name": "Shivam Dube",
-              "runs": 14,
-              "balls": 14,
+              "runs": 22,
+              "balls": 17,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 129.41,
               "dismissal": "not out"
             },
             {
@@ -2585,15 +2591,24 @@
               "fours": 0,
               "sixes": 0,
               "sr": 33.33,
-              "dismissal": "lbw b Marco Jansen"
+              "dismissal": "lbw"
             },
             {
               "name": "Sarfaraz Khan",
               "runs": 32,
-              "balls": 11,
+              "balls": 12,
               "fours": 6,
               "sixes": 1,
-              "sr": 290.9,
+              "sr": 266.66,
+              "dismissal": "c"
+            },
+            {
+              "name": "Prashant Veer",
+              "runs": 5,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "not out"
             }
           ],
@@ -2608,11 +2623,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 3.6,
               "maidens": 0,
-              "runs": 29,
+              "runs": 43,
               "wickets": 1,
-              "economy": 9.66
+              "economy": 10.75
             },
             {
               "name": "Xavier Bartlett",
@@ -2624,11 +2639,11 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
               "runs": 38,
-              "wickets": 1,
-              "economy": 10.85
+              "wickets": 2,
+              "economy": 9.5
             },
             {
               "name": "Arshdeep Singh",
@@ -2669,10 +2684,10 @@
           "total": 104
         },
         "Shivam Dube": {
-          "batting": 14,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 24
         },
         "Kartik Sharma": {
           "batting": 1,
@@ -2685,6 +2700,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 55
+        },
+        "Prashant Veer": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -2707,8 +2728,8 @@
         "Nehal Wadhera": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -2718,9 +2739,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "total": 25
+          "total": 20
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -3027,8 +3048,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 400,
-      "top11Points": 400,
+      "totalPointsAll": 408,
+      "top11Points": 408,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3101,10 +3122,10 @@
           "role": "Batsman",
           "batting": 3,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 11,
+          "fielding": 16,
+          "rawPoints": 19,
           "multiplier": 1,
-          "effectivePoints": 11,
+          "effectivePoints": 19,
           "countsInTop11": true
         },
         {
@@ -3165,8 +3186,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 334,
-      "top11Points": 334,
+      "totalPointsAll": 340,
+      "top11Points": 340,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3235,6 +3256,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prashant Veer",
+          "role": "All-Rounder",
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 6,
+          "multiplier": 1,
+          "effectivePoints": 6,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 0,
@@ -3254,17 +3286,6 @@
           "rawPoints": 4,
           "multiplier": 1,
           "effectivePoints": 4,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prashant Veer",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -3855,8 +3876,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 785,
-      "top11Points": 790,
+      "totalPointsAll": 790,
+      "top11Points": 795,
       "players": [
         {
           "name": "Rinku Singh",
@@ -3914,17 +3935,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 6,
-          "bowling": 70,
-          "fielding": 8,
-          "rawPoints": 84,
-          "multiplier": 1,
-          "effectivePoints": 84,
-          "countsInTop11": true
-        },
-        {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
           "batting": 76,
@@ -3936,6 +3946,28 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 6,
+          "bowling": 65,
+          "fielding": 8,
+          "rawPoints": 79,
+          "multiplier": 1,
+          "effectivePoints": 79,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 32,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 32,
+          "multiplier": 1,
+          "effectivePoints": 32,
+          "countsInTop11": true
+        },
+        {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 15,
@@ -3944,17 +3976,6 @@
           "rawPoints": 15,
           "multiplier": 2,
           "effectivePoints": 30,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 22,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 22,
-          "multiplier": 1,
-          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
