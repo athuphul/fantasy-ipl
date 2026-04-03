@@ -215,8 +215,6 @@ function processEspnSummary(summaryData, allPlayers) {
               // Batting: player batted in this period
               if (stats.batted && stats.batted >= 1) {
                 if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-                // Use stats.dismissal (reliable in ESPN stats array) over outDetails.dismissalCard
-                // (outDetails can be incomplete during live matches)
                 const actuallyDismissed = (stats.dismissal >= 1) || !!(inner.batting?.outDetails?.dismissalCard);
                 playerPoints[rosterName].batting += computeBattingPoints(stats, actuallyDismissed);
               }
@@ -227,14 +225,10 @@ function processEspnSummary(summaryData, allPlayers) {
                 playerPoints[rosterName].bowling += computeBowlingPoints(stats);
               }
 
-              // Fielding: catches and stumpings from ESPN (used as default).
-              // CricAPI overrides these when available (supplementFieldingFromCricApi).
+              // Fielding: catches and stumpings from fielding periods
               if (stats.fielded && stats.fielded >= 1 && stats.inningsFielded >= 1) {
-                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0, _espnCatchPts: 0 };
-                const catchPts = computeFieldingPoints(stats);
-                playerPoints[rosterName].fielding += catchPts;
-                if (!playerPoints[rosterName]._espnCatchPts) playerPoints[rosterName]._espnCatchPts = 0;
-                playerPoints[rosterName]._espnCatchPts += catchPts;
+                if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+                playerPoints[rosterName].fielding += computeFieldingPoints(stats);
               }
             }
           }
@@ -470,70 +464,63 @@ function findScheduleMatchForEvent(eventName, eventDate) {
   });
 }
 
-// Override ESPN catch/stumping points with CricAPI data (authoritative).
-// ESPN stats.caught is unreliable. CricAPI catching section has correct counts.
-// ESPN run out points (from outDetails) are preserved — only catch/stumping portion is replaced.
-async function supplementFieldingFromCricApi(playerScores, eventName, eventDate, allPlayers) {
-  const cleanup = () => {
-    for (const roster of Object.keys(playerScores)) delete playerScores[roster]._espnCatchPts;
-  };
-  if (CRICAPI_KEYS.length === 0) { cleanup(); return; }
+async function supplementRunOuts(playerScores, eventName, eventDate, allPlayers) {
+  if (CRICAPI_KEYS.length === 0) return;
 
   const scheduleMatch = findScheduleMatchForEvent(eventName, eventDate);
   if (!scheduleMatch) {
-    console.log('  CricAPI: could not find schedule match for fielding lookup');
-    cleanup(); return;
+    console.log('  CricAPI: could not find schedule match for run out lookup');
+    return;
   }
 
   const cricApiMatchId = findCricApiMatchId(scheduleMatch);
   if (!cricApiMatchId) {
     console.log('  CricAPI: no match ID found in api_generated_schedule_response.json');
-    cleanup(); return;
+    return;
   }
 
   try {
-    console.log(`  CricAPI: fetching scorecard ${cricApiMatchId} for fielding data`);
+    console.log(`  CricAPI: fetching scorecard ${cricApiMatchId} for run out data`);
     const result = await cricApiCall('match_scorecard', { id: cricApiMatchId });
     if (!result.data?.scorecard) {
       console.log('  CricAPI: no scorecard data available');
-      cleanup(); return;
+      return;
     }
 
-    // Step 1: Build CricAPI catch/stumping totals per player
-    const cricCatchPts = {};  // rosterName -> points from catches + stumpings
     for (const inning of result.data.scorecard) {
-      if (!inning.catching) continue;
-      for (const entry of inning.catching) {
-        const name = entry.fielder?.name;
-        if (!name) continue;
-        const roster = findPlayerInAllPlayers(name, allPlayers);
-        if (!roster) continue;
+      // Direct run outs from catching/fielding section
+      if (inning.catching) {
+        for (const catcher of inning.catching) {
+          const runouts = catcher.runout || 0;
+          if (runouts === 0) continue;
+          const name = catcher.fielder?.name;
+          if (!name) continue;
+          const roster = findPlayerInAllPlayers(name, allPlayers);
+          if (!roster) continue;
+          if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+          playerScores[roster].fielding += runouts * 10;
+          playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
+          console.log(`  CricAPI: +${runouts * 10} run out pts for ${roster} (direct)`);
+        }
+      }
 
-        const catches = entry.catch || 0;
-        const stumpings = entry.stumped || entry.stumping || 0;
-        const pts = (catches * 8) + (stumpings * 10);
-        cricCatchPts[roster] = (cricCatchPts[roster] || 0) + pts;
-        if (pts > 0) {
-          console.log(`  CricAPI fielding: ${roster} ${catches}c ${stumpings}st = ${pts} pts`);
+      // Run out assists from batting dismissals
+      if (inning.batting) {
+        for (const bat of inning.batting) {
+          if (bat.dismissal === 'runout' && bat.bowler?.name) {
+            const assister = findPlayerInAllPlayers(bat.bowler.name, allPlayers);
+            if (!assister) continue;
+            if (!playerScores[assister]) playerScores[assister] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+            playerScores[assister].fielding += 5;
+            playerScores[assister].total = playerScores[assister].batting + playerScores[assister].bowling + playerScores[assister].fielding;
+            console.log(`  CricAPI: +5 run out assist pts for ${assister}`);
+          }
         }
       }
     }
-
-    // Step 2: For each fantasy player, replace ESPN catch pts with CricAPI catch pts
-    for (const roster of Object.keys(playerScores)) {
-      const p = playerScores[roster];
-      const espnCatchPts = p._espnCatchPts || 0;
-      const cricPts = cricCatchPts[roster] || 0;
-      if (espnCatchPts !== cricPts) {
-        console.log(`  CricAPI fielding correction: ${roster} ESPN=${espnCatchPts} → CricAPI=${cricPts}`);
-        p.fielding = p.fielding - espnCatchPts + cricPts;
-        p.total = p.batting + p.bowling + p.fielding;
-      }
-    }
   } catch (err) {
-    console.log(`  CricAPI fielding fetch failed (non-fatal): ${err.message}`);
+    console.log(`  CricAPI run out fetch failed (non-fatal): ${err.message}`);
   }
-  cleanup();
 }
 
 function findPlayerInAllPlayers(apiName, allPlayers) {
@@ -943,7 +930,7 @@ async function main() {
         }
 
         // Supplement with CricAPI run out data
-        await supplementFieldingFromCricApi(playerScores, stale.name, stale.date, allPlayers);
+        await supplementRunOuts(playerScores, stale.name, stale.date, allPlayers);
 
         // Update the match entry
         stale.playerScores = playerScores;
@@ -980,7 +967,7 @@ async function main() {
       } catch (err) {
         console.log(`  ESPN re-fetch failed: ${err.message}`);
         // Fallback: just supplement run outs with CricAPI and mark complete
-        await supplementFieldingFromCricApi(stale.playerScores, stale.name, stale.date, allPlayers);
+        await supplementRunOuts(stale.playerScores, stale.name, stale.date, allPlayers);
         for (const key of Object.keys(stale.playerScores)) {
           const p = stale.playerScores[key];
           p.total = p.batting + p.bowling + p.fielding;
@@ -1079,7 +1066,7 @@ async function main() {
 
       // Supplement with CricAPI run out data (if API keys available)
       const eventDate = event.date ? event.date.slice(0, 10) : getTodayIST();
-      await supplementFieldingFromCricApi(playerScores, event.name, eventDate, allPlayers);
+      await supplementRunOuts(playerScores, event.name, eventDate, allPlayers);
 
       const statusDetail = event.fullStatus?.type?.detail || event.status;
       const score = extractMatchInfo(summary);
