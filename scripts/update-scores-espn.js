@@ -215,7 +215,7 @@ function processEspnSummary(summaryData, allPlayers) {
               // Batting: player batted in this period
               if (stats.batted && stats.batted >= 1) {
                 if (!playerPoints[rosterName]) playerPoints[rosterName] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
-                const actuallyDismissed = (stats.dismissal >= 1) || !!(inner.batting?.outDetails?.dismissalCard);
+                const actuallyDismissed = (stats.outs >= 1) || !!(inner.batting?.outDetails?.dismissalCard);
                 playerPoints[rosterName].batting += computeBattingPoints(stats, actuallyDismissed);
               }
 
@@ -592,6 +592,169 @@ function convertCricApiScorecard(cricData) {
   return innings;
 }
 
+// Match a raw scorecard name to a roster name using fuzzy matching.
+function findRosterName(rawName, allPlayers) {
+  const name = rawName.replace(/^\(sub\)/, '').trim();
+  // Exact match
+  for (const p of allPlayers) {
+    if (p.name === name) return p.name;
+  }
+  const parts = name.split(' ');
+  const lastName = parts[parts.length - 1];
+  const firstName = parts[0];
+  // Last name exact + first initial match
+  for (const p of allPlayers) {
+    const pp = p.name.split(' ');
+    if (pp[pp.length - 1] === lastName && pp[0][0] === firstName[0]) return p.name;
+    if (pp[pp.length - 1] === lastName && parts.length === 1) return p.name;
+  }
+  // Fuzzy: strip vowels from last name, match first initial
+  // Handles spelling variants like "Chakaravarthy" vs "Chakravarthy"
+  const stripVowels = s => s.toLowerCase().replace(/[aeiou]/g, '');
+  const lastStripped = stripVowels(lastName);
+  for (const p of allPlayers) {
+    const pp = p.name.split(' ');
+    if (stripVowels(pp[pp.length - 1]) === lastStripped && pp[0][0] === firstName[0]) return p.name;
+  }
+  return null;
+}
+
+// Normalize scorecard batting/bowling names to match roster names.
+// This ensures frontend lookups (fantasyMap[b.name]) work even when
+// CricAPI spells a name differently (e.g. "Chakaravarthy" vs "Chakravarthy").
+function normalizeScorecardNames(scorecard, allPlayers) {
+  if (!scorecard || !allPlayers) return;
+  for (const inn of scorecard) {
+    for (const b of (inn.batting || [])) {
+      const roster = findRosterName(b.name, allPlayers);
+      if (roster && roster !== b.name) {
+        b.name = roster;
+      }
+    }
+    for (const b of (inn.bowling || [])) {
+      const roster = findRosterName(b.name, allPlayers);
+      if (roster && roster !== b.name) {
+        b.name = roster;
+      }
+    }
+  }
+}
+
+// Sync scorecard innings totals (runs/wickets/overs) with authoritative match score.
+// CricAPI scorecard totals can be wrong (missing extras etc). The score from
+// extractMatchInfo (ESPN header) is always correct.
+function syncScorecardTotals(scorecard, score) {
+  if (!scorecard || !score) return;
+  for (const inn of scorecard) {
+    const match = score.find(s => {
+      const sTeam = (s.inning || '').toLowerCase();
+      const scTeam = (inn.innings || '').toLowerCase();
+      return sTeam === scTeam || sTeam.includes(scTeam) || scTeam.includes(sTeam);
+    });
+    if (match) {
+      inn.runs = match.r;
+      inn.wickets = match.w;
+      inn.overs = match.o;
+    }
+  }
+}
+
+// Count catches per fielder from scorecard dismissal text and correct fielding points.
+// Dismissal text like "c Ishan Kishan b Tyagi" → 1 catch for Ishan Kishan.
+// This is more reliable than ESPN stats.caught which can be wrong.
+function correctFieldingFromScorecard(scorecard, playerScores, allPlayers) {
+  if (!scorecard || !playerScores) return;
+
+  // Count catches and stumpings from dismissal text
+  const catchCount = {};   // fielderName -> count
+  const stumpCount = {};   // keeperName -> count
+  for (const inn of scorecard) {
+    for (const bat of (inn.batting || [])) {
+      const d = bat.dismissal || '';
+      // "c Fielder Name b Bowler" or "c & b Bowler"
+      let cMatch = d.match(/^c\s+(.+?)\s+b\s+/);
+      if (cMatch) {
+        const fielder = cMatch[1].trim();
+        if (fielder !== '&') {  // skip "c & b" (caught and bowled = bowler catches own ball, not a fielding catch for points... actually it IS a catch)
+          catchCount[fielder] = (catchCount[fielder] || 0) + 1;
+        } else {
+          // c & b means the bowler caught it — extract bowler name
+          const cbMatch = d.match(/^c & b\s+(.+)/);
+          if (cbMatch) {
+            const bowler = cbMatch[1].trim();
+            catchCount[bowler] = (catchCount[bowler] || 0) + 1;
+          }
+        }
+      }
+      // "c (sub)Name b Bowler"
+      if (!cMatch) {
+        cMatch = d.match(/^c\s+\(sub\)(.+?)\s+b\s+/);
+        if (cMatch) {
+          const fielder = cMatch[1].trim();
+          catchCount[fielder] = (catchCount[fielder] || 0) + 1;
+        }
+      }
+      // "st Keeper b Bowler"
+      const stMatch = d.match(/^st\s+(.+?)\s+b\s+/);
+      if (stMatch) {
+        const keeper = stMatch[1].trim();
+        stumpCount[keeper] = (stumpCount[keeper] || 0) + 1;
+      }
+    }
+  }
+
+  const findRoster = (rawName) => findRosterName(rawName, allPlayers);
+
+  const scorecardFielding = {};  // rosterName -> catch/stumping points
+  for (const [name, count] of Object.entries(catchCount)) {
+    const roster = findRoster(name);
+    if (roster && playerScores[roster]) {
+      scorecardFielding[roster] = (scorecardFielding[roster] || 0) + (count * 8);
+    }
+  }
+  for (const [name, count] of Object.entries(stumpCount)) {
+    const roster = findRoster(name);
+    if (roster && playerScores[roster]) {
+      scorecardFielding[roster] = (scorecardFielding[roster] || 0) + (count * 10);
+    }
+  }
+
+  // Count run outs from scorecard dismissal text
+  const runOutCredits = {};
+  for (const inn of scorecard) {
+    for (const bat of (inn.batting || [])) {
+      const d = bat.dismissal || '';
+      const roMatch = d.match(/^run out\s*\((.+?)\)/);
+      if (roMatch) {
+        const fielders = roMatch[1].split('/').map(f => f.trim());
+        if (fielders[0]) {
+          const roster = findRoster(fielders[0]);
+          if (roster && playerScores[roster]) {
+            runOutCredits[roster] = (runOutCredits[roster] || 0) + 10;
+          }
+        }
+        if (fielders[1]) {
+          const roster = findRoster(fielders[1]);
+          if (roster && playerScores[roster]) {
+            runOutCredits[roster] = (runOutCredits[roster] || 0) + 5;
+          }
+        }
+      }
+    }
+  }
+
+  // Now set fielding = scorecard catches + scorecard stumpings + scorecard run outs
+  for (const roster of Object.keys(playerScores)) {
+    const p = playerScores[roster];
+    const newFielding = (scorecardFielding[roster] || 0) + (runOutCredits[roster] || 0);
+    if (newFielding !== p.fielding) {
+      console.log(`  Scorecard fielding: ${roster}: ${p.fielding} → ${newFielding}`);
+      p.fielding = newFielding;
+      p.total = p.batting + p.bowling + p.fielding;
+    }
+  }
+}
+
 // Merge CricAPI and ESPN scorecards for live matches.
 // CricAPI has both innings with proper dismissal text but can be 10 min stale.
 // ESPN may only have the current innings but with more recent figures.
@@ -955,6 +1118,10 @@ async function main() {
           stale.scorecard = staleCricScorecard && staleCricScorecard.length > 0 ? staleCricScorecard : staleEspnScorecard;
         }
 
+        normalizeScorecardNames(stale.scorecard, allPlayers);
+        syncScorecardTotals(stale.scorecard, score);
+        correctFieldingFromScorecard(stale.scorecard, playerScores, allPlayers);
+
         if (staleIsComplete) {
           stale.isComplete = true;
           saveFantasyScores(stale.matchId, playerScores);
@@ -1092,6 +1259,10 @@ async function main() {
         scorecard = espnScorecard;
         console.log(`  Using ESPN scorecard (${espnScorecard.length} innings)`);
       }
+
+      normalizeScorecardNames(scorecard, allPlayers);
+      syncScorecardTotals(scorecard, score);
+      correctFieldingFromScorecard(scorecard, playerScores, allPlayers);
 
       const matchEntry = {
         matchId,
