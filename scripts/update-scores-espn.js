@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const { fetchCricbuzzScorecard, getCricbuzzId, discoverCricbuzzId } = require('./cricbuzz-scraper');
 
 // --- Config ---
 const IPL_LEAGUE_ID = '8048';
@@ -1106,16 +1107,20 @@ async function main() {
         const statusState = summary.header?.competitions?.[0]?.status?.type?.state;
         const staleIsComplete = statusState === 'post' || stale.status?.includes('won') || stale.status?.includes('tied');
 
-        // Try CricAPI scorecard for better dismissal text
-        const staleCricScorecard = await fetchCricApiScorecard(stale.name, stale.date, stale.matchId, staleIsComplete);
-        if (staleIsComplete && staleCricScorecard && staleCricScorecard.length > 0) {
-          stale.scorecard = staleCricScorecard;
-          console.log(`  Using CricAPI scorecard for stale match`);
-        } else if (staleCricScorecard && staleCricScorecard.length > 0 && staleEspnScorecard.length > 0) {
-          stale.scorecard = mergeScorecards(staleCricScorecard, staleEspnScorecard, score);
-          console.log(`  Merged scorecard for stale match`);
+        // Try Cricbuzz scorecard (authoritative dismissal text + correct fielding)
+        let cbId = getCricbuzzId(stale.matchId);
+        if (!cbId) cbId = await discoverCricbuzzId(stale.matchId, stale.name);
+        let staleCbScorecard = null;
+        if (cbId) {
+          const cbResult = await fetchCricbuzzScorecard(cbId);
+          if (cbResult) staleCbScorecard = cbResult.scorecard;
+        }
+        if (staleCbScorecard && staleCbScorecard.length > 0) {
+          stale.scorecard = staleCbScorecard;
+          console.log(`  Using Cricbuzz scorecard for stale match`);
         } else {
-          stale.scorecard = staleCricScorecard && staleCricScorecard.length > 0 ? staleCricScorecard : staleEspnScorecard;
+          stale.scorecard = staleEspnScorecard;
+          console.log(`  Falling back to ESPN scorecard`);
         }
 
         normalizeScorecardNames(stale.scorecard, allPlayers);
@@ -1239,22 +1244,18 @@ async function main() {
       const score = extractMatchInfo(summary);
       const espnScorecard = extractFullScorecard(summary);
 
-      // Try CricAPI scorecard for better dismissal text
-      const cricScorecard = await fetchCricApiScorecard(event.name, eventDate, matchId, isComplete);
-
-      // Merge: CricAPI has proper dismissals and both innings, ESPN has latest live data
+      // Try Cricbuzz scorecard (authoritative dismissal text + correct fielding)
+      let cbId = getCricbuzzId(matchId);
+      if (!cbId) cbId = await discoverCricbuzzId(matchId, event.name);
+      let cbScorecard = null;
+      if (cbId) {
+        const cbResult = await fetchCricbuzzScorecard(cbId);
+        if (cbResult) cbScorecard = cbResult.scorecard;
+      }
       let scorecard;
-      if (isComplete && cricScorecard && cricScorecard.length > 0) {
-        // Completed match: CricAPI is authoritative
-        scorecard = cricScorecard;
-        console.log(`  Using CricAPI scorecard (${cricScorecard.length} innings)`);
-      } else if (cricScorecard && cricScorecard.length > 0 && espnScorecard.length > 0) {
-        // Live match: merge CricAPI (complete innings) with ESPN (current innings)
-        scorecard = mergeScorecards(cricScorecard, espnScorecard, score);
-        console.log(`  Merged scorecard: CricAPI(${cricScorecard.length} inn) + ESPN(${espnScorecard.length} inn) = ${scorecard.length} inn`);
-      } else if (cricScorecard && cricScorecard.length > 0) {
-        scorecard = cricScorecard;
-        console.log(`  Using CricAPI scorecard (${cricScorecard.length} innings)`);
+      if (cbScorecard && cbScorecard.length > 0) {
+        scorecard = cbScorecard;
+        console.log(`  Using Cricbuzz scorecard (${cbScorecard.length} innings)`);
       } else {
         scorecard = espnScorecard;
         console.log(`  Using ESPN scorecard (${espnScorecard.length} innings)`);
