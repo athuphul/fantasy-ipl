@@ -603,19 +603,22 @@ function findRosterName(rawName, allPlayers) {
   const parts = name.split(' ');
   const lastName = parts[parts.length - 1];
   const firstName = parts[0];
-  // Last name exact + first initial match
+  // Last name exact + first-name prefix match (min 3 chars to avoid
+  // "Rinku Singh" matching "Ramandeep Singh" on initial "R" alone)
+  const minPrefix = Math.min(3, firstName.length);
+  const firstPrefix = firstName.slice(0, minPrefix).toLowerCase();
   for (const p of allPlayers) {
     const pp = p.name.split(' ');
-    if (pp[pp.length - 1] === lastName && pp[0][0] === firstName[0]) return p.name;
+    if (pp[pp.length - 1] === lastName && pp[0].slice(0, minPrefix).toLowerCase() === firstPrefix) return p.name;
     if (pp[pp.length - 1] === lastName && parts.length === 1) return p.name;
   }
-  // Fuzzy: strip vowels from last name, match first initial
+  // Fuzzy: strip vowels from last name, match first-name prefix
   // Handles spelling variants like "Chakaravarthy" vs "Chakravarthy"
   const stripVowels = s => s.toLowerCase().replace(/[aeiou]/g, '');
   const lastStripped = stripVowels(lastName);
   for (const p of allPlayers) {
     const pp = p.name.split(' ');
-    if (stripVowels(pp[pp.length - 1]) === lastStripped && pp[0][0] === firstName[0]) return p.name;
+    if (stripVowels(pp[pp.length - 1]) === lastStripped && pp[0].slice(0, minPrefix).toLowerCase() === firstPrefix) return p.name;
   }
   return null;
 }
