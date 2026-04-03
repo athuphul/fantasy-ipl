@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:14:54.717Z",
+  "lastUpdated": "2026-04-03T16:24:53.894Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527680",
@@ -12,6 +12,12 @@
         "r": 209,
         "w": 5,
         "o": 20
+      },
+      {
+        "inning": "Punjab Kings",
+        "r": 29,
+        "w": 0,
+        "o": 1.4
       }
     ],
     "playerScores": {
@@ -57,13 +63,37 @@
         "fielding": 0,
         "total": 7
       },
-      "Shreyas Iyer": {
+      "Noor Ahmad": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
+      "Matt Henry": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Khaleel Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Priyansh Arya": {
+        "batting": 33,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 33
+      },
       "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shreyas Iyer": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -104,12 +134,6 @@
         "bowling": 37,
         "fielding": 0,
         "total": 37
-      },
-      "Priyansh Arya": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       }
     }
   },
@@ -150,14 +174,14 @@
       "top11Points": 362
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 331,
+      "top11Points": 331
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 293,
       "top11Points": 318
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 298,
-      "top11Points": 298
     }
   ],
   "matchHistory": [
@@ -2545,6 +2569,12 @@
           "r": 209,
           "w": 5,
           "o": 20
+        },
+        {
+          "inning": "Punjab Kings",
+          "r": 29,
+          "w": 0,
+          "o": 1.4
         }
       ],
       "scorecard": [
@@ -2668,6 +2698,50 @@
               "economy": 7
             }
           ]
+        },
+        {
+          "innings": "Punjab Kings",
+          "runs": 29,
+          "wickets": 0,
+          "overs": 1.4,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 26,
+              "balls": 7,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 371.42,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Matt Henry",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 22.5
+            },
+            {
+              "name": "Khaleel Ahmed",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 14
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -2713,13 +2787,37 @@
           "fielding": 0,
           "total": 7
         },
-        "Shreyas Iyer": {
+        "Noor Ahmad": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
+        "Matt Henry": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Khaleel Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Priyansh Arya": {
+          "batting": 33,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 33
+        },
         "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shreyas Iyer": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -2760,12 +2858,6 @@
           "bowling": 37,
           "fielding": 0,
           "total": 37
-        },
-        "Priyansh Arya": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         }
       },
       "isComplete": false
@@ -3198,8 +3290,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 298,
-      "top11Points": 298,
+      "totalPointsAll": 331,
+      "top11Points": 331,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3235,6 +3327,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Priyansh Arya",
+          "role": "Opener",
+          "batting": 42,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 42,
+          "multiplier": 1,
+          "effectivePoints": 42,
+          "countsInTop11": true
+        },
+        {
           "name": "Abdul Samad",
           "role": "All-Rounder",
           "batting": 41,
@@ -3254,17 +3357,6 @@
           "rawPoints": 10,
           "multiplier": 1,
           "effectivePoints": 10,
-          "countsInTop11": true
-        },
-        {
-          "name": "Priyansh Arya",
-          "role": "Opener",
-          "batting": 9,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 9,
-          "multiplier": 1,
-          "effectivePoints": 9,
           "countsInTop11": true
         },
         {
