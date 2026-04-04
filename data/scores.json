@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T10:25:07.594Z",
+  "lastUpdated": "2026-04-04T10:35:05.534Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 32,
+        "r": 52,
         "w": 2,
-        "o": 4.5
+        "o": 6.6
       }
     ],
     "playerScores": {
@@ -70,10 +70,10 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": 14,
+        "batting": 38,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 38
       },
       "Tilak Varma": {
         "batting": -5,
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Suryakumar Yadav": {
-        "batting": 12,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 17
       }
     }
   },
@@ -97,8 +97,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 684,
-      "top11Points": 709
+      "totalPointsAll": 694,
+      "top11Points": 719
     },
     {
       "team": "Kishan",
@@ -107,8 +107,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 592,
-      "top11Points": 592
+      "totalPointsAll": 628,
+      "top11Points": 628
     },
     {
       "team": "Ritik",
@@ -2880,17 +2880,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 32,
+          "r": 52,
           "w": 2,
-          "o": 4.5
+          "o": 6.6
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 32,
+          "runs": 52,
           "wickets": 2,
-          "overs": 4.5,
+          "overs": 6.6,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -2903,40 +2903,31 @@
             },
             {
               "name": "Rohit Sharma",
-              "runs": 12,
-              "balls": 9,
+              "runs": 9,
+              "balls": 4,
               "fours": 2,
               "sixes": 0,
-              "sr": 133.33,
+              "sr": 225,
               "dismissal": "batting"
             },
             {
               "name": "Tilak Varma",
               "runs": 0,
-              "balls": 2,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "c and b Mukesh Kumar"
-            },
-            {
-              "name": "Suryakumar Yadav",
-              "runs": 10,
-              "balls": 8,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 125,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Kumar",
-              "overs": 2,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 2,
-              "economy": 6
+              "runs": 8,
+              "wickets": 1,
+              "economy": 4.8
             },
             {
               "name": "Lungi Ngidi",
@@ -2945,22 +2936,6 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
-            },
-            {
-              "name": "Axar Patel",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 3,
-              "wickets": 0,
-              "economy": 3
-            },
-            {
-              "name": "Vipraj Nigam",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 7,
-              "wickets": 0,
-              "economy": 7
             }
           ]
         }
@@ -3021,10 +2996,10 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": 14,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 38
         },
         "Tilak Varma": {
           "batting": -5,
@@ -3033,10 +3008,10 @@
           "total": -5
         },
         "Suryakumar Yadav": {
-          "batting": 12,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 17
         }
       },
       "isComplete": false
@@ -3044,8 +3019,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 684,
-      "top11Points": 709,
+      "totalPointsAll": 694,
+      "top11Points": 719,
       "players": [
         {
           "name": "Finn Allen",
@@ -3094,12 +3069,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 31,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 31,
+          "rawPoints": 36,
           "multiplier": 2,
-          "effectivePoints": 62,
+          "effectivePoints": 72,
           "countsInTop11": true
         },
         {
@@ -4021,18 +3996,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 592,
-      "top11Points": 592,
+      "totalPointsAll": 628,
+      "top11Points": 628,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 135,
+          "batting": 159,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 135,
+          "rawPoints": 159,
           "multiplier": 1.5,
-          "effectivePoints": 203,
+          "effectivePoints": 239,
           "countsInTop11": true
         },
         {
