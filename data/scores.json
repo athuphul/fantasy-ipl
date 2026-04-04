@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T14:55:06.234Z",
+  "lastUpdated": "2026-04-04T15:04:53.422Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 107,
-        "w": 1,
-        "o": 11
+        "r": 126,
+        "w": 2,
+        "o": 12.3
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Prasidh Krishna": {
         "batting": 0,
@@ -76,10 +76,10 @@
         "total": 0
       },
       "Yashasvi Jaiswal": {
-        "batting": 62,
+        "batting": 82,
         "bowling": 0,
         "fielding": 0,
-        "total": 62
+        "total": 82
       },
       "Vaibhav Sooryavanshi": {
         "batting": 43,
@@ -88,10 +88,10 @@
         "total": 43
       },
       "Dhruv Jurel": {
-        "batting": 24,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 24
+        "total": 37
       }
     }
   },
@@ -103,13 +103,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 796,
-      "top11Points": 821
+      "totalPointsAll": 816,
+      "top11Points": 841
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 686,
-      "top11Points": 686
+      "totalPointsAll": 706,
+      "top11Points": 706
     },
     {
       "team": "Tanay",
@@ -133,8 +133,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 499,
-      "top11Points": 509
+      "totalPointsAll": 512,
+      "top11Points": 522
     },
     {
       "team": "Ashwin",
@@ -3262,25 +3262,25 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 107,
-          "w": 1,
-          "o": 11
+          "r": 126,
+          "w": 2,
+          "o": 12.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 107,
-          "wickets": 1,
-          "overs": 11,
+          "runs": 126,
+          "wickets": 2,
+          "overs": 12.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 47,
-              "balls": 29,
+              "runs": 45,
+              "balls": 28,
               "fours": 4,
               "sixes": 3,
-              "sr": 162.07,
+              "sr": 160.71,
               "dismissal": "batting"
             },
             {
@@ -3295,10 +3295,10 @@
             {
               "name": "Dhruv Jurel",
               "runs": 6,
-              "balls": 8,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 75,
+              "sr": 85.71,
               "dismissal": "batting"
             }
           ],
@@ -3321,11 +3321,11 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 1.1,
+              "overs": 1,
               "maidens": 0,
               "runs": 13,
               "wickets": 0,
-              "economy": 11.14
+              "economy": 13
             },
             {
               "name": "Prasidh Krishna",
@@ -3337,11 +3337,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 2,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 17,
+              "runs": 15,
               "wickets": 1,
-              "economy": 8.5
+              "economy": 8.18
             }
           ]
         }
@@ -3397,9 +3397,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Prasidh Krishna": {
           "batting": 0,
@@ -3408,10 +3408,10 @@
           "total": 0
         },
         "Yashasvi Jaiswal": {
-          "batting": 62,
+          "batting": 82,
           "bowling": 0,
           "fielding": 0,
-          "total": 62
+          "total": 82
         },
         "Vaibhav Sooryavanshi": {
           "batting": 43,
@@ -3420,10 +3420,10 @@
           "total": 43
         },
         "Dhruv Jurel": {
-          "batting": 24,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 24
+          "total": 37
         }
       },
       "isComplete": false
@@ -3431,8 +3431,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 796,
-      "top11Points": 821,
+      "totalPointsAll": 816,
+      "top11Points": 841,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -3526,11 +3526,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 20,
+          "bowling": 40,
           "fielding": 0,
-          "rawPoints": 20,
+          "rawPoints": 40,
           "multiplier": 1,
-          "effectivePoints": 20,
+          "effectivePoints": 40,
           "countsInTop11": true
         },
         {
@@ -3580,8 +3580,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 686,
-      "top11Points": 686,
+      "totalPointsAll": 706,
+      "top11Points": 706,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -3597,12 +3597,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 105,
+          "batting": 125,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 113,
+          "rawPoints": 133,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 133,
           "countsInTop11": true
         },
         {
@@ -4121,8 +4121,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 499,
-      "top11Points": 509,
+      "totalPointsAll": 512,
+      "top11Points": 522,
       "players": [
         {
           "name": "Axar Patel",
@@ -4149,12 +4149,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 46,
+          "batting": 59,
           "bowling": 0,
           "fielding": 21,
-          "rawPoints": 67,
+          "rawPoints": 80,
           "multiplier": 1,
-          "effectivePoints": 67,
+          "effectivePoints": 80,
           "countsInTop11": true
         },
         {
