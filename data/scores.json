@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:04:53.422Z",
+  "lastUpdated": "2026-04-04T15:14:56.495Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 126,
-        "w": 2,
-        "o": 12.3
+        "r": 148,
+        "w": 3,
+        "o": 14
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Yashasvi Jaiswal": {
         "batting": 82,
@@ -88,18 +88,30 @@
         "total": 43
       },
       "Dhruv Jurel": {
-        "batting": 37,
+        "batting": 38,
         "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 38
+      },
+      "Riyan Parag": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
+      },
+      "Shimron Hetmyer": {
+        "batting": 16,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 16
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 984,
-      "top11Points": 969
+      "totalPointsAll": 1004,
+      "top11Points": 989
     },
     {
       "team": "Athu",
@@ -123,8 +135,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 593,
-      "top11Points": 593
+      "totalPointsAll": 613,
+      "top11Points": 613
     },
     {
       "team": "Ali",
@@ -133,13 +145,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 512,
-      "top11Points": 522
+      "totalPointsAll": 513,
+      "top11Points": 523
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 427,
-      "top11Points": 427
+      "totalPointsAll": 443,
+      "top11Points": 443
     }
   ],
   "matchHistory": [
@@ -3262,25 +3274,25 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 126,
-          "w": 2,
-          "o": 12.3
+          "r": 148,
+          "w": 3,
+          "o": 14
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 126,
-          "wickets": 2,
-          "overs": 12.3,
+          "runs": 148,
+          "wickets": 3,
+          "overs": 14,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 45,
-              "balls": 28,
-              "fours": 4,
+              "runs": 52,
+              "balls": 33,
+              "fours": 5,
               "sixes": 3,
-              "sr": 160.71,
+              "sr": 157.58,
               "dismissal": "batting"
             },
             {
@@ -3294,22 +3306,22 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 6,
-              "balls": 7,
-              "fours": 0,
+              "runs": 21,
+              "balls": 18,
+              "fours": 3,
               "sixes": 0,
-              "sr": 85.71,
+              "sr": 116.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 25,
+              "runs": 30,
               "wickets": 0,
-              "economy": 12.5
+              "economy": 12
             },
             {
               "name": "Kagiso Rabada",
@@ -3321,11 +3333,11 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 18,
               "wickets": 0,
-              "economy": 13
+              "economy": 9
             },
             {
               "name": "Prasidh Krishna",
@@ -3337,11 +3349,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 1.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
+              "runs": 27,
               "wickets": 1,
-              "economy": 8.18
+              "economy": 9
             }
           ]
         }
@@ -3403,9 +3415,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Yashasvi Jaiswal": {
           "batting": 82,
@@ -3420,10 +3432,22 @@
           "total": 43
         },
         "Dhruv Jurel": {
-          "batting": 37,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 38
+        },
+        "Riyan Parag": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
+        },
+        "Shimron Hetmyer": {
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 16
         }
       },
       "isComplete": false
@@ -3856,8 +3880,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 427,
-      "top11Points": 427,
+      "totalPointsAll": 443,
+      "top11Points": 443,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3915,6 +3939,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 10,
+          "rawPoints": 26,
+          "multiplier": 1,
+          "effectivePoints": 26,
+          "countsInTop11": true
+        },
+        {
           "name": "Shashank Singh",
           "role": "Batsman",
           "batting": 20,
@@ -3934,17 +3969,6 @@
           "rawPoints": 16,
           "multiplier": 1,
           "effectivePoints": 16,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 10,
-          "rawPoints": 10,
-          "multiplier": 1,
-          "effectivePoints": 10,
           "countsInTop11": true
         },
         {
@@ -4121,8 +4145,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 512,
-      "top11Points": 522,
+      "totalPointsAll": 513,
+      "top11Points": 523,
       "players": [
         {
           "name": "Axar Patel",
@@ -4149,12 +4173,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 59,
+          "batting": 60,
           "bowling": 0,
           "fielding": 21,
-          "rawPoints": 80,
+          "rawPoints": 81,
           "multiplier": 1,
-          "effectivePoints": 80,
+          "effectivePoints": 81,
           "countsInTop11": true
         },
         {
@@ -4281,8 +4305,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 593,
-      "top11Points": 593,
+      "totalPointsAll": 613,
+      "top11Points": 613,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -4342,12 +4366,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 17,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 17,
+          "rawPoints": 27,
           "multiplier": 2,
-          "effectivePoints": 34,
+          "effectivePoints": 54,
           "countsInTop11": true
         },
         {
@@ -4546,8 +4570,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 984,
-      "top11Points": 969,
+      "totalPointsAll": 1004,
+      "top11Points": 989,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4572,6 +4596,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prasidh Krishna",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 110,
+          "fielding": 8,
+          "rawPoints": 118,
+          "multiplier": 1,
+          "effectivePoints": 118,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4591,17 +4626,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prasidh Krishna",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 90,
-          "fielding": 8,
-          "rawPoints": 98,
-          "multiplier": 1,
-          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
