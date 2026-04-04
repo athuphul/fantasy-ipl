@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T13:05:08.467Z",
+  "lastUpdated": "2026-04-04T13:14:54.080Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 112,
+        "r": 138,
         "w": 3,
-        "o": 13.1
+        "o": 14.6
       },
       {
         "inning": "Mumbai Indians",
@@ -34,16 +34,16 @@
         "total": 3
       },
       "Sameer Rizvi": {
-        "batting": 93,
+        "batting": 127,
         "bowling": 0,
         "fielding": 0,
-        "total": 93
+        "total": 127
       },
       "David Miller": {
-        "batting": 1,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 2
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -107,15 +107,15 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 45,
+        "bowling": 37,
         "fielding": 0,
-        "total": 45
+        "total": 37
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -126,15 +126,15 @@
       "Mayank Markande": {
         "batting": 0,
         "bowling": -5,
-        "fielding": 0,
-        "total": -5
+        "fielding": 8,
+        "total": 3
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 917,
+      "totalPointsAll": 918,
       "top11Points": 905
     },
     {
@@ -144,18 +144,18 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 659,
-      "top11Points": 664
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 623,
-      "top11Points": 623
+      "totalPointsAll": 667,
+      "top11Points": 667
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 578,
-      "top11Points": 578
+      "totalPointsAll": 612,
+      "top11Points": 612
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 608,
+      "top11Points": 608
     },
     {
       "team": "Ritik",
@@ -169,8 +169,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 475,
-      "top11Points": 485
+      "totalPointsAll": 467,
+      "top11Points": 477
     },
     {
       "team": "Ashwin",
@@ -2922,9 +2922,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 112,
+          "r": 138,
           "w": 3,
-          "o": 13.1
+          "o": 14.6
         },
         {
           "inning": "Mumbai Indians",
@@ -3066,9 +3066,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 112,
+          "runs": 138,
           "wickets": 3,
-          "overs": 13.1,
+          "overs": 14.6,
           "batting": [
             {
               "name": "KL Rahul",
@@ -3081,12 +3081,12 @@
             },
             {
               "name": "Pathum Nissanka",
-              "runs": 43,
-              "balls": 28,
+              "runs": 44,
+              "balls": 30,
               "fours": 6,
               "sixes": 1,
-              "sr": 153.57,
-              "dismissal": "batting"
+              "sr": 146.67,
+              "dismissal": "c Mayank Markande b Mitchell Santner"
             },
             {
               "name": "Nitish Rana",
@@ -3099,62 +3099,71 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 19,
-              "balls": 20,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 95,
+              "runs": 87,
+              "balls": 48,
+              "fours": 7,
+              "sixes": 7,
+              "sr": 181.25,
+              "dismissal": "batting"
+            },
+            {
+              "name": "David Miller",
+              "runs": 2,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 7,
+              "runs": 20,
               "wickets": 1,
-              "economy": 3.5
+              "economy": 6.67
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 9,
+              "runs": 10,
               "wickets": 0,
-              "economy": 4.5
+              "economy": 3.33
             },
             {
               "name": "Mitchell Santner",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 7.5
+              "runs": 22,
+              "wickets": 1,
+              "economy": 7.33
             },
             {
               "name": "Shardul Thakur",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 33,
               "wickets": 0,
-              "economy": 16
+              "economy": 16.5
             },
             {
               "name": "Mayank Markande",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 20,
               "wickets": 0,
-              "economy": 6
+              "economy": 10
             },
             {
               "name": "Corbin Bosch",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 32,
               "wickets": 0,
-              "economy": 12
+              "economy": 16
             }
           ]
         }
@@ -3173,16 +3182,16 @@
           "total": 3
         },
         "Sameer Rizvi": {
-          "batting": 93,
+          "batting": 127,
           "bowling": 0,
           "fielding": 0,
-          "total": 93
+          "total": 127
         },
         "David Miller": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 2
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3246,15 +3255,15 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 45,
+          "bowling": 37,
           "fielding": 0,
-          "total": 45
+          "total": 37
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -3265,8 +3274,8 @@
         "Mayank Markande": {
           "batting": 0,
           "bowling": -5,
-          "fielding": 0,
-          "total": -5
+          "fielding": 8,
+          "total": 3
         }
       },
       "isComplete": false
@@ -3423,18 +3432,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 578,
-      "top11Points": 578,
+      "totalPointsAll": 612,
+      "top11Points": 612,
       "players": [
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 186,
+          "batting": 220,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 186,
+          "rawPoints": 220,
           "multiplier": 1,
-          "effectivePoints": 186,
+          "effectivePoints": 220,
           "countsInTop11": true
         },
         {
@@ -3837,8 +3846,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 623,
-      "top11Points": 623,
+      "totalPointsAll": 608,
+      "top11Points": 608,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -3877,11 +3886,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 85,
+          "bowling": 70,
           "fielding": 0,
-          "rawPoints": 85,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 85,
+          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
@@ -3964,8 +3973,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 475,
-      "top11Points": 485,
+      "totalPointsAll": 467,
+      "top11Points": 477,
       "players": [
         {
           "name": "Axar Patel",
@@ -4001,17 +4010,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 45,
-          "fielding": 0,
-          "rawPoints": 45,
-          "multiplier": 1,
-          "effectivePoints": 45,
-          "countsInTop11": true
-        },
-        {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
           "batting": 22,
@@ -4020,6 +4018,17 @@
           "rawPoints": 43,
           "multiplier": 1,
           "effectivePoints": 43,
+          "countsInTop11": true
+        },
+        {
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 37,
+          "fielding": 0,
+          "rawPoints": 37,
+          "multiplier": 1,
+          "effectivePoints": 37,
           "countsInTop11": true
         },
         {
@@ -4251,8 +4260,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 659,
-      "top11Points": 664,
+      "totalPointsAll": 667,
+      "top11Points": 667,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -4343,6 +4352,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mayank Markande",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -5,
+          "fielding": 8,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
+          "countsInTop11": true
+        },
+        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4373,23 +4393,12 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mayank Markande",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 0,
-          "rawPoints": -5,
-          "multiplier": 1,
-          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 917,
+      "totalPointsAll": 918,
       "top11Points": 905,
       "players": [
         {
@@ -4516,12 +4525,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 1,
+          "batting": 2,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 9,
+          "rawPoints": 10,
           "multiplier": 1,
-          "effectivePoints": 9,
+          "effectivePoints": 10,
           "countsInTop11": false
         },
         {
