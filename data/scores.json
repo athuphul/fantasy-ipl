@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T16:14:56.494Z",
+  "lastUpdated": "2026-04-04T16:24:55.067Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 22,
+        "r": 41,
         "w": 0,
-        "o": 1.5
+        "o": 4
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,22 +22,22 @@
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 19,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 27
       },
       "Kumar Kushagra": {
-        "batting": 1,
+        "batting": 15,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 23
       },
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Washington Sundar": {
         "batting": 0,
@@ -119,9 +119,9 @@
       },
       "Jofra Archer": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 1
+        "total": -9
       },
       "Tushar Deshpande": {
         "batting": 0,
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 745,
-      "top11Points": 745
+      "totalPointsAll": 751,
+      "top11Points": 751
     },
     {
       "team": "Tanay",
@@ -170,14 +170,14 @@
       "top11Points": 629
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 613,
-      "top11Points": 613
+      "team": "Manav",
+      "totalPointsAll": 616,
+      "top11Points": 626
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 602,
-      "top11Points": 612
+      "team": "Ritik",
+      "totalPointsAll": 625,
+      "top11Points": 625
     },
     {
       "team": "Ali",
@@ -3310,9 +3310,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 22,
+          "r": 41,
           "w": 0,
-          "o": 1.5
+          "o": 4
         },
         {
           "inning": "Rajasthan Royals",
@@ -3348,12 +3348,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 60,
-              "balls": 34,
-              "fours": 4,
-              "sixes": 4,
-              "sr": 176.47,
-              "dismissal": "batting"
+              "runs": 75,
+              "balls": 42,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 178.57,
+              "dismissal": "c Jos Buttler b Mohammed Siraj"
             },
             {
               "name": "Riyan Parag",
@@ -3384,22 +3384,31 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 2,
-              "balls": 3,
+              "runs": 7,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 1,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "batting"
+              "sr": 50,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 39,
-              "wickets": 0,
-              "economy": 13
+              "runs": 48,
+              "wickets": 1,
+              "economy": 12
             },
             {
               "name": "Kagiso Rabada",
@@ -3411,19 +3420,19 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 35,
+              "runs": 37,
               "wickets": 1,
-              "economy": 9.55
+              "economy": 9.25
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 43,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 10.75
             },
             {
               "name": "Rashid Khan",
@@ -3434,26 +3443,70 @@
               "economy": 9.75
             }
           ]
+        },
+        {
+          "innings": "Gujarat Titans",
+          "runs": 41,
+          "wickets": 0,
+          "overs": 4,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 15,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Kumar Kushagra",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 8.4
+            }
+          ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 19,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 27
         },
         "Kumar Kushagra": {
-          "batting": 1,
+          "batting": 15,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 23
         },
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Washington Sundar": {
           "batting": 0,
@@ -3535,9 +3588,9 @@
         },
         "Jofra Archer": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 1
+          "total": -9
         },
         "Tushar Deshpande": {
           "batting": 0,
@@ -3712,8 +3765,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 745,
-      "top11Points": 745,
+      "totalPointsAll": 751,
+      "top11Points": 751,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -3749,25 +3802,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 70,
+          "name": "Sai Sudharsan",
+          "role": "Opener",
+          "batting": 42,
+          "bowling": 0,
           "fielding": 0,
-          "rawPoints": 71,
-          "multiplier": 1,
-          "effectivePoints": 71,
+          "rawPoints": 42,
+          "multiplier": 2,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
-          "name": "Sai Sudharsan",
-          "role": "Opener",
-          "batting": 34,
-          "bowling": 0,
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 60,
           "fielding": 0,
-          "rawPoints": 34,
-          "multiplier": 2,
-          "effectivePoints": 68,
+          "rawPoints": 61,
+          "multiplier": 1,
+          "effectivePoints": 61,
           "countsInTop11": true
         },
         {
@@ -4253,8 +4306,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 602,
-      "top11Points": 612,
+      "totalPointsAll": 616,
+      "top11Points": 626,
       "players": [
         {
           "name": "Axar Patel",
@@ -4336,12 +4389,12 @@
         {
           "name": "Kumar Kushagra",
           "role": "Wicket Keeper",
-          "batting": 1,
+          "batting": 15,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 9,
+          "rawPoints": 23,
           "multiplier": 1,
-          "effectivePoints": 9,
+          "effectivePoints": 23,
           "countsInTop11": true
         },
         {
@@ -4413,8 +4466,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 613,
-      "top11Points": 613,
+      "totalPointsAll": 625,
+      "top11Points": 625,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -4443,10 +4496,10 @@
           "role": "Wicket Keeper",
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 53,
+          "fielding": 16,
+          "rawPoints": 61,
           "multiplier": 1.5,
-          "effectivePoints": 80,
+          "effectivePoints": 92,
           "countsInTop11": true
         },
         {
