@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:54:56.801Z",
+  "lastUpdated": "2026-04-04T16:05:12.624Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -30,8 +30,8 @@
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Washington Sundar": {
         "batting": 0,
@@ -147,8 +147,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 613,
-      "top11Points": 613
+      "totalPointsAll": 625,
+      "top11Points": 625
     },
     {
       "team": "Manav",
@@ -3318,12 +3318,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 58,
-              "balls": 33,
-              "fours": 4,
-              "sixes": 4,
-              "sr": 175.76,
-              "dismissal": "batting"
+              "runs": 75,
+              "balls": 42,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 178.57,
+              "dismissal": "c Jos Buttler b Mohammed Siraj"
             },
             {
               "name": "Riyan Parag",
@@ -3354,22 +3354,31 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 1,
-              "balls": 2,
+              "runs": 3,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
               "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 39,
-              "wickets": 0,
-              "economy": 13
+              "runs": 43,
+              "wickets": 1,
+              "economy": 12.29
             },
             {
               "name": "Kagiso Rabada",
@@ -3381,19 +3390,19 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 37,
               "wickets": 1,
-              "economy": 9.3
+              "economy": 9.25
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 43,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 10.75
             },
             {
               "name": "Rashid Khan",
@@ -3422,8 +3431,8 @@
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Washington Sundar": {
           "batting": 0,
@@ -4365,8 +4374,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 613,
-      "top11Points": 613,
+      "totalPointsAll": 625,
+      "top11Points": 625,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -4395,10 +4404,10 @@
           "role": "Wicket Keeper",
           "batting": 45,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 53,
+          "fielding": 16,
+          "rawPoints": 61,
           "multiplier": 1.5,
-          "effectivePoints": 80,
+          "effectivePoints": 92,
           "countsInTop11": true
         },
         {
