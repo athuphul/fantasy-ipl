@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T16:24:55.067Z",
+  "lastUpdated": "2026-04-04T16:34:53.310Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 41,
+        "r": 56,
         "w": 0,
-        "o": 4
+        "o": 6
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 27,
+        "batting": 40,
         "bowling": 0,
         "fielding": 0,
-        "total": 27
+        "total": 40
       },
       "Kumar Kushagra": {
-        "batting": 15,
+        "batting": 20,
         "bowling": 0,
         "fielding": 8,
-        "total": 23
+        "total": 28
       },
       "Jos Buttler": {
         "batting": 0,
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 751,
-      "top11Points": 751
+      "totalPointsAll": 777,
+      "top11Points": 777
     },
     {
       "team": "Tanay",
@@ -165,14 +165,14 @@
       "top11Points": 667
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 621,
+      "top11Points": 631
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 629,
       "top11Points": 629
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 616,
-      "top11Points": 626
     },
     {
       "team": "Ritik",
@@ -3310,9 +3310,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 41,
+          "r": 56,
           "w": 0,
-          "o": 4
+          "o": 6
         },
         {
           "inning": "Rajasthan Royals",
@@ -3446,61 +3446,61 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 41,
+          "runs": 56,
           "wickets": 0,
-          "overs": 4,
+          "overs": 6,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 15,
-              "balls": 9,
+              "runs": 16,
+              "balls": 11,
               "fours": 2,
               "sixes": 1,
-              "sr": 166.67,
+              "sr": 145.45,
               "dismissal": "batting"
             },
             {
               "name": "Kumar Kushagra",
               "runs": 1,
-              "balls": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 16,
               "wickets": 0,
-              "economy": 15
+              "economy": 12
             },
             {
               "name": "Nandre Burger",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 7,
               "wickets": 0,
-              "economy": 8.4
+              "economy": 7
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 27,
+          "batting": 40,
           "bowling": 0,
           "fielding": 0,
-          "total": 27
+          "total": 40
         },
         "Kumar Kushagra": {
-          "batting": 15,
+          "batting": 20,
           "bowling": 0,
           "fielding": 8,
-          "total": 23
+          "total": 28
         },
         "Jos Buttler": {
           "batting": 0,
@@ -3765,8 +3765,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 751,
-      "top11Points": 751,
+      "totalPointsAll": 777,
+      "top11Points": 777,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -3791,6 +3791,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sai Sudharsan",
+          "role": "Opener",
+          "batting": 55,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 55,
+          "multiplier": 2,
+          "effectivePoints": 110,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -3799,17 +3810,6 @@
           "rawPoints": 107,
           "multiplier": 1,
           "effectivePoints": 107,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sai Sudharsan",
-          "role": "Opener",
-          "batting": 42,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 42,
-          "multiplier": 2,
-          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -4306,8 +4306,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 616,
-      "top11Points": 626,
+      "totalPointsAll": 621,
+      "top11Points": 631,
       "players": [
         {
           "name": "Axar Patel",
@@ -4376,6 +4376,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kumar Kushagra",
+          "role": "Wicket Keeper",
+          "batting": 20,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 28,
+          "multiplier": 1,
+          "effectivePoints": 28,
+          "countsInTop11": true
+        },
+        {
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
@@ -4384,17 +4395,6 @@
           "rawPoints": 25,
           "multiplier": 1,
           "effectivePoints": 25,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kumar Kushagra",
-          "role": "Wicket Keeper",
-          "batting": 15,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 23,
-          "multiplier": 1,
-          "effectivePoints": 23,
           "countsInTop11": true
         },
         {
