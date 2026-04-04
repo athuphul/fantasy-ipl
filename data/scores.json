@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T13:14:54.080Z",
+  "lastUpdated": "2026-04-04T13:24:53.660Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 138,
-        "w": 3,
-        "o": 14.6
+        "r": 151,
+        "w": 4,
+        "o": 16.2
       },
       {
         "inning": "Mumbai Indians",
@@ -34,16 +34,16 @@
         "total": 3
       },
       "Sameer Rizvi": {
-        "batting": 127,
+        "batting": 131,
         "bowling": 0,
         "fielding": 0,
-        "total": 127
+        "total": 131
       },
       "David Miller": {
-        "batting": 2,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 13
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -134,8 +134,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 918,
-      "top11Points": 905
+      "totalPointsAll": 929,
+      "top11Points": 914
     },
     {
       "team": "Athu",
@@ -149,8 +149,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 612,
-      "top11Points": 612
+      "totalPointsAll": 616,
+      "top11Points": 616
     },
     {
       "team": "Kishan",
@@ -2922,9 +2922,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 138,
-          "w": 3,
-          "o": 14.6
+          "r": 151,
+          "w": 4,
+          "o": 16.2
         },
         {
           "inning": "Mumbai Indians",
@@ -3066,9 +3066,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 138,
-          "wickets": 3,
-          "overs": 14.6,
+          "runs": 151,
+          "wickets": 4,
+          "overs": 16.2,
           "batting": [
             {
               "name": "KL Rahul",
@@ -3099,31 +3099,31 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 87,
-              "balls": 48,
-              "fours": 7,
-              "sixes": 7,
-              "sr": 181.25,
+              "runs": 63,
+              "balls": 39,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 161.54,
               "dismissal": "batting"
             },
             {
               "name": "David Miller",
-              "runs": 2,
-              "balls": 6,
+              "runs": 1,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 20,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 3,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 20,
+              "runs": 11,
               "wickets": 1,
-              "economy": 6.67
+              "economy": 4.71
             },
             {
               "name": "Jasprit Bumrah",
@@ -3143,11 +3143,11 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 33,
+              "runs": 16,
               "wickets": 0,
-              "economy": 16.5
+              "economy": 16
             },
             {
               "name": "Mayank Markande",
@@ -3182,16 +3182,16 @@
           "total": 3
         },
         "Sameer Rizvi": {
-          "batting": 127,
+          "batting": 131,
           "bowling": 0,
           "fielding": 0,
-          "total": 127
+          "total": 131
         },
         "David Miller": {
-          "batting": 2,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 13
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3432,18 +3432,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 612,
-      "top11Points": 612,
+      "totalPointsAll": 616,
+      "top11Points": 616,
       "players": [
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 220,
+          "batting": 224,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 220,
+          "rawPoints": 224,
           "multiplier": 1,
-          "effectivePoints": 220,
+          "effectivePoints": 224,
           "countsInTop11": true
         },
         {
@@ -4398,8 +4398,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 918,
-      "top11Points": 905,
+      "totalPointsAll": 929,
+      "top11Points": 914,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4512,6 +4512,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 21,
+          "multiplier": 1,
+          "effectivePoints": 21,
+          "countsInTop11": true
+        },
+        {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
           "batting": 12,
@@ -4520,17 +4531,6 @@
           "rawPoints": 12,
           "multiplier": 1,
           "effectivePoints": 12,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 2,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 10,
-          "multiplier": 1,
-          "effectivePoints": 10,
           "countsInTop11": false
         },
         {
