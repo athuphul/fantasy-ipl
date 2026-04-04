@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T12:05:05.608Z",
+  "lastUpdated": "2026-04-04T12:14:53.404Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 2,
-        "w": 1,
-        "o": 0.4
+        "r": 12,
+        "w": 2,
+        "o": 2.3
       },
       {
         "inning": "Mumbai Indians",
@@ -28,10 +28,16 @@
         "total": 1
       },
       "Nitish Rana": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 3
+      },
+      "Sameer Rizvi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -152,8 +158,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 490,
-      "top11Points": 490
+      "totalPointsAll": 485,
+      "top11Points": 485
     },
     {
       "team": "Manav",
@@ -2910,9 +2916,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 2,
-          "w": 1,
-          "o": 0.4
+          "r": 12,
+          "w": 2,
+          "o": 2.3
         },
         {
           "inning": "Mumbai Indians",
@@ -2989,26 +2995,26 @@
               "fours": 2,
               "sixes": 0,
               "sr": 138.46,
-              "dismissal": "batting"
+              "dismissal": "not out"
             },
             {
               "name": "Corbin Bosch",
-              "runs": 7,
-              "balls": 3,
-              "fours": 1,
+              "runs": 11,
+              "balls": 4,
+              "fours": 2,
               "sixes": 0,
-              "sr": 233.33,
-              "dismissal": "batting"
+              "sr": 275,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Kumar",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 26,
               "wickets": 2,
-              "economy": 7.76
+              "economy": 8.67
             },
             {
               "name": "Lungi Ngidi",
@@ -3061,10 +3067,16 @@
           "total": 1
         },
         "Nitish Rana": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 3
+        },
+        "Sameer Rizvi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3305,8 +3317,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 490,
-      "top11Points": 490,
+      "totalPointsAll": 485,
+      "top11Points": 485,
       "players": [
         {
           "name": "Yuzvendra Chahal",
@@ -3399,12 +3411,12 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 14,
+          "batting": 9,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 22,
+          "rawPoints": 17,
           "multiplier": 1,
-          "effectivePoints": 22,
+          "effectivePoints": 17,
           "countsInTop11": true
         },
         {
