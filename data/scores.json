@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T10:05:48.157Z",
+  "lastUpdated": "2026-04-04T10:15:08.998Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 8,
-        "w": 0,
-        "o": 1
+        "r": 18,
+        "w": 1,
+        "o": 2.4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Axar Patel": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "David Miller": {
         "batting": 0,
@@ -70,6 +70,12 @@
         "total": 0
       },
       "Rohit Sharma": {
+        "batting": 11,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 11
+      },
+      "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -95,8 +101,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 571,
-      "top11Points": 571
+      "totalPointsAll": 587,
+      "top11Points": 587
     },
     {
       "team": "Ritik",
@@ -120,8 +126,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 324,
-      "top11Points": 334
+      "totalPointsAll": 340,
+      "top11Points": 350
     }
   ],
   "matchHistory": [
@@ -2868,31 +2874,40 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 8,
-          "w": 0,
-          "o": 1
+          "r": 18,
+          "w": 1,
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 8,
-          "wickets": 0,
-          "overs": 1,
+          "runs": 18,
+          "wickets": 1,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 8,
-              "balls": 6,
+              "runs": 9,
+              "balls": 11,
               "fours": 2,
               "sixes": 0,
-              "sr": 133.33,
-              "dismissal": "batting"
+              "sr": 81.82,
+              "dismissal": "c Axar Patel b Mukesh Kumar"
             },
             {
               "name": "Rohit Sharma",
+              "runs": 9,
+              "balls": 4,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 225,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tilak Varma",
               "runs": 0,
-              "balls": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -2902,19 +2917,19 @@
           "bowling": [
             {
               "name": "Mukesh Kumar",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
               "runs": 8,
-              "wickets": 0,
-              "economy": 8
+              "wickets": 1,
+              "economy": 4.8
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 10,
               "wickets": 0,
-              "economy": 0
+              "economy": 10
             }
           ]
         }
@@ -2941,8 +2956,8 @@
         "Axar Patel": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "David Miller": {
           "batting": 0,
@@ -2975,6 +2990,12 @@
           "total": 0
         },
         "Rohit Sharma": {
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 11
+        },
+        "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -3676,8 +3697,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 324,
-      "top11Points": 334,
+      "totalPointsAll": 340,
+      "top11Points": 350,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -3695,10 +3716,10 @@
           "role": "All-Rounder",
           "batting": -5,
           "bowling": 45,
-          "fielding": 0,
-          "rawPoints": 40,
+          "fielding": 8,
+          "rawPoints": 48,
           "multiplier": 2,
-          "effectivePoints": 80,
+          "effectivePoints": 96,
           "countsInTop11": true
         },
         {
@@ -3963,18 +3984,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 571,
-      "top11Points": 571,
+      "totalPointsAll": 587,
+      "top11Points": 587,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 121,
+          "batting": 132,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 121,
+          "rawPoints": 132,
           "multiplier": 1.5,
-          "effectivePoints": 182,
+          "effectivePoints": 198,
           "countsInTop11": true
         },
         {
