@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T11:34:53.799Z",
+  "lastUpdated": "2026-04-04T11:44:53.143Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 146,
-        "w": 5,
-        "o": 18.3
+        "r": 158,
+        "w": 6,
+        "o": 19.5
       }
     ],
     "playerScores": {
@@ -48,8 +48,8 @@
       "Tristan Stubbs": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 30,
         "fielding": 0,
-        "total": 0
+        "total": 30
       },
       "Rohit Sharma": {
         "batting": 42,
@@ -88,18 +88,18 @@
         "total": 68
       },
       "Mitchell Santner": {
-        "batting": 16,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 20
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 882,
-      "top11Points": 871
+      "totalPointsAll": 886,
+      "top11Points": 875
     },
     {
       "team": "Athu",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 495,
-      "top11Points": 495
+      "totalPointsAll": 533,
+      "top11Points": 533
     },
     {
       "team": "Aakash",
@@ -2886,17 +2886,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 146,
-          "w": 5,
-          "o": 18.3
+          "r": 158,
+          "w": 6,
+          "o": 19.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 146,
-          "wickets": 5,
-          "overs": 18.3,
+          "runs": 158,
+          "wickets": 6,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -2928,11 +2928,11 @@
             {
               "name": "Suryakumar Yadav",
               "runs": 51,
-              "balls": 35,
+              "balls": 36,
               "fours": 3,
               "sixes": 2,
-              "sr": 145.71,
-              "dismissal": "batting"
+              "sr": 141.67,
+              "dismissal": "lbw b Lungi Ngidi"
             },
             {
               "name": "Sherfane Rutherford",
@@ -2945,11 +2945,29 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 18,
-              "balls": 11,
-              "fours": 1,
+              "runs": 28,
+              "balls": 21,
+              "fours": 2,
               "sixes": 1,
-              "sr": 163.64,
+              "sr": 133.33,
+              "dismissal": "c Tristan Stubbs b T Natarajan"
+            },
+            {
+              "name": "Mitchell Santner",
+              "runs": 14,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 155.56,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Corbin Bosch",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -2964,11 +2982,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 2.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
-              "wickets": 0,
-              "economy": 10.29
+              "runs": 34,
+              "wickets": 1,
+              "economy": 8.5
             },
             {
               "name": "Axar Patel",
@@ -2996,11 +3014,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 1,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 8
+              "runs": 22,
+              "wickets": 1,
+              "economy": 8.25
             }
           ]
         }
@@ -3039,8 +3057,8 @@
         "Tristan Stubbs": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -3056,9 +3074,9 @@
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 30,
           "fielding": 0,
-          "total": 0
+          "total": 30
         },
         "Rohit Sharma": {
           "batting": 42,
@@ -3079,10 +3097,10 @@
           "total": 68
         },
         "Mitchell Santner": {
-          "batting": 16,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 20
         }
       },
       "isComplete": false
@@ -3377,8 +3395,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 495,
-      "top11Points": 495,
+      "totalPointsAll": 533,
+      "top11Points": 533,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3389,6 +3407,17 @@
           "rawPoints": 84,
           "multiplier": 1.5,
           "effectivePoints": 126,
+          "countsInTop11": true
+        },
+        {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 120,
+          "fielding": 0,
+          "rawPoints": 120,
+          "multiplier": 1,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -3403,25 +3432,14 @@
           "countsInTop11": true
         },
         {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 90,
-          "fielding": 0,
-          "rawPoints": 90,
-          "multiplier": 1,
-          "effectivePoints": 90,
-          "countsInTop11": true
-        },
-        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 44,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 60,
+          "fielding": 24,
+          "rawPoints": 68,
           "multiplier": 1,
-          "effectivePoints": 60,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -4205,8 +4223,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 882,
-      "top11Points": 871,
+      "totalPointsAll": 886,
+      "top11Points": 875,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4310,12 +4328,12 @@
         {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
-          "batting": 16,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 16,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
