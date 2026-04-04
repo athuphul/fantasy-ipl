@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T12:34:53.818Z",
+  "lastUpdated": "2026-04-04T12:44:53.371Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 49,
+        "r": 66,
         "w": 2,
-        "o": 7.1
+        "o": 9
       },
       {
         "inning": "Mumbai Indians",
@@ -34,10 +34,10 @@
         "total": 3
       },
       "Sameer Rizvi": {
-        "batting": -1,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": -1
+        "total": 17
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -163,14 +163,14 @@
       "top11Points": 535
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 502,
+      "top11Points": 502
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 475,
       "top11Points": 485
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 484,
-      "top11Points": 484
     },
     {
       "team": "Ashwin",
@@ -2922,9 +2922,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 49,
+          "r": 66,
           "w": 2,
-          "o": 7.1
+          "o": 9
         },
         {
           "inning": "Mumbai Indians",
@@ -3066,9 +3066,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 49,
+          "runs": 66,
           "wickets": 2,
-          "overs": 7.1,
+          "overs": 9,
           "batting": [
             {
               "name": "KL Rahul",
@@ -3165,10 +3165,10 @@
           "total": 3
         },
         "Sameer Rizvi": {
-          "batting": -1,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": -1
+          "total": 17
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3415,9 +3415,20 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 484,
-      "top11Points": 484,
+      "totalPointsAll": 502,
+      "top11Points": 502,
       "players": [
+        {
+          "name": "Sameer Rizvi",
+          "role": "Batsman",
+          "batting": 110,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 110,
+          "multiplier": 1,
+          "effectivePoints": 110,
+          "countsInTop11": true
+        },
         {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
@@ -3427,17 +3438,6 @@
           "rawPoints": 107,
           "multiplier": 1,
           "effectivePoints": 107,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sameer Rizvi",
-          "role": "Batsman",
-          "batting": 92,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 92,
-          "multiplier": 1,
-          "effectivePoints": 92,
           "countsInTop11": true
         },
         {
