@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T11:25:00.402Z",
+  "lastUpdated": "2026-04-04T11:34:53.799Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 131,
+        "r": 146,
         "w": 5,
-        "o": 16.4
+        "o": 18.3
       }
     ],
     "playerScores": {
@@ -88,18 +88,18 @@
         "total": 68
       },
       "Mitchell Santner": {
-        "batting": 2,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 16
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 868,
-      "top11Points": 863
+      "totalPointsAll": 882,
+      "top11Points": 871
     },
     {
       "team": "Athu",
@@ -2886,17 +2886,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 131,
+          "r": 146,
           "w": 5,
-          "o": 16.4
+          "o": 18.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 131,
+          "runs": 146,
           "wickets": 5,
-          "overs": 16.4,
+          "overs": 18.3,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -2927,11 +2927,11 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 36,
-              "balls": 28,
+              "runs": 51,
+              "balls": 35,
               "fours": 3,
-              "sixes": 1,
-              "sr": 128.57,
+              "sixes": 2,
+              "sr": 145.71,
               "dismissal": "batting"
             },
             {
@@ -2945,11 +2945,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 10,
-              "balls": 8,
+              "runs": 18,
+              "balls": 11,
               "fours": 1,
-              "sixes": 0,
-              "sr": 125,
+              "sixes": 1,
+              "sr": 163.64,
               "dismissal": "batting"
             }
           ],
@@ -2964,11 +2964,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 19,
+              "runs": 24,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 10.29
             },
             {
               "name": "Axar Patel",
@@ -2988,19 +2988,19 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 31,
               "wickets": 0,
-              "economy": 7
+              "economy": 10.33
             },
             {
               "name": "T Natarajan",
-              "overs": 0.4,
+              "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 8,
               "wickets": 0,
-              "economy": 9
+              "economy": 8
             }
           ]
         }
@@ -3079,10 +3079,10 @@
           "total": 68
         },
         "Mitchell Santner": {
-          "batting": 2,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 16
         }
       },
       "isComplete": false
@@ -4205,8 +4205,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 868,
-      "top11Points": 863,
+      "totalPointsAll": 882,
+      "top11Points": 871,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4308,6 +4308,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Santner",
+          "role": "All-Rounder",
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 16,
+          "multiplier": 1,
+          "effectivePoints": 16,
+          "countsInTop11": true
+        },
+        {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
           "batting": 12,
@@ -4327,7 +4338,7 @@
           "rawPoints": 8,
           "multiplier": 1,
           "effectivePoints": 8,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Shahrukh Khan",
@@ -4338,17 +4349,6 @@
           "rawPoints": 4,
           "multiplier": 1,
           "effectivePoints": 4,
-          "countsInTop11": false
-        },
-        {
-          "name": "Mitchell Santner",
-          "role": "All-Rounder",
-          "batting": 2,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 2,
-          "multiplier": 1,
-          "effectivePoints": 2,
           "countsInTop11": false
         },
         {
