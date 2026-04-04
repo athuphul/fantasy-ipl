@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:14:56.495Z",
+  "lastUpdated": "2026-04-04T15:25:06.593Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 148,
-        "w": 3,
-        "o": 14
+        "r": 166,
+        "w": 4,
+        "o": 15.5
       }
     ],
     "playerScores": {
       "Kumar Kushagra": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Sai Sudharsan": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": 43
       },
       "Dhruv Jurel": {
-        "batting": 38,
+        "batting": 55,
         "bowling": 0,
         "fielding": 0,
-        "total": 38
+        "total": 55
       },
       "Riyan Parag": {
         "batting": 10,
@@ -100,10 +100,10 @@
         "total": 10
       },
       "Shimron Hetmyer": {
-        "batting": 16,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 23
       }
     }
   },
@@ -139,19 +139,19 @@
       "top11Points": 613
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 538,
+      "top11Points": 548
+    },
+    {
       "team": "Ali",
       "totalPointsAll": 528,
       "top11Points": 533
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 513,
-      "top11Points": 523
-    },
-    {
       "team": "Ashwin",
-      "totalPointsAll": 443,
-      "top11Points": 443
+      "totalPointsAll": 450,
+      "top11Points": 450
     }
   ],
   "matchHistory": [
@@ -3274,26 +3274,26 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 148,
-          "w": 3,
-          "o": 14
+          "r": 166,
+          "w": 4,
+          "o": 15.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 148,
-          "wickets": 3,
-          "overs": 14,
+          "runs": 166,
+          "wickets": 4,
+          "overs": 15.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 52,
-              "balls": 33,
-              "fours": 5,
+              "runs": 55,
+              "balls": 36,
+              "fours": 6,
               "sixes": 3,
-              "sr": 157.58,
-              "dismissal": "batting"
+              "sr": 152.78,
+              "dismissal": "b Kagiso Rabada"
             },
             {
               "name": "Vaibhav Sooryavanshi",
@@ -3306,30 +3306,48 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 21,
-              "balls": 18,
-              "fours": 3,
-              "sixes": 0,
-              "sr": 116.67,
+              "runs": 39,
+              "balls": 24,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 162.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Riyan Parag",
+              "runs": 8,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "c Kumar Kushagra b Prasidh Krishna"
+            },
+            {
+              "name": "Shimron Hetmyer",
+              "runs": 12,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 300,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
+              "runs": 39,
               "wickets": 0,
-              "economy": 12
+              "economy": 13
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 0,
-              "economy": 9.5
+              "runs": 31,
+              "wickets": 1,
+              "economy": 10.33
             },
             {
               "name": "Ashutosh Sharma",
@@ -3341,19 +3359,19 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 0,
-              "economy": 9
+              "runs": 32,
+              "wickets": 1,
+              "economy": 10.67
             },
             {
               "name": "Rashid Khan",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 27,
+              "runs": 35,
               "wickets": 1,
-              "economy": 9
+              "economy": 10.5
             }
           ]
         }
@@ -3362,8 +3380,8 @@
         "Kumar Kushagra": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Sai Sudharsan": {
           "batting": 0,
@@ -3432,10 +3450,10 @@
           "total": 43
         },
         "Dhruv Jurel": {
-          "batting": 38,
+          "batting": 55,
           "bowling": 0,
           "fielding": 0,
-          "total": 38
+          "total": 55
         },
         "Riyan Parag": {
           "batting": 10,
@@ -3444,10 +3462,10 @@
           "total": 10
         },
         "Shimron Hetmyer": {
-          "batting": 16,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 23
         }
       },
       "isComplete": false
@@ -3880,8 +3898,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 443,
-      "top11Points": 443,
+      "totalPointsAll": 450,
+      "top11Points": 450,
       "players": [
         {
           "name": "Shubman Gill",
@@ -3941,12 +3959,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 16,
+          "batting": 23,
           "bowling": 0,
           "fielding": 10,
-          "rawPoints": 26,
+          "rawPoints": 33,
           "multiplier": 1,
-          "effectivePoints": 26,
+          "effectivePoints": 33,
           "countsInTop11": true
         },
         {
@@ -4145,8 +4163,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 513,
-      "top11Points": 523,
+      "totalPointsAll": 538,
+      "top11Points": 548,
       "players": [
         {
           "name": "Axar Patel",
@@ -4173,12 +4191,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 60,
+          "batting": 77,
           "bowling": 0,
           "fielding": 21,
-          "rawPoints": 81,
+          "rawPoints": 98,
           "multiplier": 1,
-          "effectivePoints": 81,
+          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
@@ -4226,6 +4244,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kumar Kushagra",
+          "role": "Wicket Keeper",
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 8,
+          "multiplier": 1,
+          "effectivePoints": 8,
+          "countsInTop11": true
+        },
+        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4267,22 +4296,11 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Sai Kishore",
           "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
-          "name": "Kumar Kushagra",
-          "role": "Wicket Keeper",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
