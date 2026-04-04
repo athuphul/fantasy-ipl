@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T12:25:10.152Z",
+  "lastUpdated": "2026-04-04T12:34:53.818Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 38,
+        "r": 49,
         "w": 2,
-        "o": 4.5
+        "o": 7.1
       },
       {
         "inning": "Mumbai Indians",
@@ -34,10 +34,10 @@
         "total": 3
       },
       "Sameer Rizvi": {
-        "batting": 2,
+        "batting": -1,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": -1
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Mitchell Santner": {
         "batting": 20,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 20
+        "total": 25
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -119,6 +119,12 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
+        "bowling": 20,
+        "fielding": 10,
+        "total": 30
+      },
+      "Mayank Markande": {
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
@@ -128,8 +134,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 886,
-      "top11Points": 875
+      "totalPointsAll": 891,
+      "top11Points": 880
     },
     {
       "team": "Athu",
@@ -148,8 +154,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 538,
-      "top11Points": 538
+      "totalPointsAll": 568,
+      "top11Points": 568
     },
     {
       "team": "Ali",
@@ -157,14 +163,14 @@
       "top11Points": 535
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 487,
-      "top11Points": 487
-    },
-    {
       "team": "Manav",
       "totalPointsAll": 475,
       "top11Points": 485
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 484,
+      "top11Points": 484
     },
     {
       "team": "Ashwin",
@@ -2916,9 +2922,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 38,
+          "r": 49,
           "w": 2,
-          "o": 4.5
+          "o": 7.1
         },
         {
           "inning": "Mumbai Indians",
@@ -3060,9 +3066,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 38,
+          "runs": 49,
           "wickets": 2,
-          "overs": 4.5,
+          "overs": 7.1,
           "batting": [
             {
               "name": "KL Rahul",
@@ -3075,31 +3081,72 @@
             },
             {
               "name": "Pathum Nissanka",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 40,
+              "balls": 25,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 160,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Rana",
               "runs": 0,
-              "balls": 1,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
+              "dismissal": "run out (Jasprit Bumrah)"
+            },
+            {
+              "name": "Sameer Rizvi",
+              "runs": 8,
+              "balls": 13,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 61.54,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 7,
               "wickets": 1,
-              "economy": 2.4
+              "economy": 3.5
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 4.5
+            },
+            {
+              "name": "Mitchell Santner",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 7.5
+            },
+            {
+              "name": "Shardul Thakur",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
+            },
+            {
+              "name": "Mayank Markande",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
@@ -3118,10 +3165,10 @@
           "total": 3
         },
         "Sameer Rizvi": {
-          "batting": 2,
+          "batting": -1,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": -1
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3185,9 +3232,9 @@
         },
         "Mitchell Santner": {
           "batting": 20,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 20
+          "total": 25
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -3202,6 +3249,12 @@
           "total": 45
         },
         "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 10,
+          "total": 30
+        },
+        "Mayank Markande": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -3362,8 +3415,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 487,
-      "top11Points": 487,
+      "totalPointsAll": 484,
+      "top11Points": 484,
       "players": [
         {
           "name": "Yuzvendra Chahal",
@@ -3379,12 +3432,12 @@
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 95,
+          "batting": 92,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 95,
+          "rawPoints": 92,
           "multiplier": 1,
-          "effectivePoints": 95,
+          "effectivePoints": 92,
           "countsInTop11": true
         },
         {
@@ -4063,8 +4116,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 538,
-      "top11Points": 538,
+      "totalPointsAll": 568,
+      "top11Points": 568,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -4133,6 +4186,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 10,
+          "rawPoints": 30,
+          "multiplier": 1,
+          "effectivePoints": 30,
+          "countsInTop11": true
+        },
+        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4168,17 +4232,6 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -4328,8 +4381,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 886,
-      "top11Points": 875,
+      "totalPointsAll": 891,
+      "top11Points": 880,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4434,11 +4487,11 @@
           "name": "Mitchell Santner",
           "role": "All-Rounder",
           "batting": 20,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "rawPoints": 20,
+          "rawPoints": 25,
           "multiplier": 1,
-          "effectivePoints": 20,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
