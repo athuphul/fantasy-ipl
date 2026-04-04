@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T17:04:54.027Z",
+  "lastUpdated": "2026-04-04T17:14:54.465Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 127,
-        "w": 2,
-        "o": 11.6
+        "r": 133,
+        "w": 5,
+        "o": 13.1
       },
       {
         "inning": "Rajasthan Royals",
@@ -34,10 +34,10 @@
         "total": 29
       },
       "Jos Buttler": {
-        "batting": 45,
+        "batting": 41,
         "bowling": 0,
         "fielding": 8,
-        "total": 53
+        "total": 49
       },
       "Glenn Phillips": {
         "batting": 3,
@@ -46,16 +46,16 @@
         "total": 19
       },
       "Washington Sundar": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Rahul Tewatia": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Rashid Khan": {
         "batting": 0,
@@ -120,14 +120,14 @@
       "Jofra Archer": {
         "batting": 1,
         "bowling": -10,
-        "fielding": 0,
-        "total": -9
+        "fielding": 8,
+        "total": -1
       },
       "Tushar Deshpande": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "bowling": -5,
+        "fielding": 8,
+        "total": 3
       },
       "Sandeep Sharma": {
         "batting": 0,
@@ -137,32 +137,32 @@
       },
       "Ravi Bishnoi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 90,
         "fielding": 0,
-        "total": 25
+        "total": 90
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1004,
+      "totalPointsAll": 1005,
       "top11Points": 989
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 903,
-      "top11Points": 903
+      "team": "Athu",
+      "totalPointsAll": 931,
+      "top11Points": 956
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 866,
-      "top11Points": 891
+      "team": "Aakash",
+      "totalPointsAll": 911,
+      "top11Points": 911
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 742,
-      "top11Points": 742
+      "totalPointsAll": 736,
+      "top11Points": 736
     },
     {
       "team": "Tanay",
@@ -176,8 +176,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 609,
-      "top11Points": 609
+      "totalPointsAll": 614,
+      "top11Points": 614
     },
     {
       "team": "Ali",
@@ -186,8 +186,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 458,
-      "top11Points": 458
+      "totalPointsAll": 461,
+      "top11Points": 461
     }
   ],
   "matchHistory": [
@@ -3310,9 +3310,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 127,
-          "w": 2,
-          "o": 11.6
+          "r": 133,
+          "w": 5,
+          "o": 13.1
         },
         {
           "inning": "Rajasthan Royals",
@@ -3446,18 +3446,18 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 127,
-          "wickets": 2,
-          "overs": 11.6,
+          "runs": 133,
+          "wickets": 5,
+          "overs": 13.1,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 72,
-              "balls": 41,
+              "runs": 73,
+              "balls": 44,
               "fours": 9,
               "sixes": 3,
-              "sr": 175.61,
-              "dismissal": "batting"
+              "sr": 165.91,
+              "dismissal": "c Tushar Deshpande b Ravi Bishnoi"
             },
             {
               "name": "Kumar Kushagra",
@@ -3470,11 +3470,29 @@
             },
             {
               "name": "Jos Buttler",
-              "runs": 6,
-              "balls": 5,
-              "fours": 1,
+              "runs": 25,
+              "balls": 12,
+              "fours": 5,
               "sixes": 0,
-              "sr": 120,
+              "sr": 208.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Glenn Phillips",
+              "runs": 3,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 75,
+              "dismissal": "c Jofra Archer b Ravi Bishnoi"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -3505,11 +3523,11 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 20,
               "wickets": 0,
-              "economy": 5
+              "economy": 10
             },
             {
               "name": "Ravindra Jadeja",
@@ -3526,6 +3544,14 @@
               "runs": 11,
               "wickets": 1,
               "economy": 11
+            },
+            {
+              "name": "Ravi Bishnoi",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 2,
+              "economy": 7.71
             }
           ]
         }
@@ -3544,10 +3570,10 @@
           "total": 29
         },
         "Jos Buttler": {
-          "batting": 45,
+          "batting": 41,
           "bowling": 0,
           "fielding": 8,
-          "total": 53
+          "total": 49
         },
         "Glenn Phillips": {
           "batting": 3,
@@ -3556,16 +3582,16 @@
           "total": 19
         },
         "Washington Sundar": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Rahul Tewatia": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Rashid Khan": {
           "batting": 0,
@@ -3630,14 +3656,14 @@
         "Jofra Archer": {
           "batting": 1,
           "bowling": -10,
-          "fielding": 0,
-          "total": -9
+          "fielding": 8,
+          "total": -1
         },
         "Tushar Deshpande": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "bowling": -5,
+          "fielding": 8,
+          "total": 3
         },
         "Sandeep Sharma": {
           "batting": 0,
@@ -3647,9 +3673,9 @@
         },
         "Ravi Bishnoi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 90,
           "fielding": 0,
-          "total": 25
+          "total": 90
         }
       },
       "isComplete": false
@@ -3657,8 +3683,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 866,
-      "top11Points": 891,
+      "totalPointsAll": 931,
+      "top11Points": 956,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -3680,6 +3706,17 @@
           "rawPoints": 98,
           "multiplier": 1.5,
           "effectivePoints": 147,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 135,
+          "fielding": 8,
+          "rawPoints": 143,
+          "multiplier": 1,
+          "effectivePoints": 143,
           "countsInTop11": true
         },
         {
@@ -3713,17 +3750,6 @@
           "rawPoints": 99,
           "multiplier": 1,
           "effectivePoints": 99,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravi Bishnoi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 70,
-          "fielding": 8,
-          "rawPoints": 78,
-          "multiplier": 1,
-          "effectivePoints": 78,
           "countsInTop11": true
         },
         {
@@ -3806,8 +3832,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 903,
-      "top11Points": 903,
+      "totalPointsAll": 911,
+      "top11Points": 911,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -3858,10 +3884,10 @@
           "role": "Fast Bowler",
           "batting": 1,
           "bowling": 60,
-          "fielding": 0,
-          "rawPoints": 61,
+          "fielding": 8,
+          "rawPoints": 69,
           "multiplier": 1,
-          "effectivePoints": 61,
+          "effectivePoints": 69,
           "countsInTop11": true
         },
         {
@@ -4082,8 +4108,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 458,
-      "top11Points": 458,
+      "totalPointsAll": 461,
+      "top11Points": 461,
       "players": [
         {
           "name": "Shubman Gill",
@@ -4185,6 +4211,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -5,
+          "fielding": 8,
+          "rawPoints": 3,
+          "multiplier": 1,
+          "effectivePoints": 3,
+          "countsInTop11": true
+        },
+        {
           "name": "Dewald Brevis",
           "role": "Batsman",
           "batting": 0,
@@ -4204,24 +4241,13 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": false
         }
       ]
     },
     "Kishan": {
-      "totalPointsAll": 609,
-      "top11Points": 609,
+      "totalPointsAll": 614,
+      "top11Points": 614,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -4281,12 +4307,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 20,
+          "batting": 25,
           "bowling": 25,
           "fielding": 8,
-          "rawPoints": 53,
+          "rawPoints": 58,
           "multiplier": 1,
-          "effectivePoints": 53,
+          "effectivePoints": 58,
           "countsInTop11": true
         },
         {
@@ -4507,20 +4533,9 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 742,
-      "top11Points": 742,
+      "totalPointsAll": 736,
+      "top11Points": 736,
       "players": [
-        {
-          "name": "Jos Buttler",
-          "role": "Wicket Keeper",
-          "batting": 90,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 106,
-          "multiplier": 1.5,
-          "effectivePoints": 159,
-          "countsInTop11": true
-        },
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
@@ -4530,6 +4545,17 @@
           "rawPoints": 156,
           "multiplier": 1,
           "effectivePoints": 156,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Wicket Keeper",
+          "batting": 86,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 102,
+          "multiplier": 1.5,
+          "effectivePoints": 153,
           "countsInTop11": true
         },
         {
@@ -4772,7 +4798,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1004,
+      "totalPointsAll": 1005,
       "top11Points": 989,
       "players": [
         {
@@ -4899,12 +4925,12 @@
         {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
-          "batting": 12,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 12,
+          "rawPoints": 13,
           "multiplier": 1,
-          "effectivePoints": 12,
+          "effectivePoints": 13,
           "countsInTop11": false
         },
         {
