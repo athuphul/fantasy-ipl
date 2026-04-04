@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T11:14:53.033Z",
+  "lastUpdated": "2026-04-04T11:25:00.402Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527681",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 122,
-        "w": 4,
-        "o": 15.2
+        "r": 131,
+        "w": 5,
+        "o": 16.4
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Nitish Rana": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Vipraj Nigam": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 25,
         "fielding": 0,
-        "total": -5
+        "total": 25
       },
       "T Natarajan": {
         "batting": 0,
@@ -86,14 +86,20 @@
         "bowling": 0,
         "fielding": 0,
         "total": 68
+      },
+      "Mitchell Santner": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 836,
-      "top11Points": 833
+      "totalPointsAll": 868,
+      "top11Points": 863
     },
     {
       "team": "Athu",
@@ -122,8 +128,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 482,
-      "top11Points": 482
+      "totalPointsAll": 490,
+      "top11Points": 490
     },
     {
       "team": "Manav",
@@ -2880,17 +2886,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 122,
-          "w": 4,
-          "o": 15.2
+          "r": 131,
+          "w": 5,
+          "o": 16.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 122,
-          "wickets": 4,
-          "overs": 15.2,
+          "runs": 131,
+          "wickets": 5,
+          "overs": 16.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -2904,11 +2910,11 @@
             {
               "name": "Rohit Sharma",
               "runs": 35,
-              "balls": 25,
+              "balls": 26,
               "fours": 5,
               "sixes": 1,
-              "sr": 140,
-              "dismissal": "batting"
+              "sr": 134.62,
+              "dismissal": "c Nitish Rana b Axar Patel"
             },
             {
               "name": "Tilak Varma",
@@ -2921,11 +2927,29 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 25,
-              "balls": 17,
-              "fours": 2,
+              "runs": 36,
+              "balls": 28,
+              "fours": 3,
               "sixes": 1,
-              "sr": 147.06,
+              "sr": 128.57,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Sherfane Rutherford",
+              "runs": 5,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 71.43,
+              "dismissal": "c Mukesh Kumar b Vipraj Nigam"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 10,
+              "balls": 8,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
@@ -2948,27 +2972,35 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 2.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 6
+              "runs": 22,
+              "wickets": 1,
+              "economy": 5.5
             },
             {
               "name": "Vipraj Nigam",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 0,
-              "economy": 9
+              "runs": 24,
+              "wickets": 1,
+              "economy": 8
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 14,
               "wickets": 0,
-              "economy": 8
+              "economy": 7
+            },
+            {
+              "name": "T Natarajan",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
@@ -2983,8 +3015,8 @@
         "Nitish Rana": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Vipraj Nigam": {
           "batting": 0,
@@ -3018,9 +3050,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 25,
           "fielding": 0,
-          "total": -5
+          "total": 25
         },
         "T Natarajan": {
           "batting": 0,
@@ -3045,6 +3077,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 68
+        },
+        "Mitchell Santner": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -3201,8 +3239,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 482,
-      "top11Points": 482,
+      "totalPointsAll": 490,
+      "top11Points": 490,
       "players": [
         {
           "name": "Yuzvendra Chahal",
@@ -3297,10 +3335,10 @@
           "role": "Batsman",
           "batting": 14,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 14,
+          "fielding": 8,
+          "rawPoints": 22,
           "multiplier": 1,
-          "effectivePoints": 14,
+          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
@@ -4167,8 +4205,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 836,
-      "top11Points": 833,
+      "totalPointsAll": 868,
+      "top11Points": 863,
       "players": [
         {
           "name": "Rinku Singh",
@@ -4179,6 +4217,17 @@
           "rawPoints": 107,
           "multiplier": 1.5,
           "effectivePoints": 161,
+          "countsInTop11": true
+        },
+        {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 115,
+          "fielding": 0,
+          "rawPoints": 115,
+          "multiplier": 1,
+          "effectivePoints": 115,
           "countsInTop11": true
         },
         {
@@ -4223,17 +4272,6 @@
           "rawPoints": 91,
           "multiplier": 1,
           "effectivePoints": 91,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 85,
-          "fielding": 0,
-          "rawPoints": 85,
-          "multiplier": 1,
-          "effectivePoints": 85,
           "countsInTop11": true
         },
         {
@@ -4305,12 +4343,12 @@
         {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 2,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 2,
           "countsInTop11": false
         },
         {
