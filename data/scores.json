@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:45:06.998Z",
+  "lastUpdated": "2026-04-04T15:54:56.801Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527682",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 205,
-        "w": 5,
-        "o": 19.1
+        "r": 210,
+        "w": 6,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -42,8 +42,8 @@
       "Glenn Phillips": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Rahul Tewatia": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 15,
         "fielding": 8,
-        "total": -2
+        "total": 23
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -106,10 +106,16 @@
         "total": 23
       },
       "Ravindra Jadeja": {
-        "batting": 3,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 8
+      },
+      "Jofra Archer": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -126,8 +132,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 706,
-      "top11Points": 706
+      "totalPointsAll": 707,
+      "top11Points": 707
     },
     {
       "team": "Tanay",
@@ -136,8 +142,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 619,
-      "top11Points": 619
+      "totalPointsAll": 629,
+      "top11Points": 629
     },
     {
       "team": "Ritik",
@@ -146,13 +152,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 593,
-      "top11Points": 603
+      "totalPointsAll": 601,
+      "top11Points": 611
     },
     {
       "team": "Ali",
-      "totalPointsAll": 536,
-      "top11Points": 536
+      "totalPointsAll": 561,
+      "top11Points": 561
     },
     {
       "team": "Ashwin",
@@ -3280,17 +3286,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 205,
-          "w": 5,
-          "o": 19.1
+          "r": 210,
+          "w": 6,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 205,
-          "wickets": 5,
-          "overs": 19.1,
+          "runs": 210,
+          "wickets": 6,
+          "overs": 20,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -3312,11 +3318,11 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 42,
-              "balls": 27,
+              "runs": 58,
+              "balls": 33,
               "fours": 4,
-              "sixes": 2,
-              "sr": 155.56,
+              "sixes": 4,
+              "sr": 175.76,
               "dismissal": "batting"
             },
             {
@@ -3340,6 +3346,15 @@
             {
               "name": "Donovan Ferreira",
               "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "c Glenn Phillips b Kagiso Rabada"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 1,
               "balls": 2,
               "fours": 0,
               "sixes": 0,
@@ -3358,19 +3373,19 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
-              "wickets": 1,
-              "economy": 10.33
+              "runs": 42,
+              "wickets": 2,
+              "economy": 10.5
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 2.5,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 24,
+              "runs": 31,
               "wickets": 1,
-              "economy": 8.47
+              "economy": 9.3
             },
             {
               "name": "Prasidh Krishna",
@@ -3419,8 +3434,8 @@
         "Glenn Phillips": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Rahul Tewatia": {
           "batting": 0,
@@ -3436,9 +3451,9 @@
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 15,
           "fielding": 8,
-          "total": -2
+          "total": 23
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -3483,10 +3498,16 @@
           "total": 23
         },
         "Ravindra Jadeja": {
-          "batting": 3,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 8
+        },
+        "Jofra Archer": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -3643,8 +3664,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 706,
-      "top11Points": 706,
+      "totalPointsAll": 707,
+      "top11Points": 707,
       "players": [
         {
           "name": "Sameer Rizvi",
@@ -3682,12 +3703,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 1,
           "bowling": 70,
           "fielding": 0,
-          "rawPoints": 70,
+          "rawPoints": 71,
           "multiplier": 1,
-          "effectivePoints": 70,
+          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -3781,8 +3802,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 536,
-      "top11Points": 536,
+      "totalPointsAll": 561,
+      "top11Points": 561,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -3851,6 +3872,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Siraj",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 8,
+          "rawPoints": 28,
+          "multiplier": 1,
+          "effectivePoints": 28,
+          "countsInTop11": true
+        },
+        {
           "name": "Tim David",
           "role": "Batsman",
           "batting": 24,
@@ -3870,17 +3902,6 @@
           "rawPoints": 4,
           "multiplier": 2,
           "effectivePoints": 8,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Siraj",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 8,
-          "rawPoints": 3,
-          "multiplier": 1,
-          "effectivePoints": 3,
           "countsInTop11": true
         },
         {
@@ -4057,18 +4078,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 619,
-      "top11Points": 619,
+      "totalPointsAll": 629,
+      "top11Points": 629,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 3,
+          "batting": 8,
           "bowling": 70,
           "fielding": 0,
-          "rawPoints": 73,
+          "rawPoints": 78,
           "multiplier": 2,
-          "effectivePoints": 146,
+          "effectivePoints": 156,
           "countsInTop11": true
         },
         {
@@ -4184,8 +4205,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 593,
-      "top11Points": 603,
+      "totalPointsAll": 601,
+      "top11Points": 611,
       "players": [
         {
           "name": "Axar Patel",
@@ -4232,6 +4253,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Glenn Phillips",
+          "role": "All-Rounder",
+          "batting": 28,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 44,
+          "multiplier": 1,
+          "effectivePoints": 44,
+          "countsInTop11": true
+        },
+        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4240,17 +4272,6 @@
           "rawPoints": 37,
           "multiplier": 1,
           "effectivePoints": 37,
-          "countsInTop11": true
-        },
-        {
-          "name": "Glenn Phillips",
-          "role": "All-Rounder",
-          "batting": 28,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 36,
-          "multiplier": 1,
-          "effectivePoints": 36,
           "countsInTop11": true
         },
         {
