@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T13:05:32.867Z",
+  "lastUpdated": "2026-04-05T13:15:11.316Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 105,
+        "r": 114,
         "w": 4,
-        "o": 13.1
+        "o": 15
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Ishan Kishan": {
         "batting": 1,
         "bowling": 0,
-        "fielding": 0,
-        "total": 1
+        "fielding": 20,
+        "total": 21
       },
       "Heinrich Klaasen": {
         "batting": 86,
@@ -76,10 +76,10 @@
         "total": 16
       },
       "Rishabh Pant": {
-        "batting": 34,
+        "batting": 37,
         "bowling": 0,
         "fielding": 26,
-        "total": 60
+        "total": 63
       },
       "Ayush Badoni": {
         "batting": 13,
@@ -94,10 +94,10 @@
         "total": 1
       },
       "Abdul Samad": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 6
       },
       "Avesh Khan": {
         "batting": 0,
@@ -137,8 +137,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 840,
-      "top11Points": 840
+      "totalPointsAll": 860,
+      "top11Points": 860
     },
     {
       "team": "Tanay",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 556,
-      "top11Points": 556
+      "totalPointsAll": 565,
+      "top11Points": 565
     }
   ],
   "matchHistory": [
@@ -3722,9 +3722,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 105,
+          "r": 114,
           "w": 4,
-          "o": 13.1
+          "o": 15
         }
       ],
       "scorecard": [
@@ -3870,18 +3870,18 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 105,
+          "runs": 114,
           "wickets": 4,
-          "overs": 13.1,
+          "overs": 15,
           "batting": [
             {
               "name": "Aiden Markram",
               "runs": 45,
-              "balls": 26,
+              "balls": 27,
               "fours": 6,
               "sixes": 2,
-              "sr": 173.08,
-              "dismissal": "batting"
+              "sr": 166.67,
+              "dismissal": "c Liam Livingstone b Shivang Kumar"
             },
             {
               "name": "Mitchell Marsh",
@@ -3894,22 +3894,49 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 7,
+              "runs": 31,
+              "balls": 27,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 114.81,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ayush Badoni",
+              "runs": 12,
               "balls": 9,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "st Ishan Kishan b Harsh Dubey"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 1,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 77.78,
+              "sr": 25,
+              "dismissal": "run out (Ishan Kishan)"
+            },
+            {
+              "name": "Abdul Samad",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Harsh Dubey",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 0,
-              "economy": 5
+              "runs": 12,
+              "wickets": 1,
+              "economy": 4
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -3929,27 +3956,27 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 14,
               "wickets": 1,
-              "economy": 5
+              "economy": 7
             },
             {
               "name": "Harshal Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 12,
               "wickets": 0,
-              "economy": 4
+              "economy": 6
             },
             {
               "name": "Shivang Kumar",
-              "overs": 0.5,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 9,
-              "wickets": 0,
-              "economy": 10.8
+              "runs": 27,
+              "wickets": 1,
+              "economy": 8.53
             }
           ]
         }
@@ -3970,8 +3997,8 @@
         "Ishan Kishan": {
           "batting": 1,
           "bowling": 0,
-          "fielding": 0,
-          "total": 1
+          "fielding": 20,
+          "total": 21
         },
         "Heinrich Klaasen": {
           "batting": 86,
@@ -4010,10 +4037,10 @@
           "total": 16
         },
         "Rishabh Pant": {
-          "batting": 34,
+          "batting": 37,
           "bowling": 0,
           "fielding": 26,
-          "total": 60
+          "total": 63
         },
         "Ayush Badoni": {
           "batting": 13,
@@ -4028,10 +4055,10 @@
           "total": 1
         },
         "Abdul Samad": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 6
         },
         "Avesh Khan": {
           "batting": 0,
@@ -4482,8 +4509,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 556,
-      "top11Points": 556,
+      "totalPointsAll": 565,
+      "top11Points": 565,
       "players": [
         {
           "name": "Shubman Gill",
@@ -4499,12 +4526,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 42,
+          "batting": 45,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 76,
+          "rawPoints": 79,
           "multiplier": 1,
-          "effectivePoints": 76,
+          "effectivePoints": 79,
           "countsInTop11": true
         },
         {
@@ -4530,6 +4557,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 47,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 55,
+          "multiplier": 1,
+          "effectivePoints": 55,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -4538,17 +4576,6 @@
           "rawPoints": 36,
           "multiplier": 1.5,
           "effectivePoints": 54,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": 41,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 49,
-          "multiplier": 1,
-          "effectivePoints": 49,
           "countsInTop11": true
         },
         {
@@ -4907,18 +4934,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 840,
-      "top11Points": 840,
+      "totalPointsAll": 860,
+      "top11Points": 860,
       "players": [
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
           "batting": 141,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 157,
+          "fielding": 36,
+          "rawPoints": 177,
           "multiplier": 1,
-          "effectivePoints": 157,
+          "effectivePoints": 177,
           "countsInTop11": true
         },
         {
