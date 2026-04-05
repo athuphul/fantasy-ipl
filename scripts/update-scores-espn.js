@@ -933,11 +933,25 @@ function buildOutput(existing, teams, currentMatch) {
     });
 
     playerList.sort((a, b) => b.effectivePoints - a.effectivePoints);
-    playerList.forEach((p, i) => { p.countsInTop11 = i < 11; });
+
+    // Select top 11 with minimum composition: 1 Opener, 1 Batsman, 1 Wicket Keeper,
+    // 1 Fast Bowler, 1 All-Rounder, 1 Spinner. Fill mandatory slots first (best player
+    // per role), then fill remaining 5 slots by highest points from whoever is left.
+    const REQUIRED_ROLES = ['Opener', 'Batsman', 'Wicket Keeper', 'Fast Bowler', 'All-Rounder', 'Spinner'];
+    const selected = new Set();
+    for (const role of REQUIRED_ROLES) {
+      const best = playerList.find(p => p.role === role && !selected.has(p.name));
+      if (best) selected.add(best.name);
+    }
+    for (const p of playerList) {
+      if (selected.size >= 11) break;
+      if (!selected.has(p.name)) selected.add(p.name);
+    }
+    playerList.forEach(p => { p.countsInTop11 = selected.has(p.name); });
 
     teamDetails[team.name] = {
       totalPointsAll: playerList.reduce((sum, p) => sum + p.effectivePoints, 0),
-      top11Points: playerList.slice(0, 11).reduce((sum, p) => sum + p.effectivePoints, 0),
+      top11Points: playerList.filter(p => p.countsInTop11).reduce((sum, p) => sum + p.effectivePoints, 0),
       players: playerList,
     };
   }
