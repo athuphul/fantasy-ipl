@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T17:17:16.369Z",
+  "lastUpdated": "2026-04-05T17:21:47.955Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 157,
+        "r": 165,
         "w": 6,
-        "o": 13.5
+        "o": 15
       }
     ],
     "playerScores": {
@@ -77,9 +77,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 12,
         "fielding": 0,
-        "total": 20
+        "total": 12
       },
       "Sanju Samson": {
         "batting": 11,
@@ -118,10 +118,10 @@
         "total": 40
       },
       "Prashant Veer": {
-        "batting": 49,
+        "batting": 56,
         "bowling": 0,
         "fielding": 0,
-        "total": 49
+        "total": 56
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -171,8 +171,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 822,
-      "top11Points": 816
+      "totalPointsAll": 814,
+      "top11Points": 808
     },
     {
       "team": "Kishan",
@@ -186,8 +186,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 676,
-      "top11Points": 676
+      "totalPointsAll": 683,
+      "top11Points": 683
     }
   ],
   "matchHistory": [
@@ -4135,9 +4135,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 157,
+          "r": 165,
           "w": 6,
-          "o": 13.5
+          "o": 15
         }
       ],
       "scorecard": [
@@ -4246,9 +4246,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 157,
+          "runs": 165,
           "wickets": 6,
-          "overs": 13.5,
+          "overs": 15,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -4306,11 +4306,20 @@
             },
             {
               "name": "Prashant Veer",
-              "runs": 13,
-              "balls": 8,
+              "runs": 19,
+              "balls": 18,
               "fours": 2,
               "sixes": 0,
-              "sr": 162.5,
+              "sr": 105.56,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jamie Overton",
+              "runs": 25,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 277.78,
               "dismissal": "batting"
             }
           ],
@@ -4333,11 +4342,11 @@
             },
             {
               "name": "Abhinandan Singh",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
+              "runs": 27,
               "wickets": 1,
-              "economy": 9.18
+              "economy": 9
             },
             {
               "name": "Krunal Pandya",
@@ -4346,6 +4355,22 @@
               "runs": 18,
               "wickets": 2,
               "economy": 9
+            },
+            {
+              "name": "Suyash Sharma",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 5.5
+            },
+            {
+              "name": "Romario Shepherd",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 19,
+              "wickets": 0,
+              "economy": 19
             }
           ]
         }
@@ -4407,9 +4432,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 12,
           "fielding": 0,
-          "total": 20
+          "total": 12
         },
         "Sanju Samson": {
           "batting": 11,
@@ -4448,10 +4473,10 @@
           "total": 40
         },
         "Prashant Veer": {
-          "batting": 49,
+          "batting": 56,
           "bowling": 0,
           "fielding": 0,
-          "total": 49
+          "total": 56
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -4902,8 +4927,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 676,
-      "top11Points": 676,
+      "totalPointsAll": 683,
+      "top11Points": 683,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -4963,12 +4988,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 56,
+          "batting": 63,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 56,
+          "rawPoints": 63,
           "multiplier": 1,
-          "effectivePoints": 56,
+          "effectivePoints": 63,
           "countsInTop11": true
         },
         {
@@ -5167,8 +5192,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 822,
-      "top11Points": 816,
+      "totalPointsAll": 814,
+      "top11Points": 808,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -5226,19 +5251,19 @@
           "countsInTop11": true
         },
         {
-          "name": "Suyash Sharma",
-          "role": "Spinner",
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 45,
+          "bowling": 37,
           "fielding": 0,
-          "rawPoints": 45,
+          "rawPoints": 37,
           "multiplier": 1,
-          "effectivePoints": 45,
+          "effectivePoints": 37,
           "countsInTop11": true
         },
         {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
+          "name": "Suyash Sharma",
+          "role": "Spinner",
           "batting": 0,
           "bowling": 37,
           "fielding": 0,
