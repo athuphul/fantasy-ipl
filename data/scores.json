@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T14:05:05.317Z",
+  "lastUpdated": "2026-04-05T14:14:53.770Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 5,
+        "r": 17,
         "w": 0,
-        "o": 1
+        "o": 3
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 3,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 7
       },
       "Virat Kohli": {
-        "batting": 2,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 4
       },
       "Sanju Samson": {
         "batting": 0,
@@ -77,9 +77,9 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       }
     }
   },
@@ -101,13 +101,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 860,
-      "top11Points": 860
+      "totalPointsAll": 880,
+      "top11Points": 880
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 801,
-      "top11Points": 801
+      "totalPointsAll": 805,
+      "top11Points": 805
     },
     {
       "team": "Manav",
@@ -116,8 +116,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 653,
-      "top11Points": 653
+      "totalPointsAll": 655,
+      "top11Points": 655
     },
     {
       "team": "Ashwin",
@@ -4063,17 +4063,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 5,
+          "r": 17,
           "w": 0,
-          "o": 1
+          "o": 3
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 5,
+          "runs": 17,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3,
           "batting": [
             {
               "name": "Phil Salt",
@@ -4108,16 +4108,16 @@
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 3,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 7
         },
         "Virat Kohli": {
-          "batting": 2,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 4
         },
         "Sanju Samson": {
           "batting": 0,
@@ -4169,9 +4169,9 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         }
       },
       "isComplete": false
@@ -4742,8 +4742,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 653,
-      "top11Points": 653,
+      "totalPointsAll": 655,
+      "top11Points": 655,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -4770,12 +4770,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 106,
+          "batting": 108,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 114,
+          "rawPoints": 116,
           "multiplier": 1,
-          "effectivePoints": 114,
+          "effectivePoints": 116,
           "countsInTop11": true
         },
         {
@@ -5029,8 +5029,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 860,
-      "top11Points": 860,
+      "totalPointsAll": 880,
+      "top11Points": 880,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -5110,6 +5110,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Khaleel Ahmed",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 40,
+          "fielding": 0,
+          "rawPoints": 40,
+          "multiplier": 1,
+          "effectivePoints": 40,
+          "countsInTop11": true
+        },
+        {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 0,
@@ -5132,17 +5143,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Khaleel Ahmed",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 0,
-          "rawPoints": 20,
-          "multiplier": 1,
-          "effectivePoints": 20,
-          "countsInTop11": true
-        },
-        {
           "name": "Will Jacks",
           "role": "All-Rounder",
           "batting": 0,
@@ -5156,8 +5156,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 801,
-      "top11Points": 801,
+      "totalPointsAll": 805,
+      "top11Points": 805,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -5228,12 +5228,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 13,
+          "batting": 17,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 37,
+          "rawPoints": 41,
           "multiplier": 1,
-          "effectivePoints": 37,
+          "effectivePoints": 41,
           "countsInTop11": true
         },
         {
