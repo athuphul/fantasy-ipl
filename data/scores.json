@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T10:35:08.121Z",
+  "lastUpdated": "2026-04-05T10:44:55.401Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 26,
-        "w": 3,
-        "o": 7
+        "r": 31,
+        "w": 4,
+        "o": 9
       }
     ],
     "playerScores": {
@@ -34,6 +34,12 @@
         "total": 1
       },
       "Heinrich Klaasen": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Nitish Kumar Reddy": {
         "batting": 3,
         "bowling": 0,
         "fielding": 0,
@@ -83,17 +89,17 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       }
     }
   },
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 987,
-      "top11Points": 1012
+      "totalPointsAll": 979,
+      "top11Points": 1004
     },
     {
       "team": "Aakash",
@@ -116,19 +122,19 @@
       "top11Points": 683
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 641,
+      "top11Points": 651
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 650,
       "top11Points": 650
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 638,
-      "top11Points": 648
-    },
-    {
       "team": "Ali",
-      "totalPointsAll": 554,
-      "top11Points": 554
+      "totalPointsAll": 599,
+      "top11Points": 599
     },
     {
       "team": "Ashwin",
@@ -3686,17 +3692,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 26,
-          "w": 3,
-          "o": 7
+          "r": 31,
+          "w": 4,
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 26,
-          "wickets": 3,
-          "overs": 7,
+          "runs": 31,
+          "wickets": 4,
+          "overs": 9,
           "batting": [
             {
               "name": "Travis Head",
@@ -3727,31 +3733,31 @@
             },
             {
               "name": "Liam Livingstone",
-              "runs": 4,
-              "balls": 11,
+              "runs": 14,
+              "balls": 19,
               "fours": 0,
-              "sixes": 0,
-              "sr": 36.36,
+              "sixes": 1,
+              "sr": 73.68,
               "dismissal": "batting"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 0,
-              "balls": 3,
+              "runs": 3,
+              "balls": 9,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 5,
+              "runs": 7,
               "wickets": 2,
-              "economy": 1.88
+              "economy": 2.33
             },
             {
               "name": "Digvesh Rathi",
@@ -3768,6 +3774,22 @@
               "runs": 1,
               "wickets": 1,
               "economy": 1
+            },
+            {
+              "name": "Manimaran Siddharth",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Avesh Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4
             }
           ]
         }
@@ -3792,6 +3814,12 @@
           "total": 1
         },
         "Heinrich Klaasen": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Nitish Kumar Reddy": {
           "batting": 3,
           "bowling": 0,
           "fielding": 0,
@@ -3841,9 +3869,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         }
       },
       "isComplete": false
@@ -3851,8 +3879,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 987,
-      "top11Points": 1012,
+      "totalPointsAll": 979,
+      "top11Points": 1004,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -3890,12 +3918,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 106,
+          "batting": 98,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 122,
+          "rawPoints": 114,
           "multiplier": 1,
-          "effectivePoints": 122,
+          "effectivePoints": 114,
           "countsInTop11": true
         },
         {
@@ -4138,8 +4166,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 554,
-      "top11Points": 554,
+      "totalPointsAll": 599,
+      "top11Points": 599,
       "players": [
         {
           "name": "T Natarajan",
@@ -4183,6 +4211,17 @@
           "rawPoints": 71,
           "multiplier": 1,
           "effectivePoints": 71,
+          "countsInTop11": true
+        },
+        {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
           "countsInTop11": true
         },
         {
@@ -4243,17 +4282,6 @@
         {
           "name": "Aquib Nabi Dar",
           "role": "All-Rounder",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -4541,8 +4569,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 638,
-      "top11Points": 648,
+      "totalPointsAll": 641,
+      "top11Points": 651,
       "players": [
         {
           "name": "Axar Patel",
@@ -4569,12 +4597,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 51,
+          "batting": 54,
           "bowling": 50,
           "fielding": 0,
-          "rawPoints": 101,
+          "rawPoints": 104,
           "multiplier": 1,
-          "effectivePoints": 101,
+          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
