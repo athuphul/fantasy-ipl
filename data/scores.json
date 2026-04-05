@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T10:14:53.162Z",
+  "lastUpdated": "2026-04-05T10:25:06.766Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 9,
-        "w": 2,
-        "o": 2.3
+        "r": 13,
+        "w": 3,
+        "o": 4.4
       }
     ],
     "playerScores": {
@@ -33,6 +33,12 @@
         "fielding": 0,
         "total": 1
       },
+      "Heinrich Klaasen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "Mitchell Marsh": {
         "batting": 0,
         "bowling": 0,
@@ -42,8 +48,8 @@
       "Aiden Markram": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rishabh Pant": {
         "batting": 0,
@@ -71,9 +77,9 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 70,
         "fielding": 0,
-        "total": 50
+        "total": 70
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -90,19 +96,19 @@
       "top11Points": 1009
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 999,
+      "top11Points": 999
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 1033,
       "top11Points": 989
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 979,
-      "top11Points": 979
-    },
-    {
       "team": "Ritik",
-      "totalPointsAll": 772,
-      "top11Points": 772
+      "totalPointsAll": 780,
+      "top11Points": 780
     },
     {
       "team": "Tanay",
@@ -3680,31 +3686,58 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 9,
-          "w": 2,
-          "o": 2.3
+          "r": 13,
+          "w": 3,
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 9,
-          "wickets": 2,
-          "overs": 2.3,
+          "runs": 13,
+          "wickets": 3,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Travis Head",
+              "runs": 7,
+              "balls": 8,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 87.5,
+              "dismissal": "c Aiden Markram b Mohammed Shami"
+            },
+            {
+              "name": "Abhishek Sharma",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Manimaran Siddharth b Mohammed Shami"
+            },
+            {
+              "name": "Ishan Kishan",
               "runs": 1,
               "balls": 4,
               "fours": 0,
               "sixes": 0,
               "sr": 25,
+              "dismissal": "b Prince Yadav"
+            },
+            {
+              "name": "Liam Livingstone",
+              "runs": 4,
+              "balls": 11,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 36.36,
               "dismissal": "batting"
             },
             {
-              "name": "Abhishek Sharma",
+              "name": "Heinrich Klaasen",
               "runs": 0,
-              "balls": 1,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -3714,11 +3747,27 @@
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 0.5,
+              "overs": 2.4,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 2,
+              "economy": 1.88
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
               "maidens": 0,
               "runs": 1,
-              "wickets": 0,
-              "economy": 1.2
+              "wickets": 1,
+              "economy": 1
             }
           ]
         }
@@ -3742,6 +3791,12 @@
           "fielding": 0,
           "total": 1
         },
+        "Heinrich Klaasen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Mitchell Marsh": {
           "batting": 0,
           "bowling": 0,
@@ -3751,8 +3806,8 @@
         "Aiden Markram": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rishabh Pant": {
           "batting": 0,
@@ -3780,9 +3835,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 70,
           "fielding": 0,
-          "total": 50
+          "total": 70
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -3945,8 +4000,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 979,
-      "top11Points": 979,
+      "totalPointsAll": 999,
+      "top11Points": 999,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -3982,6 +4037,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Shami",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 107,
+          "fielding": 0,
+          "rawPoints": 108,
+          "multiplier": 1,
+          "effectivePoints": 108,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -3990,17 +4056,6 @@
           "rawPoints": 107,
           "multiplier": 1,
           "effectivePoints": 107,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Shami",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 87,
-          "fielding": 0,
-          "rawPoints": 88,
-          "multiplier": 1,
-          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
@@ -4646,8 +4701,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 772,
-      "top11Points": 772,
+      "totalPointsAll": 780,
+      "top11Points": 780,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -4738,6 +4793,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Aiden Markram",
+          "role": "Opener",
+          "batting": 14,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 22,
+          "multiplier": 1,
+          "effectivePoints": 22,
+          "countsInTop11": true
+        },
+        {
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
@@ -4746,17 +4812,6 @@
           "rawPoints": 20,
           "multiplier": 1,
           "effectivePoints": 20,
-          "countsInTop11": true
-        },
-        {
-          "name": "Aiden Markram",
-          "role": "Opener",
-          "batting": 14,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 14,
-          "multiplier": 1,
-          "effectivePoints": 14,
           "countsInTop11": true
         },
         {
