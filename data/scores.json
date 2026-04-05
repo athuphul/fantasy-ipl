@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T17:14:58.783Z",
+  "lastUpdated": "2026-04-05T17:17:16.369Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 153,
+        "r": 157,
         "w": 6,
-        "o": 13.3
+        "o": 13.5
       }
     ],
     "playerScores": {
@@ -118,10 +118,10 @@
         "total": 40
       },
       "Prashant Veer": {
-        "batting": 44,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 44
+        "total": 49
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -156,7 +156,7 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 989,
+      "totalPointsAll": 979,
       "top11Points": 989
     },
     {
@@ -186,8 +186,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 671,
-      "top11Points": 671
+      "totalPointsAll": 676,
+      "top11Points": 676
     }
   ],
   "matchHistory": [
@@ -693,6 +693,12 @@
           "fielding": 0,
           "total": 20
         },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "total": -10
+        },
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 15,
@@ -706,7 +712,7 @@
           "total": -5
         }
       },
-      "isComplete": false,
+      "isComplete": true,
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
@@ -2135,7 +2141,7 @@
           "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527679",
@@ -4129,9 +4135,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 153,
+          "r": 157,
           "w": 6,
-          "o": 13.3
+          "o": 13.5
         }
       ],
       "scorecard": [
@@ -4240,9 +4246,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 153,
+          "runs": 157,
           "wickets": 6,
-          "overs": 13.3,
+          "overs": 13.5,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -4300,20 +4306,11 @@
             },
             {
               "name": "Prashant Veer",
-              "runs": 16,
-              "balls": 12,
+              "runs": 13,
+              "balls": 8,
               "fours": 2,
               "sixes": 0,
-              "sr": 133.33,
-              "dismissal": "batting"
-            },
-            {
-              "name": "Jamie Overton",
-              "runs": 19,
-              "balls": 6,
-              "fours": 1,
-              "sixes": 2,
-              "sr": 316.67,
+              "sr": 162.5,
               "dismissal": "batting"
             }
           ],
@@ -4336,11 +4333,11 @@
             },
             {
               "name": "Abhinandan Singh",
-              "overs": 3,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 27,
+              "runs": 26,
               "wickets": 1,
-              "economy": 9
+              "economy": 9.18
             },
             {
               "name": "Krunal Pandya",
@@ -4349,22 +4346,6 @@
               "runs": 18,
               "wickets": 2,
               "economy": 9
-            },
-            {
-              "name": "Suyash Sharma",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 8
-            },
-            {
-              "name": "Romario Shepherd",
-              "overs": 0.3,
-              "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 26
             }
           ]
         }
@@ -4467,10 +4448,10 @@
           "total": 40
         },
         "Prashant Veer": {
-          "batting": 44,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 44
+          "total": 49
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -4645,7 +4626,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 989,
+      "totalPointsAll": 979,
       "top11Points": 989,
       "players": [
         {
@@ -4748,17 +4729,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Varun Chakaravarthy",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
           "name": "Rachin Ravindra",
           "role": "All-Rounder",
           "batting": 0,
@@ -4779,6 +4749,17 @@
           "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": true
+        },
+        {
+          "name": "Varun Chakaravarthy",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
+          "countsInTop11": false
         }
       ]
     },
@@ -4921,8 +4902,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 671,
-      "top11Points": 671,
+      "totalPointsAll": 676,
+      "top11Points": 676,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -4980,6 +4961,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prashant Veer",
+          "role": "All-Rounder",
+          "batting": 56,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 56,
+          "multiplier": 1,
+          "effectivePoints": 56,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -4988,17 +4980,6 @@
           "rawPoints": 36,
           "multiplier": 1.5,
           "effectivePoints": 54,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prashant Veer",
-          "role": "All-Rounder",
-          "batting": 51,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 51,
-          "multiplier": 1,
-          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
