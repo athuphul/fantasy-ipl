@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T11:35:10.014Z",
+  "lastUpdated": "2026-04-05T11:44:54.296Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 144,
-        "w": 6,
-        "o": 18.1
+        "r": 155,
+        "w": 8,
+        "o": 19.5
       }
     ],
     "playerScores": {
@@ -45,6 +45,18 @@
         "fielding": 0,
         "total": 84
       },
+      "Harsh Dubey": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Harshal Patel": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
       "Mitchell Marsh": {
         "batting": 0,
         "bowling": 0,
@@ -60,8 +72,8 @@
       "Rishabh Pant": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -77,9 +89,9 @@
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 50,
         "fielding": 0,
-        "total": 20
+        "total": 50
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -104,7 +116,7 @@
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1070,
+      "totalPointsAll": 1075,
       "top11Points": 1095
     },
     {
@@ -129,8 +141,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 703,
-      "top11Points": 703
+      "totalPointsAll": 728,
+      "top11Points": 728
     },
     {
       "team": "Kishan",
@@ -144,8 +156,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 504,
-      "top11Points": 504
+      "totalPointsAll": 512,
+      "top11Points": 512
     }
   ],
   "matchHistory": [
@@ -3698,17 +3710,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 144,
-          "w": 6,
-          "o": 18.1
+          "r": 155,
+          "w": 8,
+          "o": 19.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 144,
-          "wickets": 6,
-          "overs": 18.1,
+          "runs": 155,
+          "wickets": 8,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Travis Head",
@@ -3748,20 +3760,56 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 50,
-              "balls": 33,
-              "fours": 4,
+              "runs": 62,
+              "balls": 41,
+              "fours": 5,
               "sixes": 2,
-              "sr": 151.52,
-              "dismissal": "batting"
+              "sr": 151.22,
+              "dismissal": "c Rishabh Pant b Avesh Khan"
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 49,
-              "balls": 29,
+              "runs": 56,
+              "balls": 33,
               "fours": 3,
-              "sixes": 4,
-              "sr": 168.97,
+              "sixes": 5,
+              "sr": 169.7,
+              "dismissal": "c Prince Yadav b Manimaran Siddharth"
+            },
+            {
+              "name": "Aniket Verma",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Harsh Dubey",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Avesh Khan"
+            },
+            {
+              "name": "Shivang Kumar",
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "b Prince Yadav"
+            },
+            {
+              "name": "Harshal Patel",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -3784,27 +3832,27 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 26,
-              "wickets": 1,
-              "economy": 8.67
+              "runs": 34,
+              "wickets": 2,
+              "economy": 8.87
             },
             {
               "name": "Manimaran Siddharth",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 0,
-              "economy": 6.33
+              "runs": 29,
+              "wickets": 1,
+              "economy": 7.25
             },
             {
               "name": "Avesh Khan",
-              "overs": 2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 0,
-              "economy": 11.5
+              "runs": 36,
+              "wickets": 2,
+              "economy": 9
             }
           ]
         }
@@ -3840,6 +3888,18 @@
           "fielding": 0,
           "total": 84
         },
+        "Harsh Dubey": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Harshal Patel": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
         "Mitchell Marsh": {
           "batting": 0,
           "bowling": 0,
@@ -3855,8 +3915,8 @@
         "Rishabh Pant": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -3872,9 +3932,9 @@
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 50,
           "fielding": 0,
-          "total": 20
+          "total": 50
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -3900,7 +3960,7 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1070,
+      "totalPointsAll": 1075,
       "top11Points": 1095,
       "players": [
         {
@@ -4038,12 +4098,12 @@
         {
           "name": "Harshal Patel",
           "role": "Fast Bowler",
-          "batting": -5,
+          "batting": 0,
           "bowling": -15,
           "fielding": 0,
-          "rawPoints": -20,
+          "rawPoints": -15,
           "multiplier": 1,
-          "effectivePoints": -20,
+          "effectivePoints": -15,
           "countsInTop11": false
         }
       ]
@@ -4325,8 +4385,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 504,
-      "top11Points": 504,
+      "totalPointsAll": 512,
+      "top11Points": 512,
       "players": [
         {
           "name": "Shubman Gill",
@@ -4410,10 +4470,10 @@
           "role": "Wicket Keeper",
           "batting": 8,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 24,
+          "fielding": 24,
+          "rawPoints": 32,
           "multiplier": 1,
-          "effectivePoints": 24,
+          "effectivePoints": 32,
           "countsInTop11": true
         },
         {
@@ -4877,8 +4937,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 703,
-      "top11Points": 703,
+      "totalPointsAll": 728,
+      "top11Points": 728,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -4905,12 +4965,12 @@
         {
           "name": "Harsh Dubey",
           "role": "All-Rounder",
-          "batting": 14,
+          "batting": 9,
           "bowling": 45,
           "fielding": 8,
-          "rawPoints": 67,
+          "rawPoints": 62,
           "multiplier": 1,
-          "effectivePoints": 67,
+          "effectivePoints": 62,
           "countsInTop11": true
         },
         {
@@ -4922,6 +4982,17 @@
           "rawPoints": 54,
           "multiplier": 1,
           "effectivePoints": 54,
+          "countsInTop11": true
+        },
+        {
+          "name": "Avesh Khan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 50,
+          "fielding": 0,
+          "rawPoints": 50,
+          "multiplier": 1,
+          "effectivePoints": 50,
           "countsInTop11": true
         },
         {
@@ -4966,17 +5037,6 @@
           "rawPoints": 21,
           "multiplier": 1,
           "effectivePoints": 21,
-          "countsInTop11": true
-        },
-        {
-          "name": "Avesh Khan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 0,
-          "rawPoints": 20,
-          "multiplier": 1,
-          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
