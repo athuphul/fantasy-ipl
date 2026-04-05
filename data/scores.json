@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T11:14:52.785Z",
+  "lastUpdated": "2026-04-05T11:24:59.834Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 107,
+        "r": 124,
         "w": 4,
-        "o": 14.4
+        "o": 16.1
       }
     ],
     "playerScores": {
@@ -34,16 +34,16 @@
         "total": 1
       },
       "Heinrich Klaasen": {
-        "batting": 48,
+        "batting": 74,
         "bowling": 0,
         "fielding": 0,
-        "total": 48
+        "total": 74
       },
       "Nitish Kumar Reddy": {
-        "batting": 56,
+        "batting": 65,
         "bowling": 0,
         "fielding": 0,
-        "total": 56
+        "total": 65
       },
       "Mitchell Marsh": {
         "batting": 0,
@@ -104,8 +104,8 @@
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1032,
-      "top11Points": 1057
+      "totalPointsAll": 1058,
+      "top11Points": 1083
     },
     {
       "team": "Aakash",
@@ -124,8 +124,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 694,
-      "top11Points": 704
+      "totalPointsAll": 703,
+      "top11Points": 713
     },
     {
       "team": "Tanay",
@@ -3698,17 +3698,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 107,
+          "r": 124,
           "w": 4,
-          "o": 14.4
+          "o": 16.1
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 107,
+          "runs": 124,
           "wickets": 4,
-          "overs": 14.4,
+          "overs": 16.1,
           "batting": [
             {
               "name": "Travis Head",
@@ -3748,20 +3748,20 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 21,
-              "balls": 21,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 100,
+              "runs": 50,
+              "balls": 33,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 151.52,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 29,
-              "balls": 23,
+              "runs": 49,
+              "balls": 29,
               "fours": 3,
-              "sixes": 1,
-              "sr": 126.09,
+              "sixes": 4,
+              "sr": 168.97,
               "dismissal": "batting"
             }
           ],
@@ -3776,19 +3776,19 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
+              "runs": 46,
               "wickets": 1,
-              "economy": 8
+              "economy": 11.5
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 26,
               "wickets": 1,
-              "economy": 8.5
+              "economy": 8.67
             },
             {
               "name": "Manimaran Siddharth",
@@ -3800,11 +3800,11 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 23,
               "wickets": 0,
-              "economy": 4
+              "economy": 11.5
             }
           ]
         }
@@ -3829,16 +3829,16 @@
           "total": 1
         },
         "Heinrich Klaasen": {
-          "batting": 48,
+          "batting": 74,
           "bowling": 0,
           "fielding": 0,
-          "total": 48
+          "total": 74
         },
         "Nitish Kumar Reddy": {
-          "batting": 56,
+          "batting": 65,
           "bowling": 0,
           "fielding": 0,
-          "total": 56
+          "total": 65
         },
         "Mitchell Marsh": {
           "batting": 0,
@@ -3900,9 +3900,20 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1032,
-      "top11Points": 1057,
+      "totalPointsAll": 1058,
+      "top11Points": 1083,
       "players": [
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Wicket Keeper",
+          "batting": 177,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 193,
+          "multiplier": 1,
+          "effectivePoints": 193,
+          "countsInTop11": true
+        },
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
@@ -3923,17 +3934,6 @@
           "rawPoints": 168,
           "multiplier": 1,
           "effectivePoints": 168,
-          "countsInTop11": true
-        },
-        {
-          "name": "Heinrich Klaasen",
-          "role": "Wicket Keeper",
-          "batting": 151,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 167,
-          "multiplier": 1,
-          "effectivePoints": 167,
           "countsInTop11": true
         },
         {
@@ -4590,8 +4590,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 694,
-      "top11Points": 704,
+      "totalPointsAll": 703,
+      "top11Points": 713,
       "players": [
         {
           "name": "Axar Patel",
@@ -4618,12 +4618,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 107,
+          "batting": 116,
           "bowling": 50,
           "fielding": 0,
-          "rawPoints": 157,
+          "rawPoints": 166,
           "multiplier": 1,
-          "effectivePoints": 157,
+          "effectivePoints": 166,
           "countsInTop11": true
         },
         {
