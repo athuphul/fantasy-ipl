@@ -548,6 +548,57 @@ tbody tr {
   border-color: var(--live);
 }
 
+#current-match .current-match-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#current-match .current-match-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+#current-match .current-match-summary {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+#current-match:not(.collapsed) .current-match-summary {
+  opacity: 0;
+}
+
+#current-match .collapse-chevron {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--text-muted);
+  border-bottom: 2px solid var(--text-muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+#current-match.collapsed .collapse-chevron {
+  transform: rotate(-45deg);
+}
+
+#current-match .current-match-body {
+  overflow: hidden;
+  max-height: 2000px;
+  transition: max-height 0.3s ease, opacity 0.2s ease;
+  opacity: 1;
+}
+
+#current-match.collapsed .current-match-body {
+  max-height: 0;
+  opacity: 0;
+}
+
 #current-match.countdown-mode {
   border-color: var(--captain);
 }

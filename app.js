@@ -113,13 +113,27 @@ function renderCurrentMatch() {
     el.classList.remove('hidden', 'countdown-mode');
     const m = data.currentMatch;
     const teams = matchTeams(m.name);
-    let html = `<h3><span class="live-dot"></span>`;
+
+    // Header bar (always visible, clickable to toggle)
+    let headerText = '';
     if (teams.length === 2) {
-      html += `${teamLogo(teams[0], 20)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 20)}`;
+      headerText = `${teamLogo(teams[0], 20)} ${teams[0]} vs ${teams[1]} ${teamLogo(teams[1], 20)}`;
     } else {
-      html += m.name;
+      headerText = m.name;
     }
-    html += `</h3>`;
+    let scoreSnippet = '';
+    if (m.score) {
+      scoreSnippet = m.score.map(s => `${s.r}/${s.w}`).join(' &middot; ');
+    }
+
+    let html = `<div class="current-match-header" onclick="document.getElementById('current-match').classList.toggle('collapsed')">`;
+    html += `<h3><span class="live-dot"></span>${headerText}</h3>`;
+    html += `<span class="current-match-summary">${scoreSnippet}</span>`;
+    html += `<span class="collapse-chevron"></span>`;
+    html += `</div>`;
+
+    // Collapsible body
+    html += `<div class="current-match-body">`;
     html += `<p style="font-size:0.8rem;color:var(--text-muted)">${m.venue || ''}</p>`;
     html += `<p style="font-size:0.8rem;color:var(--text-secondary)">${m.status}</p>`;
     if (m.score) {
@@ -131,7 +145,18 @@ function renderCurrentMatch() {
     if (matchEntry?.scorecard) {
       html += renderCombinedScorecard(matchEntry);
     }
+    html += `</div>`;
+
     el.innerHTML = html;
+
+    // Auto-expand on Matches tab, collapse on others
+    const activeView = document.querySelector('.nav-btn.active')?.dataset.view;
+    if (activeView === 'all-matches') {
+      el.classList.remove('collapsed');
+    } else {
+      el.classList.add('collapsed');
+    }
+
     if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
     return;
   }
@@ -946,6 +971,13 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.classList.add('active');
     allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
     document.getElementById(btn.dataset.view).classList.remove('hidden');
+    // Auto-expand live match on Matches tab, collapse on others
+    const cm = document.getElementById('current-match');
+    if (btn.dataset.view === 'all-matches') {
+      cm.classList.remove('collapsed');
+    } else {
+      cm.classList.add('collapsed');
+    }
   });
 });
 
