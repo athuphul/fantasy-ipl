@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T15:25:08.088Z",
+  "lastUpdated": "2026-04-05T15:35:00.297Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 162,
+        "r": 197,
         "w": 3,
-        "o": 15.3
+        "o": 17.1
       }
     ],
     "playerScores": {
@@ -34,16 +34,16 @@
         "total": 74
       },
       "Rajat Patidar": {
-        "batting": 53,
+        "batting": 66,
         "bowling": 0,
         "fielding": 0,
-        "total": 53
+        "total": 66
       },
       "Tim David": {
-        "batting": 2,
+        "batting": 48,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 48
       },
       "Sanju Samson": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 8,
-        "total": 8
+        "total": -2
       },
       "Matt Henry": {
         "batting": 0,
@@ -95,9 +95,15 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
+      },
+      "Kartik Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -109,7 +115,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1059,
+      "totalPointsAll": 1049,
       "top11Points": 1007
     },
     {
@@ -119,13 +125,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 909,
-      "top11Points": 909
+      "totalPointsAll": 922,
+      "top11Points": 922
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 865,
-      "top11Points": 865
+      "totalPointsAll": 860,
+      "top11Points": 860
     },
     {
       "team": "Kishan",
@@ -138,14 +144,14 @@
       "top11Points": 740
     },
     {
+      "team": "Ali",
+      "totalPointsAll": 638,
+      "top11Points": 638
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 627,
       "top11Points": 627
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 592,
-      "top11Points": 592
     }
   ],
   "matchHistory": [
@@ -4081,17 +4087,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 162,
+          "r": 197,
           "w": 3,
-          "o": 15.3
+          "o": 17.1
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 162,
+          "runs": 197,
           "wickets": 3,
-          "overs": 15.3,
+          "overs": 17.1,
           "batting": [
             {
               "name": "Phil Salt",
@@ -4113,63 +4119,72 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 43,
-              "balls": 24,
-              "fours": 4,
+              "runs": 50,
+              "balls": 29,
+              "fours": 5,
               "sixes": 2,
-              "sr": 179.17,
-              "dismissal": "batting"
+              "sr": 172.41,
+              "dismissal": "b Jamie Overton"
             },
             {
               "name": "Rajat Patidar",
-              "runs": 16,
-              "balls": 6,
-              "fours": 0,
-              "sixes": 2,
+              "runs": 40,
+              "balls": 15,
+              "fours": 1,
+              "sixes": 5,
               "sr": 266.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tim David",
+              "runs": 26,
+              "balls": 12,
+              "fours": 1,
+              "sixes": 3,
+              "sr": 216.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Khaleel Ahmed",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 37,
               "wickets": 0,
-              "economy": 6
+              "economy": 9.25
             },
             {
               "name": "Matt Henry",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 36,
               "wickets": 0,
-              "economy": 11
+              "economy": 12
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 25,
+              "runs": 29,
               "wickets": 1,
-              "economy": 12.5
+              "economy": 12.43
             },
             {
               "name": "Noor Ahmad",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
+              "runs": 49,
               "wickets": 0,
-              "economy": 9.67
+              "economy": 12.25
             },
             {
               "name": "Jamie Overton",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
-              "wickets": 0,
-              "economy": 11
+              "runs": 12,
+              "wickets": 1,
+              "economy": 6
             },
             {
               "name": "Shivam Dube",
@@ -4202,16 +4217,16 @@
           "total": 74
         },
         "Rajat Patidar": {
-          "batting": 53,
+          "batting": 66,
           "bowling": 0,
           "fielding": 0,
-          "total": 53
+          "total": 66
         },
         "Tim David": {
-          "batting": 2,
+          "batting": 48,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 48
         },
         "Sanju Samson": {
           "batting": 0,
@@ -4251,9 +4266,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 8,
-          "total": 8
+          "total": -2
         },
         "Matt Henry": {
           "batting": 0,
@@ -4263,9 +4278,15 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
+        },
+        "Kartik Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -4560,8 +4581,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 592,
-      "top11Points": 592,
+      "totalPointsAll": 638,
+      "top11Points": 638,
       "players": [
         {
           "name": "T Natarajan",
@@ -4594,6 +4615,17 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
+          "countsInTop11": true
+        },
+        {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 72,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 72,
+          "multiplier": 1,
+          "effectivePoints": 72,
           "countsInTop11": true
         },
         {
@@ -4638,17 +4670,6 @@
           "rawPoints": 28,
           "multiplier": 1,
           "effectivePoints": 28,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 26,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 26,
-          "multiplier": 1,
-          "effectivePoints": 26,
           "countsInTop11": true
         },
         {
@@ -5123,8 +5144,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 865,
-      "top11Points": 865,
+      "totalPointsAll": 860,
+      "top11Points": 860,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -5229,11 +5250,11 @@
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "rawPoints": 25,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 25,
+          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -5250,8 +5271,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 909,
-      "top11Points": 909,
+      "totalPointsAll": 922,
+      "top11Points": 922,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -5289,12 +5310,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 107,
+          "batting": 120,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 107,
+          "rawPoints": 120,
           "multiplier": 1,
-          "effectivePoints": 107,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -5388,7 +5409,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1059,
+      "totalPointsAll": 1049,
       "top11Points": 1007,
       "players": [
         {
@@ -5538,11 +5559,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 1,
-          "bowling": -10,
+          "bowling": -20,
           "fielding": 16,
-          "rawPoints": 7,
+          "rawPoints": -3,
           "multiplier": 1,
-          "effectivePoints": 7,
+          "effectivePoints": -3,
           "countsInTop11": false
         }
       ]
