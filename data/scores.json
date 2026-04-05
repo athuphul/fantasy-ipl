@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T14:14:53.770Z",
+  "lastUpdated": "2026-04-05T14:24:54.492Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -9,23 +9,29 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 17,
-        "w": 0,
-        "o": 3
+        "r": 42,
+        "w": 1,
+        "o": 4.5
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 7,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 13
       },
       "Virat Kohli": {
-        "batting": 4,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 37
+      },
+      "Devdutt Padikkal": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Sanju Samson": {
         "batting": 0,
@@ -71,9 +77,9 @@
       },
       "Matt Henry": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -91,8 +97,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 999,
-      "top11Points": 999
+      "totalPointsAll": 994,
+      "top11Points": 994
     },
     {
       "team": "Tikoo",
@@ -106,8 +112,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 805,
-      "top11Points": 805
+      "totalPointsAll": 811,
+      "top11Points": 811
     },
     {
       "team": "Manav",
@@ -116,8 +122,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 655,
-      "top11Points": 655
+      "totalPointsAll": 689,
+      "top11Points": 689
     },
     {
       "team": "Ashwin",
@@ -4063,17 +4069,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 17,
-          "w": 0,
-          "o": 3
+          "r": 42,
+          "w": 1,
+          "o": 4.5
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 17,
-          "wickets": 0,
-          "overs": 3,
+          "runs": 42,
+          "wickets": 1,
+          "overs": 4.5,
           "batting": [
             {
               "name": "Phil Salt",
@@ -4108,16 +4114,22 @@
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 7,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 13
         },
         "Virat Kohli": {
-          "batting": 4,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 37
+        },
+        "Devdutt Padikkal": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Sanju Samson": {
           "batting": 0,
@@ -4163,9 +4175,9 @@
         },
         "Matt Henry": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -4328,8 +4340,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 999,
-      "top11Points": 999,
+      "totalPointsAll": 994,
+      "top11Points": 994,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -4398,17 +4410,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Matt Henry",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": 30,
-          "fielding": 8,
-          "rawPoints": 44,
-          "multiplier": 1,
-          "effectivePoints": 44,
-          "countsInTop11": true
-        },
-        {
           "name": "Tilak Varma",
           "role": "Batsman",
           "batting": 19,
@@ -4417,6 +4418,17 @@
           "rawPoints": 43,
           "multiplier": 1,
           "effectivePoints": 43,
+          "countsInTop11": true
+        },
+        {
+          "name": "Matt Henry",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": 25,
+          "fielding": 8,
+          "rawPoints": 39,
+          "multiplier": 1,
+          "effectivePoints": 39,
           "countsInTop11": true
         },
         {
@@ -4742,8 +4754,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 655,
-      "top11Points": 655,
+      "totalPointsAll": 689,
+      "top11Points": 689,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -4757,25 +4769,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Devdutt Padikkal",
-          "role": "Batsman",
-          "batting": 101,
+          "name": "Virat Kohli",
+          "role": "Opener",
+          "batting": 141,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 125,
+          "fielding": 8,
+          "rawPoints": 149,
           "multiplier": 1,
-          "effectivePoints": 125,
+          "effectivePoints": 149,
           "countsInTop11": true
         },
         {
-          "name": "Virat Kohli",
-          "role": "Opener",
-          "batting": 108,
+          "name": "Devdutt Padikkal",
+          "role": "Batsman",
+          "batting": 102,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 116,
+          "fielding": 24,
+          "rawPoints": 126,
           "multiplier": 1,
-          "effectivePoints": 116,
+          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
@@ -5156,8 +5168,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 805,
-      "top11Points": 805,
+      "totalPointsAll": 811,
+      "top11Points": 811,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -5215,22 +5227,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Phil Salt",
+          "role": "Opener",
+          "batting": 23,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 47,
+          "multiplier": 1,
+          "effectivePoints": 47,
+          "countsInTop11": true
+        },
+        {
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 33,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 41,
-          "multiplier": 1,
-          "effectivePoints": 41,
-          "countsInTop11": true
-        },
-        {
-          "name": "Phil Salt",
-          "role": "Opener",
-          "batting": 17,
-          "bowling": 0,
-          "fielding": 24,
           "rawPoints": 41,
           "multiplier": 1,
           "effectivePoints": 41,
