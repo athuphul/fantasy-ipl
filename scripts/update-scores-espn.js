@@ -715,13 +715,15 @@ function correctFieldingFromScorecard(scorecard, playerScores, allPlayers) {
   const scorecardFielding = {};  // rosterName -> catch/stumping points
   for (const [name, count] of Object.entries(catchCount)) {
     const roster = findRoster(name);
-    if (roster && playerScores[roster]) {
+    if (roster) {
+      if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
       scorecardFielding[roster] = (scorecardFielding[roster] || 0) + (count * 8);
     }
   }
   for (const [name, count] of Object.entries(stumpCount)) {
     const roster = findRoster(name);
-    if (roster && playerScores[roster]) {
+    if (roster) {
+      if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
       scorecardFielding[roster] = (scorecardFielding[roster] || 0) + (count * 10);
     }
   }
@@ -736,13 +738,15 @@ function correctFieldingFromScorecard(scorecard, playerScores, allPlayers) {
         const fielders = roMatch[1].split('/').map(f => f.trim());
         if (fielders[0]) {
           const roster = findRoster(fielders[0]);
-          if (roster && playerScores[roster]) {
+          if (roster) {
+            if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
             runOutCredits[roster] = (runOutCredits[roster] || 0) + 10;
           }
         }
         if (fielders[1]) {
           const roster = findRoster(fielders[1]);
-          if (roster && playerScores[roster]) {
+          if (roster) {
+            if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
             runOutCredits[roster] = (runOutCredits[roster] || 0) + 5;
           }
         }
