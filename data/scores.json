@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T16:34:54.228Z",
+  "lastUpdated": "2026-04-05T16:44:54.765Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 76,
-        "w": 3,
-        "o": 5.5
+        "r": 90,
+        "w": 5,
+        "o": 7.3
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Devdutt Padikkal": {
         "batting": 74,
         "bowling": 0,
-        "fielding": 16,
-        "total": 90
+        "fielding": 8,
+        "total": 82
       },
       "Rajat Patidar": {
         "batting": 76,
@@ -65,9 +65,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 1
       },
       "Sarfaraz Khan": {
-        "batting": 76,
+        "batting": 87,
         "bowling": 0,
         "fielding": 0,
-        "total": 76
+        "total": 87
       },
       "Kartik Sharma": {
         "batting": 8,
@@ -106,16 +106,16 @@
         "total": 8
       },
       "Shivam Dube": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 10,
         "fielding": 8,
-        "total": 18
+        "total": 28
       },
       "Prashant Veer": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 6
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -140,8 +140,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1147,
-      "top11Points": 1105
+      "totalPointsAll": 1168,
+      "top11Points": 1126
     },
     {
       "team": "Athu",
@@ -165,13 +165,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 803,
-      "top11Points": 803
+      "totalPointsAll": 795,
+      "top11Points": 795
     },
     {
       "team": "Manav",
-      "totalPointsAll": 744,
-      "top11Points": 754
+      "totalPointsAll": 794,
+      "top11Points": 794
     },
     {
       "team": "Ali",
@@ -180,8 +180,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 627,
-      "top11Points": 627
+      "totalPointsAll": 633,
+      "top11Points": 633
     }
   ],
   "matchHistory": [
@@ -4123,9 +4123,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 76,
-          "w": 3,
-          "o": 5.5
+          "r": 90,
+          "w": 5,
+          "o": 7.3
         }
       ],
       "scorecard": [
@@ -4234,18 +4234,18 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 76,
-          "wickets": 3,
-          "overs": 5.5,
+          "runs": 90,
+          "wickets": 5,
+          "overs": 7.3,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 9,
-              "balls": 5,
+              "runs": 2,
+              "balls": 2,
               "fours": 0,
-              "sixes": 1,
-              "sr": 180,
-              "dismissal": "c Devdutt Padikkal b Jacob Duffy"
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
@@ -4267,39 +4267,30 @@
             },
             {
               "name": "Sarfaraz Khan",
-              "runs": 22,
-              "balls": 12,
-              "fours": 4,
-              "sixes": 1,
-              "sr": 183.33,
-              "dismissal": "batting"
-            },
-            {
-              "name": "Kartik Sharma",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jacob Duffy",
-              "overs": 2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 2,
-              "economy": 10.5
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
             },
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 2,
+              "overs": 0.4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 4,
               "wickets": 1,
-              "economy": 9
+              "economy": 6
             }
           ]
         }
@@ -4320,8 +4311,8 @@
         "Devdutt Padikkal": {
           "batting": 74,
           "bowling": 0,
-          "fielding": 16,
-          "total": 90
+          "fielding": 8,
+          "total": 82
         },
         "Rajat Patidar": {
           "batting": 76,
@@ -4349,9 +4340,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -4378,10 +4369,10 @@
           "total": 1
         },
         "Sarfaraz Khan": {
-          "batting": 76,
+          "batting": 87,
           "bowling": 0,
           "fielding": 0,
-          "total": 76
+          "total": 87
         },
         "Kartik Sharma": {
           "batting": 8,
@@ -4390,16 +4381,16 @@
           "total": 8
         },
         "Shivam Dube": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 10,
           "fielding": 8,
-          "total": 18
+          "total": 28
         },
         "Prashant Veer": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 6
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -4850,8 +4841,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 627,
-      "top11Points": 627,
+      "totalPointsAll": 633,
+      "top11Points": 633,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -4955,12 +4946,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 7,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 7,
+          "rawPoints": 13,
           "multiplier": 1,
-          "effectivePoints": 7,
+          "effectivePoints": 13,
           "countsInTop11": true
         },
         {
@@ -4988,18 +4979,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 803,
-      "top11Points": 803,
+      "totalPointsAll": 795,
+      "top11Points": 795,
       "players": [
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
           "batting": 175,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 215,
+          "fielding": 32,
+          "rawPoints": 207,
           "multiplier": 1,
-          "effectivePoints": 215,
+          "effectivePoints": 207,
           "countsInTop11": true
         },
         {
@@ -5115,8 +5106,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 744,
-      "top11Points": 754,
+      "totalPointsAll": 794,
+      "top11Points": 794,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -5171,6 +5162,17 @@
           "rawPoints": 47,
           "multiplier": 1,
           "effectivePoints": 47,
+          "countsInTop11": true
+        },
+        {
+          "name": "Krunal Pandya",
+          "role": "All-Rounder",
+          "batting": 0,
+          "bowling": 40,
+          "fielding": 0,
+          "rawPoints": 40,
+          "multiplier": 1,
+          "effectivePoints": 40,
           "countsInTop11": true
         },
         {
@@ -5237,7 +5239,7 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": true
+          "countsInTop11": false
         },
         {
           "name": "Quinton de Kock",
@@ -5259,17 +5261,6 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
-          "countsInTop11": false
-        },
-        {
-          "name": "Krunal Pandya",
-          "role": "All-Rounder",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "rawPoints": -10,
-          "multiplier": 1,
-          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
@@ -5540,18 +5531,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1147,
-      "top11Points": 1105,
+      "totalPointsAll": 1168,
+      "top11Points": 1126,
       "players": [
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 152,
+          "batting": 163,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 170,
+          "rawPoints": 181,
           "multiplier": 1,
-          "effectivePoints": 170,
+          "effectivePoints": 181,
           "countsInTop11": true
         },
         {
@@ -5612,12 +5603,12 @@
         {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 65,
+          "batting": 75,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 83,
+          "rawPoints": 93,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 93,
           "countsInTop11": true
         },
         {
