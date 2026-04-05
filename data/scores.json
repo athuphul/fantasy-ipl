@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T12:34:52.750Z",
+  "lastUpdated": "2026-04-05T12:44:53.779Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527683",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 66,
+        "r": 77,
         "w": 1,
-        "o": 7.5
+        "o": 9.1
       }
     ],
     "playerScores": {
@@ -48,8 +48,8 @@
       "Nitish Kumar Reddy": {
         "batting": 84,
         "bowling": 0,
-        "fielding": 0,
-        "total": 84
+        "fielding": 8,
+        "total": 92
       },
       "Harsh Dubey": {
         "batting": -5,
@@ -76,10 +76,10 @@
         "total": 16
       },
       "Rishabh Pant": {
-        "batting": 7,
+        "batting": 18,
         "bowling": 0,
         "fielding": 26,
-        "total": 33
+        "total": 44
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -147,8 +147,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 722,
-      "top11Points": 732
+      "totalPointsAll": 730,
+      "top11Points": 740
     },
     {
       "team": "Kishan",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 529,
-      "top11Points": 529
+      "totalPointsAll": 540,
+      "top11Points": 540
     }
   ],
   "matchHistory": [
@@ -3722,9 +3722,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 66,
+          "r": 77,
           "w": 1,
-          "o": 7.5
+          "o": 9.1
         }
       ],
       "scorecard": [
@@ -3870,26 +3870,35 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 66,
+          "runs": 77,
           "wickets": 1,
-          "overs": 7.5,
+          "overs": 9.1,
           "batting": [
             {
               "name": "Aiden Markram",
-              "runs": 23,
-              "balls": 16,
-              "fours": 3,
+              "runs": 31,
+              "balls": 20,
+              "fours": 5,
               "sixes": 1,
-              "sr": 143.75,
+              "sr": 155,
               "dismissal": "batting"
             },
             {
               "name": "Mitchell Marsh",
-              "runs": 9,
-              "balls": 7,
-              "fours": 1,
+              "runs": 14,
+              "balls": 12,
+              "fours": 2,
               "sixes": 0,
-              "sr": 128.57,
+              "sr": 116.67,
+              "dismissal": "c Nitish Reddy b Eshan Malinga"
+            },
+            {
+              "name": "Rishabh Pant",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
@@ -3912,11 +3921,19 @@
             },
             {
               "name": "Jaydev Unadkat",
-              "overs": 0.5,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 8,
+              "runs": 18,
               "wickets": 0,
-              "economy": 9.6
+              "economy": 9.82
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 5
             }
           ]
         }
@@ -3949,8 +3966,8 @@
         "Nitish Kumar Reddy": {
           "batting": 84,
           "bowling": 0,
-          "fielding": 0,
-          "total": 84
+          "fielding": 8,
+          "total": 92
         },
         "Harsh Dubey": {
           "batting": -5,
@@ -3977,10 +3994,10 @@
           "total": 16
         },
         "Rishabh Pant": {
-          "batting": 7,
+          "batting": 18,
           "bowling": 0,
           "fielding": 26,
-          "total": 33
+          "total": 44
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -4449,8 +4466,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 529,
-      "top11Points": 529,
+      "totalPointsAll": 540,
+      "top11Points": 540,
       "players": [
         {
           "name": "Shubman Gill",
@@ -4486,6 +4503,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rishabh Pant",
+          "role": "Wicket Keeper",
+          "batting": 26,
+          "bowling": 0,
+          "fielding": 34,
+          "rawPoints": 60,
+          "multiplier": 1,
+          "effectivePoints": 60,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -4494,17 +4522,6 @@
           "rawPoints": 36,
           "multiplier": 1.5,
           "effectivePoints": 54,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rishabh Pant",
-          "role": "Wicket Keeper",
-          "batting": 15,
-          "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 49,
-          "multiplier": 1,
-          "effectivePoints": 49,
           "countsInTop11": true
         },
         {
@@ -4714,9 +4731,20 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 722,
-      "top11Points": 732,
+      "totalPointsAll": 730,
+      "top11Points": 740,
       "players": [
+        {
+          "name": "Nitish Kumar Reddy",
+          "role": "All-Rounder",
+          "batting": 135,
+          "bowling": 50,
+          "fielding": 8,
+          "rawPoints": 193,
+          "multiplier": 1,
+          "effectivePoints": 193,
+          "countsInTop11": true
+        },
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
@@ -4726,17 +4754,6 @@
           "rawPoints": 93,
           "multiplier": 2,
           "effectivePoints": 186,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Kumar Reddy",
-          "role": "All-Rounder",
-          "batting": 135,
-          "bowling": 50,
-          "fielding": 0,
-          "rawPoints": 185,
-          "multiplier": 1,
-          "effectivePoints": 185,
           "countsInTop11": true
         },
         {
