@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T16:05:12.903Z",
+  "lastUpdated": "2026-04-05T16:15:06.221Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -12,6 +12,12 @@
         "r": 250,
         "w": 3,
         "o": 20
+      },
+      {
+        "inning": "Chennai Super Kings",
+        "r": 18,
+        "w": 2,
+        "o": 1.6
       }
     ],
     "playerScores": {
@@ -30,14 +36,14 @@
       "Devdutt Padikkal": {
         "batting": 74,
         "bowling": 0,
-        "fielding": 0,
-        "total": 74
+        "fielding": 8,
+        "total": 82
       },
       "Rajat Patidar": {
         "batting": 76,
         "bowling": 0,
-        "fielding": 0,
-        "total": 76
+        "fielding": 8,
+        "total": 84
       },
       "Tim David": {
         "batting": 114,
@@ -45,29 +51,53 @@
         "fielding": 0,
         "total": 114
       },
-      "Sanju Samson": {
+      "Jitesh Sharma": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Romario Shepherd": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Krunal Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Sanju Samson": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Ruturaj Gaikwad": {
-        "batting": 0,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 9
       },
       "Ayush Mhatre": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Sarfaraz Khan": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Shivam Dube": {
         "batting": 0,
@@ -110,13 +140,13 @@
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1108,
-      "top11Points": 1103
+      "totalPointsAll": 1109,
+      "top11Points": 1104
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1049,
-      "top11Points": 1007
+      "totalPointsAll": 1063,
+      "top11Points": 1021
     },
     {
       "team": "Aakash",
@@ -125,8 +155,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 932,
-      "top11Points": 932
+      "totalPointsAll": 940,
+      "top11Points": 940
     },
     {
       "team": "Ritik",
@@ -135,13 +165,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 762,
-      "top11Points": 762
+      "totalPointsAll": 795,
+      "top11Points": 795
     },
     {
       "team": "Manav",
-      "totalPointsAll": 730,
-      "top11Points": 740
+      "totalPointsAll": 744,
+      "top11Points": 754
     },
     {
       "team": "Ali",
@@ -4090,6 +4120,12 @@
           "r": 250,
           "w": 3,
           "o": 20
+        },
+        {
+          "inning": "Chennai Super Kings",
+          "r": 18,
+          "w": 2,
+          "o": 1.6
         }
       ],
       "scorecard": [
@@ -4128,21 +4164,21 @@
             },
             {
               "name": "Rajat Patidar",
-              "runs": 46,
-              "balls": 16,
+              "runs": 48,
+              "balls": 19,
               "fours": 1,
               "sixes": 6,
-              "sr": 287.5,
-              "dismissal": "batting"
+              "sr": 252.63,
+              "dismissal": "not out"
             },
             {
               "name": "Tim David",
-              "runs": 65,
-              "balls": 23,
-              "fours": 2,
+              "runs": 70,
+              "balls": 25,
+              "fours": 3,
               "sixes": 8,
-              "sr": 282.61,
-              "dismissal": "batting"
+              "sr": 280,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -4164,11 +4200,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 45,
+              "runs": 52,
               "wickets": 1,
-              "economy": 14.21
+              "economy": 13
             },
             {
               "name": "Noor Ahmad",
@@ -4195,6 +4231,68 @@
               "economy": 15
             }
           ]
+        },
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 18,
+          "wickets": 2,
+          "overs": 1.6,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 7,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 233.33,
+              "dismissal": "c Devdutt Padikkal b Jacob Duffy"
+            },
+            {
+              "name": "Ayush Mhatre",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "c Rajat Patidar b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Sarfaraz Khan",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jacob Duffy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 1,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -4213,14 +4311,14 @@
         "Devdutt Padikkal": {
           "batting": 74,
           "bowling": 0,
-          "fielding": 0,
-          "total": 74
+          "fielding": 8,
+          "total": 82
         },
         "Rajat Patidar": {
           "batting": 76,
           "bowling": 0,
-          "fielding": 0,
-          "total": 76
+          "fielding": 8,
+          "total": 84
         },
         "Tim David": {
           "batting": 114,
@@ -4228,29 +4326,53 @@
           "fielding": 0,
           "total": 114
         },
-        "Sanju Samson": {
+        "Jitesh Sharma": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Romario Shepherd": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Krunal Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Sanju Samson": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Ruturaj Gaikwad": {
-          "batting": 0,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 9
         },
         "Ayush Mhatre": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Sarfaraz Khan": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Shivam Dube": {
           "batting": 0,
@@ -4294,8 +4416,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1108,
-      "top11Points": 1103,
+      "totalPointsAll": 1109,
+      "top11Points": 1104,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -4355,12 +4477,12 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
-          "batting": 99,
+          "batting": 100,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 99,
+          "rawPoints": 100,
           "multiplier": 1,
-          "effectivePoints": 99,
+          "effectivePoints": 100,
           "countsInTop11": true
         },
         {
@@ -4857,18 +4979,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 762,
-      "top11Points": 762,
+      "totalPointsAll": 795,
+      "top11Points": 795,
       "players": [
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
           "batting": 175,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 199,
+          "fielding": 32,
+          "rawPoints": 207,
           "multiplier": 1,
-          "effectivePoints": 199,
+          "effectivePoints": 207,
           "countsInTop11": true
         },
         {
@@ -4930,11 +5052,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 30,
+          "bowling": 55,
           "fielding": 0,
-          "rawPoints": 30,
+          "rawPoints": 55,
           "multiplier": 1,
-          "effectivePoints": 30,
+          "effectivePoints": 55,
           "countsInTop11": true
         },
         {
@@ -4984,8 +5106,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 730,
-      "top11Points": 740,
+      "totalPointsAll": 744,
+      "top11Points": 754,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -5023,12 +5145,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 27,
+          "batting": 36,
           "bowling": 0,
           "fielding": 5,
-          "rawPoints": 32,
+          "rawPoints": 41,
           "multiplier": 1.5,
-          "effectivePoints": 48,
+          "effectivePoints": 62,
           "countsInTop11": true
         },
         {
@@ -5271,8 +5393,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 932,
-      "top11Points": 932,
+      "totalPointsAll": 940,
+      "top11Points": 940,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -5297,6 +5419,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rajat Patidar",
+          "role": "Batsman",
+          "batting": 130,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 138,
+          "multiplier": 1,
+          "effectivePoints": 138,
+          "countsInTop11": true
+        },
+        {
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 9,
@@ -5305,17 +5438,6 @@
           "rawPoints": 132,
           "multiplier": 1,
           "effectivePoints": 132,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rajat Patidar",
-          "role": "Batsman",
-          "batting": 130,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 130,
-          "multiplier": 1,
-          "effectivePoints": 130,
           "countsInTop11": true
         },
         {
@@ -5409,8 +5531,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1049,
-      "top11Points": 1007,
+      "totalPointsAll": 1063,
+      "top11Points": 1021,
       "players": [
         {
           "name": "Rinku Singh",
@@ -5470,12 +5592,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 76,
+          "batting": 86,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 94,
+          "rawPoints": 104,
           "multiplier": 1,
-          "effectivePoints": 94,
+          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
@@ -5512,6 +5634,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sanju Samson",
+          "role": "Wicket Keeper",
+          "batting": 17,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 17,
+          "multiplier": 2,
+          "effectivePoints": 34,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 25,
@@ -5520,17 +5653,6 @@
           "rawPoints": 33,
           "multiplier": 1,
           "effectivePoints": 33,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sanju Samson",
-          "role": "Wicket Keeper",
-          "batting": 15,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 15,
-          "multiplier": 2,
-          "effectivePoints": 30,
           "countsInTop11": true
         },
         {
