@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-04-05T13:35:11.817Z",
+  "lastUpdated": "2026-04-05T13:44:53.905Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527683",
-    "name": "Sunrisers Hyderabad v Lucknow Super Giants",
-    "status": "Live",
-    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-    "score": [
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 156,
-        "w": 9,
-        "o": 20
-      },
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 148,
-        "w": 5,
-        "o": 18.5
-      }
-    ],
-    "playerScores": {
-      "Travis Head": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 8
-      },
-      "Abhishek Sharma": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Ishan Kishan": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 20,
-        "total": 21
-      },
-      "Heinrich Klaasen": {
-        "batting": 86,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 86
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 84,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 92
-      },
-      "Harsh Dubey": {
-        "batting": -5,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 65
-      },
-      "Harshal Patel": {
-        "batting": 5,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 25
-      },
-      "Aiden Markram": {
-        "batting": 60,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 68
-      },
-      "Mitchell Marsh": {
-        "batting": 16,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 16
-      },
-      "Rishabh Pant": {
-        "batting": 72,
-        "bowling": 0,
-        "fielding": 26,
-        "total": 98
-      },
-      "Ayush Badoni": {
-        "batting": 13,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 13
-      },
-      "Nicholas Pooran": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Abdul Samad": {
-        "batting": 18,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 18
-      },
-      "Avesh Khan": {
-        "batting": 0,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 50
-      },
-      "Mohammed Shami": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Digvesh Rathi": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Athu",
@@ -157,8 +40,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 612,
-      "top11Points": 612
+      "totalPointsAll": 627,
+      "top11Points": 627
     },
     {
       "team": "Ali",
@@ -3711,7 +3594,7 @@
       "matchId": "espn_1527683",
       "name": "Sunrisers Hyderabad v Lucknow Super Giants",
       "date": "2026-04-05",
-      "status": "Live",
+      "status": "Final",
       "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
       "score": [
         {
@@ -3722,9 +3605,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 148,
+          "r": 160,
           "w": 5,
-          "o": 18.5
+          "o": 19.5
         }
       ],
       "scorecard": [
@@ -3870,9 +3753,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 148,
+          "runs": 160,
           "wickets": 5,
-          "overs": 18.5,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Aiden Markram",
@@ -3894,12 +3777,12 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 56,
-              "balls": 45,
-              "fours": 6,
+              "runs": 68,
+              "balls": 50,
+              "fours": 9,
               "sixes": 0,
-              "sr": 124.44,
-              "dismissal": "batting"
+              "sr": 136,
+              "dismissal": "not out"
             },
             {
               "name": "Ayush Badoni",
@@ -3931,11 +3814,11 @@
             {
               "name": "Mukul Choudhary",
               "runs": 2,
-              "balls": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "batting"
+              "sr": 40,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -3957,11 +3840,11 @@
             },
             {
               "name": "Jaydev Unadkat",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 38,
+              "runs": 50,
               "wickets": 0,
-              "economy": 12.67
+              "economy": 13.04
             },
             {
               "name": "Eshan Malinga",
@@ -3973,11 +3856,11 @@
             },
             {
               "name": "Harshal Patel",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
               "runs": 16,
               "wickets": 0,
-              "economy": 6
+              "economy": 5.33
             },
             {
               "name": "Shivang Kumar",
@@ -4046,10 +3929,10 @@
           "total": 16
         },
         "Rishabh Pant": {
-          "batting": 72,
+          "batting": 87,
           "bowling": 0,
           "fielding": 26,
-          "total": 98
+          "total": 113
         },
         "Ayush Badoni": {
           "batting": 13,
@@ -4088,7 +3971,7 @@
           "total": 20
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -4518,9 +4401,20 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 612,
-      "top11Points": 612,
+      "totalPointsAll": 627,
+      "top11Points": 627,
       "players": [
+        {
+          "name": "Rishabh Pant",
+          "role": "Wicket Keeper",
+          "batting": 95,
+          "bowling": 0,
+          "fielding": 34,
+          "rawPoints": 129,
+          "multiplier": 1,
+          "effectivePoints": 129,
+          "countsInTop11": true
+        },
         {
           "name": "Shubman Gill",
           "role": "Opener",
@@ -4530,17 +4424,6 @@
           "rawPoints": 61,
           "multiplier": 2,
           "effectivePoints": 122,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rishabh Pant",
-          "role": "Wicket Keeper",
-          "batting": 80,
-          "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 114,
-          "multiplier": 1,
-          "effectivePoints": 114,
           "countsInTop11": true
         },
         {
