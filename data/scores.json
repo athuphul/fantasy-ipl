@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T17:21:47.955Z",
+  "lastUpdated": "2026-04-05T17:23:59.691Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -16,8 +16,8 @@
       {
         "inning": "Chennai Super Kings",
         "r": 165,
-        "w": 6,
-        "o": 15
+        "w": 7,
+        "o": 15.1
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 25
+        "total": 50
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -118,10 +118,10 @@
         "total": 40
       },
       "Prashant Veer": {
-        "batting": 56,
+        "batting": 51,
         "bowling": 0,
         "fielding": 0,
-        "total": 56
+        "total": 51
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -156,7 +156,7 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 979,
+      "totalPointsAll": 975,
       "top11Points": 989
     },
     {
@@ -170,14 +170,14 @@
       "top11Points": 860
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 828,
+      "top11Points": 828
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 814,
       "top11Points": 808
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 803,
-      "top11Points": 803
     },
     {
       "team": "Ali",
@@ -186,8 +186,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 683,
-      "top11Points": 683
+      "totalPointsAll": 678,
+      "top11Points": 678
     }
   ],
   "matchHistory": [
@@ -2512,6 +2512,12 @@
           "fielding": 0,
           "total": 46
         },
+        "Varun Chakaravarthy": {
+          "batting": -5,
+          "bowling": -15,
+          "fielding": 16,
+          "total": -4
+        },
         "Blessing Muzarabani": {
           "batting": 0,
           "bowling": 115,
@@ -2555,7 +2561,7 @@
           "total": 36
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527680",
@@ -4136,8 +4142,8 @@
         {
           "inning": "Chennai Super Kings",
           "r": 165,
-          "w": 6,
-          "o": 15
+          "w": 7,
+          "o": 15.1
         }
       ],
       "scorecard": [
@@ -4247,8 +4253,8 @@
         {
           "innings": "Chennai Super Kings",
           "runs": 165,
-          "wickets": 6,
-          "overs": 15,
+          "wickets": 7,
+          "overs": 15.1,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -4306,11 +4312,11 @@
             },
             {
               "name": "Prashant Veer",
-              "runs": 19,
-              "balls": 18,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 105.56,
+              "runs": 33,
+              "balls": 21,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 157.14,
               "dismissal": "batting"
             },
             {
@@ -4350,11 +4356,11 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 18,
+              "runs": 32,
               "wickets": 2,
-              "economy": 9
+              "economy": 12.8
             },
             {
               "name": "Suyash Sharma",
@@ -4426,9 +4432,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 25
+          "total": 50
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -4473,10 +4479,10 @@
           "total": 40
         },
         "Prashant Veer": {
-          "batting": 56,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "total": 56
+          "total": 51
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -4651,7 +4657,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 979,
+      "totalPointsAll": 975,
       "top11Points": 989,
       "players": [
         {
@@ -4778,12 +4784,12 @@
         {
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "rawPoints": -10,
+          "batting": -5,
+          "bowling": -25,
+          "fielding": 16,
+          "rawPoints": -14,
           "multiplier": 1,
-          "effectivePoints": -10,
+          "effectivePoints": -14,
           "countsInTop11": false
         }
       ]
@@ -4927,8 +4933,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 683,
-      "top11Points": 683,
+      "totalPointsAll": 678,
+      "top11Points": 678,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -4988,12 +4994,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 63,
+          "batting": 58,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 63,
+          "rawPoints": 58,
           "multiplier": 1,
-          "effectivePoints": 63,
+          "effectivePoints": 58,
           "countsInTop11": true
         },
         {
@@ -5065,8 +5071,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 803,
-      "top11Points": 803,
+      "totalPointsAll": 828,
+      "top11Points": 828,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -5102,6 +5108,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Bhuvneshwar Kumar",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 80,
+          "fielding": 0,
+          "rawPoints": 80,
+          "multiplier": 1,
+          "effectivePoints": 80,
+          "countsInTop11": true
+        },
+        {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 0,
@@ -5132,17 +5149,6 @@
           "rawPoints": 58,
           "multiplier": 1,
           "effectivePoints": 58,
-          "countsInTop11": true
-        },
-        {
-          "name": "Bhuvneshwar Kumar",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 55,
-          "fielding": 0,
-          "rawPoints": 55,
-          "multiplier": 1,
-          "effectivePoints": 55,
           "countsInTop11": true
         },
         {
