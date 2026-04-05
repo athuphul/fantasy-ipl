@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T14:24:54.492Z",
+  "lastUpdated": "2026-04-05T14:34:53.131Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 42,
+        "r": 61,
         "w": 1,
-        "o": 4.5
+        "o": 6.4
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 13,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 37
       },
       "Virat Kohli": {
         "batting": 37,
@@ -28,10 +28,10 @@
         "total": 37
       },
       "Devdutt Padikkal": {
-        "batting": 1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 3
       },
       "Sanju Samson": {
         "batting": 0,
@@ -60,8 +60,8 @@
       "Shivam Dube": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Prashant Veer": {
         "batting": 0,
@@ -96,14 +96,14 @@
       "top11Points": 1103
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 1041,
+      "top11Points": 997
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 994,
       "top11Points": 994
-    },
-    {
-      "team": "Tikoo",
-      "totalPointsAll": 1033,
-      "top11Points": 989
     },
     {
       "team": "Ritik",
@@ -112,8 +112,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 811,
-      "top11Points": 811
+      "totalPointsAll": 835,
+      "top11Points": 835
     },
     {
       "team": "Manav",
@@ -122,8 +122,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 689,
-      "top11Points": 689
+      "totalPointsAll": 691,
+      "top11Points": 691
     },
     {
       "team": "Ashwin",
@@ -4069,55 +4069,80 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 42,
+          "r": 61,
           "w": 1,
-          "o": 4.5
+          "o": 6.4
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 42,
+          "runs": 61,
           "wickets": 1,
-          "overs": 4.5,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 3,
-              "balls": 3,
-              "fours": 0,
+              "runs": 15,
+              "balls": 12,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 125,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
-              "runs": 2,
-              "balls": 3,
+              "runs": 28,
+              "balls": 18,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 155.56,
+              "dismissal": "c Shivam Dube b Anshul Kamboj"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 1,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Khaleel Ahmed",
+              "overs": 2.1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 5.54
+            },
+            {
+              "name": "Matt Henry",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 22,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Anshul Kamboj",
               "overs": 1,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 0,
-              "economy": 5
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 13,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 37
         },
         "Virat Kohli": {
           "batting": 37,
@@ -4126,10 +4151,10 @@
           "total": 37
         },
         "Devdutt Padikkal": {
-          "batting": 1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 3
         },
         "Sanju Samson": {
           "batting": 0,
@@ -4158,8 +4183,8 @@
         "Shivam Dube": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Prashant Veer": {
           "batting": 0,
@@ -4754,8 +4779,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 689,
-      "top11Points": 689,
+      "totalPointsAll": 691,
+      "top11Points": 691,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -4782,12 +4807,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 102,
+          "batting": 104,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 126,
+          "rawPoints": 128,
           "multiplier": 1,
-          "effectivePoints": 126,
+          "effectivePoints": 128,
           "countsInTop11": true
         },
         {
@@ -5168,8 +5193,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 811,
-      "top11Points": 811,
+      "totalPointsAll": 835,
+      "top11Points": 835,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -5205,6 +5230,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Phil Salt",
+          "role": "Opener",
+          "batting": 47,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 71,
+          "multiplier": 1,
+          "effectivePoints": 71,
+          "countsInTop11": true
+        },
+        {
           "name": "Rajat Patidar",
           "role": "Batsman",
           "batting": 54,
@@ -5224,17 +5260,6 @@
           "rawPoints": 50,
           "multiplier": 1,
           "effectivePoints": 50,
-          "countsInTop11": true
-        },
-        {
-          "name": "Phil Salt",
-          "role": "Opener",
-          "batting": 23,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 47,
-          "multiplier": 1,
-          "effectivePoints": 47,
           "countsInTop11": true
         },
         {
@@ -5306,8 +5331,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1033,
-      "top11Points": 989,
+      "totalPointsAll": 1041,
+      "top11Points": 997,
       "players": [
         {
           "name": "Rinku Singh",
@@ -5391,10 +5416,10 @@
           "role": "All-Rounder",
           "batting": 65,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 65,
+          "fielding": 8,
+          "rawPoints": 73,
           "multiplier": 1,
-          "effectivePoints": 65,
+          "effectivePoints": 73,
           "countsInTop11": true
         },
         {
