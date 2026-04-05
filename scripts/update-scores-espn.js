@@ -130,6 +130,9 @@ function namesMatch(espnName, rosterName) {
     const aFirst3 = aParts[0].substring(0, 3);
     const bFirst3 = bParts[0].substring(0, 3);
     if (aLast === bLast && aFirst3 === bFirst3) return true;
+    // Vowel-stripped last name match (handles "Chakravarthy" vs "Chakaravarthy")
+    const strip = s => s.replace(/[aeiou]/g, '');
+    if (strip(aLast) === strip(bLast) && aFirst3 === bFirst3) return true;
   }
   if (a.includes(b) || b.includes(a)) return true;
   return false;
