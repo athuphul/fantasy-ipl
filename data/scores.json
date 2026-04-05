@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T15:35:00.297Z",
+  "lastUpdated": "2026-04-05T15:45:07.537Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527684",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 197,
+        "r": 237,
         "w": 3,
-        "o": 17.1
+        "o": 18.6
       }
     ],
     "playerScores": {
@@ -40,10 +40,10 @@
         "total": 66
       },
       "Tim David": {
-        "batting": 48,
+        "batting": 108,
         "bowling": 0,
         "fielding": 0,
-        "total": 48
+        "total": 108
       },
       "Sanju Samson": {
         "batting": 0,
@@ -145,8 +145,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 638,
-      "top11Points": 638
+      "totalPointsAll": 698,
+      "top11Points": 698
     },
     {
       "team": "Ashwin",
@@ -4087,17 +4087,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 197,
+          "r": 237,
           "w": 3,
-          "o": 17.1
+          "o": 18.6
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 197,
+          "runs": 237,
           "wickets": 3,
-          "overs": 17.1,
+          "overs": 18.6,
           "batting": [
             {
               "name": "Phil Salt",
@@ -4137,11 +4137,11 @@
             },
             {
               "name": "Tim David",
-              "runs": 26,
-              "balls": 12,
+              "runs": 28,
+              "balls": 13,
               "fours": 1,
               "sixes": 3,
-              "sr": 216.67,
+              "sr": 215.38,
               "dismissal": "batting"
             }
           ],
@@ -4164,11 +4164,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 2.2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 29,
+              "runs": 31,
               "wickets": 1,
-              "economy": 12.43
+              "economy": 12.4
             },
             {
               "name": "Noor Ahmad",
@@ -4223,10 +4223,10 @@
           "total": 66
         },
         "Tim David": {
-          "batting": 48,
+          "batting": 108,
           "bowling": 0,
           "fielding": 0,
-          "total": 48
+          "total": 108
         },
         "Sanju Samson": {
           "batting": 0,
@@ -4581,9 +4581,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 638,
-      "top11Points": 638,
+      "totalPointsAll": 698,
+      "top11Points": 698,
       "players": [
+        {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 132,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 132,
+          "multiplier": 1,
+          "effectivePoints": 132,
+          "countsInTop11": true
+        },
         {
           "name": "T Natarajan",
           "role": "Fast Bowler",
@@ -4615,17 +4626,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 72,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 72,
-          "multiplier": 1,
-          "effectivePoints": 72,
           "countsInTop11": true
         },
         {
