@@ -1,17 +1,92 @@
 {
-  "lastUpdated": "2026-04-05T17:54:58.050Z",
+  "lastUpdated": "2026-04-06T14:05:17.995Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527685",
+    "name": "Kolkata Knight Riders v Punjab Kings",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 12,
+        "w": 0,
+        "o": 0.6
+      }
+    ],
+    "playerScores": {
+      "Ajinkya Rahane": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
+      },
+      "Finn Allen": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
+      },
+      "Shreyas Iyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nehal Wadhera": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shashank Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marcus Stoinis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
+    {
+      "team": "Athu",
+      "totalPointsAll": 1127,
+      "top11Points": 1122
+    },
     {
       "team": "Tikoo",
       "totalPointsAll": 1190,
       "top11Points": 1112
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 1109,
-      "top11Points": 1104
     },
     {
       "team": "Aakash",
@@ -4390,12 +4465,128 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527685",
+      "name": "Kolkata Knight Riders v Punjab Kings",
+      "date": "2026-04-06",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 12,
+          "w": 0,
+          "o": 0.6
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 12,
+          "wickets": 0,
+          "overs": 0.6,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 6,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 6,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Ajinkya Rahane": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Finn Allen": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Shreyas Iyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nehal Wadhera": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shashank Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marcus Stoinis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1109,
-      "top11Points": 1104,
+      "totalPointsAll": 1127,
+      "top11Points": 1122,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -4433,23 +4624,23 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 98,
+          "batting": 105,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 98,
+          "rawPoints": 105,
           "multiplier": 1.5,
-          "effectivePoints": 147,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 98,
+          "batting": 105,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 106,
+          "rawPoints": 113,
           "multiplier": 1,
-          "effectivePoints": 106,
+          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
