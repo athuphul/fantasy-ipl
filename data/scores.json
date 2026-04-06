@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T17:15:05.930Z",
+  "lastUpdated": "2026-04-06T17:25:08.698Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527685",
@@ -42,8 +42,8 @@
       "Prabhsimran Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 16,
-        "total": 16
+        "fielding": 0,
+        "total": 0
       },
       "Nehal Wadhera": {
         "batting": 0,
@@ -105,14 +105,14 @@
       "top11Points": 969
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 876,
-      "top11Points": 876
-    },
-    {
       "team": "Kishan",
       "totalPointsAll": 866,
       "top11Points": 866
+    },
+    {
+      "team": "Ritik",
+      "totalPointsAll": 860,
+      "top11Points": 860
     },
     {
       "team": "Manav",
@@ -4500,7 +4500,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 133.33,
-              "dismissal": "batting"
+              "dismissal": "not out"
             },
             {
               "name": "Finn Allen",
@@ -4509,7 +4509,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 85.71,
-              "dismissal": "c Prabhsimran Singh b Xavier Bartlett"
+              "dismissal": "c"
             },
             {
               "name": "Cameron Green",
@@ -4518,7 +4518,7 @@
               "fours": 1,
               "sixes": 0,
               "sr": 200,
-              "dismissal": "c Prabhsimran Singh b Xavier Bartlett"
+              "dismissal": "c"
             },
             {
               "name": "Angkrish Raghuvanshi",
@@ -4527,18 +4527,10 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
-            {
-              "name": "Arshdeep Singh",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 16,
-              "wickets": 0,
-              "economy": 8
-            },
             {
               "name": "Xavier Bartlett",
               "overs": 1.4,
@@ -4546,6 +4538,14 @@
               "runs": 9,
               "wickets": 2,
               "economy": 5.4
+            },
+            {
+              "name": "Arshdeep Singh",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -4578,8 +4578,8 @@
         "Prabhsimran Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 0,
+          "total": 0
         },
         "Nehal Wadhera": {
           "batting": 0,
@@ -5473,8 +5473,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 876,
-      "top11Points": 876,
+      "totalPointsAll": 860,
+      "top11Points": 860,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -5503,10 +5503,10 @@
           "role": "Wicket Keeper",
           "batting": 102,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 126,
+          "fielding": 8,
+          "rawPoints": 110,
           "multiplier": 1,
-          "effectivePoints": 126,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
