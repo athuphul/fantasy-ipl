@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T14:15:07.538Z",
+  "lastUpdated": "2026-04-06T14:24:53.612Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527685",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 19,
+        "r": 25,
         "w": 2,
-        "o": 2.4
+        "o": 3.4
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -116,7 +116,7 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 847,
+      "totalPointsAll": 852,
       "top11Points": 841
     },
     {
@@ -4481,25 +4481,25 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 19,
+          "r": 25,
           "w": 2,
-          "o": 2.4
+          "o": 3.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 19,
+          "runs": 25,
           "wickets": 2,
-          "overs": 2.4,
+          "overs": 3.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
               "runs": 8,
-              "balls": 5,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 160,
+              "sr": 133.33,
               "dismissal": "batting"
             },
             {
@@ -4522,30 +4522,30 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 1,
-              "balls": 2,
+              "runs": 7,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 16,
               "wickets": 0,
-              "economy": 9
+              "economy": 8
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 4,
+              "runs": 9,
               "wickets": 2,
-              "economy": 4
+              "economy": 5.4
             }
           ]
         }
@@ -4607,9 +4607,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -5313,7 +5313,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 847,
+      "totalPointsAll": 852,
       "top11Points": 841,
       "players": [
         {
@@ -5430,11 +5430,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 16,
-          "rawPoints": 6,
+          "rawPoints": 11,
           "multiplier": 1,
-          "effectivePoints": 6,
+          "effectivePoints": 11,
           "countsInTop11": false
         },
         {
