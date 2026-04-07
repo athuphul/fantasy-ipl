@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T17:14:55.023Z",
+  "lastUpdated": "2026-04-07T17:24:57.444Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527686",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 90,
+        "r": 115,
         "w": 2,
-        "o": 6.2
+        "o": 8.3
       }
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 71,
+        "batting": 95,
         "bowling": 0,
         "fielding": 0,
-        "total": 71
+        "total": 95
       },
       "Vaibhav Sooryavanshi": {
         "batting": 65,
@@ -34,10 +34,10 @@
         "total": 2
       },
       "Riyan Parag": {
-        "batting": 2,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 25
       },
       "Rohit Sharma": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       }
     }
   },
@@ -102,8 +102,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1056,
-      "top11Points": 1070
+      "totalPointsAll": 1080,
+      "top11Points": 1094
     },
     {
       "team": "Tanay",
@@ -111,14 +111,14 @@
       "top11Points": 969
     },
     {
+      "team": "Ritik",
+      "totalPointsAll": 921,
+      "top11Points": 921
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 891,
       "top11Points": 891
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 880,
-      "top11Points": 880
     },
     {
       "team": "Manav",
@@ -4635,25 +4635,25 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 90,
+          "r": 115,
           "w": 2,
-          "o": 6.2
+          "o": 8.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 90,
+          "runs": 115,
           "wickets": 2,
-          "overs": 6.2,
+          "overs": 8.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 45,
-              "balls": 18,
-              "fours": 5,
+              "runs": 57,
+              "balls": 25,
+              "fours": 7,
               "sixes": 3,
-              "sr": 250,
+              "sr": 228,
               "dismissal": "batting"
             },
             {
@@ -4676,11 +4676,11 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 14,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -4695,11 +4695,11 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 22,
               "wickets": 0,
-              "economy": 12.86
+              "economy": 11
             },
             {
               "name": "Trent Boult",
@@ -4711,11 +4711,11 @@
             },
             {
               "name": "Hardik Pandya",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 17,
               "wickets": 0,
-              "economy": 4
+              "economy": 8.5
             },
             {
               "name": "Shardul Thakur",
@@ -4727,21 +4727,21 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 9,
+              "runs": 13,
               "wickets": 1,
-              "economy": 9
+              "economy": 11.14
             }
           ]
         }
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 71,
+          "batting": 95,
           "bowling": 0,
           "fielding": 0,
-          "total": 71
+          "total": 95
         },
         "Vaibhav Sooryavanshi": {
           "batting": 65,
@@ -4756,10 +4756,10 @@
           "total": 2
         },
         "Riyan Parag": {
-          "batting": 2,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 25
         },
         "Rohit Sharma": {
           "batting": 0,
@@ -4805,9 +4805,9 @@
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         }
       },
       "isComplete": false
@@ -4964,8 +4964,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1056,
-      "top11Points": 1070,
+      "totalPointsAll": 1080,
+      "top11Points": 1094,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -4979,6 +4979,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Yashasvi Jaiswal",
+          "role": "Opener",
+          "batting": 220,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 228,
+          "multiplier": 1,
+          "effectivePoints": 228,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 224,
@@ -4987,17 +4998,6 @@
           "rawPoints": 224,
           "multiplier": 1,
           "effectivePoints": 224,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yashasvi Jaiswal",
-          "role": "Opener",
-          "batting": 196,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 204,
-          "multiplier": 1,
-          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
@@ -5665,8 +5665,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 880,
-      "top11Points": 880,
+      "totalPointsAll": 921,
+      "top11Points": 921,
       "players": [
         {
           "name": "Ishan Kishan",
@@ -5677,6 +5677,17 @@
           "rawPoints": 177,
           "multiplier": 1,
           "effectivePoints": 177,
+          "countsInTop11": true
+        },
+        {
+          "name": "Riyan Parag",
+          "role": "Batsman",
+          "batting": 52,
+          "bowling": 25,
+          "fielding": 0,
+          "rawPoints": 77,
+          "multiplier": 2,
+          "effectivePoints": 154,
           "countsInTop11": true
         },
         {
@@ -5699,17 +5710,6 @@
           "rawPoints": 126,
           "multiplier": 1,
           "effectivePoints": 126,
-          "countsInTop11": true
-        },
-        {
-          "name": "Riyan Parag",
-          "role": "Batsman",
-          "batting": 29,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 54,
-          "multiplier": 2,
-          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
@@ -5746,17 +5746,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 10,
-          "rawPoints": 30,
-          "multiplier": 1,
-          "effectivePoints": 30,
-          "countsInTop11": true
-        },
-        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -5765,6 +5754,17 @@
           "rawPoints": 28,
           "multiplier": 1,
           "effectivePoints": 28,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 15,
+          "fielding": 10,
+          "rawPoints": 25,
+          "multiplier": 1,
+          "effectivePoints": 25,
           "countsInTop11": true
         },
         {
