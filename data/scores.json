@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T17:34:53.982Z",
+  "lastUpdated": "2026-04-07T17:44:53.297Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527686",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 134,
+        "r": 150,
         "w": 3,
-        "o": 10.1
+        "o": 11
       }
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 105,
+        "batting": 120,
         "bowling": 0,
         "fielding": 0,
-        "total": 105
+        "total": 120
       },
       "Vaibhav Sooryavanshi": {
         "batting": 65,
@@ -40,10 +40,10 @@
         "total": 40
       },
       "Shimron Hetmyer": {
-        "batting": 5,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 6
       },
       "Rohit Sharma": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 10,
         "fielding": 0,
-        "total": 25
+        "total": 10
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -102,14 +102,14 @@
       "top11Points": 1177
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 1113,
+      "top11Points": 1127
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 1129,
       "top11Points": 1124
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 1098,
-      "top11Points": 1112
     },
     {
       "team": "Tanay",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 891,
-      "top11Points": 891
+      "totalPointsAll": 876,
+      "top11Points": 876
     },
     {
       "team": "Manav",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 683,
-      "top11Points": 683
+      "totalPointsAll": 684,
+      "top11Points": 684
     }
   ],
   "matchHistory": [
@@ -4641,26 +4641,26 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 134,
+          "r": 150,
           "w": 3,
-          "o": 10.1
+          "o": 11
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 134,
+          "runs": 150,
           "wickets": 3,
-          "overs": 10.1,
+          "overs": 11,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 65,
-              "balls": 28,
-              "fours": 7,
+              "runs": 77,
+              "balls": 32,
+              "fours": 10,
               "sixes": 4,
-              "sr": 232.14,
-              "dismissal": "batting"
+              "sr": 240.62,
+              "dismissal": "not out"
             },
             {
               "name": "Vaibhav Sooryavanshi",
@@ -4691,12 +4691,12 @@
             },
             {
               "name": "Shimron Hetmyer",
-              "runs": 5,
-              "balls": 6,
+              "runs": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 83.33,
-              "dismissal": "batting"
+              "sr": 85.71,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -4734,11 +4734,11 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 20,
+              "runs": 36,
               "wickets": 1,
-              "economy": 17.14
+              "economy": 18
             },
             {
               "name": "AM Ghazanfar",
@@ -4753,10 +4753,10 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 105,
+          "batting": 120,
           "bowling": 0,
           "fielding": 0,
-          "total": 105
+          "total": 120
         },
         "Vaibhav Sooryavanshi": {
           "batting": 65,
@@ -4777,10 +4777,10 @@
           "total": 40
         },
         "Shimron Hetmyer": {
-          "batting": 5,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 6
         },
         "Rohit Sharma": {
           "batting": 0,
@@ -4820,9 +4820,9 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 10,
           "fielding": 0,
-          "total": 25
+          "total": 10
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -4985,18 +4985,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1098,
-      "top11Points": 1112,
+      "totalPointsAll": 1113,
+      "top11Points": 1127,
       "players": [
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 230,
+          "batting": 245,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 238,
+          "rawPoints": 253,
           "multiplier": 1,
-          "effectivePoints": 238,
+          "effectivePoints": 253,
           "countsInTop11": true
         },
         {
@@ -5261,8 +5261,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 683,
-      "top11Points": 683,
+      "totalPointsAll": 684,
+      "top11Points": 684,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -5344,12 +5344,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 28,
+          "batting": 29,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 46,
+          "rawPoints": 47,
           "multiplier": 1,
-          "effectivePoints": 46,
+          "effectivePoints": 47,
           "countsInTop11": true
         },
         {
@@ -5399,8 +5399,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 891,
-      "top11Points": 891,
+      "totalPointsAll": 876,
+      "top11Points": 876,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -5450,11 +5450,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 100,
+          "bowling": 85,
           "fielding": 0,
-          "rawPoints": 100,
+          "rawPoints": 85,
           "multiplier": 1,
-          "effectivePoints": 100,
+          "effectivePoints": 85,
           "countsInTop11": true
         },
         {
