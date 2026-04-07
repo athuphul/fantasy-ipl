@@ -1,13 +1,81 @@
 {
-  "lastUpdated": "2026-04-07T16:35:06.994Z",
+  "lastUpdated": "2026-04-07T16:44:55.171Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527686",
     "name": "Rajasthan Royals v Mumbai Indians",
     "status": "Live",
     "venue": "Barsapara Cricket Stadium, Guwahati",
-    "score": [],
-    "playerScores": {}
+    "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 14,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Yashasvi Jaiswal": {
+        "batting": 18,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 18
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rohit Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tilak Varma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Suryakumar Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Hardik Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Deepak Chahar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Trent Boult": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shardul Thakur": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
   },
   "leaderboard": [
     {
@@ -22,8 +90,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 977,
-      "top11Points": 991
+      "totalPointsAll": 995,
+      "top11Points": 1009
     },
     {
       "team": "Tanay",
@@ -4552,9 +4620,114 @@
       "date": "2026-04-07",
       "status": "Live",
       "venue": "Barsapara Cricket Stadium, Guwahati",
-      "score": [],
-      "scorecard": [],
-      "playerScores": {},
+      "score": [
+        {
+          "inning": "Rajasthan Royals",
+          "r": 14,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 14,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 14,
+              "balls": 3,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 466.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Deepak Chahar",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 28
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Yashasvi Jaiswal": {
+          "batting": 18,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 18
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rohit Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tilak Varma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Suryakumar Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Hardik Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Deepak Chahar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Trent Boult": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shardul Thakur": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
       "isComplete": false
     }
   ],
@@ -4709,8 +4882,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 977,
-      "top11Points": 991,
+      "totalPointsAll": 995,
+      "top11Points": 1009,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -4737,12 +4910,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 125,
+          "batting": 143,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 133,
+          "rawPoints": 151,
           "multiplier": 1,
-          "effectivePoints": 133,
+          "effectivePoints": 151,
           "countsInTop11": true
         },
         {
