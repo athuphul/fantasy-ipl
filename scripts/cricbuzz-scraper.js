@@ -163,11 +163,14 @@ function parseScorecardHTML(html) {
 
 // Extract match result/status from the HTML
 function parseMatchStatus(html) {
+  // Strip script tags first — Cricbuzz RSC payloads contain match text like "won by"
+  // inside <script> tags which would otherwise match our regex
+  const stripped = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
   // Look for "won by" text
-  const wonMatch = html.match(/>([^<]*won by[^<]*)</);
+  const wonMatch = stripped.match(/>([^<]*won by[^<]*)</);
   if (wonMatch) return wonMatch[1].trim();
   // Look for other status
-  const statusMatch = html.match(/>([^<]*(?:Match tied|No result|Match abandoned|Match drawn)[^<]*)</);
+  const statusMatch = stripped.match(/>([^<]*(?:Match tied|No result|Match abandoned|Match drawn)[^<]*)</);
   if (statusMatch) return statusMatch[1].trim();
   return '';
 }
