@@ -111,6 +111,42 @@ function computeFieldingPoints(stats) {
   return pts;
 }
 
+// Compute fantasy points from a Cricbuzz-parsed scorecard (fallback when ESPN summary is unavailable).
+// Returns playerScores: { rosterName: { batting, bowling, fielding, total } }
+function computePointsFromScorecard(scorecard, allPlayers) {
+  const playerScores = {};
+
+  for (const inn of scorecard) {
+    for (const bat of (inn.batting || [])) {
+      const roster = findRosterName(bat.name, allPlayers);
+      if (!roster) continue;
+      if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+      const runs = bat.runs || 0;
+      const balls = bat.balls || 0;
+      const fours = bat.fours || 0;
+      const sixes = bat.sixes || 0;
+      const sr = balls > 0 ? (runs / balls) * 100 : 0;
+      const dismissed = bat.dismissal && bat.dismissal !== 'not out' && !bat.dismissal.startsWith('retired');
+      const stats = { runs, ballsFaced: balls, fours, sixes, strikeRate: sr };
+      playerScores[roster].batting += computeBattingPoints(stats, dismissed);
+    }
+    for (const bowl of (inn.bowling || [])) {
+      const roster = findRosterName(bowl.name, allPlayers);
+      if (!roster) continue;
+      if (!playerScores[roster]) playerScores[roster] = { batting: 0, bowling: 0, fielding: 0, total: 0 };
+      const stats = { overs: bowl.overs, wickets: bowl.wickets, economyRate: bowl.economy };
+      playerScores[roster].bowling += computeBowlingPoints(stats);
+    }
+  }
+
+  // Fielding is handled by correctFieldingFromScorecard after this
+  for (const key of Object.keys(playerScores)) {
+    const p = playerScores[key];
+    p.total = p.batting + p.bowling + p.fielding;
+  }
+  return playerScores;
+}
+
 // --- Name Matching ---
 
 function normalizeName(name) {
@@ -1328,7 +1364,79 @@ async function main() {
       }
       console.log(`  Match marked isComplete=${isComplete}`);
     } catch (err) {
-      console.error(`  Error fetching summary for ${event.id}: ${err.message}`);
+      console.error(`  Error fetching ESPN summary for ${event.id}: ${err.message}`);
+      // Fallback: try Cricbuzz scorecard when ESPN is unavailable
+      const cbId = getCricbuzzId(matchId);
+      if (cbId) {
+        try {
+          console.log(`  Falling back to Cricbuzz scorecard (cbId=${cbId})`);
+          const cbResult = await fetchCricbuzzScorecard(cbId);
+          if (cbResult && cbResult.scorecard && cbResult.scorecard.length > 0) {
+            const scorecard = cbResult.scorecard;
+            normalizeScorecardNames(scorecard, allPlayers);
+            const playerScores = computePointsFromScorecard(scorecard, allPlayers);
+            correctFieldingFromScorecard(scorecard, playerScores, allPlayers);
+
+            const isComplete = event.status === 'post';
+            const eventDate = event.date ? event.date.slice(0, 10) : getTodayIST();
+            const statusDetail = cbResult.status || event.fullStatus?.type?.detail || event.status;
+
+            // Build score summary from scorecard innings
+            const score = scorecard.map(inn => ({
+              inning: inn.innings,
+              r: inn.runs || 0,
+              w: inn.wickets || 0,
+              o: inn.overs || 0,
+            }));
+
+            const matchEntry = {
+              matchId,
+              name: event.name,
+              date: eventDate,
+              status: statusDetail,
+              venue: '',
+              score,
+              scorecard,
+              playerScores,
+              isComplete,
+            };
+
+            const idx = existing.matchHistory.findIndex(m => m.matchId === matchId);
+            if (idx >= 0) {
+              existing.matchHistory[idx] = matchEntry;
+            } else {
+              existing.matchHistory.push(matchEntry);
+            }
+
+            if (!isComplete) {
+              currentMatch = {
+                matchId,
+                name: event.name,
+                status: statusDetail,
+                venue: '',
+                score,
+                playerScores,
+              };
+            } else {
+              saveFantasyScores(matchId, playerScores);
+              saveMatchScore(matchId, { name: event.name, date: eventDate, status: statusDetail, venue: '', score });
+            }
+
+            const scoredPlayers = Object.entries(playerScores).filter(([_, s]) => s.total !== 0);
+            console.log(`  Cricbuzz fallback: ${Object.keys(playerScores).length} fantasy players, ${scoredPlayers.length} with non-zero scores`);
+            for (const [name, s] of scoredPlayers) {
+              console.log(`    ${name}: bat=${s.batting} bowl=${s.bowling} field=${s.fielding} total=${s.total}`);
+            }
+            console.log(`  Match marked isComplete=${isComplete} (Cricbuzz fallback)`);
+          } else {
+            console.log(`  Cricbuzz fallback returned no scorecard data`);
+          }
+        } catch (cbErr) {
+          console.error(`  Cricbuzz fallback also failed: ${cbErr.message}`);
+        }
+      } else {
+        console.log(`  No Cricbuzz ID available for fallback`);
+      }
     }
   }
 
