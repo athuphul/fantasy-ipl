@@ -1,135 +1,42 @@
 {
-  "lastUpdated": "2026-04-07T17:54:54.484Z",
+  "lastUpdated": "2026-04-08T07:01:21.878Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527686",
-    "name": "Rajasthan Royals v Mumbai Indians",
-    "status": "Live",
-    "venue": "Barsapara Cricket Stadium, Guwahati",
-    "score": [
-      {
-        "inning": "Rajasthan Royals",
-        "r": 150,
-        "w": 3,
-        "o": 11
-      }
-    ],
-    "playerScores": {
-      "Yashasvi Jaiswal": {
-        "batting": 120,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 120
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 65,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 65
-      },
-      "Dhruv Jurel": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Riyan Parag": {
-        "batting": 40,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 40
-      },
-      "Shimron Hetmyer": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 6
-      },
-      "Rohit Sharma": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Tilak Varma": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 16
-      },
-      "Suryakumar Yadav": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Hardik Pandya": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Deepak Chahar": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Trent Boult": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Shardul Thakur": {
-        "batting": 0,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 10
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
+    {
+      "team": "Athu",
+      "totalPointsAll": 1204,
+      "top11Points": 1199
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 1180,
+      "top11Points": 1194
+    },
     {
       "team": "Tikoo",
       "totalPointsAll": 1255,
       "top11Points": 1177
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 1113,
-      "top11Points": 1127
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 1129,
-      "top11Points": 1124
+      "team": "Ritik",
+      "totalPointsAll": 1015,
+      "top11Points": 1015
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 969,
-      "top11Points": 969
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 951,
-      "top11Points": 951
+      "totalPointsAll": 977,
+      "top11Points": 977
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 876,
-      "top11Points": 876
+      "totalPointsAll": 885,
+      "top11Points": 885
     },
     {
       "team": "Manav",
-      "totalPointsAll": 854,
-      "top11Points": 843
+      "totalPointsAll": 877,
+      "top11Points": 866
     },
     {
       "team": "Ali",
@@ -138,8 +45,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 684,
-      "top11Points": 684
+      "totalPointsAll": 702,
+      "top11Points": 702
     }
   ],
   "matchHistory": [
@@ -4636,13 +4543,19 @@
       "matchId": "espn_1527686",
       "name": "Rajasthan Royals v Mumbai Indians",
       "date": "2026-04-07",
-      "status": "Live",
+      "status": "Final",
       "venue": "Barsapara Cricket Stadium, Guwahati",
       "score": [
         {
           "inning": "Rajasthan Royals",
           "r": 150,
           "w": 3,
+          "o": 11
+        },
+        {
+          "inning": "Mumbai Indians",
+          "r": 123,
+          "w": 9,
           "o": 11
         }
       ],
@@ -4749,14 +4662,163 @@
               "economy": 10.5
             }
           ]
+        },
+        {
+          "innings": "Mumbai Indians",
+          "runs": 123,
+          "wickets": 9,
+          "overs": 11,
+          "batting": [
+            {
+              "name": "Ryan Rickelton",
+              "runs": 8,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "c Dhruv Jurel b Jofra Archer"
+            },
+            {
+              "name": "Rohit Sharma",
+              "runs": 5,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 83.33,
+              "dismissal": "lbw b Sandeep Sharma"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 6,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "c Jofra Archer b Nandre Burger"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 14,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 140,
+              "dismissal": "c Shimron Hetmyer b Ravi Bishnoi"
+            },
+            {
+              "name": "Hardik Pandya",
+              "runs": 9,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 150,
+              "dismissal": "c Yashasvi Jaiswal b Ravi Bishnoi"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 25,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 192.31,
+              "dismissal": "c Ravi Bishnoi b Nandre Burger"
+            },
+            {
+              "name": "Sherfane Rutherford",
+              "runs": 25,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 312.5,
+              "dismissal": "c Sandeep Sharma b Tushar Deshpande"
+            },
+            {
+              "name": "Shardul Thakur",
+              "runs": 8,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 114.29,
+              "dismissal": "c Dhruv Jurel b Sandeep Sharma"
+            },
+            {
+              "name": "Deepak Chahar",
+              "runs": 6,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 120,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Trent Boult",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "run out (Jofra Archer)"
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "runs": 5,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 250,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 1,
+              "economy": 8.5
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 2,
+              "economy": 10.5
+            },
+            {
+              "name": "Sandeep Sharma",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 26,
+              "wickets": 2,
+              "economy": 8.67
+            },
+            {
+              "name": "Tushar Deshpande",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 29,
+              "wickets": 1,
+              "economy": 14.5
+            },
+            {
+              "name": "Ravi Bishnoi",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 25,
+              "wickets": 2,
+              "economy": 12.5
+            }
+          ]
         }
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
           "batting": 120,
           "bowling": 0,
-          "fielding": 0,
-          "total": 120
+          "fielding": 8,
+          "total": 128
         },
         "Vaibhav Sooryavanshi": {
           "batting": 65,
@@ -4767,8 +4829,8 @@
         "Dhruv Jurel": {
           "batting": 2,
           "bowling": 0,
-          "fielding": 0,
-          "total": 2
+          "fielding": 16,
+          "total": 18
         },
         "Riyan Parag": {
           "batting": 40,
@@ -4779,66 +4841,107 @@
         "Shimron Hetmyer": {
           "batting": 6,
           "bowling": 0,
-          "fielding": 0,
-          "total": 6
+          "fielding": 8,
+          "total": 14
         },
-        "Rohit Sharma": {
+        "Ravindra Jadeja": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
-        "Tilak Varma": {
+        "Jofra Archer": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "bowling": 25,
+          "fielding": 18,
+          "total": 43
         },
-        "Suryakumar Yadav": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Hardik Pandya": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Deepak Chahar": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Trent Boult": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Shardul Thakur": {
+        "Tushar Deshpande": {
           "batting": 0,
           "bowling": 10,
           "fielding": 0,
           "total": 10
         },
-        "Jasprit Bumrah": {
+        "Sandeep Sharma": {
           "batting": 0,
+          "bowling": 50,
+          "fielding": 8,
+          "total": 58
+        },
+        "Ravi Bishnoi": {
+          "batting": 0,
+          "bowling": 40,
+          "fielding": 8,
+          "total": 48
+        },
+        "Rohit Sharma": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
+        "Suryakumar Yadav": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
+        },
+        "Tilak Varma": {
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 16,
+          "total": 32
+        },
+        "Hardik Pandya": {
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 11
+        },
+        "Shardul Thakur": {
+          "batting": 9,
+          "bowling": 10,
+          "fielding": 0,
+          "total": 19
+        },
+        "Deepak Chahar": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Trent Boult": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Jasprit Bumrah": {
+          "batting": 6,
           "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": 1
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1129,
-      "top11Points": 1124,
+      "totalPointsAll": 1204,
+      "top11Points": 1199,
       "players": [
+        {
+          "name": "Ravi Bishnoi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 200,
+          "fielding": 16,
+          "rawPoints": 216,
+          "multiplier": 1,
+          "effectivePoints": 216,
+          "countsInTop11": true
+        },
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
@@ -4853,23 +4956,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 87,
+          "batting": 95,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 87,
+          "rawPoints": 95,
           "multiplier": 2,
-          "effectivePoints": 174,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravi Bishnoi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 160,
-          "fielding": 8,
-          "rawPoints": 168,
-          "multiplier": 1,
-          "effectivePoints": 168,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
@@ -4919,12 +5011,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 26,
+          "batting": 37,
           "bowling": 15,
           "fielding": 8,
-          "rawPoints": 49,
+          "rawPoints": 60,
           "multiplier": 1,
-          "effectivePoints": 49,
+          "effectivePoints": 60,
           "countsInTop11": true
         },
         {
@@ -4985,18 +5077,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1113,
-      "top11Points": 1127,
+      "totalPointsAll": 1180,
+      "top11Points": 1194,
       "players": [
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
           "batting": 245,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 253,
+          "fielding": 16,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 253,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
@@ -5022,6 +5114,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 95,
+          "fielding": 34,
+          "rawPoints": 130,
+          "multiplier": 1,
+          "effectivePoints": 130,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 1,
@@ -5044,25 +5147,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 70,
-          "fielding": 16,
-          "rawPoints": 87,
-          "multiplier": 1,
-          "effectivePoints": 87,
-          "countsInTop11": true
-        },
-        {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 19,
+          "batting": 35,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 59,
+          "rawPoints": 75,
           "multiplier": 1,
-          "effectivePoints": 59,
+          "effectivePoints": 75,
           "countsInTop11": true
         },
         {
@@ -5261,8 +5353,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 684,
-      "top11Points": 684,
+      "totalPointsAll": 702,
+      "top11Points": 702,
       "players": [
         {
           "name": "Rishabh Pant",
@@ -5331,6 +5423,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 29,
+          "bowling": 0,
+          "fielding": 26,
+          "rawPoints": 55,
+          "multiplier": 1,
+          "effectivePoints": 55,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -5342,25 +5445,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 29,
-          "bowling": 0,
-          "fielding": 18,
-          "rawPoints": 47,
-          "multiplier": 1,
-          "effectivePoints": 47,
-          "countsInTop11": true
-        },
-        {
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 30,
+          "bowling": 40,
           "fielding": 8,
-          "rawPoints": 38,
+          "rawPoints": 48,
           "multiplier": 1,
-          "effectivePoints": 38,
+          "effectivePoints": 48,
           "countsInTop11": true
         },
         {
@@ -5399,8 +5491,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 876,
-      "top11Points": 876,
+      "totalPointsAll": 885,
+      "top11Points": 885,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -5449,12 +5541,12 @@
         {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 9,
           "bowling": 85,
           "fielding": 0,
-          "rawPoints": 85,
+          "rawPoints": 94,
           "multiplier": 1,
-          "effectivePoints": 85,
+          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -5526,8 +5618,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 854,
-      "top11Points": 843,
+      "totalPointsAll": 877,
+      "top11Points": 866,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -5556,10 +5648,10 @@
           "role": "Wicket Keeper",
           "batting": 134,
           "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 168,
+          "fielding": 50,
+          "rawPoints": 184,
           "multiplier": 1,
-          "effectivePoints": 168,
+          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -5598,12 +5690,12 @@
         {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 7,
           "bowling": 37,
           "fielding": 0,
-          "rawPoints": 37,
+          "rawPoints": 44,
           "multiplier": 1,
-          "effectivePoints": 37,
+          "effectivePoints": 44,
           "countsInTop11": true
         },
         {
@@ -5686,8 +5778,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 951,
-      "top11Points": 951,
+      "totalPointsAll": 1015,
+      "top11Points": 1015,
       "players": [
         {
           "name": "Riyan Parag",
@@ -5745,6 +5837,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sandeep Sharma",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 70,
+          "fielding": 16,
+          "rawPoints": 86,
+          "multiplier": 1,
+          "effectivePoints": 86,
+          "countsInTop11": true
+        },
+        {
           "name": "Aiden Markram",
           "role": "Opener",
           "batting": 74,
@@ -5767,25 +5870,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Sandeep Sharma",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 8,
-          "rawPoints": 28,
-          "multiplier": 1,
-          "effectivePoints": 28,
-          "countsInTop11": true
-        },
-        {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 6,
           "bowling": 15,
           "fielding": 10,
-          "rawPoints": 25,
+          "rawPoints": 31,
           "multiplier": 1,
-          "effectivePoints": 25,
+          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -5813,18 +5905,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 969,
-      "top11Points": 969,
+      "totalPointsAll": 977,
+      "top11Points": 977,
       "players": [
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 163,
+          "batting": 168,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 163,
+          "rawPoints": 168,
           "multiplier": 1.5,
-          "effectivePoints": 245,
+          "effectivePoints": 252,
           "countsInTop11": true
         },
         {
@@ -5929,12 +6021,12 @@
         {
           "name": "Trent Boult",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 1,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 1,
           "countsInTop11": true
         },
         {
