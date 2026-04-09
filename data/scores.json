@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-04-09T17:44:59.431Z",
+  "lastUpdated": "2026-04-09T17:54:53.921Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527688",
-    "name": "Kolkata Knight Riders v Lucknow Super Giants",
-    "status": "Live",
-    "venue": "Eden Gardens, Kolkata",
-    "score": [
-      {
-        "inning": "Kolkata Knight Riders",
-        "r": 181,
-        "w": 4,
-        "o": 20
-      },
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 175,
-        "w": 7,
-        "o": 19.2
-      }
-    ],
-    "playerScores": {
-      "Ajinkya Rahane": {
-        "batting": 54,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 54
-      },
-      "Finn Allen": {
-        "batting": 11,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 11
-      },
-      "Cameron Green": {
-        "batting": 37,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 47
-      },
-      "Rinku Singh": {
-        "batting": 4,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 12
-      },
-      "Anukul Roy": {
-        "batting": 0,
-        "bowling": 55,
-        "fielding": 8,
-        "total": 63
-      },
-      "Sunil Narine": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      },
-      "Vaibhav Arora": {
-        "batting": 0,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 50
-      },
-      "Mitchell Marsh": {
-        "batting": 18,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 18
-      },
-      "Aiden Markram": {
-        "batting": 26,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 34
-      },
-      "Rishabh Pant": {
-        "batting": 11,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 11
-      },
-      "Ayush Badoni": {
-        "batting": 80,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 80
-      },
-      "Nicholas Pooran": {
-        "batting": 10,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 10
-      },
-      "Abdul Samad": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Mohammed Shami": {
-        "batting": 1,
-        "bowling": 12,
-        "fielding": 8,
-        "total": 21
-      },
-      "Avesh Khan": {
-        "batting": 1,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 21
-      },
-      "Digvesh Rathi": {
-        "batting": 0,
-        "bowling": 37,
-        "fielding": 8,
-        "total": 45
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Athu",
@@ -5449,7 +5332,7 @@
       "matchId": "espn_1527688",
       "name": "Kolkata Knight Riders v Lucknow Super Giants",
       "date": "2026-04-09",
-      "status": "Live",
+      "status": "Final",
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
@@ -5460,9 +5343,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 175,
+          "r": 182,
           "w": 7,
-          "o": 19.2
+          "o": 20
         }
       ],
       "scorecard": [
@@ -5572,9 +5455,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 175,
+          "runs": 182,
           "wickets": 7,
-          "overs": 19.2,
+          "overs": 20,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -5632,12 +5515,12 @@
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 48,
-              "balls": 23,
+              "runs": 54,
+              "balls": 27,
               "fours": 2,
-              "sixes": 6,
-              "sr": 208.7,
-              "dismissal": "batting"
+              "sixes": 7,
+              "sr": 200,
+              "dismissal": "not out"
             },
             {
               "name": "Mohammed Shami",
@@ -5655,17 +5538,17 @@
               "fours": 0,
               "sixes": 0,
               "sr": 33.33,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 38,
               "wickets": 2,
-              "economy": 9.6
+              "economy": 9.5
             },
             {
               "name": "Anukul Roy",
@@ -5808,7 +5691,7 @@
           "total": 45
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
