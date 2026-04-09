@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T14:35:19.199Z",
+  "lastUpdated": "2026-04-09T14:44:54.176Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 65,
+        "r": 90,
         "w": 1,
-        "o": 7
+        "o": 9.1
       }
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 35,
+        "batting": 58,
         "bowling": 0,
         "fielding": 0,
-        "total": 35
+        "total": 58
       },
       "Finn Allen": {
         "batting": 11,
@@ -59,9 +59,9 @@
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -89,14 +89,14 @@
       "top11Points": 1295
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 1283,
+      "top11Points": 1278
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 1275,
       "top11Points": 1275
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 1260,
-      "top11Points": 1255
     },
     {
       "team": "Ali",
@@ -104,14 +104,14 @@
       "top11Points": 996
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 991,
-      "top11Points": 991
-    },
-    {
       "team": "Kishan",
       "totalPointsAll": 986,
       "top11Points": 986
+    },
+    {
+      "team": "Tanay",
+      "totalPointsAll": 976,
+      "top11Points": 976
     },
     {
       "team": "Ashwin",
@@ -5412,25 +5412,25 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 65,
+          "r": 90,
           "w": 1,
-          "o": 7
+          "o": 9.1
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 65,
+          "runs": 90,
           "wickets": 1,
-          "overs": 7,
+          "overs": 9.1,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 25,
-              "balls": 15,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 166.67,
+              "runs": 39,
+              "balls": 21,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 185.71,
               "dismissal": "batting"
             },
             {
@@ -5444,11 +5444,11 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 27,
-              "balls": 19,
+              "runs": 36,
+              "balls": 25,
               "fours": 4,
-              "sixes": 1,
-              "sr": 142.11,
+              "sixes": 2,
+              "sr": 144,
               "dismissal": "batting"
             }
           ],
@@ -5479,17 +5479,17 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 18,
               "wickets": 0,
-              "economy": 10
+              "economy": 9
             },
             {
               "name": "Avesh Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 30,
               "wickets": 0,
               "economy": 15
             }
@@ -5498,10 +5498,10 @@
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 35,
+          "batting": 58,
           "bowling": 0,
           "fielding": 0,
-          "total": 35
+          "total": 58
         },
         "Finn Allen": {
           "batting": 11,
@@ -5541,9 +5541,9 @@
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -5563,8 +5563,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1260,
-      "top11Points": 1255,
+      "totalPointsAll": 1283,
+      "top11Points": 1278,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5613,12 +5613,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 142,
+          "batting": 165,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 150,
+          "rawPoints": 173,
           "multiplier": 1,
-          "effectivePoints": 150,
+          "effectivePoints": 173,
           "countsInTop11": true
         },
         {
@@ -6540,8 +6540,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 991,
-      "top11Points": 991,
+      "totalPointsAll": 976,
+      "top11Points": 976,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -6599,17 +6599,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Avesh Khan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 50,
-          "fielding": 0,
-          "rawPoints": 50,
-          "multiplier": 1,
-          "effectivePoints": 50,
-          "countsInTop11": true
-        },
-        {
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 38,
@@ -6629,6 +6618,17 @@
           "rawPoints": 44,
           "multiplier": 1,
           "effectivePoints": 44,
+          "countsInTop11": true
+        },
+        {
+          "name": "Avesh Khan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 35,
+          "fielding": 0,
+          "rawPoints": 35,
+          "multiplier": 1,
+          "effectivePoints": 35,
           "countsInTop11": true
         },
         {
