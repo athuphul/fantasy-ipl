@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T16:44:56.197Z",
+  "lastUpdated": "2026-04-09T16:54:58.703Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 73,
+        "r": 85,
         "w": 3,
-        "o": 8.2
+        "o": 10
       }
     ],
     "playerScores": {
@@ -82,16 +82,16 @@
         "total": 11
       },
       "Ayush Badoni": {
-        "batting": 26,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 27
       },
       "Nicholas Pooran": {
-        "batting": 0,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 11
       },
       "Abdul Samad": {
         "batting": 0,
@@ -132,8 +132,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1310,
-      "top11Points": 1305
+      "totalPointsAll": 1311,
+      "top11Points": 1306
     },
     {
       "team": "Aakash",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 986,
-      "top11Points": 986
+      "totalPointsAll": 1003,
+      "top11Points": 1003
     },
     {
       "team": "Ashwin",
@@ -5460,9 +5460,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 73,
+          "r": 85,
           "w": 3,
-          "o": 8.2
+          "o": 10
         }
       ],
       "scorecard": [
@@ -5572,9 +5572,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 73,
+          "runs": 85,
           "wickets": 3,
-          "overs": 8.2,
+          "overs": 10,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -5605,20 +5605,20 @@
             },
             {
               "name": "Ayush Badoni",
-              "runs": 22,
-              "balls": 15,
+              "runs": 23,
+              "balls": 18,
               "fours": 2,
               "sixes": 1,
-              "sr": 146.67,
+              "sr": 127.78,
               "dismissal": "batting"
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 0,
-              "balls": 0,
+              "runs": 9,
+              "balls": 8,
               "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sixes": 1,
+              "sr": 112.5,
               "dismissal": "batting"
             }
           ],
@@ -5649,11 +5649,11 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 11,
+              "runs": 12,
               "wickets": 0,
-              "economy": 5.5
+              "economy": 4
             },
             {
               "name": "Kartik Tyagi",
@@ -5665,11 +5665,11 @@
             },
             {
               "name": "Cameron Green",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 12,
               "wickets": 1,
-              "economy": 3
+              "economy": 12
             }
           ]
         }
@@ -5736,16 +5736,16 @@
           "total": 11
         },
         "Ayush Badoni": {
-          "batting": 26,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 27
         },
         "Nicholas Pooran": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 11
         },
         "Abdul Samad": {
           "batting": 0,
@@ -5777,8 +5777,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1310,
-      "top11Points": 1305,
+      "totalPointsAll": 1311,
+      "top11Points": 1306,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5882,12 +5882,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 34,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 34,
+          "rawPoints": 35,
           "multiplier": 1,
-          "effectivePoints": 34,
+          "effectivePoints": 35,
           "countsInTop11": true
         },
         {
@@ -6340,8 +6340,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 986,
-      "top11Points": 986,
+      "totalPointsAll": 1003,
+      "top11Points": 1003,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -6423,12 +6423,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 10,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 10,
+          "rawPoints": 21,
           "multiplier": 1.5,
-          "effectivePoints": 15,
+          "effectivePoints": 32,
           "countsInTop11": true
         },
         {
