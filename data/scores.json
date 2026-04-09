@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-04-08T17:55:28.813Z",
+  "lastUpdated": "2026-04-09T08:05:50.952Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
     {
-      "team": "Aakash",
-      "totalPointsAll": 1224,
-      "top11Points": 1238
-    },
-    {
       "team": "Tikoo",
-      "totalPointsAll": 1301,
-      "top11Points": 1222
+      "totalPointsAll": 1414,
+      "top11Points": 1310
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 1204,
-      "top11Points": 1199
+      "team": "Aakash",
+      "totalPointsAll": 1261,
+      "top11Points": 1275
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1143,
-      "top11Points": 1143
+      "totalPointsAll": 1275,
+      "top11Points": 1275
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 985,
-      "top11Points": 985
+      "team": "Athu",
+      "totalPointsAll": 1209,
+      "top11Points": 1204
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 977,
-      "top11Points": 977
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 900,
-      "top11Points": 900
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 884,
-      "top11Points": 873
+      "totalPointsAll": 991,
+      "top11Points": 991
     },
     {
       "team": "Ali",
-      "totalPointsAll": 718,
-      "top11Points": 718
+      "totalPointsAll": 988,
+      "top11Points": 988
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 986,
+      "top11Points": 986
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 916,
+      "top11Points": 916
+    },
+    {
+      "team": "Manav",
+      "totalPointsAll": 896,
+      "top11Points": 885
     }
   ],
   "matchHistory": [
@@ -4929,20 +4929,20 @@
       "matchId": "espn_1527687",
       "name": "Delhi Capitals v Gujarat Titans",
       "date": "2026-04-08",
-      "status": "Live",
+      "status": "Final",
       "venue": "",
       "score": [
+        {
+          "inning": "Delhi Capitals",
+          "r": 209,
+          "w": 8,
+          "o": 20
+        },
         {
           "inning": "Gujarat Titans",
           "r": 210,
           "w": 4,
           "o": 20
-        },
-        {
-          "inning": "Delhi Capitals",
-          "r": 20,
-          "w": 0,
-          "o": 2
         }
       ],
       "scorecard": [
@@ -5060,67 +5060,222 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 20,
-          "wickets": 0,
-          "overs": 2,
+          "runs": 209,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 13,
-              "balls": 7,
-              "fours": 3,
-              "sixes": 0,
-              "sr": 185.71,
-              "dismissal": "batting"
+              "runs": 41,
+              "balls": 24,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 170.83,
+              "dismissal": "c Rahul Tewatia b Prasidh Krishna"
             },
             {
               "name": "KL Rahul",
-              "runs": 6,
-              "balls": 5,
+              "runs": 92,
+              "balls": 52,
+              "fours": 11,
+              "sixes": 4,
+              "sr": 176.92,
+              "dismissal": "c Jos Buttler b Mohammed Siraj"
+            },
+            {
+              "name": "Nitish Rana",
+              "runs": 5,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 120,
-              "dismissal": "batting"
+              "sr": 83.33,
+              "dismissal": "c Sai Sudharsan b Rashid Khan"
+            },
+            {
+              "name": "Sameer Rizvi",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Rashid Khan"
+            },
+            {
+              "name": "David Miller",
+              "runs": 41,
+              "balls": 20,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 205,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Axar Patel",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "c Glenn Phillips b Rashid Khan"
+            },
+            {
+              "name": "Tristan Stubbs",
+              "runs": 7,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 116.67,
+              "dismissal": "run out (Sai Sudharsan)"
+            },
+            {
+              "name": "Vipraj Nigam",
+              "runs": 12,
+              "balls": 7,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 171.43,
+              "dismissal": "c Shubman Gill b Prasidh Krishna"
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "run out (Jos Buttler)"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 14
+              "runs": 52,
+              "wickets": 1,
+              "economy": 13
             },
             {
               "name": "Kagiso Rabada",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 32,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 3,
+              "economy": 4.25
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 45,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Prasidh Krishna",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 52,
+              "wickets": 2,
+              "economy": 13
+            },
+            {
+              "name": "Washington Sundar",
               "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 11,
               "wickets": 0,
-              "economy": 6
+              "economy": 11
             }
           ]
         }
       ],
       "playerScores": {
-        "Sai Sudharsan": {
+        "KL Rahul": {
+          "batting": 131,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 131
+        },
+        "Nitish Rana": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 16,
+          "total": 22
+        },
+        "Sameer Rizvi": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "David Miller": {
+          "batting": 65,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 65
+        },
+        "Axar Patel": {
+          "batting": 2,
+          "bowling": -5,
+          "fielding": 0,
+          "total": -3
+        },
+        "Tristan Stubbs": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Vipraj Nigam": {
           "batting": 14,
           "bowling": 0,
           "fielding": 0,
           "total": 14
         },
+        "Kuldeep Yadav": {
+          "batting": 1,
+          "bowling": 20,
+          "fielding": 0,
+          "total": 21
+        },
+        "Lungi Ngidi": {
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "total": 45
+        },
+        "T Natarajan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 14,
+          "bowling": 0,
+          "fielding": 18,
+          "total": 32
+        },
         "Shubman Gill": {
           "batting": 99,
           "bowling": 0,
-          "fielding": 0,
-          "total": 99
+          "fielding": 8,
+          "total": 107
         },
         "Jos Buttler": {
           "batting": 85,
           "bowling": 0,
-          "fielding": 0,
-          "total": 85
+          "fielding": 18,
+          "total": 103
         },
         "Washington Sundar": {
           "batting": 80,
@@ -5131,77 +5286,53 @@
         "Glenn Phillips": {
           "batting": 17,
           "bowling": 0,
-          "fielding": 0,
-          "total": 17
+          "fielding": 8,
+          "total": 25
         },
         "Rahul Tewatia": {
           "batting": 1,
           "bowling": 0,
-          "fielding": 0,
-          "total": 1
+          "fielding": 8,
+          "total": 9
         },
-        "Lungi Ngidi": {
+        "Rashid Khan": {
           "batting": 0,
-          "bowling": 45,
+          "bowling": 105,
           "fielding": 0,
-          "total": 45
-        },
-        "Axar Patel": {
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 0,
-          "total": -5
-        },
-        "Kuldeep Yadav": {
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 0,
-          "total": 20
-        },
-        "T Natarajan": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Vipraj Nigam": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "KL Rahul": {
-          "batting": 7,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 7
-        },
-        "Mohammed Siraj": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "total": 105
         },
         "Kagiso Rabada": {
           "batting": 0,
+          "bowling": 5,
+          "fielding": 0,
+          "total": 5
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 15,
+          "fielding": 0,
+          "total": 15
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 40,
+          "fielding": 0,
+          "total": 40
+        },
+        "Shahrukh Khan": {
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Nitish Rana": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 16,
-          "total": 16
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1204,
-      "top11Points": 1199,
+      "totalPointsAll": 1209,
+      "top11Points": 1204,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5273,11 +5404,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 28,
-          "bowling": 65,
+          "bowling": 70,
           "fielding": 0,
-          "rawPoints": 93,
+          "rawPoints": 98,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
@@ -5349,18 +5480,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1224,
-      "top11Points": 1238,
+      "totalPointsAll": 1261,
+      "top11Points": 1275,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
           "batting": 132,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 132,
+          "fielding": 18,
+          "rawPoints": 150,
           "multiplier": 2,
-          "effectivePoints": 264,
+          "effectivePoints": 300,
           "countsInTop11": true
         },
         {
@@ -5377,12 +5508,12 @@
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 224,
+          "batting": 219,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 224,
+          "rawPoints": 219,
           "multiplier": 1,
-          "effectivePoints": 224,
+          "effectivePoints": 219,
           "countsInTop11": true
         },
         {
@@ -5430,6 +5561,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nitish Rana",
+          "role": "Batsman",
+          "batting": 15,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 39,
+          "multiplier": 1,
+          "effectivePoints": 39,
+          "countsInTop11": true
+        },
+        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 8,
@@ -5438,17 +5580,6 @@
           "rawPoints": 36,
           "multiplier": 1,
           "effectivePoints": 36,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Rana",
-          "role": "Batsman",
-          "batting": 9,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 33,
-          "multiplier": 1,
-          "effectivePoints": 33,
           "countsInTop11": true
         },
         {
@@ -5487,9 +5618,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 718,
-      "top11Points": 718,
+      "totalPointsAll": 988,
+      "top11Points": 988,
       "players": [
+        {
+          "name": "KL Rahul",
+          "role": "Wicket Keeper",
+          "batting": 127,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 135,
+          "multiplier": 2,
+          "effectivePoints": 270,
+          "countsInTop11": true
+        },
         {
           "name": "Tim David",
           "role": "Batsman",
@@ -5537,12 +5679,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 47,
+          "batting": 54,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 71,
+          "rawPoints": 78,
           "multiplier": 1,
-          "effectivePoints": 71,
+          "effectivePoints": 78,
           "countsInTop11": true
         },
         {
@@ -5557,6 +5699,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Siraj",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 35,
+          "fielding": 8,
+          "rawPoints": 43,
+          "multiplier": 1,
+          "effectivePoints": 43,
+          "countsInTop11": true
+        },
+        {
           "name": "Nehal Wadhera",
           "role": "Batsman",
           "batting": 15,
@@ -5565,28 +5718,6 @@
           "rawPoints": 31,
           "multiplier": 1,
           "effectivePoints": 31,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Siraj",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 8,
-          "rawPoints": 28,
-          "multiplier": 1,
-          "effectivePoints": 28,
-          "countsInTop11": true
-        },
-        {
-          "name": "KL Rahul",
-          "role": "Wicket Keeper",
-          "batting": 3,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 11,
-          "multiplier": 2,
-          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
@@ -5625,18 +5756,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 900,
-      "top11Points": 900,
+      "totalPointsAll": 916,
+      "top11Points": 916,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 144,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 160,
+          "fielding": 24,
+          "rawPoints": 168,
           "multiplier": 2,
-          "effectivePoints": 320,
+          "effectivePoints": 336,
           "countsInTop11": true
         },
         {
@@ -5763,8 +5894,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 985,
-      "top11Points": 985,
+      "totalPointsAll": 986,
+      "top11Points": 986,
       "players": [
         {
           "name": "Devdutt Padikkal",
@@ -5835,12 +5966,12 @@
         {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
-          "batting": 0,
+          "batting": 1,
           "bowling": 70,
           "fielding": 8,
-          "rawPoints": 78,
+          "rawPoints": 79,
           "multiplier": 1,
-          "effectivePoints": 78,
+          "effectivePoints": 79,
           "countsInTop11": true
         },
         {
@@ -5890,8 +6021,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 884,
-      "top11Points": 873,
+      "totalPointsAll": 896,
+      "top11Points": 885,
       "players": [
         {
           "name": "Nitish Kumar Reddy",
@@ -5918,12 +6049,23 @@
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": -5,
+          "batting": -3,
           "bowling": 85,
           "fielding": 8,
-          "rawPoints": 88,
+          "rawPoints": 90,
           "multiplier": 2,
-          "effectivePoints": 176,
+          "effectivePoints": 180,
+          "countsInTop11": true
+        },
+        {
+          "name": "Glenn Phillips",
+          "role": "All-Rounder",
+          "batting": 48,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 72,
+          "multiplier": 1,
+          "effectivePoints": 72,
           "countsInTop11": true
         },
         {
@@ -5935,17 +6077,6 @@
           "rawPoints": 70,
           "multiplier": 1,
           "effectivePoints": 70,
-          "countsInTop11": true
-        },
-        {
-          "name": "Glenn Phillips",
-          "role": "All-Rounder",
-          "batting": 48,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 64,
-          "multiplier": 1,
-          "effectivePoints": 64,
           "countsInTop11": true
         },
         {
@@ -6050,18 +6181,29 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1143,
-      "top11Points": 1143,
+      "totalPointsAll": 1275,
+      "top11Points": 1275,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 171,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 187,
+          "fielding": 34,
+          "rawPoints": 205,
           "multiplier": 1.5,
-          "effectivePoints": 281,
+          "effectivePoints": 308,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Spinner",
+          "batting": 32,
+          "bowling": 160,
+          "fielding": 8,
+          "rawPoints": 200,
+          "multiplier": 1,
+          "effectivePoints": 200,
           "countsInTop11": true
         },
         {
@@ -6095,17 +6237,6 @@
           "rawPoints": 126,
           "multiplier": 1,
           "effectivePoints": 126,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rashid Khan",
-          "role": "Spinner",
-          "batting": 32,
-          "bowling": 55,
-          "fielding": 8,
-          "rawPoints": 95,
-          "multiplier": 1,
-          "effectivePoints": 95,
           "countsInTop11": true
         },
         {
@@ -6177,8 +6308,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 977,
-      "top11Points": 977,
+      "totalPointsAll": 991,
+      "top11Points": 991,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -6260,12 +6391,12 @@
         {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 14,
           "bowling": 30,
           "fielding": 0,
-          "rawPoints": 30,
+          "rawPoints": 44,
           "multiplier": 1,
-          "effectivePoints": 30,
+          "effectivePoints": 44,
           "countsInTop11": true
         },
         {
@@ -6315,8 +6446,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1301,
-      "top11Points": 1222,
+      "totalPointsAll": 1414,
+      "top11Points": 1310,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -6366,11 +6497,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 110,
+          "bowling": 150,
           "fielding": 8,
-          "rawPoints": 118,
+          "rawPoints": 158,
           "multiplier": 1,
-          "effectivePoints": 118,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
@@ -6393,6 +6524,17 @@
           "rawPoints": 105,
           "multiplier": 1,
           "effectivePoints": 105,
+          "countsInTop11": true
+        },
+        {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 90,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 98,
+          "multiplier": 1,
+          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
@@ -6426,17 +6568,6 @@
           "rawPoints": 50,
           "multiplier": 1,
           "effectivePoints": 50,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 25,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 33,
-          "multiplier": 1,
-          "effectivePoints": 33,
           "countsInTop11": false
         },
         {
@@ -6444,10 +6575,10 @@
           "role": "All-Rounder",
           "batting": 28,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 28,
+          "fielding": 8,
+          "rawPoints": 36,
           "multiplier": 1,
-          "effectivePoints": 28,
+          "effectivePoints": 36,
           "countsInTop11": false
         },
         {
