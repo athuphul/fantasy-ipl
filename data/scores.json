@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T16:24:55.827Z",
+  "lastUpdated": "2026-04-09T16:35:19.388Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 48,
+        "r": 67,
         "w": 2,
-        "o": 4.5
+        "o": 6.6
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 62,
         "fielding": 0,
-        "total": 50
+        "total": 62
       },
       "Mitchell Marsh": {
         "batting": 18,
@@ -76,16 +76,16 @@
         "total": 34
       },
       "Rishabh Pant": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Ayush Badoni": {
         "batting": 8,
         "bowling": 0,
         "fielding": 0,
         "total": 8
+      },
+      "Ayush Badoni": {
+        "batting": 28,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 28
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ritik",
-      "totalPointsAll": 1359,
-      "top11Points": 1359
+      "totalPointsAll": 1371,
+      "top11Points": 1371
     },
     {
       "team": "Tikoo",
@@ -131,14 +131,14 @@
       "top11Points": 1316
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 1312,
+      "top11Points": 1307
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 1281,
       "top11Points": 1295
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 1292,
-      "top11Points": 1287
     },
     {
       "team": "Ali",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 917,
-      "top11Points": 917
+      "totalPointsAll": 924,
+      "top11Points": 924
     },
     {
       "team": "Manav",
@@ -5460,9 +5460,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 48,
+          "r": 67,
           "w": 2,
-          "o": 4.5
+          "o": 6.6
         }
       ],
       "scorecard": [
@@ -5572,9 +5572,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 48,
+          "runs": 67,
           "wickets": 2,
-          "overs": 4.5,
+          "overs": 6.6,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -5596,31 +5596,31 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 8,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 160,
               "dismissal": "batting"
             },
             {
               "name": "Ayush Badoni",
-              "runs": 6,
-              "balls": 2,
-              "fours": 0,
+              "runs": 19,
+              "balls": 11,
+              "fours": 2,
               "sixes": 1,
-              "sr": 300,
+              "sr": 172.73,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 14,
               "wickets": 2,
-              "economy": 7.09
+              "economy": 7
             },
             {
               "name": "Anukul Roy",
@@ -5637,6 +5637,22 @@
               "runs": 17,
               "wickets": 0,
               "economy": 17
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -5680,9 +5696,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 62,
           "fielding": 0,
-          "total": 50
+          "total": 62
         },
         "Mitchell Marsh": {
           "batting": 18,
@@ -5697,16 +5713,16 @@
           "total": 34
         },
         "Rishabh Pant": {
-          "batting": 1,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 1
-        },
-        "Ayush Badoni": {
           "batting": 8,
           "bowling": 0,
           "fielding": 0,
           "total": 8
+        },
+        "Ayush Badoni": {
+          "batting": 28,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 28
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -5744,8 +5760,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1292,
-      "top11Points": 1287,
+      "totalPointsAll": 1312,
+      "top11Points": 1307,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5849,12 +5865,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 16,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 16,
+          "rawPoints": 36,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 36,
           "countsInTop11": true
         },
         {
@@ -6169,8 +6185,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 917,
-      "top11Points": 917,
+      "totalPointsAll": 924,
+      "top11Points": 924,
       "players": [
         {
           "name": "Shubman Gill",
@@ -6186,12 +6202,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 96,
+          "batting": 103,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 130,
+          "rawPoints": 137,
           "multiplier": 1,
-          "effectivePoints": 130,
+          "effectivePoints": 137,
           "countsInTop11": true
         },
         {
@@ -6594,8 +6610,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1359,
-      "top11Points": 1359,
+      "totalPointsAll": 1371,
+      "top11Points": 1371,
       "players": [
         {
           "name": "Jos Buttler",
@@ -6653,6 +6669,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 122,
+          "fielding": 0,
+          "rawPoints": 123,
+          "multiplier": 1,
+          "effectivePoints": 123,
+          "countsInTop11": true
+        },
+        {
           "name": "Aiden Markram",
           "role": "Opener",
           "batting": 100,
@@ -6661,17 +6688,6 @@
           "rawPoints": 116,
           "multiplier": 1,
           "effectivePoints": 116,
-          "countsInTop11": true
-        },
-        {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 110,
-          "fielding": 0,
-          "rawPoints": 111,
-          "multiplier": 1,
-          "effectivePoints": 111,
           "countsInTop11": true
         },
         {
