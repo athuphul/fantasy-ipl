@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T16:04:54.410Z",
+  "lastUpdated": "2026-04-09T16:14:56.101Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 5,
+        "r": 31,
         "w": 0,
-        "o": 0.5
+        "o": 3
       }
     ],
     "playerScores": {
@@ -64,16 +64,16 @@
         "total": 0
       },
       "Mitchell Marsh": {
-        "batting": 6,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 9
       },
       "Aiden Markram": {
-        "batting": 1,
+        "batting": 34,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 42
       },
       "Rishabh Pant": {
         "batting": 0,
@@ -115,6 +115,11 @@
   },
   "leaderboard": [
     {
+      "team": "Ritik",
+      "totalPointsAll": 1317,
+      "top11Points": 1317
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 1420,
       "top11Points": 1316
@@ -123,11 +128,6 @@
       "team": "Aakash",
       "totalPointsAll": 1281,
       "top11Points": 1295
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 1284,
-      "top11Points": 1284
     },
     {
       "team": "Athu",
@@ -141,8 +141,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1039,
-      "top11Points": 1039
+      "totalPointsAll": 1042,
+      "top11Points": 1042
     },
     {
       "team": "Kishan",
@@ -5454,9 +5454,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 5,
+          "r": 31,
           "w": 0,
-          "o": 0.5
+          "o": 3
         }
       ],
       "scorecard": [
@@ -5566,37 +5566,53 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 5,
+          "runs": 31,
           "wickets": 0,
-          "overs": 0.5,
+          "overs": 3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 5,
-              "balls": 3,
+              "runs": 7,
+              "balls": 7,
               "fours": 1,
               "sixes": 0,
-              "sr": 166.67,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "Aiden Markram",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 20,
+              "balls": 11,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 181.82,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 5,
+              "runs": 6,
               "wickets": 0,
-              "economy": 10
+              "economy": 6
+            },
+            {
+              "name": "Anukul Roy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            },
+            {
+              "name": "Navdeep Saini",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 17
             }
           ]
         }
@@ -5645,16 +5661,16 @@
           "total": 0
         },
         "Mitchell Marsh": {
-          "batting": 6,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 9
         },
         "Aiden Markram": {
-          "batting": 1,
+          "batting": 34,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 42
         },
         "Rishabh Pant": {
           "batting": 0,
@@ -5985,8 +6001,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1039,
-      "top11Points": 1039,
+      "totalPointsAll": 1042,
+      "top11Points": 1042,
       "players": [
         {
           "name": "KL Rahul",
@@ -6057,12 +6073,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 65,
+          "batting": 68,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 65,
+          "rawPoints": 68,
           "multiplier": 1,
-          "effectivePoints": 65,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -6548,8 +6564,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1284,
-      "top11Points": 1284,
+      "totalPointsAll": 1317,
+      "top11Points": 1317,
       "players": [
         {
           "name": "Jos Buttler",
@@ -6609,12 +6625,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 75,
+          "batting": 108,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 91,
+          "rawPoints": 124,
           "multiplier": 1,
-          "effectivePoints": 91,
+          "effectivePoints": 124,
           "countsInTop11": true
         },
         {
