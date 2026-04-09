@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T16:35:19.388Z",
+  "lastUpdated": "2026-04-09T16:44:56.197Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 67,
-        "w": 2,
-        "o": 6.6
+        "r": 73,
+        "w": 3,
+        "o": 8.2
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Cameron Green": {
         "batting": 37,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 37
+        "total": 62
       },
       "Rinku Singh": {
         "batting": 4,
@@ -53,9 +53,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Vaibhav Arora": {
         "batting": 0,
@@ -76,16 +76,16 @@
         "total": 34
       },
       "Rishabh Pant": {
-        "batting": 8,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 11
       },
       "Ayush Badoni": {
-        "batting": 28,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
+        "total": 26
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -132,8 +132,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1312,
-      "top11Points": 1307
+      "totalPointsAll": 1310,
+      "top11Points": 1305
     },
     {
       "team": "Aakash",
@@ -141,14 +141,14 @@
       "top11Points": 1295
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 1073,
+      "top11Points": 1073
+    },
+    {
       "team": "Ali",
       "totalPointsAll": 1051,
       "top11Points": 1051
-    },
-    {
-      "team": "Tanay",
-      "totalPointsAll": 1048,
-      "top11Points": 1048
     },
     {
       "team": "Kishan",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 924,
-      "top11Points": 924
+      "totalPointsAll": 957,
+      "top11Points": 957
     },
     {
       "team": "Manav",
@@ -5460,9 +5460,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 67,
-          "w": 2,
-          "o": 6.6
+          "r": 73,
+          "w": 3,
+          "o": 8.2
         }
       ],
       "scorecard": [
@@ -5572,9 +5572,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 67,
-          "wickets": 2,
-          "overs": 6.6,
+          "runs": 73,
+          "wickets": 3,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -5596,20 +5596,29 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 8,
-              "balls": 5,
+              "runs": 10,
+              "balls": 9,
               "fours": 1,
               "sixes": 0,
-              "sr": 160,
-              "dismissal": "batting"
+              "sr": 111.11,
+              "dismissal": "c Kartik Tyagi b Cameron Green"
             },
             {
               "name": "Ayush Badoni",
-              "runs": 19,
-              "balls": 11,
+              "runs": 22,
+              "balls": 15,
               "fours": 2,
               "sixes": 1,
-              "sr": 172.73,
+              "sr": 146.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -5640,11 +5649,11 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 11,
               "wickets": 0,
-              "economy": 7
+              "economy": 5.5
             },
             {
               "name": "Kartik Tyagi",
@@ -5653,6 +5662,14 @@
               "runs": 12,
               "wickets": 0,
               "economy": 12
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 1,
+              "economy": 3
             }
           ]
         }
@@ -5672,9 +5689,9 @@
         },
         "Cameron Green": {
           "batting": 37,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 37
+          "total": 62
         },
         "Rinku Singh": {
           "batting": 4,
@@ -5690,9 +5707,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -5713,16 +5730,16 @@
           "total": 34
         },
         "Rishabh Pant": {
-          "batting": 8,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 11
         },
         "Ayush Badoni": {
-          "batting": 28,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
+          "total": 26
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -5760,8 +5777,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1312,
-      "top11Points": 1307,
+      "totalPointsAll": 1310,
+      "top11Points": 1305,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5865,12 +5882,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 36,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 36,
+          "rawPoints": 34,
           "multiplier": 1,
-          "effectivePoints": 36,
+          "effectivePoints": 34,
           "countsInTop11": true
         },
         {
@@ -6185,8 +6202,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 924,
-      "top11Points": 924,
+      "totalPointsAll": 957,
+      "top11Points": 957,
       "players": [
         {
           "name": "Shubman Gill",
@@ -6202,12 +6219,23 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 103,
+          "batting": 106,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 137,
+          "rawPoints": 140,
           "multiplier": 1,
-          "effectivePoints": 137,
+          "effectivePoints": 140,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "All-Rounder",
+          "batting": 16,
+          "bowling": 40,
+          "fielding": 0,
+          "rawPoints": 56,
+          "multiplier": 1.5,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -6263,17 +6291,6 @@
           "rawPoints": 55,
           "multiplier": 1,
           "effectivePoints": 55,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sunil Narine",
-          "role": "All-Rounder",
-          "batting": 16,
-          "bowling": 20,
-          "fielding": 0,
-          "rawPoints": 36,
-          "multiplier": 1.5,
-          "effectivePoints": 54,
           "countsInTop11": true
         },
         {
@@ -6737,8 +6754,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1048,
-      "top11Points": 1048,
+      "totalPointsAll": 1073,
+      "top11Points": 1073,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -6785,6 +6802,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 75,
+          "bowling": 25,
+          "fielding": 8,
+          "rawPoints": 108,
+          "multiplier": 1,
+          "effectivePoints": 108,
+          "countsInTop11": true
+        },
+        {
           "name": "Phil Salt",
           "role": "Opener",
           "batting": 68,
@@ -6793,17 +6821,6 @@
           "rawPoints": 100,
           "multiplier": 1,
           "effectivePoints": 100,
-          "countsInTop11": true
-        },
-        {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 75,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 83,
-          "multiplier": 1,
-          "effectivePoints": 83,
           "countsInTop11": true
         },
         {
