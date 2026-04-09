@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T14:25:08.623Z",
+  "lastUpdated": "2026-04-09T14:35:19.199Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 40,
+        "r": 65,
         "w": 1,
-        "o": 5.1
+        "o": 7
       }
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 37,
+        "batting": 35,
         "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 35
       },
       "Finn Allen": {
         "batting": 11,
@@ -95,8 +95,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1262,
-      "top11Points": 1257
+      "totalPointsAll": 1260,
+      "top11Points": 1255
     },
     {
       "team": "Ali",
@@ -5412,25 +5412,25 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 40,
+          "r": 65,
           "w": 1,
-          "o": 5.1
+          "o": 7
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 40,
+          "runs": 65,
           "wickets": 1,
-          "overs": 5.1,
+          "overs": 7,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 22,
-              "balls": 12,
+              "runs": 25,
+              "balls": 15,
               "fours": 3,
               "sixes": 1,
-              "sr": 183.33,
+              "sr": 166.67,
               "dismissal": "batting"
             },
             {
@@ -5444,11 +5444,11 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 6,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 60,
+              "runs": 27,
+              "balls": 19,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 142.11,
               "dismissal": "batting"
             }
           ],
@@ -5471,9 +5471,9 @@
             },
             {
               "name": "Manimaran Siddharth",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 18,
               "wickets": 0,
               "economy": 9
             },
@@ -5484,16 +5484,24 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Avesh Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 37,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 35
         },
         "Finn Allen": {
           "batting": 11,
@@ -5555,8 +5563,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1262,
-      "top11Points": 1257,
+      "totalPointsAll": 1260,
+      "top11Points": 1255,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5605,12 +5613,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 144,
+          "batting": 142,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 152,
+          "rawPoints": 150,
           "multiplier": 1,
-          "effectivePoints": 152,
+          "effectivePoints": 150,
           "countsInTop11": true
         },
         {
