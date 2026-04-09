@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T17:14:57.956Z",
+  "lastUpdated": "2026-04-09T17:25:00.176Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 114,
-        "w": 5,
-        "o": 13.4
+        "r": 127,
+        "w": 6,
+        "o": 15.1
       }
     ],
     "playerScores": {
@@ -42,14 +42,14 @@
       "Rinku Singh": {
         "batting": 4,
         "bowling": 0,
-        "fielding": 0,
-        "total": 4
+        "fielding": 8,
+        "total": 12
       },
       "Anukul Roy": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 55,
         "fielding": 0,
-        "total": 30
+        "total": 55
       },
       "Sunil Narine": {
         "batting": 0,
@@ -82,10 +82,10 @@
         "total": 11
       },
       "Ayush Badoni": {
-        "batting": 56,
+        "batting": 80,
         "bowling": 0,
         "fielding": 0,
-        "total": 56
+        "total": 80
       },
       "Nicholas Pooran": {
         "batting": 10,
@@ -99,16 +99,16 @@
         "fielding": 0,
         "total": 2
       },
+      "Mohammed Shami": {
+        "batting": 1,
+        "bowling": 12,
+        "fielding": 8,
+        "total": 21
+      },
       "Avesh Khan": {
         "batting": 0,
         "bowling": 20,
         "fielding": 0,
-        "total": 20
-      },
-      "Mohammed Shami": {
-        "batting": 0,
-        "bowling": 12,
-        "fielding": 8,
         "total": 20
       },
       "Digvesh Rathi": {
@@ -121,24 +121,24 @@
   },
   "leaderboard": [
     {
+      "team": "Athu",
+      "totalPointsAll": 1414,
+      "top11Points": 1409
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 1371,
       "top11Points": 1371
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 1365,
-      "top11Points": 1360
-    },
-    {
       "team": "Tikoo",
-      "totalPointsAll": 1420,
-      "top11Points": 1316
+      "totalPointsAll": 1432,
+      "top11Points": 1328
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1281,
-      "top11Points": 1295
+      "totalPointsAll": 1282,
+      "top11Points": 1296
     },
     {
       "team": "Tanay",
@@ -5460,9 +5460,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 114,
-          "w": 5,
-          "o": 13.4
+          "r": 127,
+          "w": 6,
+          "o": 15.1
         }
       ],
       "scorecard": [
@@ -5572,9 +5572,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 114,
-          "wickets": 5,
-          "overs": 13.4,
+          "runs": 127,
+          "wickets": 6,
+          "overs": 15.1,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -5605,12 +5605,12 @@
             },
             {
               "name": "Ayush Badoni",
-              "runs": 41,
-              "balls": 27,
-              "fours": 6,
-              "sixes": 1,
-              "sr": 151.85,
-              "dismissal": "batting"
+              "runs": 54,
+              "balls": 34,
+              "fours": 7,
+              "sixes": 2,
+              "sr": 158.82,
+              "dismissal": "c Rinku Singh b Anukul Roy"
             },
             {
               "name": "Nicholas Pooran",
@@ -5632,11 +5632,20 @@
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 0,
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Mohammed Shami",
+              "runs": 1,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -5651,27 +5660,27 @@
             },
             {
               "name": "Anukul Roy",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
-              "wickets": 1,
+              "runs": 32,
+              "wickets": 2,
               "economy": 8
             },
             {
               "name": "Navdeep Saini",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
+              "runs": 37,
               "wickets": 0,
-              "economy": 12
+              "economy": 12.33
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
               "runs": 12,
               "wickets": 0,
-              "economy": 4
+              "economy": 3.79
             },
             {
               "name": "Kartik Tyagi",
@@ -5714,14 +5723,14 @@
         "Rinku Singh": {
           "batting": 4,
           "bowling": 0,
-          "fielding": 0,
-          "total": 4
+          "fielding": 8,
+          "total": 12
         },
         "Anukul Roy": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 55,
           "fielding": 0,
-          "total": 30
+          "total": 55
         },
         "Sunil Narine": {
           "batting": 0,
@@ -5754,10 +5763,10 @@
           "total": 11
         },
         "Ayush Badoni": {
-          "batting": 56,
+          "batting": 80,
           "bowling": 0,
           "fielding": 0,
-          "total": 56
+          "total": 80
         },
         "Nicholas Pooran": {
           "batting": 10,
@@ -5771,16 +5780,16 @@
           "fielding": 0,
           "total": 2
         },
+        "Mohammed Shami": {
+          "batting": 1,
+          "bowling": 12,
+          "fielding": 8,
+          "total": 21
+        },
         "Avesh Khan": {
           "batting": 0,
           "bowling": 20,
           "fielding": 0,
-          "total": 20
-        },
-        "Mohammed Shami": {
-          "batting": 0,
-          "bowling": 12,
-          "fielding": 8,
           "total": 20
         },
         "Digvesh Rathi": {
@@ -5795,8 +5804,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1365,
-      "top11Points": 1360,
+      "totalPointsAll": 1414,
+      "top11Points": 1409,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5879,22 +5888,22 @@
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": -5,
-          "bowling": 60,
+          "bowling": 85,
           "fielding": 18,
-          "rawPoints": 73,
+          "rawPoints": 98,
           "multiplier": 1,
-          "effectivePoints": 73,
+          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 64,
+          "batting": 88,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 64,
+          "rawPoints": 88,
           "multiplier": 1,
-          "effectivePoints": 64,
+          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
@@ -5944,8 +5953,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1281,
-      "top11Points": 1295,
+      "totalPointsAll": 1282,
+      "top11Points": 1296,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -5994,12 +6003,12 @@
         {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
-          "batting": 1,
+          "batting": 2,
           "bowling": 119,
           "fielding": 8,
-          "rawPoints": 128,
+          "rawPoints": 129,
           "multiplier": 1,
-          "effectivePoints": 128,
+          "effectivePoints": 129,
           "countsInTop11": true
         },
         {
@@ -6910,8 +6919,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1420,
-      "top11Points": 1316,
+      "totalPointsAll": 1432,
+      "top11Points": 1328,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -6940,10 +6949,10 @@
           "role": "Batsman",
           "batting": 87,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 111,
+          "fielding": 32,
+          "rawPoints": 119,
           "multiplier": 1.5,
-          "effectivePoints": 167,
+          "effectivePoints": 179,
           "countsInTop11": true
         },
         {
