@@ -1377,7 +1377,10 @@ async function main() {
             const playerScores = computePointsFromScorecard(scorecard, allPlayers);
             correctFieldingFromScorecard(scorecard, playerScores, allPlayers);
 
-            const isComplete = event.status === 'post';
+            // Only mark complete if ESPN says 'post' AND Cricbuzz has both innings with
+            // substantial data (avoids locking partial data from a stale Cricbuzz fetch)
+            const hasFullScorecard = scorecard.length >= 2 && scorecard.every(inn => (inn.batting || []).length >= 2);
+            const isComplete = event.status === 'post' && hasFullScorecard;
             const eventDate = event.date ? event.date.slice(0, 10) : getTodayIST();
             const statusDetail = cbResult.status || event.fullStatus?.type?.detail || event.status;
 
