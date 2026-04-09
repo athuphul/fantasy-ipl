@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T15:04:55.310Z",
+  "lastUpdated": "2026-04-09T15:14:57.930Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 111,
-        "w": 3,
-        "o": 13
+        "r": 113,
+        "w": 4,
+        "o": 14.4
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 11
       },
       "Cameron Green": {
-        "batting": 6,
+        "batting": -3,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": -3
       },
       "Rinku Singh": {
         "batting": 4,
@@ -71,9 +71,9 @@
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 20,
         "fielding": 0,
-        "total": -10
+        "total": 20
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 37,
         "fielding": 8,
-        "total": 38
+        "total": 45
       }
     }
   },
@@ -112,13 +112,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1026,
-      "top11Points": 1026
+      "totalPointsAll": 1033,
+      "top11Points": 1033
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 987,
-      "top11Points": 987
+      "totalPointsAll": 1008,
+      "top11Points": 1008
     },
     {
       "team": "Kishan",
@@ -5424,17 +5424,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 111,
-          "w": 3,
-          "o": 13
+          "r": 113,
+          "w": 4,
+          "o": 14.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 111,
-          "wickets": 3,
-          "overs": 13,
+          "runs": 113,
+          "wickets": 4,
+          "overs": 14.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -5466,19 +5466,28 @@
             {
               "name": "Cameron Green",
               "runs": 6,
-              "balls": 8,
+              "balls": 10,
               "fours": 0,
               "sixes": 0,
-              "sr": 75,
+              "sr": 60,
               "dismissal": "batting"
             },
             {
               "name": "Rinku Singh",
               "runs": 4,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 57.14,
+              "dismissal": "b Avesh Khan"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 2,
               "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 80,
+              "sr": 40,
               "dismissal": "batting"
             }
           ],
@@ -5509,19 +5518,19 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 23,
               "wickets": 1,
-              "economy": 7.33
+              "economy": 6.57
             },
             {
               "name": "Avesh Khan",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
-              "wickets": 0,
-              "economy": 15
+              "runs": 31,
+              "wickets": 1,
+              "economy": 10.33
             }
           ]
         }
@@ -5540,10 +5549,10 @@
           "total": 11
         },
         "Cameron Green": {
-          "batting": 6,
+          "batting": -3,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": -3
         },
         "Rinku Singh": {
           "batting": 4,
@@ -5583,9 +5592,9 @@
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 20,
           "fielding": 0,
-          "total": -10
+          "total": 20
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -5595,9 +5604,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 37,
           "fielding": 8,
-          "total": 38
+          "total": 45
         }
       },
       "isComplete": false
@@ -5892,8 +5901,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1026,
-      "top11Points": 1026,
+      "totalPointsAll": 1033,
+      "top11Points": 1033,
       "players": [
         {
           "name": "KL Rahul",
@@ -5962,6 +5971,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 57,
+          "fielding": 8,
+          "rawPoints": 65,
+          "multiplier": 1,
+          "effectivePoints": 65,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 59,
@@ -5970,17 +5990,6 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 50,
-          "fielding": 8,
-          "rawPoints": 58,
-          "multiplier": 1,
-          "effectivePoints": 58,
           "countsInTop11": true
         },
         {
@@ -6582,8 +6591,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 987,
-      "top11Points": 987,
+      "totalPointsAll": 1008,
+      "top11Points": 1008,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -6641,14 +6650,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 44,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 52,
+          "name": "Avesh Khan",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 70,
+          "fielding": 0,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 52,
+          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
@@ -6663,14 +6672,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Avesh Khan",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 40,
-          "fielding": 0,
-          "rawPoints": 40,
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 35,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 43,
           "multiplier": 1,
-          "effectivePoints": 40,
+          "effectivePoints": 43,
           "countsInTop11": true
         },
         {
