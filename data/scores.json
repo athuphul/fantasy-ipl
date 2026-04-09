@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T14:04:55.418Z",
+  "lastUpdated": "2026-04-09T14:15:11.039Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 2,
-        "w": 0,
-        "o": 0.5
+        "r": 20,
+        "w": 1,
+        "o": 2.5
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 6
       },
       "Finn Allen": {
-        "batting": 1,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 11
       },
       "Mitchell Marsh": {
         "batting": 0,
@@ -72,8 +72,8 @@
       "Digvesh Rathi": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       }
     }
   },
@@ -95,18 +95,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1216,
-      "top11Points": 1211
+      "totalPointsAll": 1231,
+      "top11Points": 1226
+    },
+    {
+      "team": "Ali",
+      "totalPointsAll": 996,
+      "top11Points": 996
     },
     {
       "team": "Tanay",
       "totalPointsAll": 991,
       "top11Points": 991
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 988,
-      "top11Points": 988
     },
     {
       "team": "Kishan",
@@ -5412,29 +5412,38 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 2,
-          "w": 0,
-          "o": 0.5
+          "r": 20,
+          "w": 1,
+          "o": 2.5
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 2,
-          "wickets": 0,
-          "overs": 0.5,
+          "runs": 20,
+          "wickets": 1,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Ajinkya Rahane",
               "runs": 5,
-              "balls": 2,
+              "balls": 3,
               "fours": 1,
               "sixes": 0,
-              "sr": 250,
+              "sr": 166.67,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
+              "runs": 9,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 112.5,
+              "dismissal": "c Digvesh Singh Rathi b Prince Yadav"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
               "runs": 1,
               "balls": 4,
               "fours": 0,
@@ -5446,11 +5455,19 @@
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
               "runs": 6,
               "wickets": 0,
-              "economy": 6
+              "economy": 4
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
             }
           ]
         }
@@ -5463,10 +5480,10 @@
           "total": 6
         },
         "Finn Allen": {
-          "batting": 1,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 11
         },
         "Mitchell Marsh": {
           "batting": 0,
@@ -5513,8 +5530,8 @@
         "Digvesh Rathi": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         }
       },
       "isComplete": false
@@ -5522,8 +5539,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1216,
-      "top11Points": 1211,
+      "totalPointsAll": 1231,
+      "top11Points": 1226,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5561,12 +5578,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 106,
+          "batting": 116,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 106,
+          "rawPoints": 116,
           "multiplier": 1.5,
-          "effectivePoints": 159,
+          "effectivePoints": 174,
           "countsInTop11": true
         },
         {
@@ -5809,8 +5826,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 988,
-      "top11Points": 988,
+      "totalPointsAll": 996,
+      "top11Points": 996,
       "players": [
         {
           "name": "KL Rahul",
@@ -5916,10 +5933,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 20,
-          "fielding": 0,
-          "rawPoints": 20,
+          "fielding": 8,
+          "rawPoints": 28,
           "multiplier": 1,
-          "effectivePoints": 20,
+          "effectivePoints": 28,
           "countsInTop11": true
         },
         {
