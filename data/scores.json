@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-04-09T08:05:50.952Z",
+  "lastUpdated": "2026-04-09T14:04:55.418Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527688",
+    "name": "Kolkata Knight Riders v Lucknow Super Giants",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 2,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Ajinkya Rahane": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Finn Allen": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Mitchell Marsh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Aiden Markram": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rishabh Pant": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nicholas Pooran": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Abdul Samad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Avesh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Shami": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -20,8 +95,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1209,
-      "top11Points": 1204
+      "totalPointsAll": 1216,
+      "top11Points": 1211
     },
     {
       "team": "Tanay",
@@ -5327,12 +5402,128 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527688",
+      "name": "Kolkata Knight Riders v Lucknow Super Giants",
+      "date": "2026-04-09",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 2,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 2,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 5,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 250,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 1,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 25,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Ajinkya Rahane": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Finn Allen": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Mitchell Marsh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Aiden Markram": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rishabh Pant": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nicholas Pooran": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Abdul Samad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Avesh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Shami": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1209,
-      "top11Points": 1204,
+      "totalPointsAll": 1216,
+      "top11Points": 1211,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -5370,23 +5561,23 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 105,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 105,
+          "rawPoints": 106,
           "multiplier": 1.5,
-          "effectivePoints": 158,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 107,
+          "batting": 113,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 115,
+          "rawPoints": 121,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
