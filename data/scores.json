@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T15:14:57.930Z",
+  "lastUpdated": "2026-04-09T15:24:56.799Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527688",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 113,
+        "r": 144,
         "w": 4,
-        "o": 14.4
+        "o": 16.6
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 11
       },
       "Cameron Green": {
-        "batting": -3,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": -3
+        "total": 10
       },
       "Rinku Singh": {
         "batting": 4,
@@ -117,8 +117,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1008,
-      "top11Points": 1008
+      "totalPointsAll": 1021,
+      "top11Points": 1021
     },
     {
       "team": "Kishan",
@@ -5424,17 +5424,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 113,
+          "r": 144,
           "w": 4,
-          "o": 14.4
+          "o": 16.6
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 113,
+          "runs": 144,
           "wickets": 4,
-          "overs": 14.4,
+          "overs": 16.6,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -5465,11 +5465,11 @@
             },
             {
               "name": "Cameron Green",
-              "runs": 6,
-              "balls": 10,
-              "fours": 0,
+              "runs": 14,
+              "balls": 16,
+              "fours": 1,
               "sixes": 0,
-              "sr": 60,
+              "sr": 87.5,
               "dismissal": "batting"
             },
             {
@@ -5483,11 +5483,11 @@
             },
             {
               "name": "Rovman Powell",
-              "runs": 2,
-              "balls": 5,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 40,
+              "runs": 19,
+              "balls": 13,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 146.15,
               "dismissal": "batting"
             }
           ],
@@ -5502,27 +5502,27 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 19,
+              "runs": 30,
               "wickets": 1,
-              "economy": 9.5
+              "economy": 10.59
             },
             {
               "name": "Manimaran Siddharth",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 22,
+              "runs": 34,
               "wickets": 1,
-              "economy": 7.33
+              "economy": 8.5
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 25,
               "wickets": 1,
-              "economy": 6.57
+              "economy": 6.25
             },
             {
               "name": "Avesh Khan",
@@ -5549,10 +5549,10 @@
           "total": 11
         },
         "Cameron Green": {
-          "batting": -3,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": -3
+          "total": 10
         },
         "Rinku Singh": {
           "batting": 4,
@@ -6591,8 +6591,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1008,
-      "top11Points": 1008,
+      "totalPointsAll": 1021,
+      "top11Points": 1021,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -6661,6 +6661,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 48,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 56,
+          "multiplier": 1,
+          "effectivePoints": 56,
+          "countsInTop11": true
+        },
+        {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
           "batting": 14,
@@ -6669,17 +6680,6 @@
           "rawPoints": 44,
           "multiplier": 1,
           "effectivePoints": 44,
-          "countsInTop11": true
-        },
-        {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 35,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 43,
-          "multiplier": 1,
-          "effectivePoints": 43,
           "countsInTop11": true
         },
         {
