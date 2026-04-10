@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T17:15:11.263Z",
+  "lastUpdated": "2026-04-10T17:24:56.377Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 31,
+        "r": 69,
         "w": 1,
-        "o": 2.5
+        "o": 4.5
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -28,16 +28,16 @@
         "total": 17
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 21,
+        "batting": 93,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 93
       },
       "Dhruv Jurel": {
-        "batting": 1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 11
       },
       "Riyan Parag": {
         "batting": 0,
@@ -131,9 +131,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 10,
         "fielding": 0,
-        "total": 25
+        "total": 10
       }
     }
   },
@@ -144,6 +144,11 @@
       "top11Points": 1472
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 1525,
+      "top11Points": 1421
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 1379,
       "top11Points": 1379
@@ -152,11 +157,6 @@
       "team": "Aakash",
       "totalPointsAll": 1344,
       "top11Points": 1358
-    },
-    {
-      "team": "Tikoo",
-      "totalPointsAll": 1453,
-      "top11Points": 1349
     },
     {
       "team": "Kishan",
@@ -180,8 +180,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 944,
-      "top11Points": 908
+      "totalPointsAll": 931,
+      "top11Points": 910
     }
   ],
   "matchHistory": [
@@ -5837,9 +5837,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 31,
+          "r": 69,
           "w": 1,
-          "o": 2.5
+          "o": 4.5
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -5999,9 +5999,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 31,
+          "runs": 69,
           "wickets": 1,
-          "overs": 2.5,
+          "overs": 4.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -6014,47 +6014,47 @@
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 17,
-              "balls": 8,
-              "fours": 4,
-              "sixes": 0,
-              "sr": 212.5,
+              "runs": 53,
+              "balls": 17,
+              "fours": 7,
+              "sixes": 4,
+              "sr": 311.76,
               "dismissal": "batting"
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 0,
-              "balls": 0,
+              "runs": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 75,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 9,
+              "runs": 22,
               "wickets": 0,
-              "economy": 9
-            },
-            {
-              "name": "Josh Hazlewood",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 12,
-              "wickets": 1,
               "economy": 12
             },
             {
-              "name": "Abhinandan Singh",
-              "overs": 0.4,
+              "name": "Josh Hazlewood",
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 31,
+              "wickets": 1,
+              "economy": 15.5
+            },
+            {
+              "name": "Abhinandan Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
               "wickets": 0,
-              "economy": 13.5
+              "economy": 16
             }
           ]
         }
@@ -6067,16 +6067,16 @@
           "total": 17
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 21,
+          "batting": 93,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 93
         },
         "Dhruv Jurel": {
-          "batting": 1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 11
         },
         "Riyan Parag": {
           "batting": 0,
@@ -6170,9 +6170,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 10,
           "fielding": 0,
-          "total": 25
+          "total": 10
         }
       },
       "isComplete": false
@@ -6870,18 +6870,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 944,
-      "top11Points": 908,
+      "totalPointsAll": 931,
+      "top11Points": 910,
       "players": [
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 135,
+          "batting": 137,
           "bowling": 0,
           "fielding": 58,
-          "rawPoints": 193,
+          "rawPoints": 195,
           "multiplier": 1,
-          "effectivePoints": 193,
+          "effectivePoints": 195,
           "countsInTop11": true
         },
         {
@@ -6984,17 +6984,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 25,
-          "multiplier": 1,
-          "effectivePoints": 25,
-          "countsInTop11": false
-        },
-        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -7003,6 +6992,17 @@
           "rawPoints": 11,
           "multiplier": 1,
           "effectivePoints": 11,
+          "countsInTop11": false
+        },
+        {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 10,
+          "fielding": 0,
+          "rawPoints": 10,
+          "multiplier": 1,
+          "effectivePoints": 10,
           "countsInTop11": false
         },
         {
@@ -7295,18 +7295,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1453,
-      "top11Points": 1349,
+      "totalPointsAll": 1525,
+      "top11Points": 1421,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 220,
+          "batting": 292,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 220,
+          "rawPoints": 292,
           "multiplier": 1,
-          "effectivePoints": 220,
+          "effectivePoints": 292,
           "countsInTop11": true
         },
         {
