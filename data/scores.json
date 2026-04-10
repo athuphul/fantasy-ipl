@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T16:34:56.736Z",
+  "lastUpdated": "2026-04-10T16:44:54.077Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 166,
-        "w": 7,
-        "o": 17
+        "r": 180,
+        "w": 8,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 25,
         "fielding": 0,
-        "total": -5
+        "total": 25
       },
       "Phil Salt": {
         "batting": -5,
@@ -110,6 +110,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 41
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
       }
     }
   },
@@ -121,8 +127,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1354,
-      "top11Points": 1354
+      "totalPointsAll": 1384,
+      "top11Points": 1384
     },
     {
       "team": "Aakash",
@@ -136,8 +142,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1146,
-      "top11Points": 1146
+      "totalPointsAll": 1156,
+      "top11Points": 1156
     },
     {
       "team": "Tanay",
@@ -5813,17 +5819,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 166,
-          "w": 7,
-          "o": 17
+          "r": 180,
+          "w": 8,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 166,
-          "wickets": 7,
-          "overs": 17,
+          "runs": 180,
+          "wickets": 8,
+          "overs": 19,
           "batting": [
             {
               "name": "Phil Salt",
@@ -5855,11 +5861,11 @@
             {
               "name": "Rajat Patidar",
               "runs": 63,
-              "balls": 39,
+              "balls": 40,
               "fours": 4,
               "sixes": 4,
-              "sr": 161.54,
-              "dismissal": "batting"
+              "sr": 157.5,
+              "dismissal": "c Donovan Ferreira b Sandeep Sharma"
             },
             {
               "name": "Krunal Pandya",
@@ -5899,11 +5905,20 @@
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 5,
-              "balls": 5,
+              "runs": 9,
+              "balls": 9,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "runs": 7,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 116.67,
               "dismissal": "batting"
             }
           ],
@@ -5926,11 +5941,11 @@
             },
             {
               "name": "Sandeep Sharma",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 0,
-              "economy": 10.5
+              "runs": 26,
+              "wickets": 1,
+              "economy": 8.67
             },
             {
               "name": "Ravi Bishnoi",
@@ -5950,11 +5965,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 28,
+              "runs": 35,
               "wickets": 2,
-              "economy": 9.33
+              "economy": 9.13
             }
           ]
         }
@@ -6004,9 +6019,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 25,
           "fielding": 0,
-          "total": -5
+          "total": 25
         },
         "Phil Salt": {
           "batting": -5,
@@ -6055,6 +6070,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 41
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
         }
       },
       "isComplete": false
@@ -6625,8 +6646,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1146,
-      "top11Points": 1146,
+      "totalPointsAll": 1156,
+      "top11Points": 1156,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -6675,12 +6696,12 @@
         {
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 10,
           "bowling": 110,
           "fielding": 0,
-          "rawPoints": 110,
+          "rawPoints": 120,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -6912,8 +6933,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1354,
-      "top11Points": 1354,
+      "totalPointsAll": 1384,
+      "top11Points": 1384,
       "players": [
         {
           "name": "Jos Buttler",
@@ -6996,11 +7017,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 65,
+          "bowling": 95,
           "fielding": 16,
-          "rawPoints": 81,
+          "rawPoints": 111,
           "multiplier": 1,
-          "effectivePoints": 81,
+          "effectivePoints": 111,
           "countsInTop11": true
         },
         {
