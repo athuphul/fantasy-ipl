@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T16:25:08.671Z",
+  "lastUpdated": "2026-04-10T16:34:56.736Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 139,
+        "r": 166,
         "w": 7,
-        "o": 15
+        "o": 17
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Ravi Bishnoi": {
         "batting": 0,
-        "bowling": 70,
+        "bowling": 55,
         "fielding": 0,
-        "total": 70
+        "total": 55
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Phil Salt": {
         "batting": -5,
@@ -82,10 +82,10 @@
         "total": 17
       },
       "Rajat Patidar": {
-        "batting": 46,
+        "batting": 90,
         "bowling": 0,
         "fielding": 0,
-        "total": 46
+        "total": 90
       },
       "Krunal Pandya": {
         "batting": 1,
@@ -116,13 +116,13 @@
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1492,
-      "top11Points": 1487
+      "totalPointsAll": 1477,
+      "top11Points": 1472
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1359,
-      "top11Points": 1359
+      "totalPointsAll": 1354,
+      "top11Points": 1354
     },
     {
       "team": "Aakash",
@@ -141,8 +141,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1100,
-      "top11Points": 1100
+      "totalPointsAll": 1144,
+      "top11Points": 1144
     },
     {
       "team": "Ali",
@@ -5813,17 +5813,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 139,
+          "r": 166,
           "w": 7,
-          "o": 15
+          "o": 17
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 139,
+          "runs": 166,
           "wickets": 7,
-          "overs": 15,
+          "overs": 17,
           "batting": [
             {
               "name": "Phil Salt",
@@ -5854,11 +5854,11 @@
             },
             {
               "name": "Rajat Patidar",
-              "runs": 40,
-              "balls": 31,
-              "fours": 2,
-              "sixes": 2,
-              "sr": 129.03,
+              "runs": 63,
+              "balls": 39,
+              "fours": 4,
+              "sixes": 4,
+              "sr": 161.54,
               "dismissal": "batting"
             },
             {
@@ -5899,8 +5899,8 @@
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 1,
-              "balls": 1,
+              "runs": 5,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
@@ -5926,19 +5926,19 @@
             },
             {
               "name": "Sandeep Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 21,
               "wickets": 0,
-              "economy": 10
+              "economy": 10.5
             },
             {
               "name": "Ravi Bishnoi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 16,
+              "runs": 32,
               "wickets": 2,
-              "economy": 5.33
+              "economy": 8
             },
             {
               "name": "Ravindra Jadeja",
@@ -5986,9 +5986,9 @@
         },
         "Ravi Bishnoi": {
           "batting": 0,
-          "bowling": 70,
+          "bowling": 55,
           "fielding": 0,
-          "total": 70
+          "total": 55
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -6004,9 +6004,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Phil Salt": {
           "batting": -5,
@@ -6027,10 +6027,10 @@
           "total": 17
         },
         "Rajat Patidar": {
-          "batting": 46,
+          "batting": 90,
           "bowling": 0,
           "fielding": 0,
-          "total": 46
+          "total": 90
         },
         "Krunal Pandya": {
           "batting": 1,
@@ -6062,18 +6062,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1492,
-      "top11Points": 1487,
+      "totalPointsAll": 1477,
+      "top11Points": 1472,
       "players": [
         {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 270,
+          "bowling": 255,
           "fielding": 16,
-          "rawPoints": 286,
+          "rawPoints": 271,
           "multiplier": 1,
-          "effectivePoints": 286,
+          "effectivePoints": 271,
           "countsInTop11": true
         },
         {
@@ -6912,8 +6912,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1359,
-      "top11Points": 1359,
+      "totalPointsAll": 1354,
+      "top11Points": 1354,
       "players": [
         {
           "name": "Jos Buttler",
@@ -6996,11 +6996,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 70,
+          "bowling": 65,
           "fielding": 16,
-          "rawPoints": 86,
+          "rawPoints": 81,
           "multiplier": 1,
-          "effectivePoints": 86,
+          "effectivePoints": 81,
           "countsInTop11": true
         },
         {
@@ -7039,8 +7039,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1100,
-      "top11Points": 1100,
+      "totalPointsAll": 1144,
+      "top11Points": 1144,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -7056,12 +7056,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 176,
+          "batting": 220,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 192,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 192,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
