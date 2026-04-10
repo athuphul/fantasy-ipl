@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T15:55:08.445Z",
+  "lastUpdated": "2026-04-10T16:05:02.322Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 76,
+        "r": 91,
         "w": 5,
-        "o": 8.4
+        "o": 10.2
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 40,
+        "bowling": 45,
         "fielding": 0,
-        "total": 40
+        "total": 45
       },
       "Sandeep Sharma": {
         "batting": 0,
@@ -82,10 +82,10 @@
         "total": 17
       },
       "Rajat Patidar": {
-        "batting": 15,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 19
       },
       "Krunal Pandya": {
         "batting": 1,
@@ -98,6 +98,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 5
+      },
+      "Tim David": {
+        "batting": 14,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 14
       }
     }
   },
@@ -114,8 +120,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1322,
-      "top11Points": 1336
+      "totalPointsAll": 1327,
+      "top11Points": 1341
     },
     {
       "team": "Tikoo",
@@ -123,19 +129,19 @@
       "top11Points": 1328
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 1073,
+      "top11Points": 1073
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 1072,
       "top11Points": 1072
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1069,
-      "top11Points": 1069
-    },
-    {
       "team": "Ali",
-      "totalPointsAll": 1051,
-      "top11Points": 1051
+      "totalPointsAll": 1065,
+      "top11Points": 1065
     },
     {
       "team": "Ashwin",
@@ -5801,17 +5807,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 76,
+          "r": 91,
           "w": 5,
-          "o": 8.4
+          "o": 10.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 76,
+          "runs": 91,
           "wickets": 5,
-          "overs": 8.4,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Phil Salt",
@@ -5842,8 +5848,8 @@
             },
             {
               "name": "Rajat Patidar",
-              "runs": 14,
-              "balls": 14,
+              "runs": 17,
+              "balls": 17,
               "fours": 1,
               "sixes": 0,
               "sr": 100,
@@ -5866,16 +5872,25 @@
               "sixes": 0,
               "sr": 62.5,
               "dismissal": "lbw b Brijesh Sharma"
+            },
+            {
+              "name": "Tim David",
+              "runs": 12,
+              "balls": 7,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 171.43,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
+              "runs": 33,
               "wickets": 2,
-              "economy": 13
+              "economy": 11
             },
             {
               "name": "Nandre Burger",
@@ -5911,11 +5926,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 0.4,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 3,
+              "runs": 11,
               "wickets": 1,
-              "economy": 4.5
+              "economy": 8.25
             }
           ]
         }
@@ -5959,9 +5974,9 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 40,
+          "bowling": 45,
           "fielding": 0,
-          "total": 40
+          "total": 45
         },
         "Sandeep Sharma": {
           "batting": 0,
@@ -5988,10 +6003,10 @@
           "total": 17
         },
         "Rajat Patidar": {
-          "batting": 15,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 19
         },
         "Krunal Pandya": {
           "batting": 1,
@@ -6004,6 +6019,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 5
+        },
+        "Tim David": {
+          "batting": 14,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 14
         }
       },
       "isComplete": false
@@ -6160,8 +6181,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1322,
-      "top11Points": 1336,
+      "totalPointsAll": 1327,
+      "top11Points": 1341,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -6200,11 +6221,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 135,
+          "bowling": 140,
           "fielding": 34,
-          "rawPoints": 170,
+          "rawPoints": 175,
           "multiplier": 1,
-          "effectivePoints": 170,
+          "effectivePoints": 175,
           "countsInTop11": true
         },
         {
@@ -6298,8 +6319,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1051,
-      "top11Points": 1051,
+      "totalPointsAll": 1065,
+      "top11Points": 1065,
       "players": [
         {
           "name": "KL Rahul",
@@ -6315,12 +6336,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 138,
+          "batting": 152,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 138,
+          "rawPoints": 152,
           "multiplier": 1,
-          "effectivePoints": 138,
+          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -6988,8 +7009,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1069,
-      "top11Points": 1069,
+      "totalPointsAll": 1073,
+      "top11Points": 1073,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -7016,12 +7037,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 145,
+          "batting": 149,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 161,
+          "rawPoints": 165,
           "multiplier": 1,
-          "effectivePoints": 161,
+          "effectivePoints": 165,
           "countsInTop11": true
         },
         {
