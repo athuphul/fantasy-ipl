@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T16:05:02.322Z",
+  "lastUpdated": "2026-04-10T16:15:05.915Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 91,
-        "w": 5,
-        "o": 10.2
+        "r": 119,
+        "w": 6,
+        "o": 12.6
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Shimron Hetmyer": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 16,
-        "total": 16
+        "fielding": 24,
+        "total": 24
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -82,10 +82,10 @@
         "total": 17
       },
       "Rajat Patidar": {
-        "batting": 19,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 27
       },
       "Krunal Pandya": {
         "batting": 1,
@@ -100,10 +100,16 @@
         "total": 5
       },
       "Tim David": {
-        "batting": 14,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 15
+      },
+      "Romario Shepherd": {
+        "batting": 22,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 22
       }
     }
   },
@@ -130,8 +136,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1073,
-      "top11Points": 1073
+      "totalPointsAll": 1081,
+      "top11Points": 1081
     },
     {
       "team": "Kishan",
@@ -140,13 +146,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1065,
-      "top11Points": 1065
+      "totalPointsAll": 1066,
+      "top11Points": 1066
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1013,
-      "top11Points": 1013
+      "totalPointsAll": 1043,
+      "top11Points": 1043
     },
     {
       "team": "Manav",
@@ -5807,17 +5813,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 91,
-          "w": 5,
-          "o": 10.2
+          "r": 119,
+          "w": 6,
+          "o": 12.6
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 91,
-          "wickets": 5,
-          "overs": 10.2,
+          "runs": 119,
+          "wickets": 6,
+          "overs": 12.6,
           "batting": [
             {
               "name": "Phil Salt",
@@ -5848,11 +5854,11 @@
             },
             {
               "name": "Rajat Patidar",
-              "runs": 17,
-              "balls": 17,
-              "fours": 1,
+              "runs": 25,
+              "balls": 24,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 104.17,
               "dismissal": "batting"
             },
             {
@@ -5875,11 +5881,20 @@
             },
             {
               "name": "Tim David",
-              "runs": 12,
-              "balls": 7,
+              "runs": 13,
+              "balls": 9,
               "fours": 2,
               "sixes": 0,
-              "sr": 171.43,
+              "sr": 144.44,
+              "dismissal": "c Shimron Hetmyer b Brijesh Sharma"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 13,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 260,
               "dismissal": "batting"
             }
           ],
@@ -5910,11 +5925,11 @@
             },
             {
               "name": "Ravi Bishnoi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 6,
+              "runs": 16,
               "wickets": 2,
-              "economy": 3
+              "economy": 5.33
             },
             {
               "name": "Ravindra Jadeja",
@@ -5926,11 +5941,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 1.2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 11,
-              "wickets": 1,
-              "economy": 8.25
+              "runs": 23,
+              "wickets": 2,
+              "economy": 8.63
             }
           ]
         }
@@ -5957,8 +5972,8 @@
         "Shimron Hetmyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 24,
+          "total": 24
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -6003,10 +6018,10 @@
           "total": 17
         },
         "Rajat Patidar": {
-          "batting": 19,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 27
         },
         "Krunal Pandya": {
           "batting": 1,
@@ -6021,10 +6036,16 @@
           "total": 5
         },
         "Tim David": {
-          "batting": 14,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 15
+        },
+        "Romario Shepherd": {
+          "batting": 22,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 22
         }
       },
       "isComplete": false
@@ -6319,8 +6340,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1065,
-      "top11Points": 1065,
+      "totalPointsAll": 1066,
+      "top11Points": 1066,
       "players": [
         {
           "name": "KL Rahul",
@@ -6336,12 +6357,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 152,
+          "batting": 153,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 152,
+          "rawPoints": 153,
           "multiplier": 1,
-          "effectivePoints": 152,
+          "effectivePoints": 153,
           "countsInTop11": true
         },
         {
@@ -6457,8 +6478,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1013,
-      "top11Points": 1013,
+      "totalPointsAll": 1043,
+      "top11Points": 1043,
       "players": [
         {
           "name": "Shubman Gill",
@@ -6496,12 +6517,23 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 22,
           "bowling": 75,
           "fielding": 0,
-          "rawPoints": 75,
+          "rawPoints": 97,
           "multiplier": 1,
-          "effectivePoints": 75,
+          "effectivePoints": 97,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 29,
+          "bowling": 0,
+          "fielding": 50,
+          "rawPoints": 79,
+          "multiplier": 1,
+          "effectivePoints": 79,
           "countsInTop11": true
         },
         {
@@ -6513,17 +6545,6 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 29,
-          "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 71,
-          "multiplier": 1,
-          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -7009,8 +7030,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1073,
-      "top11Points": 1073,
+      "totalPointsAll": 1081,
+      "top11Points": 1081,
       "players": [
         {
           "name": "Rohit Sharma",
@@ -7037,12 +7058,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 149,
+          "batting": 157,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 165,
+          "rawPoints": 173,
           "multiplier": 1,
-          "effectivePoints": 165,
+          "effectivePoints": 173,
           "countsInTop11": true
         },
         {
