@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T17:45:06.431Z",
+  "lastUpdated": "2026-04-10T17:54:54.468Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 129,
-        "w": 3,
-        "o": 8.2
+        "r": 139,
+        "w": 4,
+        "o": 10.2
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -34,10 +34,10 @@
         "total": 125
       },
       "Dhruv Jurel": {
-        "batting": 62,
+        "batting": 64,
         "bowling": 0,
         "fielding": 8,
-        "total": 70
+        "total": 72
       },
       "Shimron Hetmyer": {
         "batting": -5,
@@ -46,22 +46,22 @@
         "total": 19
       },
       "Riyan Parag": {
-        "batting": 1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 3
+      },
+      "Ravindra Jadeja": {
+        "batting": 5,
+        "bowling": 37,
+        "fielding": 0,
+        "total": 42
       },
       "Ravi Bishnoi": {
         "batting": 0,
         "bowling": 55,
         "fielding": 0,
         "total": 55
-      },
-      "Ravindra Jadeja": {
-        "batting": 0,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 37
       },
       "Jofra Archer": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Krunal Pandya": {
         "batting": 1,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 51
+        "bowling": 55,
+        "fielding": 8,
+        "total": 64
       },
       "Jitesh Sharma": {
         "batting": 5,
@@ -131,9 +131,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 40,
         "fielding": 8,
-        "total": 18
+        "total": 48
       }
     }
   },
@@ -150,8 +150,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1381,
-      "top11Points": 1381
+      "totalPointsAll": 1385,
+      "top11Points": 1385
     },
     {
       "team": "Aakash",
@@ -160,8 +160,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1154,
-      "top11Points": 1154
+      "totalPointsAll": 1164,
+      "top11Points": 1164
     },
     {
       "team": "Tanay",
@@ -180,8 +180,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1048,
-      "top11Points": 1019
+      "totalPointsAll": 1093,
+      "top11Points": 1053
     }
   ],
   "matchHistory": [
@@ -5837,9 +5837,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 129,
-          "w": 3,
-          "o": 8.2
+          "r": 139,
+          "w": 4,
+          "o": 10.2
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -5999,9 +5999,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 129,
-          "wickets": 3,
-          "overs": 8.2,
+          "runs": 139,
+          "wickets": 4,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -6023,11 +6023,11 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 38,
-              "balls": 15,
+              "runs": 40,
+              "balls": 18,
               "fours": 5,
               "sixes": 2,
-              "sr": 253.33,
+              "sr": 222.22,
               "dismissal": "batting"
             },
             {
@@ -6041,11 +6041,20 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 0,
-              "balls": 0,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 60,
+              "dismissal": "c Krunal Pandya b Josh Hazlewood"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 5,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 166.67,
               "dismissal": "batting"
             }
           ],
@@ -6060,11 +6069,11 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 31,
-              "wickets": 1,
-              "economy": 15.5
+              "runs": 36,
+              "wickets": 2,
+              "economy": 12
             },
             {
               "name": "Abhinandan Singh",
@@ -6076,11 +6085,11 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1.2,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 14,
+              "runs": 19,
               "wickets": 2,
-              "economy": 10.5
+              "economy": 8.77
             },
             {
               "name": "Tim David",
@@ -6107,10 +6116,10 @@
           "total": 125
         },
         "Dhruv Jurel": {
-          "batting": 62,
+          "batting": 64,
           "bowling": 0,
           "fielding": 8,
-          "total": 70
+          "total": 72
         },
         "Shimron Hetmyer": {
           "batting": -5,
@@ -6119,22 +6128,22 @@
           "total": 19
         },
         "Riyan Parag": {
-          "batting": 1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 3
+        },
+        "Ravindra Jadeja": {
+          "batting": 5,
+          "bowling": 37,
+          "fielding": 0,
+          "total": 42
         },
         "Ravi Bishnoi": {
           "batting": 0,
           "bowling": 55,
           "fielding": 0,
           "total": 55
-        },
-        "Ravindra Jadeja": {
-          "batting": 0,
-          "bowling": 37,
-          "fielding": 0,
-          "total": 37
         },
         "Jofra Archer": {
           "batting": 0,
@@ -6174,9 +6183,9 @@
         },
         "Krunal Pandya": {
           "batting": 1,
-          "bowling": 50,
-          "fielding": 0,
-          "total": 51
+          "bowling": 55,
+          "fielding": 8,
+          "total": 64
         },
         "Jitesh Sharma": {
           "batting": 5,
@@ -6204,9 +6213,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 40,
           "fielding": 8,
-          "total": 18
+          "total": 48
         }
       },
       "isComplete": false
@@ -6777,18 +6786,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1154,
-      "top11Points": 1154,
+      "totalPointsAll": 1164,
+      "top11Points": 1164,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 8,
+          "batting": 13,
           "bowling": 97,
           "fielding": 18,
-          "rawPoints": 123,
+          "rawPoints": 128,
           "multiplier": 2,
-          "effectivePoints": 246,
+          "effectivePoints": 256,
           "countsInTop11": true
         },
         {
@@ -6904,18 +6913,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1048,
-      "top11Points": 1019,
+      "totalPointsAll": 1093,
+      "top11Points": 1053,
       "players": [
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 196,
+          "batting": 198,
           "bowling": 0,
           "fielding": 58,
-          "rawPoints": 254,
+          "rawPoints": 256,
           "multiplier": 1,
-          "effectivePoints": 254,
+          "effectivePoints": 256,
           "countsInTop11": true
         },
         {
@@ -6944,11 +6953,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 1,
-          "bowling": 80,
-          "fielding": 0,
-          "rawPoints": 81,
+          "bowling": 85,
+          "fielding": 8,
+          "rawPoints": 94,
           "multiplier": 1,
-          "effectivePoints": 81,
+          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -6985,6 +6994,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 40,
+          "fielding": 8,
+          "rawPoints": 48,
+          "multiplier": 1,
+          "effectivePoints": 48,
+          "countsInTop11": true
+        },
+        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 7,
@@ -7015,17 +7035,6 @@
           "rawPoints": 29,
           "multiplier": 1,
           "effectivePoints": 29,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 10,
-          "fielding": 8,
-          "rawPoints": 18,
-          "multiplier": 1,
-          "effectivePoints": 18,
           "countsInTop11": false
         },
         {
@@ -7064,8 +7073,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1381,
-      "top11Points": 1381,
+      "totalPointsAll": 1385,
+      "top11Points": 1385,
       "players": [
         {
           "name": "Jos Buttler",
@@ -7092,12 +7101,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 68,
+          "batting": 70,
           "bowling": 25,
           "fielding": 0,
-          "rawPoints": 93,
+          "rawPoints": 95,
           "multiplier": 2,
-          "effectivePoints": 186,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
