@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T16:55:23.992Z",
+  "lastUpdated": "2026-04-10T17:04:53.774Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527689",
@@ -8,6 +8,12 @@
     "venue": "Barsapara Cricket Stadium, Guwahati",
     "score": [
       {
+        "inning": "Rajasthan Royals",
+        "r": 5,
+        "w": 0,
+        "o": 0.5
+      },
+      {
         "inning": "Royal Challengers Bengaluru",
         "r": 201,
         "w": 8,
@@ -15,17 +21,23 @@
       }
     ],
     "playerScores": {
+      "Yashasvi Jaiswal": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
       "Dhruv Jurel": {
         "batting": 0,
         "bowling": 0,
         "fielding": 8,
         "total": 8
-      },
-      "Yashasvi Jaiswal": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Riyan Parag": {
         "batting": 0,
@@ -116,6 +128,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 10
+      },
+      "Josh Hazlewood": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -132,13 +150,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1327,
-      "top11Points": 1341
+      "totalPointsAll": 1328,
+      "top11Points": 1342
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1432,
-      "top11Points": 1328
+      "totalPointsAll": 1437,
+      "top11Points": 1333
     },
     {
       "team": "Kishan",
@@ -5818,6 +5836,12 @@
       "venue": "Barsapara Cricket Stadium, Guwahati",
       "score": [
         {
+          "inning": "Rajasthan Royals",
+          "r": 5,
+          "w": 0,
+          "o": 0.5
+        },
+        {
           "inning": "Royal Challengers Bengaluru",
           "r": 201,
           "w": 8,
@@ -5972,20 +5996,62 @@
               "economy": 9.25
             }
           ]
+        },
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 4,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
+        "Yashasvi Jaiswal": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
         "Dhruv Jurel": {
           "batting": 0,
           "bowling": 0,
           "fielding": 8,
           "total": 8
-        },
-        "Yashasvi Jaiswal": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Riyan Parag": {
           "batting": 0,
@@ -6076,6 +6142,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 10
+        },
+        "Josh Hazlewood": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -6232,8 +6304,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1327,
-      "top11Points": 1341,
+      "totalPointsAll": 1328,
+      "top11Points": 1342,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -6249,12 +6321,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 245,
+          "batting": 246,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 261,
+          "rawPoints": 262,
           "multiplier": 1,
-          "effectivePoints": 261,
+          "effectivePoints": 262,
           "countsInTop11": true
         },
         {
@@ -7198,18 +7270,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1432,
-      "top11Points": 1328,
+      "totalPointsAll": 1437,
+      "top11Points": 1333,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 199,
+          "batting": 204,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 199,
+          "rawPoints": 204,
           "multiplier": 1,
-          "effectivePoints": 199,
+          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
