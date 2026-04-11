@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T16:04:55.564Z",
+  "lastUpdated": "2026-04-11T16:14:58.431Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 8,
+        "r": 36,
         "w": 0,
-        "o": 1
+        "o": 2.6
       }
     ],
     "playerScores": {
@@ -70,10 +70,10 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 1,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 16
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -137,8 +137,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1363,
-      "top11Points": 1363
+      "totalPointsAll": 1393,
+      "top11Points": 1393
     },
     {
       "team": "Aakash",
@@ -6597,9 +6597,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 8,
+          "r": 36,
           "w": 0,
-          "o": 1
+          "o": 2.6
         }
       ],
       "scorecard": [
@@ -6699,37 +6699,45 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 8,
+          "runs": 36,
           "wickets": 0,
-          "overs": 1,
+          "overs": 2.6,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 5,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 21,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 161.54,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 13,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 216.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 0.5,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 8,
+              "runs": 20,
               "wickets": 0,
-              "economy": 9.6
+              "economy": 10.91
+            },
+            {
+              "name": "Khaleel Ahmed",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
             }
           ]
         }
@@ -6784,10 +6792,10 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 1,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 16
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -7124,9 +7132,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1363,
-      "top11Points": 1363,
+      "totalPointsAll": 1393,
+      "top11Points": 1393,
       "players": [
+        {
+          "name": "KL Rahul",
+          "role": "Wicket Keeper",
+          "batting": 143,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 151,
+          "multiplier": 2,
+          "effectivePoints": 302,
+          "countsInTop11": true
+        },
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
@@ -7136,17 +7155,6 @@
           "rawPoints": 199,
           "multiplier": 1.5,
           "effectivePoints": 299,
-          "countsInTop11": true
-        },
-        {
-          "name": "KL Rahul",
-          "role": "Wicket Keeper",
-          "batting": 128,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 136,
-          "multiplier": 2,
-          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
