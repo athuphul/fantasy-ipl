@@ -702,6 +702,40 @@ function syncScorecardTotals(scorecard, score) {
   }
 }
 
+// Reconcile batting/bowling points against the Cricbuzz scorecard.
+// ESPN can have stale or slightly wrong stats (e.g. 68 runs instead of 69).
+// Recompute from Cricbuzz when stats differ.
+function reconcilePointsFromScorecard(scorecard, playerScores, allPlayers) {
+  if (!scorecard || !playerScores) return;
+  const findRoster = (rawName) => findRosterName(rawName, allPlayers);
+
+  for (const inn of scorecard) {
+    for (const bat of (inn.batting || [])) {
+      const roster = findRoster(bat.name);
+      if (!roster || !playerScores[roster]) continue;
+      const dismissed = bat.dismissal && bat.dismissal !== 'not out' && !bat.dismissal.startsWith('retired') && bat.dismissal !== 'batting';
+      const stats = { runs: bat.runs, ballsFaced: bat.balls, fours: bat.fours, sixes: bat.sixes, strikeRate: bat.balls > 0 ? (bat.runs / bat.balls) * 100 : 0 };
+      const cbBatPts = computeBattingPoints(stats, dismissed);
+      if (cbBatPts !== playerScores[roster].batting) {
+        console.log(`  Scorecard reconcile batting: ${roster}: ${playerScores[roster].batting} → ${cbBatPts} (CB: ${bat.runs}r ${bat.balls}b ${bat.fours}x4 ${bat.sixes}x6)`);
+        playerScores[roster].batting = cbBatPts;
+        playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
+      }
+    }
+    for (const bowl of (inn.bowling || [])) {
+      const roster = findRoster(bowl.name);
+      if (!roster || !playerScores[roster]) continue;
+      const stats = { overs: bowl.overs, wickets: bowl.wickets, economyRate: bowl.economy };
+      const cbBowlPts = computeBowlingPoints(stats);
+      if (cbBowlPts !== playerScores[roster].bowling) {
+        console.log(`  Scorecard reconcile bowling: ${roster}: ${playerScores[roster].bowling} → ${cbBowlPts} (CB: ${bowl.overs}ov ${bowl.wickets}w eco=${bowl.economy})`);
+        playerScores[roster].bowling = cbBowlPts;
+        playerScores[roster].total = playerScores[roster].batting + playerScores[roster].bowling + playerScores[roster].fielding;
+      }
+    }
+  }
+}
+
 // Count catches per fielder from scorecard dismissal text and correct fielding points.
 // Dismissal text like "c Ishan Kishan b Tyagi" → 1 catch for Ishan Kishan.
 // This is more reliable than ESPN stats.caught which can be wrong.
@@ -1184,6 +1218,9 @@ async function main() {
 
         normalizeScorecardNames(stale.scorecard, allPlayers);
         syncScorecardTotals(stale.scorecard, score);
+        if (staleCbScorecard && staleCbScorecard.length > 0) {
+          reconcilePointsFromScorecard(stale.scorecard, playerScores, allPlayers);
+        }
         correctFieldingFromScorecard(stale.scorecard, playerScores, allPlayers);
 
         if (staleIsComplete) {
@@ -1325,6 +1362,9 @@ async function main() {
 
       normalizeScorecardNames(scorecard, allPlayers);
       syncScorecardTotals(scorecard, score);
+      if (cbScorecard && cbScorecard.length > 0) {
+        reconcilePointsFromScorecard(scorecard, playerScores, allPlayers);
+      }
       correctFieldingFromScorecard(scorecard, playerScores, allPlayers);
 
       const matchEntry = {
