@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T12:55:16.869Z",
+  "lastUpdated": "2026-04-11T13:04:53.926Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 118,
-        "w": 2,
-        "o": 9
+        "r": 136,
+        "w": 3,
+        "o": 10.6
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -34,6 +34,12 @@
         "total": 93
       },
       "Shreyas Iyer": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Nehal Wadhera": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
@@ -136,8 +142,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1247,
-      "top11Points": 1247
+      "totalPointsAll": 1253,
+      "top11Points": 1253
     },
     {
       "team": "Tanay",
@@ -6213,9 +6219,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 118,
-          "w": 2,
-          "o": 9
+          "r": 136,
+          "w": 3,
+          "o": 10.6
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -6357,9 +6363,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 118,
-          "wickets": 2,
-          "overs": 9,
+          "runs": 136,
+          "wickets": 3,
+          "overs": 10.6,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -6381,20 +6387,29 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 5,
-              "balls": 8,
-              "fours": 0,
+              "runs": 11,
+              "balls": 12,
+              "fours": 1,
               "sixes": 0,
-              "sr": 62.5,
-              "dismissal": "batting"
+              "sr": 91.67,
+              "dismissal": "c Aniket Verma b Shivang Kumar"
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 1,
-              "balls": 1,
+              "runs": 6,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nehal Wadhera",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -6433,19 +6448,19 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 2,
-              "economy": 8.5
+              "runs": 23,
+              "wickets": 3,
+              "economy": 8.12
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 6,
               "wickets": 0,
-              "economy": 0
+              "economy": 6
             }
           ]
         }
@@ -6464,6 +6479,12 @@
           "total": 93
         },
         "Shreyas Iyer": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Nehal Wadhera": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
@@ -6834,8 +6855,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1247,
-      "top11Points": 1247,
+      "totalPointsAll": 1253,
+      "top11Points": 1253,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -6884,12 +6905,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 103,
+          "batting": 108,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 111,
+          "rawPoints": 116,
           "multiplier": 1,
-          "effectivePoints": 111,
+          "effectivePoints": 116,
           "countsInTop11": true
         },
         {
@@ -6939,12 +6960,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 15,
+          "batting": 16,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 31,
+          "rawPoints": 32,
           "multiplier": 1,
-          "effectivePoints": 31,
+          "effectivePoints": 32,
           "countsInTop11": true
         },
         {
