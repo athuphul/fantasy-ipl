@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T11:45:06.318Z",
+  "lastUpdated": "2026-04-11T11:54:56.881Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 218,
-        "w": 5,
-        "o": 19.2
+        "r": 219,
+        "w": 6,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -92,6 +92,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Harsh Dubey": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -123,8 +129,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1244,
-      "top11Points": 1244
+      "totalPointsAll": 1245,
+      "top11Points": 1245
     },
     {
       "team": "Kishan",
@@ -6195,17 +6201,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 218,
-          "w": 5,
-          "o": 19.2
+          "r": 219,
+          "w": 6,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 218,
-          "wickets": 5,
-          "overs": 19.2,
+          "runs": 219,
+          "wickets": 6,
+          "overs": 20,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -6237,11 +6243,11 @@
             {
               "name": "Heinrich Klaasen",
               "runs": 39,
-              "balls": 31,
+              "balls": 33,
               "fours": 1,
               "sixes": 1,
-              "sr": 125.81,
-              "dismissal": "batting"
+              "sr": 118.18,
+              "dismissal": "c Cooper Connolly b Xavier Bartlett"
             },
             {
               "name": "Aniket Verma",
@@ -6268,7 +6274,16 @@
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "batting"
+              "dismissal": "not out"
+            },
+            {
+              "name": "Harsh Dubey",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -6282,11 +6297,11 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 41,
-              "wickets": 0,
-              "economy": 12.3
+              "runs": 42,
+              "wickets": 1,
+              "economy": 10.5
             },
             {
               "name": "Marco Jansen",
@@ -6401,6 +6416,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Harsh Dubey": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -7385,8 +7406,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1244,
-      "top11Points": 1244,
+      "totalPointsAll": 1245,
+      "top11Points": 1245,
       "players": [
         {
           "name": "Travis Head",
@@ -7424,12 +7445,12 @@
         {
           "name": "Harsh Dubey",
           "role": "All-Rounder",
-          "batting": 9,
+          "batting": 10,
           "bowling": 115,
           "fielding": 8,
-          "rawPoints": 132,
+          "rawPoints": 133,
           "multiplier": 1,
-          "effectivePoints": 132,
+          "effectivePoints": 133,
           "countsInTop11": true
         },
         {
