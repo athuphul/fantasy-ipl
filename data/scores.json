@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T14:24:55.095Z",
+  "lastUpdated": "2026-04-11T14:35:10.351Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -9,23 +9,29 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 49,
-        "w": 0,
-        "o": 5
+        "r": 64,
+        "w": 1,
+        "o": 6.5
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 57,
+        "batting": 71,
         "bowling": 0,
         "fielding": 0,
-        "total": 57
+        "total": 71
       },
       "Ruturaj Gaikwad": {
-        "batting": 9,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 11
+      },
+      "Ayush Mhatre": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "KL Rahul": {
         "batting": 0,
@@ -41,9 +47,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "David Miller": {
         "batting": 0,
@@ -80,13 +86,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1674,
-      "top11Points": 1570
+      "totalPointsAll": 1702,
+      "top11Points": 1598
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1512,
-      "top11Points": 1522
+      "totalPointsAll": 1514,
+      "top11Points": 1524
     },
     {
       "team": "Ritik",
@@ -120,8 +126,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1213,
-      "top11Points": 1150
+      "totalPointsAll": 1266,
+      "top11Points": 1203
     }
   ],
   "matchHistory": [
@@ -6549,34 +6555,43 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 49,
-          "w": 0,
-          "o": 5
+          "r": 64,
+          "w": 1,
+          "o": 6.5
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 49,
-          "wickets": 0,
-          "overs": 5,
+          "runs": 64,
+          "wickets": 1,
+          "overs": 6.5,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 35,
-              "balls": 15,
-              "fours": 7,
+              "runs": 47,
+              "balls": 22,
+              "fours": 9,
               "sixes": 0,
-              "sr": 233.33,
+              "sr": 213.64,
               "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 13,
-              "balls": 15,
+              "runs": 15,
+              "balls": 18,
               "fours": 1,
               "sixes": 0,
-              "sr": 86.67,
+              "sr": 83.33,
+              "dismissal": "c Pathum Nissanka b Axar Patel"
+            },
+            {
+              "name": "Ayush Mhatre",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -6599,11 +6614,11 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 13
+              "runs": 16,
+              "wickets": 1,
+              "economy": 8.73
             },
             {
               "name": "T Natarajan",
@@ -6612,22 +6627,36 @@
               "runs": 9,
               "wickets": 0,
               "economy": 9
+            },
+            {
+              "name": "Lungi Ngidi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 57,
+          "batting": 71,
           "bowling": 0,
           "fielding": 0,
-          "total": 57
+          "total": 71
         },
         "Ruturaj Gaikwad": {
-          "batting": 9,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 11
+        },
+        "Ayush Mhatre": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "KL Rahul": {
           "batting": 0,
@@ -6643,9 +6672,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "David Miller": {
           "batting": 0,
@@ -6683,8 +6712,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1512,
-      "top11Points": 1522,
+      "totalPointsAll": 1514,
+      "top11Points": 1524,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6755,12 +6784,12 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
-          "batting": 100,
+          "batting": 102,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 100,
+          "rawPoints": 102,
           "multiplier": 1,
-          "effectivePoints": 100,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -7373,8 +7402,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1213,
-      "top11Points": 1150,
+      "totalPointsAll": 1266,
+      "top11Points": 1203,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -7388,6 +7417,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Axar Patel",
+          "role": "All-Rounder",
+          "batting": -3,
+          "bowling": 110,
+          "fielding": 8,
+          "rawPoints": 115,
+          "multiplier": 2,
+          "effectivePoints": 230,
+          "countsInTop11": true
+        },
+        {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 135,
@@ -7396,17 +7436,6 @@
           "rawPoints": 196,
           "multiplier": 1,
           "effectivePoints": 196,
-          "countsInTop11": true
-        },
-        {
-          "name": "Axar Patel",
-          "role": "All-Rounder",
-          "batting": -3,
-          "bowling": 85,
-          "fielding": 8,
-          "rawPoints": 90,
-          "multiplier": 2,
-          "effectivePoints": 180,
           "countsInTop11": true
         },
         {
@@ -7423,12 +7452,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 45,
+          "batting": 47,
           "bowling": 0,
           "fielding": 5,
-          "rawPoints": 50,
+          "rawPoints": 52,
           "multiplier": 1.5,
-          "effectivePoints": 75,
+          "effectivePoints": 78,
           "countsInTop11": true
         },
         {
@@ -7798,8 +7827,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1674,
-      "top11Points": 1570,
+      "totalPointsAll": 1702,
+      "top11Points": 1598,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -7810,6 +7839,17 @@
           "rawPoints": 324,
           "multiplier": 1,
           "effectivePoints": 324,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sanju Samson",
+          "role": "Wicket Keeper",
+          "batting": 97,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 97,
+          "multiplier": 2,
+          "effectivePoints": 194,
           "countsInTop11": true
         },
         {
@@ -7832,17 +7872,6 @@
           "rawPoints": 119,
           "multiplier": 1.5,
           "effectivePoints": 179,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sanju Samson",
-          "role": "Wicket Keeper",
-          "batting": 83,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 83,
-          "multiplier": 2,
-          "effectivePoints": 166,
           "countsInTop11": true
         },
         {
