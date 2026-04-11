@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T17:05:25.258Z",
+  "lastUpdated": "2026-04-11T17:15:17.962Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 108,
-        "w": 4,
-        "o": 11.1
+        "r": 130,
+        "w": 5,
+        "o": 13
       }
     ],
     "playerScores": {
@@ -94,10 +94,16 @@
         "total": 20
       },
       "Tristan Stubbs": {
-        "batting": 16,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 36
+      },
+      "Ashutosh Sharma": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -137,8 +143,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1441,
-      "top11Points": 1441
+      "totalPointsAll": 1461,
+      "top11Points": 1461
     },
     {
       "team": "Aakash",
@@ -147,8 +153,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1270,
-      "top11Points": 1270
+      "totalPointsAll": 1280,
+      "top11Points": 1279
     },
     {
       "team": "Ashwin",
@@ -6597,9 +6603,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 108,
-          "w": 4,
-          "o": 11.1
+          "r": 130,
+          "w": 5,
+          "o": 13
         }
       ],
       "scorecard": [
@@ -6699,9 +6705,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 108,
-          "wickets": 4,
-          "overs": 11.1,
+          "runs": 130,
+          "wickets": 5,
+          "overs": 13,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -6741,20 +6747,29 @@
             },
             {
               "name": "David Miller",
-              "runs": 16,
-              "balls": 11,
+              "runs": 17,
+              "balls": 14,
               "fours": 1,
               "sixes": 1,
-              "sr": 145.45,
-              "dismissal": "batting"
+              "sr": 121.43,
+              "dismissal": "b Jamie Overton"
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 14,
-              "balls": 13,
+              "runs": 27,
+              "balls": 18,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 150,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "runs": 8,
+              "balls": 3,
               "fours": 0,
               "sixes": 1,
-              "sr": 107.69,
+              "sr": 266.67,
               "dismissal": "batting"
             }
           ],
@@ -6769,11 +6784,11 @@
             },
             {
               "name": "Khaleel Ahmed",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 27,
+              "runs": 40,
               "wickets": 1,
-              "economy": 12.46
+              "economy": 13.33
             },
             {
               "name": "Anshul Kamboj",
@@ -6793,11 +6808,11 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
-              "wickets": 1,
-              "economy": 3
+              "runs": 12,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Noor Ahmad",
@@ -6884,10 +6899,16 @@
           "total": 20
         },
         "Tristan Stubbs": {
-          "batting": 16,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 36
+        },
+        "Ashutosh Sharma": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -7200,8 +7221,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1441,
-      "top11Points": 1441,
+      "totalPointsAll": 1461,
+      "top11Points": 1461,
       "players": [
         {
           "name": "KL Rahul",
@@ -7248,6 +7269,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tristan Stubbs",
+          "role": "Batsman",
+          "batting": 90,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 114,
+          "multiplier": 1,
+          "effectivePoints": 114,
+          "countsInTop11": true
+        },
+        {
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 0,
@@ -7256,17 +7288,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tristan Stubbs",
-          "role": "Batsman",
-          "batting": 70,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 94,
-          "multiplier": 1,
-          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -7890,8 +7911,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1270,
-      "top11Points": 1270,
+      "totalPointsAll": 1280,
+      "top11Points": 1279,
       "players": [
         {
           "name": "Travis Head",
@@ -7993,6 +8014,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 10,
+          "multiplier": 1,
+          "effectivePoints": 10,
+          "countsInTop11": true
+        },
+        {
           "name": "Mayank Markande",
           "role": "Spinner",
           "batting": 0,
@@ -8012,17 +8044,6 @@
           "rawPoints": 1,
           "multiplier": 1,
           "effectivePoints": 1,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
           "countsInTop11": false
         }
       ]
