@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T14:44:59.414Z",
+  "lastUpdated": "2026-04-11T14:54:53.636Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 77,
+        "r": 102,
         "w": 1,
-        "o": 9
+        "o": 10.5
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 81,
+        "batting": 106,
         "bowling": 0,
         "fielding": 0,
-        "total": 81
+        "total": 106
       },
       "Ruturaj Gaikwad": {
         "batting": 11,
@@ -28,10 +28,10 @@
         "total": 11
       },
       "Ayush Mhatre": {
-        "batting": 10,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 19
       },
       "KL Rahul": {
         "batting": 0,
@@ -86,13 +86,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1722,
-      "top11Points": 1618
+      "totalPointsAll": 1772,
+      "top11Points": 1668
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1522,
-      "top11Points": 1532
+      "totalPointsAll": 1531,
+      "top11Points": 1541
     },
     {
       "team": "Ritik",
@@ -6555,25 +6555,25 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 77,
+          "r": 102,
           "w": 1,
-          "o": 9
+          "o": 10.5
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 77,
+          "runs": 102,
           "wickets": 1,
-          "overs": 9,
+          "overs": 10.5,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 52,
-              "balls": 29,
-              "fours": 9,
-              "sixes": 0,
-              "sr": 179.31,
+              "runs": 68,
+              "balls": 34,
+              "fours": 11,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
@@ -6587,11 +6587,11 @@
             },
             {
               "name": "Ayush Mhatre",
-              "runs": 9,
-              "balls": 7,
-              "fours": 1,
+              "runs": 17,
+              "balls": 13,
+              "fours": 2,
               "sixes": 0,
-              "sr": 128.57,
+              "sr": 130.77,
               "dismissal": "batting"
             }
           ],
@@ -6614,19 +6614,19 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 28,
               "wickets": 1,
-              "economy": 8.5
+              "economy": 9.33
             },
             {
               "name": "T Natarajan",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 9,
+              "runs": 23,
               "wickets": 0,
-              "economy": 9
+              "economy": 12.55
             },
             {
               "name": "Lungi Ngidi",
@@ -6649,10 +6649,10 @@
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 81,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "total": 81
+          "total": 106
         },
         "Ruturaj Gaikwad": {
           "batting": 11,
@@ -6661,10 +6661,10 @@
           "total": 11
         },
         "Ayush Mhatre": {
-          "batting": 10,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 19
         },
         "KL Rahul": {
           "batting": 0,
@@ -6720,8 +6720,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1522,
-      "top11Points": 1532,
+      "totalPointsAll": 1531,
+      "top11Points": 1541,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6781,12 +6781,12 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
-          "batting": 110,
+          "batting": 119,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 110,
+          "rawPoints": 119,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 119,
           "countsInTop11": true
         },
         {
@@ -7835,8 +7835,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1722,
-      "top11Points": 1618,
+      "totalPointsAll": 1772,
+      "top11Points": 1668,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -7852,12 +7852,12 @@
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 107,
+          "batting": 132,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 107,
+          "rawPoints": 132,
           "multiplier": 2,
-          "effectivePoints": 214,
+          "effectivePoints": 264,
           "countsInTop11": true
         },
         {
