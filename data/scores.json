@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T16:54:52.857Z",
+  "lastUpdated": "2026-04-11T17:05:25.258Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 84,
+        "r": 108,
         "w": 4,
-        "o": 9.3
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -88,16 +88,16 @@
         "total": 26
       },
       "David Miller": {
-        "batting": 6,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 20
       },
       "Tristan Stubbs": {
-        "batting": 4,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 16
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1994,
-      "top11Points": 1890
+      "totalPointsAll": 2003,
+      "top11Points": 1899
     },
     {
       "team": "Athu",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1429,
-      "top11Points": 1429
+      "totalPointsAll": 1441,
+      "top11Points": 1441
     },
     {
       "team": "Aakash",
@@ -6597,9 +6597,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 84,
+          "r": 108,
           "w": 4,
-          "o": 9.3
+          "o": 11.1
         }
       ],
       "scorecard": [
@@ -6699,9 +6699,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 84,
+          "runs": 108,
           "wickets": 4,
-          "overs": 9.3,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -6741,20 +6741,20 @@
             },
             {
               "name": "David Miller",
-              "runs": 5,
-              "balls": 8,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 62.5,
+              "runs": 16,
+              "balls": 11,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 145.45,
               "dismissal": "batting"
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 4,
-              "balls": 5,
+              "runs": 14,
+              "balls": 13,
               "fours": 0,
-              "sixes": 0,
-              "sr": 80,
+              "sixes": 1,
+              "sr": 107.69,
               "dismissal": "batting"
             }
           ],
@@ -6769,11 +6769,11 @@
             },
             {
               "name": "Khaleel Ahmed",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 25,
+              "runs": 27,
               "wickets": 1,
-              "economy": 12.5
+              "economy": 12.46
             },
             {
               "name": "Anshul Kamboj",
@@ -6785,11 +6785,11 @@
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 16,
               "wickets": 1,
-              "economy": 6
+              "economy": 8
             },
             {
               "name": "Jamie Overton",
@@ -6801,11 +6801,11 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 21,
               "wickets": 0,
-              "economy": 6
+              "economy": 10.5
             }
           ]
         }
@@ -6849,9 +6849,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -6878,16 +6878,16 @@
           "total": 26
         },
         "David Miller": {
-          "batting": 6,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 20
         },
         "Tristan Stubbs": {
-          "batting": 4,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 16
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -7200,8 +7200,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1429,
-      "top11Points": 1429,
+      "totalPointsAll": 1441,
+      "top11Points": 1441,
       "players": [
         {
           "name": "KL Rahul",
@@ -7261,12 +7261,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 58,
+          "batting": 70,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 82,
+          "rawPoints": 94,
           "multiplier": 1,
-          "effectivePoints": 82,
+          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -8028,8 +8028,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1994,
-      "top11Points": 1890,
+      "totalPointsAll": 2003,
+      "top11Points": 1899,
       "players": [
         {
           "name": "Sanju Samson",
@@ -8109,6 +8109,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 110,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 118,
+          "multiplier": 1,
+          "effectivePoints": 118,
+          "countsInTop11": true
+        },
+        {
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
@@ -8117,17 +8128,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 96,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 104,
-          "multiplier": 1,
-          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
@@ -8178,11 +8178,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 11,
-          "bowling": -20,
+          "bowling": -25,
           "fielding": 16,
-          "rawPoints": 7,
+          "rawPoints": 2,
           "multiplier": 1,
-          "effectivePoints": 7,
+          "effectivePoints": 2,
           "countsInTop11": true
         }
       ]
