@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T11:34:53.406Z",
+  "lastUpdated": "2026-04-11T11:45:06.318Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 200,
-        "w": 4,
-        "o": 17.4
+        "r": 218,
+        "w": 5,
+        "o": 19.2
       }
     ],
     "playerScores": {
@@ -47,15 +47,15 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 8,
-        "total": 8
+        "total": 3
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 40,
         "fielding": 8,
-        "total": 18
+        "total": 48
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -82,23 +82,29 @@
         "total": 37
       },
       "Heinrich Klaasen": {
-        "batting": 29,
+        "batting": 42,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 42
+      },
+      "Nitish Kumar Reddy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1506,
-      "top11Points": 1501
+      "totalPointsAll": 1519,
+      "top11Points": 1514
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1565,
-      "top11Points": 1461
+      "totalPointsAll": 1560,
+      "top11Points": 1456
     },
     {
       "team": "Ritik",
@@ -126,14 +132,14 @@
       "top11Points": 1214
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 1197,
+      "top11Points": 1134
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 1119,
       "top11Points": 1119
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 1167,
-      "top11Points": 1109
     }
   ],
   "matchHistory": [
@@ -6189,17 +6195,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 200,
-          "w": 4,
-          "o": 17.4
+          "r": 218,
+          "w": 5,
+          "o": 19.2
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 200,
-          "wickets": 4,
-          "overs": 17.4,
+          "runs": 218,
+          "wickets": 5,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -6230,11 +6236,11 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 28,
-              "balls": 26,
+              "runs": 39,
+              "balls": 31,
               "fours": 1,
-              "sixes": 0,
-              "sr": 107.69,
+              "sixes": 1,
+              "sr": 125.81,
               "dismissal": "batting"
             },
             {
@@ -6248,38 +6254,47 @@
             },
             {
               "name": "Salil Arora",
-              "runs": 2,
-              "balls": 4,
+              "runs": 9,
+              "balls": 8,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 112.5,
+              "dismissal": "c Xavier Bartlett b Arshdeep Singh"
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 42,
-              "wickets": 1,
-              "economy": 14
+              "runs": 50,
+              "wickets": 2,
+              "economy": 12.5
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 37,
+              "runs": 41,
               "wickets": 0,
-              "economy": 12.33
+              "economy": 12.3
             },
             {
               "name": "Marco Jansen",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 34,
+              "runs": 40,
               "wickets": 0,
-              "economy": 9.27
+              "economy": 10
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -6341,15 +6356,15 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 8,
-          "total": 8
+          "total": 3
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 40,
           "fielding": 8,
-          "total": 18
+          "total": 48
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -6376,10 +6391,16 @@
           "total": 37
         },
         "Heinrich Klaasen": {
-          "batting": 29,
+          "batting": 42,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 42
+        },
+        "Nitish Kumar Reddy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -6387,8 +6408,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1506,
-      "top11Points": 1501,
+      "totalPointsAll": 1519,
+      "top11Points": 1514,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6404,12 +6425,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 218,
+          "batting": 231,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 234,
+          "rawPoints": 247,
           "multiplier": 1,
-          "effectivePoints": 234,
+          "effectivePoints": 247,
           "countsInTop11": true
         },
         {
@@ -7077,8 +7098,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1167,
-      "top11Points": 1109,
+      "totalPointsAll": 1197,
+      "top11Points": 1134,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -7158,6 +7179,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 35,
+          "fielding": 24,
+          "rawPoints": 59,
+          "multiplier": 1,
+          "effectivePoints": 59,
+          "countsInTop11": true
+        },
+        {
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": 0,
@@ -7188,17 +7220,6 @@
           "rawPoints": 34,
           "multiplier": 1,
           "effectivePoints": 34,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 5,
-          "fielding": 24,
-          "rawPoints": 29,
-          "multiplier": 1,
-          "effectivePoints": 29,
           "countsInTop11": false
         },
         {
@@ -7502,8 +7523,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1565,
-      "top11Points": 1461,
+      "totalPointsAll": 1560,
+      "top11Points": 1456,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -7597,11 +7618,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 6,
-          "bowling": 65,
+          "bowling": 60,
           "fielding": 16,
-          "rawPoints": 87,
+          "rawPoints": 82,
           "multiplier": 1,
-          "effectivePoints": 87,
+          "effectivePoints": 82,
           "countsInTop11": true
         },
         {
