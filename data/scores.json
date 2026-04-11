@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T17:24:57.619Z",
+  "lastUpdated": "2026-04-11T17:34:53.874Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 149,
-        "w": 6,
-        "o": 14.5
+        "r": 156,
+        "w": 7,
+        "o": 16
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 15,
         "fielding": 0,
-        "total": 20
+        "total": 15
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 20
       },
       "Tristan Stubbs": {
-        "batting": 45,
+        "batting": 42,
         "bowling": 0,
         "fielding": 0,
-        "total": 45
+        "total": 42
       },
       "Ashutosh Sharma": {
         "batting": 34,
@@ -105,17 +105,17 @@
         "fielding": 0,
         "total": 34
       },
+      "Kuldeep Yadav": {
+        "batting": 1,
+        "bowling": -10,
+        "fielding": 0,
+        "total": -9
+      },
       "Lungi Ngidi": {
         "batting": 0,
         "bowling": -5,
         "fielding": 0,
         "total": -5
-      },
-      "Kuldeep Yadav": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
       },
       "T Natarajan": {
         "batting": 0,
@@ -128,8 +128,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2028,
-      "top11Points": 1924
+      "totalPointsAll": 2023,
+      "top11Points": 1919
     },
     {
       "team": "Athu",
@@ -143,8 +143,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1470,
-      "top11Points": 1470
+      "totalPointsAll": 1467,
+      "top11Points": 1467
     },
     {
       "team": "Aakash",
@@ -162,14 +162,14 @@
       "top11Points": 1235
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 1268,
+      "team": "Kishan",
+      "totalPointsAll": 1205,
       "top11Points": 1205
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 1204,
-      "top11Points": 1204
+      "team": "Manav",
+      "totalPointsAll": 1268,
+      "top11Points": 1205
     }
   ],
   "matchHistory": [
@@ -6603,9 +6603,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 149,
-          "w": 6,
-          "o": 14.5
+          "r": 156,
+          "w": 7,
+          "o": 16
         }
       ],
       "scorecard": [
@@ -6705,9 +6705,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 149,
-          "wickets": 6,
-          "overs": 14.5,
+          "runs": 156,
+          "wickets": 7,
+          "overs": 16,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -6756,11 +6756,11 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 35,
-              "balls": 22,
+              "runs": 36,
+              "balls": 25,
               "fours": 1,
               "sixes": 2,
-              "sr": 159.09,
+              "sr": 144,
               "dismissal": "batting"
             },
             {
@@ -6771,6 +6771,24 @@
               "sixes": 2,
               "sr": 190,
               "dismissal": "c Anshul Kamboj b Noor Ahmad"
+            },
+            {
+              "name": "Auqib Nabi Dar",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "c Akeal Hosein b Jamie Overton"
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -6808,19 +6826,19 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 2,
-              "economy": 6
+              "runs": 14,
+              "wickets": 3,
+              "economy": 4.94
             },
             {
               "name": "Noor Ahmad",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 32,
+              "runs": 36,
               "wickets": 1,
-              "economy": 11.29
+              "economy": 12
             }
           ]
         }
@@ -6864,9 +6882,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "total": 20
+          "total": 15
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -6899,10 +6917,10 @@
           "total": 20
         },
         "Tristan Stubbs": {
-          "batting": 45,
+          "batting": 42,
           "bowling": 0,
           "fielding": 0,
-          "total": 45
+          "total": 42
         },
         "Ashutosh Sharma": {
           "batting": 34,
@@ -6910,17 +6928,17 @@
           "fielding": 0,
           "total": 34
         },
+        "Kuldeep Yadav": {
+          "batting": 1,
+          "bowling": -10,
+          "fielding": 0,
+          "total": -9
+        },
         "Lungi Ngidi": {
           "batting": 0,
           "bowling": -5,
           "fielding": 0,
           "total": -5
-        },
-        "Kuldeep Yadav": {
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "total": -10
         },
         "T Natarajan": {
           "batting": 0,
@@ -7221,8 +7239,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1470,
-      "top11Points": 1470,
+      "totalPointsAll": 1467,
+      "top11Points": 1467,
       "players": [
         {
           "name": "KL Rahul",
@@ -7271,12 +7289,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 99,
+          "batting": 96,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 123,
+          "rawPoints": 120,
           "multiplier": 1,
-          "effectivePoints": 123,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -7497,8 +7515,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1204,
-      "top11Points": 1204,
+      "totalPointsAll": 1205,
+      "top11Points": 1205,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -7569,12 +7587,12 @@
         {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
-          "batting": 1,
+          "batting": 2,
           "bowling": 60,
           "fielding": 8,
-          "rawPoints": 69,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 69,
+          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
@@ -8049,8 +8067,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2028,
-      "top11Points": 1924,
+      "totalPointsAll": 2023,
+      "top11Points": 1919,
       "players": [
         {
           "name": "Sanju Samson",
@@ -8188,11 +8206,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 11,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 16,
-          "rawPoints": 27,
+          "rawPoints": 22,
           "multiplier": 1,
-          "effectivePoints": 27,
+          "effectivePoints": 22,
           "countsInTop11": true
         },
         {
