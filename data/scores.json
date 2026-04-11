@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T12:34:53.547Z",
+  "lastUpdated": "2026-04-11T12:45:06.852Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 84,
-        "w": 0,
-        "o": 5.2
+        "r": 101,
+        "w": 1,
+        "o": 6.6
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Priyansh Arya": {
-        "batting": 68,
+        "batting": 97,
         "bowling": 0,
         "fielding": 0,
-        "total": 68
+        "total": 97
       },
       "Prabhsimran Singh": {
-        "batting": 67,
+        "batting": 68,
         "bowling": 0,
         "fielding": 5,
-        "total": 72
+        "total": 73
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -96,8 +96,8 @@
       "Nitish Kumar Reddy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Harsh Dubey": {
         "batting": 1,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1494,
-      "top11Points": 1494
+      "totalPointsAll": 1495,
+      "top11Points": 1495
     },
     {
       "team": "Tikoo",
@@ -145,19 +145,19 @@
       "top11Points": 1245
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 1216,
+      "top11Points": 1216
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 1214,
       "top11Points": 1214
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 1187,
-      "top11Points": 1187
-    },
-    {
       "team": "Manav",
-      "totalPointsAll": 1197,
-      "top11Points": 1134
+      "totalPointsAll": 1205,
+      "top11Points": 1142
     }
   ],
   "matchHistory": [
@@ -6213,9 +6213,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 84,
-          "w": 0,
-          "o": 5.2
+          "r": 101,
+          "w": 1,
+          "o": 6.6
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -6357,18 +6357,18 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 84,
-          "wickets": 0,
-          "overs": 5.2,
+          "runs": 101,
+          "wickets": 1,
+          "overs": 6.6,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 36,
-              "balls": 13,
-              "fours": 3,
-              "sixes": 3,
-              "sr": 276.92,
-              "dismissal": "batting"
+              "runs": 57,
+              "balls": 20,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 285,
+              "dismissal": "c Nitish Reddy b Shivang Kumar"
             },
             {
               "name": "Prabhsimran Singh",
@@ -6377,6 +6377,15 @@
               "fours": 3,
               "sixes": 4,
               "sr": 227.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -6407,27 +6416,35 @@
             },
             {
               "name": "Harshal Patel",
-              "overs": 0.1,
+              "overs": 1,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 0,
+              "economy": 21
+            },
+            {
+              "name": "Shivang Kumar",
+              "overs": 0.2,
               "maidens": 0,
               "runs": 6,
-              "wickets": 0,
-              "economy": 36
+              "wickets": 1,
+              "economy": 18
             }
           ]
         }
       ],
       "playerScores": {
         "Priyansh Arya": {
-          "batting": 68,
+          "batting": 97,
           "bowling": 0,
           "fielding": 0,
-          "total": 68
+          "total": 97
         },
         "Prabhsimran Singh": {
-          "batting": 67,
+          "batting": 68,
           "bowling": 0,
           "fielding": 5,
-          "total": 72
+          "total": 73
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -6492,8 +6509,8 @@
         "Nitish Kumar Reddy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Harsh Dubey": {
           "batting": 1,
@@ -6938,8 +6955,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1187,
-      "top11Points": 1187,
+      "totalPointsAll": 1216,
+      "top11Points": 1216,
       "players": [
         {
           "name": "Shubman Gill",
@@ -6955,12 +6972,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 142,
+          "batting": 171,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 142,
+          "rawPoints": 171,
           "multiplier": 1,
-          "effectivePoints": 142,
+          "effectivePoints": 171,
           "countsInTop11": true
         },
         {
@@ -7203,8 +7220,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1197,
-      "top11Points": 1134,
+      "totalPointsAll": 1205,
+      "top11Points": 1142,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -7222,10 +7239,10 @@
           "role": "All-Rounder",
           "batting": 135,
           "bowling": 50,
-          "fielding": 8,
-          "rawPoints": 193,
+          "fielding": 16,
+          "rawPoints": 201,
           "multiplier": 1,
-          "effectivePoints": 193,
+          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
@@ -7363,8 +7380,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1494,
-      "top11Points": 1494,
+      "totalPointsAll": 1495,
+      "top11Points": 1495,
       "players": [
         {
           "name": "Jos Buttler",
@@ -7402,12 +7419,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 169,
+          "batting": 170,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 198,
+          "rawPoints": 199,
           "multiplier": 1,
-          "effectivePoints": 198,
+          "effectivePoints": 199,
           "countsInTop11": true
         },
         {
