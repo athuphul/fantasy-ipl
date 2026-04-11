@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T11:14:53.646Z",
+  "lastUpdated": "2026-04-11T11:24:55.456Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 169,
+        "r": 181,
         "w": 3,
-        "o": 14
+        "o": 15.5
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
+        "bowling": -5,
+        "fielding": 8,
+        "total": 3
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -82,23 +82,23 @@
         "total": 37
       },
       "Heinrich Klaasen": {
-        "batting": 19,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 26
       }
     }
   },
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1496,
-      "top11Points": 1491
+      "totalPointsAll": 1503,
+      "top11Points": 1498
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1547,
-      "top11Points": 1443
+      "totalPointsAll": 1560,
+      "top11Points": 1456
     },
     {
       "team": "Ritik",
@@ -6189,17 +6189,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 169,
+          "r": 181,
           "w": 3,
-          "o": 14
+          "o": 15.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 169,
+          "runs": 181,
           "wickets": 3,
-          "overs": 14,
+          "overs": 15.5,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -6221,47 +6221,56 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 26,
-              "balls": 15,
+              "runs": 27,
+              "balls": 17,
               "fours": 3,
               "sixes": 1,
-              "sr": 173.33,
-              "dismissal": "batting"
+              "sr": 158.82,
+              "dismissal": "c Marco Jansen b Arshdeep Singh"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 17,
-              "balls": 16,
+              "runs": 24,
+              "balls": 22,
               "fours": 1,
               "sixes": 0,
-              "sr": 106.25,
+              "sr": 109.09,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Aniket Verma",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 40,
-              "wickets": 0,
-              "economy": 16
+              "runs": 42,
+              "wickets": 1,
+              "economy": 14
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 31,
+              "runs": 32,
               "wickets": 0,
-              "economy": 15.5
+              "economy": 14.77
             },
             {
               "name": "Marco Jansen",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 24,
+              "runs": 31,
               "wickets": 0,
-              "economy": 12
+              "economy": 10.33
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -6323,9 +6332,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "total": -10
+          "bowling": -5,
+          "fielding": 8,
+          "total": 3
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -6358,10 +6367,10 @@
           "total": 37
         },
         "Heinrich Klaasen": {
-          "batting": 19,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 26
         }
       },
       "isComplete": false
@@ -6369,8 +6378,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1496,
-      "top11Points": 1491,
+      "totalPointsAll": 1503,
+      "top11Points": 1498,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6386,12 +6395,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 208,
+          "batting": 215,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 224,
+          "rawPoints": 231,
           "multiplier": 1,
-          "effectivePoints": 224,
+          "effectivePoints": 231,
           "countsInTop11": true
         },
         {
@@ -7484,8 +7493,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1547,
-      "top11Points": 1443,
+      "totalPointsAll": 1560,
+      "top11Points": 1456,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -7579,11 +7588,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 6,
-          "bowling": 55,
-          "fielding": 8,
-          "rawPoints": 69,
+          "bowling": 60,
+          "fielding": 16,
+          "rawPoints": 82,
           "multiplier": 1,
-          "effectivePoints": 69,
+          "effectivePoints": 82,
           "countsInTop11": true
         },
         {
