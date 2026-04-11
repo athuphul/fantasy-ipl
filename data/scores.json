@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-04-11T13:54:51.902Z",
+  "lastUpdated": "2026-04-11T14:04:52.962Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527691",
+    "name": "Chennai Super Kings v Delhi Capitals",
+    "status": "Live",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 8,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Sanju Samson": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "KL Rahul": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sameer Rizvi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Axar Patel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "David Miller": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tristan Stubbs": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Lungi Ngidi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kuldeep Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "T Natarajan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Athu",
@@ -15,8 +90,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 1560,
-      "top11Points": 1456
+      "totalPointsAll": 1576,
+      "top11Points": 1472
     },
     {
       "team": "Ali",
@@ -45,8 +120,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1200,
-      "top11Points": 1137
+      "totalPointsAll": 1201,
+      "top11Points": 1138
     }
   ],
   "matchHistory": [
@@ -6464,6 +6539,122 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527691",
+      "name": "Chennai Super Kings v Delhi Capitals",
+      "date": "2026-04-11",
+      "status": "Live",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "score": [
+        {
+          "inning": "Chennai Super Kings",
+          "r": 8,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 7,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 350,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Auqib Nabi Dar",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 12
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sanju Samson": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "KL Rahul": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sameer Rizvi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Axar Patel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "David Miller": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tristan Stubbs": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Lungi Ngidi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kuldeep Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "T Natarajan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -7158,8 +7349,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1200,
-      "top11Points": 1137,
+      "totalPointsAll": 1201,
+      "top11Points": 1138,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -7230,12 +7421,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 36,
+          "batting": 37,
           "bowling": 0,
           "fielding": 5,
-          "rawPoints": 41,
+          "rawPoints": 42,
           "multiplier": 1.5,
-          "effectivePoints": 62,
+          "effectivePoints": 63,
           "countsInTop11": true
         },
         {
@@ -7583,8 +7774,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1560,
-      "top11Points": 1456,
+      "totalPointsAll": 1576,
+      "top11Points": 1472,
       "players": [
         {
           "name": "Vaibhav Sooryavanshi",
@@ -7688,12 +7879,12 @@
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 26,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 26,
+          "rawPoints": 34,
           "multiplier": 2,
-          "effectivePoints": 52,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
