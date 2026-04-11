@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T15:55:01.929Z",
+  "lastUpdated": "2026-04-11T16:04:55.564Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -12,6 +12,12 @@
         "r": 212,
         "w": 2,
         "o": 20
+      },
+      {
+        "inning": "Delhi Capitals",
+        "r": 8,
+        "w": 0,
+        "o": 1
       }
     ],
     "playerScores": {
@@ -39,11 +45,35 @@
         "fielding": 0,
         "total": 39
       },
-      "KL Rahul": {
+      "Sarfaraz Khan": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Dewald Brevis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Khaleel Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "KL Rahul": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -107,8 +137,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1361,
-      "top11Points": 1361
+      "totalPointsAll": 1363,
+      "top11Points": 1363
     },
     {
       "team": "Aakash",
@@ -6564,6 +6594,12 @@
           "r": 212,
           "w": 2,
           "o": 20
+        },
+        {
+          "inning": "Delhi Capitals",
+          "r": 8,
+          "w": 0,
+          "o": 1
         }
       ],
       "scorecard": [
@@ -6660,6 +6696,42 @@
               "economy": 12
             }
           ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 1,
+          "batting": [
+            {
+              "name": "Pathum Nissanka",
+              "runs": 5,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "KL Rahul",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Akeal Hosein",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 9.6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -6687,11 +6759,35 @@
           "fielding": 0,
           "total": 39
         },
-        "KL Rahul": {
+        "Sarfaraz Khan": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Dewald Brevis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Khaleel Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "KL Rahul": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -7028,8 +7124,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1361,
-      "top11Points": 1361,
+      "totalPointsAll": 1363,
+      "top11Points": 1363,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -7045,12 +7141,12 @@
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 127,
+          "batting": 128,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 135,
+          "rawPoints": 136,
           "multiplier": 2,
-          "effectivePoints": 270,
+          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
