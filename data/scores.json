@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T12:45:06.852Z",
+  "lastUpdated": "2026-04-11T12:55:16.869Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 101,
-        "w": 1,
-        "o": 6.6
+        "r": 118,
+        "w": 2,
+        "o": 9
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -28,16 +28,16 @@
         "total": 97
       },
       "Prabhsimran Singh": {
-        "batting": 68,
+        "batting": 88,
         "bowling": 0,
         "fielding": 5,
-        "total": 73
+        "total": 93
       },
       "Shreyas Iyer": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Shashank Singh": {
         "batting": 0,
@@ -90,8 +90,8 @@
       "Heinrich Klaasen": {
         "batting": 42,
         "bowling": 0,
-        "fielding": 0,
-        "total": 42
+        "fielding": 8,
+        "total": 50
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Harsh Dubey": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 1
+        "total": -9
       },
       "Harshal Patel": {
         "batting": 0,
@@ -116,13 +116,13 @@
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1519,
-      "top11Points": 1514
+      "totalPointsAll": 1527,
+      "top11Points": 1522
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1495,
-      "top11Points": 1495
+      "totalPointsAll": 1515,
+      "top11Points": 1515
     },
     {
       "team": "Tikoo",
@@ -136,13 +136,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1246,
-      "top11Points": 1246
+      "totalPointsAll": 1247,
+      "top11Points": 1247
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1245,
-      "top11Points": 1245
+      "totalPointsAll": 1235,
+      "top11Points": 1235
     },
     {
       "team": "Ashwin",
@@ -6213,9 +6213,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 101,
-          "w": 1,
-          "o": 6.6
+          "r": 118,
+          "w": 2,
+          "o": 9
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -6357,9 +6357,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 101,
-          "wickets": 1,
-          "overs": 6.6,
+          "runs": 118,
+          "wickets": 2,
+          "overs": 9,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -6372,31 +6372,40 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 41,
-              "balls": 18,
-              "fours": 3,
+              "runs": 51,
+              "balls": 25,
+              "fours": 4,
               "sixes": 4,
-              "sr": 227.78,
-              "dismissal": "batting"
+              "sr": 204,
+              "dismissal": "c Heinrich Klaasen b Shivang Kumar"
             },
             {
               "name": "Cooper Connolly",
-              "runs": 0,
-              "balls": 0,
+              "runs": 5,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 62.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shreyas Iyer",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Harsh Dubey",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 26,
               "wickets": 0,
-              "economy": 18
+              "economy": 13
             },
             {
               "name": "Jaydev Unadkat",
@@ -6424,11 +6433,19 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 0.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 1,
-              "economy": 18
+              "runs": 17,
+              "wickets": 2,
+              "economy": 8.5
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -6441,16 +6458,16 @@
           "total": 97
         },
         "Prabhsimran Singh": {
-          "batting": 68,
+          "batting": 88,
           "bowling": 0,
           "fielding": 5,
-          "total": 73
+          "total": 93
         },
         "Shreyas Iyer": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Shashank Singh": {
           "batting": 0,
@@ -6503,8 +6520,8 @@
         "Heinrich Klaasen": {
           "batting": 42,
           "bowling": 0,
-          "fielding": 0,
-          "total": 42
+          "fielding": 8,
+          "total": 50
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
@@ -6514,9 +6531,9 @@
         },
         "Harsh Dubey": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 1
+          "total": -9
         },
         "Harshal Patel": {
           "batting": 0,
@@ -6530,8 +6547,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1519,
-      "top11Points": 1514,
+      "totalPointsAll": 1527,
+      "top11Points": 1522,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6549,10 +6566,10 @@
           "role": "Wicket Keeper",
           "batting": 231,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 247,
+          "fielding": 24,
+          "rawPoints": 255,
           "multiplier": 1,
-          "effectivePoints": 247,
+          "effectivePoints": 255,
           "countsInTop11": true
         },
         {
@@ -6817,8 +6834,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1246,
-      "top11Points": 1246,
+      "totalPointsAll": 1247,
+      "top11Points": 1247,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -6867,12 +6884,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 102,
+          "batting": 103,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 110,
+          "rawPoints": 111,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 111,
           "countsInTop11": true
         },
         {
@@ -7380,8 +7397,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1495,
-      "top11Points": 1495,
+      "totalPointsAll": 1515,
+      "top11Points": 1515,
       "players": [
         {
           "name": "Jos Buttler",
@@ -7392,6 +7409,17 @@
           "rawPoints": 205,
           "multiplier": 1.5,
           "effectivePoints": 308,
+          "countsInTop11": true
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 190,
+          "bowling": 0,
+          "fielding": 29,
+          "rawPoints": 219,
+          "multiplier": 1,
+          "effectivePoints": 219,
           "countsInTop11": true
         },
         {
@@ -7414,17 +7442,6 @@
           "rawPoints": 200,
           "multiplier": 1,
           "effectivePoints": 200,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": 170,
-          "bowling": 0,
-          "fielding": 29,
-          "rawPoints": 199,
-          "multiplier": 1,
-          "effectivePoints": 199,
           "countsInTop11": true
         },
         {
@@ -7507,8 +7524,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1245,
-      "top11Points": 1245,
+      "totalPointsAll": 1235,
+      "top11Points": 1235,
       "players": [
         {
           "name": "Travis Head",
@@ -7547,11 +7564,11 @@
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
-          "bowling": 115,
+          "bowling": 105,
           "fielding": 8,
-          "rawPoints": 133,
+          "rawPoints": 123,
           "multiplier": 1,
-          "effectivePoints": 133,
+          "effectivePoints": 123,
           "countsInTop11": true
         },
         {
