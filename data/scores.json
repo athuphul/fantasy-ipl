@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T15:35:07.727Z",
+  "lastUpdated": "2026-04-11T15:44:57.095Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527691",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 190,
+        "r": 212,
         "w": 2,
-        "o": 18.4
+        "o": 20
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 182,
+        "batting": 193,
         "bowling": 0,
         "fielding": 0,
-        "total": 182
+        "total": 193
       },
       "Ruturaj Gaikwad": {
         "batting": 11,
@@ -34,10 +34,10 @@
         "total": 85
       },
       "Shivam Dube": {
-        "batting": 8,
+        "batting": 39,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 39
       },
       "KL Rahul": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -92,8 +92,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 1932,
-      "top11Points": 1828
+      "totalPointsAll": 1980,
+      "top11Points": 1876
     },
     {
       "team": "Athu",
@@ -6561,26 +6561,26 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 190,
+          "r": 212,
           "w": 2,
-          "o": 18.4
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 190,
+          "runs": 212,
           "wickets": 2,
-          "overs": 18.4,
+          "overs": 20,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 106,
-              "balls": 53,
+              "runs": 115,
+              "balls": 56,
               "fours": 15,
-              "sixes": 3,
-              "sr": 200,
-              "dismissal": "batting"
+              "sixes": 4,
+              "sr": 205.36,
+              "dismissal": "not out"
             },
             {
               "name": "Ruturaj Gaikwad",
@@ -6602,12 +6602,12 @@
             },
             {
               "name": "Shivam Dube",
-              "runs": 7,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 140,
-              "dismissal": "batting"
+              "runs": 20,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -6621,11 +6621,11 @@
             },
             {
               "name": "Mukesh Kumar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 22,
+              "runs": 37,
               "wickets": 0,
-              "economy": 7.33
+              "economy": 9.25
             },
             {
               "name": "Axar Patel",
@@ -6645,11 +6645,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 34,
+              "runs": 41,
               "wickets": 0,
-              "economy": 9.27
+              "economy": 10.25
             },
             {
               "name": "Kuldeep Yadav",
@@ -6664,10 +6664,10 @@
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 182,
+          "batting": 193,
           "bowling": 0,
           "fielding": 0,
-          "total": 182
+          "total": 193
         },
         "Ruturaj Gaikwad": {
           "batting": 11,
@@ -6682,10 +6682,10 @@
           "total": 85
         },
         "Shivam Dube": {
-          "batting": 8,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 39
         },
         "KL Rahul": {
           "batting": 0,
@@ -6719,9 +6719,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -7856,18 +7856,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 1932,
-      "top11Points": 1828,
+      "totalPointsAll": 1980,
+      "top11Points": 1876,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 208,
+          "batting": 219,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 208,
+          "rawPoints": 219,
           "multiplier": 2,
-          "effectivePoints": 416,
+          "effectivePoints": 438,
           "countsInTop11": true
         },
         {
@@ -7904,17 +7904,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 160,
-          "fielding": 0,
-          "rawPoints": 160,
-          "multiplier": 1,
-          "effectivePoints": 160,
-          "countsInTop11": true
-        },
-        {
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
@@ -7926,14 +7915,25 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 155,
+          "fielding": 0,
+          "rawPoints": 155,
+          "multiplier": 1,
+          "effectivePoints": 155,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 95,
+          "batting": 126,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 113,
+          "rawPoints": 144,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 144,
           "countsInTop11": true
         },
         {
