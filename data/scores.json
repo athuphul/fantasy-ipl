@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T10:44:57.101Z",
+  "lastUpdated": "2026-04-11T10:54:56.257Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 112,
-        "w": 0,
-        "o": 7.3
+        "r": 126,
+        "w": 2,
+        "o": 9.3
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Shashank Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 70,
         "fielding": 0,
-        "total": 0
+        "total": 70
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -54,8 +54,8 @@
       "Arshdeep Singh": {
         "batting": 0,
         "bowling": -15,
-        "fielding": 0,
-        "total": -15
+        "fielding": 8,
+        "total": -7
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -64,24 +64,36 @@
         "total": 0
       },
       "Abhishek Sharma": {
-        "batting": 112,
+        "batting": 120,
         "bowling": 0,
         "fielding": 0,
-        "total": 112
+        "total": 120
       },
       "Travis Head": {
-        "batting": 54,
+        "batting": 50,
         "bowling": 0,
         "fielding": 0,
-        "total": 54
+        "total": 50
+      },
+      "Ishan Kishan": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
+      "Heinrich Klaasen": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1477,
-      "top11Points": 1472
+      "totalPointsAll": 1479,
+      "top11Points": 1474
     },
     {
       "team": "Tikoo",
@@ -90,8 +102,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1385,
-      "top11Points": 1385
+      "totalPointsAll": 1387,
+      "top11Points": 1387
     },
     {
       "team": "Aakash",
@@ -99,14 +111,14 @@
       "top11Points": 1358
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1252,
-      "top11Points": 1252
+      "team": "Ali",
+      "totalPointsAll": 1246,
+      "top11Points": 1246
     },
     {
-      "team": "Ali",
-      "totalPointsAll": 1234,
-      "top11Points": 1234
+      "team": "Tanay",
+      "totalPointsAll": 1244,
+      "top11Points": 1244
     },
     {
       "team": "Kishan",
@@ -114,14 +126,14 @@
       "top11Points": 1204
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 1134,
-      "top11Points": 1109
+      "team": "Ashwin",
+      "totalPointsAll": 1127,
+      "top11Points": 1127
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 1057,
-      "top11Points": 1057
+      "team": "Manav",
+      "totalPointsAll": 1142,
+      "top11Points": 1109
     }
   ],
   "matchHistory": [
@@ -6177,34 +6189,52 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 112,
-          "w": 0,
-          "o": 7.3
+          "r": 126,
+          "w": 2,
+          "o": 9.3
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 112,
-          "wickets": 0,
-          "overs": 7.3,
+          "runs": 126,
+          "wickets": 2,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 68,
-              "balls": 26,
+              "runs": 74,
+              "balls": 28,
               "fours": 5,
-              "sixes": 7,
-              "sr": 261.54,
-              "dismissal": "batting"
+              "sixes": 8,
+              "sr": 264.29,
+              "dismissal": "c Arshdeep Singh b Shashank Singh"
             },
             {
               "name": "Travis Head",
-              "runs": 37,
-              "balls": 21,
+              "runs": 38,
+              "balls": 23,
               "fours": 5,
               "sixes": 1,
-              "sr": 176.19,
+              "sr": 165.22,
+              "dismissal": "c Xavier Bartlett b Shashank Singh"
+            },
+            {
+              "name": "Ishan Kishan",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -6243,19 +6273,19 @@
             },
             {
               "name": "Shashank Singh",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 6
+              "runs": 9,
+              "wickets": 2,
+              "economy": 4.91
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 0.4,
+              "overs": 1,
               "maidens": 0,
-              "runs": 2,
+              "runs": 9,
               "wickets": 0,
-              "economy": 3
+              "economy": 9
             }
           ]
         }
@@ -6281,9 +6311,9 @@
         },
         "Shashank Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 70,
           "fielding": 0,
-          "total": 0
+          "total": 70
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -6300,8 +6330,8 @@
         "Arshdeep Singh": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "fielding": 8,
+          "total": -7
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -6310,16 +6340,28 @@
           "total": 0
         },
         "Abhishek Sharma": {
-          "batting": 112,
+          "batting": 120,
           "bowling": 0,
           "fielding": 0,
-          "total": 112
+          "total": 120
         },
         "Travis Head": {
-          "batting": 54,
+          "batting": 50,
           "bowling": 0,
           "fielding": 0,
-          "total": 54
+          "total": 50
+        },
+        "Ishan Kishan": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
+        "Heinrich Klaasen": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -6327,8 +6369,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1477,
-      "top11Points": 1472,
+      "totalPointsAll": 1479,
+      "top11Points": 1474,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -6344,12 +6386,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 189,
+          "batting": 191,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 205,
+          "rawPoints": 207,
           "multiplier": 1,
-          "effectivePoints": 205,
+          "effectivePoints": 207,
           "countsInTop11": true
         },
         {
@@ -6614,18 +6656,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1234,
-      "top11Points": 1234,
+      "totalPointsAll": 1246,
+      "top11Points": 1246,
       "players": [
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 191,
+          "batting": 199,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 191,
+          "rawPoints": 199,
           "multiplier": 1.5,
-          "effectivePoints": 287,
+          "effectivePoints": 299,
           "countsInTop11": true
         },
         {
@@ -6752,8 +6794,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1057,
-      "top11Points": 1057,
+      "totalPointsAll": 1127,
+      "top11Points": 1127,
       "players": [
         {
           "name": "Shubman Gill",
@@ -6797,6 +6839,17 @@
           "rawPoints": 116,
           "multiplier": 1,
           "effectivePoints": 116,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shashank Singh",
+          "role": "Batsman",
+          "batting": 20,
+          "bowling": 70,
+          "fielding": 0,
+          "rawPoints": 90,
+          "multiplier": 1,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -6852,17 +6905,6 @@
           "rawPoints": 48,
           "multiplier": 1,
           "effectivePoints": 48,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shashank Singh",
-          "role": "Batsman",
-          "batting": 20,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 20,
-          "multiplier": 1,
-          "effectivePoints": 20,
           "countsInTop11": true
         },
         {
@@ -7017,7 +7059,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1134,
+      "totalPointsAll": 1142,
       "top11Points": 1109,
       "players": [
         {
@@ -7142,6 +7184,17 @@
           "countsInTop11": false
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -20,
+          "fielding": 24,
+          "rawPoints": 4,
+          "multiplier": 1,
+          "effectivePoints": 4,
+          "countsInTop11": false
+        },
+        {
           "name": "Quinton de Kock",
           "role": "Opener",
           "batting": 0,
@@ -7162,23 +7215,12 @@
           "multiplier": 1,
           "effectivePoints": 0,
           "countsInTop11": false
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": -20,
-          "fielding": 16,
-          "rawPoints": -4,
-          "multiplier": 1,
-          "effectivePoints": -4,
-          "countsInTop11": false
         }
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1385,
-      "top11Points": 1385,
+      "totalPointsAll": 1387,
+      "top11Points": 1387,
       "players": [
         {
           "name": "Jos Buttler",
@@ -7216,12 +7258,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 141,
+          "batting": 143,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 177,
+          "rawPoints": 179,
           "multiplier": 1,
-          "effectivePoints": 177,
+          "effectivePoints": 179,
           "countsInTop11": true
         },
         {
@@ -7304,18 +7346,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1252,
-      "top11Points": 1252,
+      "totalPointsAll": 1244,
+      "top11Points": 1244,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 148,
+          "batting": 144,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 148,
+          "rawPoints": 144,
           "multiplier": 2,
-          "effectivePoints": 296,
+          "effectivePoints": 288,
           "countsInTop11": true
         },
         {
