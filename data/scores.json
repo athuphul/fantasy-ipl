@@ -1,135 +1,12 @@
 {
-  "lastUpdated": "2026-04-11T17:54:53.504Z",
+  "lastUpdated": "2026-04-11T18:22:00.223Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1527691",
-    "name": "Chennai Super Kings v Delhi Capitals",
-    "status": "Live",
-    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-    "score": [
-      {
-        "inning": "Chennai Super Kings",
-        "r": 212,
-        "w": 2,
-        "o": 20
-      },
-      {
-        "inning": "Delhi Capitals",
-        "r": 185,
-        "w": 9,
-        "o": 19.1
-      }
-    ],
-    "playerScores": {
-      "Sanju Samson": {
-        "batting": 193,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 193
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 11,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 11
-      },
-      "Ayush Mhatre": {
-        "batting": 85,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 85
-      },
-      "Shivam Dube": {
-        "batting": 39,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 39
-      },
-      "Sarfaraz Khan": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Dewald Brevis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 16
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 8,
-        "total": 23
-      },
-      "Khaleel Ahmed": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 0,
-        "total": 15
-      },
-      "KL Rahul": {
-        "batting": 32,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 32
-      },
-      "Sameer Rizvi": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Axar Patel": {
-        "batting": 1,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 26
-      },
-      "David Miller": {
-        "batting": 20,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 20
-      },
-      "Tristan Stubbs": {
-        "batting": 85,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 85
-      },
-      "Ashutosh Sharma": {
-        "batting": 34,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 34
-      },
-      "Kuldeep Yadav": {
-        "batting": 4,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -6
-      },
-      "Lungi Ngidi": {
-        "batting": 1,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -4
-      },
-      "T Natarajan": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2032,
-      "top11Points": 1928
+      "totalPointsAll": 2034,
+      "top11Points": 1930
     },
     {
       "team": "Athu",
@@ -143,8 +20,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1510,
-      "top11Points": 1510
+      "totalPointsAll": 1511,
+      "top11Points": 1511
     },
     {
       "team": "Aakash",
@@ -158,7 +35,7 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1251,
+      "totalPointsAll": 1259,
       "top11Points": 1235
     },
     {
@@ -6402,12 +6279,12 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 68,
-              "balls": 32,
+              "runs": 69,
+              "balls": 33,
               "fours": 5,
               "sixes": 5,
-              "sr": 212.5,
-              "dismissal": "batting"
+              "sr": 209.09,
+              "dismissal": "not out"
             },
             {
               "name": "Nehal Wadhera",
@@ -6420,12 +6297,12 @@
             },
             {
               "name": "Shashank Singh",
-              "runs": 12,
-              "balls": 7,
-              "fours": 0,
+              "runs": 16,
+              "balls": 9,
+              "fours": 1,
               "sixes": 1,
-              "sr": 171.43,
-              "dismissal": "batting"
+              "sr": 177.78,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -6479,11 +6356,11 @@
             },
             {
               "name": "Abhishek Sharma",
-              "overs": 0.2,
+              "overs": 0.5,
               "maidens": 0,
-              "runs": 2,
+              "runs": 7,
               "wickets": 0,
-              "economy": 6
+              "economy": 8.4
             }
           ]
         }
@@ -6586,13 +6463,13 @@
           "total": -15
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527691",
       "name": "Chennai Super Kings v Delhi Capitals",
       "date": "2026-04-11",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
@@ -6603,9 +6480,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 185,
-          "w": 9,
-          "o": 19.1
+          "r": 189,
+          "w": 10,
+          "o": 20
         }
       ],
       "scorecard": [
@@ -6705,9 +6582,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 185,
-          "wickets": 9,
-          "overs": 19.1,
+          "runs": 189,
+          "wickets": 10,
+          "overs": 20,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -6784,20 +6661,29 @@
             {
               "name": "Kuldeep Yadav",
               "runs": 4,
-              "balls": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "batting"
+              "sr": 57.14,
+              "dismissal": "c Dewald Brevis b Anshul Kamboj"
             },
             {
               "name": "Lungi Ngidi",
-              "runs": 1,
-              "balls": 1,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 60,
+              "dismissal": "c Gurjapneet Singh b Anshul Kamboj"
+            },
+            {
+              "name": "T Natarajan",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -6819,11 +6705,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
-              "wickets": 1,
-              "economy": 10.33
+              "runs": 35,
+              "wickets": 3,
+              "economy": 8.75
             },
             {
               "name": "Gurjapneet Singh",
@@ -6886,8 +6772,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 24,
+          "total": 24
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -6944,19 +6830,19 @@
           "total": -6
         },
         "Lungi Ngidi": {
-          "batting": 1,
+          "batting": 3,
           "bowling": -5,
           "fielding": 0,
-          "total": -4
+          "total": -2
         },
         "T Natarajan": {
-          "batting": 0,
+          "batting": 1,
           "bowling": -10,
           "fielding": 0,
-          "total": -10
+          "total": -9
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -7248,8 +7134,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1510,
-      "top11Points": 1510,
+      "totalPointsAll": 1511,
+      "top11Points": 1511,
       "players": [
         {
           "name": "KL Rahul",
@@ -7309,12 +7195,12 @@
         {
           "name": "T Natarajan",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 1,
           "bowling": 110,
           "fielding": 0,
-          "rawPoints": 110,
+          "rawPoints": 111,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 111,
           "countsInTop11": true
         },
         {
@@ -7386,7 +7272,7 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1251,
+      "totalPointsAll": 1259,
       "top11Points": 1235,
       "players": [
         {
@@ -7504,10 +7390,10 @@
           "role": "Batsman",
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 16,
+          "fielding": 24,
+          "rawPoints": 24,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 24,
           "countsInTop11": false
         },
         {
@@ -8076,8 +7962,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2032,
-      "top11Points": 1928,
+      "totalPointsAll": 2034,
+      "top11Points": 1930,
       "players": [
         {
           "name": "Sanju Samson",
@@ -8137,12 +8023,12 @@
         {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
-          "batting": 1,
+          "batting": 3,
           "bowling": 155,
           "fielding": 0,
-          "rawPoints": 156,
+          "rawPoints": 158,
           "multiplier": 1,
-          "effectivePoints": 156,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
