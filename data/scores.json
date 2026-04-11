@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T13:14:54.512Z",
+  "lastUpdated": "2026-04-11T13:24:55.304Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527690",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 154,
+        "r": 179,
         "w": 3,
-        "o": 13
+        "o": 15
       },
       {
         "inning": "Sunrisers Hyderabad",
@@ -34,16 +34,16 @@
         "total": 93
       },
       "Shreyas Iyer": {
-        "batting": 23,
+        "batting": 62,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 62
       },
       "Nehal Wadhera": {
-        "batting": 13,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 15
       },
       "Shashank Singh": {
         "batting": 0,
@@ -107,22 +107,22 @@
       },
       "Harsh Dubey": {
         "batting": 1,
-        "bowling": -10,
+        "bowling": -5,
         "fielding": 0,
-        "total": -9
+        "total": -4
       },
       "Harshal Patel": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       }
     }
   },
   "leaderboard": [
     {
       "team": "Athu",
-      "totalPointsAll": 1527,
+      "totalPointsAll": 1512,
       "top11Points": 1522
     },
     {
@@ -142,13 +142,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1282,
-      "top11Points": 1282
+      "totalPointsAll": 1323,
+      "top11Points": 1323
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1235,
-      "top11Points": 1235
+      "totalPointsAll": 1240,
+      "top11Points": 1240
     },
     {
       "team": "Ashwin",
@@ -6219,9 +6219,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 154,
+          "r": 179,
           "w": 3,
-          "o": 13
+          "o": 15
         },
         {
           "inning": "Sunrisers Hyderabad",
@@ -6363,9 +6363,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 154,
+          "runs": 179,
           "wickets": 3,
-          "overs": 13,
+          "overs": 15,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -6396,31 +6396,31 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 20,
-              "balls": 13,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 153.85,
+              "runs": 43,
+              "balls": 22,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 195.45,
               "dismissal": "batting"
             },
             {
               "name": "Nehal Wadhera",
-              "runs": 11,
-              "balls": 8,
+              "runs": 13,
+              "balls": 11,
               "fours": 0,
               "sixes": 1,
-              "sr": 137.5,
+              "sr": 118.18,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Harsh Dubey",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
+              "runs": 33,
               "wickets": 0,
-              "economy": 13
+              "economy": 11
             },
             {
               "name": "Jaydev Unadkat",
@@ -6440,11 +6440,11 @@
             },
             {
               "name": "Harshal Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
+              "runs": 39,
               "wickets": 0,
-              "economy": 21
+              "economy": 19.5
             },
             {
               "name": "Shivang Kumar",
@@ -6479,16 +6479,16 @@
           "total": 93
         },
         "Shreyas Iyer": {
-          "batting": 23,
+          "batting": 62,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 62
         },
         "Nehal Wadhera": {
-          "batting": 13,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 15
         },
         "Shashank Singh": {
           "batting": 0,
@@ -6552,15 +6552,15 @@
         },
         "Harsh Dubey": {
           "batting": 1,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 0,
-          "total": -9
+          "total": -4
         },
         "Harshal Patel": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         }
       },
       "isComplete": false
@@ -6568,7 +6568,7 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1527,
+      "totalPointsAll": 1512,
       "top11Points": 1522,
       "players": [
         {
@@ -6693,17 +6693,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Harshal Patel",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 5,
-          "fielding": 0,
-          "rawPoints": 5,
-          "multiplier": 1,
-          "effectivePoints": 5,
-          "countsInTop11": false
-        },
-        {
           "name": "Matheesha Pathirana",
           "role": "Fast Bowler",
           "batting": 0,
@@ -6712,6 +6701,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": false
+        },
+        {
+          "name": "Harshal Patel",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -10,
+          "multiplier": 1,
+          "effectivePoints": -10,
           "countsInTop11": false
         }
       ]
@@ -6855,8 +6855,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1282,
-      "top11Points": 1282,
+      "totalPointsAll": 1323,
+      "top11Points": 1323,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -6881,6 +6881,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shreyas Iyer",
+          "role": "Batsman",
+          "batting": 164,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 172,
+          "multiplier": 1,
+          "effectivePoints": 172,
+          "countsInTop11": true
+        },
+        {
           "name": "Tim David",
           "role": "Batsman",
           "batting": 153,
@@ -6889,17 +6900,6 @@
           "rawPoints": 153,
           "multiplier": 1,
           "effectivePoints": 153,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shreyas Iyer",
-          "role": "Batsman",
-          "batting": 125,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 133,
-          "multiplier": 1,
-          "effectivePoints": 133,
           "countsInTop11": true
         },
         {
@@ -6949,12 +6949,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 28,
+          "batting": 30,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 44,
+          "rawPoints": 46,
           "multiplier": 1,
-          "effectivePoints": 44,
+          "effectivePoints": 46,
           "countsInTop11": true
         },
         {
@@ -7545,8 +7545,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1235,
-      "top11Points": 1235,
+      "totalPointsAll": 1240,
+      "top11Points": 1240,
       "players": [
         {
           "name": "Travis Head",
@@ -7585,11 +7585,11 @@
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
-          "bowling": 105,
+          "bowling": 110,
           "fielding": 8,
-          "rawPoints": 123,
+          "rawPoints": 128,
           "multiplier": 1,
-          "effectivePoints": 123,
+          "effectivePoints": 128,
           "countsInTop11": true
         },
         {
