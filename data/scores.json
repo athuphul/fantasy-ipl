@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T18:22:00.223Z",
+  "lastUpdated": "2026-04-11T18:31:30.345Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
@@ -20,8 +20,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1511,
-      "top11Points": 1511
+      "totalPointsAll": 1516,
+      "top11Points": 1516
     },
     {
       "team": "Aakash",
@@ -2000,7 +2000,7 @@
           "total": 90
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527679",
@@ -2991,21 +2991,21 @@
             },
             {
               "name": "David Miller",
-              "runs": 11,
-              "balls": 14,
-              "fours": 2,
+              "runs": 21,
+              "balls": 18,
+              "fours": 4,
               "sixes": 0,
-              "sr": 78.57,
-              "dismissal": "batting"
+              "sr": 116.67,
+              "dismissal": "not out"
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 1,
-              "balls": 1,
+              "runs": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 75,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -3035,11 +3035,11 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 33,
+              "runs": 41,
               "wickets": 0,
-              "economy": 16.5
+              "economy": 13.67
             },
             {
               "name": "Mayank Markande",
@@ -3051,11 +3051,11 @@
             },
             {
               "name": "Corbin Bosch",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 35,
+              "runs": 39,
               "wickets": 1,
-              "economy": 11.67
+              "economy": 12.32
             }
           ]
         }
@@ -3170,7 +3170,7 @@
           "total": 3
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527682",
@@ -5326,7 +5326,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1527688",
@@ -6823,6 +6823,12 @@
           "fielding": 0,
           "total": 34
         },
+        "Auqib Nabi Dar": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
         "Kuldeep Yadav": {
           "batting": 4,
           "bowling": -10,
@@ -6842,7 +6848,7 @@
           "total": -9
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -7134,8 +7140,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1511,
-      "top11Points": 1511,
+      "totalPointsAll": 1516,
+      "top11Points": 1516,
       "players": [
         {
           "name": "KL Rahul",
@@ -7248,14 +7254,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Aquib Nabi Dar",
+          "name": "Auqib Nabi Dar",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 5,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 5,
           "countsInTop11": true
         },
         {
