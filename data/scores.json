@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T13:05:17.214Z",
+  "lastUpdated": "2026-04-12T13:14:54.656Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 121,
+        "r": 129,
         "w": 1,
-        "o": 12.6
+        "o": 14.4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Rishabh Pant": {
         "batting": 27,
         "bowling": 0,
-        "fielding": 0,
-        "total": 27
+        "fielding": 8,
+        "total": 35
       },
       "Ayush Badoni": {
         "batting": 5,
@@ -82,16 +82,16 @@
         "total": 18
       },
       "Shubman Gill": {
-        "batting": 73,
+        "batting": 74,
         "bowling": 0,
         "fielding": 16,
-        "total": 89
+        "total": 90
       },
       "Jos Buttler": {
-        "batting": 68,
+        "batting": 81,
         "bowling": 0,
         "fielding": 8,
-        "total": 76
+        "total": 89
       },
       "Washington Sundar": {
         "batting": 0,
@@ -151,8 +151,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1693,
-      "top11Points": 1693
+      "totalPointsAll": 1712,
+      "top11Points": 1712
     },
     {
       "team": "Athu",
@@ -166,8 +166,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1479,
-      "top11Points": 1455
+      "totalPointsAll": 1489,
+      "top11Points": 1465
     },
     {
       "team": "Aakash",
@@ -7006,9 +7006,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 121,
+          "r": 129,
           "w": 1,
-          "o": 12.6
+          "o": 14.4
         }
       ],
       "scorecard": [
@@ -7154,9 +7154,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 121,
+          "runs": 129,
           "wickets": 1,
-          "overs": 12.6,
+          "overs": 14.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -7169,20 +7169,20 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 55,
-              "balls": 38,
+              "runs": 56,
+              "balls": 40,
               "fours": 6,
               "sixes": 1,
-              "sr": 144.74,
-              "dismissal": "batting"
+              "sr": 140,
+              "dismissal": "c Rishabh Pant b Prince Yadav"
             },
             {
               "name": "Jos Buttler",
-              "runs": 49,
-              "balls": 26,
-              "fours": 9,
+              "runs": 56,
+              "balls": 35,
+              "fours": 10,
               "sixes": 0,
-              "sr": 188.46,
+              "sr": 160,
               "dismissal": "batting"
             }
           ],
@@ -7197,11 +7197,11 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 7.5
+              "runs": 16,
+              "wickets": 1,
+              "economy": 5.65
             },
             {
               "name": "Digvesh Rathi",
@@ -7213,11 +7213,11 @@
             },
             {
               "name": "George Linde",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
+              "runs": 28,
               "wickets": 0,
-              "economy": 10.5
+              "economy": 9.33
             },
             {
               "name": "Avesh Khan",
@@ -7246,8 +7246,8 @@
         "Rishabh Pant": {
           "batting": 27,
           "bowling": 0,
-          "fielding": 0,
-          "total": 27
+          "fielding": 8,
+          "total": 35
         },
         "Ayush Badoni": {
           "batting": 5,
@@ -7292,16 +7292,16 @@
           "total": 18
         },
         "Shubman Gill": {
-          "batting": 73,
+          "batting": 74,
           "bowling": 0,
           "fielding": 16,
-          "total": 89
+          "total": 90
         },
         "Jos Buttler": {
-          "batting": 68,
+          "batting": 81,
           "bowling": 0,
           "fielding": 8,
-          "total": 76
+          "total": 89
         },
         "Washington Sundar": {
           "batting": 0,
@@ -7782,18 +7782,29 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1479,
-      "top11Points": 1455,
+      "totalPointsAll": 1489,
+      "top11Points": 1465,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 217,
+          "batting": 218,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 257,
+          "rawPoints": 258,
           "multiplier": 2,
-          "effectivePoints": 514,
+          "effectivePoints": 516,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rishabh Pant",
+          "role": "Wicket Keeper",
+          "batting": 133,
+          "bowling": 0,
+          "fielding": 42,
+          "rawPoints": 175,
+          "multiplier": 1,
+          "effectivePoints": 175,
           "countsInTop11": true
         },
         {
@@ -7805,17 +7816,6 @@
           "rawPoints": 171,
           "multiplier": 1,
           "effectivePoints": 171,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rishabh Pant",
-          "role": "Wicket Keeper",
-          "batting": 133,
-          "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 167,
-          "multiplier": 1,
-          "effectivePoints": 167,
           "countsInTop11": true
         },
         {
@@ -8207,18 +8207,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1693,
-      "top11Points": 1693,
+      "totalPointsAll": 1712,
+      "top11Points": 1712,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 239,
+          "batting": 252,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 281,
+          "rawPoints": 294,
           "multiplier": 1.5,
-          "effectivePoints": 422,
+          "effectivePoints": 441,
           "countsInTop11": true
         },
         {
