@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T16:55:42.000Z",
+  "lastUpdated": "2026-04-12T17:04:58.390Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 72,
-        "w": 0,
-        "o": 7
+        "r": 84,
+        "w": 2,
+        "o": 8.3
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -28,22 +28,22 @@
         "total": 23
       },
       "Suryakumar Yadav": {
-        "batting": 15,
+        "batting": 24,
         "bowling": 0,
         "fielding": 8,
-        "total": 23
+        "total": 32
       },
       "Tilak Varma": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 9
       },
       "Hardik Pandya": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 25,
         "fielding": 8,
-        "total": 33
+        "total": 41
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -119,21 +119,21 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       }
     }
   },
@@ -144,14 +144,14 @@
       "top11Points": 2062
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 1722,
+      "top11Points": 1732
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 1728,
       "top11Points": 1728
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 1696,
-      "top11Points": 1706
     },
     {
       "team": "Ali",
@@ -170,18 +170,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1430,
-      "top11Points": 1444
+      "totalPointsAll": 1431,
+      "top11Points": 1445
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1350,
-      "top11Points": 1350
+      "totalPointsAll": 1358,
+      "top11Points": 1358
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1300,
-      "top11Points": 1227
+      "totalPointsAll": 1345,
+      "top11Points": 1272
     }
   ],
   "matchHistory": [
@@ -7383,9 +7383,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 72,
-          "w": 0,
-          "o": 7
+          "r": 84,
+          "w": 2,
+          "o": 8.3
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -7509,18 +7509,18 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 72,
-          "wickets": 0,
-          "overs": 7,
+          "runs": 84,
+          "wickets": 2,
+          "overs": 8.3,
           "batting": [
             {
               "name": "Ryan Rickelton",
               "runs": 37,
-              "balls": 21,
+              "balls": 22,
               "fours": 3,
               "sixes": 3,
-              "sr": 176.19,
-              "dismissal": "batting"
+              "sr": 168.18,
+              "dismissal": "c Bhuvneshwar Kumar b Suyash Sharma"
             },
             {
               "name": "Rohit Sharma",
@@ -7533,11 +7533,29 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 13,
-              "balls": 8,
+              "runs": 17,
+              "balls": 11,
               "fours": 2,
               "sixes": 0,
-              "sr": 162.5,
+              "sr": 154.55,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "c Jacob Duffy b Suyash Sharma"
+            },
+            {
+              "name": "Hardik Pandya",
+              "runs": 6,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 600,
               "dismissal": "batting"
             }
           ],
@@ -7568,10 +7586,18 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 19,
               "wickets": 0,
+              "economy": 8.14
+            },
+            {
+              "name": "Suyash Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 2,
               "economy": 8
             }
           ]
@@ -7585,22 +7611,22 @@
           "total": 23
         },
         "Suryakumar Yadav": {
-          "batting": 15,
+          "batting": 24,
           "bowling": 0,
           "fielding": 8,
-          "total": 23
+          "total": 32
         },
         "Tilak Varma": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
         },
         "Hardik Pandya": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 25,
           "fielding": 8,
-          "total": 33
+          "total": 41
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -7676,21 +7702,21 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         }
       },
       "isComplete": false
@@ -7698,8 +7724,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1696,
-      "top11Points": 1706,
+      "totalPointsAll": 1722,
+      "top11Points": 1732,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -7726,12 +7752,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 110,
+          "batting": 119,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 118,
+          "rawPoints": 127,
           "multiplier": 2,
-          "effectivePoints": 236,
+          "effectivePoints": 254,
           "countsInTop11": true
         },
         {
@@ -7792,12 +7818,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 37,
+          "batting": 45,
           "bowling": 40,
           "fielding": 16,
-          "rawPoints": 93,
+          "rawPoints": 101,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 101,
           "countsInTop11": true
         },
         {
@@ -7847,8 +7873,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1430,
-      "top11Points": 1444,
+      "totalPointsAll": 1431,
+      "top11Points": 1445,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -7919,12 +7945,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 35,
+          "batting": 36,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 83,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -8261,8 +8287,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1350,
-      "top11Points": 1350,
+      "totalPointsAll": 1358,
+      "top11Points": 1358,
       "players": [
         {
           "name": "Virat Kohli",
@@ -8313,10 +8339,10 @@
           "role": "Fast Bowler",
           "batting": 10,
           "bowling": 110,
-          "fielding": 0,
-          "rawPoints": 120,
+          "fielding": 8,
+          "rawPoints": 128,
           "multiplier": 1,
-          "effectivePoints": 120,
+          "effectivePoints": 128,
           "countsInTop11": true
         },
         {
@@ -8388,8 +8414,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1300,
-      "top11Points": 1227,
+      "totalPointsAll": 1345,
+      "top11Points": 1272,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -8425,14 +8451,25 @@
           "countsInTop11": true
         },
         {
+          "name": "Suyash Sharma",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 120,
+          "fielding": 0,
+          "rawPoints": 120,
+          "multiplier": 1,
+          "effectivePoints": 120,
+          "countsInTop11": true
+        },
+        {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 1,
-          "bowling": 90,
+          "bowling": 85,
           "fielding": 8,
-          "rawPoints": 99,
+          "rawPoints": 94,
           "multiplier": 1,
-          "effectivePoints": 99,
+          "effectivePoints": 94,
           "countsInTop11": true
         },
         {
@@ -8455,17 +8492,6 @@
           "rawPoints": 52,
           "multiplier": 1.5,
           "effectivePoints": 78,
-          "countsInTop11": true
-        },
-        {
-          "name": "Suyash Sharma",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 70,
-          "fielding": 0,
-          "rawPoints": 70,
-          "multiplier": 1,
-          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
