@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T11:05:40.608Z",
+  "lastUpdated": "2026-04-12T11:15:05.480Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 102,
-        "w": 4,
-        "o": 13.2
+        "r": 110,
+        "w": 5,
+        "o": 15.2
       }
     ],
     "playerScores": {
@@ -40,10 +40,10 @@
         "total": 5
       },
       "Nicholas Pooran": {
-        "batting": 9,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 18
       },
       "Abdul Samad": {
         "batting": 14,
@@ -54,8 +54,8 @@
       "Shubman Gill": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Sai Sudharsan": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 12,
         "fielding": 0,
-        "total": 20
+        "total": 12
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -107,17 +107,17 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 70,
+        "bowling": 105,
         "fielding": 0,
-        "total": 70
+        "total": 105
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2112,
-      "top11Points": 2000
+      "totalPointsAll": 2147,
+      "top11Points": 2035
     },
     {
       "team": "Athu",
@@ -126,8 +126,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1587,
-      "top11Points": 1587
+      "totalPointsAll": 1579,
+      "top11Points": 1579
     },
     {
       "team": "Ali",
@@ -140,19 +140,19 @@
       "top11Points": 1360
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 1332,
+      "top11Points": 1308
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 1304,
       "top11Points": 1303
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 1316,
-      "top11Points": 1292
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 1230,
-      "top11Points": 1230
+      "totalPointsAll": 1243,
+      "top11Points": 1243
     },
     {
       "team": "Manav",
@@ -6970,17 +6970,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 102,
-          "w": 4,
-          "o": 13.2
+          "r": 110,
+          "w": 5,
+          "o": 15.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 102,
-          "wickets": 4,
-          "overs": 13.2,
+          "runs": 110,
+          "wickets": 5,
+          "overs": 15.2,
           "batting": [
             {
               "name": "Aiden Markram",
@@ -7020,31 +7020,40 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 12,
-              "balls": 15,
+              "runs": 19,
+              "balls": 21,
               "fours": 0,
-              "sixes": 1,
-              "sr": 80,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 90.48,
+              "dismissal": "c Shubman Gill b Prasidh Krishna"
             },
             {
               "name": "Abdul Samad",
               "runs": 17,
-              "balls": 18,
+              "balls": 20,
               "fours": 2,
               "sixes": 0,
-              "sr": 94.44,
+              "sr": 85,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Mukul Choudhary",
+              "runs": 5,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 12,
+              "runs": 16,
               "wickets": 1,
-              "economy": 4
+              "economy": 4.57
             },
             {
               "name": "Kagiso Rabada",
@@ -7064,19 +7073,19 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 2,
-              "economy": 6
+              "runs": 13,
+              "wickets": 3,
+              "economy": 4.33
             },
             {
               "name": "Rashid Khan",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 25,
               "wickets": 0,
-              "economy": 5.4
+              "economy": 6.25
             }
           ]
         }
@@ -7107,10 +7116,10 @@
           "total": 5
         },
         "Nicholas Pooran": {
-          "batting": 9,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 18
         },
         "Abdul Samad": {
           "batting": 14,
@@ -7121,8 +7130,8 @@
         "Shubman Gill": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Sai Sudharsan": {
           "batting": 0,
@@ -7156,9 +7165,9 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 12,
           "fielding": 0,
-          "total": 20
+          "total": 12
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -7174,9 +7183,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 70,
+          "bowling": 105,
           "fielding": 0,
-          "total": 70
+          "total": 105
         }
       },
       "isComplete": false
@@ -7609,18 +7618,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1316,
-      "top11Points": 1292,
+      "totalPointsAll": 1332,
+      "top11Points": 1308,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 144,
           "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 176,
+          "fielding": 40,
+          "rawPoints": 184,
           "multiplier": 2,
-          "effectivePoints": 352,
+          "effectivePoints": 368,
           "countsInTop11": true
         },
         {
@@ -7747,8 +7756,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1230,
-      "top11Points": 1230,
+      "totalPointsAll": 1243,
+      "top11Points": 1243,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -7830,12 +7839,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 29,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 29,
+          "rawPoints": 38,
           "multiplier": 1.5,
-          "effectivePoints": 44,
+          "effectivePoints": 57,
           "countsInTop11": true
         },
         {
@@ -8034,8 +8043,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1587,
-      "top11Points": 1587,
+      "totalPointsAll": 1579,
+      "top11Points": 1579,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8046,17 +8055,6 @@
           "rawPoints": 205,
           "multiplier": 1.5,
           "effectivePoints": 308,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rashid Khan",
-          "role": "Spinner",
-          "batting": 32,
-          "bowling": 180,
-          "fielding": 8,
-          "rawPoints": 220,
-          "multiplier": 1,
-          "effectivePoints": 220,
           "countsInTop11": true
         },
         {
@@ -8079,6 +8077,17 @@
           "rawPoints": 214,
           "multiplier": 1,
           "effectivePoints": 214,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Spinner",
+          "batting": 32,
+          "bowling": 172,
+          "fielding": 8,
+          "rawPoints": 212,
+          "multiplier": 1,
+          "effectivePoints": 212,
           "countsInTop11": true
         },
         {
@@ -8299,8 +8308,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2112,
-      "top11Points": 2000,
+      "totalPointsAll": 2147,
+      "top11Points": 2035,
       "players": [
         {
           "name": "Sanju Samson",
@@ -8328,11 +8337,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 220,
+          "bowling": 255,
           "fielding": 8,
-          "rawPoints": 228,
+          "rawPoints": 263,
           "multiplier": 1,
-          "effectivePoints": 228,
+          "effectivePoints": 263,
           "countsInTop11": true
         },
         {
