@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T14:54:54.783Z",
+  "lastUpdated": "2026-04-12T15:05:05.756Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 115,
-        "w": 0,
-        "o": 9.5
+        "r": 125,
+        "w": 1,
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Hardik Pandya": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -76,10 +76,16 @@
         "total": 121
       },
       "Virat Kohli": {
-        "batting": 41,
+        "batting": 44,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": 44
+      },
+      "Rajat Patidar": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       }
     }
   },
@@ -96,8 +102,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1617,
-      "top11Points": 1627
+      "totalPointsAll": 1625,
+      "top11Points": 1635
     },
     {
       "team": "Ali",
@@ -116,13 +122,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1418,
-      "top11Points": 1427
+      "totalPointsAll": 1423,
+      "top11Points": 1432
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1314,
-      "top11Points": 1314
+      "totalPointsAll": 1342,
+      "top11Points": 1342
     },
     {
       "team": "Manav",
@@ -7329,34 +7335,43 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 115,
-          "w": 0,
-          "o": 9.5
+          "r": 125,
+          "w": 1,
+          "o": 11.1
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 115,
-          "wickets": 0,
-          "overs": 9.5,
+          "runs": 125,
+          "wickets": 1,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Phil Salt",
               "runs": 78,
-              "balls": 34,
+              "balls": 36,
               "fours": 6,
               "sixes": 6,
-              "sr": 229.41,
-              "dismissal": "batting"
+              "sr": 216.67,
+              "dismissal": "c Hardik Pandya b Shardul Thakur"
             },
             {
               "name": "Virat Kohli",
-              "runs": 35,
-              "balls": 25,
+              "runs": 38,
+              "balls": 29,
               "fours": 4,
               "sixes": 1,
-              "sr": 140,
+              "sr": 131.03,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rajat Patidar",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
               "dismissal": "batting"
             }
           ],
@@ -7371,11 +7386,11 @@
             },
             {
               "name": "Hardik Pandya",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 19,
               "wickets": 0,
-              "economy": 10.36
+              "economy": 9.5
             },
             {
               "name": "Jasprit Bumrah",
@@ -7400,6 +7415,14 @@
               "runs": 20,
               "wickets": 0,
               "economy": 20
+            },
+            {
+              "name": "Shardul Thakur",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 9
             }
           ]
         }
@@ -7426,8 +7449,8 @@
         "Hardik Pandya": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -7437,9 +7460,9 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -7466,10 +7489,16 @@
           "total": 121
         },
         "Virat Kohli": {
-          "batting": 41,
+          "batting": 44,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": 44
+        },
+        "Rajat Patidar": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         }
       },
       "isComplete": false
@@ -7477,8 +7506,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1617,
-      "top11Points": 1627,
+      "totalPointsAll": 1625,
+      "top11Points": 1635,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -7584,10 +7613,10 @@
           "role": "All-Rounder",
           "batting": 37,
           "bowling": 15,
-          "fielding": 8,
-          "rawPoints": 60,
+          "fielding": 16,
+          "rawPoints": 68,
           "multiplier": 1,
-          "effectivePoints": 60,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -8040,8 +8069,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1314,
-      "top11Points": 1314,
+      "totalPointsAll": 1342,
+      "top11Points": 1342,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -8057,12 +8086,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 236,
+          "batting": 239,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 260,
+          "rawPoints": 263,
           "multiplier": 1,
-          "effectivePoints": 260,
+          "effectivePoints": 263,
           "countsInTop11": true
         },
         {
@@ -8102,11 +8131,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 9,
-          "bowling": 85,
+          "bowling": 110,
           "fielding": 0,
-          "rawPoints": 94,
+          "rawPoints": 119,
           "multiplier": 1,
-          "effectivePoints": 94,
+          "effectivePoints": 119,
           "countsInTop11": true
         },
         {
@@ -8454,8 +8483,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1418,
-      "top11Points": 1427,
+      "totalPointsAll": 1423,
+      "top11Points": 1432,
       "players": [
         {
           "name": "Travis Head",
@@ -8482,12 +8511,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 220,
+          "batting": 225,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 236,
+          "rawPoints": 241,
           "multiplier": 1,
-          "effectivePoints": 236,
+          "effectivePoints": 241,
           "countsInTop11": true
         },
         {
