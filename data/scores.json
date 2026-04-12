@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T12:24:55.194Z",
+  "lastUpdated": "2026-04-12T12:34:55.678Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 31,
-        "w": 0,
-        "o": 4.3
+        "r": 59,
+        "w": 1,
+        "o": 6.4
       }
     ],
     "playerScores": {
@@ -59,21 +59,21 @@
       },
       "Mohammed Shami": {
         "batting": 15,
-        "bowling": 12,
+        "bowling": -5,
         "fielding": 0,
-        "total": 27
+        "total": 10
       },
       "Avesh Khan": {
         "batting": 5,
         "bowling": 0,
-        "fielding": 0,
-        "total": 5
+        "fielding": 8,
+        "total": 13
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Sai Sudharsan": {
         "batting": 18,
@@ -82,16 +82,16 @@
         "total": 18
       },
       "Shubman Gill": {
-        "batting": 18,
+        "batting": 43,
         "bowling": 0,
         "fielding": 16,
-        "total": 34
+        "total": 59
       },
       "Jos Buttler": {
-        "batting": 0,
+        "batting": 13,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 21
       },
       "Washington Sundar": {
         "batting": 0,
@@ -156,28 +156,28 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1591,
-      "top11Points": 1591
+      "totalPointsAll": 1610,
+      "top11Points": 1610
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1575,
-      "top11Points": 1575
+      "totalPointsAll": 1600,
+      "top11Points": 1600
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1409,
-      "top11Points": 1423
+      "totalPointsAll": 1392,
+      "top11Points": 1406
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1369,
-      "top11Points": 1345
+      "totalPointsAll": 1419,
+      "top11Points": 1395
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1309,
-      "top11Points": 1308
+      "totalPointsAll": 1317,
+      "top11Points": 1316
     },
     {
       "team": "Kishan",
@@ -7006,9 +7006,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 31,
-          "w": 0,
-          "o": 4.3
+          "r": 59,
+          "w": 1,
+          "o": 6.4
         }
       ],
       "scorecard": [
@@ -7154,37 +7154,46 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 31,
-          "wickets": 0,
-          "overs": 4.3,
+          "runs": 59,
+          "wickets": 1,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
               "runs": 15,
-              "balls": 13,
+              "balls": 14,
               "fours": 3,
               "sixes": 0,
-              "sr": 115.38,
-              "dismissal": "batting"
+              "sr": 107.14,
+              "dismissal": "c Avesh Khan b Digvesh Singh Rathi"
             },
             {
               "name": "Shubman Gill",
-              "runs": 16,
-              "balls": 14,
+              "runs": 32,
+              "balls": 19,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 168.42,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 11,
+              "balls": 6,
               "fours": 2,
               "sixes": 0,
-              "sr": 114.29,
+              "sr": 183.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 30,
               "wickets": 0,
-              "economy": 6.4
+              "economy": 10
             },
             {
               "name": "Prince Yadav",
@@ -7193,6 +7202,22 @@
               "runs": 15,
               "wickets": 0,
               "economy": 7.5
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
+            },
+            {
+              "name": "George Linde",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -7236,21 +7261,21 @@
         },
         "Mohammed Shami": {
           "batting": 15,
-          "bowling": 12,
+          "bowling": -5,
           "fielding": 0,
-          "total": 27
+          "total": 10
         },
         "Avesh Khan": {
           "batting": 5,
           "bowling": 0,
-          "fielding": 0,
-          "total": 5
+          "fielding": 8,
+          "total": 13
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Sai Sudharsan": {
           "batting": 18,
@@ -7259,16 +7284,16 @@
           "total": 18
         },
         "Shubman Gill": {
-          "batting": 18,
+          "batting": 43,
           "bowling": 0,
           "fielding": 16,
-          "total": 34
+          "total": 59
         },
         "Jos Buttler": {
-          "batting": 0,
+          "batting": 13,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 21
         },
         "Washington Sundar": {
           "batting": 0,
@@ -7473,8 +7498,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1409,
-      "top11Points": 1423,
+      "totalPointsAll": 1392,
+      "top11Points": 1406,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -7524,11 +7549,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 17,
-          "bowling": 131,
+          "bowling": 114,
           "fielding": 8,
-          "rawPoints": 156,
+          "rawPoints": 139,
           "multiplier": 1,
-          "effectivePoints": 156,
+          "effectivePoints": 139,
           "countsInTop11": true
         },
         {
@@ -7611,8 +7636,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1575,
-      "top11Points": 1575,
+      "totalPointsAll": 1600,
+      "top11Points": 1600,
       "players": [
         {
           "name": "KL Rahul",
@@ -7692,6 +7717,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 82,
+          "fielding": 8,
+          "rawPoints": 90,
+          "multiplier": 1,
+          "effectivePoints": 90,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": 0,
@@ -7700,17 +7736,6 @@
           "rawPoints": 88,
           "multiplier": 1,
           "effectivePoints": 88,
-          "countsInTop11": true
-        },
-        {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 57,
-          "fielding": 8,
-          "rawPoints": 65,
-          "multiplier": 1,
-          "effectivePoints": 65,
           "countsInTop11": true
         },
         {
@@ -7749,18 +7774,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1369,
-      "top11Points": 1345,
+      "totalPointsAll": 1419,
+      "top11Points": 1395,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 162,
+          "batting": 187,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 202,
+          "rawPoints": 227,
           "multiplier": 2,
-          "effectivePoints": 404,
+          "effectivePoints": 454,
           "countsInTop11": true
         },
         {
@@ -8174,18 +8199,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1591,
-      "top11Points": 1591,
+      "totalPointsAll": 1610,
+      "top11Points": 1610,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 171,
+          "batting": 184,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 213,
+          "rawPoints": 226,
           "multiplier": 1.5,
-          "effectivePoints": 320,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -8301,8 +8326,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1309,
-      "top11Points": 1308,
+      "totalPointsAll": 1317,
+      "top11Points": 1316,
       "players": [
         {
           "name": "Travis Head",
@@ -8375,10 +8400,10 @@
           "role": "Fast Bowler",
           "batting": 6,
           "bowling": 70,
-          "fielding": 0,
-          "rawPoints": 76,
+          "fielding": 8,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 76,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
