@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T17:44:56.483Z",
+  "lastUpdated": "2026-04-12T17:54:54.925Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 147,
-        "w": 4,
-        "o": 15
+        "r": 155,
+        "w": 5,
+        "o": 15.5
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -46,10 +46,10 @@
         "total": 91
       },
       "Mitchell Santner": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 20,
         "fielding": 0,
-        "total": 20
+        "total": 21
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -90,8 +90,8 @@
       "Rajat Patidar": {
         "batting": 92,
         "bowling": 0,
-        "fielding": 0,
-        "total": 92
+        "fielding": 8,
+        "total": 100
       },
       "Tim David": {
         "batting": 57,
@@ -140,7 +140,7 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2213,
+      "totalPointsAll": 2214,
       "top11Points": 2062
     },
     {
@@ -160,8 +160,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1555,
-      "top11Points": 1539
+      "totalPointsAll": 1563,
+      "top11Points": 1547
     },
     {
       "team": "Ashwin",
@@ -7383,9 +7383,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 147,
-          "w": 4,
-          "o": 15
+          "r": 155,
+          "w": 5,
+          "o": 15.5
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -7509,9 +7509,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 147,
-          "wickets": 4,
-          "overs": 15,
+          "runs": 155,
+          "wickets": 5,
+          "overs": 15.5,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -7560,15 +7560,24 @@
             },
             {
               "name": "Sherfane Rutherford",
-              "runs": 11,
-              "balls": 7,
+              "runs": 18,
+              "balls": 10,
               "fours": 0,
-              "sixes": 1,
-              "sr": 157.14,
+              "sixes": 2,
+              "sr": 180,
               "dismissal": "batting"
             },
             {
               "name": "Naman Dhir",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "c Rajat Patidar b Rasikh Salam Dar"
+            },
+            {
+              "name": "Mitchell Santner",
               "runs": 1,
               "balls": 1,
               "fours": 0,
@@ -7596,11 +7605,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 7.5
+              "runs": 23,
+              "wickets": 1,
+              "economy": 8.12
             },
             {
               "name": "Krunal Pandya",
@@ -7647,10 +7656,10 @@
           "total": 91
         },
         "Mitchell Santner": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 20,
           "fielding": 0,
-          "total": 20
+          "total": 21
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -7691,8 +7700,8 @@
         "Rajat Patidar": {
           "batting": 92,
           "bowling": 0,
-          "fielding": 0,
-          "total": 92
+          "fielding": 8,
+          "total": 100
         },
         "Tim David": {
           "batting": 57,
@@ -8719,18 +8728,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1555,
-      "top11Points": 1539,
+      "totalPointsAll": 1563,
+      "top11Points": 1547,
       "players": [
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
           "batting": 312,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 328,
+          "fielding": 24,
+          "rawPoints": 336,
           "multiplier": 1,
-          "effectivePoints": 328,
+          "effectivePoints": 336,
           "countsInTop11": true
         },
         {
@@ -8857,7 +8866,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2213,
+      "totalPointsAll": 2214,
       "top11Points": 2062,
       "players": [
         {
@@ -8973,12 +8982,12 @@
         {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
-          "batting": 20,
+          "batting": 21,
           "bowling": 50,
           "fielding": 0,
-          "rawPoints": 70,
+          "rawPoints": 71,
           "multiplier": 1,
-          "effectivePoints": 70,
+          "effectivePoints": 71,
           "countsInTop11": false
         },
         {
