@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T15:05:05.756Z",
+  "lastUpdated": "2026-04-12T15:14:57.179Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 125,
+        "r": 167,
         "w": 1,
-        "o": 11.1
+        "o": 12.6
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Mayank Markande": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Phil Salt": {
         "batting": 121,
@@ -76,16 +76,16 @@
         "total": 121
       },
       "Virat Kohli": {
+        "batting": 52,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 52
+      },
+      "Rajat Patidar": {
         "batting": 44,
         "bowling": 0,
         "fielding": 0,
         "total": 44
-      },
-      "Rajat Patidar": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
       }
     }
   },
@@ -116,19 +116,19 @@
       "top11Points": 1465
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 1447,
+      "top11Points": 1456
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 1422,
       "top11Points": 1436
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1423,
-      "top11Points": 1432
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 1342,
-      "top11Points": 1342
+      "totalPointsAll": 1350,
+      "top11Points": 1350
     },
     {
       "team": "Manav",
@@ -7335,17 +7335,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 125,
+          "r": 167,
           "w": 1,
-          "o": 11.1
+          "o": 12.6
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 125,
+          "runs": 167,
           "wickets": 1,
-          "overs": 11.1,
+          "overs": 12.6,
           "batting": [
             {
               "name": "Phil Salt",
@@ -7358,20 +7358,20 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 38,
-              "balls": 29,
-              "fours": 4,
+              "runs": 45,
+              "balls": 32,
+              "fours": 5,
               "sixes": 1,
-              "sr": 131.03,
+              "sr": 140.62,
               "dismissal": "batting"
             },
             {
               "name": "Rajat Patidar",
-              "runs": 4,
-              "balls": 1,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 400,
+              "runs": 34,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 4,
+              "sr": 377.78,
               "dismissal": "batting"
             }
           ],
@@ -7410,19 +7410,19 @@
             },
             {
               "name": "Mayank Markande",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 20,
+              "runs": 40,
               "wickets": 0,
               "economy": 20
             },
             {
               "name": "Shardul Thakur",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 9,
+              "runs": 30,
               "wickets": 1,
-              "economy": 9
+              "economy": 16.36
             }
           ]
         }
@@ -7478,9 +7478,9 @@
         },
         "Mayank Markande": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Phil Salt": {
           "batting": 121,
@@ -7489,16 +7489,16 @@
           "total": 121
         },
         "Virat Kohli": {
+          "batting": 52,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 52
+        },
+        "Rajat Patidar": {
           "batting": 44,
           "bowling": 0,
           "fielding": 0,
           "total": 44
-        },
-        "Rajat Patidar": {
-          "batting": 5,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 5
         }
       },
       "isComplete": false
@@ -8069,8 +8069,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1342,
-      "top11Points": 1342,
+      "totalPointsAll": 1350,
+      "top11Points": 1350,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -8086,12 +8086,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 239,
+          "batting": 247,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 263,
+          "rawPoints": 271,
           "multiplier": 1,
-          "effectivePoints": 263,
+          "effectivePoints": 271,
           "countsInTop11": true
         },
         {
@@ -8483,8 +8483,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1423,
-      "top11Points": 1432,
+      "totalPointsAll": 1447,
+      "top11Points": 1456,
       "players": [
         {
           "name": "Travis Head",
@@ -8498,6 +8498,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rajat Patidar",
+          "role": "Batsman",
+          "batting": 264,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 280,
+          "multiplier": 1,
+          "effectivePoints": 280,
+          "countsInTop11": true
+        },
+        {
           "name": "Rohit Sharma",
           "role": "Opener",
           "batting": 168,
@@ -8506,17 +8517,6 @@
           "rawPoints": 168,
           "multiplier": 1.5,
           "effectivePoints": 252,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rajat Patidar",
-          "role": "Batsman",
-          "batting": 225,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 241,
-          "multiplier": 1,
-          "effectivePoints": 241,
           "countsInTop11": true
         },
         {
@@ -8597,17 +8597,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Mayank Markande",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 8,
-          "rawPoints": 3,
-          "multiplier": 1,
-          "effectivePoints": 3,
-          "countsInTop11": true
-        },
-        {
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 1,
@@ -8617,6 +8606,17 @@
           "multiplier": 1,
           "effectivePoints": -9,
           "countsInTop11": false
+        },
+        {
+          "name": "Mayank Markande",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": -20,
+          "fielding": 8,
+          "rawPoints": -12,
+          "multiplier": 1,
+          "effectivePoints": -12,
+          "countsInTop11": true
         }
       ]
     },
