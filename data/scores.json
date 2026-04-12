@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T15:44:53.955Z",
+  "lastUpdated": "2026-04-12T15:55:01.037Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 206,
+        "r": 223,
         "w": 3,
-        "o": 17.1
+        "o": 18.3
       }
     ],
     "playerScores": {
@@ -88,16 +88,16 @@
         "total": 92
       },
       "Tim David": {
-        "batting": 9,
+        "batting": 33,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 33
       },
       "Jitesh Sharma": {
-        "batting": 6,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 11
       }
     }
   },
@@ -119,8 +119,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1614,
-      "top11Points": 1614
+      "totalPointsAll": 1638,
+      "top11Points": 1638
     },
     {
       "team": "Tanay",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1290,
-      "top11Points": 1221
+      "totalPointsAll": 1295,
+      "top11Points": 1222
     }
   ],
   "matchHistory": [
@@ -7347,17 +7347,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 206,
+          "r": 223,
           "w": 3,
-          "o": 17.1
+          "o": 18.3
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 206,
+          "runs": 223,
           "wickets": 3,
-          "overs": 17.1,
+          "overs": 18.3,
           "batting": [
             {
               "name": "Phil Salt",
@@ -7388,17 +7388,17 @@
             },
             {
               "name": "Tim David",
-              "runs": 8,
-              "balls": 6,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 133.33,
+              "runs": 19,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 190,
               "dismissal": "batting"
             },
             {
               "name": "Jitesh Sharma",
-              "runs": 5,
-              "balls": 4,
+              "runs": 10,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
               "sr": 125,
@@ -7416,19 +7416,19 @@
             },
             {
               "name": "Hardik Pandya",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 39,
               "wickets": 1,
-              "economy": 8.84
+              "economy": 9.75
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 28,
               "wickets": 0,
-              "economy": 7.67
+              "economy": 8
             },
             {
               "name": "Mitchell Santner",
@@ -7531,16 +7531,16 @@
           "total": 92
         },
         "Tim David": {
-          "batting": 9,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 33
         },
         "Jitesh Sharma": {
-          "batting": 6,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 11
         }
       },
       "isComplete": false
@@ -7835,8 +7835,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1614,
-      "top11Points": 1614,
+      "totalPointsAll": 1638,
+      "top11Points": 1638,
       "players": [
         {
           "name": "KL Rahul",
@@ -7872,6 +7872,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 186,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 186,
+          "multiplier": 1,
+          "effectivePoints": 186,
+          "countsInTop11": true
+        },
+        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 139,
@@ -7880,17 +7891,6 @@
           "rawPoints": 163,
           "multiplier": 1,
           "effectivePoints": 163,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 162,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 162,
-          "multiplier": 1,
-          "effectivePoints": 162,
           "countsInTop11": true
         },
         {
@@ -8238,8 +8238,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1290,
-      "top11Points": 1221,
+      "totalPointsAll": 1295,
+      "top11Points": 1222,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -8341,6 +8341,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jitesh Sharma",
+          "role": "Wicket Keeper",
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 34,
+          "rawPoints": 45,
+          "multiplier": 1,
+          "effectivePoints": 45,
+          "countsInTop11": true
+        },
+        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 7,
@@ -8349,17 +8360,6 @@
           "rawPoints": 44,
           "multiplier": 1,
           "effectivePoints": 44,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jitesh Sharma",
-          "role": "Wicket Keeper",
-          "batting": 6,
-          "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 40,
-          "multiplier": 1,
-          "effectivePoints": 40,
           "countsInTop11": false
         },
         {
