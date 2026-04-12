@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T10:54:54.122Z",
+  "lastUpdated": "2026-04-12T11:05:40.608Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 83,
+        "r": 102,
         "w": 4,
-        "o": 10.5
+        "o": 13.2
       }
     ],
     "playerScores": {
@@ -40,16 +40,16 @@
         "total": 5
       },
       "Nicholas Pooran": {
-        "batting": 3,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 9
       },
       "Abdul Samad": {
-        "batting": -3,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": -3
+        "total": 14
       },
       "Shubman Gill": {
         "batting": 0,
@@ -146,13 +146,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1299,
-      "top11Points": 1275
+      "totalPointsAll": 1316,
+      "top11Points": 1292
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1221,
-      "top11Points": 1221
+      "totalPointsAll": 1230,
+      "top11Points": 1230
     },
     {
       "team": "Manav",
@@ -6970,17 +6970,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 83,
+          "r": 102,
           "w": 4,
-          "o": 10.5
+          "o": 13.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 83,
+          "runs": 102,
           "wickets": 4,
-          "overs": 10.5,
+          "overs": 13.2,
           "batting": [
             {
               "name": "Aiden Markram",
@@ -7020,20 +7020,20 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 3,
-              "balls": 7,
+              "runs": 12,
+              "balls": 15,
               "fours": 0,
-              "sixes": 0,
-              "sr": 42.86,
+              "sixes": 1,
+              "sr": 80,
               "dismissal": "batting"
             },
             {
               "name": "Abdul Samad",
-              "runs": 7,
-              "balls": 11,
-              "fours": 0,
+              "runs": 17,
+              "balls": 18,
+              "fours": 2,
               "sixes": 0,
-              "sr": 63.64,
+              "sr": 94.44,
               "dismissal": "batting"
             }
           ],
@@ -7048,19 +7048,19 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 34,
+              "runs": 43,
               "wickets": 1,
-              "economy": 17
+              "economy": 14.33
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 13,
               "wickets": 0,
-              "economy": 7.09
+              "economy": 6.5
             },
             {
               "name": "Prasidh Krishna",
@@ -7072,11 +7072,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 2,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 18,
               "wickets": 0,
-              "economy": 4
+              "economy": 5.4
             }
           ]
         }
@@ -7107,16 +7107,16 @@
           "total": 5
         },
         "Nicholas Pooran": {
-          "batting": 3,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 9
         },
         "Abdul Samad": {
-          "batting": -3,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": -3
+          "total": 14
         },
         "Shubman Gill": {
           "batting": 0,
@@ -7609,8 +7609,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1299,
-      "top11Points": 1275,
+      "totalPointsAll": 1316,
+      "top11Points": 1292,
       "players": [
         {
           "name": "Shubman Gill",
@@ -7679,6 +7679,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 75,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 83,
+          "multiplier": 1,
+          "effectivePoints": 83,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 24,
@@ -7687,17 +7698,6 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": 58,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 66,
-          "multiplier": 1,
-          "effectivePoints": 66,
           "countsInTop11": true
         },
         {
@@ -7747,8 +7747,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1221,
-      "top11Points": 1221,
+      "totalPointsAll": 1230,
+      "top11Points": 1230,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -7830,12 +7830,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 23,
+          "batting": 29,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 23,
+          "rawPoints": 29,
           "multiplier": 1.5,
-          "effectivePoints": 35,
+          "effectivePoints": 44,
           "countsInTop11": true
         },
         {
