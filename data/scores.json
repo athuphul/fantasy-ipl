@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T15:35:00.461Z",
+  "lastUpdated": "2026-04-12T15:44:53.955Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 194,
-        "w": 2,
-        "o": 15.5
+        "r": 206,
+        "w": 3,
+        "o": 17.1
       }
     ],
     "playerScores": {
@@ -30,20 +30,20 @@
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Hardik Pandya": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 25,
         "fielding": 8,
-        "total": 38
+        "total": 33
       },
       "Mitchell Santner": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 20,
         "fielding": 0,
-        "total": -5
+        "total": 20
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -88,17 +88,23 @@
         "total": 92
       },
       "Tim David": {
-        "batting": 2,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 9
+      },
+      "Jitesh Sharma": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2188,
+      "totalPointsAll": 2213,
       "top11Points": 2062
     },
     {
@@ -108,13 +114,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1671,
-      "top11Points": 1681
+      "totalPointsAll": 1666,
+      "top11Points": 1676
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1607,
-      "top11Points": 1607
+      "totalPointsAll": 1614,
+      "top11Points": 1614
     },
     {
       "team": "Tanay",
@@ -128,8 +134,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1422,
-      "top11Points": 1436
+      "totalPointsAll": 1430,
+      "top11Points": 1444
     },
     {
       "team": "Kishan",
@@ -138,7 +144,7 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1284,
+      "totalPointsAll": 1290,
       "top11Points": 1221
     }
   ],
@@ -7341,17 +7347,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 194,
-          "w": 2,
-          "o": 15.5
+          "r": 206,
+          "w": 3,
+          "o": 17.1
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 194,
-          "wickets": 2,
-          "overs": 15.5,
+          "runs": 206,
+          "wickets": 3,
+          "overs": 17.1,
           "batting": [
             {
               "name": "Phil Salt",
@@ -7374,19 +7380,28 @@
             {
               "name": "Rajat Patidar",
               "runs": 53,
-              "balls": 19,
+              "balls": 20,
               "fours": 4,
               "sixes": 5,
-              "sr": 278.95,
-              "dismissal": "batting"
+              "sr": 265,
+              "dismissal": "c Tilak Varma b Mitchell Santner"
             },
             {
               "name": "Tim David",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
+              "runs": 8,
+              "balls": 6,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 133.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jitesh Sharma",
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
@@ -7401,27 +7416,27 @@
             },
             {
               "name": "Hardik Pandya",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 23,
+              "runs": 28,
               "wickets": 1,
-              "economy": 7.67
+              "economy": 8.84
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 23,
               "wickets": 0,
-              "economy": 8
+              "economy": 7.67
             },
             {
               "name": "Mitchell Santner",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
               "runs": 43,
-              "wickets": 0,
-              "economy": 11.22
+              "wickets": 1,
+              "economy": 10.75
             },
             {
               "name": "Mayank Markande",
@@ -7458,20 +7473,20 @@
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Hardik Pandya": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 25,
           "fielding": 8,
-          "total": 38
+          "total": 33
         },
         "Mitchell Santner": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 20,
           "fielding": 0,
-          "total": -5
+          "total": 20
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -7516,10 +7531,16 @@
           "total": 92
         },
         "Tim David": {
-          "batting": 2,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 9
+        },
+        "Jitesh Sharma": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         }
       },
       "isComplete": false
@@ -7527,8 +7548,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1671,
-      "top11Points": 1681,
+      "totalPointsAll": 1666,
+      "top11Points": 1676,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -7622,11 +7643,11 @@
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 37,
-          "bowling": 45,
+          "bowling": 40,
           "fielding": 16,
-          "rawPoints": 98,
+          "rawPoints": 93,
           "multiplier": 1,
-          "effectivePoints": 98,
+          "effectivePoints": 93,
           "countsInTop11": true
         },
         {
@@ -7676,8 +7697,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1422,
-      "top11Points": 1436,
+      "totalPointsAll": 1430,
+      "top11Points": 1444,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -7750,10 +7771,10 @@
           "role": "Batsman",
           "batting": 35,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 75,
+          "fielding": 48,
+          "rawPoints": 83,
           "multiplier": 1,
-          "effectivePoints": 75,
+          "effectivePoints": 83,
           "countsInTop11": true
         },
         {
@@ -7814,8 +7835,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1607,
-      "top11Points": 1607,
+      "totalPointsAll": 1614,
+      "top11Points": 1614,
       "players": [
         {
           "name": "KL Rahul",
@@ -7864,12 +7885,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 155,
+          "batting": 162,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 155,
+          "rawPoints": 162,
           "multiplier": 1,
-          "effectivePoints": 155,
+          "effectivePoints": 162,
           "countsInTop11": true
         },
         {
@@ -8217,7 +8238,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1284,
+      "totalPointsAll": 1290,
       "top11Points": 1221,
       "players": [
         {
@@ -8333,12 +8354,12 @@
         {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 34,
+          "rawPoints": 40,
           "multiplier": 1,
-          "effectivePoints": 34,
+          "effectivePoints": 40,
           "countsInTop11": false
         },
         {
@@ -8642,7 +8663,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2188,
+      "totalPointsAll": 2213,
       "top11Points": 2062,
       "players": [
         {
@@ -8756,6 +8777,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Santner",
+          "role": "All-Rounder",
+          "batting": 20,
+          "bowling": 50,
+          "fielding": 0,
+          "rawPoints": 70,
+          "multiplier": 1,
+          "effectivePoints": 70,
+          "countsInTop11": false
+        },
+        {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
           "batting": 39,
@@ -8764,17 +8796,6 @@
           "rawPoints": 55,
           "multiplier": 1,
           "effectivePoints": 55,
-          "countsInTop11": false
-        },
-        {
-          "name": "Mitchell Santner",
-          "role": "All-Rounder",
-          "batting": 20,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 45,
-          "multiplier": 1,
-          "effectivePoints": 45,
           "countsInTop11": false
         },
         {
