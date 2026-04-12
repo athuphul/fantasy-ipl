@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T13:14:54.656Z",
+  "lastUpdated": "2026-04-12T13:25:13.227Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 129,
-        "w": 1,
-        "o": 14.4
+        "r": 142,
+        "w": 3,
+        "o": 16.3
       }
     ],
     "playerScores": {
       "Aiden Markram": {
         "batting": 37,
         "bowling": 0,
-        "fielding": 0,
-        "total": 37
+        "fielding": 8,
+        "total": 45
       },
       "Mitchell Marsh": {
         "batting": 14,
@@ -59,9 +59,9 @@
       },
       "Mohammed Shami": {
         "batting": 15,
-        "bowling": -5,
+        "bowling": 25,
         "fielding": 0,
-        "total": 10
+        "total": 40
       },
       "Avesh Khan": {
         "batting": 5,
@@ -88,28 +88,28 @@
         "total": 90
       },
       "Jos Buttler": {
-        "batting": 81,
+        "batting": 86,
         "bowling": 0,
         "fielding": 8,
-        "total": 89
+        "total": 94
       },
       "Washington Sundar": {
-        "batting": 0,
+        "batting": 7,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 15
+      },
+      "Rahul Tewatia": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 10
       },
       "Glenn Phillips": {
         "batting": 0,
         "bowling": 0,
         "fielding": 16,
         "total": 16
-      },
-      "Rahul Tewatia": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
       },
       "Rashid Khan": {
         "batting": 0,
@@ -146,13 +146,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2182,
+      "totalPointsAll": 2184,
       "top11Points": 2062
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1712,
-      "top11Points": 1712
+      "totalPointsAll": 1728,
+      "top11Points": 1728
     },
     {
       "team": "Athu",
@@ -171,8 +171,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1392,
-      "top11Points": 1406
+      "totalPointsAll": 1422,
+      "top11Points": 1436
     },
     {
       "team": "Tanay",
@@ -181,8 +181,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1243,
-      "top11Points": 1243
+      "totalPointsAll": 1250,
+      "top11Points": 1250
     },
     {
       "team": "Manav",
@@ -7006,9 +7006,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 129,
-          "w": 1,
-          "o": 14.4
+          "r": 142,
+          "w": 3,
+          "o": 16.3
         }
       ],
       "scorecard": [
@@ -7154,9 +7154,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 129,
-          "wickets": 1,
-          "overs": 14.4,
+          "runs": 142,
+          "wickets": 3,
+          "overs": 16.3,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -7178,30 +7178,48 @@
             },
             {
               "name": "Jos Buttler",
-              "runs": 56,
-              "balls": 35,
-              "fours": 10,
+              "runs": 60,
+              "balls": 37,
+              "fours": 11,
               "sixes": 0,
-              "sr": 160,
+              "sr": 162.16,
+              "dismissal": "c Aiden Markram b Mohammed Shami"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 6,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 120,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rahul Tewatia",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
-              "wickets": 0,
-              "economy": 10
+              "runs": 36,
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Prince Yadav",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 17,
               "wickets": 1,
-              "economy": 5.65
+              "economy": 5.67
             },
             {
               "name": "Digvesh Rathi",
@@ -7226,6 +7244,14 @@
               "runs": 24,
               "wickets": 0,
               "economy": 12
+            },
+            {
+              "name": "Aiden Markram",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 15
             }
           ]
         }
@@ -7234,8 +7260,8 @@
         "Aiden Markram": {
           "batting": 37,
           "bowling": 0,
-          "fielding": 0,
-          "total": 37
+          "fielding": 8,
+          "total": 45
         },
         "Mitchell Marsh": {
           "batting": 14,
@@ -7269,9 +7295,9 @@
         },
         "Mohammed Shami": {
           "batting": 15,
-          "bowling": -5,
+          "bowling": 25,
           "fielding": 0,
-          "total": 10
+          "total": 40
         },
         "Avesh Khan": {
           "batting": 5,
@@ -7298,28 +7324,28 @@
           "total": 90
         },
         "Jos Buttler": {
-          "batting": 81,
+          "batting": 86,
           "bowling": 0,
           "fielding": 8,
-          "total": 89
+          "total": 94
         },
         "Washington Sundar": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 15
+        },
+        "Rahul Tewatia": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 10
         },
         "Glenn Phillips": {
           "batting": 0,
           "bowling": 0,
           "fielding": 16,
           "total": 16
-        },
-        "Rahul Tewatia": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
         },
         "Rashid Khan": {
           "batting": 0,
@@ -7506,8 +7532,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1392,
-      "top11Points": 1406,
+      "totalPointsAll": 1422,
+      "top11Points": 1436,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -7557,11 +7583,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 17,
-          "bowling": 114,
+          "bowling": 144,
           "fielding": 8,
-          "rawPoints": 139,
+          "rawPoints": 169,
           "multiplier": 1,
-          "effectivePoints": 139,
+          "effectivePoints": 169,
           "countsInTop11": true
         },
         {
@@ -7920,8 +7946,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1243,
-      "top11Points": 1243,
+      "totalPointsAll": 1250,
+      "top11Points": 1250,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -7959,12 +7985,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 105,
+          "batting": 112,
           "bowling": 25,
           "fielding": 16,
-          "rawPoints": 146,
+          "rawPoints": 153,
           "multiplier": 1,
-          "effectivePoints": 146,
+          "effectivePoints": 153,
           "countsInTop11": true
         },
         {
@@ -8207,18 +8233,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1712,
-      "top11Points": 1712,
+      "totalPointsAll": 1728,
+      "top11Points": 1728,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 252,
+          "batting": 257,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 294,
+          "rawPoints": 299,
           "multiplier": 1.5,
-          "effectivePoints": 441,
+          "effectivePoints": 449,
           "countsInTop11": true
         },
         {
@@ -8270,10 +8296,10 @@
           "role": "Opener",
           "batting": 137,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 153,
+          "fielding": 24,
+          "rawPoints": 161,
           "multiplier": 1,
-          "effectivePoints": 153,
+          "effectivePoints": 161,
           "countsInTop11": true
         },
         {
@@ -8472,7 +8498,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2182,
+      "totalPointsAll": 2184,
       "top11Points": 2062,
       "players": [
         {
@@ -8599,12 +8625,12 @@
         {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
-          "batting": 28,
+          "batting": 30,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 44,
+          "rawPoints": 46,
           "multiplier": 1,
-          "effectivePoints": 44,
+          "effectivePoints": 46,
           "countsInTop11": false
         },
         {
