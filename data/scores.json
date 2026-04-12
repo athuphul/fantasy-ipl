@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T14:15:05.815Z",
+  "lastUpdated": "2026-04-12T14:24:56.401Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 27,
+        "r": 55,
         "w": 0,
-        "o": 2.3
+        "o": 4.2
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Trent Boult": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Mayank Markande": {
         "batting": 0,
@@ -70,16 +70,16 @@
         "total": 0
       },
       "Phil Salt": {
-        "batting": 15,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 57
       },
       "Virat Kohli": {
-        "batting": 16,
+        "batting": 34,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 34
       }
     }
   },
@@ -116,13 +116,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1322,
-      "top11Points": 1321
+      "totalPointsAll": 1354,
+      "top11Points": 1363
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1289,
-      "top11Points": 1289
+      "totalPointsAll": 1307,
+      "top11Points": 1307
     },
     {
       "team": "Manav",
@@ -7329,43 +7329,43 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 27,
+          "r": 55,
           "w": 0,
-          "o": 2.3
+          "o": 4.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 27,
+          "runs": 55,
           "wickets": 0,
-          "overs": 2.3,
+          "overs": 4.2,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 13,
-              "balls": 8,
+              "runs": 34,
+              "balls": 15,
               "fours": 2,
-              "sixes": 0,
-              "sr": 162.5,
+              "sixes": 3,
+              "sr": 226.67,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
-              "runs": 13,
-              "balls": 7,
-              "fours": 1,
+              "runs": 20,
+              "balls": 11,
+              "fours": 2,
               "sixes": 1,
-              "sr": 185.71,
+              "sr": 181.82,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Trent Boult",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 24,
               "wickets": 0,
               "economy": 12
             },
@@ -7376,6 +7376,22 @@
               "runs": 9,
               "wickets": 0,
               "economy": 9
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Mitchell Santner",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 36
             }
           ]
         }
@@ -7425,9 +7441,9 @@
         },
         "Trent Boult": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Mayank Markande": {
           "batting": 0,
@@ -7436,16 +7452,16 @@
           "total": 0
         },
         "Phil Salt": {
-          "batting": 15,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 57
         },
         "Virat Kohli": {
-          "batting": 16,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 34
         }
       },
       "isComplete": false
@@ -8016,8 +8032,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1289,
-      "top11Points": 1289,
+      "totalPointsAll": 1307,
+      "top11Points": 1307,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -8033,12 +8049,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 211,
+          "batting": 229,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 235,
+          "rawPoints": 253,
           "multiplier": 1,
-          "effectivePoints": 235,
+          "effectivePoints": 253,
           "countsInTop11": true
         },
         {
@@ -8430,8 +8446,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1322,
-      "top11Points": 1321,
+      "totalPointsAll": 1354,
+      "top11Points": 1363,
       "players": [
         {
           "name": "Travis Head",
@@ -8480,12 +8496,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 78,
+          "batting": 120,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 110,
+          "rawPoints": 152,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -8558,11 +8574,11 @@
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "rawPoints": 1,
+          "rawPoints": -9,
           "multiplier": 1,
-          "effectivePoints": 1,
+          "effectivePoints": -9,
           "countsInTop11": false
         }
       ]
