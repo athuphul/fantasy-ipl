@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T16:44:54.517Z",
+  "lastUpdated": "2026-04-12T16:55:42.000Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 56,
+        "r": 72,
         "w": 0,
-        "o": 5
+        "o": 7
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 28,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
+        "total": 23
       },
       "Suryakumar Yadav": {
-        "batting": 0,
+        "batting": 15,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 23
       },
       "Tilak Varma": {
         "batting": 0,
@@ -119,9 +119,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -150,8 +150,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1666,
-      "top11Points": 1676
+      "totalPointsAll": 1696,
+      "top11Points": 1706
     },
     {
       "team": "Ali",
@@ -160,8 +160,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1562,
-      "top11Points": 1546
+      "totalPointsAll": 1555,
+      "top11Points": 1539
     },
     {
       "team": "Ashwin",
@@ -180,8 +180,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1295,
-      "top11Points": 1222
+      "totalPointsAll": 1300,
+      "top11Points": 1227
     }
   ],
   "matchHistory": [
@@ -7383,9 +7383,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 56,
+          "r": 72,
           "w": 0,
-          "o": 5
+          "o": 7
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -7509,26 +7509,35 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 56,
+          "runs": 72,
           "wickets": 0,
-          "overs": 5,
+          "overs": 7,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 35,
-              "balls": 18,
+              "runs": 37,
+              "balls": 21,
               "fours": 3,
               "sixes": 3,
-              "sr": 194.44,
+              "sr": 176.19,
               "dismissal": "batting"
             },
             {
               "name": "Rohit Sharma",
               "runs": 19,
-              "balls": 12,
+              "balls": 13,
               "fours": 2,
               "sixes": 1,
-              "sr": 158.33,
+              "sr": 146.15,
+              "dismissal": "retd hurt"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 13,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 162.5,
               "dismissal": "batting"
             }
           ],
@@ -7551,35 +7560,35 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 15,
               "wickets": 0,
-              "economy": 9
+              "economy": 7.5
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 16,
               "wickets": 0,
-              "economy": 7
+              "economy": 8
             }
           ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 28,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
+          "total": 23
         },
         "Suryakumar Yadav": {
-          "batting": 0,
+          "batting": 15,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 23
         },
         "Tilak Varma": {
           "batting": 0,
@@ -7667,9 +7676,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -7689,8 +7698,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1666,
-      "top11Points": 1676,
+      "totalPointsAll": 1696,
+      "top11Points": 1706,
       "players": [
         {
           "name": "Ravi Bishnoi",
@@ -7717,12 +7726,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 95,
+          "batting": 110,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 103,
+          "rawPoints": 118,
           "multiplier": 2,
-          "effectivePoints": 206,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -8379,8 +8388,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1295,
-      "top11Points": 1222,
+      "totalPointsAll": 1300,
+      "top11Points": 1227,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -8419,11 +8428,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 1,
-          "bowling": 85,
+          "bowling": 90,
           "fielding": 8,
-          "rawPoints": 94,
+          "rawPoints": 99,
           "multiplier": 1,
-          "effectivePoints": 94,
+          "effectivePoints": 99,
           "countsInTop11": true
         },
         {
@@ -8666,8 +8675,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1562,
-      "top11Points": 1546,
+      "totalPointsAll": 1555,
+      "top11Points": 1539,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -8681,17 +8690,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": 196,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 196,
-          "multiplier": 1.5,
-          "effectivePoints": 294,
-          "countsInTop11": true
-        },
-        {
           "name": "Travis Head",
           "role": "Opener",
           "batting": 144,
@@ -8700,6 +8698,17 @@
           "rawPoints": 144,
           "multiplier": 2,
           "effectivePoints": 288,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 191,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 191,
+          "multiplier": 1.5,
+          "effectivePoints": 287,
           "countsInTop11": true
         },
         {
