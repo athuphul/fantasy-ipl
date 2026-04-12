@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T14:34:53.820Z",
+  "lastUpdated": "2026-04-12T14:44:59.838Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 73,
+        "r": 96,
         "w": 0,
-        "o": 6.3
+        "o": 8.2
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Mitchell Santner": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -70,23 +70,23 @@
         "total": 0
       },
       "Phil Salt": {
-        "batting": 73,
+        "batting": 110,
         "bowling": 0,
         "fielding": 0,
-        "total": 73
+        "total": 110
       },
       "Virat Kohli": {
-        "batting": 26,
+        "batting": 30,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 30
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2193,
+      "totalPointsAll": 2188,
       "top11Points": 2062
     },
     {
@@ -116,13 +116,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1370,
-      "top11Points": 1379
+      "totalPointsAll": 1407,
+      "top11Points": 1416
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1299,
-      "top11Points": 1299
+      "totalPointsAll": 1303,
+      "top11Points": 1303
     },
     {
       "team": "Manav",
@@ -7329,34 +7329,34 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 73,
+          "r": 96,
           "w": 0,
-          "o": 6.3
+          "o": 8.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 73,
+          "runs": 96,
           "wickets": 0,
-          "overs": 6.3,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 47,
-              "balls": 22,
-              "fours": 3,
-              "sixes": 4,
-              "sr": 213.64,
+              "runs": 69,
+              "balls": 30,
+              "fours": 6,
+              "sixes": 5,
+              "sr": 230,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
-              "runs": 22,
-              "balls": 15,
+              "runs": 26,
+              "balls": 21,
               "fours": 2,
               "sixes": 1,
-              "sr": 146.67,
+              "sr": 123.81,
               "dismissal": "batting"
             }
           ],
@@ -7387,11 +7387,19 @@
             },
             {
               "name": "Mitchell Santner",
-              "overs": 1.1,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 28,
               "wickets": 0,
-              "economy": 18.86
+              "economy": 11.2
+            },
+            {
+              "name": "Mayank Markande",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 0,
+              "economy": 20
             }
           ]
         }
@@ -7423,9 +7431,9 @@
         },
         "Mitchell Santner": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -7452,16 +7460,16 @@
           "total": 0
         },
         "Phil Salt": {
-          "batting": 73,
+          "batting": 110,
           "bowling": 0,
           "fielding": 0,
-          "total": 73
+          "total": 110
         },
         "Virat Kohli": {
-          "batting": 26,
+          "batting": 30,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 30
         }
       },
       "isComplete": false
@@ -8032,8 +8040,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1299,
-      "top11Points": 1299,
+      "totalPointsAll": 1303,
+      "top11Points": 1303,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -8049,12 +8057,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 221,
+          "batting": 225,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 245,
+          "rawPoints": 249,
           "multiplier": 1,
-          "effectivePoints": 245,
+          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
@@ -8446,8 +8454,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1370,
-      "top11Points": 1379,
+      "totalPointsAll": 1407,
+      "top11Points": 1416,
       "players": [
         {
           "name": "Travis Head",
@@ -8485,12 +8493,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 136,
+          "batting": 173,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 168,
+          "rawPoints": 205,
           "multiplier": 1,
-          "effectivePoints": 168,
+          "effectivePoints": 205,
           "countsInTop11": true
         },
         {
@@ -8584,7 +8592,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2193,
+      "totalPointsAll": 2188,
       "top11Points": 2062,
       "players": [
         {
@@ -8712,11 +8720,11 @@
           "name": "Mitchell Santner",
           "role": "All-Rounder",
           "batting": 20,
-          "bowling": 30,
+          "bowling": 25,
           "fielding": 0,
-          "rawPoints": 50,
+          "rawPoints": 45,
           "multiplier": 1,
-          "effectivePoints": 50,
+          "effectivePoints": 45,
           "countsInTop11": false
         },
         {
