@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T11:15:05.480Z",
+  "lastUpdated": "2026-04-12T11:24:57.744Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 110,
-        "w": 5,
-        "o": 15.2
+        "r": 118,
+        "w": 6,
+        "o": 16.2
       }
     ],
     "playerScores": {
@@ -46,10 +46,10 @@
         "total": 18
       },
       "Abdul Samad": {
-        "batting": 14,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 15
       },
       "Shubman Gill": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Glenn Phillips": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Rahul Tewatia": {
         "batting": 0,
@@ -141,8 +141,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1332,
-      "top11Points": 1308
+      "totalPointsAll": 1333,
+      "top11Points": 1309
     },
     {
       "team": "Tanay",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1276,
-      "top11Points": 1213
+      "totalPointsAll": 1284,
+      "top11Points": 1221
     }
   ],
   "matchHistory": [
@@ -6970,17 +6970,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 110,
-          "w": 5,
-          "o": 15.2
+          "r": 118,
+          "w": 6,
+          "o": 16.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 110,
-          "wickets": 5,
-          "overs": 15.2,
+          "runs": 118,
+          "wickets": 6,
+          "overs": 16.2,
           "batting": [
             {
               "name": "Aiden Markram",
@@ -7029,31 +7029,40 @@
             },
             {
               "name": "Abdul Samad",
-              "runs": 17,
-              "balls": 20,
+              "runs": 18,
+              "balls": 22,
               "fours": 2,
               "sixes": 0,
-              "sr": 85,
-              "dismissal": "batting"
+              "sr": 81.82,
+              "dismissal": "c Glenn Phillips b Ashok Sharma"
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 5,
-              "balls": 5,
+              "runs": 7,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 87.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "George Linde",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 16,
+              "runs": 19,
               "wickets": 1,
-              "economy": 4.57
+              "economy": 4.75
             },
             {
               "name": "Kagiso Rabada",
@@ -7065,11 +7074,11 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
               "runs": 13,
-              "wickets": 0,
-              "economy": 6.5
+              "wickets": 1,
+              "economy": 5.57
             },
             {
               "name": "Prasidh Krishna",
@@ -7122,10 +7131,10 @@
           "total": 18
         },
         "Abdul Samad": {
-          "batting": 14,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 15
         },
         "Shubman Gill": {
           "batting": 0,
@@ -7154,8 +7163,8 @@
         "Glenn Phillips": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Rahul Tewatia": {
           "batting": 0,
@@ -7618,8 +7627,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1332,
-      "top11Points": 1308,
+      "totalPointsAll": 1333,
+      "top11Points": 1309,
       "players": [
         {
           "name": "Shubman Gill",
@@ -7690,12 +7699,12 @@
         {
           "name": "Abdul Samad",
           "role": "All-Rounder",
-          "batting": 75,
+          "batting": 76,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 83,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -7883,8 +7892,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1276,
-      "top11Points": 1213,
+      "totalPointsAll": 1284,
+      "top11Points": 1221,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -7935,10 +7944,10 @@
           "role": "All-Rounder",
           "batting": 48,
           "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 80,
+          "fielding": 40,
+          "rawPoints": 88,
           "multiplier": 1,
-          "effectivePoints": 80,
+          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
