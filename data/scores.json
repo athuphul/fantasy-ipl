@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T12:44:56.039Z",
+  "lastUpdated": "2026-04-12T12:54:54.160Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527692",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 74,
+        "r": 89,
         "w": 1,
-        "o": 8.2
+        "o": 10.4
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Sai Sudharsan": {
         "batting": 18,
@@ -82,16 +82,16 @@
         "total": 18
       },
       "Shubman Gill": {
-        "batting": 51,
+        "batting": 57,
         "bowling": 0,
         "fielding": 16,
-        "total": 67
+        "total": 73
       },
       "Jos Buttler": {
-        "batting": 15,
+        "batting": 26,
         "bowling": 0,
         "fielding": 8,
-        "total": 23
+        "total": 34
       },
       "Washington Sundar": {
         "batting": 0,
@@ -150,24 +150,24 @@
       "top11Points": 2062
     },
     {
+      "team": "Ritik",
+      "totalPointsAll": 1630,
+      "top11Points": 1630
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 1617,
       "top11Points": 1627
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 1613,
-      "top11Points": 1613
-    },
-    {
       "team": "Ali",
-      "totalPointsAll": 1600,
-      "top11Points": 1600
+      "totalPointsAll": 1620,
+      "top11Points": 1620
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1435,
-      "top11Points": 1411
+      "totalPointsAll": 1447,
+      "top11Points": 1423
     },
     {
       "team": "Aakash",
@@ -7006,9 +7006,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 74,
+          "r": 89,
           "w": 1,
-          "o": 8.2
+          "o": 10.4
         }
       ],
       "scorecard": [
@@ -7154,9 +7154,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 74,
+          "runs": 89,
           "wickets": 1,
-          "overs": 8.2,
+          "overs": 10.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -7169,20 +7169,20 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 39,
-              "balls": 24,
-              "fours": 5,
+              "runs": 49,
+              "balls": 33,
+              "fours": 6,
               "sixes": 1,
-              "sr": 162.5,
+              "sr": 148.48,
               "dismissal": "batting"
             },
             {
               "name": "Jos Buttler",
-              "runs": 13,
-              "balls": 8,
-              "fours": 2,
+              "runs": 22,
+              "balls": 16,
+              "fours": 4,
               "sixes": 0,
-              "sr": 162.5,
+              "sr": 137.5,
               "dismissal": "batting"
             }
           ],
@@ -7205,19 +7205,27 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 1.4,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 10,
+              "runs": 13,
               "wickets": 1,
-              "economy": 6
+              "economy": 5.2
             },
             {
               "name": "George Linde",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 0,
+              "economy": 10.5
+            },
+            {
+              "name": "Avesh Khan",
               "overs": 1,
               "maidens": 0,
-              "runs": 12,
+              "runs": 8,
               "wickets": 0,
-              "economy": 12
+              "economy": 8
             }
           ]
         }
@@ -7273,9 +7281,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Sai Sudharsan": {
           "batting": 18,
@@ -7284,16 +7292,16 @@
           "total": 18
         },
         "Shubman Gill": {
-          "batting": 51,
+          "batting": 57,
           "bowling": 0,
           "fielding": 16,
-          "total": 67
+          "total": 73
         },
         "Jos Buttler": {
-          "batting": 15,
+          "batting": 26,
           "bowling": 0,
           "fielding": 8,
-          "total": 23
+          "total": 34
         },
         "Washington Sundar": {
           "batting": 0,
@@ -7636,8 +7644,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1600,
-      "top11Points": 1600,
+      "totalPointsAll": 1620,
+      "top11Points": 1620,
       "players": [
         {
           "name": "KL Rahul",
@@ -7706,6 +7714,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 102,
+          "fielding": 8,
+          "rawPoints": 110,
+          "multiplier": 1,
+          "effectivePoints": 110,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 91,
@@ -7714,17 +7733,6 @@
           "rawPoints": 91,
           "multiplier": 1,
           "effectivePoints": 91,
-          "countsInTop11": true
-        },
-        {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 82,
-          "fielding": 8,
-          "rawPoints": 90,
-          "multiplier": 1,
-          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -7774,18 +7782,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1435,
-      "top11Points": 1411,
+      "totalPointsAll": 1447,
+      "top11Points": 1423,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 195,
+          "batting": 201,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 235,
+          "rawPoints": 241,
           "multiplier": 2,
-          "effectivePoints": 470,
+          "effectivePoints": 482,
           "countsInTop11": true
         },
         {
@@ -8199,18 +8207,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1613,
-      "top11Points": 1613,
+      "totalPointsAll": 1630,
+      "top11Points": 1630,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 186,
+          "batting": 197,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 228,
+          "rawPoints": 239,
           "multiplier": 1.5,
-          "effectivePoints": 342,
+          "effectivePoints": 359,
           "countsInTop11": true
         },
         {
