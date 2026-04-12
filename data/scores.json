@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T16:14:59.571Z",
+  "lastUpdated": "2026-04-12T16:24:53.231Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Wankhede Stadium, Mumbai",
     "score": [
+      {
+        "inning": "Mumbai Indians",
+        "r": 11,
+        "w": 0,
+        "o": 1.1
+      },
       {
         "inning": "Royal Challengers Bengaluru",
         "r": 240,
@@ -16,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Suryakumar Yadav": {
         "batting": 0,
@@ -104,6 +110,30 @@
         "bowling": 0,
         "fielding": 0,
         "total": 2
+      },
+      "Devdutt Padikkal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Krunal Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Suyash Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -130,8 +160,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1520,
-      "top11Points": 1504
+      "totalPointsAll": 1522,
+      "top11Points": 1506
     },
     {
       "team": "Ashwin",
@@ -7352,6 +7382,12 @@
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
+          "inning": "Mumbai Indians",
+          "r": 11,
+          "w": 0,
+          "o": 1.1
+        },
+        {
           "inning": "Royal Challengers Bengaluru",
           "r": 240,
           "w": 4,
@@ -7470,14 +7506,58 @@
               "economy": 16
             }
           ]
+        },
+        {
+          "innings": "Mumbai Indians",
+          "runs": 11,
+          "wickets": 0,
+          "overs": 1.1,
+          "batting": [
+            {
+              "name": "Ryan Rickelton",
+              "runs": 10,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rohit Sharma",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jacob Duffy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Suryakumar Yadav": {
           "batting": 0,
@@ -7562,6 +7642,30 @@
           "bowling": 0,
           "fielding": 0,
           "total": 2
+        },
+        "Devdutt Padikkal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Krunal Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Suyash Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -8546,8 +8650,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1520,
-      "top11Points": 1504,
+      "totalPointsAll": 1522,
+      "top11Points": 1506,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -8574,12 +8678,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 168,
+          "batting": 169,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 168,
+          "rawPoints": 169,
           "multiplier": 1.5,
-          "effectivePoints": 252,
+          "effectivePoints": 254,
           "countsInTop11": true
         },
         {
