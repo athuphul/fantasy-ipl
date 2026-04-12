@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T15:55:01.037Z",
+  "lastUpdated": "2026-04-12T16:04:55.929Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 223,
-        "w": 3,
-        "o": 18.3
+        "r": 240,
+        "w": 4,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -53,15 +53,15 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
       },
       "Trent Boult": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 15,
         "fielding": 0,
-        "total": -10
+        "total": 15
       },
       "Mayank Markande": {
         "batting": 0,
@@ -88,16 +88,22 @@
         "total": 92
       },
       "Tim David": {
-        "batting": 33,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 33
+        "total": 57
       },
       "Jitesh Sharma": {
         "batting": 11,
         "bowling": 0,
         "fielding": 0,
         "total": 11
+      },
+      "Romario Shepherd": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -109,8 +115,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1733,
-      "top11Points": 1733
+      "totalPointsAll": 1728,
+      "top11Points": 1728
     },
     {
       "team": "Athu",
@@ -119,18 +125,18 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1638,
-      "top11Points": 1638
+      "totalPointsAll": 1662,
+      "top11Points": 1662
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1495,
+      "totalPointsAll": 1520,
       "top11Points": 1504
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1489,
-      "top11Points": 1465
+      "totalPointsAll": 1491,
+      "top11Points": 1467
     },
     {
       "team": "Aakash",
@@ -7347,17 +7353,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 223,
-          "w": 3,
-          "o": 18.3
+          "r": 240,
+          "w": 4,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 223,
-          "wickets": 3,
-          "overs": 18.3,
+          "runs": 240,
+          "wickets": 4,
+          "overs": 20,
           "batting": [
             {
               "name": "Phil Salt",
@@ -7388,31 +7394,40 @@
             },
             {
               "name": "Tim David",
-              "runs": 19,
-              "balls": 10,
+              "runs": 34,
+              "balls": 16,
               "fours": 2,
-              "sixes": 1,
-              "sr": 190,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 212.5,
+              "dismissal": "not out"
             },
             {
               "name": "Jitesh Sharma",
               "runs": 10,
-              "balls": 8,
+              "balls": 9,
               "fours": 1,
               "sixes": 0,
-              "sr": 125,
-              "dismissal": "batting"
+              "sr": 111.11,
+              "dismissal": "lbw b Trent Boult"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Trent Boult",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 40,
-              "wickets": 0,
-              "economy": 13.33
+              "runs": 50,
+              "wickets": 1,
+              "economy": 12.5
             },
             {
               "name": "Hardik Pandya",
@@ -7424,11 +7439,11 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 35,
               "wickets": 0,
-              "economy": 8
+              "economy": 8.75
             },
             {
               "name": "Mitchell Santner",
@@ -7496,15 +7511,15 @@
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
         },
         "Trent Boult": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 15,
           "fielding": 0,
-          "total": -10
+          "total": 15
         },
         "Mayank Markande": {
           "batting": 0,
@@ -7531,16 +7546,22 @@
           "total": 92
         },
         "Tim David": {
-          "batting": 33,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 33
+          "total": 57
         },
         "Jitesh Sharma": {
           "batting": 11,
           "bowling": 0,
           "fielding": 0,
           "total": 11
+        },
+        "Romario Shepherd": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -7835,8 +7856,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1638,
-      "top11Points": 1638,
+      "totalPointsAll": 1662,
+      "top11Points": 1662,
       "players": [
         {
           "name": "KL Rahul",
@@ -7874,12 +7895,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 186,
+          "batting": 210,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 186,
+          "rawPoints": 210,
           "multiplier": 1,
-          "effectivePoints": 186,
+          "effectivePoints": 210,
           "countsInTop11": true
         },
         {
@@ -7973,8 +7994,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1489,
-      "top11Points": 1465,
+      "totalPointsAll": 1491,
+      "top11Points": 1467,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8023,12 +8044,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 41,
+          "batting": 43,
           "bowling": 75,
           "fielding": 0,
-          "rawPoints": 116,
+          "rawPoints": 118,
           "multiplier": 1,
-          "effectivePoints": 116,
+          "effectivePoints": 118,
           "countsInTop11": true
         },
         {
@@ -8398,8 +8419,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1733,
-      "top11Points": 1733,
+      "totalPointsAll": 1728,
+      "top11Points": 1728,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8490,17 +8511,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": 20,
-          "fielding": 10,
-          "rawPoints": 36,
-          "multiplier": 1,
-          "effectivePoints": 36,
-          "countsInTop11": true
-        },
-        {
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
@@ -8509,6 +8519,17 @@
           "rawPoints": 35,
           "multiplier": 1,
           "effectivePoints": 35,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": 15,
+          "fielding": 10,
+          "rawPoints": 31,
+          "multiplier": 1,
+          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -8525,7 +8546,7 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1495,
+      "totalPointsAll": 1520,
       "top11Points": 1504,
       "players": [
         {
@@ -8642,11 +8663,11 @@
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": -10,
+          "bowling": 15,
           "fielding": 0,
-          "rawPoints": -9,
+          "rawPoints": 16,
           "multiplier": 1,
-          "effectivePoints": -9,
+          "effectivePoints": 16,
           "countsInTop11": false
         },
         {
