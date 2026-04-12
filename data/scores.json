@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T17:34:55.031Z",
+  "lastUpdated": "2026-04-12T17:44:56.483Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1527693",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 138,
-        "w": 3,
-        "o": 14
+        "r": 147,
+        "w": 4,
+        "o": 15
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -40,10 +40,10 @@
         "total": 9
       },
       "Hardik Pandya": {
-        "batting": 51,
+        "batting": 58,
         "bowling": 25,
         "fielding": 8,
-        "total": 84
+        "total": 91
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -108,8 +108,8 @@
       "Romario Shepherd": {
         "batting": 2,
         "bowling": 0,
-        "fielding": 0,
-        "total": 2
+        "fielding": 8,
+        "total": 10
       },
       "Devdutt Padikkal": {
         "batting": 0,
@@ -145,8 +145,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1803,
-      "top11Points": 1813
+      "totalPointsAll": 1810,
+      "top11Points": 1820
     },
     {
       "team": "Ritik",
@@ -165,8 +165,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1491,
-      "top11Points": 1467
+      "totalPointsAll": 1499,
+      "top11Points": 1475
     },
     {
       "team": "Aakash",
@@ -7383,9 +7383,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 138,
-          "w": 3,
-          "o": 14
+          "r": 147,
+          "w": 4,
+          "o": 15
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -7509,9 +7509,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 138,
-          "wickets": 3,
-          "overs": 14,
+          "runs": 147,
+          "wickets": 4,
+          "overs": 15,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -7551,31 +7551,40 @@
             },
             {
               "name": "Hardik Pandya",
-              "runs": 34,
-              "balls": 18,
-              "fours": 5,
+              "runs": 40,
+              "balls": 22,
+              "fours": 6,
               "sixes": 1,
-              "sr": 188.89,
-              "dismissal": "batting"
+              "sr": 181.82,
+              "dismissal": "c Romario Shepherd b Jacob Duffy"
             },
             {
               "name": "Sherfane Rutherford",
-              "runs": 10,
-              "balls": 6,
+              "runs": 11,
+              "balls": 7,
               "fours": 0,
               "sixes": 1,
-              "sr": 166.67,
+              "sr": 157.14,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jacob Duffy",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 28,
-              "wickets": 0,
-              "economy": 14
+              "runs": 37,
+              "wickets": 1,
+              "economy": 12.33
             },
             {
               "name": "Bhuvneshwar Kumar",
@@ -7632,10 +7641,10 @@
           "total": 9
         },
         "Hardik Pandya": {
-          "batting": 51,
+          "batting": 58,
           "bowling": 25,
           "fielding": 8,
-          "total": 84
+          "total": 91
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -7700,8 +7709,8 @@
         "Romario Shepherd": {
           "batting": 2,
           "bowling": 0,
-          "fielding": 0,
-          "total": 2
+          "fielding": 8,
+          "total": 10
         },
         "Devdutt Padikkal": {
           "batting": 0,
@@ -7733,8 +7742,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1803,
-      "top11Points": 1813,
+      "totalPointsAll": 1810,
+      "top11Points": 1820,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -7805,12 +7814,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 88,
+          "batting": 95,
           "bowling": 40,
           "fielding": 16,
-          "rawPoints": 144,
+          "rawPoints": 151,
           "multiplier": 1,
-          "effectivePoints": 144,
+          "effectivePoints": 151,
           "countsInTop11": true
         },
         {
@@ -8158,8 +8167,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1491,
-      "top11Points": 1467,
+      "totalPointsAll": 1499,
+      "top11Points": 1475,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8195,6 +8204,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Romario Shepherd",
+          "role": "All-Rounder",
+          "batting": 43,
+          "bowling": 75,
+          "fielding": 8,
+          "rawPoints": 126,
+          "multiplier": 1,
+          "effectivePoints": 126,
+          "countsInTop11": true
+        },
+        {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 16,
@@ -8203,17 +8223,6 @@
           "rawPoints": 81,
           "multiplier": 1.5,
           "effectivePoints": 122,
-          "countsInTop11": true
-        },
-        {
-          "name": "Romario Shepherd",
-          "role": "All-Rounder",
-          "batting": 43,
-          "bowling": 75,
-          "fielding": 0,
-          "rawPoints": 118,
-          "multiplier": 1,
-          "effectivePoints": 118,
           "countsInTop11": true
         },
         {
