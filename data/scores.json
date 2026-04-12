@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-04-12T13:55:04.397Z",
+  "lastUpdated": "2026-04-12T14:04:54.257Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1527693",
+    "name": "Mumbai Indians v Royal Challengers Bengaluru",
+    "status": "Live",
+    "venue": "Wankhede Stadium, Mumbai",
+    "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 12,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Rohit Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Suryakumar Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tilak Varma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Hardik Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mitchell Santner": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shardul Thakur": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Trent Boult": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mayank Markande": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Phil Salt": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
+      },
+      "Virat Kohli": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -35,13 +116,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1307,
-      "top11Points": 1306
+      "totalPointsAll": 1314,
+      "top11Points": 1313
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1273,
-      "top11Points": 1273
+      "totalPointsAll": 1282,
+      "top11Points": 1282
     },
     {
       "team": "Manav",
@@ -7238,6 +7319,128 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1527693",
+      "name": "Mumbai Indians v Royal Challengers Bengaluru",
+      "date": "2026-04-12",
+      "status": "Live",
+      "venue": "Wankhede Stadium, Mumbai",
+      "score": [
+        {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 12,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 12,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Phil Salt",
+              "runs": 6,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 7,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 233.33,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Trent Boult",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Rohit Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Suryakumar Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tilak Varma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Hardik Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mitchell Santner": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shardul Thakur": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Trent Boult": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mayank Markande": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Phil Salt": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
+        "Virat Kohli": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -7805,8 +8008,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1273,
-      "top11Points": 1273,
+      "totalPointsAll": 1282,
+      "top11Points": 1282,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -7833,12 +8036,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 195,
+          "batting": 204,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 219,
+          "rawPoints": 228,
           "multiplier": 1,
-          "effectivePoints": 219,
+          "effectivePoints": 228,
           "countsInTop11": true
         },
         {
@@ -8219,8 +8422,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1307,
-      "top11Points": 1306,
+      "totalPointsAll": 1314,
+      "top11Points": 1313,
       "players": [
         {
           "name": "Travis Head",
@@ -8269,12 +8472,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 63,
+          "batting": 70,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 95,
+          "rawPoints": 102,
           "multiplier": 1,
-          "effectivePoints": 95,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
