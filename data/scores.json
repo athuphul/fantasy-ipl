@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T17:34:56.528Z",
+  "lastUpdated": "2026-04-13T17:44:55.501Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 138,
-        "w": 7,
-        "o": 16.3
+        "r": 157,
+        "w": 9,
+        "o": 18.2
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Ishan Kishan": {
         "batting": 136,
         "bowling": 0,
-        "fielding": 0,
-        "total": 136
+        "fielding": 8,
+        "total": 144
       },
       "Heinrich Klaasen": {
         "batting": 52,
@@ -88,28 +88,28 @@
         "total": 50
       },
       "Jofra Archer": {
-        "batting": 1,
+        "batting": 2,
         "bowling": 50,
         "fielding": 0,
-        "total": 51
+        "total": 52
       },
       "Tushar Deshpande": {
-        "batting": 10,
+        "batting": 30,
         "bowling": 15,
         "fielding": 5,
-        "total": 30
+        "total": 50
+      },
+      "Ravi Bishnoi": {
+        "batting": -5,
+        "bowling": -5,
+        "fielding": 8,
+        "total": -2
       },
       "Sandeep Sharma": {
         "batting": 0,
         "bowling": 15,
         "fielding": 0,
         "total": 15
-      },
-      "Ravi Bishnoi": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 8,
-        "total": 3
       }
     }
   },
@@ -121,13 +121,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1955,
-      "top11Points": 1955
+      "totalPointsAll": 1963,
+      "top11Points": 1963
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1865,
-      "top11Points": 1875
+      "totalPointsAll": 1860,
+      "top11Points": 1870
     },
     {
       "team": "Ali",
@@ -141,13 +141,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1529,
-      "top11Points": 1505
+      "totalPointsAll": 1549,
+      "top11Points": 1525
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1483,
-      "top11Points": 1497
+      "totalPointsAll": 1484,
+      "top11Points": 1498
     },
     {
       "team": "Kishan",
@@ -7747,9 +7747,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 138,
-          "w": 7,
-          "o": 16.3
+          "r": 157,
+          "w": 9,
+          "o": 18.2
         }
       ],
       "scorecard": [
@@ -7885,9 +7885,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 138,
-          "wickets": 7,
-          "overs": 16.3,
+          "runs": 157,
+          "wickets": 9,
+          "overs": 18.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -7954,47 +7954,65 @@
             },
             {
               "name": "Jofra Archer",
-              "runs": 1,
-              "balls": 2,
+              "runs": 2,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
-              "dismissal": "batting"
+              "sr": 40,
+              "dismissal": "c Praful Hinge b Sakib Hussain"
             },
             {
               "name": "Tushar Deshpande",
-              "runs": 8,
-              "balls": 3,
+              "runs": 24,
+              "balls": 8,
               "fours": 0,
-              "sixes": 1,
-              "sr": 266.67,
+              "sixes": 3,
+              "sr": 300,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ravi Bishnoi",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Ishan Kishan b Sakib Hussain"
+            },
+            {
+              "name": "Nandre Burger",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 34,
+              "wickets": 4,
+              "economy": 8.5
+            },
+            {
+              "name": "Sakib Hussain",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 24,
               "wickets": 4,
               "economy": 6
             },
             {
-              "name": "Sakib Hussain",
-              "overs": 3.1,
-              "maidens": 0,
-              "runs": 21,
-              "wickets": 2,
-              "economy": 6.63
-            },
-            {
               "name": "Eshan Malinga",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 28,
+              "runs": 29,
               "wickets": 1,
-              "economy": 9.33
+              "economy": 8.7
             },
             {
               "name": "Shivang Kumar",
@@ -8039,8 +8057,8 @@
         "Ishan Kishan": {
           "batting": 136,
           "bowling": 0,
-          "fielding": 0,
-          "total": 136
+          "fielding": 8,
+          "total": 144
         },
         "Heinrich Klaasen": {
           "batting": 52,
@@ -8091,28 +8109,28 @@
           "total": 50
         },
         "Jofra Archer": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 50,
           "fielding": 0,
-          "total": 51
+          "total": 52
         },
         "Tushar Deshpande": {
-          "batting": 10,
+          "batting": 30,
           "bowling": 15,
           "fielding": 5,
-          "total": 30
+          "total": 50
+        },
+        "Ravi Bishnoi": {
+          "batting": -5,
+          "bowling": -5,
+          "fielding": 8,
+          "total": -2
         },
         "Sandeep Sharma": {
           "batting": 0,
           "bowling": 15,
           "fielding": 0,
           "total": 15
-        },
-        "Ravi Bishnoi": {
-          "batting": 0,
-          "bowling": -5,
-          "fielding": 8,
-          "total": 3
         }
       },
       "isComplete": false
@@ -8120,8 +8138,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1865,
-      "top11Points": 1875,
+      "totalPointsAll": 1860,
+      "top11Points": 1870,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8148,12 +8166,12 @@
         {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
-          "batting": 0,
+          "batting": -5,
           "bowling": 250,
           "fielding": 24,
-          "rawPoints": 274,
+          "rawPoints": 269,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 269,
           "countsInTop11": true
         },
         {
@@ -8269,8 +8287,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1483,
-      "top11Points": 1497,
+      "totalPointsAll": 1484,
+      "top11Points": 1498,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -8297,12 +8315,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 2,
+          "batting": 3,
           "bowling": 190,
           "fielding": 34,
-          "rawPoints": 226,
+          "rawPoints": 227,
           "multiplier": 1,
-          "effectivePoints": 226,
+          "effectivePoints": 227,
           "countsInTop11": true
         },
         {
@@ -8545,8 +8563,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1529,
-      "top11Points": 1505,
+      "totalPointsAll": 1549,
+      "top11Points": 1525,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8615,6 +8633,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 30,
+          "bowling": 55,
+          "fielding": 13,
+          "rawPoints": 98,
+          "multiplier": 1,
+          "effectivePoints": 98,
+          "countsInTop11": true
+        },
+        {
           "name": "Abdul Samad",
           "role": "All-Rounder",
           "batting": 76,
@@ -8623,17 +8652,6 @@
           "rawPoints": 84,
           "multiplier": 1,
           "effectivePoints": 84,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 10,
-          "bowling": 55,
-          "fielding": 13,
-          "rawPoints": 78,
-          "multiplier": 1,
-          "effectivePoints": 78,
           "countsInTop11": true
         },
         {
@@ -8970,8 +8988,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1955,
-      "top11Points": 1955,
+      "totalPointsAll": 1963,
+      "top11Points": 1963,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8989,10 +9007,10 @@
           "role": "Wicket Keeper",
           "batting": 314,
           "bowling": 0,
-          "fielding": 36,
-          "rawPoints": 350,
+          "fielding": 44,
+          "rawPoints": 358,
           "multiplier": 1,
-          "effectivePoints": 350,
+          "effectivePoints": 358,
           "countsInTop11": true
         },
         {
