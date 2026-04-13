@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T16:24:55.685Z",
+  "lastUpdated": "2026-04-13T16:35:06.688Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 11,
+        "r": 33,
         "w": 5,
-        "o": 3.3
+        "o": 5.2
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": 38
       },
       "Ravindra Jadeja": {
-        "batting": 3,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 13
       },
       "Jofra Archer": {
         "batting": 0,
@@ -150,14 +150,14 @@
       "top11Points": 1495
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 1457,
+      "team": "Kishan",
+      "totalPointsAll": 1384,
       "top11Points": 1384
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 1364,
-      "top11Points": 1364
+      "team": "Manav",
+      "totalPointsAll": 1457,
+      "top11Points": 1384
     }
   ],
   "matchHistory": [
@@ -7747,9 +7747,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 11,
+          "r": 33,
           "w": 5,
-          "o": 3.3
+          "o": 5.2
         }
       ],
       "scorecard": [
@@ -7885,9 +7885,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 11,
+          "runs": 33,
           "wickets": 5,
-          "overs": 3.3,
+          "overs": 5.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -7936,39 +7936,47 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 3,
-              "balls": 3,
-              "fours": 0,
+              "runs": 11,
+              "balls": 6,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 183.33,
               "dismissal": "batting"
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 13,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 130,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 6,
+              "runs": 18,
               "wickets": 4,
-              "economy": 3
+              "economy": 6
             },
             {
               "name": "Sakib Hussain",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 14,
               "wickets": 1,
-              "economy": 3.33
+              "economy": 7
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -8035,10 +8043,10 @@
           "total": 38
         },
         "Ravindra Jadeja": {
-          "batting": 3,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 13
         },
         "Jofra Archer": {
           "batting": 0,
@@ -8633,18 +8641,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1364,
-      "top11Points": 1364,
+      "totalPointsAll": 1384,
+      "top11Points": 1384,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 31,
+          "batting": 41,
           "bowling": 97,
           "fielding": 18,
-          "rawPoints": 146,
+          "rawPoints": 156,
           "multiplier": 2,
-          "effectivePoints": 292,
+          "effectivePoints": 312,
           "countsInTop11": true
         },
         {
