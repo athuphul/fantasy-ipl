@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T17:25:01.408Z",
+  "lastUpdated": "2026-04-13T17:34:56.528Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 127,
-        "w": 6,
-        "o": 15
+        "r": 138,
+        "w": 7,
+        "o": 16.3
       }
     ],
     "playerScores": {
@@ -82,16 +82,22 @@
         "total": 38
       },
       "Ravindra Jadeja": {
-        "batting": 49,
+        "batting": 50,
         "bowling": 0,
         "fielding": 0,
-        "total": 49
+        "total": 50
       },
       "Jofra Archer": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 50,
         "fielding": 0,
-        "total": 50
+        "total": 51
+      },
+      "Tushar Deshpande": {
+        "batting": 10,
+        "bowling": 15,
+        "fielding": 5,
+        "total": 30
       },
       "Sandeep Sharma": {
         "batting": 0,
@@ -104,12 +110,6 @@
         "bowling": -5,
         "fielding": 8,
         "total": 3
-      },
-      "Tushar Deshpande": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 5,
-        "total": 20
       }
     }
   },
@@ -140,19 +140,19 @@
       "top11Points": 1584
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 1482,
-      "top11Points": 1496
+      "team": "Ashwin",
+      "totalPointsAll": 1529,
+      "top11Points": 1505
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 1519,
-      "top11Points": 1495
+      "team": "Aakash",
+      "totalPointsAll": 1483,
+      "top11Points": 1497
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1456,
-      "top11Points": 1456
+      "totalPointsAll": 1458,
+      "top11Points": 1458
     },
     {
       "team": "Manav",
@@ -7747,9 +7747,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 127,
-          "w": 6,
-          "o": 15
+          "r": 138,
+          "w": 7,
+          "o": 16.3
         }
       ],
       "scorecard": [
@@ -7885,9 +7885,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 127,
-          "wickets": 6,
-          "overs": 15,
+          "runs": 138,
+          "wickets": 7,
+          "overs": 16.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -7936,12 +7936,12 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 44,
-              "balls": 30,
+              "runs": 45,
+              "balls": 32,
               "fours": 5,
               "sixes": 0,
-              "sr": 146.67,
-              "dismissal": "batting"
+              "sr": 140.62,
+              "dismissal": "c Salil Arora b Eshan Malinga"
             },
             {
               "name": "Donovan Ferreira",
@@ -7951,6 +7951,24 @@
               "sixes": 3,
               "sr": 156.82,
               "dismissal": "b Sakib Hussain"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tushar Deshpande",
+              "runs": 8,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 266.67,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -7964,19 +7982,19 @@
             },
             {
               "name": "Sakib Hussain",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
               "runs": 21,
               "wickets": 2,
-              "economy": 7
+              "economy": 6.63
             },
             {
               "name": "Eshan Malinga",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 0,
-              "economy": 9
+              "runs": 28,
+              "wickets": 1,
+              "economy": 9.33
             },
             {
               "name": "Shivang Kumar",
@@ -8067,16 +8085,22 @@
           "total": 38
         },
         "Ravindra Jadeja": {
-          "batting": 49,
+          "batting": 50,
           "bowling": 0,
           "fielding": 0,
-          "total": 49
+          "total": 50
         },
         "Jofra Archer": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 50,
           "fielding": 0,
-          "total": 50
+          "total": 51
+        },
+        "Tushar Deshpande": {
+          "batting": 10,
+          "bowling": 15,
+          "fielding": 5,
+          "total": 30
         },
         "Sandeep Sharma": {
           "batting": 0,
@@ -8089,12 +8113,6 @@
           "bowling": -5,
           "fielding": 8,
           "total": 3
-        },
-        "Tushar Deshpande": {
-          "batting": 0,
-          "bowling": 15,
-          "fielding": 5,
-          "total": 20
         }
       },
       "isComplete": false
@@ -8251,8 +8269,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1482,
-      "top11Points": 1496,
+      "totalPointsAll": 1483,
+      "top11Points": 1497,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -8277,6 +8295,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 2,
+          "bowling": 190,
+          "fielding": 34,
+          "rawPoints": 226,
+          "multiplier": 1,
+          "effectivePoints": 226,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 226,
@@ -8285,17 +8314,6 @@
           "rawPoints": 226,
           "multiplier": 1,
           "effectivePoints": 226,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 190,
-          "fielding": 34,
-          "rawPoints": 225,
-          "multiplier": 1,
-          "effectivePoints": 225,
           "countsInTop11": true
         },
         {
@@ -8527,8 +8545,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1519,
-      "top11Points": 1495,
+      "totalPointsAll": 1529,
+      "top11Points": 1505,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8608,6 +8626,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 10,
+          "bowling": 55,
+          "fielding": 13,
+          "rawPoints": 78,
+          "multiplier": 1,
+          "effectivePoints": 78,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 24,
@@ -8616,17 +8645,6 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 55,
-          "fielding": 13,
-          "rawPoints": 68,
-          "multiplier": 1,
-          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -8665,18 +8683,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1456,
-      "top11Points": 1456,
+      "totalPointsAll": 1458,
+      "top11Points": 1458,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 77,
+          "batting": 78,
           "bowling": 97,
           "fielding": 18,
-          "rawPoints": 192,
+          "rawPoints": 193,
           "multiplier": 2,
-          "effectivePoints": 384,
+          "effectivePoints": 386,
           "countsInTop11": true
         },
         {
