@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T15:44:56.792Z",
+  "lastUpdated": "2026-04-13T15:54:58.026Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 207,
-        "w": 5,
-        "o": 19.2
+        "r": 216,
+        "w": 6,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -45,6 +45,12 @@
         "fielding": 0,
         "total": 51
       },
+      "Harsh Dubey": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "Yashasvi Jaiswal": {
         "batting": 0,
         "bowling": 0,
@@ -54,8 +60,8 @@
       "Dhruv Jurel": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 18,
+        "total": 18
       },
       "Riyan Parag": {
         "batting": 0,
@@ -89,9 +95,9 @@
       },
       "Tushar Deshpande": {
         "batting": 0,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 10
+        "bowling": 15,
+        "fielding": 5,
+        "total": 20
       }
     }
   },
@@ -128,13 +134,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1509,
-      "top11Points": 1485
+      "totalPointsAll": 1519,
+      "top11Points": 1495
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1436,
-      "top11Points": 1363
+      "totalPointsAll": 1446,
+      "top11Points": 1373
     },
     {
       "team": "Kishan",
@@ -7723,17 +7729,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 207,
-          "w": 5,
-          "o": 19.2
+          "r": 216,
+          "w": 6,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 207,
-          "wickets": 5,
-          "overs": 19.2,
+          "runs": 216,
+          "wickets": 6,
+          "overs": 20,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -7782,21 +7788,30 @@
             },
             {
               "name": "Salil Arora",
-              "runs": 18,
-              "balls": 11,
+              "runs": 24,
+              "balls": 13,
               "fours": 2,
-              "sixes": 1,
-              "sr": 163.64,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 184.62,
+              "dismissal": "not out"
             },
             {
               "name": "Aniket Verma",
-              "runs": 5,
-              "balls": 2,
+              "runs": 6,
+              "balls": 5,
               "fours": 1,
               "sixes": 0,
-              "sr": 250,
-              "dismissal": "batting"
+              "sr": 120,
+              "dismissal": "run out (Dhruv Jurel/Tushar Deshpande)"
+            },
+            {
+              "name": "Harsh Dubey",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -7826,11 +7841,11 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 46,
+              "runs": 55,
               "wickets": 1,
-              "economy": 14.53
+              "economy": 13.75
             },
             {
               "name": "Riyan Parag",
@@ -7882,6 +7897,12 @@
           "fielding": 0,
           "total": 51
         },
+        "Harsh Dubey": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Yashasvi Jaiswal": {
           "batting": 0,
           "bowling": 0,
@@ -7891,8 +7912,8 @@
         "Dhruv Jurel": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 18,
+          "total": 18
         },
         "Riyan Parag": {
           "batting": 0,
@@ -7926,9 +7947,9 @@
         },
         "Tushar Deshpande": {
           "batting": 0,
-          "bowling": 10,
-          "fielding": 0,
-          "total": 10
+          "bowling": 15,
+          "fielding": 5,
+          "total": 20
         }
       },
       "isComplete": false
@@ -8361,8 +8382,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1509,
-      "top11Points": 1485,
+      "totalPointsAll": 1519,
+      "top11Points": 1495,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8453,22 +8474,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 55,
+          "fielding": 13,
+          "rawPoints": 68,
+          "multiplier": 1,
+          "effectivePoints": 68,
+          "countsInTop11": true
+        },
+        {
           "name": "Prashant Veer",
           "role": "All-Rounder",
           "batting": 58,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 58,
-          "multiplier": 1,
-          "effectivePoints": 58,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 50,
-          "fielding": 8,
           "rawPoints": 58,
           "multiplier": 1,
           "effectivePoints": 58,
@@ -8626,18 +8647,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1436,
-      "top11Points": 1363,
+      "totalPointsAll": 1446,
+      "top11Points": 1373,
       "players": [
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
           "batting": 249,
           "bowling": 0,
-          "fielding": 66,
-          "rawPoints": 315,
+          "fielding": 76,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 315,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
