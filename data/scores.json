@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T14:35:13.576Z",
+  "lastUpdated": "2026-04-13T14:44:56.670Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 56,
+        "r": 73,
         "w": 2,
-        "o": 7
+        "o": 9
       }
     ],
     "playerScores": {
@@ -28,16 +28,16 @@
         "total": 21
       },
       "Ishan Kishan": {
-        "batting": 50,
+        "batting": 63,
         "bowling": 0,
         "fielding": 0,
-        "total": 50
+        "total": 63
       },
       "Heinrich Klaasen": {
-        "batting": 2,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 6
       },
       "Yashasvi Jaiswal": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -96,14 +96,14 @@
       "top11Points": 2062
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 1820,
-      "top11Points": 1830
+      "team": "Ritik",
+      "totalPointsAll": 1836,
+      "top11Points": 1836
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 1828,
-      "top11Points": 1828
+      "team": "Athu",
+      "totalPointsAll": 1824,
+      "top11Points": 1834
     },
     {
       "team": "Ali",
@@ -7717,17 +7717,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 56,
+          "r": 73,
           "w": 2,
-          "o": 7
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 56,
+          "runs": 73,
           "wickets": 2,
-          "overs": 7,
+          "overs": 9,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -7749,20 +7749,20 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 37,
-              "balls": 22,
+              "runs": 48,
+              "balls": 28,
               "fours": 2,
-              "sixes": 3,
-              "sr": 168.18,
+              "sixes": 4,
+              "sr": 171.43,
               "dismissal": "batting"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 2,
-              "balls": 2,
+              "runs": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 85.71,
               "dismissal": "batting"
             }
           ],
@@ -7785,11 +7785,11 @@
             },
             {
               "name": "Sandeep Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 23,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.5
             },
             {
               "name": "Tushar Deshpande",
@@ -7809,9 +7809,9 @@
             },
             {
               "name": "Ravi Bishnoi",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 6,
               "wickets": 0,
               "economy": 6
             }
@@ -7832,16 +7832,16 @@
           "total": 21
         },
         "Ishan Kishan": {
-          "batting": 50,
+          "batting": 63,
           "bowling": 0,
           "fielding": 0,
-          "total": 50
+          "total": 63
         },
         "Heinrich Klaasen": {
-          "batting": 2,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 6
         },
         "Yashasvi Jaiswal": {
           "batting": 0,
@@ -7875,9 +7875,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -7897,8 +7897,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1820,
-      "top11Points": 1830,
+      "totalPointsAll": 1824,
+      "top11Points": 1834,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -7925,12 +7925,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 233,
+          "batting": 237,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 257,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 257,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
@@ -8747,8 +8747,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1828,
-      "top11Points": 1828,
+      "totalPointsAll": 1836,
+      "top11Points": 1836,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8764,12 +8764,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 228,
+          "batting": 241,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 264,
+          "rawPoints": 277,
           "multiplier": 1,
-          "effectivePoints": 264,
+          "effectivePoints": 277,
           "countsInTop11": true
         },
         {
@@ -8831,11 +8831,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 90,
+          "bowling": 85,
           "fielding": 16,
-          "rawPoints": 106,
+          "rawPoints": 101,
           "multiplier": 1,
-          "effectivePoints": 106,
+          "effectivePoints": 101,
           "countsInTop11": true
         },
         {
