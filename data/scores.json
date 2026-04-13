@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T16:14:59.953Z",
+  "lastUpdated": "2026-04-13T16:24:55.685Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 2,
-        "w": 4,
-        "o": 1.4
+        "r": 11,
+        "w": 5,
+        "o": 3.3
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
         "batting": -5,
         "bowling": 0,
-        "fielding": 0,
-        "total": -5
+        "fielding": 8,
+        "total": 3
       },
       "Travis Head": {
         "batting": 21,
@@ -76,16 +76,16 @@
         "total": 13
       },
       "Riyan Parag": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 25,
         "fielding": 8,
-        "total": 33
+        "total": 38
       },
       "Ravindra Jadeja": {
-        "batting": 0,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 3
       },
       "Jofra Archer": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1945,
-      "top11Points": 1945
+      "totalPointsAll": 1955,
+      "top11Points": 1955
     },
     {
       "team": "Athu",
@@ -131,8 +131,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1654,
-      "top11Points": 1654
+      "totalPointsAll": 1666,
+      "top11Points": 1666
     },
     {
       "team": "Tanay",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1358,
-      "top11Points": 1358
+      "totalPointsAll": 1364,
+      "top11Points": 1364
     }
   ],
   "matchHistory": [
@@ -7747,9 +7747,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 2,
-          "w": 4,
-          "o": 1.4
+          "r": 11,
+          "w": 5,
+          "o": 3.3
         }
       ],
       "scorecard": [
@@ -7885,9 +7885,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 2,
-          "wickets": 4,
-          "overs": 1.4,
+          "runs": 11,
+          "wickets": 5,
+          "overs": 3.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -7927,30 +7927,48 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 0,
-              "balls": 0,
+              "runs": 4,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "c Abhishek Sharma b Praful Hinge"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 3,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Donovan Ferreira",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
-              "wickets": 3,
-              "economy": 1
+              "runs": 6,
+              "wickets": 4,
+              "economy": 3
             },
             {
               "name": "Sakib Hussain",
-              "overs": 0.4,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 1,
+              "runs": 5,
               "wickets": 1,
-              "economy": 1.5
+              "economy": 3.33
             }
           ]
         }
@@ -7959,8 +7977,8 @@
         "Abhishek Sharma": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 0,
-          "total": -5
+          "fielding": 8,
+          "total": 3
         },
         "Travis Head": {
           "batting": 21,
@@ -8011,16 +8029,16 @@
           "total": 13
         },
         "Riyan Parag": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 25,
           "fielding": 8,
-          "total": 33
+          "total": 38
         },
         "Ravindra Jadeja": {
-          "batting": 0,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 3
         },
         "Jofra Archer": {
           "batting": 0,
@@ -8339,8 +8357,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1654,
-      "top11Points": 1654,
+      "totalPointsAll": 1666,
+      "top11Points": 1666,
       "players": [
         {
           "name": "KL Rahul",
@@ -8358,10 +8376,10 @@
           "role": "Opener",
           "batting": 194,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 194,
+          "fielding": 8,
+          "rawPoints": 202,
           "multiplier": 1.5,
-          "effectivePoints": 291,
+          "effectivePoints": 303,
           "countsInTop11": true
         },
         {
@@ -8615,9 +8633,20 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1358,
-      "top11Points": 1358,
+      "totalPointsAll": 1364,
+      "top11Points": 1364,
       "players": [
+        {
+          "name": "Ravindra Jadeja",
+          "role": "All-Rounder",
+          "batting": 31,
+          "bowling": 97,
+          "fielding": 18,
+          "rawPoints": 146,
+          "multiplier": 2,
+          "effectivePoints": 292,
+          "countsInTop11": true
+        },
         {
           "name": "Virat Kohli",
           "role": "Opener",
@@ -8626,17 +8655,6 @@
           "fielding": 24,
           "rawPoints": 286,
           "multiplier": 1,
-          "effectivePoints": 286,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ravindra Jadeja",
-          "role": "All-Rounder",
-          "batting": 28,
-          "bowling": 97,
-          "fielding": 18,
-          "rawPoints": 143,
-          "multiplier": 2,
           "effectivePoints": 286,
           "countsInTop11": true
         },
@@ -8902,8 +8920,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1945,
-      "top11Points": 1945,
+      "totalPointsAll": 1955,
+      "top11Points": 1955,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8930,12 +8948,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 70,
+          "batting": 75,
           "bowling": 50,
           "fielding": 8,
-          "rawPoints": 128,
+          "rawPoints": 133,
           "multiplier": 2,
-          "effectivePoints": 256,
+          "effectivePoints": 266,
           "countsInTop11": true
         },
         {
