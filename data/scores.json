@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T14:25:00.079Z",
+  "lastUpdated": "2026-04-13T14:35:13.576Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 40,
-        "w": 1,
-        "o": 4.6
+        "r": 56,
+        "w": 2,
+        "o": 7
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": -5
       },
       "Travis Head": {
-        "batting": 7,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 21
       },
       "Ishan Kishan": {
-        "batting": 42,
+        "batting": 50,
         "bowling": 0,
         "fielding": 0,
-        "total": 42
+        "total": 50
+      },
+      "Heinrich Klaasen": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Yashasvi Jaiswal": {
         "batting": 0,
@@ -47,9 +53,9 @@
       },
       "Riyan Parag": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -91,13 +97,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1818,
-      "top11Points": 1828
+      "totalPointsAll": 1820,
+      "top11Points": 1830
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1770,
-      "top11Points": 1770
+      "totalPointsAll": 1828,
+      "top11Points": 1828
     },
     {
       "team": "Ali",
@@ -106,8 +112,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1577,
-      "top11Points": 1561
+      "totalPointsAll": 1605,
+      "top11Points": 1589
     },
     {
       "team": "Aakash",
@@ -7711,17 +7717,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 40,
-          "w": 1,
-          "o": 4.6
+          "r": 56,
+          "w": 2,
+          "o": 7
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 40,
-          "wickets": 1,
-          "overs": 4.6,
+          "runs": 56,
+          "wickets": 2,
+          "overs": 7,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -7734,20 +7740,29 @@
             },
             {
               "name": "Travis Head",
-              "runs": 10,
-              "balls": 11,
-              "fours": 2,
+              "runs": 18,
+              "balls": 18,
+              "fours": 3,
               "sixes": 0,
-              "sr": 90.91,
-              "dismissal": "batting"
+              "sr": 100,
+              "dismissal": "c Donovan Ferreira b Riyan Parag"
             },
             {
               "name": "Ishan Kishan",
-              "runs": 30,
-              "balls": 18,
-              "fours": 1,
+              "runs": 37,
+              "balls": 22,
+              "fours": 2,
               "sixes": 3,
-              "sr": 166.67,
+              "sr": 168.18,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -7775,6 +7790,30 @@
               "runs": 12,
               "wickets": 0,
               "economy": 12
+            },
+            {
+              "name": "Tushar Deshpande",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Riyan Parag",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 5
+            },
+            {
+              "name": "Ravi Bishnoi",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -7787,16 +7826,22 @@
           "total": -5
         },
         "Travis Head": {
-          "batting": 7,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 21
         },
         "Ishan Kishan": {
-          "batting": 42,
+          "batting": 50,
           "bowling": 0,
           "fielding": 0,
-          "total": 42
+          "total": 50
+        },
+        "Heinrich Klaasen": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Yashasvi Jaiswal": {
           "batting": 0,
@@ -7812,9 +7857,9 @@
         },
         "Riyan Parag": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -7852,8 +7897,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1818,
-      "top11Points": 1828,
+      "totalPointsAll": 1820,
+      "top11Points": 1830,
       "players": [
         {
           "name": "Suryakumar Yadav",
@@ -7880,12 +7925,12 @@
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 231,
+          "batting": 233,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 255,
+          "rawPoints": 257,
           "multiplier": 1,
-          "effectivePoints": 255,
+          "effectivePoints": 257,
           "countsInTop11": true
         },
         {
@@ -8702,8 +8747,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1770,
-      "top11Points": 1770,
+      "totalPointsAll": 1828,
+      "top11Points": 1828,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8719,12 +8764,23 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 220,
+          "batting": 228,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 256,
+          "rawPoints": 264,
           "multiplier": 1,
-          "effectivePoints": 256,
+          "effectivePoints": 264,
+          "countsInTop11": true
+        },
+        {
+          "name": "Riyan Parag",
+          "role": "Batsman",
+          "batting": 70,
+          "bowling": 50,
+          "fielding": 0,
+          "rawPoints": 120,
+          "multiplier": 2,
+          "effectivePoints": 240,
           "countsInTop11": true
         },
         {
@@ -8747,17 +8803,6 @@
           "rawPoints": 212,
           "multiplier": 1,
           "effectivePoints": 212,
-          "countsInTop11": true
-        },
-        {
-          "name": "Riyan Parag",
-          "role": "Batsman",
-          "batting": 70,
-          "bowling": 25,
-          "fielding": 0,
-          "rawPoints": 95,
-          "multiplier": 2,
-          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
@@ -8829,8 +8874,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1577,
-      "top11Points": 1561,
+      "totalPointsAll": 1605,
+      "top11Points": 1589,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -8846,12 +8891,12 @@
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 151,
+          "batting": 165,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 151,
+          "rawPoints": 165,
           "multiplier": 2,
-          "effectivePoints": 302,
+          "effectivePoints": 330,
           "countsInTop11": true
         },
         {
