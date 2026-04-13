@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T15:24:56.891Z",
+  "lastUpdated": "2026-04-13T15:34:55.146Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529264",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 162,
+        "r": 187,
         "w": 4,
-        "o": 15.5
+        "o": 17.5
       }
     ],
     "playerScores": {
@@ -40,10 +40,10 @@
         "total": 52
       },
       "Nitish Kumar Reddy": {
-        "batting": 11,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 28
       },
       "Yashasvi Jaiswal": {
         "batting": 0,
@@ -77,9 +77,9 @@
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 15,
         "fielding": 0,
-        "total": 25
+        "total": 15
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Tushar Deshpande": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 15,
         "fielding": 0,
-        "total": 10
+        "total": 15
       }
     }
   },
@@ -103,8 +103,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1955,
-      "top11Points": 1955
+      "totalPointsAll": 1945,
+      "top11Points": 1945
     },
     {
       "team": "Athu",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1509,
-      "top11Points": 1485
+      "totalPointsAll": 1514,
+      "top11Points": 1490
     },
     {
       "team": "Aakash",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1388,
-      "top11Points": 1315
+      "totalPointsAll": 1405,
+      "top11Points": 1332
     }
   ],
   "matchHistory": [
@@ -7723,17 +7723,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 162,
+          "r": 187,
           "w": 4,
-          "o": 15.5
+          "o": 17.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 162,
+          "runs": 187,
           "wickets": 4,
-          "overs": 15.5,
+          "overs": 17.5,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -7773,11 +7773,20 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 9,
-              "balls": 6,
+              "runs": 22,
+              "balls": 9,
               "fours": 0,
-              "sixes": 1,
-              "sr": 150,
+              "sixes": 3,
+              "sr": 244.44,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Salil Arora",
+              "runs": 11,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 137.5,
               "dismissal": "batting"
             }
           ],
@@ -7792,27 +7801,27 @@
             },
             {
               "name": "Nandre Burger",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
+              "runs": 31,
               "wickets": 0,
-              "economy": 8.33
+              "economy": 7.75
             },
             {
               "name": "Sandeep Sharma",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 45,
               "wickets": 1,
-              "economy": 9.33
+              "economy": 12.27
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 40,
+              "runs": 41,
               "wickets": 1,
-              "economy": 14.12
+              "economy": 13.67
             },
             {
               "name": "Riyan Parag",
@@ -7859,10 +7868,10 @@
           "total": 52
         },
         "Nitish Kumar Reddy": {
-          "batting": 11,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 28
         },
         "Yashasvi Jaiswal": {
           "batting": 0,
@@ -7896,9 +7905,9 @@
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 15,
           "fielding": 0,
-          "total": 25
+          "total": 15
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -7908,9 +7917,9 @@
         },
         "Tushar Deshpande": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 15,
           "fielding": 0,
-          "total": 10
+          "total": 15
         }
       },
       "isComplete": false
@@ -8343,8 +8352,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1509,
-      "top11Points": 1485,
+      "totalPointsAll": 1514,
+      "top11Points": 1490,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8435,22 +8444,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 55,
+          "fielding": 8,
+          "rawPoints": 63,
+          "multiplier": 1,
+          "effectivePoints": 63,
+          "countsInTop11": true
+        },
+        {
           "name": "Prashant Veer",
           "role": "All-Rounder",
           "batting": 58,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 58,
-          "multiplier": 1,
-          "effectivePoints": 58,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 50,
-          "fielding": 8,
           "rawPoints": 58,
           "multiplier": 1,
           "effectivePoints": 58,
@@ -8608,8 +8617,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1388,
-      "top11Points": 1315,
+      "totalPointsAll": 1405,
+      "top11Points": 1332,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -8636,12 +8645,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 146,
+          "batting": 163,
           "bowling": 45,
           "fielding": 16,
-          "rawPoints": 207,
+          "rawPoints": 224,
           "multiplier": 1,
-          "effectivePoints": 207,
+          "effectivePoints": 224,
           "countsInTop11": true
         },
         {
@@ -8768,8 +8777,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1955,
-      "top11Points": 1955,
+      "totalPointsAll": 1945,
+      "top11Points": 1945,
       "players": [
         {
           "name": "Jos Buttler",
@@ -8841,11 +8850,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 115,
+          "bowling": 105,
           "fielding": 16,
-          "rawPoints": 131,
+          "rawPoints": 121,
           "multiplier": 1,
-          "effectivePoints": 131,
+          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
