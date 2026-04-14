@@ -1,12 +1,81 @@
 {
-  "lastUpdated": "2026-04-14T07:57:57.663Z",
+  "lastUpdated": "2026-04-14T14:04:56.307Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529265",
+    "name": "Chennai Super Kings v Kolkata Knight Riders",
+    "status": "Live",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 14,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Sanju Samson": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ajinkya Rahane": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Vaibhav Arora": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2217,
-      "top11Points": 2057
+      "totalPointsAll": 2237,
+      "top11Points": 2077
     },
     {
       "team": "Ritik",
@@ -8023,6 +8092,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529265",
+      "name": "Chennai Super Kings v Kolkata Knight Riders",
+      "date": "2026-04-14",
+      "status": "Live",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "score": [
+        {
+          "inning": "Chennai Super Kings",
+          "r": 14,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 14,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 8,
+              "balls": 2,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 400,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Vaibhav Arora",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 24
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sanju Samson": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ajinkya Rahane": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Vaibhav Arora": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -9142,18 +9321,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2217,
-      "top11Points": 2057,
+      "totalPointsAll": 2237,
+      "top11Points": 2077,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 219,
+          "batting": 229,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 219,
+          "rawPoints": 229,
           "multiplier": 2,
-          "effectivePoints": 438,
+          "effectivePoints": 458,
           "countsInTop11": true
         },
         {
