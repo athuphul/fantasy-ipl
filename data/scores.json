@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T16:54:54.362Z",
+  "lastUpdated": "2026-04-14T17:04:54.460Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 78,
-        "w": 2,
-        "o": 9.1
+        "r": 85,
+        "w": 5,
+        "o": 11
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Ruturaj Gaikwad": {
         "batting": 8,
         "bowling": 0,
-        "fielding": 0,
-        "total": 8
+        "fielding": 8,
+        "total": 16
       },
       "Ayush Mhatre": {
         "batting": 63,
@@ -42,8 +42,8 @@
       "Dewald Brevis": {
         "batting": 49,
         "bowling": 0,
-        "fielding": 0,
-        "total": 49
+        "fielding": 8,
+        "total": 57
       },
       "Sarfaraz Khan": {
         "batting": 28,
@@ -59,9 +59,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 62,
         "fielding": 0,
-        "total": 0
+        "total": 62
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -82,22 +82,22 @@
         "total": 75
       },
       "Ajinkya Rahane": {
-        "batting": 28,
+        "batting": 32,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
-      },
-      "Cameron Green": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
+        "total": 32
       },
       "Rinku Singh": {
-        "batting": 0,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 3
+      },
+      "Cameron Green": {
+        "batting": -5,
+        "bowling": -15,
+        "fielding": 0,
+        "total": -20
       },
       "Anukul Roy": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2393,
-      "top11Points": 2233
+      "totalPointsAll": 2459,
+      "top11Points": 2299
     },
     {
       "team": "Ritik",
@@ -132,13 +132,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1990,
-      "top11Points": 2000
+      "totalPointsAll": 1994,
+      "top11Points": 2004
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1726,
-      "top11Points": 1668
+      "totalPointsAll": 1734,
+      "top11Points": 1676
     },
     {
       "team": "Ali",
@@ -147,8 +147,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1585,
-      "top11Points": 1569
+      "totalPointsAll": 1580,
+      "top11Points": 1564
     },
     {
       "team": "Aakash",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1469,
-      "top11Points": 1396
+      "totalPointsAll": 1481,
+      "top11Points": 1408
     }
   ],
   "matchHistory": [
@@ -8156,9 +8156,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 78,
-          "w": 2,
-          "o": 9.1
+          "r": 85,
+          "w": 5,
+          "o": 11
         }
       ],
       "scorecard": [
@@ -8285,9 +8285,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 78,
-          "wickets": 2,
-          "overs": 9.1,
+          "runs": 85,
+          "wickets": 5,
+          "overs": 11,
           "batting": [
             {
               "name": "Finn Allen",
@@ -8309,21 +8309,39 @@
             },
             {
               "name": "Ajinkya Rahane",
-              "runs": 24,
-              "balls": 17,
+              "runs": 28,
+              "balls": 22,
               "fours": 0,
               "sixes": 2,
-              "sr": 141.18,
-              "dismissal": "batting"
+              "sr": 127.27,
+              "dismissal": "c Ruturaj Gaikwad b Noor Ahmad"
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 26,
-              "balls": 17,
+              "runs": 27,
+              "balls": 19,
               "fours": 3,
               "sixes": 1,
-              "sr": 152.94,
+              "sr": 142.11,
+              "dismissal": "c Dewald Brevis b Akeal Hosein"
+            },
+            {
+              "name": "Rinku Singh",
+              "runs": 3,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 75,
               "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Noor Ahmad"
             }
           ],
           "bowling": [
@@ -8345,19 +8363,19 @@
             },
             {
               "name": "Akeal Hosein",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 0,
-              "economy": 8.5
+              "runs": 21,
+              "wickets": 1,
+              "economy": 7
             },
             {
               "name": "Noor Ahmad",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 0,
-              "economy": 10
+              "runs": 14,
+              "wickets": 2,
+              "economy": 7
             },
             {
               "name": "Gurjapneet Singh",
@@ -8380,8 +8398,8 @@
         "Ruturaj Gaikwad": {
           "batting": 8,
           "bowling": 0,
-          "fielding": 0,
-          "total": 8
+          "fielding": 8,
+          "total": 16
         },
         "Ayush Mhatre": {
           "batting": 63,
@@ -8392,8 +8410,8 @@
         "Dewald Brevis": {
           "batting": 49,
           "bowling": 0,
-          "fielding": 0,
-          "total": 49
+          "fielding": 8,
+          "total": 57
         },
         "Sarfaraz Khan": {
           "batting": 28,
@@ -8409,9 +8427,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 62,
           "fielding": 0,
-          "total": 0
+          "total": 62
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -8432,22 +8450,22 @@
           "total": 75
         },
         "Ajinkya Rahane": {
-          "batting": 28,
+          "batting": 32,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
-        },
-        "Cameron Green": {
-          "batting": 0,
-          "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "total": 32
         },
         "Rinku Singh": {
-          "batting": 0,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 3
+        },
+        "Cameron Green": {
+          "batting": -5,
+          "bowling": -15,
+          "fielding": 0,
+          "total": -20
         },
         "Anukul Roy": {
           "batting": 0,
@@ -8473,8 +8491,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1990,
-      "top11Points": 2000,
+      "totalPointsAll": 1994,
+      "top11Points": 2004,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8523,12 +8541,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 189,
+          "batting": 193,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 197,
+          "rawPoints": 201,
           "multiplier": 1,
-          "effectivePoints": 197,
+          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
@@ -8898,8 +8916,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1726,
-      "top11Points": 1668,
+      "totalPointsAll": 1734,
+      "top11Points": 1676,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8990,6 +9008,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dewald Brevis",
+          "role": "Batsman",
+          "batting": 49,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 81,
+          "multiplier": 1,
+          "effectivePoints": 81,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 24,
@@ -8998,17 +9027,6 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dewald Brevis",
-          "role": "Batsman",
-          "batting": 49,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 73,
-          "multiplier": 1,
-          "effectivePoints": 73,
           "countsInTop11": true
         },
         {
@@ -9163,8 +9181,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1469,
-      "top11Points": 1396,
+      "totalPointsAll": 1481,
+      "top11Points": 1408,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9226,10 +9244,10 @@
           "role": "Batsman",
           "batting": 55,
           "bowling": 0,
-          "fielding": 5,
-          "rawPoints": 60,
+          "fielding": 13,
+          "rawPoints": 68,
           "multiplier": 1.5,
-          "effectivePoints": 90,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -9450,8 +9468,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1585,
-      "top11Points": 1569,
+      "totalPointsAll": 1580,
+      "top11Points": 1564,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -9509,17 +9527,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 75,
-          "bowling": -5,
-          "fielding": 8,
-          "rawPoints": 78,
-          "multiplier": 1,
-          "effectivePoints": 78,
-          "countsInTop11": true
-        },
-        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 6,
@@ -9528,6 +9535,17 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
+          "countsInTop11": true
+        },
+        {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 70,
+          "bowling": -5,
+          "fielding": 8,
+          "rawPoints": 73,
+          "multiplier": 1,
+          "effectivePoints": 73,
           "countsInTop11": true
         },
         {
@@ -9588,8 +9606,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2393,
-      "top11Points": 2233,
+      "totalPointsAll": 2459,
+      "top11Points": 2299,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9638,12 +9656,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 87,
+          "batting": 90,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 119,
+          "rawPoints": 122,
           "multiplier": 1.5,
-          "effectivePoints": 179,
+          "effectivePoints": 183,
           "countsInTop11": true
         },
         {
@@ -9691,6 +9709,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": 11,
+          "bowling": 57,
+          "fielding": 24,
+          "rawPoints": 92,
+          "multiplier": 1,
+          "effectivePoints": 92,
+          "countsInTop11": true
+        },
+        {
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 6,
@@ -9722,17 +9751,6 @@
           "multiplier": 1,
           "effectivePoints": 55,
           "countsInTop11": false
-        },
-        {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 11,
-          "bowling": -5,
-          "fielding": 24,
-          "rawPoints": 30,
-          "multiplier": 1,
-          "effectivePoints": 30,
-          "countsInTop11": true
         },
         {
           "name": "Shahrukh Khan",
