@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T15:44:54.422Z",
+  "lastUpdated": "2026-04-14T15:54:56.396Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 184,
+        "r": 192,
         "w": 5,
-        "o": 19
+        "o": 20
       }
     ],
     "playerScores": {
@@ -46,10 +46,10 @@
         "total": 28
       },
       "Shivam Dube": {
-        "batting": 8,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 14
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -98,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2379,
-      "top11Points": 2219
+      "totalPointsAll": 2385,
+      "top11Points": 2225
     },
     {
       "team": "Ritik",
@@ -8126,17 +8126,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 184,
+          "r": 192,
           "w": 5,
-          "o": 19
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 184,
+          "runs": 192,
           "wickets": 5,
-          "overs": 19,
+          "overs": 20,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -8185,21 +8185,21 @@
             },
             {
               "name": "Shivam Dube",
-              "runs": 7,
-              "balls": 8,
+              "runs": 13,
+              "balls": 12,
               "fours": 1,
               "sixes": 0,
-              "sr": 87.5,
-              "dismissal": "batting"
+              "sr": 108.33,
+              "dismissal": "not out"
             },
             {
               "name": "Jamie Overton",
-              "runs": 5,
-              "balls": 4,
+              "runs": 7,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 125,
-              "dismissal": "batting"
+              "sr": 116.67,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -8245,11 +8245,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 35,
               "wickets": 2,
-              "economy": 9
+              "economy": 8.75
             }
           ]
         }
@@ -8286,10 +8286,10 @@
           "total": 28
         },
         "Shivam Dube": {
-          "batting": 8,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 14
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -9454,8 +9454,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2379,
-      "top11Points": 2219,
+      "totalPointsAll": 2385,
+      "top11Points": 2225,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9513,6 +9513,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 140,
+          "bowling": 10,
+          "fielding": 8,
+          "rawPoints": 158,
+          "multiplier": 1,
+          "effectivePoints": 158,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": 3,
@@ -9521,17 +9532,6 @@
           "rawPoints": 158,
           "multiplier": 1,
           "effectivePoints": 158,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 134,
-          "bowling": 10,
-          "fielding": 8,
-          "rawPoints": 152,
-          "multiplier": 1,
-          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
