@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T16:04:53.600Z",
+  "lastUpdated": "2026-04-14T16:14:55.048Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -12,6 +12,12 @@
         "r": 192,
         "w": 5,
         "o": 20
+      },
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 13,
+        "w": 1,
+        "o": 1.4
       }
     ],
     "playerScores": {
@@ -48,8 +54,32 @@
       "Shivam Dube": {
         "batting": 14,
         "bowling": 0,
+        "fielding": 8,
+        "total": 22
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 0
+      },
+      "Khaleel Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Finn Allen": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Sunil Narine": {
+        "batting": 14,
+        "bowling": 45,
+        "fielding": 0,
+        "total": 59
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -68,12 +98,6 @@
         "bowling": 0,
         "fielding": 0,
         "total": 0
-      },
-      "Sunil Narine": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
       },
       "Anukul Roy": {
         "batting": 0,
@@ -98,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2385,
-      "top11Points": 2225
+      "totalPointsAll": 2393,
+      "top11Points": 2233
     },
     {
       "team": "Ritik",
@@ -108,8 +132,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1960,
-      "top11Points": 1970
+      "totalPointsAll": 1962,
+      "top11Points": 1972
     },
     {
       "team": "Ali",
@@ -118,8 +142,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1681,
-      "top11Points": 1623
+      "totalPointsAll": 1702,
+      "top11Points": 1644
     },
     {
       "team": "Tanay",
@@ -8129,6 +8153,12 @@
           "r": 192,
           "w": 5,
           "o": 20
+        },
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 13,
+          "w": 1,
+          "o": 1.4
         }
       ],
       "scorecard": [
@@ -8252,6 +8282,50 @@
               "economy": 8.75
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 13,
+          "wickets": 1,
+          "overs": 1.4,
+          "batting": [
+            {
+              "name": "Finn Allen",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "c Shivam Dube b Anshul Kamboj"
+            },
+            {
+              "name": "Sunil Narine",
+              "runs": 11,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 157.14,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Khaleel Ahmed",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            },
+            {
+              "name": "Anshul Kamboj",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 9
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -8288,8 +8362,32 @@
         "Shivam Dube": {
           "batting": 14,
           "bowling": 0,
+          "fielding": 8,
+          "total": 22
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 0
+        },
+        "Khaleel Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Finn Allen": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Sunil Narine": {
+          "batting": 14,
+          "bowling": 45,
+          "fielding": 0,
+          "total": 59
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -8308,12 +8406,6 @@
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Sunil Narine": {
-          "batting": 0,
-          "bowling": 45,
-          "fielding": 0,
-          "total": 45
         },
         "Anukul Roy": {
           "batting": 0,
@@ -8339,8 +8431,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1960,
-      "top11Points": 1970,
+      "totalPointsAll": 1962,
+      "top11Points": 1972,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8389,12 +8481,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 116,
+          "batting": 117,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 116,
+          "rawPoints": 117,
           "multiplier": 1.5,
-          "effectivePoints": 174,
+          "effectivePoints": 176,
           "countsInTop11": true
         },
         {
@@ -8764,8 +8856,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1681,
-      "top11Points": 1623,
+      "totalPointsAll": 1702,
+      "top11Points": 1644,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8781,12 +8873,12 @@
         {
           "name": "Sunil Narine",
           "role": "All-Rounder",
-          "batting": 16,
+          "batting": 30,
           "bowling": 110,
           "fielding": 0,
-          "rawPoints": 126,
+          "rawPoints": 140,
           "multiplier": 1.5,
-          "effectivePoints": 189,
+          "effectivePoints": 210,
           "countsInTop11": true
         },
         {
@@ -9454,8 +9546,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2385,
-      "top11Points": 2225,
+      "totalPointsAll": 2393,
+      "top11Points": 2233,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9517,10 +9609,10 @@
           "role": "All-Rounder",
           "batting": 140,
           "bowling": 10,
-          "fielding": 8,
-          "rawPoints": 158,
+          "fielding": 16,
+          "rawPoints": 166,
           "multiplier": 1,
-          "effectivePoints": 158,
+          "effectivePoints": 166,
           "countsInTop11": true
         },
         {
