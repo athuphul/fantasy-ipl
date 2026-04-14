@@ -749,22 +749,22 @@ function correctFieldingFromScorecard(scorecard, playerScores, allPlayers) {
     for (const bat of (inn.batting || [])) {
       const d = bat.dismissal || '';
       // "c Fielder Name b Bowler" or "c & b Bowler"
-      let cMatch = d.match(/^c\s+(.+?)\s+b\s+/);
-      if (cMatch) {
-        const fielder = cMatch[1].trim();
-        if (fielder !== '&') {  // skip "c & b" (caught and bowled = bowler catches own ball, not a fielding catch for points... actually it IS a catch)
+      // Handle "c and b Bowler" / "c & b Bowler" first (caught and bowled)
+      const cabMatch = d.match(/^c\s+(?:&|and)\s+b\s+(.+)/);
+      let cMatch = null;
+      if (cabMatch) {
+        const bowler = cabMatch[1].trim();
+        catchCount[bowler] = (catchCount[bowler] || 0) + 1;
+      } else {
+        // "c Fielder Name b Bowler"
+        cMatch = d.match(/^c\s+(.+?)\s+b\s+/);
+        if (cMatch) {
+          const fielder = cMatch[1].trim();
           catchCount[fielder] = (catchCount[fielder] || 0) + 1;
-        } else {
-          // c & b means the bowler caught it — extract bowler name
-          const cbMatch = d.match(/^c & b\s+(.+)/);
-          if (cbMatch) {
-            const bowler = cbMatch[1].trim();
-            catchCount[bowler] = (catchCount[bowler] || 0) + 1;
-          }
         }
       }
       // "c (sub)Name b Bowler"
-      if (!cMatch) {
+      if (!cabMatch && !cMatch) {
         cMatch = d.match(/^c\s+\(sub\)(.+?)\s+b\s+/);
         if (cMatch) {
           const fielder = cMatch[1].trim();
@@ -1086,7 +1086,7 @@ function isMatchWindowNow(todayMatches) {
     const istHour = parseInt(m.time.split(':')[0]);
     const istMin = parseInt(m.time.split(':')[1]);
     const startUTC = (istHour - 5.5) + istMin / 60;
-    const endUTC = startUTC + 4;
+    const endUTC = startUTC + 4.5;
     if (hourUTC >= startUTC - 0.25 && hourUTC <= endUTC) return true;
   }
   return false;
