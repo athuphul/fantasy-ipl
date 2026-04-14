@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T14:35:06.890Z",
+  "lastUpdated": "2026-04-14T14:44:56.311Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 75,
+        "r": 94,
         "w": 2,
-        "o": 6.5
+        "o": 9
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 34,
+        "batting": 39,
         "bowling": 0,
         "fielding": 0,
-        "total": 34
+        "total": 39
       },
       "Ruturaj Gaikwad": {
         "batting": 8,
@@ -34,10 +34,10 @@
         "total": 63
       },
       "Dewald Brevis": {
-        "batting": 1,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 14
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Anukul Roy": {
         "batting": 0,
@@ -86,8 +86,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2285,
-      "top11Points": 2125
+      "totalPointsAll": 2295,
+      "top11Points": 2135
     },
     {
       "team": "Ritik",
@@ -111,8 +111,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1566,
-      "top11Points": 1541
+      "totalPointsAll": 1597,
+      "top11Points": 1559
     },
     {
       "team": "Aakash",
@@ -8114,25 +8114,25 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 75,
+          "r": 94,
           "w": 2,
-          "o": 6.5
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 75,
+          "runs": 94,
           "wickets": 2,
-          "overs": 6.5,
+          "overs": 9,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 24,
-              "balls": 16,
-              "fours": 3,
+              "runs": 33,
+              "balls": 23,
+              "fours": 4,
               "sixes": 1,
-              "sr": 150,
+              "sr": 143.48,
               "dismissal": "batting"
             },
             {
@@ -8155,11 +8155,11 @@
             },
             {
               "name": "Dewald Brevis",
-              "runs": 1,
-              "balls": 1,
+              "runs": 12,
+              "balls": 8,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
@@ -8190,21 +8190,29 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 0.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 14,
               "wickets": 0,
-              "economy": 3
+              "economy": 7
+            },
+            {
+              "name": "Varun Chakaravarthy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 34,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "total": 34
+          "total": 39
         },
         "Ruturaj Gaikwad": {
           "batting": 8,
@@ -8219,10 +8227,10 @@
           "total": 63
         },
         "Dewald Brevis": {
-          "batting": 1,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 14
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -8244,9 +8252,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Anukul Roy": {
           "batting": 0,
@@ -8697,8 +8705,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1566,
-      "top11Points": 1541,
+      "totalPointsAll": 1597,
+      "top11Points": 1559,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8734,6 +8742,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sunil Narine",
+          "role": "All-Rounder",
+          "batting": 16,
+          "bowling": 77,
+          "fielding": 0,
+          "rawPoints": 93,
+          "multiplier": 1.5,
+          "effectivePoints": 140,
+          "countsInTop11": true
+        },
+        {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
           "batting": 43,
@@ -8742,17 +8761,6 @@
           "rawPoints": 126,
           "multiplier": 1,
           "effectivePoints": 126,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sunil Narine",
-          "role": "All-Rounder",
-          "batting": 16,
-          "bowling": 65,
-          "fielding": 0,
-          "rawPoints": 81,
-          "multiplier": 1.5,
-          "effectivePoints": 122,
           "countsInTop11": true
         },
         {
@@ -8813,12 +8821,12 @@
         {
           "name": "Dewald Brevis",
           "role": "Batsman",
-          "batting": 1,
+          "batting": 14,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 25,
+          "rawPoints": 38,
           "multiplier": 1,
-          "effectivePoints": 25,
+          "effectivePoints": 38,
           "countsInTop11": false
         },
         {
@@ -9387,18 +9395,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2285,
-      "top11Points": 2125,
+      "totalPointsAll": 2295,
+      "top11Points": 2135,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 253,
+          "batting": 258,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 253,
+          "rawPoints": 258,
           "multiplier": 2,
-          "effectivePoints": 506,
+          "effectivePoints": 516,
           "countsInTop11": true
         },
         {
