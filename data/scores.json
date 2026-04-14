@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T14:15:01.532Z",
+  "lastUpdated": "2026-04-14T14:24:53.978Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 27,
+        "r": 64,
         "w": 1,
-        "o": 2.5
+        "o": 5.1
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 17,
+        "batting": 38,
         "bowling": 0,
         "fielding": 0,
-        "total": 17
+        "total": 38
       },
       "Ruturaj Gaikwad": {
         "batting": 8,
@@ -28,10 +28,10 @@
         "total": 8
       },
       "Ayush Mhatre": {
-        "batting": 1,
+        "batting": 53,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 53
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -41,9 +41,9 @@
       },
       "Cameron Green": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Rinku Singh": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Anukul Roy": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 30,
         "fielding": 0,
-        "total": 25
+        "total": 30
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -80,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2251,
-      "top11Points": 2091
+      "totalPointsAll": 2293,
+      "top11Points": 2133
     },
     {
       "team": "Ritik",
@@ -90,8 +90,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1886,
-      "top11Points": 1896
+      "totalPointsAll": 1943,
+      "top11Points": 1953
     },
     {
       "team": "Ali",
@@ -100,8 +100,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1600,
-      "top11Points": 1584
+      "totalPointsAll": 1585,
+      "top11Points": 1569
     },
     {
       "team": "Ashwin",
@@ -8108,25 +8108,25 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 27,
+          "r": 64,
           "w": 1,
-          "o": 2.5
+          "o": 5.1
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 27,
+          "runs": 64,
           "wickets": 1,
-          "overs": 2.5,
+          "overs": 5.1,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 14,
-              "balls": 8,
+              "runs": 23,
+              "balls": 13,
               "fours": 3,
-              "sixes": 0,
-              "sr": 175,
+              "sixes": 1,
+              "sr": 176.92,
               "dismissal": "batting"
             },
             {
@@ -8140,48 +8140,48 @@
             },
             {
               "name": "Ayush Mhatre",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 30,
+              "balls": 12,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 250,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 14,
+              "runs": 18,
               "wickets": 0,
-              "economy": 14
+              "economy": 15.43
             },
             {
               "name": "Cameron Green",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 30,
               "wickets": 0,
-              "economy": 9
+              "economy": 15
             },
             {
               "name": "Anukul Roy",
-              "overs": 0.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 15,
               "wickets": 1,
-              "economy": 4
+              "economy": 7.5
             }
           ]
         }
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 17,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "total": 17
+          "total": 38
         },
         "Ruturaj Gaikwad": {
           "batting": 8,
@@ -8190,10 +8190,10 @@
           "total": 8
         },
         "Ayush Mhatre": {
-          "batting": 1,
+          "batting": 53,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 53
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -8203,9 +8203,9 @@
         },
         "Cameron Green": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Rinku Singh": {
           "batting": 0,
@@ -8221,9 +8221,9 @@
         },
         "Anukul Roy": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 30,
           "fielding": 0,
-          "total": 25
+          "total": 30
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -8243,8 +8243,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1886,
-      "top11Points": 1896,
+      "totalPointsAll": 1943,
+      "top11Points": 1953,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8282,12 +8282,12 @@
         {
           "name": "Ayush Mhatre",
           "role": "Opener",
-          "batting": 186,
+          "batting": 238,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 186,
+          "rawPoints": 238,
           "multiplier": 1,
-          "effectivePoints": 186,
+          "effectivePoints": 238,
           "countsInTop11": true
         },
         {
@@ -8327,11 +8327,11 @@
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": -5,
-          "bowling": 110,
+          "bowling": 115,
           "fielding": 26,
-          "rawPoints": 131,
+          "rawPoints": 136,
           "multiplier": 1,
-          "effectivePoints": 131,
+          "effectivePoints": 136,
           "countsInTop11": true
         },
         {
@@ -9220,8 +9220,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1600,
-      "top11Points": 1584,
+      "totalPointsAll": 1585,
+      "top11Points": 1569,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -9282,11 +9282,11 @@
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 75,
-          "bowling": 10,
+          "bowling": -5,
           "fielding": 8,
-          "rawPoints": 93,
+          "rawPoints": 78,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 78,
           "countsInTop11": true
         },
         {
@@ -9358,18 +9358,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2251,
-      "top11Points": 2091,
+      "totalPointsAll": 2293,
+      "top11Points": 2133,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 236,
+          "batting": 257,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 236,
+          "rawPoints": 257,
           "multiplier": 2,
-          "effectivePoints": 472,
+          "effectivePoints": 514,
           "countsInTop11": true
         },
         {
