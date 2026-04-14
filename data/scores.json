@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T15:24:55.778Z",
+  "lastUpdated": "2026-04-14T15:34:55.158Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 162,
-        "w": 3,
-        "o": 16
+        "r": 171,
+        "w": 5,
+        "o": 17.4
       }
     ],
     "playerScores": {
@@ -45,6 +45,12 @@
         "fielding": 0,
         "total": 28
       },
+      "Shivam Dube": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
       "Ajinkya Rahane": {
         "batting": 0,
         "bowling": 0,
@@ -65,9 +71,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 45,
         "fielding": 0,
-        "total": 20
+        "total": 45
       },
       "Anukul Roy": {
         "batting": 0,
@@ -84,21 +90,21 @@
       "Vaibhav Arora": {
         "batting": 0,
         "bowling": 10,
-        "fielding": 0,
-        "total": 10
+        "fielding": 8,
+        "total": 18
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2371,
-      "top11Points": 2211
+      "totalPointsAll": 2373,
+      "top11Points": 2213
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 1989,
-      "top11Points": 1989
+      "totalPointsAll": 1997,
+      "top11Points": 1997
     },
     {
       "team": "Athu",
@@ -112,8 +118,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1644,
-      "top11Points": 1586
+      "totalPointsAll": 1681,
+      "top11Points": 1623
     },
     {
       "team": "Tanay",
@@ -8120,17 +8126,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 162,
-          "w": 3,
-          "o": 16
+          "r": 171,
+          "w": 5,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 162,
-          "wickets": 3,
-          "overs": 16,
+          "runs": 171,
+          "wickets": 5,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -8161,20 +8167,29 @@
             },
             {
               "name": "Dewald Brevis",
-              "runs": 37,
-              "balls": 24,
-              "fours": 3,
+              "runs": 41,
+              "balls": 29,
+              "fours": 4,
               "sixes": 2,
-              "sr": 154.17,
-              "dismissal": "batting"
+              "sr": 141.38,
+              "dismissal": "c Vaibhav Arora b Kartik Tyagi"
             },
             {
               "name": "Sarfaraz Khan",
               "runs": 23,
-              "balls": 17,
+              "balls": 18,
               "fours": 1,
               "sixes": 2,
-              "sr": 135.29,
+              "sr": 127.78,
+              "dismissal": "b Sunil Narine"
+            },
+            {
+              "name": "Shivam Dube",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
@@ -8205,11 +8220,11 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 0,
-              "economy": 5.33
+              "runs": 21,
+              "wickets": 1,
+              "economy": 5.25
             },
             {
               "name": "Varun Chakaravarthy",
@@ -8221,11 +8236,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 1,
-              "economy": 10.5
+              "runs": 23,
+              "wickets": 2,
+              "economy": 9.2
             }
           ]
         }
@@ -8261,6 +8276,12 @@
           "fielding": 0,
           "total": 28
         },
+        "Shivam Dube": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
         "Ajinkya Rahane": {
           "batting": 0,
           "bowling": 0,
@@ -8281,9 +8302,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 45,
           "fielding": 0,
-          "total": 20
+          "total": 45
         },
         "Anukul Roy": {
           "batting": 0,
@@ -8300,8 +8321,8 @@
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 10,
-          "fielding": 0,
-          "total": 10
+          "fielding": 8,
+          "total": 18
         }
       },
       "isComplete": false
@@ -8734,8 +8755,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1644,
-      "top11Points": 1586,
+      "totalPointsAll": 1681,
+      "top11Points": 1623,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8746,6 +8767,17 @@
           "rawPoints": 258,
           "multiplier": 2,
           "effectivePoints": 516,
+          "countsInTop11": true
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "All-Rounder",
+          "batting": 16,
+          "bowling": 110,
+          "fielding": 0,
+          "rawPoints": 126,
+          "multiplier": 1.5,
+          "effectivePoints": 189,
           "countsInTop11": true
         },
         {
@@ -8768,17 +8800,6 @@
           "rawPoints": 171,
           "multiplier": 1,
           "effectivePoints": 171,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sunil Narine",
-          "role": "All-Rounder",
-          "batting": 16,
-          "bowling": 85,
-          "fielding": 0,
-          "rawPoints": 101,
-          "multiplier": 1.5,
-          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -9159,8 +9180,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 1989,
-      "top11Points": 1989,
+      "totalPointsAll": 1997,
+      "top11Points": 1997,
       "players": [
         {
           "name": "Jos Buttler",
@@ -9229,6 +9250,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Vaibhav Arora",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 120,
+          "fielding": 8,
+          "rawPoints": 129,
+          "multiplier": 1,
+          "effectivePoints": 129,
+          "countsInTop11": true
+        },
+        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -9237,17 +9269,6 @@
           "rawPoints": 129,
           "multiplier": 1,
           "effectivePoints": 129,
-          "countsInTop11": true
-        },
-        {
-          "name": "Vaibhav Arora",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 120,
-          "fielding": 0,
-          "rawPoints": 121,
-          "multiplier": 1,
-          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
@@ -9424,8 +9445,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2371,
-      "top11Points": 2211,
+      "totalPointsAll": 2373,
+      "top11Points": 2213,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9496,12 +9517,12 @@
         {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 126,
+          "batting": 128,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 144,
+          "rawPoints": 146,
           "multiplier": 1,
-          "effectivePoints": 144,
+          "effectivePoints": 146,
           "countsInTop11": true
         },
         {
