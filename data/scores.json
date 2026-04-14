@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T16:14:55.048Z",
+  "lastUpdated": "2026-04-14T16:24:53.631Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 13,
+        "r": 26,
         "w": 1,
-        "o": 1.4
+        "o": 3.4
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Khaleel Ahmed": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Finn Allen": {
         "batting": 1,
@@ -76,16 +76,16 @@
         "total": 1
       },
       "Sunil Narine": {
-        "batting": 14,
+        "batting": 23,
         "bowling": 45,
         "fielding": 0,
-        "total": 59
+        "total": 68
       },
       "Ajinkya Rahane": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       },
       "Cameron Green": {
         "batting": 0,
@@ -127,13 +127,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2002,
-      "top11Points": 2002
+      "totalPointsAll": 2014,
+      "top11Points": 2014
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1962,
-      "top11Points": 1972
+      "totalPointsAll": 1964,
+      "top11Points": 1974
     },
     {
       "team": "Ali",
@@ -142,8 +142,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1702,
-      "top11Points": 1644
+      "totalPointsAll": 1716,
+      "top11Points": 1658
     },
     {
       "team": "Tanay",
@@ -8156,9 +8156,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 13,
+          "r": 26,
           "w": 1,
-          "o": 1.4
+          "o": 3.4
         }
       ],
       "scorecard": [
@@ -8285,9 +8285,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 13,
+          "runs": 26,
           "wickets": 1,
-          "overs": 1.4,
+          "overs": 3.4,
           "batting": [
             {
               "name": "Finn Allen",
@@ -8300,30 +8300,39 @@
             },
             {
               "name": "Sunil Narine",
-              "runs": 11,
-              "balls": 7,
+              "runs": 18,
+              "balls": 13,
               "fours": 1,
-              "sixes": 1,
-              "sr": 157.14,
+              "sixes": 2,
+              "sr": 138.46,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Khaleel Ahmed",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 14,
               "wickets": 0,
-              "economy": 6
+              "economy": 7
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 0.4,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 6,
+              "runs": 7,
               "wickets": 1,
-              "economy": 9
+              "economy": 4.67
             }
           ]
         }
@@ -8373,9 +8382,9 @@
         },
         "Khaleel Ahmed": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Finn Allen": {
           "batting": 1,
@@ -8384,16 +8393,16 @@
           "total": 1
         },
         "Sunil Narine": {
-          "batting": 14,
+          "batting": 23,
           "bowling": 45,
           "fielding": 0,
-          "total": 59
+          "total": 68
         },
         "Ajinkya Rahane": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         },
         "Cameron Green": {
           "batting": 0,
@@ -8431,8 +8440,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1962,
-      "top11Points": 1972,
+      "totalPointsAll": 1964,
+      "top11Points": 1974,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8492,12 +8501,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 161,
+          "batting": 163,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 169,
+          "rawPoints": 171,
           "multiplier": 1,
-          "effectivePoints": 169,
+          "effectivePoints": 171,
           "countsInTop11": true
         },
         {
@@ -8856,8 +8865,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1702,
-      "top11Points": 1644,
+      "totalPointsAll": 1716,
+      "top11Points": 1658,
       "players": [
         {
           "name": "Shubman Gill",
@@ -8873,12 +8882,12 @@
         {
           "name": "Sunil Narine",
           "role": "All-Rounder",
-          "batting": 30,
+          "batting": 39,
           "bowling": 110,
           "fielding": 0,
-          "rawPoints": 140,
+          "rawPoints": 149,
           "multiplier": 1.5,
-          "effectivePoints": 210,
+          "effectivePoints": 224,
           "countsInTop11": true
         },
         {
@@ -9281,8 +9290,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2002,
-      "top11Points": 2002,
+      "totalPointsAll": 2014,
+      "top11Points": 2014,
       "players": [
         {
           "name": "Jos Buttler",
@@ -9376,11 +9385,11 @@
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 35,
+          "bowling": 47,
           "fielding": 0,
-          "rawPoints": 35,
+          "rawPoints": 47,
           "multiplier": 1,
-          "effectivePoints": 35,
+          "effectivePoints": 47,
           "countsInTop11": true
         },
         {
