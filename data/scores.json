@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T17:04:54.460Z",
+  "lastUpdated": "2026-04-14T17:14:59.643Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529265",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 85,
-        "w": 5,
-        "o": 11
+        "r": 91,
+        "w": 6,
+        "o": 13
       }
     ],
     "playerScores": {
@@ -54,14 +54,14 @@
       "Shivam Dube": {
         "batting": 14,
         "bowling": 0,
-        "fielding": 8,
-        "total": 22
+        "fielding": 16,
+        "total": 30
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 62,
+        "bowling": 105,
         "fielding": 0,
-        "total": 62
+        "total": 105
       },
       "Khaleel Ahmed": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": 32
       },
       "Rinku Singh": {
-        "batting": 3,
+        "batting": -4,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": -4
       },
       "Cameron Green": {
         "batting": -5,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2459,
-      "top11Points": 2299
+      "totalPointsAll": 2500,
+      "top11Points": 2340
     },
     {
       "team": "Ritik",
@@ -8156,9 +8156,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 85,
-          "w": 5,
-          "o": 11
+          "r": 91,
+          "w": 6,
+          "o": 13
         }
       ],
       "scorecard": [
@@ -8285,9 +8285,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 85,
-          "wickets": 5,
-          "overs": 11,
+          "runs": 91,
+          "wickets": 6,
+          "overs": 13,
           "batting": [
             {
               "name": "Finn Allen",
@@ -8327,12 +8327,12 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 3,
-              "balls": 4,
+              "runs": 6,
+              "balls": 12,
               "fours": 0,
               "sixes": 0,
-              "sr": 75,
-              "dismissal": "batting"
+              "sr": 50,
+              "dismissal": "c Shivam Dube b Noor Ahmad"
             },
             {
               "name": "Cameron Green",
@@ -8342,6 +8342,24 @@
               "sixes": 0,
               "sr": 0,
               "dismissal": "b Noor Ahmad"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ramandeep Singh",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -8363,19 +8381,19 @@
             },
             {
               "name": "Akeal Hosein",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 21,
+              "runs": 26,
               "wickets": 1,
-              "economy": 7
+              "economy": 6.5
             },
             {
               "name": "Noor Ahmad",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 2,
-              "economy": 7
+              "runs": 15,
+              "wickets": 3,
+              "economy": 5
             },
             {
               "name": "Gurjapneet Singh",
@@ -8422,14 +8440,14 @@
         "Shivam Dube": {
           "batting": 14,
           "bowling": 0,
-          "fielding": 8,
-          "total": 22
+          "fielding": 16,
+          "total": 30
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 62,
+          "bowling": 105,
           "fielding": 0,
-          "total": 62
+          "total": 105
         },
         "Khaleel Ahmed": {
           "batting": 0,
@@ -8456,10 +8474,10 @@
           "total": 32
         },
         "Rinku Singh": {
-          "batting": 3,
+          "batting": -4,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": -4
         },
         "Cameron Green": {
           "batting": -5,
@@ -9606,8 +9624,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2459,
-      "top11Points": 2299,
+      "totalPointsAll": 2500,
+      "top11Points": 2340,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9654,25 +9672,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Rinku Singh",
-          "role": "Batsman",
-          "batting": 90,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 122,
-          "multiplier": 1.5,
-          "effectivePoints": 183,
-          "countsInTop11": true
-        },
-        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 140,
           "bowling": 10,
-          "fielding": 16,
-          "rawPoints": 166,
+          "fielding": 24,
+          "rawPoints": 174,
           "multiplier": 1,
-          "effectivePoints": 166,
+          "effectivePoints": 174,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rinku Singh",
+          "role": "Batsman",
+          "batting": 83,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 115,
+          "multiplier": 1.5,
+          "effectivePoints": 173,
           "countsInTop11": true
         },
         {
@@ -9684,6 +9702,17 @@
           "rawPoints": 158,
           "multiplier": 1,
           "effectivePoints": 158,
+          "countsInTop11": true
+        },
+        {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": 11,
+          "bowling": 100,
+          "fielding": 24,
+          "rawPoints": 135,
+          "multiplier": 1,
+          "effectivePoints": 135,
           "countsInTop11": true
         },
         {
@@ -9706,17 +9735,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 11,
-          "bowling": 57,
-          "fielding": 24,
-          "rawPoints": 92,
-          "multiplier": 1,
-          "effectivePoints": 92,
           "countsInTop11": true
         },
         {
