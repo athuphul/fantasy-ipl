@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T17:04:53.489Z",
+  "lastUpdated": "2026-04-15T17:14:57.763Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 121,
-        "w": 4,
-        "o": 12.2
+        "r": 137,
+        "w": 5,
+        "o": 14.3
       },
       {
         "inning": "Lucknow Super Giants",
@@ -52,16 +52,16 @@
         "total": 37
       },
       "Tim David": {
-        "batting": 0,
+        "batting": 16,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 24
       },
       "Romario Shepherd": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       },
       "Krunal Pandya": {
         "batting": 0,
@@ -161,8 +161,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1719,
-      "top11Points": 1719
+      "totalPointsAll": 1735,
+      "top11Points": 1735
     },
     {
       "team": "Tanay",
@@ -171,8 +171,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1730,
-      "top11Points": 1672
+      "totalPointsAll": 1732,
+      "top11Points": 1674
     },
     {
       "team": "Kishan",
@@ -8556,9 +8556,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 121,
-          "w": 4,
-          "o": 12.2
+          "r": 137,
+          "w": 5,
+          "o": 14.3
         },
         {
           "inning": "Lucknow Super Giants",
@@ -8719,9 +8719,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 121,
-          "wickets": 4,
-          "overs": 12.2,
+          "runs": 137,
+          "wickets": 5,
+          "overs": 14.3,
           "batting": [
             {
               "name": "Phil Salt",
@@ -8762,19 +8762,28 @@
             {
               "name": "Jitesh Sharma",
               "runs": 23,
-              "balls": 8,
+              "balls": 9,
               "fours": 2,
               "sixes": 2,
-              "sr": 287.5,
-              "dismissal": "batting"
+              "sr": 255.56,
+              "dismissal": "c Mukul Choudhary b Prince Yadav"
             },
             {
               "name": "Tim David",
-              "runs": 0,
-              "balls": 0,
+              "runs": 13,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 185.71,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 2,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -8789,27 +8798,27 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
-              "wickets": 2,
-              "economy": 12.86
+              "runs": 32,
+              "wickets": 3,
+              "economy": 10.67
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 38,
+              "runs": 51,
               "wickets": 0,
-              "economy": 12.67
+              "economy": 12.75
             },
             {
               "name": "Avesh Khan",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
               "runs": 14,
               "wickets": 2,
-              "economy": 4.67
+              "economy": 4.2
             },
             {
               "name": "George Linde",
@@ -8854,16 +8863,16 @@
           "total": 37
         },
         "Tim David": {
-          "batting": 0,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 24
         },
         "Romario Shepherd": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         },
         "Krunal Pandya": {
           "batting": 0,
@@ -9236,8 +9245,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1719,
-      "top11Points": 1719,
+      "totalPointsAll": 1735,
+      "top11Points": 1735,
       "players": [
         {
           "name": "KL Rahul",
@@ -9262,6 +9271,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 226,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 234,
+          "multiplier": 1,
+          "effectivePoints": 234,
+          "countsInTop11": true
+        },
+        {
           "name": "Shreyas Iyer",
           "role": "Batsman",
           "batting": 211,
@@ -9270,17 +9290,6 @@
           "rawPoints": 219,
           "multiplier": 1,
           "effectivePoints": 219,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 210,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 218,
-          "multiplier": 1,
-          "effectivePoints": 218,
           "countsInTop11": true
         },
         {
@@ -9374,8 +9383,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1730,
-      "top11Points": 1672,
+      "totalPointsAll": 1732,
+      "top11Points": 1674,
       "players": [
         {
           "name": "Shubman Gill",
@@ -9424,12 +9433,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 43,
+          "batting": 45,
           "bowling": 75,
           "fielding": 8,
-          "rawPoints": 126,
+          "rawPoints": 128,
           "multiplier": 1,
-          "effectivePoints": 126,
+          "effectivePoints": 128,
           "countsInTop11": true
         },
         {
