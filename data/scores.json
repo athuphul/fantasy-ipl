@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T15:35:09.720Z",
+  "lastUpdated": "2026-04-15T15:44:53.074Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 128,
-        "w": 6,
-        "o": 17.2
+        "r": 139,
+        "w": 8,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -42,8 +42,8 @@
       "Tim David": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Romario Shepherd": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 97,
         "fielding": 0,
-        "total": 30
+        "total": 97
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -110,6 +110,18 @@
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Mohammed Shami": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Avesh Khan": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -131,8 +143,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1713,
-      "top11Points": 1713
+      "totalPointsAll": 1721,
+      "top11Points": 1721
     },
     {
       "team": "Ashwin",
@@ -141,8 +153,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1596,
-      "top11Points": 1580
+      "totalPointsAll": 1597,
+      "top11Points": 1581
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 1565,
+      "top11Points": 1565
     },
     {
       "team": "Manav",
@@ -151,13 +168,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1484,
-      "top11Points": 1498
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 1498,
-      "top11Points": 1498
+      "totalPointsAll": 1479,
+      "top11Points": 1493
     }
   ],
   "matchHistory": [
@@ -8526,17 +8538,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 128,
-          "w": 6,
-          "o": 17.2
+          "r": 139,
+          "w": 8,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 128,
-          "wickets": 6,
-          "overs": 17.2,
+          "runs": 139,
+          "wickets": 8,
+          "overs": 19,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -8594,39 +8606,57 @@
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 30,
-              "balls": 23,
+              "runs": 32,
+              "balls": 25,
               "fours": 3,
               "sixes": 1,
-              "sr": 130.43,
+              "sr": 128,
               "dismissal": "batting"
             },
             {
               "name": "George Linde",
+              "runs": 7,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "c Tim David b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Mohammed Shami",
               "runs": 0,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
+              "dismissal": "b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Avesh Khan",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 1,
-              "economy": 7.67
+              "runs": 26,
+              "wickets": 3,
+              "economy": 6.78
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 13,
+              "runs": 20,
               "wickets": 1,
-              "economy": 4.11
+              "economy": 5
             },
             {
               "name": "Rasikh Salam Dar",
@@ -8683,8 +8713,8 @@
         "Tim David": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Romario Shepherd": {
           "batting": 0,
@@ -8700,9 +8730,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 97,
           "fielding": 0,
-          "total": 30
+          "total": 97
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -8751,6 +8781,18 @@
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Mohammed Shami": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Avesh Khan": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -8907,8 +8949,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1484,
-      "top11Points": 1498,
+      "totalPointsAll": 1479,
+      "top11Points": 1493,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -8957,12 +8999,12 @@
         {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
-          "batting": 17,
+          "batting": 12,
           "bowling": 144,
           "fielding": 8,
-          "rawPoints": 169,
+          "rawPoints": 164,
           "multiplier": 1,
-          "effectivePoints": 169,
+          "effectivePoints": 164,
           "countsInTop11": true
         },
         {
@@ -9045,8 +9087,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1713,
-      "top11Points": 1713,
+      "totalPointsAll": 1721,
+      "top11Points": 1721,
       "players": [
         {
           "name": "KL Rahul",
@@ -9086,10 +9128,10 @@
           "role": "Batsman",
           "batting": 210,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 210,
+          "fielding": 8,
+          "rawPoints": 218,
           "multiplier": 1,
-          "effectivePoints": 210,
+          "effectivePoints": 218,
           "countsInTop11": true
         },
         {
@@ -9321,8 +9363,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1498,
-      "top11Points": 1498,
+      "totalPointsAll": 1565,
+      "top11Points": 1565,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -9358,6 +9400,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Bhuvneshwar Kumar",
+          "role": "Fast Bowler",
+          "batting": 10,
+          "bowling": 207,
+          "fielding": 8,
+          "rawPoints": 225,
+          "multiplier": 1,
+          "effectivePoints": 225,
+          "countsInTop11": true
+        },
+        {
           "name": "Washington Sundar",
           "role": "All-Rounder",
           "batting": 135,
@@ -9366,17 +9419,6 @@
           "rawPoints": 176,
           "multiplier": 1,
           "effectivePoints": 176,
-          "countsInTop11": true
-        },
-        {
-          "name": "Bhuvneshwar Kumar",
-          "role": "Fast Bowler",
-          "batting": 10,
-          "bowling": 140,
-          "fielding": 8,
-          "rawPoints": 158,
-          "multiplier": 1,
-          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
@@ -9735,8 +9777,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1596,
-      "top11Points": 1580,
+      "totalPointsAll": 1597,
+      "top11Points": 1581,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -9796,12 +9838,12 @@
         {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
-          "batting": 6,
+          "batting": 7,
           "bowling": 60,
           "fielding": 8,
-          "rawPoints": 74,
+          "rawPoints": 75,
           "multiplier": 1,
-          "effectivePoints": 74,
+          "effectivePoints": 75,
           "countsInTop11": true
         },
         {
