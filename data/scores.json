@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:54:56.336Z",
+  "lastUpdated": "2026-04-15T15:05:05.889Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 70,
-        "w": 2,
-        "o": 9.3
+        "r": 87,
+        "w": 4,
+        "o": 11.3
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Rajat Patidar": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -53,9 +53,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -100,10 +100,16 @@
         "total": 1
       },
       "Ayush Badoni": {
-        "batting": 17,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 17
+        "total": 37
+      },
+      "Abdul Samad": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       }
     }
   },
@@ -120,8 +126,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2012,
-      "top11Points": 2022
+      "totalPointsAll": 2032,
+      "top11Points": 2042
     },
     {
       "team": "Ali",
@@ -130,13 +136,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1729,
-      "top11Points": 1671
+      "totalPointsAll": 1724,
+      "top11Points": 1666
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1580,
-      "top11Points": 1564
+      "totalPointsAll": 1588,
+      "top11Points": 1572
     },
     {
       "team": "Aakash",
@@ -144,14 +150,14 @@
       "top11Points": 1498
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 1571,
+      "top11Points": 1498
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 1468,
       "top11Points": 1468
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 1526,
-      "top11Points": 1453
     }
   ],
   "matchHistory": [
@@ -8520,26 +8526,26 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 70,
-          "w": 2,
-          "o": 9.3
+          "r": 87,
+          "w": 4,
+          "o": 11.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 70,
-          "wickets": 2,
-          "overs": 9.3,
+          "runs": 87,
+          "wickets": 4,
+          "overs": 11.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
               "runs": 40,
-              "balls": 31,
+              "balls": 32,
               "fours": 3,
               "sixes": 2,
-              "sr": 129.03,
-              "dismissal": "batting"
+              "sr": 125,
+              "dismissal": "b Krunal Pandya"
             },
             {
               "name": "Aiden Markram",
@@ -8570,11 +8576,29 @@
             },
             {
               "name": "Ayush Badoni",
-              "runs": 14,
-              "balls": 8,
-              "fours": 1,
+              "runs": 27,
+              "balls": 16,
+              "fours": 3,
               "sixes": 1,
-              "sr": 175,
+              "sr": 168.75,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Abdul Samad",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Rajat Patidar b Krunal Pandya"
+            },
+            {
+              "name": "Mukul Choudhary",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
               "dismissal": "batting"
             }
           ],
@@ -8605,19 +8629,19 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1.3,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 22,
-              "wickets": 0,
-              "economy": 14.67
+              "runs": 28,
+              "wickets": 2,
+              "economy": 11.2
             },
             {
               "name": "Suyash Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 19,
               "wickets": 0,
-              "economy": 8
+              "economy": 9.5
             }
           ]
         }
@@ -8638,8 +8662,8 @@
         "Rajat Patidar": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -8661,9 +8685,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -8708,10 +8732,16 @@
           "total": 1
         },
         "Ayush Badoni": {
-          "batting": 17,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 17
+          "total": 37
+        },
+        "Abdul Samad": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         }
       },
       "isComplete": false
@@ -8719,8 +8749,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2012,
-      "top11Points": 2022,
+      "totalPointsAll": 2032,
+      "top11Points": 2042,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8811,6 +8841,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ayush Badoni",
+          "role": "Batsman",
+          "batting": 130,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 130,
+          "multiplier": 1,
+          "effectivePoints": 130,
+          "countsInTop11": true
+        },
+        {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 28,
@@ -8819,17 +8860,6 @@
           "rawPoints": 113,
           "multiplier": 1,
           "effectivePoints": 113,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ayush Badoni",
-          "role": "Batsman",
-          "batting": 110,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 110,
-          "multiplier": 1,
-          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
@@ -9144,8 +9174,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1729,
-      "top11Points": 1671,
+      "totalPointsAll": 1724,
+      "top11Points": 1666,
       "players": [
         {
           "name": "Shubman Gill",
@@ -9225,17 +9255,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": 76,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 84,
-          "multiplier": 1,
-          "effectivePoints": 84,
-          "countsInTop11": true
-        },
-        {
           "name": "Dewald Brevis",
           "role": "Batsman",
           "batting": 49,
@@ -9244,6 +9263,17 @@
           "rawPoints": 81,
           "multiplier": 1,
           "effectivePoints": 81,
+          "countsInTop11": true
+        },
+        {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 71,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 79,
+          "multiplier": 1,
+          "effectivePoints": 79,
           "countsInTop11": true
         },
         {
@@ -9409,8 +9439,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1526,
-      "top11Points": 1453,
+      "totalPointsAll": 1571,
+      "top11Points": 1498,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9449,11 +9479,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 1,
-          "bowling": 122,
+          "bowling": 167,
           "fielding": 8,
-          "rawPoints": 131,
+          "rawPoints": 176,
           "multiplier": 1,
-          "effectivePoints": 131,
+          "effectivePoints": 176,
           "countsInTop11": true
         },
         {
@@ -9696,18 +9726,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1580,
-      "top11Points": 1564,
+      "totalPointsAll": 1588,
+      "top11Points": 1572,
       "players": [
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
           "batting": 312,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 336,
+          "fielding": 32,
+          "rawPoints": 344,
           "multiplier": 1,
-          "effectivePoints": 336,
+          "effectivePoints": 344,
           "countsInTop11": true
         },
         {
