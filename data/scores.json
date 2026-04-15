@@ -1,129 +1,12 @@
 {
-  "lastUpdated": "2026-04-14T17:54:55.244Z",
+  "lastUpdated": "2026-04-15T03:57:40.763Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529265",
-    "name": "Chennai Super Kings v Kolkata Knight Riders",
-    "status": "Live",
-    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-    "score": [
-      {
-        "inning": "Chennai Super Kings",
-        "r": 192,
-        "w": 5,
-        "o": 20
-      },
-      {
-        "inning": "Kolkata Knight Riders",
-        "r": 153,
-        "w": 6,
-        "o": 19.1
-      }
-    ],
-    "playerScores": {
-      "Sanju Samson": {
-        "batting": 63,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 63
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 16
-      },
-      "Ayush Mhatre": {
-        "batting": 63,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 63
-      },
-      "Dewald Brevis": {
-        "batting": 49,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 57
-      },
-      "Sarfaraz Khan": {
-        "batting": 28,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 28
-      },
-      "Shivam Dube": {
-        "batting": 14,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 30
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 105,
-        "fielding": 0,
-        "total": 105
-      },
-      "Khaleel Ahmed": {
-        "batting": 0,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 37
-      },
-      "Finn Allen": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Sunil Narine": {
-        "batting": 30,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 75
-      },
-      "Ajinkya Rahane": {
-        "batting": 32,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 32
-      },
-      "Rinku Singh": {
-        "batting": -4,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -4
-      },
-      "Cameron Green": {
-        "batting": -5,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -20
-      },
-      "Anukul Roy": {
-        "batting": 0,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 37
-      },
-      "Varun Chakaravarthy": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Vaibhav Arora": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 8,
-        "total": 23
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2500,
-      "top11Points": 2340
+      "totalPointsAll": 2508,
+      "top11Points": 2348
     },
     {
       "team": "Ritik",
@@ -132,8 +15,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1994,
-      "top11Points": 2004
+      "totalPointsAll": 1995,
+      "top11Points": 2005
     },
     {
       "team": "Ashwin",
@@ -8145,7 +8028,7 @@
       "matchId": "espn_1529265",
       "name": "Chennai Super Kings v Kolkata Knight Riders",
       "date": "2026-04-14",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
@@ -8156,9 +8039,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 153,
-          "w": 6,
-          "o": 19.1
+          "r": 160,
+          "w": 7,
+          "o": 20
         }
       ],
       "scorecard": [
@@ -8285,9 +8168,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 153,
-          "wickets": 6,
-          "overs": 19.1,
+          "runs": 160,
+          "wickets": 7,
+          "overs": 20,
           "batting": [
             {
               "name": "Finn Allen",
@@ -8345,21 +8228,30 @@
             },
             {
               "name": "Rovman Powell",
-              "runs": 25,
-              "balls": 20,
+              "runs": 31,
+              "balls": 22,
               "fours": 1,
-              "sixes": 1,
-              "sr": 125,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 140.91,
+              "dismissal": "not out"
             },
             {
               "name": "Ramandeep Singh",
               "runs": 35,
-              "balls": 22,
+              "balls": 23,
               "fours": 4,
               "sixes": 1,
-              "sr": 159.09,
-              "dismissal": "batting"
+              "sr": 152.17,
+              "dismissal": "c Sarfaraz Khan b Anshul Kamboj"
+            },
+            {
+              "name": "Anukul Roy",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -8373,11 +8265,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
-              "wickets": 1,
-              "economy": 7.5
+              "runs": 32,
+              "wickets": 2,
+              "economy": 8
             },
             {
               "name": "Akeal Hosein",
@@ -8442,8 +8334,8 @@
         "Sarfaraz Khan": {
           "batting": 28,
           "bowling": 0,
-          "fielding": 0,
-          "total": 28
+          "fielding": 8,
+          "total": 36
         },
         "Shivam Dube": {
           "batting": 14,
@@ -8494,31 +8386,31 @@
           "total": -20
         },
         "Anukul Roy": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 37,
           "fielding": 0,
-          "total": 37
-        },
-        "Varun Chakaravarthy": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "total": 38
         },
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 15,
           "fielding": 8,
           "total": 23
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1994,
-      "top11Points": 2004,
+      "totalPointsAll": 1995,
+      "top11Points": 2005,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8600,12 +8492,12 @@
         {
           "name": "Anukul Roy",
           "role": "All-Rounder",
-          "batting": -5,
+          "batting": -4,
           "bowling": 122,
           "fielding": 26,
-          "rawPoints": 143,
+          "rawPoints": 144,
           "multiplier": 1,
-          "effectivePoints": 143,
+          "effectivePoints": 144,
           "countsInTop11": true
         },
         {
@@ -9632,8 +9524,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2500,
-      "top11Points": 2340,
+      "totalPointsAll": 2508,
+      "top11Points": 2348,
       "players": [
         {
           "name": "Sanju Samson",
@@ -9673,10 +9565,10 @@
           "role": "Batsman",
           "batting": 191,
           "bowling": 0,
-          "fielding": 26,
-          "rawPoints": 217,
+          "fielding": 34,
+          "rawPoints": 225,
           "multiplier": 1,
-          "effectivePoints": 217,
+          "effectivePoints": 225,
           "countsInTop11": true
         },
         {
