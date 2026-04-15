@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T16:44:55.091Z",
+  "lastUpdated": "2026-04-15T16:55:22.039Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 69,
-        "w": 2,
-        "o": 8.2
+        "r": 86,
+        "w": 3,
+        "o": 10.2
       },
       {
         "inning": "Lucknow Super Giants",
@@ -28,10 +28,10 @@
         "total": 16
       },
       "Virat Kohli": {
-        "batting": 59,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 59
+        "total": 57
       },
       "Devdutt Padikkal": {
         "batting": 6,
@@ -40,10 +40,10 @@
         "total": 14
       },
       "Rajat Patidar": {
-        "batting": 1,
+        "batting": 19,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 27
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -108,8 +108,8 @@
       "Nicholas Pooran": {
         "batting": 1,
         "bowling": 0,
-        "fielding": 0,
-        "total": 1
+        "fielding": 8,
+        "total": 9
       },
       "Ayush Badoni": {
         "batting": 49,
@@ -125,15 +125,15 @@
       },
       "Mohammed Shami": {
         "batting": -5,
-        "bowling": 5,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Avesh Khan": {
         "batting": 1,
-        "bowling": 45,
+        "bowling": 70,
         "fielding": 0,
-        "total": 46
+        "total": 71
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -165,19 +165,19 @@
       "top11Points": 1726
     },
     {
+      "team": "Tanay",
+      "totalPointsAll": 1694,
+      "top11Points": 1678
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 1730,
       "top11Points": 1672
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1651,
-      "top11Points": 1635
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 1630,
-      "top11Points": 1630
+      "totalPointsAll": 1640,
+      "top11Points": 1640
     },
     {
       "team": "Manav",
@@ -186,8 +186,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1484,
-      "top11Points": 1498
+      "totalPointsAll": 1474,
+      "top11Points": 1488
     }
   ],
   "matchHistory": [
@@ -8556,9 +8556,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 69,
-          "w": 2,
-          "o": 8.2
+          "r": 86,
+          "w": 3,
+          "o": 10.2
         },
         {
           "inning": "Lucknow Super Giants",
@@ -8719,9 +8719,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 69,
-          "wickets": 2,
-          "overs": 8.2,
+          "runs": 86,
+          "wickets": 3,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Phil Salt",
@@ -8734,12 +8734,12 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 46,
-              "balls": 29,
+              "runs": 49,
+              "balls": 34,
               "fours": 6,
               "sixes": 1,
-              "sr": 158.62,
-              "dismissal": "batting"
+              "sr": 144.12,
+              "dismissal": "c Nicholas Pooran b Avesh Khan"
             },
             {
               "name": "Devdutt Padikkal",
@@ -8752,22 +8752,31 @@
             },
             {
               "name": "Rajat Patidar",
-              "runs": 1,
+              "runs": 15,
+              "balls": 8,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 187.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jitesh Sharma",
+              "runs": 0,
               "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
+              "runs": 30,
               "wickets": 0,
-              "economy": 7.71
+              "economy": 10
             },
             {
               "name": "Prince Yadav",
@@ -8787,11 +8796,19 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
               "runs": 8,
-              "wickets": 1,
-              "economy": 4
+              "wickets": 2,
+              "economy": 3.2
+            },
+            {
+              "name": "George Linde",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 5
             }
           ]
         }
@@ -8804,10 +8821,10 @@
           "total": 16
         },
         "Virat Kohli": {
-          "batting": 59,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 59
+          "total": 57
         },
         "Devdutt Padikkal": {
           "batting": 6,
@@ -8816,10 +8833,10 @@
           "total": 14
         },
         "Rajat Patidar": {
-          "batting": 1,
+          "batting": 19,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 27
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -8884,8 +8901,8 @@
         "Nicholas Pooran": {
           "batting": 1,
           "bowling": 0,
-          "fielding": 0,
-          "total": 1
+          "fielding": 8,
+          "total": 9
         },
         "Ayush Badoni": {
           "batting": 49,
@@ -8901,15 +8918,15 @@
         },
         "Mohammed Shami": {
           "batting": -5,
-          "bowling": 5,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Avesh Khan": {
           "batting": 1,
-          "bowling": 45,
+          "bowling": 70,
           "fielding": 0,
-          "total": 46
+          "total": 71
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -9072,8 +9089,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1484,
-      "top11Points": 1498,
+      "totalPointsAll": 1474,
+      "top11Points": 1488,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -9123,11 +9140,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 12,
-          "bowling": 149,
+          "bowling": 139,
           "fielding": 8,
-          "rawPoints": 169,
+          "rawPoints": 159,
           "multiplier": 1,
-          "effectivePoints": 169,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
@@ -9486,8 +9503,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1630,
-      "top11Points": 1630,
+      "totalPointsAll": 1640,
+      "top11Points": 1640,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -9503,12 +9520,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 321,
+          "batting": 319,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 345,
+          "rawPoints": 343,
           "multiplier": 1,
-          "effectivePoints": 345,
+          "effectivePoints": 343,
           "countsInTop11": true
         },
         {
@@ -9571,10 +9588,10 @@
           "role": "Wicket Keeper",
           "batting": 39,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 39,
+          "fielding": 8,
+          "rawPoints": 47,
           "multiplier": 1.5,
-          "effectivePoints": 59,
+          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -9900,18 +9917,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1651,
-      "top11Points": 1635,
+      "totalPointsAll": 1694,
+      "top11Points": 1678,
       "players": [
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 313,
+          "batting": 331,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 345,
+          "rawPoints": 363,
           "multiplier": 1,
-          "effectivePoints": 345,
+          "effectivePoints": 363,
           "countsInTop11": true
         },
         {
@@ -9962,11 +9979,11 @@
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
-          "bowling": 105,
+          "bowling": 130,
           "fielding": 8,
-          "rawPoints": 120,
+          "rawPoints": 145,
           "multiplier": 1,
-          "effectivePoints": 120,
+          "effectivePoints": 145,
           "countsInTop11": true
         },
         {
