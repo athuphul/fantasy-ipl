@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:25:08.971Z",
+  "lastUpdated": "2026-04-15T14:35:10.227Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 33,
+        "r": 35,
         "w": 1,
-        "o": 4.4
+        "o": 6
       }
     ],
     "playerScores": {
@@ -71,15 +71,15 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Mitchell Marsh": {
-        "batting": 24,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 24
+        "total": 25
       },
       "Aiden Markram": {
         "batting": 14,
@@ -88,10 +88,16 @@
         "total": 14
       },
       "Rishabh Pant": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
+      },
+      "Nicholas Pooran": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -113,13 +119,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1690,
-      "top11Points": 1690
+      "totalPointsAll": 1691,
+      "top11Points": 1691
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1734,
-      "top11Points": 1676
+      "totalPointsAll": 1729,
+      "top11Points": 1671
     },
     {
       "team": "Tanay",
@@ -133,13 +139,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1466,
-      "top11Points": 1466
+      "totalPointsAll": 1468,
+      "top11Points": 1468
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1481,
-      "top11Points": 1408
+      "totalPointsAll": 1501,
+      "top11Points": 1428
     }
   ],
   "matchHistory": [
@@ -8508,25 +8514,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 33,
+          "r": 35,
           "w": 1,
-          "o": 4.4
+          "o": 6
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 33,
+          "runs": 35,
           "wickets": 1,
-          "overs": 4.4,
+          "overs": 6,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 21,
-              "balls": 17,
+              "runs": 22,
+              "balls": 19,
               "fours": 1,
               "sixes": 1,
-              "sr": 123.53,
+              "sr": 115.79,
               "dismissal": "batting"
             },
             {
@@ -8541,10 +8547,19 @@
             {
               "name": "Rishabh Pant",
               "runs": 0,
-              "balls": 1,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
+              "dismissal": "retd hurt"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 1,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 16.67,
               "dismissal": "batting"
             }
           ],
@@ -8559,19 +8574,19 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
               "runs": 6,
               "wickets": 0,
-              "economy": 4.5
+              "economy": 3
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 12,
               "wickets": 1,
-              "economy": 10
+              "economy": 6
             }
           ]
         }
@@ -8633,15 +8648,15 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Mitchell Marsh": {
-          "batting": 24,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 24
+          "total": 25
         },
         "Aiden Markram": {
           "batting": 14,
@@ -8650,10 +8665,16 @@
           "total": 14
         },
         "Rishabh Pant": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
+        },
+        "Nicholas Pooran": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -8948,8 +8969,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1690,
-      "top11Points": 1690,
+      "totalPointsAll": 1691,
+      "top11Points": 1691,
       "players": [
         {
           "name": "KL Rahul",
@@ -9009,12 +9030,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 115,
+          "batting": 116,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 115,
+          "rawPoints": 116,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 116,
           "countsInTop11": true
         },
         {
@@ -9086,8 +9107,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1734,
-      "top11Points": 1676,
+      "totalPointsAll": 1729,
+      "top11Points": 1671,
       "players": [
         {
           "name": "Shubman Gill",
@@ -9112,17 +9133,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Rishabh Pant",
-          "role": "Wicket Keeper",
-          "batting": 133,
-          "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 175,
-          "multiplier": 1,
-          "effectivePoints": 175,
-          "countsInTop11": true
-        },
-        {
           "name": "Priyansh Arya",
           "role": "Opener",
           "batting": 171,
@@ -9131,6 +9141,17 @@
           "rawPoints": 171,
           "multiplier": 1,
           "effectivePoints": 171,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rishabh Pant",
+          "role": "Wicket Keeper",
+          "batting": 128,
+          "bowling": 0,
+          "fielding": 42,
+          "rawPoints": 170,
+          "multiplier": 1,
+          "effectivePoints": 170,
           "countsInTop11": true
         },
         {
@@ -9224,8 +9245,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1466,
-      "top11Points": 1466,
+      "totalPointsAll": 1468,
+      "top11Points": 1468,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -9307,12 +9328,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 38,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 38,
+          "rawPoints": 39,
           "multiplier": 1.5,
-          "effectivePoints": 57,
+          "effectivePoints": 59,
           "countsInTop11": true
         },
         {
@@ -9351,8 +9372,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1481,
-      "top11Points": 1408,
+      "totalPointsAll": 1501,
+      "top11Points": 1428,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9432,6 +9453,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 65,
+          "fielding": 8,
+          "rawPoints": 73,
+          "multiplier": 1,
+          "effectivePoints": 73,
+          "countsInTop11": true
+        },
+        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -9440,17 +9472,6 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 45,
-          "fielding": 8,
-          "rawPoints": 53,
-          "multiplier": 1,
-          "effectivePoints": 53,
           "countsInTop11": true
         },
         {
