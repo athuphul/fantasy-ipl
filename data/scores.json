@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T15:44:53.074Z",
+  "lastUpdated": "2026-04-15T15:54:56.044Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 139,
-        "w": 8,
-        "o": 19
+        "r": 146,
+        "w": 10,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -122,6 +122,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 1
+      },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -8538,17 +8544,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 139,
-          "w": 8,
-          "o": 19
+          "r": 146,
+          "w": 10,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 139,
-          "wickets": 8,
-          "overs": 19,
+          "runs": 146,
+          "wickets": 10,
+          "overs": 20,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -8606,12 +8612,12 @@
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 32,
-              "balls": 25,
+              "runs": 39,
+              "balls": 28,
               "fours": 3,
-              "sixes": 1,
-              "sr": 128,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 139.29,
+              "dismissal": "b Rasikh Salam Dar"
             },
             {
               "name": "George Linde",
@@ -8634,21 +8640,30 @@
             {
               "name": "Avesh Khan",
               "runs": 1,
-              "balls": 1,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 50,
+              "dismissal": "b Rasikh Salam Dar"
+            },
+            {
+              "name": "Digvesh Rathi",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 26,
+              "runs": 27,
               "wickets": 3,
-              "economy": 6.78
+              "economy": 6.75
             },
             {
               "name": "Josh Hazlewood",
@@ -8660,10 +8675,10 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 2,
+              "runs": 24,
+              "wickets": 4,
               "economy": 6
             },
             {
@@ -8793,6 +8808,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 1
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
