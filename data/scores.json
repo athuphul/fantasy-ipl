@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T15:54:56.044Z",
+  "lastUpdated": "2026-04-15T16:06:03.060Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "M.Chinnaswamy Stadium, Bengaluru",
     "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 4,
+        "w": 0,
+        "o": 0.4
+      },
       {
         "inning": "Lucknow Super Giants",
         "r": 146,
@@ -16,10 +22,16 @@
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 13
+      },
+      "Virat Kohli": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Devdutt Padikkal": {
         "batting": 0,
@@ -159,8 +171,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1597,
-      "top11Points": 1581
+      "totalPointsAll": 1602,
+      "top11Points": 1586
     },
     {
       "team": "Kishan",
@@ -8543,6 +8555,12 @@
       "venue": "M.Chinnaswamy Stadium, Bengaluru",
       "score": [
         {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 4,
+          "w": 0,
+          "o": 0.4
+        },
+        {
           "inning": "Lucknow Super Giants",
           "r": 146,
           "w": 10,
@@ -8698,14 +8716,56 @@
               "economy": 8.5
             }
           ]
+        },
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 4,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Phil Salt",
+              "runs": 4,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 8
+            }
+          ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 13
+        },
+        "Virat Kohli": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Devdutt Padikkal": {
           "batting": 0,
@@ -9798,8 +9858,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1597,
-      "top11Points": 1581,
+      "totalPointsAll": 1602,
+      "top11Points": 1586,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -9837,12 +9897,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 184,
+          "batting": 189,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 224,
+          "rawPoints": 229,
           "multiplier": 1,
-          "effectivePoints": 224,
+          "effectivePoints": 229,
           "countsInTop11": true
         },
         {
