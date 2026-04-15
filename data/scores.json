@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T16:06:03.060Z",
+  "lastUpdated": "2026-04-15T16:14:53.438Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 4,
-        "w": 0,
-        "o": 0.4
+        "r": 25,
+        "w": 1,
+        "o": 2.3
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,22 +22,22 @@
     ],
     "playerScores": {
       "Phil Salt": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 16
+      },
+      "Virat Kohli": {
+        "batting": 12,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 12
+      },
+      "Devdutt Padikkal": {
         "batting": 5,
         "bowling": 0,
         "fielding": 8,
         "total": 13
-      },
-      "Virat Kohli": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Devdutt Padikkal": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -171,13 +171,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1602,
-      "top11Points": 1586
+      "totalPointsAll": 1605,
+      "top11Points": 1589
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1565,
-      "top11Points": 1565
+      "totalPointsAll": 1582,
+      "top11Points": 1582
     },
     {
       "team": "Manav",
@@ -8556,9 +8556,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 4,
-          "w": 0,
-          "o": 0.4
+          "r": 25,
+          "w": 1,
+          "o": 2.3
         },
         {
           "inning": "Lucknow Super Giants",
@@ -8719,59 +8719,76 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 4,
-          "wickets": 0,
-          "overs": 0.4,
+          "runs": 25,
+          "wickets": 1,
+          "overs": 2.3,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 4,
-              "balls": 3,
+              "runs": 7,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 133.33,
-              "dismissal": "batting"
+              "sr": 87.5,
+              "dismissal": "b Prince Yadav"
             },
             {
               "name": "Virat Kohli",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 10,
+              "balls": 5,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 0.3,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 4,
+              "runs": 14,
               "wickets": 0,
-              "economy": 8
+              "economy": 9.33
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 16
+        },
+        "Virat Kohli": {
+          "batting": 12,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 12
+        },
+        "Devdutt Padikkal": {
           "batting": 5,
           "bowling": 0,
           "fielding": 8,
           "total": 13
-        },
-        "Virat Kohli": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Devdutt Padikkal": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -9444,8 +9461,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1565,
-      "top11Points": 1565,
+      "totalPointsAll": 1582,
+      "top11Points": 1582,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -9461,23 +9478,23 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 262,
+          "batting": 274,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 286,
+          "rawPoints": 298,
           "multiplier": 1,
-          "effectivePoints": 286,
+          "effectivePoints": 298,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 192,
+          "batting": 197,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 240,
+          "rawPoints": 245,
           "multiplier": 1,
-          "effectivePoints": 240,
+          "effectivePoints": 245,
           "countsInTop11": true
         },
         {
@@ -9858,8 +9875,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1602,
-      "top11Points": 1586,
+      "totalPointsAll": 1605,
+      "top11Points": 1589,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -9897,12 +9914,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 189,
+          "batting": 192,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 229,
+          "rawPoints": 232,
           "multiplier": 1,
-          "effectivePoints": 229,
+          "effectivePoints": 232,
           "countsInTop11": true
         },
         {
