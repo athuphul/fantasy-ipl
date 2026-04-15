@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T15:14:54.530Z",
+  "lastUpdated": "2026-04-15T15:24:53.042Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 105,
-        "w": 4,
-        "o": 14.2
+        "r": 118,
+        "w": 5,
+        "o": 15.5
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Jitesh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Tim David": {
         "batting": 0,
@@ -100,10 +100,10 @@
         "total": 1
       },
       "Ayush Badoni": {
-        "batting": 41,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": 49
       },
       "Abdul Samad": {
         "batting": -5,
@@ -120,14 +120,14 @@
       "top11Points": 2348
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 2044,
+      "top11Points": 2054
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 2053,
       "top11Points": 2053
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 2036,
-      "top11Points": 2046
     },
     {
       "team": "Ali",
@@ -146,8 +146,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1576,
-      "top11Points": 1503
+      "totalPointsAll": 1584,
+      "top11Points": 1511
     },
     {
       "team": "Aakash",
@@ -8526,17 +8526,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 105,
-          "w": 4,
-          "o": 14.2
+          "r": 118,
+          "w": 5,
+          "o": 15.5
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 105,
-          "wickets": 4,
-          "overs": 14.2,
+          "runs": 118,
+          "wickets": 5,
+          "overs": 15.5,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -8576,12 +8576,12 @@
             },
             {
               "name": "Ayush Badoni",
-              "runs": 31,
-              "balls": 19,
-              "fours": 3,
+              "runs": 38,
+              "balls": 24,
+              "fours": 4,
               "sixes": 1,
-              "sr": 163.16,
-              "dismissal": "batting"
+              "sr": 158.33,
+              "dismissal": "c Jitesh Sharma b Rasikh Salam Dar"
             },
             {
               "name": "Abdul Samad",
@@ -8594,11 +8594,11 @@
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 18,
-              "balls": 15,
-              "fours": 2,
+              "runs": 24,
+              "balls": 19,
+              "fours": 3,
               "sixes": 1,
-              "sr": 120,
+              "sr": 126.32,
               "dismissal": "batting"
             }
           ],
@@ -8621,11 +8621,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 1,
-              "economy": 6
+              "runs": 18,
+              "wickets": 2,
+              "economy": 6.35
             },
             {
               "name": "Krunal Pandya",
@@ -8637,11 +8637,11 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 34,
               "wickets": 0,
-              "economy": 8.1
+              "economy": 8.5
             }
           ]
         }
@@ -8668,8 +8668,8 @@
         "Jitesh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Tim David": {
           "batting": 0,
@@ -8732,10 +8732,10 @@
           "total": 1
         },
         "Ayush Badoni": {
-          "batting": 41,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": 49
         },
         "Abdul Samad": {
           "batting": -5,
@@ -8749,8 +8749,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2036,
-      "top11Points": 2046,
+      "totalPointsAll": 2044,
+      "top11Points": 2054,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8843,12 +8843,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 134,
+          "batting": 142,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 134,
+          "rawPoints": 142,
           "multiplier": 1,
-          "effectivePoints": 134,
+          "effectivePoints": 142,
           "countsInTop11": true
         },
         {
@@ -9439,8 +9439,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1576,
-      "top11Points": 1503,
+      "totalPointsAll": 1584,
+      "top11Points": 1511,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9546,10 +9546,10 @@
           "role": "Wicket Keeper",
           "batting": 11,
           "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 45,
+          "fielding": 42,
+          "rawPoints": 53,
           "multiplier": 1,
-          "effectivePoints": 45,
+          "effectivePoints": 53,
           "countsInTop11": true
         },
         {
