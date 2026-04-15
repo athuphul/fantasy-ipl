@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:35:10.227Z",
+  "lastUpdated": "2026-04-15T14:44:56.318Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529266",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 35,
-        "w": 1,
-        "o": 6
+        "r": 49,
+        "w": 2,
+        "o": 7.4
       }
     ],
     "playerScores": {
@@ -71,15 +71,15 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 45,
         "fielding": 0,
-        "total": 20
+        "total": 45
       },
       "Mitchell Marsh": {
-        "batting": 25,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 25
+        "total": 31
       },
       "Aiden Markram": {
         "batting": 14,
@@ -98,6 +98,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 1
+      },
+      "Ayush Badoni": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
       }
     }
   },
@@ -114,13 +120,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 1995,
-      "top11Points": 2005
+      "totalPointsAll": 2002,
+      "top11Points": 2012
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1691,
-      "top11Points": 1691
+      "totalPointsAll": 1697,
+      "top11Points": 1697
     },
     {
       "team": "Ashwin",
@@ -144,8 +150,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1501,
-      "top11Points": 1428
+      "totalPointsAll": 1526,
+      "top11Points": 1453
     }
   ],
   "matchHistory": [
@@ -8514,25 +8520,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 35,
-          "w": 1,
-          "o": 6
+          "r": 49,
+          "w": 2,
+          "o": 7.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 35,
-          "wickets": 1,
-          "overs": 6,
+          "runs": 49,
+          "wickets": 2,
+          "overs": 7.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 22,
-              "balls": 19,
-              "fours": 1,
+              "runs": 27,
+              "balls": 25,
+              "fours": 2,
               "sixes": 1,
-              "sr": 115.79,
+              "sr": 108,
               "dismissal": "batting"
             },
             {
@@ -8556,10 +8562,19 @@
             {
               "name": "Nicholas Pooran",
               "runs": 1,
-              "balls": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 16.67,
+              "sr": 14.29,
+              "dismissal": "b Josh Hazlewood"
+            },
+            {
+              "name": "Ayush Badoni",
+              "runs": 6,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
@@ -8574,11 +8589,11 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 3
+              "runs": 10,
+              "wickets": 1,
+              "economy": 3.33
             },
             {
               "name": "Rasikh Salam Dar",
@@ -8587,6 +8602,14 @@
               "runs": 12,
               "wickets": 1,
               "economy": 6
+            },
+            {
+              "name": "Krunal Pandya",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 10.8
             }
           ]
         }
@@ -8648,15 +8671,15 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 45,
           "fielding": 0,
-          "total": 20
+          "total": 45
         },
         "Mitchell Marsh": {
-          "batting": 25,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 25
+          "total": 31
         },
         "Aiden Markram": {
           "batting": 14,
@@ -8675,6 +8698,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 1
+        },
+        "Ayush Badoni": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
         }
       },
       "isComplete": false
@@ -8682,8 +8711,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 1995,
-      "top11Points": 2005,
+      "totalPointsAll": 2002,
+      "top11Points": 2012,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -8787,12 +8816,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 93,
+          "batting": 100,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 93,
+          "rawPoints": 100,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 100,
           "countsInTop11": true
         },
         {
@@ -8969,8 +8998,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1691,
-      "top11Points": 1691,
+      "totalPointsAll": 1697,
+      "top11Points": 1697,
       "players": [
         {
           "name": "KL Rahul",
@@ -9030,12 +9059,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 116,
+          "batting": 122,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 116,
+          "rawPoints": 122,
           "multiplier": 1,
-          "effectivePoints": 116,
+          "effectivePoints": 122,
           "countsInTop11": true
         },
         {
@@ -9372,8 +9401,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1501,
-      "top11Points": 1428,
+      "totalPointsAll": 1526,
+      "top11Points": 1453,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9442,6 +9471,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 90,
+          "fielding": 8,
+          "rawPoints": 98,
+          "multiplier": 1,
+          "effectivePoints": 98,
+          "countsInTop11": true
+        },
+        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 48,
@@ -9450,17 +9490,6 @@
           "rawPoints": 88,
           "multiplier": 1,
           "effectivePoints": 88,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 65,
-          "fielding": 8,
-          "rawPoints": 73,
-          "multiplier": 1,
-          "effectivePoints": 73,
           "countsInTop11": true
         },
         {
