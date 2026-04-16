@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T14:55:04.901Z",
+  "lastUpdated": "2026-04-16T15:04:57.424Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 97,
+        "r": 128,
         "w": 2,
-        "o": 10
+        "o": 12.3
       }
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 81,
+        "batting": 106,
         "bowling": 0,
         "fielding": 0,
-        "total": 81
+        "total": 106
       },
       "Suryakumar Yadav": {
         "batting": -5,
@@ -99,6 +99,11 @@
       "top11Points": 1736
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 1789,
+      "top11Points": 1716
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 1724,
       "top11Points": 1708
@@ -107,11 +112,6 @@
       "team": "Ashwin",
       "totalPointsAll": 1755,
       "top11Points": 1697
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 1764,
-      "top11Points": 1691
     },
     {
       "team": "Kishan",
@@ -8898,17 +8898,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 97,
+          "r": 128,
           "w": 2,
-          "o": 10
+          "o": 12.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 97,
+          "runs": 128,
           "wickets": 2,
-          "overs": 10,
+          "overs": 12.3,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -8921,11 +8921,11 @@
             },
             {
               "name": "Quinton de Kock",
-              "runs": 51,
-              "balls": 29,
-              "fours": 4,
-              "sixes": 3,
-              "sr": 175.86,
+              "runs": 71,
+              "balls": 38,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 186.84,
               "dismissal": "batting"
             },
             {
@@ -8939,11 +8939,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 38,
-              "balls": 22,
+              "runs": 46,
+              "balls": 25,
               "fours": 3,
-              "sixes": 2,
-              "sr": 172.73,
+              "sixes": 3,
+              "sr": 184,
               "dismissal": "batting"
             }
           ],
@@ -8966,11 +8966,11 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 30,
               "wickets": 0,
-              "economy": 8.5
+              "economy": 10
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -8982,9 +8982,9 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
+              "runs": 45,
               "wickets": 0,
               "economy": 15
             }
@@ -8993,10 +8993,10 @@
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 81,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "total": 81
+          "total": 106
         },
         "Suryakumar Yadav": {
           "batting": -5,
@@ -9748,8 +9748,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1764,
-      "top11Points": 1691,
+      "totalPointsAll": 1789,
+      "top11Points": 1716,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9818,6 +9818,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Quinton de Kock",
+          "role": "Opener",
+          "batting": 106,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 106,
+          "multiplier": 1,
+          "effectivePoints": 106,
+          "countsInTop11": true
+        },
+        {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
           "batting": 55,
@@ -9859,17 +9870,6 @@
           "rawPoints": 82,
           "multiplier": 1,
           "effectivePoints": 82,
-          "countsInTop11": true
-        },
-        {
-          "name": "Quinton de Kock",
-          "role": "Opener",
-          "batting": 81,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 81,
-          "multiplier": 1,
-          "effectivePoints": 81,
           "countsInTop11": true
         },
         {
