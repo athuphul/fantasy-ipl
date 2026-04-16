@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T14:05:05.113Z",
+  "lastUpdated": "2026-04-16T14:14:59.445Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -9,17 +9,23 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 1,
-        "w": 0,
-        "o": 1
+        "r": 14,
+        "w": 2,
+        "o": 2.4
       }
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 8
+      },
+      "Suryakumar Yadav": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       },
       "Priyansh Arya": {
         "batting": 0,
@@ -42,8 +48,8 @@
       "Shashank Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -59,15 +65,15 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "Yuzvendra Chahal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       }
     }
   },
@@ -78,14 +84,14 @@
       "top11Points": 2348
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 2044,
-      "top11Points": 2054
-    },
-    {
       "team": "Ritik",
       "totalPointsAll": 2053,
       "top11Points": 2053
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 2034,
+      "top11Points": 2044
     },
     {
       "team": "Ali",
@@ -99,8 +105,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 1747,
-      "top11Points": 1689
+      "totalPointsAll": 1755,
+      "top11Points": 1697
     },
     {
       "team": "Kishan",
@@ -109,13 +115,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1613,
-      "top11Points": 1540
+      "totalPointsAll": 1671,
+      "top11Points": 1598
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1474,
-      "top11Points": 1488
+      "totalPointsAll": 1482,
+      "top11Points": 1496
     }
   ],
   "matchHistory": [
@@ -8892,31 +8898,49 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 1,
-          "w": 0,
-          "o": 1
+          "r": 14,
+          "w": 2,
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 1,
-          "wickets": 0,
-          "overs": 1,
+          "runs": 14,
+          "wickets": 2,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 1,
-              "balls": 6,
+              "runs": 2,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 16.67,
-              "dismissal": "batting"
+              "sr": 25,
+              "dismissal": "c Shashank Singh b Arshdeep Singh"
             },
             {
               "name": "Quinton de Kock",
+              "runs": 6,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 120,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Suryakumar Yadav",
               "runs": 0,
-              "balls": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Yuzvendra Chahal b Arshdeep Singh"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -8926,21 +8950,35 @@
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
               "runs": 1,
+              "wickets": 2,
+              "economy": 0.67
+            },
+            {
+              "name": "Marco Jansen",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
               "wickets": 0,
-              "economy": 1
+              "economy": 7
             }
           ]
         }
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 8
+        },
+        "Suryakumar Yadav": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         },
         "Priyansh Arya": {
           "batting": 0,
@@ -8963,8 +9001,8 @@
         "Shashank Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -8980,15 +9018,15 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "Yuzvendra Chahal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         }
       },
       "isComplete": false
@@ -8996,8 +9034,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2044,
-      "top11Points": 2054,
+      "totalPointsAll": 2034,
+      "top11Points": 2044,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9013,12 +9051,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 138,
+          "batting": 133,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 146,
+          "rawPoints": 141,
           "multiplier": 2,
-          "effectivePoints": 292,
+          "effectivePoints": 282,
           "countsInTop11": true
         },
         {
@@ -9145,8 +9183,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1474,
-      "top11Points": 1488,
+      "totalPointsAll": 1482,
+      "top11Points": 1496,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -9208,10 +9246,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 94,
-          "fielding": 8,
-          "rawPoints": 102,
+          "fielding": 16,
+          "rawPoints": 110,
           "multiplier": 1,
-          "effectivePoints": 102,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
@@ -9421,8 +9459,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1747,
-      "top11Points": 1689,
+      "totalPointsAll": 1755,
+      "top11Points": 1697,
       "players": [
         {
           "name": "Shubman Gill",
@@ -9495,10 +9533,10 @@
           "role": "Batsman",
           "batting": 39,
           "bowling": 62,
-          "fielding": 0,
-          "rawPoints": 101,
+          "fielding": 8,
+          "rawPoints": 109,
           "multiplier": 1,
-          "effectivePoints": 101,
+          "effectivePoints": 109,
           "countsInTop11": true
         },
         {
@@ -9686,8 +9724,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1613,
-      "top11Points": 1540,
+      "totalPointsAll": 1671,
+      "top11Points": 1598,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9745,6 +9783,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 85,
+          "fielding": 24,
+          "rawPoints": 109,
+          "multiplier": 1,
+          "effectivePoints": 109,
+          "countsInTop11": true
+        },
+        {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
           "batting": 55,
@@ -9789,17 +9838,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 35,
-          "fielding": 24,
-          "rawPoints": 59,
-          "multiplier": 1,
-          "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 7,
@@ -9824,12 +9862,12 @@
         {
           "name": "Quinton de Kock",
           "role": "Opener",
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 8,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 8,
           "countsInTop11": true
         },
         {
