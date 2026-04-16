@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T14:24:57.518Z",
+  "lastUpdated": "2026-04-16T14:34:56.105Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 32,
+        "r": 65,
         "w": 2,
-        "o": 4.5
+        "o": 6.4
       }
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 18,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 36
       },
       "Suryakumar Yadav": {
         "batting": -5,
@@ -59,9 +59,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -80,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2508,
-      "top11Points": 2348
+      "totalPointsAll": 2513,
+      "top11Points": 2353
     },
     {
       "team": "Ritik",
@@ -109,14 +109,14 @@
       "top11Points": 1697
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 1719,
+      "top11Points": 1646
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 1640,
       "top11Points": 1640
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 1701,
-      "top11Points": 1628
     },
     {
       "team": "Aakash",
@@ -8898,17 +8898,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 32,
+          "r": 65,
           "w": 2,
-          "o": 4.5
+          "o": 6.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 32,
+          "runs": 65,
           "wickets": 2,
-          "overs": 4.5,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -8921,11 +8921,11 @@
             },
             {
               "name": "Quinton de Kock",
-              "runs": 15,
-              "balls": 11,
+              "runs": 21,
+              "balls": 12,
               "fours": 1,
-              "sixes": 1,
-              "sr": 136.36,
+              "sixes": 2,
+              "sr": 175,
               "dismissal": "batting"
             },
             {
@@ -8939,11 +8939,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 11,
-              "balls": 9,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 122.22,
+              "runs": 34,
+              "balls": 18,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 188.89,
               "dismissal": "batting"
             }
           ],
@@ -8958,11 +8958,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
+              "runs": 15,
               "wickets": 0,
-              "economy": 7.64
+              "economy": 7.5
             },
             {
               "name": "Xavier Bartlett",
@@ -8971,16 +8971,32 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Vijaykumar Vyshak",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Yuzvendra Chahal",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 26
             }
           ]
         }
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 18,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 36
         },
         "Suryakumar Yadav": {
           "batting": -5,
@@ -9020,9 +9036,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -9732,8 +9748,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1701,
-      "top11Points": 1628,
+      "totalPointsAll": 1719,
+      "top11Points": 1646,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9857,6 +9873,17 @@
           "countsInTop11": false
         },
         {
+          "name": "Quinton de Kock",
+          "role": "Opener",
+          "batting": 36,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 36,
+          "multiplier": 1,
+          "effectivePoints": 36,
+          "countsInTop11": true
+        },
+        {
           "name": "Kumar Kushagra",
           "role": "Wicket Keeper",
           "batting": 21,
@@ -9866,17 +9893,6 @@
           "multiplier": 1,
           "effectivePoints": 29,
           "countsInTop11": false
-        },
-        {
-          "name": "Quinton de Kock",
-          "role": "Opener",
-          "batting": 18,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 18,
-          "multiplier": 1,
-          "effectivePoints": 18,
-          "countsInTop11": true
         },
         {
           "name": "Sai Kishore",
@@ -10157,8 +10173,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2508,
-      "top11Points": 2348,
+      "totalPointsAll": 2513,
+      "top11Points": 2353,
       "players": [
         {
           "name": "Sanju Samson",
@@ -10274,11 +10290,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 6,
-          "bowling": 60,
+          "bowling": 65,
           "fielding": 16,
-          "rawPoints": 82,
+          "rawPoints": 87,
           "multiplier": 1,
-          "effectivePoints": 82,
+          "effectivePoints": 87,
           "countsInTop11": true
         },
         {
