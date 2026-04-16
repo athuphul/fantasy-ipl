@@ -1,118 +1,7 @@
 {
-  "lastUpdated": "2026-04-16T17:24:53.312Z",
+  "lastUpdated": "2026-04-16T17:34:55.485Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529267",
-    "name": "Mumbai Indians v Punjab Kings",
-    "status": "Live",
-    "venue": "Wankhede Stadium, Mumbai",
-    "score": [
-      {
-        "inning": "Mumbai Indians",
-        "r": 195,
-        "w": 6,
-        "o": 20
-      },
-      {
-        "inning": "Punjab Kings",
-        "r": 185,
-        "w": 3,
-        "o": 15.3
-      }
-    ],
-    "playerScores": {
-      "Quinton de Kock": {
-        "batting": 184,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 192
-      },
-      "Suryakumar Yadav": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Hardik Pandya": {
-        "batting": 16,
-        "bowling": -10,
-        "fielding": 0,
-        "total": 6
-      },
-      "Tilak Varma": {
-        "batting": 10,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 10
-      },
-      "Shardul Thakur": {
-        "batting": 0,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 10
-      },
-      "Deepak Chahar": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 8,
-        "total": -7
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Priyansh Arya": {
-        "batting": 19,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 19
-      },
-      "Prabhsimran Singh": {
-        "batting": 119,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 119
-      },
-      "Shreyas Iyer": {
-        "batting": 99,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 99
-      },
-      "Marcus Stoinis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Shashank Singh": {
-        "batting": 0,
-        "bowling": 25,
-        "fielding": 8,
-        "total": 33
-      },
-      "Marco Jansen": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 105,
-        "fielding": 0,
-        "total": 105
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 8,
-        "total": -7
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -121,8 +10,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2167,
-      "top11Points": 2167
+      "totalPointsAll": 2168,
+      "top11Points": 2168
     },
     {
       "team": "Athu",
@@ -151,8 +40,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1650,
-      "top11Points": 1650
+      "totalPointsAll": 1657,
+      "top11Points": 1657
     },
     {
       "team": "Aakash",
@@ -8929,7 +8818,7 @@
       "matchId": "espn_1529267",
       "name": "Mumbai Indians v Punjab Kings",
       "date": "2026-04-16",
-      "status": "Live",
+      "status": "Final",
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
@@ -8940,9 +8829,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 185,
+          "r": 198,
           "w": 3,
-          "o": 15.3
+          "o": 16.3
         }
       ],
       "scorecard": [
@@ -9078,9 +8967,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 185,
+          "runs": 198,
           "wickets": 3,
-          "overs": 15.3,
+          "overs": 16.3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -9093,11 +8982,11 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 79,
-              "balls": 38,
+              "runs": 80,
+              "balls": 39,
               "fours": 11,
               "sixes": 2,
-              "sr": 207.89,
+              "sr": 205.13,
               "dismissal": "batting"
             },
             {
@@ -9120,22 +9009,22 @@
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 6,
+              "balls": 4,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 35,
+              "runs": 41,
               "wickets": 0,
-              "economy": 17.5
+              "economy": 17.57
             },
             {
               "name": "Jasprit Bumrah",
@@ -9163,11 +9052,11 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 39,
+              "runs": 42,
               "wickets": 1,
-              "economy": 15.6
+              "economy": 14
             }
           ]
         }
@@ -9222,10 +9111,10 @@
           "total": 19
         },
         "Prabhsimran Singh": {
-          "batting": 119,
+          "batting": 120,
           "bowling": 0,
           "fielding": 0,
-          "total": 119
+          "total": 120
         },
         "Shreyas Iyer": {
           "batting": 99,
@@ -9234,10 +9123,10 @@
           "total": 99
         },
         "Marcus Stoinis": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 7
         },
         "Shashank Singh": {
           "batting": 0,
@@ -9264,7 +9153,7 @@
           "total": -7
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -9832,8 +9721,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1650,
-      "top11Points": 1650,
+      "totalPointsAll": 1657,
+      "top11Points": 1657,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -9926,12 +9815,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 6,
+          "batting": 13,
           "bowling": 0,
           "fielding": 10,
-          "rawPoints": 16,
+          "rawPoints": 23,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 23,
           "countsInTop11": true
         },
         {
@@ -10119,8 +10008,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2167,
-      "top11Points": 2167,
+      "totalPointsAll": 2168,
+      "top11Points": 2168,
       "players": [
         {
           "name": "Jos Buttler",
@@ -10147,12 +10036,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 309,
+          "batting": 310,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 338,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 338,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
