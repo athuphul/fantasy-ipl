@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T14:45:06.953Z",
+  "lastUpdated": "2026-04-16T14:55:04.901Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 74,
+        "r": 97,
         "w": 2,
-        "o": 8
+        "o": 10
       }
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 42,
+        "batting": 81,
         "bowling": 0,
         "fielding": 0,
-        "total": 42
+        "total": 81
       },
       "Suryakumar Yadav": {
         "batting": -5,
@@ -71,9 +71,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 8,
-        "total": 8
+        "total": -7
       }
     }
   },
@@ -110,8 +110,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1725,
-      "top11Points": 1652
+      "totalPointsAll": 1764,
+      "top11Points": 1691
     },
     {
       "team": "Kishan",
@@ -120,8 +120,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1482,
-      "top11Points": 1496
+      "totalPointsAll": 1467,
+      "top11Points": 1481
     }
   ],
   "matchHistory": [
@@ -8898,17 +8898,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 74,
+          "r": 97,
           "w": 2,
-          "o": 8
+          "o": 10
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 74,
+          "runs": 97,
           "wickets": 2,
-          "overs": 8,
+          "overs": 10,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -8921,11 +8921,11 @@
             },
             {
               "name": "Quinton de Kock",
-              "runs": 31,
-              "balls": 19,
-              "fours": 2,
-              "sixes": 2,
-              "sr": 163.16,
+              "runs": 51,
+              "balls": 29,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 175.86,
               "dismissal": "batting"
             },
             {
@@ -8939,11 +8939,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 36,
-              "balls": 20,
+              "runs": 38,
+              "balls": 22,
               "fours": 3,
               "sixes": 2,
-              "sr": 180,
+              "sr": 172.73,
               "dismissal": "batting"
             }
           ],
@@ -8974,29 +8974,29 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 27,
               "wickets": 0,
-              "economy": 15
+              "economy": 13.5
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 19,
+              "runs": 30,
               "wickets": 0,
-              "economy": 19
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 42,
+          "batting": 81,
           "bowling": 0,
           "fielding": 0,
-          "total": 42
+          "total": 81
         },
         "Suryakumar Yadav": {
           "batting": -5,
@@ -9048,9 +9048,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 8,
-          "total": 8
+          "total": -7
         }
       },
       "isComplete": false
@@ -9207,8 +9207,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1482,
-      "top11Points": 1496,
+      "totalPointsAll": 1467,
+      "top11Points": 1481,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -9269,11 +9269,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 94,
+          "bowling": 79,
           "fielding": 16,
-          "rawPoints": 110,
+          "rawPoints": 95,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 95,
           "countsInTop11": true
         },
         {
@@ -9748,8 +9748,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1725,
-      "top11Points": 1652,
+      "totalPointsAll": 1764,
+      "top11Points": 1691,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9862,6 +9862,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Quinton de Kock",
+          "role": "Opener",
+          "batting": 81,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 81,
+          "multiplier": 1,
+          "effectivePoints": 81,
+          "countsInTop11": true
+        },
+        {
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 7,
@@ -9871,17 +9882,6 @@
           "multiplier": 1,
           "effectivePoints": 44,
           "countsInTop11": false
-        },
-        {
-          "name": "Quinton de Kock",
-          "role": "Opener",
-          "batting": 42,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 42,
-          "multiplier": 1,
-          "effectivePoints": 42,
-          "countsInTop11": true
         },
         {
           "name": "Kumar Kushagra",
