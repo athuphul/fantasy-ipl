@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T16:35:07.034Z",
+  "lastUpdated": "2026-04-16T16:45:07.080Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 62,
+        "r": 85,
         "w": 2,
-        "o": 6.1
+        "o": 8.3
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 8,
-        "total": 8
+        "total": -7
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -70,16 +70,16 @@
         "total": 19
       },
       "Prabhsimran Singh": {
-        "batting": 19,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 54
       },
       "Shreyas Iyer": {
-        "batting": 14,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 17
       },
       "Shashank Singh": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2084,
-      "top11Points": 2084
+      "totalPointsAll": 2119,
+      "top11Points": 2119
     },
     {
       "team": "Athu",
@@ -131,13 +131,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1918,
+      "totalPointsAll": 1903,
       "top11Points": 1837
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1750,
-      "top11Points": 1750
+      "totalPointsAll": 1753,
+      "top11Points": 1753
     },
     {
       "team": "Ashwin",
@@ -8940,9 +8940,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 62,
+          "r": 85,
           "w": 2,
-          "o": 6.1
+          "o": 8.3
         }
       ],
       "scorecard": [
@@ -9078,9 +9078,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 62,
+          "runs": 85,
           "wickets": 2,
-          "overs": 6.1,
+          "overs": 8.3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -9093,11 +9093,11 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 16,
-              "balls": 9,
-              "fours": 3,
-              "sixes": 0,
-              "sr": 177.78,
+              "runs": 33,
+              "balls": 16,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 206.25,
               "dismissal": "batting"
             },
             {
@@ -9111,22 +9111,22 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 12,
-              "balls": 6,
+              "runs": 15,
+              "balls": 12,
               "fours": 2,
               "sixes": 0,
-              "sr": 200,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
+              "runs": 35,
               "wickets": 0,
-              "economy": 21
+              "economy": 17.5
             },
             {
               "name": "Jasprit Bumrah",
@@ -9138,11 +9138,11 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
               "runs": 14,
               "wickets": 2,
-              "economy": 7
+              "economy": 6.46
             },
             {
               "name": "Hardik Pandya",
@@ -9151,6 +9151,14 @@
               "runs": 12,
               "wickets": 0,
               "economy": 12
+            },
+            {
+              "name": "Shardul Thakur",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -9188,9 +9196,9 @@
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 8,
-          "total": 8
+          "total": -7
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -9205,16 +9213,16 @@
           "total": 19
         },
         "Prabhsimran Singh": {
-          "batting": 19,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 54
         },
         "Shreyas Iyer": {
-          "batting": 14,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 17
         },
         "Shashank Singh": {
           "batting": 0,
@@ -9539,8 +9547,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1750,
-      "top11Points": 1750,
+      "totalPointsAll": 1753,
+      "top11Points": 1753,
       "players": [
         {
           "name": "KL Rahul",
@@ -9565,6 +9573,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shreyas Iyer",
+          "role": "Batsman",
+          "batting": 228,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 236,
+          "multiplier": 1,
+          "effectivePoints": 236,
+          "countsInTop11": true
+        },
+        {
           "name": "Tim David",
           "role": "Batsman",
           "batting": 227,
@@ -9573,17 +9592,6 @@
           "rawPoints": 235,
           "multiplier": 1,
           "effectivePoints": 235,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shreyas Iyer",
-          "role": "Batsman",
-          "batting": 225,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 233,
-          "multiplier": 1,
-          "effectivePoints": 233,
           "countsInTop11": true
         },
         {
@@ -9942,7 +9950,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1918,
+      "totalPointsAll": 1903,
       "top11Points": 1837,
       "players": [
         {
@@ -10070,11 +10078,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 7,
-          "bowling": 37,
+          "bowling": 22,
           "fielding": 8,
-          "rawPoints": 52,
+          "rawPoints": 37,
           "multiplier": 1,
-          "effectivePoints": 52,
+          "effectivePoints": 37,
           "countsInTop11": false
         },
         {
@@ -10102,8 +10110,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2084,
-      "top11Points": 2084,
+      "totalPointsAll": 2119,
+      "top11Points": 2119,
       "players": [
         {
           "name": "Jos Buttler",
@@ -10128,6 +10136,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 244,
+          "bowling": 0,
+          "fielding": 29,
+          "rawPoints": 273,
+          "multiplier": 1,
+          "effectivePoints": 273,
+          "countsInTop11": true
+        },
+        {
           "name": "Riyan Parag",
           "role": "Batsman",
           "batting": 75,
@@ -10136,17 +10155,6 @@
           "rawPoints": 133,
           "multiplier": 2,
           "effectivePoints": 266,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": 209,
-          "bowling": 0,
-          "fielding": 29,
-          "rawPoints": 238,
-          "multiplier": 1,
-          "effectivePoints": 238,
           "countsInTop11": true
         },
         {
