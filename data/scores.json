@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T15:25:06.921Z",
+  "lastUpdated": "2026-04-16T15:35:01.345Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529267",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 160,
-        "w": 3,
-        "o": 16
+        "r": 175,
+        "w": 4,
+        "o": 17.4
       }
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 135,
+        "batting": 172,
         "bowling": 0,
         "fielding": 0,
-        "total": 135
+        "total": 172
       },
       "Suryakumar Yadav": {
         "batting": -5,
@@ -28,10 +28,10 @@
         "total": -5
       },
       "Hardik Pandya": {
-        "batting": 5,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 16
       },
       "Priyansh Arya": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 30,
         "fielding": 0,
-        "total": 5
+        "total": 30
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -86,8 +86,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2513,
-      "top11Points": 2353
+      "totalPointsAll": 2538,
+      "top11Points": 2378
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 2050,
+      "top11Points": 2060
     },
     {
       "team": "Ritik",
@@ -95,14 +100,9 @@
       "top11Points": 2053
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 2039,
-      "top11Points": 2049
-    },
-    {
       "team": "Manav",
-      "totalPointsAll": 1818,
-      "top11Points": 1745
+      "totalPointsAll": 1855,
+      "top11Points": 1782
     },
     {
       "team": "Ali",
@@ -8904,17 +8904,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 160,
-          "w": 3,
-          "o": 16
+          "r": 175,
+          "w": 4,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 160,
-          "wickets": 3,
-          "overs": 16,
+          "runs": 175,
+          "wickets": 4,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -8927,11 +8927,11 @@
             },
             {
               "name": "Quinton de Kock",
-              "runs": 95,
-              "balls": 50,
-              "fours": 6,
+              "runs": 101,
+              "balls": 53,
+              "fours": 7,
               "sixes": 7,
-              "sr": 190,
+              "sr": 190.57,
               "dismissal": "batting"
             },
             {
@@ -8954,11 +8954,20 @@
             },
             {
               "name": "Hardik Pandya",
-              "runs": 5,
-              "balls": 6,
+              "runs": 14,
+              "balls": 12,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 116.67,
+              "dismissal": "c Xavier Bartlett b Marco Jansen"
+            },
+            {
+              "name": "Sherfane Rutherford",
+              "runs": 0,
+              "balls": 0,
               "fours": 0,
               "sixes": 0,
-              "sr": 83.33,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -8973,19 +8982,19 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 22,
-              "wickets": 0,
-              "economy": 7.33
+              "runs": 28,
+              "wickets": 1,
+              "economy": 8
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
+              "runs": 39,
               "wickets": 0,
-              "economy": 10
+              "economy": 9.75
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -9016,10 +9025,10 @@
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 135,
+          "batting": 172,
           "bowling": 0,
           "fielding": 0,
-          "total": 135
+          "total": 172
         },
         "Suryakumar Yadav": {
           "batting": -5,
@@ -9028,10 +9037,10 @@
           "total": -5
         },
         "Hardik Pandya": {
-          "batting": 5,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 16
         },
         "Priyansh Arya": {
           "batting": 0,
@@ -9065,9 +9074,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 30,
           "fielding": 0,
-          "total": 5
+          "total": 30
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -9087,8 +9096,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2039,
-      "top11Points": 2049,
+      "totalPointsAll": 2050,
+      "top11Points": 2060,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9159,12 +9168,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 100,
+          "batting": 111,
           "bowling": 40,
           "fielding": 16,
-          "rawPoints": 156,
+          "rawPoints": 167,
           "multiplier": 1,
-          "effectivePoints": 156,
+          "effectivePoints": 167,
           "countsInTop11": true
         },
         {
@@ -9777,8 +9786,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1818,
-      "top11Points": 1745,
+      "totalPointsAll": 1855,
+      "top11Points": 1782,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -9827,12 +9836,12 @@
         {
           "name": "Quinton de Kock",
           "role": "Opener",
-          "batting": 135,
+          "batting": 172,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 135,
+          "rawPoints": 172,
           "multiplier": 1,
-          "effectivePoints": 135,
+          "effectivePoints": 172,
           "countsInTop11": true
         },
         {
@@ -10202,8 +10211,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2513,
-      "top11Points": 2353,
+      "totalPointsAll": 2538,
+      "top11Points": 2378,
       "players": [
         {
           "name": "Sanju Samson",
@@ -10305,6 +10314,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 6,
+          "bowling": 90,
+          "fielding": 16,
+          "rawPoints": 112,
+          "multiplier": 1,
+          "effectivePoints": 112,
+          "countsInTop11": true
+        },
+        {
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
@@ -10313,17 +10333,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 6,
-          "bowling": 65,
-          "fielding": 16,
-          "rawPoints": 87,
-          "multiplier": 1,
-          "effectivePoints": 87,
           "countsInTop11": true
         },
         {
