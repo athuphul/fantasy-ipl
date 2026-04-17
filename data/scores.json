@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T14:15:06.527Z",
+  "lastUpdated": "2026-04-17T14:25:11.087Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 21,
-        "w": 2,
-        "o": 2.2
+        "r": 34,
+        "w": 3,
+        "o": 4.3
       }
     ],
     "playerScores": {
@@ -42,8 +42,8 @@
       "Glenn Phillips": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rahul Tewatia": {
         "batting": 0,
@@ -59,15 +59,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 8,
-        "total": 33
+        "total": 58
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Prasidh Krishna": {
         "batting": 0,
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Cameron Green": {
-        "batting": 0,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 4
       }
     }
   },
@@ -102,18 +102,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2068,
-      "top11Points": 2078
+      "totalPointsAll": 2093,
+      "top11Points": 2103
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1860,
-      "top11Points": 1860
+      "totalPointsAll": 1880,
+      "top11Points": 1880
     },
     {
       "team": "Manav",
-      "totalPointsAll": 1903,
-      "top11Points": 1837
+      "totalPointsAll": 1911,
+      "top11Points": 1845
     },
     {
       "team": "Ashwin",
@@ -122,8 +122,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1724,
-      "top11Points": 1708
+      "totalPointsAll": 1728,
+      "top11Points": 1712
     },
     {
       "team": "Kishan",
@@ -9251,26 +9251,26 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 21,
-          "w": 2,
-          "o": 2.2
+          "r": 34,
+          "w": 3,
+          "o": 4.3
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 21,
-          "wickets": 2,
-          "overs": 2.2,
+          "runs": 34,
+          "wickets": 3,
+          "overs": 4.3,
           "batting": [
             {
               "name": "Tim Seifert",
-              "runs": 13,
-              "balls": 10,
-              "fours": 1,
+              "runs": 19,
+              "balls": 14,
+              "fours": 2,
               "sixes": 1,
-              "sr": 130,
-              "dismissal": "batting"
+              "sr": 135.71,
+              "dismissal": "c Glenn Phillips b Kagiso Rabada"
             },
             {
               "name": "Ajinkya Rahane",
@@ -9292,30 +9292,39 @@
             },
             {
               "name": "Cameron Green",
-              "runs": 0,
-              "balls": 0,
+              "runs": 4,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 66.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 1.3,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 10,
+              "runs": 14,
               "wickets": 1,
-              "economy": 6.67
+              "economy": 5.6
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 1,
-              "economy": 12
+              "runs": 19,
+              "wickets": 2,
+              "economy": 9.5
             }
           ]
         }
@@ -9348,8 +9357,8 @@
         "Glenn Phillips": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rahul Tewatia": {
           "batting": 0,
@@ -9365,15 +9374,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 8,
-          "total": 33
+          "total": 58
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Prasidh Krishna": {
           "batting": 0,
@@ -9388,10 +9397,10 @@
           "total": -5
         },
         "Cameron Green": {
-          "batting": 0,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 4
         }
       },
       "isComplete": false
@@ -9399,8 +9408,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2068,
-      "top11Points": 2078,
+      "totalPointsAll": 2093,
+      "top11Points": 2103,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9469,6 +9478,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 28,
+          "bowling": 135,
+          "fielding": 8,
+          "rawPoints": 171,
+          "multiplier": 1,
+          "effectivePoints": 171,
+          "countsInTop11": true
+        },
+        {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 111,
@@ -9477,17 +9497,6 @@
           "rawPoints": 157,
           "multiplier": 1,
           "effectivePoints": 157,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
-          "role": "Fast Bowler",
-          "batting": 28,
-          "bowling": 110,
-          "fielding": 8,
-          "rawPoints": 146,
-          "multiplier": 1,
-          "effectivePoints": 146,
           "countsInTop11": true
         },
         {
@@ -9686,8 +9695,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1860,
-      "top11Points": 1860,
+      "totalPointsAll": 1880,
+      "top11Points": 1880,
       "players": [
         {
           "name": "KL Rahul",
@@ -9759,11 +9768,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 105,
+          "bowling": 125,
           "fielding": 8,
-          "rawPoints": 113,
+          "rawPoints": 133,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 133,
           "countsInTop11": true
         },
         {
@@ -10089,8 +10098,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1903,
-      "top11Points": 1837,
+      "totalPointsAll": 1911,
+      "top11Points": 1845,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -10196,10 +10205,10 @@
           "role": "All-Rounder",
           "batting": 48,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 88,
+          "fielding": 48,
+          "rawPoints": 96,
           "multiplier": 1,
-          "effectivePoints": 88,
+          "effectivePoints": 96,
           "countsInTop11": true
         },
         {
@@ -10376,8 +10385,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1724,
-      "top11Points": 1708,
+      "totalPointsAll": 1728,
+      "top11Points": 1712,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10448,12 +10457,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 70,
+          "batting": 74,
           "bowling": -5,
           "fielding": 8,
-          "rawPoints": 73,
+          "rawPoints": 77,
           "multiplier": 1,
-          "effectivePoints": 73,
+          "effectivePoints": 77,
           "countsInTop11": true
         },
         {
