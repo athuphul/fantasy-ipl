@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-04-16T18:25:06.100Z",
+  "lastUpdated": "2026-04-17T14:05:17.987Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529268",
+    "name": "Gujarat Titans v Kolkata Knight Riders",
+    "status": "Live",
+    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+    "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 5,
+        "w": 1,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Sudharsan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jos Buttler": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Washington Sundar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Glenn Phillips": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rahul Tewatia": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Prasidh Krishna": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ajinkya Rahane": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -15,18 +96,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2040,
-      "top11Points": 2050
+      "totalPointsAll": 2043,
+      "top11Points": 2053
+    },
+    {
+      "team": "Ali",
+      "totalPointsAll": 1860,
+      "top11Points": 1860
     },
     {
       "team": "Manav",
       "totalPointsAll": 1903,
       "top11Points": 1837
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 1835,
-      "top11Points": 1835
     },
     {
       "team": "Ashwin",
@@ -9154,12 +9235,143 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529268",
+      "name": "Gujarat Titans v Kolkata Knight Riders",
+      "date": "2026-04-17",
+      "status": "Live",
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+      "score": [
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 5,
+          "w": 1,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 5,
+          "wickets": 1,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Tim Seifert",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Kagiso Rabada b Mohammed Siraj"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 7.5
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jos Buttler": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Washington Sundar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Glenn Phillips": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rahul Tewatia": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ajinkya Rahane": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2040,
-      "top11Points": 2050,
+      "totalPointsAll": 2043,
+      "top11Points": 2053,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9208,12 +9420,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 193,
+          "batting": 188,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 201,
+          "rawPoints": 196,
           "multiplier": 1,
-          "effectivePoints": 201,
+          "effectivePoints": 196,
           "countsInTop11": true
         },
         {
@@ -9265,10 +9477,10 @@
           "role": "Fast Bowler",
           "batting": 28,
           "bowling": 85,
-          "fielding": 0,
-          "rawPoints": 113,
+          "fielding": 8,
+          "rawPoints": 121,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
@@ -9445,8 +9657,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1835,
-      "top11Points": 1835,
+      "totalPointsAll": 1860,
+      "top11Points": 1860,
       "players": [
         {
           "name": "KL Rahul",
@@ -9515,6 +9727,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Siraj",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 105,
+          "fielding": 8,
+          "rawPoints": 113,
+          "multiplier": 1,
+          "effectivePoints": 113,
+          "countsInTop11": true
+        },
+        {
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 1,
@@ -9534,17 +9757,6 @@
           "rawPoints": 93,
           "multiplier": 1,
           "effectivePoints": 93,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Siraj",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 80,
-          "fielding": 8,
-          "rawPoints": 88,
-          "multiplier": 1,
-          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
