@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T16:24:54.914Z",
+  "lastUpdated": "2026-04-17T16:34:53.488Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 52,
-        "w": 0,
-        "o": 4.3
+        "r": 71,
+        "w": 1,
+        "o": 6
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,22 +22,22 @@
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 31,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 31
+        "total": 27
       },
       "Shubman Gill": {
-        "batting": 52,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 52
+        "total": 57
       },
       "Jos Buttler": {
-        "batting": 0,
+        "batting": 18,
         "bowling": 0,
         "fielding": 42,
-        "total": 42
+        "total": 60
       },
       "Washington Sundar": {
         "batting": 0,
@@ -107,15 +107,15 @@
       },
       "Sunil Narine": {
         "batting": -5,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": -5
+        "total": 20
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       }
     }
   },
@@ -127,8 +127,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2251,
-      "top11Points": 2251
+      "totalPointsAll": 2273,
+      "top11Points": 2273
     },
     {
       "team": "Athu",
@@ -141,14 +141,14 @@
       "top11Points": 1921
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 1943,
+      "top11Points": 1885
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 1919,
       "top11Points": 1853
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 1896,
-      "top11Points": 1838
     },
     {
       "team": "Tanay",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1539,
-      "top11Points": 1553
+      "totalPointsAll": 1531,
+      "top11Points": 1545
     }
   ],
   "matchHistory": [
@@ -9281,9 +9281,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 52,
-          "w": 0,
-          "o": 4.3
+          "r": 71,
+          "w": 1,
+          "o": 6
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -9444,35 +9444,44 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 52,
-          "wickets": 0,
-          "overs": 4.3,
+          "runs": 71,
+          "wickets": 1,
+          "overs": 6,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 21,
-              "balls": 14,
+              "runs": 22,
+              "balls": 16,
               "fours": 1,
               "sixes": 2,
-              "sr": 150,
-              "dismissal": "batting"
+              "sr": 137.5,
+              "dismissal": "c Kartik Tyagi b Sunil Narine"
             },
             {
               "name": "Shubman Gill",
-              "runs": 30,
-              "balls": 13,
-              "fours": 3,
+              "runs": 34,
+              "balls": 15,
+              "fours": 4,
               "sixes": 2,
-              "sr": 230.77,
+              "sr": 226.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 14,
+              "balls": 5,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 280,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 20,
               "wickets": 0,
               "economy": 10
             },
@@ -9494,33 +9503,33 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 0,
-              "economy": 5
+              "runs": 19,
+              "wickets": 1,
+              "economy": 9.5
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 31,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 31
+          "total": 27
         },
         "Shubman Gill": {
-          "batting": 52,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 52
+          "total": 57
         },
         "Jos Buttler": {
-          "batting": 0,
+          "batting": 18,
           "bowling": 0,
           "fielding": 42,
-          "total": 42
+          "total": 60
         },
         "Washington Sundar": {
           "batting": 0,
@@ -9590,15 +9599,15 @@
         },
         "Sunil Narine": {
           "batting": -5,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": -5
+          "total": 20
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         }
       },
       "isComplete": false
@@ -9755,18 +9764,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1539,
-      "top11Points": 1553,
+      "totalPointsAll": 1531,
+      "top11Points": 1545,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 181,
+          "batting": 177,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 199,
+          "rawPoints": 195,
           "multiplier": 2,
-          "effectivePoints": 398,
+          "effectivePoints": 390,
           "countsInTop11": true
         },
         {
@@ -10031,29 +10040,29 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1896,
-      "top11Points": 1838,
+      "totalPointsAll": 1943,
+      "top11Points": 1885,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 270,
+          "batting": 275,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 310,
+          "rawPoints": 315,
           "multiplier": 2,
-          "effectivePoints": 620,
+          "effectivePoints": 630,
           "countsInTop11": true
         },
         {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 41,
-          "bowling": 110,
+          "bowling": 135,
           "fielding": 0,
-          "rawPoints": 151,
+          "rawPoints": 176,
           "multiplier": 1.5,
-          "effectivePoints": 227,
+          "effectivePoints": 264,
           "countsInTop11": true
         },
         {
@@ -10456,18 +10465,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2251,
-      "top11Points": 2251,
+      "totalPointsAll": 2273,
+      "top11Points": 2273,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 257,
+          "batting": 275,
           "bowling": 0,
           "fielding": 84,
-          "rawPoints": 341,
+          "rawPoints": 359,
           "multiplier": 1.5,
-          "effectivePoints": 512,
+          "effectivePoints": 539,
           "countsInTop11": true
         },
         {
@@ -10529,11 +10538,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 125,
+          "bowling": 120,
           "fielding": 8,
-          "rawPoints": 134,
+          "rawPoints": 129,
           "multiplier": 1,
-          "effectivePoints": 134,
+          "effectivePoints": 129,
           "countsInTop11": true
         },
         {
