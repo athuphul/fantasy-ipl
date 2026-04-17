@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T15:14:53.714Z",
+  "lastUpdated": "2026-04-17T15:25:08.197Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 139,
-        "w": 4,
-        "o": 13.6
+        "r": 148,
+        "w": 5,
+        "o": 14.6
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Washington Sundar": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 20,
         "fielding": 0,
-        "total": -5
+        "total": 20
       },
       "Ajinkya Rahane": {
         "batting": -5,
@@ -82,34 +82,40 @@
         "total": -5
       },
       "Cameron Green": {
-        "batting": 97,
+        "batting": 105,
         "bowling": 0,
         "fielding": 0,
-        "total": 97
+        "total": 105
       },
       "Anukul Roy": {
-        "batting": 9,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 10
+      },
+      "Rinku Singh": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2533,
-      "top11Points": 2373
+      "totalPointsAll": 2559,
+      "top11Points": 2399
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2165,
-      "top11Points": 2165
+      "totalPointsAll": 2177,
+      "top11Points": 2177
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2114,
-      "top11Points": 2124
+      "totalPointsAll": 2115,
+      "top11Points": 2125
     },
     {
       "team": "Ali",
@@ -123,8 +129,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1821,
-      "top11Points": 1805
+      "totalPointsAll": 1829,
+      "top11Points": 1813
     },
     {
       "team": "Ashwin",
@@ -9257,17 +9263,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 139,
-          "w": 4,
-          "o": 13.6
+          "r": 148,
+          "w": 5,
+          "o": 14.6
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 139,
-          "wickets": 4,
-          "overs": 13.6,
+          "runs": 148,
+          "wickets": 5,
+          "overs": 14.6,
           "batting": [
             {
               "name": "Tim Seifert",
@@ -9298,11 +9304,11 @@
             },
             {
               "name": "Cameron Green",
-              "runs": 68,
-              "balls": 40,
-              "fours": 6,
+              "runs": 75,
+              "balls": 44,
+              "fours": 7,
               "sixes": 4,
-              "sr": 170,
+              "sr": 170.45,
               "dismissal": "batting"
             },
             {
@@ -9316,12 +9322,12 @@
             },
             {
               "name": "Anukul Roy",
-              "runs": 8,
-              "balls": 5,
+              "runs": 9,
+              "balls": 7,
               "fours": 1,
               "sixes": 0,
-              "sr": 160,
-              "dismissal": "batting"
+              "sr": 128.57,
+              "dismissal": "c Jos Buttler b Prasidh Krishna"
             }
           ],
           "bowling": [
@@ -9343,11 +9349,11 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 0,
-              "economy": 10.5
+              "runs": 29,
+              "wickets": 1,
+              "economy": 10.24
             },
             {
               "name": "Ashutosh Sharma",
@@ -9359,11 +9365,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 42,
+              "runs": 43,
               "wickets": 0,
-              "economy": 14.82
+              "economy": 14.33
             }
           ]
         }
@@ -9384,8 +9390,8 @@
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Washington Sundar": {
           "batting": 0,
@@ -9425,9 +9431,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 20,
           "fielding": 0,
-          "total": -5
+          "total": 20
         },
         "Ajinkya Rahane": {
           "batting": -5,
@@ -9436,16 +9442,22 @@
           "total": -5
         },
         "Cameron Green": {
-          "batting": 97,
+          "batting": 105,
           "bowling": 0,
           "fielding": 0,
-          "total": 97
+          "total": 105
         },
         "Anukul Roy": {
-          "batting": 9,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 10
+        },
+        "Rinku Singh": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -9453,8 +9465,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2114,
-      "top11Points": 2124,
+      "totalPointsAll": 2115,
+      "top11Points": 2125,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9547,12 +9559,12 @@
         {
           "name": "Anukul Roy",
           "role": "All-Rounder",
-          "batting": 5,
+          "batting": 6,
           "bowling": 122,
           "fielding": 26,
-          "rawPoints": 153,
+          "rawPoints": 154,
           "multiplier": 1,
-          "effectivePoints": 153,
+          "effectivePoints": 154,
           "countsInTop11": true
         },
         {
@@ -10303,18 +10315,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2165,
-      "top11Points": 2165,
+      "totalPointsAll": 2177,
+      "top11Points": 2177,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 257,
           "bowling": 0,
-          "fielding": 50,
-          "rawPoints": 307,
+          "fielding": 58,
+          "rawPoints": 315,
           "multiplier": 1.5,
-          "effectivePoints": 461,
+          "effectivePoints": 473,
           "countsInTop11": true
         },
         {
@@ -10430,8 +10442,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1821,
-      "top11Points": 1805,
+      "totalPointsAll": 1829,
+      "top11Points": 1813,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10480,12 +10492,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 167,
+          "batting": 175,
           "bowling": -5,
           "fielding": 8,
-          "rawPoints": 170,
+          "rawPoints": 178,
           "multiplier": 1,
-          "effectivePoints": 170,
+          "effectivePoints": 178,
           "countsInTop11": true
         },
         {
@@ -10568,8 +10580,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2533,
-      "top11Points": 2373,
+      "totalPointsAll": 2559,
+      "top11Points": 2399,
       "players": [
         {
           "name": "Sanju Samson",
@@ -10597,11 +10609,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 277,
+          "bowling": 302,
           "fielding": 8,
-          "rawPoints": 285,
+          "rawPoints": 310,
           "multiplier": 1,
-          "effectivePoints": 285,
+          "effectivePoints": 310,
           "countsInTop11": true
         },
         {
@@ -10616,6 +10628,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rinku Singh",
+          "role": "Batsman",
+          "batting": 84,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 116,
+          "multiplier": 1.5,
+          "effectivePoints": 174,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 140,
@@ -10624,17 +10647,6 @@
           "rawPoints": 174,
           "multiplier": 1,
           "effectivePoints": 174,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rinku Singh",
-          "role": "Batsman",
-          "batting": 83,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 115,
-          "multiplier": 1.5,
-          "effectivePoints": 173,
           "countsInTop11": true
         },
         {
