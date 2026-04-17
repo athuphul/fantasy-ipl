@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T14:34:57.536Z",
+  "lastUpdated": "2026-04-17T14:45:26.449Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 40,
+        "r": 63,
         "w": 3,
-        "o": 6.3
+        "o": 8.1
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Cameron Green": {
-        "batting": -4,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": -4
+        "total": 8
       }
     }
   },
@@ -122,8 +122,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1720,
-      "top11Points": 1704
+      "totalPointsAll": 1732,
+      "top11Points": 1716
     },
     {
       "team": "Kishan",
@@ -9251,17 +9251,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 40,
+          "r": 63,
           "w": 3,
-          "o": 6.3
+          "o": 8.1
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 40,
+          "runs": 63,
           "wickets": 3,
-          "overs": 6.3,
+          "overs": 8.1,
           "batting": [
             {
               "name": "Tim Seifert",
@@ -9292,20 +9292,20 @@
             },
             {
               "name": "Cameron Green",
-              "runs": 6,
-              "balls": 12,
-              "fours": 0,
+              "runs": 12,
+              "balls": 15,
+              "fours": 1,
               "sixes": 0,
-              "sr": 50,
+              "sr": 80,
               "dismissal": "batting"
             },
             {
               "name": "Rovman Powell",
-              "runs": 3,
-              "balls": 6,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 21,
+              "balls": 15,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 140,
               "dismissal": "batting"
             }
           ],
@@ -9328,11 +9328,19 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 0.1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 2,
+              "runs": 15,
               "wickets": 0,
-              "economy": 12
+              "economy": 12.86
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
             }
           ]
         }
@@ -9405,10 +9413,10 @@
           "total": -5
         },
         "Cameron Green": {
-          "batting": -4,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": -4
+          "total": 8
         }
       },
       "isComplete": false
@@ -10393,8 +10401,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1720,
-      "top11Points": 1704,
+      "totalPointsAll": 1732,
+      "top11Points": 1716,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10465,12 +10473,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 66,
+          "batting": 78,
           "bowling": -5,
           "fielding": 8,
-          "rawPoints": 69,
+          "rawPoints": 81,
           "multiplier": 1,
-          "effectivePoints": 69,
+          "effectivePoints": 81,
           "countsInTop11": true
         },
         {
