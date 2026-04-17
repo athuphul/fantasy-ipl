@@ -159,16 +159,17 @@ function namesMatch(espnName, rosterName) {
   if (a === b) return true;
   const aParts = a.split(' ');
   const bParts = b.split(' ');
-  // Last name + first 3 chars of first name must match (avoids Singh/Sharma/Kumar collisions)
+  // Last name + first 4 chars of first name must match (avoids Ashok/Ashutosh collisions)
   if (aParts.length > 1 && bParts.length > 1) {
     const aLast = aParts[aParts.length - 1];
     const bLast = bParts[bParts.length - 1];
-    const aFirst3 = aParts[0].substring(0, 3);
-    const bFirst3 = bParts[0].substring(0, 3);
-    if (aLast === bLast && aFirst3 === bFirst3) return true;
+    const prefixLen = Math.min(4, aParts[0].length, bParts[0].length);
+    const aPrefix = aParts[0].substring(0, prefixLen);
+    const bPrefix = bParts[0].substring(0, prefixLen);
+    if (aLast === bLast && aPrefix === bPrefix) return true;
     // Vowel-stripped last name match (handles "Chakravarthy" vs "Chakaravarthy")
     const strip = s => s.replace(/[aeiou]/g, '');
-    if (strip(aLast) === strip(bLast) && aFirst3 === bFirst3) return true;
+    if (strip(aLast) === strip(bLast) && aPrefix === bPrefix) return true;
   }
   if (a.includes(b) || b.includes(a)) return true;
   return false;
@@ -642,9 +643,9 @@ function findRosterName(rawName, allPlayers) {
   const parts = name.split(' ');
   const lastName = parts[parts.length - 1];
   const firstName = parts[0];
-  // Last name exact + first-name prefix match (min 3 chars to avoid
-  // "Rinku Singh" matching "Ramandeep Singh" on initial "R" alone)
-  const minPrefix = Math.min(3, firstName.length);
+  // Last name exact + first-name prefix match (min 4 chars to avoid
+  // "Ashok Sharma" matching "Ashutosh Sharma" on "Ash" prefix)
+  const minPrefix = Math.min(4, firstName.length);
   const firstPrefix = firstName.slice(0, minPrefix).toLowerCase();
   for (const p of allPlayers) {
     const pp = p.name.split(' ');
