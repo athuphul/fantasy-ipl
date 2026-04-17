@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T14:05:17.987Z",
+  "lastUpdated": "2026-04-17T14:15:06.527Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 5,
-        "w": 1,
-        "o": 0.5
+        "r": 21,
+        "w": 2,
+        "o": 2.2
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Washington Sundar": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 8,
-        "total": 8
+        "total": 33
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -80,6 +80,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -91,13 +97,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2168,
-      "top11Points": 2168
+      "totalPointsAll": 2180,
+      "top11Points": 2180
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2043,
-      "top11Points": 2053
+      "totalPointsAll": 2068,
+      "top11Points": 2078
     },
     {
       "team": "Ali",
@@ -9245,25 +9251,25 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 5,
-          "w": 1,
-          "o": 0.5
+          "r": 21,
+          "w": 2,
+          "o": 2.2
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 5,
-          "wickets": 1,
-          "overs": 0.5,
+          "runs": 21,
+          "wickets": 2,
+          "overs": 2.2,
           "batting": [
             {
               "name": "Tim Seifert",
-              "runs": 5,
-              "balls": 3,
+              "runs": 13,
+              "balls": 10,
               "fours": 1,
-              "sixes": 0,
-              "sr": 166.67,
+              "sixes": 1,
+              "sr": 130,
               "dismissal": "batting"
             },
             {
@@ -9277,6 +9283,15 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
+              "runs": 8,
+              "balls": 4,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "c Jos Buttler b Kagiso Rabada"
+            },
+            {
+              "name": "Cameron Green",
               "runs": 0,
               "balls": 0,
               "fours": 0,
@@ -9288,11 +9303,19 @@
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 0.4,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 5,
+              "runs": 10,
               "wickets": 1,
-              "economy": 7.5
+              "economy": 6.67
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 1,
+              "economy": 12
             }
           ]
         }
@@ -9313,8 +9336,8 @@
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Washington Sundar": {
           "batting": 0,
@@ -9342,9 +9365,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 8,
-          "total": 8
+          "total": 33
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -9363,6 +9386,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -9370,8 +9399,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2043,
-      "top11Points": 2053,
+      "totalPointsAll": 2068,
+      "top11Points": 2078,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -9451,6 +9480,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 28,
+          "bowling": 110,
+          "fielding": 8,
+          "rawPoints": 146,
+          "multiplier": 1,
+          "effectivePoints": 146,
+          "countsInTop11": true
+        },
+        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": -4,
@@ -9470,17 +9510,6 @@
           "rawPoints": 142,
           "multiplier": 1,
           "effectivePoints": 142,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
-          "role": "Fast Bowler",
-          "batting": 28,
-          "bowling": 85,
-          "fielding": 8,
-          "rawPoints": 121,
-          "multiplier": 1,
-          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
@@ -10220,18 +10249,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2168,
-      "top11Points": 2168,
+      "totalPointsAll": 2180,
+      "top11Points": 2180,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 257,
           "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 299,
+          "fielding": 50,
+          "rawPoints": 307,
           "multiplier": 1.5,
-          "effectivePoints": 449,
+          "effectivePoints": 461,
           "countsInTop11": true
         },
         {
