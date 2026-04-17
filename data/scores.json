@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T17:05:05.402Z",
+  "lastUpdated": "2026-04-17T17:15:10.435Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 123,
-        "w": 2,
-        "o": 13
+        "r": 142,
+        "w": 3,
+        "o": 14.4
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -28,10 +28,10 @@
         "total": 27
       },
       "Shubman Gill": {
-        "batting": 103,
+        "batting": 113,
         "bowling": 0,
         "fielding": 0,
-        "total": 103
+        "total": 113
       },
       "Jos Buttler": {
         "batting": 36,
@@ -40,10 +40,10 @@
         "total": 78
       },
       "Washington Sundar": {
-        "batting": 5,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 14
       },
       "Glenn Phillips": {
         "batting": 0,
@@ -119,9 +119,9 @@
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 25
+        "total": 50
       }
     }
   },
@@ -143,8 +143,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2053,
-      "top11Points": 1995
+      "totalPointsAll": 2073,
+      "top11Points": 2015
     },
     {
       "team": "Ali",
@@ -163,12 +163,12 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1662,
-      "top11Points": 1662
+      "totalPointsAll": 1671,
+      "top11Points": 1671
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1556,
+      "totalPointsAll": 1581,
       "top11Points": 1545
     }
   ],
@@ -9287,9 +9287,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 123,
-          "w": 2,
-          "o": 13
+          "r": 142,
+          "w": 3,
+          "o": 14.4
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -9450,9 +9450,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 123,
-          "wickets": 2,
-          "overs": 13,
+          "runs": 142,
+          "wickets": 3,
+          "overs": 14.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -9465,11 +9465,11 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 70,
-              "balls": 40,
+              "runs": 78,
+              "balls": 43,
               "fours": 7,
-              "sixes": 3,
-              "sr": 175,
+              "sixes": 4,
+              "sr": 181.4,
               "dismissal": "batting"
             },
             {
@@ -9483,12 +9483,12 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 5,
-              "balls": 7,
-              "fours": 0,
+              "runs": 13,
+              "balls": 13,
+              "fours": 1,
               "sixes": 0,
-              "sr": 71.43,
-              "dismissal": "batting"
+              "sr": 100,
+              "dismissal": "c Kartik Tyagi b Varun Chakaravarthy"
             }
           ],
           "bowling": [
@@ -9502,11 +9502,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 13,
+              "runs": 28,
               "wickets": 0,
-              "economy": 6.5
+              "economy": 9.33
             },
             {
               "name": "Anukul Roy",
@@ -9526,11 +9526,11 @@
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 1,
-              "economy": 9.67
+              "runs": 31,
+              "wickets": 2,
+              "economy": 8.86
             }
           ]
         }
@@ -9543,10 +9543,10 @@
           "total": 27
         },
         "Shubman Gill": {
-          "batting": 103,
+          "batting": 113,
           "bowling": 0,
           "fielding": 0,
-          "total": 103
+          "total": 113
         },
         "Jos Buttler": {
           "batting": 36,
@@ -9555,10 +9555,10 @@
           "total": 78
         },
         "Washington Sundar": {
-          "batting": 5,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 14
         },
         "Glenn Phillips": {
           "batting": 0,
@@ -9634,9 +9634,9 @@
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 25
+          "total": 50
         }
       },
       "isComplete": false
@@ -9793,7 +9793,7 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1556,
+      "totalPointsAll": 1581,
       "top11Points": 1545,
       "players": [
         {
@@ -9885,6 +9885,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Varun Chakaravarthy",
+          "role": "Spinner",
+          "batting": -5,
+          "bowling": 25,
+          "fielding": 16,
+          "rawPoints": 36,
+          "multiplier": 1,
+          "effectivePoints": 36,
+          "countsInTop11": true
+        },
+        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 8,
@@ -9893,17 +9904,6 @@
           "rawPoints": 36,
           "multiplier": 1,
           "effectivePoints": 36,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakaravarthy",
-          "role": "Spinner",
-          "batting": -5,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 11,
-          "multiplier": 1,
-          "effectivePoints": 11,
           "countsInTop11": false
         },
         {
@@ -10069,18 +10069,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2053,
-      "top11Points": 1995,
+      "totalPointsAll": 2073,
+      "top11Points": 2015,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 321,
+          "batting": 331,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 361,
+          "rawPoints": 371,
           "multiplier": 2,
-          "effectivePoints": 722,
+          "effectivePoints": 742,
           "countsInTop11": true
         },
         {
@@ -10207,8 +10207,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1662,
-      "top11Points": 1662,
+      "totalPointsAll": 1671,
+      "top11Points": 1671,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10257,12 +10257,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 140,
+          "batting": 149,
           "bowling": 25,
           "fielding": 16,
-          "rawPoints": 181,
+          "rawPoints": 190,
           "multiplier": 1,
-          "effectivePoints": 181,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
