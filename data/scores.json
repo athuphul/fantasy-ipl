@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T16:14:54.868Z",
+  "lastUpdated": "2026-04-17T16:24:54.914Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529268",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 16,
+        "r": 52,
         "w": 0,
-        "o": 1.5
+        "o": 4.3
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 4,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 31
       },
       "Shubman Gill": {
-        "batting": 13,
+        "batting": 52,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 52
       },
       "Jos Buttler": {
         "batting": 0,
@@ -146,14 +146,14 @@
       "top11Points": 1853
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 1896,
+      "top11Points": 1838
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 1828,
       "top11Points": 1812
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 1818,
-      "top11Points": 1760
     },
     {
       "team": "Kishan",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1485,
-      "top11Points": 1499
+      "totalPointsAll": 1539,
+      "top11Points": 1553
     }
   ],
   "matchHistory": [
@@ -9281,9 +9281,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 16,
+          "r": 52,
           "w": 0,
-          "o": 1.5
+          "o": 4.3
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -9444,61 +9444,77 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 16,
+          "runs": 52,
           "wickets": 0,
-          "overs": 1.5,
+          "overs": 4.3,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 4,
-              "balls": 5,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 80,
+              "runs": 21,
+              "balls": 14,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 150,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 11,
-              "balls": 6,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 183.33,
+              "runs": 30,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 230.77,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 8,
+              "runs": 15,
               "wickets": 0,
-              "economy": 8
+              "economy": 10
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
-              "runs": 7,
+              "runs": 11,
               "wickets": 0,
-              "economy": 8.4
+              "economy": 11
+            },
+            {
+              "name": "Anukul Roy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 0,
+              "economy": 20
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 5
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 4,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 31
         },
         "Shubman Gill": {
-          "batting": 13,
+          "batting": 52,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 52
         },
         "Jos Buttler": {
           "batting": 0,
@@ -9739,18 +9755,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1485,
-      "top11Points": 1499,
+      "totalPointsAll": 1539,
+      "top11Points": 1553,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 154,
+          "batting": 181,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 172,
+          "rawPoints": 199,
           "multiplier": 2,
-          "effectivePoints": 344,
+          "effectivePoints": 398,
           "countsInTop11": true
         },
         {
@@ -10015,18 +10031,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 1818,
-      "top11Points": 1760,
+      "totalPointsAll": 1896,
+      "top11Points": 1838,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 231,
+          "batting": 270,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 271,
+          "rawPoints": 310,
           "multiplier": 2,
-          "effectivePoints": 542,
+          "effectivePoints": 620,
           "countsInTop11": true
         },
         {
