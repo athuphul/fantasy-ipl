@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T10:45:06.559Z",
+  "lastUpdated": "2026-04-18T10:54:59.598Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 90,
-        "w": 1,
-        "o": 8.5
+        "r": 105,
+        "w": 3,
+        "o": 10.4
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 81,
+        "batting": 93,
         "bowling": 0,
         "fielding": 0,
-        "total": 81
+        "total": 93
       },
       "Virat Kohli": {
         "batting": 22,
@@ -28,10 +28,16 @@
         "total": 22
       },
       "Devdutt Padikkal": {
-        "batting": 13,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 21
+      },
+      "Rajat Patidar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "KL Rahul": {
         "batting": 0,
@@ -47,15 +53,15 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "David Miller": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -77,9 +83,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "T Natarajan": {
         "batting": 0,
@@ -92,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2621,
-      "top11Points": 2451
+      "totalPointsAll": 2629,
+      "top11Points": 2459
     },
     {
       "team": "Ritik",
@@ -111,24 +117,24 @@
       "top11Points": 2023
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 1990,
+      "top11Points": 1924
+    },
+    {
+      "team": "Tanay",
+      "totalPointsAll": 1937,
+      "top11Points": 1921
+    },
+    {
       "team": "Ali",
       "totalPointsAll": 1911,
       "top11Points": 1916
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1925,
-      "top11Points": 1909
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 1940,
-      "top11Points": 1874
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 1706,
-      "top11Points": 1706
+      "totalPointsAll": 1709,
+      "top11Points": 1709
     },
     {
       "team": "Aakash",
@@ -9655,25 +9661,25 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 90,
-          "w": 1,
-          "o": 8.5
+          "r": 105,
+          "w": 3,
+          "o": 10.4
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 90,
-          "wickets": 1,
-          "overs": 8.5,
+          "runs": 105,
+          "wickets": 3,
+          "overs": 10.4,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 53,
-              "balls": 30,
+              "runs": 63,
+              "balls": 35,
               "fours": 4,
-              "sixes": 2,
-              "sr": 176.67,
+              "sixes": 3,
+              "sr": 180,
               "dismissal": "batting"
             },
             {
@@ -9687,11 +9693,20 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 11,
-              "balls": 7,
-              "fours": 0,
+              "runs": 18,
+              "balls": 13,
+              "fours": 1,
               "sixes": 1,
-              "sr": 157.14,
+              "sr": 138.46,
+              "dismissal": "c David Miller b Axar Patel"
+            },
+            {
+              "name": "Rajat Patidar",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -9722,11 +9737,11 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 1.2,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 14,
+              "runs": 22,
               "wickets": 0,
-              "economy": 10.5
+              "economy": 10.15
             },
             {
               "name": "T Natarajan",
@@ -9735,16 +9750,24 @@
               "runs": 14,
               "wickets": 0,
               "economy": 14
+            },
+            {
+              "name": "Axar Patel",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 9
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 81,
+          "batting": 93,
           "bowling": 0,
           "fielding": 0,
-          "total": 81
+          "total": 93
         },
         "Virat Kohli": {
           "batting": 22,
@@ -9753,10 +9776,16 @@
           "total": 22
         },
         "Devdutt Padikkal": {
-          "batting": 13,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 21
+        },
+        "Rajat Patidar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "KL Rahul": {
           "batting": 0,
@@ -9772,15 +9801,15 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "David Miller": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -9802,9 +9831,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "T Natarajan": {
           "batting": 0,
@@ -10381,8 +10410,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1706,
-      "top11Points": 1706,
+      "totalPointsAll": 1709,
+      "top11Points": 1709,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10409,12 +10438,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 211,
+          "batting": 219,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 259,
+          "rawPoints": 267,
           "multiplier": 1,
-          "effectivePoints": 259,
+          "effectivePoints": 267,
           "countsInTop11": true
         },
         {
@@ -10451,17 +10480,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": 5,
-          "bowling": 60,
-          "fielding": 8,
-          "rawPoints": 73,
-          "multiplier": 1,
-          "effectivePoints": 73,
-          "countsInTop11": true
-        },
-        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 39,
@@ -10470,6 +10488,17 @@
           "rawPoints": 47,
           "multiplier": 1.5,
           "effectivePoints": 71,
+          "countsInTop11": true
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": 5,
+          "bowling": 55,
+          "fielding": 8,
+          "rawPoints": 68,
+          "multiplier": 1,
+          "effectivePoints": 68,
           "countsInTop11": true
         },
         {
@@ -10508,8 +10537,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 1940,
-      "top11Points": 1874,
+      "totalPointsAll": 1990,
+      "top11Points": 1924,
       "players": [
         {
           "name": "Dhruv Jurel",
@@ -10523,6 +10552,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Axar Patel",
+          "role": "All-Rounder",
+          "batting": -2,
+          "bowling": 135,
+          "fielding": 8,
+          "rawPoints": 141,
+          "multiplier": 2,
+          "effectivePoints": 282,
+          "countsInTop11": true
+        },
+        {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 186,
@@ -10531,17 +10571,6 @@
           "rawPoints": 263,
           "multiplier": 1,
           "effectivePoints": 263,
-          "countsInTop11": true
-        },
-        {
-          "name": "Axar Patel",
-          "role": "All-Rounder",
-          "batting": -2,
-          "bowling": 110,
-          "fielding": 8,
-          "rawPoints": 116,
-          "multiplier": 2,
-          "effectivePoints": 232,
           "countsInTop11": true
         },
         {
@@ -10795,8 +10824,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1925,
-      "top11Points": 1909,
+      "totalPointsAll": 1937,
+      "top11Points": 1921,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10823,12 +10852,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 273,
+          "batting": 285,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 313,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 313,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
@@ -10933,8 +10962,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2621,
-      "top11Points": 2451,
+      "totalPointsAll": 2629,
+      "top11Points": 2459,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11029,10 +11058,10 @@
           "role": "Batsman",
           "batting": 110,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 118,
+          "fielding": 16,
+          "rawPoints": 126,
           "multiplier": 1,
-          "effectivePoints": 118,
+          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
