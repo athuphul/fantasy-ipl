@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T12:54:53.445Z",
+  "lastUpdated": "2026-04-18T13:05:19.529Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 76,
-        "w": 3,
-        "o": 9
+        "r": 94,
+        "w": 4,
+        "o": 11
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Virat Kohli": {
         "batting": 22,
         "bowling": 0,
-        "fielding": 0,
-        "total": 22
+        "fielding": 8,
+        "total": 30
       },
       "Devdutt Padikkal": {
         "batting": 21,
@@ -65,9 +65,9 @@
       },
       "Krunal Pandya": {
         "batting": 14,
-        "bowling": 0,
+        "bowling": 37,
         "fielding": 0,
-        "total": 14
+        "total": 51
       },
       "Bhuvneshwar Kumar": {
         "batting": 3,
@@ -77,9 +77,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": -10
       },
       "KL Rahul": {
-        "batting": 60,
+        "batting": 82,
         "bowling": 0,
         "fielding": 18,
-        "total": 78
+        "total": 100
       },
       "Sameer Rizvi": {
         "batting": 2,
@@ -100,16 +100,16 @@
         "total": 2
       },
       "Tristan Stubbs": {
-        "batting": 18,
+        "batting": 19,
         "bowling": 0,
         "fielding": 8,
-        "total": 26
+        "total": 27
       },
       "Axar Patel": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 70,
         "fielding": 0,
-        "total": 70
+        "total": 78
       },
       "David Miller": {
         "batting": 0,
@@ -156,8 +156,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2142,
-      "top11Points": 2147
+      "totalPointsAll": 2187,
+      "top11Points": 2192
     },
     {
       "team": "Athu",
@@ -166,8 +166,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2097,
-      "top11Points": 2031
+      "totalPointsAll": 2145,
+      "top11Points": 2079
     },
     {
       "team": "Ashwin",
@@ -181,8 +181,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1877,
-      "top11Points": 1877
+      "totalPointsAll": 1885,
+      "top11Points": 1885
     },
     {
       "team": "Aakash",
@@ -9715,9 +9715,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 76,
-          "w": 3,
-          "o": 9
+          "r": 94,
+          "w": 4,
+          "o": 11
         }
       ],
       "scorecard": [
@@ -9871,9 +9871,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 76,
-          "wickets": 3,
-          "overs": 9,
+          "runs": 94,
+          "wickets": 4,
+          "overs": 11,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -9886,12 +9886,12 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 46,
-              "balls": 27,
-              "fours": 5,
+              "runs": 57,
+              "balls": 34,
+              "fours": 6,
               "sixes": 2,
-              "sr": 170.37,
-              "dismissal": "batting"
+              "sr": 167.65,
+              "dismissal": "c Virat Kohli b Krunal Pandya"
             },
             {
               "name": "Karun Nair",
@@ -9913,11 +9913,20 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 17,
-              "balls": 16,
+              "runs": 18,
+              "balls": 18,
               "fours": 1,
               "sixes": 0,
-              "sr": 106.25,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Axar Patel",
+              "runs": 7,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
@@ -9948,19 +9957,19 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 11,
-              "wickets": 0,
-              "economy": 6
+              "runs": 19,
+              "wickets": 1,
+              "economy": 6.33
             },
             {
               "name": "Suyash Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 23,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.5
             }
           ]
         }
@@ -9975,8 +9984,8 @@
         "Virat Kohli": {
           "batting": 22,
           "bowling": 0,
-          "fielding": 0,
-          "total": 22
+          "fielding": 8,
+          "total": 30
         },
         "Devdutt Padikkal": {
           "batting": 21,
@@ -10010,9 +10019,9 @@
         },
         "Krunal Pandya": {
           "batting": 14,
-          "bowling": 0,
+          "bowling": 37,
           "fielding": 0,
-          "total": 14
+          "total": 51
         },
         "Bhuvneshwar Kumar": {
           "batting": 3,
@@ -10022,9 +10031,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -10033,10 +10042,10 @@
           "total": -10
         },
         "KL Rahul": {
-          "batting": 60,
+          "batting": 82,
           "bowling": 0,
           "fielding": 18,
-          "total": 78
+          "total": 100
         },
         "Sameer Rizvi": {
           "batting": 2,
@@ -10045,16 +10054,16 @@
           "total": 2
         },
         "Tristan Stubbs": {
-          "batting": 18,
+          "batting": 19,
           "bowling": 0,
           "fielding": 8,
-          "total": 26
+          "total": 27
         },
         "Axar Patel": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 70,
           "fielding": 0,
-          "total": 70
+          "total": 78
         },
         "David Miller": {
           "batting": 0,
@@ -10379,18 +10388,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2142,
-      "top11Points": 2147,
+      "totalPointsAll": 2187,
+      "top11Points": 2192,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 219,
+          "batting": 241,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 245,
+          "rawPoints": 267,
           "multiplier": 2,
-          "effectivePoints": 490,
+          "effectivePoints": 534,
           "countsInTop11": true
         },
         {
@@ -10429,12 +10438,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 157,
+          "batting": 158,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 189,
+          "rawPoints": 190,
           "multiplier": 1,
-          "effectivePoints": 189,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
@@ -10655,8 +10664,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1877,
-      "top11Points": 1877,
+      "totalPointsAll": 1885,
+      "top11Points": 1885,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10674,10 +10683,10 @@
           "role": "Opener",
           "batting": 341,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 365,
+          "fielding": 32,
+          "rawPoints": 373,
           "multiplier": 1,
-          "effectivePoints": 365,
+          "effectivePoints": 373,
           "countsInTop11": true
         },
         {
@@ -10782,18 +10791,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2097,
-      "top11Points": 2031,
+      "totalPointsAll": 2145,
+      "top11Points": 2079,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": -2,
+          "batting": 6,
           "bowling": 180,
           "fielding": 8,
-          "rawPoints": 186,
+          "rawPoints": 194,
           "multiplier": 2,
-          "effectivePoints": 372,
+          "effectivePoints": 388,
           "countsInTop11": true
         },
         {
@@ -10822,11 +10831,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 15,
-          "bowling": 172,
+          "bowling": 209,
           "fielding": 8,
-          "rawPoints": 195,
+          "rawPoints": 232,
           "multiplier": 1,
-          "effectivePoints": 195,
+          "effectivePoints": 232,
           "countsInTop11": true
         },
         {
@@ -10866,11 +10875,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 115,
+          "bowling": 110,
           "fielding": 0,
-          "rawPoints": 115,
+          "rawPoints": 110,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
