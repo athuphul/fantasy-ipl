@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T13:36:08.263Z",
+  "lastUpdated": "2026-04-18T13:44:53.467Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 134,
+        "r": 141,
         "w": 4,
-        "o": 15.5
+        "o": 17.2
       }
     ],
     "playerScores": {
@@ -83,9 +83,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 0
       },
       "KL Rahul": {
         "batting": 82,
@@ -100,22 +100,22 @@
         "total": 2
       },
       "Tristan Stubbs": {
-        "batting": 40,
+        "batting": 45,
         "bowling": 0,
         "fielding": 8,
-        "total": 48
+        "total": 53
       },
       "Axar Patel": {
-        "batting": 28,
+        "batting": 29,
         "bowling": 70,
         "fielding": 0,
-        "total": 98
+        "total": 99
       },
       "David Miller": {
-        "batting": 0,
+        "batting": 3,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 19
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -146,8 +146,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2667,
-      "top11Points": 2497
+      "totalPointsAll": 2670,
+      "top11Points": 2500
     },
     {
       "team": "Ritik",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2208,
-      "top11Points": 2213
+      "totalPointsAll": 2213,
+      "top11Points": 2218
     },
     {
       "team": "Athu",
@@ -166,8 +166,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2198,
-      "top11Points": 2132
+      "totalPointsAll": 2205,
+      "top11Points": 2139
     },
     {
       "team": "Ashwin",
@@ -9715,9 +9715,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 134,
+          "r": 141,
           "w": 4,
-          "o": 15.5
+          "o": 17.2
         }
       ],
       "scorecard": [
@@ -9871,9 +9871,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 134,
+          "runs": 141,
           "wickets": 4,
-          "overs": 15.5,
+          "overs": 17.2,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -9913,39 +9913,48 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 37,
-              "balls": 32,
+              "runs": 42,
+              "balls": 39,
               "fours": 3,
               "sixes": 0,
-              "sr": 115.62,
+              "sr": 107.69,
               "dismissal": "batting"
             },
             {
               "name": "Axar Patel",
-              "runs": 25,
-              "balls": 18,
+              "runs": 26,
+              "balls": 19,
               "fours": 3,
               "sixes": 0,
-              "sr": 138.89,
+              "sr": 136.84,
+              "dismissal": "retd hurt"
+            },
+            {
+              "name": "David Miller",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 2.3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 16,
               "wickets": 3,
-              "economy": 4.4
+              "economy": 4.8
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 34,
+              "runs": 38,
               "wickets": 0,
-              "economy": 11.33
+              "economy": 9.5
             },
             {
               "name": "Rasikh Salam Dar",
@@ -10037,9 +10046,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 0
         },
         "KL Rahul": {
           "batting": 82,
@@ -10054,22 +10063,22 @@
           "total": 2
         },
         "Tristan Stubbs": {
-          "batting": 40,
+          "batting": 45,
           "bowling": 0,
           "fielding": 8,
-          "total": 48
+          "total": 53
         },
         "Axar Patel": {
-          "batting": 28,
+          "batting": 29,
           "bowling": 70,
           "fielding": 0,
-          "total": 98
+          "total": 99
         },
         "David Miller": {
-          "batting": 0,
+          "batting": 3,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 19
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -10388,8 +10397,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2208,
-      "top11Points": 2213,
+      "totalPointsAll": 2213,
+      "top11Points": 2218,
       "players": [
         {
           "name": "KL Rahul",
@@ -10438,12 +10447,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 179,
+          "batting": 184,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 211,
+          "rawPoints": 216,
           "multiplier": 1,
-          "effectivePoints": 211,
+          "effectivePoints": 216,
           "countsInTop11": true
         },
         {
@@ -10791,18 +10800,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2198,
-      "top11Points": 2132,
+      "totalPointsAll": 2205,
+      "top11Points": 2139,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 26,
+          "batting": 27,
           "bowling": 180,
           "fielding": 8,
-          "rawPoints": 214,
+          "rawPoints": 215,
           "multiplier": 2,
-          "effectivePoints": 428,
+          "effectivePoints": 430,
           "countsInTop11": true
         },
         {
@@ -10894,6 +10903,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 90,
+          "fielding": 8,
+          "rawPoints": 98,
+          "multiplier": 1,
+          "effectivePoints": 98,
+          "countsInTop11": true
+        },
+        {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
           "batting": 45,
@@ -10902,17 +10922,6 @@
           "rawPoints": 95,
           "multiplier": 1,
           "effectivePoints": 95,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 85,
-          "fielding": 8,
-          "rawPoints": 93,
-          "multiplier": 1,
-          "effectivePoints": 93,
           "countsInTop11": true
         },
         {
@@ -11216,8 +11225,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2667,
-      "top11Points": 2497,
+      "totalPointsAll": 2670,
+      "top11Points": 2500,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11297,6 +11306,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 113,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 137,
+          "multiplier": 1,
+          "effectivePoints": 137,
+          "countsInTop11": true
+        },
+        {
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 11,
@@ -11305,17 +11325,6 @@
           "rawPoints": 135,
           "multiplier": 1,
           "effectivePoints": 135,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 110,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 134,
-          "multiplier": 1,
-          "effectivePoints": 134,
           "countsInTop11": true
         },
         {
