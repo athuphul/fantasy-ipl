@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T14:34:56.929Z",
+  "lastUpdated": "2026-04-18T14:44:53.007Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 84,
-        "w": 2,
-        "o": 7
+        "r": 101,
+        "w": 3,
+        "o": 9.1
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 90,
+        "batting": 98,
         "bowling": 0,
         "fielding": 0,
-        "total": 90
+        "total": 98
       },
       "Travis Head": {
         "batting": 28,
@@ -34,16 +34,16 @@
         "total": -5
       },
       "Heinrich Klaasen": {
-        "batting": 1,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 6
       },
       "Sanju Samson": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Ruturaj Gaikwad": {
         "batting": 0,
@@ -80,13 +80,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2709,
-      "top11Points": 2539
+      "totalPointsAll": 2725,
+      "top11Points": 2555
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2379,
-      "top11Points": 2384
+      "totalPointsAll": 2391,
+      "top11Points": 2396
     },
     {
       "team": "Ritik",
@@ -100,8 +100,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2134,
-      "top11Points": 2144
+      "totalPointsAll": 2139,
+      "top11Points": 2149
     },
     {
       "team": "Ashwin",
@@ -10058,26 +10058,26 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 84,
-          "w": 2,
-          "o": 7
+          "r": 101,
+          "w": 3,
+          "o": 9.1
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 84,
-          "wickets": 2,
-          "overs": 7,
+          "runs": 101,
+          "wickets": 3,
+          "overs": 9.1,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 52,
-              "balls": 18,
-              "fours": 5,
+              "runs": 59,
+              "balls": 22,
+              "fours": 6,
               "sixes": 4,
-              "sr": 288.89,
-              "dismissal": "batting"
+              "sr": 268.18,
+              "dismissal": "c Sanju Samson b Jamie Overton"
             },
             {
               "name": "Travis Head",
@@ -10099,11 +10099,20 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 1,
-              "balls": 3,
+              "runs": 9,
+              "balls": 10,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 90,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Aniket Verma",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -10139,16 +10148,32 @@
               "runs": 4,
               "wickets": 0,
               "economy": 4
+            },
+            {
+              "name": "Jamie Overton",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 1,
+              "economy": 8
+            },
+            {
+              "name": "Gurjapneet Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 90,
+          "batting": 98,
           "bowling": 0,
           "fielding": 0,
-          "total": 90
+          "total": 98
         },
         "Travis Head": {
           "batting": 28,
@@ -10163,16 +10188,16 @@
           "total": -5
         },
         "Heinrich Klaasen": {
-          "batting": 1,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 6
         },
         "Sanju Samson": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Ruturaj Gaikwad": {
           "batting": 0,
@@ -10210,18 +10235,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2134,
-      "top11Points": 2144,
+      "totalPointsAll": 2139,
+      "top11Points": 2149,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 284,
+          "batting": 289,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 308,
+          "rawPoints": 313,
           "multiplier": 1,
-          "effectivePoints": 308,
+          "effectivePoints": 313,
           "countsInTop11": true
         },
         {
@@ -10497,8 +10522,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2379,
-      "top11Points": 2384,
+      "totalPointsAll": 2391,
+      "top11Points": 2396,
       "players": [
         {
           "name": "KL Rahul",
@@ -10514,12 +10539,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 284,
+          "batting": 292,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 292,
+          "rawPoints": 300,
           "multiplier": 1.5,
-          "effectivePoints": 438,
+          "effectivePoints": 450,
           "countsInTop11": true
         },
         {
@@ -11325,18 +11350,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2709,
-      "top11Points": 2539,
+      "totalPointsAll": 2725,
+      "top11Points": 2555,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 282,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 282,
+          "fielding": 8,
+          "rawPoints": 290,
           "multiplier": 2,
-          "effectivePoints": 564,
+          "effectivePoints": 580,
           "countsInTop11": true
         },
         {
