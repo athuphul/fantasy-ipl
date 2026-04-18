@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T11:24:54.675Z",
+  "lastUpdated": "2026-04-18T11:34:55.861Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 146,
-        "w": 5,
-        "o": 15.2
+        "r": 158,
+        "w": 6,
+        "o": 17.2
       }
     ],
     "playerScores": {
@@ -46,6 +46,18 @@
         "total": 36
       },
       "Jitesh Sharma": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Romario Shepherd": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Krunal Pandya": {
         "batting": 3,
         "bowling": 0,
         "fielding": 0,
@@ -65,9 +77,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 62,
+        "bowling": 70,
         "fielding": 0,
-        "total": 62
+        "total": 70
       },
       "David Miller": {
         "batting": 0,
@@ -89,15 +101,15 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 20,
         "fielding": 0,
-        "total": 25
+        "total": 20
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 55,
         "fielding": 0,
-        "total": 25
+        "total": 55
       },
       "T Natarajan": {
         "batting": 0,
@@ -110,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2629,
-      "top11Points": 2459
+      "totalPointsAll": 2624,
+      "top11Points": 2454
     },
     {
       "team": "Ritik",
@@ -125,13 +137,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2081,
-      "top11Points": 2023
+      "totalPointsAll": 2082,
+      "top11Points": 2024
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2067,
-      "top11Points": 2001
+      "totalPointsAll": 2089,
+      "top11Points": 2023
     },
     {
       "team": "Ali",
@@ -145,8 +157,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1739,
-      "top11Points": 1739
+      "totalPointsAll": 1769,
+      "top11Points": 1769
     },
     {
       "team": "Aakash",
@@ -9673,17 +9685,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 146,
-          "w": 5,
-          "o": 15.2
+          "r": 158,
+          "w": 6,
+          "o": 17.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 146,
-          "wickets": 5,
-          "overs": 15.2,
+          "runs": 158,
+          "wickets": 6,
+          "overs": 17.2,
           "batting": [
             {
               "name": "Phil Salt",
@@ -9732,11 +9744,29 @@
             },
             {
               "name": "Jitesh Sharma",
-              "runs": 3,
-              "balls": 8,
+              "runs": 10,
+              "balls": 13,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 76.92,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 1,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 37.5,
+              "sr": 25,
+              "dismissal": "lbw b Kuldeep Yadav"
+            },
+            {
+              "name": "Krunal Pandya",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -9759,19 +9789,19 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 19,
+              "runs": 24,
               "wickets": 1,
-              "economy": 9.5
+              "economy": 10.29
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
-              "wickets": 1,
-              "economy": 9
+              "runs": 32,
+              "wickets": 2,
+              "economy": 8
             },
             {
               "name": "T Natarajan",
@@ -9783,11 +9813,11 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 18,
               "wickets": 2,
-              "economy": 6.86
+              "economy": 6
             }
           ]
         }
@@ -9824,6 +9854,18 @@
           "total": 36
         },
         "Jitesh Sharma": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Romario Shepherd": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Krunal Pandya": {
           "batting": 3,
           "bowling": 0,
           "fielding": 0,
@@ -9843,9 +9885,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 62,
+          "bowling": 70,
           "fielding": 0,
-          "total": 62
+          "total": 70
         },
         "David Miller": {
           "batting": 0,
@@ -9867,15 +9909,15 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "total": 25
+          "total": 20
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 55,
           "fielding": 0,
-          "total": 25
+          "total": 55
         },
         "T Natarajan": {
           "batting": 0,
@@ -10314,8 +10356,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2081,
-      "top11Points": 2023,
+      "totalPointsAll": 2082,
+      "top11Points": 2024,
       "players": [
         {
           "name": "Shubman Gill",
@@ -10364,12 +10406,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 60,
+          "batting": 61,
           "bowling": 75,
           "fielding": 8,
-          "rawPoints": 143,
+          "rawPoints": 144,
           "multiplier": 1,
-          "effectivePoints": 143,
+          "effectivePoints": 144,
           "countsInTop11": true
         },
         {
@@ -10452,8 +10494,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1739,
-      "top11Points": 1739,
+      "totalPointsAll": 1769,
+      "top11Points": 1769,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10511,6 +10553,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": 5,
+          "bowling": 115,
+          "fielding": 8,
+          "rawPoints": 128,
+          "multiplier": 1,
+          "effectivePoints": 128,
+          "countsInTop11": true
+        },
+        {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 9,
@@ -10519,17 +10572,6 @@
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": 5,
-          "bowling": 85,
-          "fielding": 8,
-          "rawPoints": 98,
-          "multiplier": 1,
-          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
@@ -10579,18 +10621,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2067,
-      "top11Points": 2001,
+      "totalPointsAll": 2089,
+      "top11Points": 2023,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": -2,
-          "bowling": 172,
+          "bowling": 180,
           "fielding": 8,
-          "rawPoints": 178,
+          "rawPoints": 186,
           "multiplier": 2,
-          "effectivePoints": 356,
+          "effectivePoints": 372,
           "countsInTop11": true
         },
         {
@@ -10629,12 +10671,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 1,
+          "batting": 4,
           "bowling": 172,
           "fielding": 8,
-          "rawPoints": 181,
+          "rawPoints": 184,
           "multiplier": 1,
-          "effectivePoints": 181,
+          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -10695,12 +10737,12 @@
         {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
-          "batting": 43,
+          "batting": 46,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 85,
+          "rawPoints": 88,
           "multiplier": 1,
-          "effectivePoints": 85,
+          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
@@ -11004,8 +11046,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2629,
-      "top11Points": 2459,
+      "totalPointsAll": 2624,
+      "top11Points": 2454,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11066,11 +11108,11 @@
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": 3,
-          "bowling": 180,
+          "bowling": 175,
           "fielding": 0,
-          "rawPoints": 183,
+          "rawPoints": 178,
           "multiplier": 1,
-          "effectivePoints": 183,
+          "effectivePoints": 178,
           "countsInTop11": true
         },
         {
