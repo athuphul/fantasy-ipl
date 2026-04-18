@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T14:14:52.972Z",
+  "lastUpdated": "2026-04-18T14:25:06.964Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 30,
-        "w": 0,
-        "o": 3.4
+        "r": 75,
+        "w": 1,
+        "o": 5.5
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 22,
+        "batting": 88,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 88
       },
       "Travis Head": {
-        "batting": 1,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 28
       },
       "Sanju Samson": {
         "batting": 0,
@@ -36,8 +36,8 @@
       "Ruturaj Gaikwad": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -72,24 +72,24 @@
       "top11Points": 2539
     },
     {
+      "team": "Ali",
+      "totalPointsAll": 2376,
+      "top11Points": 2381
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 2330,
       "top11Points": 2330
     },
     {
-      "team": "Ali",
-      "totalPointsAll": 2277,
-      "top11Points": 2282
+      "team": "Manav",
+      "totalPointsAll": 2217,
+      "top11Points": 2151
     },
     {
       "team": "Athu",
       "totalPointsAll": 2133,
       "top11Points": 2143
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 2205,
-      "top11Points": 2139
     },
     {
       "team": "Ashwin",
@@ -98,8 +98,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1952,
-      "top11Points": 1936
+      "totalPointsAll": 2006,
+      "top11Points": 1990
     },
     {
       "team": "Kishan",
@@ -10046,77 +10046,77 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 30,
-          "w": 0,
-          "o": 3.4
+          "r": 75,
+          "w": 1,
+          "o": 5.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 30,
-          "wickets": 0,
-          "overs": 3.4,
+          "runs": 75,
+          "wickets": 1,
+          "overs": 5.5,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 18,
-              "balls": 8,
-              "fours": 0,
-              "sixes": 2,
-              "sr": 225,
+              "runs": 50,
+              "balls": 15,
+              "fours": 5,
+              "sixes": 4,
+              "sr": 333.33,
               "dismissal": "batting"
             },
             {
               "name": "Travis Head",
-              "runs": 9,
-              "balls": 13,
-              "fours": 0,
+              "runs": 23,
+              "balls": 20,
+              "fours": 3,
               "sixes": 1,
-              "sr": 69.23,
-              "dismissal": "batting"
+              "sr": 115,
+              "dismissal": "c Ruturaj Gaikwad b Mukesh Choudhary"
             }
           ],
           "bowling": [
             {
               "name": "Matthew Short",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 13,
+              "runs": 38,
               "wickets": 0,
-              "economy": 6.5
+              "economy": 12.67
             },
             {
               "name": "Mukesh Choudhary",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 9,
-              "wickets": 0,
-              "economy": 9
+              "runs": 21,
+              "wickets": 1,
+              "economy": 11.45
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 15,
               "wickets": 0,
-              "economy": 12
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 22,
+          "batting": 88,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 88
         },
         "Travis Head": {
-          "batting": 1,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 28
         },
         "Sanju Samson": {
           "batting": 0,
@@ -10127,8 +10127,8 @@
         "Ruturaj Gaikwad": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -10447,8 +10447,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2277,
-      "top11Points": 2282,
+      "totalPointsAll": 2376,
+      "top11Points": 2381,
       "players": [
         {
           "name": "KL Rahul",
@@ -10464,12 +10464,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 216,
+          "batting": 282,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 224,
+          "rawPoints": 290,
           "multiplier": 1.5,
-          "effectivePoints": 336,
+          "effectivePoints": 435,
           "countsInTop11": true
         },
         {
@@ -10850,8 +10850,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2205,
-      "top11Points": 2139,
+      "totalPointsAll": 2217,
+      "top11Points": 2151,
       "players": [
         {
           "name": "Axar Patel",
@@ -10931,6 +10931,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 55,
+          "bowling": 0,
+          "fielding": 21,
+          "rawPoints": 76,
+          "multiplier": 1.5,
+          "effectivePoints": 114,
+          "countsInTop11": true
+        },
+        {
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
@@ -10939,17 +10950,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 55,
-          "bowling": 0,
-          "fielding": 13,
-          "rawPoints": 68,
-          "multiplier": 1.5,
-          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -11137,8 +11137,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1952,
-      "top11Points": 1936,
+      "totalPointsAll": 2006,
+      "top11Points": 1990,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -11154,12 +11154,12 @@
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 166,
+          "batting": 193,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 166,
+          "rawPoints": 193,
           "multiplier": 2,
-          "effectivePoints": 332,
+          "effectivePoints": 386,
           "countsInTop11": true
         },
         {
