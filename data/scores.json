@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T15:24:53.316Z",
+  "lastUpdated": "2026-04-18T15:35:10.788Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 177,
-        "w": 5,
-        "o": 17.1
+        "r": 186,
+        "w": 7,
+        "o": 18.5
       }
     ],
     "playerScores": {
@@ -72,8 +72,8 @@
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -111,8 +111,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2082,
-      "top11Points": 2024
+      "totalPointsAll": 2090,
+      "top11Points": 2032
     },
     {
       "team": "Tanay",
@@ -10064,17 +10064,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 177,
-          "w": 5,
-          "o": 17.1
+          "r": 186,
+          "w": 7,
+          "o": 18.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 177,
-          "wickets": 5,
-          "overs": 17.1,
+          "runs": 186,
+          "wickets": 7,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -10106,11 +10106,11 @@
             {
               "name": "Heinrich Klaasen",
               "runs": 59,
-              "balls": 38,
+              "balls": 39,
               "fours": 6,
               "sixes": 2,
-              "sr": 155.26,
-              "dismissal": "batting"
+              "sr": 151.28,
+              "dismissal": "b Anshul Kamboj"
             },
             {
               "name": "Aniket Verma",
@@ -10132,11 +10132,29 @@
             },
             {
               "name": "Salil Arora",
-              "runs": 12,
-              "balls": 10,
+              "runs": 13,
+              "balls": 12,
               "fours": 2,
               "sixes": 0,
-              "sr": 120,
+              "sr": 108.33,
+              "dismissal": "c Dewald Brevis b Gurjapneet Singh"
+            },
+            {
+              "name": "Liam Livingstone",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shivang Kumar",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -10159,11 +10177,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 12.86
+              "runs": 16,
+              "wickets": 1,
+              "economy": 8
             },
             {
               "name": "Noor Ahmad",
@@ -10183,11 +10201,11 @@
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
               "runs": 26,
-              "wickets": 0,
-              "economy": 8.67
+              "wickets": 1,
+              "economy": 7.43
             }
           ]
         }
@@ -10250,8 +10268,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -10690,8 +10708,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2082,
-      "top11Points": 2024,
+      "totalPointsAll": 2090,
+      "top11Points": 2032,
       "players": [
         {
           "name": "Shubman Gill",
@@ -10775,10 +10793,10 @@
           "role": "Batsman",
           "batting": 49,
           "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 81,
+          "fielding": 40,
+          "rawPoints": 89,
           "multiplier": 1,
-          "effectivePoints": 81,
+          "effectivePoints": 89,
           "countsInTop11": true
         },
         {
