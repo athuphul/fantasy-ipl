@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T11:15:35.979Z",
+  "lastUpdated": "2026-04-18T11:24:54.675Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 142,
-        "w": 4,
-        "o": 14.3
+        "r": 146,
+        "w": 5,
+        "o": 15.2
       }
     ],
     "playerScores": {
@@ -40,16 +40,16 @@
         "total": 10
       },
       "Tim David": {
-        "batting": 39,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 39
+        "total": 36
       },
       "Jitesh Sharma": {
-        "batting": 2,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 3
       },
       "KL Rahul": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 62,
         "fielding": 0,
-        "total": 30
+        "total": 62
       },
       "David Miller": {
         "batting": 0,
@@ -102,8 +102,8 @@
       "T Natarajan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       }
     }
   },
@@ -129,14 +129,14 @@
       "top11Points": 2023
     },
     {
-      "team": "Ali",
-      "totalPointsAll": 1974,
-      "top11Points": 1979
+      "team": "Manav",
+      "totalPointsAll": 2067,
+      "top11Points": 2001
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 2002,
-      "top11Points": 1936
+      "team": "Ali",
+      "totalPointsAll": 1979,
+      "top11Points": 1984
     },
     {
       "team": "Tanay",
@@ -9673,17 +9673,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 142,
-          "w": 4,
-          "o": 14.3
+          "r": 146,
+          "w": 5,
+          "o": 15.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 142,
-          "wickets": 4,
-          "overs": 14.3,
+          "runs": 146,
+          "wickets": 5,
+          "overs": 15.2,
           "batting": [
             {
               "name": "Phil Salt",
@@ -9723,20 +9723,20 @@
             },
             {
               "name": "Tim David",
-              "runs": 24,
-              "balls": 13,
+              "runs": 26,
+              "balls": 17,
               "fours": 3,
               "sixes": 1,
-              "sr": 184.62,
-              "dismissal": "batting"
+              "sr": 152.94,
+              "dismissal": "c T Natarajan b Axar Patel"
             },
             {
               "name": "Jitesh Sharma",
-              "runs": 2,
-              "balls": 6,
+              "runs": 3,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 37.5,
               "dismissal": "batting"
             }
           ],
@@ -9751,11 +9751,11 @@
             },
             {
               "name": "Mukesh Kumar",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 32,
               "wickets": 1,
-              "economy": 7.71
+              "economy": 8
             },
             {
               "name": "Lungi Ngidi",
@@ -9783,11 +9783,11 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
               "runs": 16,
-              "wickets": 1,
-              "economy": 8
+              "wickets": 2,
+              "economy": 6.86
             }
           ]
         }
@@ -9818,16 +9818,16 @@
           "total": 10
         },
         "Tim David": {
-          "batting": 39,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 39
+          "total": 36
         },
         "Jitesh Sharma": {
-          "batting": 2,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 3
         },
         "KL Rahul": {
           "batting": 0,
@@ -9843,9 +9843,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 62,
           "fielding": 0,
-          "total": 30
+          "total": 62
         },
         "David Miller": {
           "batting": 0,
@@ -9880,8 +9880,8 @@
         "T Natarajan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         }
       },
       "isComplete": false
@@ -10176,8 +10176,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1974,
-      "top11Points": 1979,
+      "totalPointsAll": 1979,
+      "top11Points": 1984,
       "players": [
         {
           "name": "KL Rahul",
@@ -10215,12 +10215,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 266,
+          "batting": 263,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 274,
+          "rawPoints": 271,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 271,
           "countsInTop11": true
         },
         {
@@ -10261,10 +10261,10 @@
           "role": "Fast Bowler",
           "batting": 1,
           "bowling": 110,
-          "fielding": 0,
-          "rawPoints": 111,
+          "fielding": 8,
+          "rawPoints": 119,
           "multiplier": 1,
-          "effectivePoints": 111,
+          "effectivePoints": 119,
           "countsInTop11": true
         },
         {
@@ -10579,9 +10579,20 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2002,
-      "top11Points": 1936,
+      "totalPointsAll": 2067,
+      "top11Points": 2001,
       "players": [
+        {
+          "name": "Axar Patel",
+          "role": "All-Rounder",
+          "batting": -2,
+          "bowling": 172,
+          "fielding": 8,
+          "rawPoints": 178,
+          "multiplier": 2,
+          "effectivePoints": 356,
+          "countsInTop11": true
+        },
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
@@ -10591,17 +10602,6 @@
           "rawPoints": 320,
           "multiplier": 1,
           "effectivePoints": 320,
-          "countsInTop11": true
-        },
-        {
-          "name": "Axar Patel",
-          "role": "All-Rounder",
-          "batting": -2,
-          "bowling": 140,
-          "fielding": 8,
-          "rawPoints": 146,
-          "multiplier": 2,
-          "effectivePoints": 292,
           "countsInTop11": true
         },
         {
@@ -10695,12 +10695,12 @@
         {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
-          "batting": 42,
+          "batting": 43,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 84,
+          "rawPoints": 85,
           "multiplier": 1,
-          "effectivePoints": 84,
+          "effectivePoints": 85,
           "countsInTop11": true
         },
         {
