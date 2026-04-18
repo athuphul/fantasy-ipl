@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T10:05:34.541Z",
+  "lastUpdated": "2026-04-18T10:14:54.888Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 13,
+        "r": 26,
         "w": 0,
-        "o": 0.6
+        "o": 2.5
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 7,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 10
       },
       "Virat Kohli": {
-        "batting": 7,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 16
       },
       "KL Rahul": {
         "batting": 0,
@@ -116,13 +116,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1851,
-      "top11Points": 1835
+      "totalPointsAll": 1854,
+      "top11Points": 1838
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1678,
-      "top11Points": 1678
+      "totalPointsAll": 1687,
+      "top11Points": 1687
     },
     {
       "team": "Aakash",
@@ -9649,61 +9649,69 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 13,
+          "r": 26,
           "w": 0,
-          "o": 0.6
+          "o": 2.5
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 13,
+          "runs": 26,
           "wickets": 0,
-          "overs": 0.6,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 6,
-              "balls": 3,
+              "runs": 9,
+              "balls": 9,
               "fours": 1,
               "sixes": 0,
-              "sr": 200,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
-              "runs": 6,
-              "balls": 3,
-              "fours": 1,
+              "runs": 14,
+              "balls": 8,
+              "fours": 2,
               "sixes": 0,
-              "sr": 200,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Auqib Nabi Dar",
+              "overs": 1.5,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 9.27
+            },
+            {
+              "name": "Mukesh Kumar",
               "overs": 1,
               "maidens": 0,
-              "runs": 13,
+              "runs": 8,
               "wickets": 0,
-              "economy": 13
+              "economy": 8
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 7,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 10
         },
         "Virat Kohli": {
-          "batting": 7,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 16
         },
         "KL Rahul": {
           "batting": 0,
@@ -10328,8 +10336,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1678,
-      "top11Points": 1678,
+      "totalPointsAll": 1687,
+      "top11Points": 1687,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10345,12 +10353,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 326,
+          "batting": 335,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 350,
+          "rawPoints": 359,
           "multiplier": 1,
-          "effectivePoints": 350,
+          "effectivePoints": 359,
           "countsInTop11": true
         },
         {
@@ -10742,8 +10750,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1851,
-      "top11Points": 1835,
+      "totalPointsAll": 1854,
+      "top11Points": 1838,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10781,12 +10789,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 199,
+          "batting": 202,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 239,
+          "rawPoints": 242,
           "multiplier": 1,
-          "effectivePoints": 239,
+          "effectivePoints": 242,
           "countsInTop11": true
         },
         {
