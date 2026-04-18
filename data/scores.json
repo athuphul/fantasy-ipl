@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T14:25:06.964Z",
+  "lastUpdated": "2026-04-18T14:34:56.929Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -9,23 +9,35 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 75,
-        "w": 1,
-        "o": 5.5
+        "r": 84,
+        "w": 2,
+        "o": 7
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 88,
+        "batting": 90,
         "bowling": 0,
         "fielding": 0,
-        "total": 88
+        "total": 90
       },
       "Travis Head": {
         "batting": 28,
         "bowling": 0,
         "fielding": 0,
         "total": 28
+      },
+      "Ishan Kishan": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Heinrich Klaasen": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Sanju Samson": {
         "batting": 0,
@@ -36,8 +48,8 @@
       "Ruturaj Gaikwad": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -73,23 +85,23 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2376,
-      "top11Points": 2381
+      "totalPointsAll": 2379,
+      "top11Points": 2384
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2330,
-      "top11Points": 2330
+      "totalPointsAll": 2325,
+      "top11Points": 2325
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2217,
-      "top11Points": 2151
+      "totalPointsAll": 2229,
+      "top11Points": 2163
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2133,
-      "top11Points": 2143
+      "totalPointsAll": 2134,
+      "top11Points": 2144
     },
     {
       "team": "Ashwin",
@@ -10046,25 +10058,25 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 75,
-          "w": 1,
-          "o": 5.5
+          "r": 84,
+          "w": 2,
+          "o": 7
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 75,
-          "wickets": 1,
-          "overs": 5.5,
+          "runs": 84,
+          "wickets": 2,
+          "overs": 7,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 50,
-              "balls": 15,
+              "runs": 52,
+              "balls": 18,
               "fours": 5,
               "sixes": 4,
-              "sr": 333.33,
+              "sr": 288.89,
               "dismissal": "batting"
             },
             {
@@ -10075,6 +10087,24 @@
               "sixes": 1,
               "sr": 115,
               "dismissal": "c Ruturaj Gaikwad b Mukesh Choudhary"
+            },
+            {
+              "name": "Ishan Kishan",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Ruturaj Gaikwad b Mukesh Choudhary"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -10088,11 +10118,11 @@
             },
             {
               "name": "Mukesh Choudhary",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 21,
-              "wickets": 1,
-              "economy": 11.45
+              "wickets": 2,
+              "economy": 10.5
             },
             {
               "name": "Anshul Kamboj",
@@ -10101,22 +10131,42 @@
               "runs": 15,
               "wickets": 0,
               "economy": 15
+            },
+            {
+              "name": "Noor Ahmad",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 88,
+          "batting": 90,
           "bowling": 0,
           "fielding": 0,
-          "total": 88
+          "total": 90
         },
         "Travis Head": {
           "batting": 28,
           "bowling": 0,
           "fielding": 0,
           "total": 28
+        },
+        "Ishan Kishan": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Heinrich Klaasen": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Sanju Samson": {
           "batting": 0,
@@ -10127,8 +10177,8 @@
         "Ruturaj Gaikwad": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -10160,18 +10210,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2133,
-      "top11Points": 2143,
+      "totalPointsAll": 2134,
+      "top11Points": 2144,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 283,
+          "batting": 284,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 307,
+          "rawPoints": 308,
           "multiplier": 1,
-          "effectivePoints": 307,
+          "effectivePoints": 308,
           "countsInTop11": true
         },
         {
@@ -10447,8 +10497,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2376,
-      "top11Points": 2381,
+      "totalPointsAll": 2379,
+      "top11Points": 2384,
       "players": [
         {
           "name": "KL Rahul",
@@ -10464,12 +10514,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 282,
+          "batting": 284,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 290,
+          "rawPoints": 292,
           "multiplier": 1.5,
-          "effectivePoints": 435,
+          "effectivePoints": 438,
           "countsInTop11": true
         },
         {
@@ -10850,8 +10900,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2217,
-      "top11Points": 2151,
+      "totalPointsAll": 2229,
+      "top11Points": 2163,
       "players": [
         {
           "name": "Axar Patel",
@@ -10920,6 +10970,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 55,
+          "bowling": 0,
+          "fielding": 29,
+          "rawPoints": 84,
+          "multiplier": 1.5,
+          "effectivePoints": 126,
+          "countsInTop11": true
+        },
+        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 69,
@@ -10928,17 +10989,6 @@
           "rawPoints": 125,
           "multiplier": 1,
           "effectivePoints": 125,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 55,
-          "bowling": 0,
-          "fielding": 21,
-          "rawPoints": 76,
-          "multiplier": 1.5,
-          "effectivePoints": 114,
           "countsInTop11": true
         },
         {
@@ -11010,8 +11060,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2330,
-      "top11Points": 2330,
+      "totalPointsAll": 2325,
+      "top11Points": 2325,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11027,12 +11077,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 314,
+          "batting": 309,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 366,
+          "rawPoints": 361,
           "multiplier": 1,
-          "effectivePoints": 366,
+          "effectivePoints": 361,
           "countsInTop11": true
         },
         {
