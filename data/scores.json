@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T14:05:06.537Z",
+  "lastUpdated": "2026-04-18T14:14:52.972Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 4,
+        "r": 30,
         "w": 0,
-        "o": 1
+        "o": 3.4
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 1,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 22
       },
       "Travis Head": {
         "batting": 1,
@@ -78,8 +78,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2246,
-      "top11Points": 2251
+      "totalPointsAll": 2277,
+      "top11Points": 2282
     },
     {
       "team": "Athu",
@@ -10046,55 +10046,71 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 4,
+          "r": 30,
           "w": 0,
-          "o": 1
+          "o": 3.4
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 4,
+          "runs": 30,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3.4,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 1,
-              "balls": 2,
+              "runs": 18,
+              "balls": 8,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sixes": 2,
+              "sr": 225,
               "dismissal": "batting"
             },
             {
               "name": "Travis Head",
-              "runs": 1,
-              "balls": 2,
+              "runs": 9,
+              "balls": 13,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sixes": 1,
+              "sr": 69.23,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Matthew Short",
-              "overs": 0.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 13,
               "wickets": 0,
-              "economy": 3
+              "economy": 6.5
+            },
+            {
+              "name": "Mukesh Choudhary",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Anshul Kamboj",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 1,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 22
         },
         "Travis Head": {
           "batting": 1,
@@ -10431,8 +10447,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2246,
-      "top11Points": 2251,
+      "totalPointsAll": 2277,
+      "top11Points": 2282,
       "players": [
         {
           "name": "KL Rahul",
@@ -10446,6 +10462,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abhishek Sharma",
+          "role": "Opener",
+          "batting": 216,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 224,
+          "multiplier": 1.5,
+          "effectivePoints": 336,
+          "countsInTop11": true
+        },
+        {
           "name": "Shreyas Iyer",
           "role": "Batsman",
           "batting": 310,
@@ -10454,17 +10481,6 @@
           "rawPoints": 318,
           "multiplier": 1,
           "effectivePoints": 318,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abhishek Sharma",
-          "role": "Opener",
-          "batting": 195,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 203,
-          "multiplier": 1.5,
-          "effectivePoints": 305,
           "countsInTop11": true
         },
         {
