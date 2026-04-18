@@ -1,105 +1,12 @@
 {
-  "lastUpdated": "2026-04-18T17:55:12.349Z",
+  "lastUpdated": "2026-04-18T18:05:00.581Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529270",
-    "name": "Sunrisers Hyderabad v Chennai Super Kings",
-    "status": "Live",
-    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-    "score": [
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 194,
-        "w": 9,
-        "o": 20
-      },
-      {
-        "inning": "Chennai Super Kings",
-        "r": 177,
-        "w": 7,
-        "o": 18.6
-      }
-    ],
-    "playerScores": {
-      "Abhishek Sharma": {
-        "batting": 98,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 98
-      },
-      "Travis Head": {
-        "batting": 28,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 28
-      },
-      "Ishan Kishan": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Heinrich Klaasen": {
-        "batting": 84,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 100
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 14,
-        "bowling": 55,
-        "fielding": 8,
-        "total": 77
-      },
-      "Sanju Samson": {
-        "batting": 9,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 17
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 22,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 38
-      },
-      "Ayush Mhatre": {
-        "batting": 52,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 52
-      },
-      "Sarfaraz Khan": {
-        "batting": 28,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 28
-      },
-      "Dewald Brevis": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 11
-      },
-      "Shivam Dube": {
-        "batting": 24,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 24
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2803,
-      "top11Points": 2633
+      "totalPointsAll": 2804,
+      "top11Points": 2634
     },
     {
       "team": "Ali",
@@ -10071,7 +9978,7 @@
       "matchId": "espn_1529270",
       "name": "Sunrisers Hyderabad v Chennai Super Kings",
       "date": "2026-04-18",
-      "status": "Live",
+      "status": "Final",
       "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
       "score": [
         {
@@ -10082,9 +9989,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 177,
-          "w": 7,
-          "o": 18.6
+          "r": 184,
+          "w": 8,
+          "o": 20
         }
       ],
       "scorecard": [
@@ -10238,9 +10145,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 177,
-          "wickets": 7,
-          "overs": 18.6,
+          "runs": 184,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -10307,31 +10214,40 @@
             },
             {
               "name": "Jamie Overton",
-              "runs": 14,
-              "balls": 12,
+              "runs": 16,
+              "balls": 15,
               "fours": 1,
               "sixes": 0,
-              "sr": 116.67,
-              "dismissal": "batting"
+              "sr": 106.67,
+              "dismissal": "c Liam Livingstone b Praful Hinge"
             },
             {
               "name": "Anshul Kamboj",
-              "runs": 11,
-              "balls": 5,
+              "runs": 13,
+              "balls": 8,
               "fours": 0,
               "sixes": 1,
-              "sr": 220,
-              "dismissal": "batting"
+              "sr": 162.5,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Noor Ahmad",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 54,
-              "wickets": 0,
-              "economy": 18
+              "runs": 60,
+              "wickets": 1,
+              "economy": 15
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -10444,13 +10360,13 @@
           "total": 24
         },
         "Noor Ahmad": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -11570,8 +11486,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2803,
-      "top11Points": 2633,
+      "totalPointsAll": 2804,
+      "top11Points": 2634,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11664,12 +11580,12 @@
         {
           "name": "Noor Ahmad",
           "role": "Spinner",
-          "batting": 11,
+          "batting": 12,
           "bowling": 100,
           "fielding": 32,
-          "rawPoints": 143,
+          "rawPoints": 144,
           "multiplier": 1,
-          "effectivePoints": 143,
+          "effectivePoints": 144,
           "countsInTop11": true
         },
         {
