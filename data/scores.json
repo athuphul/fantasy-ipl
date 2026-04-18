@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T12:05:06.052Z",
+  "lastUpdated": "2026-04-18T12:15:05.262Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -12,6 +12,12 @@
         "r": 175,
         "w": 8,
         "o": 20
+      },
+      {
+        "inning": "Delhi Capitals",
+        "r": 13,
+        "w": 1,
+        "o": 1.3
       }
     ],
     "playerScores": {
@@ -65,15 +71,27 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 3,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 3
+        "total": 28
       },
-      "KL Rahul": {
+      "Suyash Sharma": {
         "batting": 0,
         "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Josh Hazlewood": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "KL Rahul": {
+        "batting": 10,
+        "bowling": 0,
         "fielding": 18,
-        "total": 18
+        "total": 28
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -147,14 +165,14 @@
       "top11Points": 2033
     },
     {
+      "team": "Ali",
+      "totalPointsAll": 2024,
+      "top11Points": 2029
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 2082,
       "top11Points": 2024
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 2004,
-      "top11Points": 2009
     },
     {
       "team": "Tanay",
@@ -163,8 +181,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1772,
-      "top11Points": 1772
+      "totalPointsAll": 1797,
+      "top11Points": 1797
     },
     {
       "team": "Aakash",
@@ -9694,6 +9712,12 @@
           "r": 175,
           "w": 8,
           "o": 20
+        },
+        {
+          "inning": "Delhi Capitals",
+          "r": 13,
+          "w": 1,
+          "o": 1.3
         }
       ],
       "scorecard": [
@@ -9844,6 +9868,59 @@
               "economy": 6
             }
           ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 13,
+          "wickets": 1,
+          "overs": 1.3,
+          "batting": [
+            {
+              "name": "Pathum Nissanka",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "lbw b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "KL Rahul",
+              "runs": 8,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Karun Nair",
+              "runs": 4,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 1,
+              "economy": 2
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 22
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -9897,15 +9974,27 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 3,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 3
+          "total": 28
         },
-        "KL Rahul": {
+        "Suyash Sharma": {
           "batting": 0,
           "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Josh Hazlewood": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "KL Rahul": {
+          "batting": 10,
+          "bowling": 0,
           "fielding": 18,
-          "total": 18
+          "total": 28
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -10248,18 +10337,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2004,
-      "top11Points": 2009,
+      "totalPointsAll": 2024,
+      "top11Points": 2029,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 159,
+          "batting": 169,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 185,
+          "rawPoints": 195,
           "multiplier": 2,
-          "effectivePoints": 370,
+          "effectivePoints": 390,
           "countsInTop11": true
         },
         {
@@ -10524,8 +10613,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1772,
-      "top11Points": 1772,
+      "totalPointsAll": 1797,
+      "top11Points": 1797,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10564,11 +10653,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
-          "bowling": 207,
+          "bowling": 232,
           "fielding": 8,
-          "rawPoints": 228,
+          "rawPoints": 253,
           "multiplier": 1,
-          "effectivePoints": 228,
+          "effectivePoints": 253,
           "countsInTop11": true
         },
         {
