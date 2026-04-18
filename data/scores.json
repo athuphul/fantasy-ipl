@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T16:55:08.439Z",
+  "lastUpdated": "2026-04-18T17:04:54.521Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 98,
-        "w": 3,
-        "o": 8.4
+        "r": 112,
+        "w": 4,
+        "o": 10.5
       }
     ],
     "playerScores": {
@@ -48,8 +48,8 @@
       "Nitish Kumar Reddy": {
         "batting": 14,
         "bowling": 62,
-        "fielding": 0,
-        "total": 76
+        "fielding": 8,
+        "total": 84
       },
       "Sanju Samson": {
         "batting": 9,
@@ -70,22 +70,22 @@
         "total": 52
       },
       "Sarfaraz Khan": {
-        "batting": 21,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
-      },
-      "Shivam Dube": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "total": 28
       },
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
         "fielding": 16,
         "total": 16
+      },
+      "Shivam Dube": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -98,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2772,
-      "top11Points": 2602
+      "totalPointsAll": 2779,
+      "top11Points": 2609
     },
     {
       "team": "Ali",
@@ -118,8 +118,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2338,
-      "top11Points": 2272
+      "totalPointsAll": 2346,
+      "top11Points": 2280
     },
     {
       "team": "Ashwin",
@@ -10082,9 +10082,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 98,
-          "w": 3,
-          "o": 8.4
+          "r": 112,
+          "w": 4,
+          "o": 10.5
         }
       ],
       "scorecard": [
@@ -10238,9 +10238,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 98,
-          "wickets": 3,
-          "overs": 8.4,
+          "runs": 112,
+          "wickets": 4,
+          "overs": 10.5,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -10271,20 +10271,29 @@
             },
             {
               "name": "Matthew Short",
-              "runs": 14,
-              "balls": 11,
+              "runs": 20,
+              "balls": 16,
               "fours": 2,
               "sixes": 0,
-              "sr": 127.27,
+              "sr": 125,
               "dismissal": "batting"
             },
             {
               "name": "Sarfaraz Khan",
-              "runs": 19,
-              "balls": 13,
-              "fours": 2,
+              "runs": 25,
+              "balls": 19,
+              "fours": 3,
               "sixes": 0,
-              "sr": 146.15,
+              "sr": 131.58,
+              "dismissal": "c Nitish Reddy b Eshan Malinga"
+            },
+            {
+              "name": "Dewald Brevis",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -10307,27 +10316,27 @@
             },
             {
               "name": "Sakib Hussain",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 20,
               "wickets": 0,
-              "economy": 13
-            },
-            {
-              "name": "Eshan Malinga",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 10,
-              "wickets": 1,
               "economy": 10
             },
             {
-              "name": "Shivang Kumar",
+              "name": "Eshan Malinga",
               "overs": 1.5,
               "maidens": 0,
               "runs": 11,
-              "wickets": 0,
+              "wickets": 2,
               "economy": 6
+            },
+            {
+              "name": "Shivang Kumar",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 7.5
             },
             {
               "name": "Abhishek Sharma",
@@ -10368,8 +10377,8 @@
         "Nitish Kumar Reddy": {
           "batting": 14,
           "bowling": 62,
-          "fielding": 0,
-          "total": 76
+          "fielding": 8,
+          "total": 84
         },
         "Sanju Samson": {
           "batting": 9,
@@ -10390,22 +10399,22 @@
           "total": 52
         },
         "Sarfaraz Khan": {
-          "batting": 21,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
-        },
-        "Shivam Dube": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "total": 28
         },
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
           "fielding": 16,
           "total": 16
+        },
+        "Shivam Dube": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -11109,8 +11118,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2338,
-      "top11Points": 2272,
+      "totalPointsAll": 2346,
+      "top11Points": 2280,
       "players": [
         {
           "name": "Axar Patel",
@@ -11128,10 +11137,10 @@
           "role": "All-Rounder",
           "batting": 200,
           "bowling": 107,
-          "fielding": 32,
-          "rawPoints": 339,
+          "fielding": 40,
+          "rawPoints": 347,
           "multiplier": 1,
-          "effectivePoints": 339,
+          "effectivePoints": 347,
           "countsInTop11": true
         },
         {
@@ -11534,8 +11543,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2772,
-      "top11Points": 2602,
+      "totalPointsAll": 2779,
+      "top11Points": 2609,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11573,12 +11582,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 212,
+          "batting": 219,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 246,
+          "rawPoints": 253,
           "multiplier": 1,
-          "effectivePoints": 246,
+          "effectivePoints": 253,
           "countsInTop11": true
         },
         {
