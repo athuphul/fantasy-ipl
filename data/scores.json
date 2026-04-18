@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T16:35:06.560Z",
+  "lastUpdated": "2026-04-18T16:44:59.092Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529270",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 66,
-        "w": 2,
-        "o": 4.6
+        "r": 76,
+        "w": 3,
+        "o": 6
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 14,
-        "bowling": 50,
+        "bowling": 62,
         "fielding": 0,
-        "total": 64
+        "total": 76
       },
       "Sanju Samson": {
         "batting": 9,
@@ -58,10 +58,10 @@
         "total": 17
       },
       "Ruturaj Gaikwad": {
-        "batting": 27,
+        "batting": 22,
         "bowling": 0,
         "fielding": 16,
-        "total": 43
+        "total": 38
       },
       "Ayush Mhatre": {
         "batting": 52,
@@ -70,10 +70,10 @@
         "total": 52
       },
       "Sarfaraz Khan": {
-        "batting": 0,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 4
       },
       "Shivam Dube": {
         "batting": 0,
@@ -98,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2751,
-      "top11Points": 2581
+      "totalPointsAll": 2755,
+      "top11Points": 2585
     },
     {
       "team": "Ali",
@@ -118,8 +118,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2334,
-      "top11Points": 2268
+      "totalPointsAll": 2338,
+      "top11Points": 2272
     },
     {
       "team": "Ashwin",
@@ -10082,9 +10082,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 66,
-          "w": 2,
-          "o": 4.6
+          "r": 76,
+          "w": 3,
+          "o": 6
         }
       ],
       "scorecard": [
@@ -10238,9 +10238,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 66,
-          "wickets": 2,
-          "overs": 4.6,
+          "runs": 76,
+          "wickets": 3,
+          "overs": 6,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -10254,11 +10254,11 @@
             {
               "name": "Ruturaj Gaikwad",
               "runs": 19,
-              "balls": 12,
+              "balls": 13,
               "fours": 3,
               "sixes": 0,
-              "sr": 158.33,
-              "dismissal": "batting"
+              "sr": 146.15,
+              "dismissal": "c Salil Arora b Eshan Malinga"
             },
             {
               "name": "Ayush Mhatre",
@@ -10271,11 +10271,20 @@
             },
             {
               "name": "Matthew Short",
-              "runs": 0,
-              "balls": 1,
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Sarfaraz Khan",
+              "runs": 4,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -10290,11 +10299,11 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 14,
               "wickets": 2,
-              "economy": 7.64
+              "economy": 7
             },
             {
               "name": "Sakib Hussain",
@@ -10303,6 +10312,14 @@
               "runs": 13,
               "wickets": 0,
               "economy": 13
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
             }
           ]
         }
@@ -10334,9 +10351,9 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 14,
-          "bowling": 50,
+          "bowling": 62,
           "fielding": 0,
-          "total": 64
+          "total": 76
         },
         "Sanju Samson": {
           "batting": 9,
@@ -10345,10 +10362,10 @@
           "total": 17
         },
         "Ruturaj Gaikwad": {
-          "batting": 27,
+          "batting": 22,
           "bowling": 0,
           "fielding": 16,
-          "total": 43
+          "total": 38
         },
         "Ayush Mhatre": {
           "batting": 52,
@@ -10357,10 +10374,10 @@
           "total": 52
         },
         "Sarfaraz Khan": {
-          "batting": 0,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 4
         },
         "Shivam Dube": {
           "batting": 0,
@@ -11076,8 +11093,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2334,
-      "top11Points": 2268,
+      "totalPointsAll": 2338,
+      "top11Points": 2272,
       "players": [
         {
           "name": "Axar Patel",
@@ -11094,11 +11111,11 @@
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 200,
-          "bowling": 95,
+          "bowling": 107,
           "fielding": 32,
-          "rawPoints": 327,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 327,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -11135,17 +11152,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 82,
-          "bowling": 0,
-          "fielding": 29,
-          "rawPoints": 111,
-          "multiplier": 1.5,
-          "effectivePoints": 167,
-          "countsInTop11": true
-        },
-        {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
@@ -11154,6 +11160,17 @@
           "rawPoints": 164,
           "multiplier": 1,
           "effectivePoints": 164,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 77,
+          "bowling": 0,
+          "fielding": 29,
+          "rawPoints": 106,
+          "multiplier": 1.5,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
@@ -11501,8 +11518,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2751,
-      "top11Points": 2581,
+      "totalPointsAll": 2755,
+      "top11Points": 2585,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11540,12 +11557,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 191,
+          "batting": 195,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 225,
+          "rawPoints": 229,
           "multiplier": 1,
-          "effectivePoints": 225,
+          "effectivePoints": 229,
           "countsInTop11": true
         },
         {
