@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T10:14:54.888Z",
+  "lastUpdated": "2026-04-18T10:24:55.545Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 26,
+        "r": 47,
         "w": 0,
-        "o": 2.5
+        "o": 4.5
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 10,
+        "batting": 33,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 33
       },
       "Virat Kohli": {
-        "batting": 16,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 27
       },
       "KL Rahul": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Auqib Nabi Dar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -106,8 +106,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1921,
-      "top11Points": 1921
+      "totalPointsAll": 1916,
+      "top11Points": 1916
     },
     {
       "team": "Manav",
@@ -116,13 +116,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1854,
-      "top11Points": 1838
+      "totalPointsAll": 1877,
+      "top11Points": 1861
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1687,
-      "top11Points": 1687
+      "totalPointsAll": 1698,
+      "top11Points": 1698
     },
     {
       "team": "Aakash",
@@ -9649,69 +9649,69 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 26,
+          "r": 47,
           "w": 0,
-          "o": 2.5
+          "o": 4.5
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 26,
+          "runs": 47,
           "wickets": 0,
-          "overs": 2.5,
+          "overs": 4.5,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 9,
-              "balls": 9,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 24,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 150,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
-              "runs": 14,
-              "balls": 8,
-              "fours": 2,
+              "runs": 19,
+              "balls": 12,
+              "fours": 3,
               "sixes": 0,
-              "sr": 175,
+              "sr": 158.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Auqib Nabi Dar",
-              "overs": 1.5,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 17,
+              "runs": 30,
               "wickets": 0,
-              "economy": 9.27
+              "economy": 11.25
             },
             {
               "name": "Mukesh Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 15,
               "wickets": 0,
-              "economy": 8
+              "economy": 7.5
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 10,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 33
         },
         "Virat Kohli": {
-          "batting": 16,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 27
         },
         "KL Rahul": {
           "batting": 0,
@@ -9745,9 +9745,9 @@
         },
         "Auqib Nabi Dar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -10060,8 +10060,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1921,
-      "top11Points": 1921,
+      "totalPointsAll": 1916,
+      "top11Points": 1916,
       "players": [
         {
           "name": "KL Rahul",
@@ -10177,11 +10177,11 @@
           "name": "Auqib Nabi Dar",
           "role": "All-Rounder",
           "batting": 5,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "rawPoints": 5,
+          "rawPoints": 0,
           "multiplier": 1,
-          "effectivePoints": 5,
+          "effectivePoints": 0,
           "countsInTop11": true
         },
         {
@@ -10336,8 +10336,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1687,
-      "top11Points": 1687,
+      "totalPointsAll": 1698,
+      "top11Points": 1698,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10353,12 +10353,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 335,
+          "batting": 346,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 359,
+          "rawPoints": 370,
           "multiplier": 1,
-          "effectivePoints": 359,
+          "effectivePoints": 370,
           "countsInTop11": true
         },
         {
@@ -10750,8 +10750,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1854,
-      "top11Points": 1838,
+      "totalPointsAll": 1877,
+      "top11Points": 1861,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10789,12 +10789,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 202,
+          "batting": 225,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 242,
+          "rawPoints": 265,
           "multiplier": 1,
-          "effectivePoints": 242,
+          "effectivePoints": 265,
           "countsInTop11": true
         },
         {
