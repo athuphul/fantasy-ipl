@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T10:24:55.545Z",
+  "lastUpdated": "2026-04-18T10:34:55.655Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529269",
@@ -9,23 +9,29 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 47,
-        "w": 0,
-        "o": 4.5
+        "r": 62,
+        "w": 1,
+        "o": 6.3
       }
     ],
     "playerScores": {
       "Phil Salt": {
-        "batting": 33,
+        "batting": 48,
         "bowling": 0,
         "fielding": 0,
-        "total": 33
+        "total": 48
       },
       "Virat Kohli": {
-        "batting": 27,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 27
+        "total": 22
+      },
+      "Devdutt Padikkal": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       },
       "KL Rahul": {
         "batting": 0,
@@ -59,15 +65,15 @@
       },
       "Auqib Nabi Dar": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": -10,
         "fielding": 0,
-        "total": -5
+        "total": -10
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -86,8 +92,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2596,
-      "top11Points": 2426
+      "totalPointsAll": 2621,
+      "top11Points": 2451
     },
     {
       "team": "Ritik",
@@ -106,8 +112,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 1916,
+      "totalPointsAll": 1911,
       "top11Points": 1916
+    },
+    {
+      "team": "Tanay",
+      "totalPointsAll": 1892,
+      "top11Points": 1876
     },
     {
       "team": "Manav",
@@ -115,14 +126,9 @@
       "top11Points": 1874
     },
     {
-      "team": "Tanay",
-      "totalPointsAll": 1877,
-      "top11Points": 1861
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 1698,
-      "top11Points": 1698
+      "totalPointsAll": 1696,
+      "top11Points": 1696
     },
     {
       "team": "Aakash",
@@ -9649,45 +9655,54 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 47,
-          "w": 0,
-          "o": 4.5
+          "r": 62,
+          "w": 1,
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 47,
-          "wickets": 0,
-          "overs": 4.5,
+          "runs": 62,
+          "wickets": 1,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Phil Salt",
-              "runs": 24,
-              "balls": 16,
-              "fours": 2,
+              "runs": 38,
+              "balls": 24,
+              "fours": 3,
               "sixes": 1,
-              "sr": 150,
+              "sr": 158.33,
               "dismissal": "batting"
             },
             {
               "name": "Virat Kohli",
               "runs": 19,
-              "balls": 12,
+              "balls": 13,
               "fours": 3,
               "sixes": 0,
-              "sr": 158.33,
+              "sr": 146.15,
+              "dismissal": "c Pathum Nissanka b Lungi Ngidi"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Auqib Nabi Dar",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 30,
+              "runs": 36,
               "wickets": 0,
-              "economy": 11.25
+              "economy": 12
             },
             {
               "name": "Mukesh Kumar",
@@ -9696,22 +9711,44 @@
               "runs": 15,
               "wickets": 0,
               "economy": 7.5
+            },
+            {
+              "name": "Lungi Ngidi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
       ],
       "playerScores": {
         "Phil Salt": {
-          "batting": 33,
+          "batting": 48,
           "bowling": 0,
           "fielding": 0,
-          "total": 33
+          "total": 48
         },
         "Virat Kohli": {
-          "batting": 27,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 27
+          "total": 22
+        },
+        "Devdutt Padikkal": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         },
         "KL Rahul": {
           "batting": 0,
@@ -9745,15 +9782,15 @@
         },
         "Auqib Nabi Dar": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": -10,
           "fielding": 0,
-          "total": -5
+          "total": -10
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -10060,7 +10097,7 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 1916,
+      "totalPointsAll": 1911,
       "top11Points": 1916,
       "players": [
         {
@@ -10174,17 +10211,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Auqib Nabi Dar",
-          "role": "All-Rounder",
-          "batting": 5,
-          "bowling": -5,
-          "fielding": 0,
-          "rawPoints": 0,
-          "multiplier": 1,
-          "effectivePoints": 0,
-          "countsInTop11": true
-        },
-        {
           "name": "Zeeshan Ansari",
           "role": "Spinner",
           "batting": 0,
@@ -10193,6 +10219,17 @@
           "rawPoints": 0,
           "multiplier": 1,
           "effectivePoints": 0,
+          "countsInTop11": true
+        },
+        {
+          "name": "Auqib Nabi Dar",
+          "role": "All-Rounder",
+          "batting": 5,
+          "bowling": -10,
+          "fielding": 0,
+          "rawPoints": -5,
+          "multiplier": 1,
+          "effectivePoints": -5,
           "countsInTop11": false
         }
       ]
@@ -10336,8 +10373,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1698,
-      "top11Points": 1698,
+      "totalPointsAll": 1696,
+      "top11Points": 1696,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -10353,23 +10390,23 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 346,
+          "batting": 341,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 370,
+          "rawPoints": 365,
           "multiplier": 1,
-          "effectivePoints": 370,
+          "effectivePoints": 365,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 198,
+          "batting": 201,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 246,
+          "rawPoints": 249,
           "multiplier": 1,
-          "effectivePoints": 246,
+          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
@@ -10750,8 +10787,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1877,
-      "top11Points": 1861,
+      "totalPointsAll": 1892,
+      "top11Points": 1876,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -10789,12 +10826,12 @@
         {
           "name": "Phil Salt",
           "role": "Opener",
-          "batting": 225,
+          "batting": 240,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 265,
+          "rawPoints": 280,
           "multiplier": 1,
-          "effectivePoints": 265,
+          "effectivePoints": 280,
           "countsInTop11": true
         },
         {
@@ -10888,8 +10925,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2596,
-      "top11Points": 2426,
+      "totalPointsAll": 2621,
+      "top11Points": 2451,
       "players": [
         {
           "name": "Sanju Samson",
@@ -10947,6 +10984,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": 3,
+          "bowling": 180,
+          "fielding": 0,
+          "rawPoints": 183,
+          "multiplier": 1,
+          "effectivePoints": 183,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 140,
@@ -10955,17 +11003,6 @@
           "rawPoints": 174,
           "multiplier": 1,
           "effectivePoints": 174,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": 3,
-          "bowling": 155,
-          "fielding": 0,
-          "rawPoints": 158,
-          "multiplier": 1,
-          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
