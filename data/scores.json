@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T14:14:55.978Z",
+  "lastUpdated": "2026-04-19T14:24:59.398Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 24,
+        "r": 43,
         "w": 1,
-        "o": 2.4
+        "o": 5
       }
     ],
     "playerScores": {
       "Priyansh Arya": {
-        "batting": 10,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 26
       },
       "Prabhsimran Singh": {
         "batting": -5,
@@ -99,8 +99,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2218,
-      "top11Points": 2160
+      "totalPointsAll": 2234,
+      "top11Points": 2176
     },
     {
       "team": "Kishan",
@@ -10848,25 +10848,25 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 24,
+          "r": 43,
           "w": 1,
-          "o": 2.4
+          "o": 5
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 24,
+          "runs": 43,
           "wickets": 1,
-          "overs": 2.4,
+          "overs": 5,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 8,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 200,
+              "runs": 21,
+              "balls": 8,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 262.5,
               "dismissal": "batting"
             },
             {
@@ -10880,40 +10880,48 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 10,
-              "balls": 10,
-              "fours": 2,
+              "runs": 15,
+              "balls": 18,
+              "fours": 3,
               "sixes": 0,
-              "sr": 100,
+              "sr": 83.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 17,
               "wickets": 1,
-              "economy": 8
+              "economy": 8.5
             },
             {
               "name": "Mohsin Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 21,
               "wickets": 0,
-              "economy": 8
+              "economy": 10.5
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
       ],
       "playerScores": {
         "Priyansh Arya": {
-          "batting": 10,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 26
         },
         "Prabhsimran Singh": {
           "batting": -5,
@@ -11394,8 +11402,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2218,
-      "top11Points": 2160,
+      "totalPointsAll": 2234,
+      "top11Points": 2176,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11422,12 +11430,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 200,
+          "batting": 216,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 200,
+          "rawPoints": 216,
           "multiplier": 1,
-          "effectivePoints": 200,
+          "effectivePoints": 216,
           "countsInTop11": true
         },
         {
