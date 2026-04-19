@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:35:08.513Z",
+  "lastUpdated": "2026-04-19T10:45:05.916Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 68,
-        "w": 0,
-        "o": 6.3
+        "r": 81,
+        "w": 1,
+        "o": 8.4
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Anukul Roy": {
         "batting": 0,
@@ -53,29 +53,29 @@
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Yashasvi Jaiswal": {
-        "batting": 26,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 36
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 58,
+        "batting": 61,
         "bowling": 0,
         "fielding": 0,
-        "total": 58
+        "total": 61
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2862,
-      "top11Points": 2692
+      "totalPointsAll": 2865,
+      "top11Points": 2695
     },
     {
       "team": "Ali",
@@ -99,8 +99,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2093,
-      "top11Points": 2035
+      "totalPointsAll": 2111,
+      "top11Points": 2053
     },
     {
       "team": "Tanay",
@@ -114,8 +114,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1609,
-      "top11Points": 1573
+      "totalPointsAll": 1644,
+      "top11Points": 1608
     }
   ],
   "matchHistory": [
@@ -10446,35 +10446,35 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 68,
-          "w": 0,
-          "o": 6.3
+          "r": 81,
+          "w": 1,
+          "o": 8.4
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 68,
-          "wickets": 0,
-          "overs": 6.3,
+          "runs": 81,
+          "wickets": 1,
+          "overs": 8.4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 21,
-              "balls": 16,
-              "fours": 3,
+              "runs": 30,
+              "balls": 24,
+              "fours": 4,
               "sixes": 1,
-              "sr": 131.25,
+              "sr": 125,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 39,
-              "balls": 22,
-              "fours": 5,
+              "runs": 46,
+              "balls": 28,
+              "fours": 6,
               "sixes": 2,
-              "sr": 177.27,
-              "dismissal": "batting"
+              "sr": 164.29,
+              "dismissal": "c Ramandeep Singh b Varun Chakaravarthy"
             }
           ],
           "bowling": [
@@ -10488,11 +10488,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 17,
               "wickets": 0,
-              "economy": 9
+              "economy": 8.5
             },
             {
               "name": "Cameron Green",
@@ -10504,11 +10504,19 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 14,
               "wickets": 0,
-              "economy": 5.25
+              "economy": 7
+            },
+            {
+              "name": "Varun Chakaravarthy",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 1,
+              "economy": 1.5
             }
           ]
         }
@@ -10534,9 +10542,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Anukul Roy": {
           "batting": 0,
@@ -10552,21 +10560,21 @@
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Yashasvi Jaiswal": {
-          "batting": 26,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 36
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 58,
+          "batting": 61,
           "bowling": 0,
           "fielding": 0,
-          "total": 58
+          "total": 61
         }
       },
       "isComplete": false
@@ -10723,8 +10731,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1609,
-      "top11Points": 1573,
+      "totalPointsAll": 1644,
+      "top11Points": 1608,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10740,12 +10748,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 289,
+          "batting": 299,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 305,
+          "rawPoints": 315,
           "multiplier": 1,
-          "effectivePoints": 305,
+          "effectivePoints": 315,
           "countsInTop11": true
         },
         {
@@ -10804,6 +10812,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Varun Chakaravarthy",
+          "role": "Spinner",
+          "batting": -5,
+          "bowling": 50,
+          "fielding": 16,
+          "rawPoints": 61,
+          "multiplier": 1,
+          "effectivePoints": 61,
+          "countsInTop11": true
+        },
+        {
           "name": "Nitish Rana",
           "role": "Batsman",
           "batting": 15,
@@ -10812,17 +10831,6 @@
           "rawPoints": 39,
           "multiplier": 1,
           "effectivePoints": 39,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakaravarthy",
-          "role": "Spinner",
-          "batting": -5,
-          "bowling": 25,
-          "fielding": 16,
-          "rawPoints": 36,
-          "multiplier": 1,
-          "effectivePoints": 36,
           "countsInTop11": true
         },
         {
@@ -10999,8 +11007,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2093,
-      "top11Points": 2035,
+      "totalPointsAll": 2111,
+      "top11Points": 2053,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11017,11 +11025,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 41,
-          "bowling": 147,
+          "bowling": 159,
           "fielding": 0,
-          "rawPoints": 188,
+          "rawPoints": 200,
           "multiplier": 1.5,
-          "effectivePoints": 282,
+          "effectivePoints": 300,
           "countsInTop11": true
         },
         {
@@ -11689,8 +11697,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2862,
-      "top11Points": 2692,
+      "totalPointsAll": 2865,
+      "top11Points": 2695,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11706,12 +11714,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 377,
+          "batting": 380,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 377,
+          "rawPoints": 380,
           "multiplier": 1,
-          "effectivePoints": 377,
+          "effectivePoints": 380,
           "countsInTop11": true
         },
         {
