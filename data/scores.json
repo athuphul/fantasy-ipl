@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T13:35:34.805Z",
+  "lastUpdated": "2026-04-19T13:45:15.745Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 128,
+        "r": 145,
         "w": 6,
-        "o": 17.2
+        "o": 18.5
       },
       {
         "inning": "Rajasthan Royals",
@@ -34,16 +34,16 @@
         "total": 46
       },
       "Rinku Singh": {
-        "batting": 41,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": 43
       },
       "Anukul Roy": {
-        "batting": 16,
+        "batting": 42,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 42
       },
       "Sunil Narine": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Jofra Archer": {
         "batting": 9,
-        "bowling": 30,
+        "bowling": 25,
         "fielding": 0,
-        "total": 39
+        "total": 34
       },
       "Ravi Bishnoi": {
         "batting": -5,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2927,
-      "top11Points": 2757
+      "totalPointsAll": 2930,
+      "top11Points": 2760
     },
     {
       "team": "Ali",
@@ -125,14 +125,14 @@
       "top11Points": 2396
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 2345,
+      "top11Points": 2355
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 2351,
       "top11Points": 2351
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 2319,
-      "top11Points": 2329
     },
     {
       "team": "Manav",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1774,
-      "top11Points": 1738
+      "totalPointsAll": 1769,
+      "top11Points": 1733
     }
   ],
   "matchHistory": [
@@ -10488,9 +10488,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 128,
+          "r": 145,
           "w": 6,
-          "o": 17.2
+          "o": 18.5
         },
         {
           "inning": "Rajasthan Royals",
@@ -10650,9 +10650,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 128,
+          "runs": 145,
           "wickets": 6,
-          "overs": 17.2,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Tim Seifert",
@@ -10701,11 +10701,11 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 36,
-              "balls": 26,
+              "runs": 38,
+              "balls": 29,
               "fours": 3,
               "sixes": 1,
-              "sr": 138.46,
+              "sr": 131.03,
               "dismissal": "batting"
             },
             {
@@ -10719,22 +10719,22 @@
             },
             {
               "name": "Anukul Roy",
-              "runs": 14,
-              "balls": 10,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 140,
+              "runs": 27,
+              "balls": 15,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 180,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 32,
               "wickets": 1,
-              "economy": 7.67
+              "economy": 8.73
             },
             {
               "name": "Nandre Burger",
@@ -10778,11 +10778,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 7,
               "wickets": 0,
-              "economy": 0
+              "economy": 7
             }
           ]
         }
@@ -10801,16 +10801,16 @@
           "total": 46
         },
         "Rinku Singh": {
-          "batting": 41,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": 43
         },
         "Anukul Roy": {
-          "batting": 16,
+          "batting": 42,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 42
         },
         "Sunil Narine": {
           "batting": 0,
@@ -10868,9 +10868,9 @@
         },
         "Jofra Archer": {
           "batting": 9,
-          "bowling": 30,
+          "bowling": 25,
           "fielding": 0,
-          "total": 39
+          "total": 34
         },
         "Ravi Bishnoi": {
           "batting": -5,
@@ -10884,8 +10884,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2319,
-      "top11Points": 2329,
+      "totalPointsAll": 2345,
+      "top11Points": 2355,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -10954,6 +10954,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Anukul Roy",
+          "role": "All-Rounder",
+          "batting": 48,
+          "bowling": 112,
+          "fielding": 26,
+          "rawPoints": 186,
+          "multiplier": 1,
+          "effectivePoints": 186,
+          "countsInTop11": true
+        },
+        {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
           "batting": 117,
@@ -10962,17 +10973,6 @@
           "rawPoints": 117,
           "multiplier": 1.5,
           "effectivePoints": 176,
-          "countsInTop11": true
-        },
-        {
-          "name": "Anukul Roy",
-          "role": "All-Rounder",
-          "batting": 22,
-          "bowling": 112,
-          "fielding": 26,
-          "rawPoints": 160,
-          "multiplier": 1,
-          "effectivePoints": 160,
           "countsInTop11": true
         },
         {
@@ -11033,8 +11033,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1774,
-      "top11Points": 1738,
+      "totalPointsAll": 1769,
+      "top11Points": 1733,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11062,11 +11062,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 12,
-          "bowling": 220,
+          "bowling": 215,
           "fielding": 34,
-          "rawPoints": 266,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 266,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
@@ -11999,8 +11999,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2927,
-      "top11Points": 2757,
+      "totalPointsAll": 2930,
+      "top11Points": 2760,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12049,12 +12049,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 125,
+          "batting": 127,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 165,
+          "rawPoints": 167,
           "multiplier": 1.5,
-          "effectivePoints": 248,
+          "effectivePoints": 251,
           "countsInTop11": true
         },
         {
