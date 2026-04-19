@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T16:24:55.002Z",
+  "lastUpdated": "2026-04-19T16:35:08.354Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 40,
-        "w": 0,
-        "o": 3.5
+        "r": 61,
+        "w": 1,
+        "o": 6
       }
     ],
     "playerScores": {
@@ -76,16 +76,16 @@
         "total": 0
       },
       "Mitchell Marsh": {
-        "batting": 33,
+        "batting": 34,
         "bowling": 0,
         "fielding": 16,
-        "total": 49
+        "total": 50
       },
       "Ayush Badoni": {
-        "batting": 29,
+        "batting": 47,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 47
       },
       "Aiden Markram": {
         "batting": 0,
@@ -127,13 +127,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2461,
-      "top11Points": 2466
+      "totalPointsAll": 2462,
+      "top11Points": 2467
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2376,
-      "top11Points": 2386
+      "totalPointsAll": 2394,
+      "top11Points": 2404
     },
     {
       "team": "Ritik",
@@ -10902,9 +10902,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 40,
-          "w": 0,
-          "o": 3.5
+          "r": 61,
+          "w": 1,
+          "o": 6
         }
       ],
       "scorecard": [
@@ -11048,27 +11048,27 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 40,
-          "wickets": 0,
-          "overs": 3.5,
+          "runs": 61,
+          "wickets": 1,
+          "overs": 6,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 19,
-              "balls": 10,
-              "fours": 2,
+              "runs": 24,
+              "balls": 15,
+              "fours": 3,
               "sixes": 1,
-              "sr": 190,
+              "sr": 160,
               "dismissal": "batting"
             },
             {
               "name": "Ayush Badoni",
-              "runs": 20,
-              "balls": 12,
-              "fours": 2,
+              "runs": 35,
+              "balls": 21,
+              "fours": 5,
               "sixes": 1,
               "sr": 166.67,
-              "dismissal": "batting"
+              "dismissal": "c Xavier Bartlett b Vijaykumar Vyshak"
             }
           ],
           "bowling": [
@@ -11082,11 +11082,27 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
+              "runs": 25,
               "wickets": 0,
-              "economy": 12.6
+              "economy": 12.5
+            },
+            {
+              "name": "Marco Jansen",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Vijaykumar Vyshak",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
@@ -11147,16 +11163,16 @@
           "total": 0
         },
         "Mitchell Marsh": {
-          "batting": 33,
+          "batting": 34,
           "bowling": 0,
           "fielding": 16,
-          "total": 49
+          "total": 50
         },
         "Ayush Badoni": {
-          "batting": 29,
+          "batting": 47,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 47
         },
         "Aiden Markram": {
           "batting": 0,
@@ -11194,8 +11210,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2376,
-      "top11Points": 2386,
+      "totalPointsAll": 2394,
+      "top11Points": 2404,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -11264,6 +11280,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ayush Badoni",
+          "role": "Batsman",
+          "batting": 189,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 189,
+          "multiplier": 1,
+          "effectivePoints": 189,
+          "countsInTop11": true
+        },
+        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 50,
@@ -11283,17 +11310,6 @@
           "rawPoints": 117,
           "multiplier": 1.5,
           "effectivePoints": 176,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ayush Badoni",
-          "role": "Batsman",
-          "batting": 171,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 171,
-          "multiplier": 1,
-          "effectivePoints": 171,
           "countsInTop11": true
         },
         {
@@ -11481,8 +11497,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2461,
-      "top11Points": 2466,
+      "totalPointsAll": 2462,
+      "top11Points": 2467,
       "players": [
         {
           "name": "KL Rahul",
@@ -11542,12 +11558,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 171,
+          "batting": 172,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 187,
+          "rawPoints": 188,
           "multiplier": 1,
-          "effectivePoints": 187,
+          "effectivePoints": 188,
           "countsInTop11": true
         },
         {
