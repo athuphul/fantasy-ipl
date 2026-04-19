@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:55:07.392Z",
+  "lastUpdated": "2026-04-19T11:04:59.706Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 95,
-        "w": 1,
-        "o": 10
+        "r": 104,
+        "w": 3,
+        "o": 12
       }
     ],
     "playerScores": {
       "Ajinkya Rahane": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Cameron Green": {
         "batting": 0,
@@ -35,9 +35,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": 37,
         "fielding": 0,
-        "total": 12
+        "total": 37
       },
       "Anukul Roy": {
         "batting": 0,
@@ -53,15 +53,15 @@
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 70,
         "fielding": 0,
-        "total": 25
+        "total": 70
       },
       "Yashasvi Jaiswal": {
-        "batting": 46,
+        "batting": 47,
         "bowling": 0,
         "fielding": 0,
-        "total": 46
+        "total": 47
       },
       "Vaibhav Sooryavanshi": {
         "batting": 61,
@@ -70,10 +70,22 @@
         "total": 61
       },
       "Dhruv Jurel": {
-        "batting": 4,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 5
+      },
+      "Riyan Parag": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Shimron Hetmyer": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -90,23 +102,23 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2320,
-      "top11Points": 2320
+      "totalPointsAll": 2326,
+      "top11Points": 2326
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2285,
-      "top11Points": 2295
+      "totalPointsAll": 2293,
+      "top11Points": 2303
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2343,
-      "top11Points": 2277
+      "totalPointsAll": 2344,
+      "top11Points": 2278
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2111,
-      "top11Points": 2053
+      "totalPointsAll": 2150,
+      "top11Points": 2092
     },
     {
       "team": "Tanay",
@@ -120,8 +132,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1654,
-      "top11Points": 1618
+      "totalPointsAll": 1700,
+      "top11Points": 1664
     }
   ],
   "matchHistory": [
@@ -10452,26 +10464,26 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 95,
-          "w": 1,
-          "o": 10
+          "r": 104,
+          "w": 3,
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 95,
-          "wickets": 1,
-          "overs": 10,
+          "runs": 104,
+          "wickets": 3,
+          "overs": 12,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 38,
-              "balls": 27,
+              "runs": 39,
+              "balls": 29,
               "fours": 4,
               "sixes": 2,
-              "sr": 140.74,
-              "dismissal": "batting"
+              "sr": 134.48,
+              "dismissal": "c Ajinkya Rahane b Sunil Narine"
             },
             {
               "name": "Vaibhav Sooryavanshi",
@@ -10484,11 +10496,29 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 4,
+              "runs": 5,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 71.43,
+              "dismissal": "st Tim Seifert b Varun Chakaravarthy"
+            },
+            {
+              "name": "Riyan Parag",
+              "runs": 3,
               "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 80,
+              "sr": 60,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shimron Hetmyer",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -10519,19 +10549,19 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 7
+              "runs": 17,
+              "wickets": 1,
+              "economy": 6.38
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
-              "wickets": 1,
-              "economy": 1
+              "runs": 4,
+              "wickets": 2,
+              "economy": 2
             },
             {
               "name": "Ramandeep Singh",
@@ -10548,8 +10578,8 @@
         "Ajinkya Rahane": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Cameron Green": {
           "batting": 0,
@@ -10565,9 +10595,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": 37,
           "fielding": 0,
-          "total": 12
+          "total": 37
         },
         "Anukul Roy": {
           "batting": 0,
@@ -10583,15 +10613,15 @@
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 70,
           "fielding": 0,
-          "total": 25
+          "total": 70
         },
         "Yashasvi Jaiswal": {
-          "batting": 46,
+          "batting": 47,
           "bowling": 0,
           "fielding": 0,
-          "total": 46
+          "total": 47
         },
         "Vaibhav Sooryavanshi": {
           "batting": 61,
@@ -10600,10 +10630,22 @@
           "total": 61
         },
         "Dhruv Jurel": {
-          "batting": 4,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 5
+        },
+        "Riyan Parag": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Shimron Hetmyer": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -10611,8 +10653,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2285,
-      "top11Points": 2295,
+      "totalPointsAll": 2293,
+      "top11Points": 2303,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -10674,10 +10716,10 @@
           "role": "Batsman",
           "batting": 188,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 196,
+          "fielding": 16,
+          "rawPoints": 204,
           "multiplier": 1,
-          "effectivePoints": 196,
+          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
@@ -10760,8 +10802,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1654,
-      "top11Points": 1618,
+      "totalPointsAll": 1700,
+      "top11Points": 1664,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10777,12 +10819,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 309,
+          "batting": 310,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 325,
+          "rawPoints": 326,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 326,
           "countsInTop11": true
         },
         {
@@ -10819,6 +10861,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Varun Chakaravarthy",
+          "role": "Spinner",
+          "batting": -5,
+          "bowling": 95,
+          "fielding": 16,
+          "rawPoints": 106,
+          "multiplier": 1,
+          "effectivePoints": 106,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -10838,17 +10891,6 @@
           "rawPoints": 94,
           "multiplier": 1,
           "effectivePoints": 94,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakaravarthy",
-          "role": "Spinner",
-          "batting": -5,
-          "bowling": 50,
-          "fielding": 16,
-          "rawPoints": 61,
-          "multiplier": 1,
-          "effectivePoints": 61,
           "countsInTop11": true
         },
         {
@@ -11036,8 +11078,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2111,
-      "top11Points": 2053,
+      "totalPointsAll": 2150,
+      "top11Points": 2092,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11054,11 +11096,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 41,
-          "bowling": 159,
+          "bowling": 184,
           "fielding": 0,
-          "rawPoints": 200,
+          "rawPoints": 225,
           "multiplier": 1.5,
-          "effectivePoints": 300,
+          "effectivePoints": 338,
           "countsInTop11": true
         },
         {
@@ -11141,12 +11183,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 24,
+          "batting": 25,
           "bowling": 0,
           "fielding": 50,
-          "rawPoints": 74,
+          "rawPoints": 75,
           "multiplier": 1,
-          "effectivePoints": 74,
+          "effectivePoints": 75,
           "countsInTop11": true
         },
         {
@@ -11301,8 +11343,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2343,
-      "top11Points": 2277,
+      "totalPointsAll": 2344,
+      "top11Points": 2278,
       "players": [
         {
           "name": "Axar Patel",
@@ -11329,12 +11371,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 248,
+          "batting": 249,
           "bowling": 0,
           "fielding": 76,
-          "rawPoints": 324,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 324,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
@@ -11461,8 +11503,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2320,
-      "top11Points": 2320,
+      "totalPointsAll": 2326,
+      "top11Points": 2326,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11500,12 +11542,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 75,
+          "batting": 78,
           "bowling": 50,
           "fielding": 8,
-          "rawPoints": 133,
+          "rawPoints": 136,
           "multiplier": 2,
-          "effectivePoints": 266,
+          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
