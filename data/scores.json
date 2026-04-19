@@ -1,12 +1,81 @@
 {
-  "lastUpdated": "2026-04-18T18:25:04.873Z",
+  "lastUpdated": "2026-04-19T10:05:05.672Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529271",
+    "name": "Kolkata Knight Riders v Rajasthan Royals",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 6,
+        "w": 0,
+        "o": 1
+      }
+    ],
+    "playerScores": {
+      "Ajinkya Rahane": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Vaibhav Arora": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2804,
-      "top11Points": 2634
+      "totalPointsAll": 2805,
+      "top11Points": 2635
     },
     {
       "team": "Ali",
@@ -45,8 +114,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1583,
-      "top11Points": 1547
+      "totalPointsAll": 1589,
+      "top11Points": 1553
     }
   ],
   "matchHistory": [
@@ -10367,6 +10436,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529271",
+      "name": "Kolkata Knight Riders v Rajasthan Royals",
+      "date": "2026-04-19",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Rajasthan Royals",
+          "r": 6,
+          "w": 0,
+          "o": 1
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 6,
+          "wickets": 0,
+          "overs": 1,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Vaibhav Arora",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 7.2
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Ajinkya Rahane": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Vaibhav Arora": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -10520,8 +10699,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1583,
-      "top11Points": 1547,
+      "totalPointsAll": 1589,
+      "top11Points": 1553,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10537,12 +10716,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 263,
+          "batting": 269,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 279,
+          "rawPoints": 285,
           "multiplier": 1,
-          "effectivePoints": 279,
+          "effectivePoints": 285,
           "countsInTop11": true
         },
         {
@@ -11486,8 +11665,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2804,
-      "top11Points": 2634,
+      "totalPointsAll": 2805,
+      "top11Points": 2635,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11514,12 +11693,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 319,
+          "batting": 320,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 319,
+          "rawPoints": 320,
           "multiplier": 1,
-          "effectivePoints": 319,
+          "effectivePoints": 320,
           "countsInTop11": true
         },
         {
