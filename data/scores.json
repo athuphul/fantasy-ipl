@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T12:04:54.452Z",
+  "lastUpdated": "2026-04-19T12:14:54.433Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Eden Gardens, Kolkata",
     "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 5,
+        "w": 2,
+        "o": 1.2
+      },
       {
         "inning": "Rajasthan Royals",
         "r": 155,
@@ -16,10 +22,10 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 3
       },
       "Cameron Green": {
         "batting": 0,
@@ -72,8 +78,8 @@
       "Dhruv Jurel": {
         "batting": 5,
         "bowling": 0,
-        "fielding": 0,
-        "total": 5
+        "fielding": 8,
+        "total": 13
       },
       "Riyan Parag": {
         "batting": 8,
@@ -95,9 +101,9 @@
       },
       "Jofra Archer": {
         "batting": 9,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 9
+        "total": 34
       },
       "Ravi Bishnoi": {
         "batting": -5,
@@ -125,13 +131,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2288,
-      "top11Points": 2298
+      "totalPointsAll": 2283,
+      "top11Points": 2293
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2344,
-      "top11Points": 2278
+      "totalPointsAll": 2352,
+      "top11Points": 2286
     },
     {
       "team": "Ashwin",
@@ -150,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1744,
-      "top11Points": 1708
+      "totalPointsAll": 1769,
+      "top11Points": 1733
     }
   ],
   "matchHistory": [
@@ -10481,6 +10487,12 @@
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
+          "inning": "Kolkata Knight Riders",
+          "r": 5,
+          "w": 2,
+          "o": 1.2
+        },
+        {
           "inning": "Rajasthan Royals",
           "r": 155,
           "w": 9,
@@ -10635,14 +10647,76 @@
               "economy": 13
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 5,
+          "wickets": 2,
+          "overs": 1.2,
+          "batting": [
+            {
+              "name": "Tim Seifert",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Jofra Archer"
+            },
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Dhruv Jurel b Nandre Burger"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 4,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 80,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 5
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
+            }
+          ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 3
         },
         "Cameron Green": {
           "batting": 0,
@@ -10695,8 +10769,8 @@
         "Dhruv Jurel": {
           "batting": 5,
           "bowling": 0,
-          "fielding": 0,
-          "total": 5
+          "fielding": 8,
+          "total": 13
         },
         "Riyan Parag": {
           "batting": 8,
@@ -10718,9 +10792,9 @@
         },
         "Jofra Archer": {
           "batting": 9,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 9
+          "total": 34
         },
         "Ravi Bishnoi": {
           "batting": -5,
@@ -10734,8 +10808,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2288,
-      "top11Points": 2298,
+      "totalPointsAll": 2283,
+      "top11Points": 2293,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -10795,12 +10869,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 188,
+          "batting": 183,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 204,
+          "rawPoints": 199,
           "multiplier": 1,
-          "effectivePoints": 204,
+          "effectivePoints": 199,
           "countsInTop11": true
         },
         {
@@ -10883,8 +10957,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1744,
-      "top11Points": 1708,
+      "totalPointsAll": 1769,
+      "top11Points": 1733,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10912,11 +10986,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 12,
-          "bowling": 190,
+          "bowling": 215,
           "fielding": 34,
-          "rawPoints": 236,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 236,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
@@ -11424,8 +11498,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2344,
-      "top11Points": 2278,
+      "totalPointsAll": 2352,
+      "top11Points": 2286,
       "players": [
         {
           "name": "Axar Patel",
@@ -11454,10 +11528,10 @@
           "role": "Wicket Keeper",
           "batting": 249,
           "bowling": 0,
-          "fielding": 76,
-          "rawPoints": 325,
+          "fielding": 84,
+          "rawPoints": 333,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 333,
           "countsInTop11": true
         },
         {
