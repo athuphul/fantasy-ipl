@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T15:24:52.778Z",
+  "lastUpdated": "2026-04-19T15:34:54.480Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 196,
-        "w": 4,
-        "o": 16
+        "r": 228,
+        "w": 5,
+        "o": 17.4
       }
     ],
     "playerScores": {
@@ -34,16 +34,22 @@
         "total": 5
       },
       "Marcus Stoinis": {
-        "batting": 4,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 23
       },
       "Nehal Wadhera": {
-        "batting": 2,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 16
+      },
+      "Shashank Singh": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
       },
       "Mitchell Marsh": {
         "batting": 0,
@@ -72,8 +78,8 @@
       "Nicholas Pooran": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -97,8 +103,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2414,
-      "top11Points": 2419
+      "totalPointsAll": 2428,
+      "top11Points": 2433
     },
     {
       "team": "Athu",
@@ -111,19 +117,19 @@
       "top11Points": 2346
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 2356,
+      "top11Points": 2298
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 2362,
       "top11Points": 2296
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 2348,
-      "top11Points": 2290
-    },
-    {
       "team": "Kishan",
-      "totalPointsAll": 2041,
-      "top11Points": 2041
+      "totalPointsAll": 2072,
+      "top11Points": 2072
     },
     {
       "team": "Tanay",
@@ -10866,17 +10872,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 196,
-          "w": 4,
-          "o": 16
+          "r": 228,
+          "w": 5,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 196,
-          "wickets": 4,
-          "overs": 16,
+          "runs": 228,
+          "wickets": 5,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -10916,20 +10922,29 @@
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 4,
-              "balls": 3,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 133.33,
+              "runs": 19,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 211.11,
               "dismissal": "batting"
             },
             {
               "name": "Nehal Wadhera",
-              "runs": 2,
-              "balls": 3,
+              "runs": 13,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 185.71,
+              "dismissal": "c Nicholas Pooran b Manimaran Siddharth"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 6,
+              "balls": 1,
               "fours": 0,
-              "sixes": 0,
-              "sr": 66.67,
+              "sixes": 1,
+              "sr": 600,
               "dismissal": "batting"
             }
           ],
@@ -10968,19 +10983,19 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 32,
+              "runs": 46,
               "wickets": 0,
-              "economy": 16
+              "economy": 16.24
             },
             {
               "name": "Manimaran Siddharth",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 1,
-              "economy": 8.5
+              "runs": 35,
+              "wickets": 2,
+              "economy": 11.67
             },
             {
               "name": "Aiden Markram",
@@ -11013,16 +11028,22 @@
           "total": 5
         },
         "Marcus Stoinis": {
-          "batting": 4,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 23
         },
         "Nehal Wadhera": {
-          "batting": 2,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 16
+        },
+        "Shashank Singh": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
         },
         "Mitchell Marsh": {
           "batting": 0,
@@ -11051,8 +11072,8 @@
         "Nicholas Pooran": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -11359,8 +11380,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2414,
-      "top11Points": 2419,
+      "totalPointsAll": 2428,
+      "top11Points": 2433,
       "players": [
         {
           "name": "KL Rahul",
@@ -11464,12 +11485,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 33,
+          "batting": 47,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 49,
+          "rawPoints": 63,
           "multiplier": 1,
-          "effectivePoints": 49,
+          "effectivePoints": 63,
           "countsInTop11": true
         },
         {
@@ -11497,8 +11518,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2348,
-      "top11Points": 2290,
+      "totalPointsAll": 2356,
+      "top11Points": 2298,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11558,12 +11579,12 @@
         {
           "name": "Shashank Singh",
           "role": "Batsman",
-          "batting": 39,
+          "batting": 47,
           "bowling": 87,
           "fielding": 8,
-          "rawPoints": 134,
+          "rawPoints": 142,
           "multiplier": 1,
-          "effectivePoints": 134,
+          "effectivePoints": 142,
           "countsInTop11": true
         },
         {
@@ -11635,8 +11656,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2041,
-      "top11Points": 2041,
+      "totalPointsAll": 2072,
+      "top11Points": 2072,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -11720,21 +11741,21 @@
           "role": "Wicket Keeper",
           "batting": 39,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 47,
+          "fielding": 16,
+          "rawPoints": 55,
           "multiplier": 1.5,
-          "effectivePoints": 71,
+          "effectivePoints": 83,
           "countsInTop11": true
         },
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 17,
+          "batting": 36,
           "bowling": 0,
           "fielding": 10,
-          "rawPoints": 27,
+          "rawPoints": 46,
           "multiplier": 1,
-          "effectivePoints": 27,
+          "effectivePoints": 46,
           "countsInTop11": true
         },
         {
