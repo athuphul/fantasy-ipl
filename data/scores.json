@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:05:05.672Z",
+  "lastUpdated": "2026-04-19T10:15:07.990Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 6,
+        "r": 20,
         "w": 0,
-        "o": 1
+        "o": 3
       }
     ],
     "playerScores": {
@@ -64,18 +64,18 @@
         "total": 6
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 1,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 13
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2805,
-      "top11Points": 2635
+      "totalPointsAll": 2817,
+      "top11Points": 2647
     },
     {
       "team": "Ali",
@@ -10446,45 +10446,61 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 6,
+          "r": 20,
           "w": 0,
-          "o": 1
+          "o": 3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 6,
+          "runs": 20,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 5,
-              "balls": 4,
-              "fours": 1,
+              "runs": 9,
+              "balls": 10,
+              "fours": 2,
               "sixes": 0,
-              "sr": 125,
+              "sr": 90,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 11,
+              "balls": 8,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 137.5,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 6,
               "wickets": 0,
-              "economy": 7.2
+              "economy": 6
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 5
             }
           ]
         }
@@ -10539,10 +10555,10 @@
           "total": 6
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 1,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 13
         }
       },
       "isComplete": false
@@ -11665,8 +11681,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2805,
-      "top11Points": 2635,
+      "totalPointsAll": 2817,
+      "top11Points": 2647,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11680,6 +11696,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Vaibhav Sooryavanshi",
+          "role": "Opener",
+          "batting": 332,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 332,
+          "multiplier": 1,
+          "effectivePoints": 332,
+          "countsInTop11": true
+        },
+        {
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
@@ -11688,17 +11715,6 @@
           "rawPoints": 325,
           "multiplier": 1,
           "effectivePoints": 325,
-          "countsInTop11": true
-        },
-        {
-          "name": "Vaibhav Sooryavanshi",
-          "role": "Opener",
-          "batting": 320,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 320,
-          "multiplier": 1,
-          "effectivePoints": 320,
           "countsInTop11": true
         },
         {
