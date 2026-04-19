@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:45:05.916Z",
+  "lastUpdated": "2026-04-19T10:55:07.392Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 81,
+        "r": 95,
         "w": 1,
-        "o": 8.4
+        "o": 10
       }
     ],
     "playerScores": {
@@ -58,16 +58,22 @@
         "total": 25
       },
       "Yashasvi Jaiswal": {
-        "batting": 36,
+        "batting": 46,
         "bowling": 0,
         "fielding": 0,
-        "total": 36
+        "total": 46
       },
       "Vaibhav Sooryavanshi": {
         "batting": 61,
         "bowling": 0,
         "fielding": 0,
         "total": 61
+      },
+      "Dhruv Jurel": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
       }
     }
   },
@@ -94,8 +100,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2339,
-      "top11Points": 2273
+      "totalPointsAll": 2343,
+      "top11Points": 2277
     },
     {
       "team": "Ashwin",
@@ -114,8 +120,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1644,
-      "top11Points": 1608
+      "totalPointsAll": 1654,
+      "top11Points": 1618
     }
   ],
   "matchHistory": [
@@ -10446,25 +10452,25 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 81,
+          "r": 95,
           "w": 1,
-          "o": 8.4
+          "o": 10
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 81,
+          "runs": 95,
           "wickets": 1,
-          "overs": 8.4,
+          "overs": 10,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 30,
-              "balls": 24,
+              "runs": 38,
+              "balls": 27,
               "fours": 4,
-              "sixes": 1,
-              "sr": 125,
+              "sixes": 2,
+              "sr": 140.74,
               "dismissal": "batting"
             },
             {
@@ -10475,6 +10481,15 @@
               "sixes": 2,
               "sr": 164.29,
               "dismissal": "c Ramandeep Singh b Varun Chakaravarthy"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 4,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 80,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -10512,11 +10527,19 @@
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 0.4,
+              "overs": 1,
               "maidens": 0,
               "runs": 1,
               "wickets": 1,
-              "economy": 1.5
+              "economy": 1
+            },
+            {
+              "name": "Ramandeep Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 14
             }
           ]
         }
@@ -10565,16 +10588,22 @@
           "total": 25
         },
         "Yashasvi Jaiswal": {
-          "batting": 36,
+          "batting": 46,
           "bowling": 0,
           "fielding": 0,
-          "total": 36
+          "total": 46
         },
         "Vaibhav Sooryavanshi": {
           "batting": 61,
           "bowling": 0,
           "fielding": 0,
           "total": 61
+        },
+        "Dhruv Jurel": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
         }
       },
       "isComplete": false
@@ -10731,8 +10760,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1644,
-      "top11Points": 1608,
+      "totalPointsAll": 1654,
+      "top11Points": 1618,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10748,12 +10777,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 299,
+          "batting": 309,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 315,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 315,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
@@ -11272,8 +11301,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2339,
-      "top11Points": 2273,
+      "totalPointsAll": 2343,
+      "top11Points": 2277,
       "players": [
         {
           "name": "Axar Patel",
@@ -11300,12 +11329,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 244,
+          "batting": 248,
           "bowling": 0,
           "fielding": 76,
-          "rawPoints": 320,
+          "rawPoints": 324,
           "multiplier": 1,
-          "effectivePoints": 320,
+          "effectivePoints": 324,
           "countsInTop11": true
         },
         {
