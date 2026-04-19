@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T17:15:07.433Z",
+  "lastUpdated": "2026-04-19T17:24:53.587Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 128,
-        "w": 3,
-        "o": 12.4
+        "r": 139,
+        "w": 4,
+        "o": 14.3
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Shreyas Iyer": {
         "batting": 5,
         "bowling": 0,
-        "fielding": 0,
-        "total": 5
+        "fielding": 8,
+        "total": 13
       },
       "Marcus Stoinis": {
         "batting": 45,
@@ -59,9 +59,9 @@
       },
       "Marco Jansen": {
         "batting": 1,
-        "bowling": -10,
+        "bowling": 20,
         "fielding": 0,
-        "total": -9
+        "total": 21
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 25,
         "fielding": 0,
-        "total": 20
+        "total": 25
       },
       "Mitchell Marsh": {
         "batting": 47,
@@ -94,16 +94,16 @@
         "total": 62
       },
       "Nicholas Pooran": {
-        "batting": 3,
+        "batting": 10,
         "bowling": 0,
         "fielding": 18,
-        "total": 21
+        "total": 28
       },
       "Aiden Markram": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 13
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -122,13 +122,13 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2972,
-      "top11Points": 2802
+      "totalPointsAll": 3002,
+      "top11Points": 2832
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2475,
-      "top11Points": 2480
+      "totalPointsAll": 2483,
+      "top11Points": 2488
     },
     {
       "team": "Athu",
@@ -142,8 +142,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2362,
-      "top11Points": 2362
+      "totalPointsAll": 2367,
+      "top11Points": 2367
     },
     {
       "team": "Manav",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2113,
-      "top11Points": 2113
+      "totalPointsAll": 2124,
+      "top11Points": 2124
     },
     {
       "team": "Tanay",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1807,
-      "top11Points": 1771
+      "totalPointsAll": 1812,
+      "top11Points": 1776
     }
   ],
   "matchHistory": [
@@ -10902,9 +10902,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 128,
-          "w": 3,
-          "o": 12.4
+          "r": 139,
+          "w": 4,
+          "o": 14.3
         }
       ],
       "scorecard": [
@@ -11048,9 +11048,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 128,
-          "wickets": 3,
-          "overs": 12.4,
+          "runs": 139,
+          "wickets": 4,
+          "overs": 14.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -11081,22 +11081,31 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 3,
-              "balls": 4,
+              "runs": 9,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "c Shreyas Iyer b Marco Jansen"
+            },
+            {
+              "name": "Aiden Markram",
+              "runs": 5,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 75,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 24,
+              "runs": 29,
               "wickets": 1,
-              "economy": 9
+              "economy": 9.67
             },
             {
               "name": "Xavier Bartlett",
@@ -11108,11 +11117,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 25,
-              "wickets": 0,
-              "economy": 12.5
+              "runs": 26,
+              "wickets": 1,
+              "economy": 11.14
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -11124,11 +11133,11 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 36,
               "wickets": 1,
-              "economy": 10.33
+              "economy": 9
             }
           ]
         }
@@ -11149,8 +11158,8 @@
         "Shreyas Iyer": {
           "batting": 5,
           "bowling": 0,
-          "fielding": 0,
-          "total": 5
+          "fielding": 8,
+          "total": 13
         },
         "Marcus Stoinis": {
           "batting": 45,
@@ -11172,9 +11181,9 @@
         },
         "Marco Jansen": {
           "batting": 1,
-          "bowling": -10,
+          "bowling": 20,
           "fielding": 0,
-          "total": -9
+          "total": 21
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -11184,9 +11193,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 25,
           "fielding": 0,
-          "total": 20
+          "total": 25
         },
         "Mitchell Marsh": {
           "batting": 47,
@@ -11207,16 +11216,16 @@
           "total": 62
         },
         "Nicholas Pooran": {
-          "batting": 3,
+          "batting": 10,
           "bowling": 0,
           "fielding": 18,
-          "total": 21
+          "total": 28
         },
         "Aiden Markram": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 13
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -11385,8 +11394,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1807,
-      "top11Points": 1771,
+      "totalPointsAll": 1812,
+      "top11Points": 1776,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11458,11 +11467,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 99,
+          "bowling": 104,
           "fielding": 16,
-          "rawPoints": 115,
+          "rawPoints": 120,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -11523,8 +11532,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2475,
-      "top11Points": 2480,
+      "totalPointsAll": 2483,
+      "top11Points": 2488,
       "players": [
         {
           "name": "KL Rahul",
@@ -11553,10 +11562,10 @@
           "role": "Batsman",
           "batting": 315,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 323,
+          "fielding": 16,
+          "rawPoints": 331,
           "multiplier": 1,
-          "effectivePoints": 323,
+          "effectivePoints": 331,
           "countsInTop11": true
         },
         {
@@ -11799,8 +11808,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2113,
-      "top11Points": 2113,
+      "totalPointsAll": 2124,
+      "top11Points": 2124,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -11882,12 +11891,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 42,
+          "batting": 49,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 68,
+          "rawPoints": 75,
           "multiplier": 1.5,
-          "effectivePoints": 102,
+          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -12086,8 +12095,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2362,
-      "top11Points": 2362,
+      "totalPointsAll": 2367,
+      "top11Points": 2367,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12147,12 +12156,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 151,
+          "batting": 156,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 183,
+          "rawPoints": 188,
           "multiplier": 1,
-          "effectivePoints": 183,
+          "effectivePoints": 188,
           "countsInTop11": true
         },
         {
@@ -12351,8 +12360,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2972,
-      "top11Points": 2802,
+      "totalPointsAll": 3002,
+      "top11Points": 2832,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12454,6 +12463,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 7,
+          "bowling": 110,
+          "fielding": 16,
+          "rawPoints": 133,
+          "multiplier": 1,
+          "effectivePoints": 133,
+          "countsInTop11": true
+        },
+        {
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
@@ -12462,17 +12482,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 7,
-          "bowling": 80,
-          "fielding": 16,
-          "rawPoints": 103,
-          "multiplier": 1,
-          "effectivePoints": 103,
           "countsInTop11": true
         },
         {
