@@ -1,129 +1,12 @@
 {
-  "lastUpdated": "2026-04-19T17:45:08.915Z",
+  "lastUpdated": "2026-04-19T17:54:54.075Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529272",
-    "name": "Punjab Kings v Lucknow Super Giants",
-    "status": "Live",
-    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
-    "score": [
-      {
-        "inning": "Punjab Kings",
-        "r": 254,
-        "w": 7,
-        "o": 20
-      },
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 188,
-        "w": 4,
-        "o": 18.2
-      }
-    ],
-    "playerScores": {
-      "Priyansh Arya": {
-        "batting": 140,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 140
-      },
-      "Prabhsimran Singh": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 3
-      },
-      "Shreyas Iyer": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 13
-      },
-      "Marcus Stoinis": {
-        "batting": 45,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 45
-      },
-      "Nehal Wadhera": {
-        "batting": 16,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 16
-      },
-      "Shashank Singh": {
-        "batting": 22,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 22
-      },
-      "Marco Jansen": {
-        "batting": 1,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 26
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 25
-      },
-      "Mitchell Marsh": {
-        "batting": 47,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 63
-      },
-      "Ayush Badoni": {
-        "batting": 47,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 47
-      },
-      "Rishabh Pant": {
-        "batting": 62,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 62
-      },
-      "Nicholas Pooran": {
-        "batting": 10,
-        "bowling": 0,
-        "fielding": 18,
-        "total": 28
-      },
-      "Aiden Markram": {
-        "batting": 59,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 67
-      },
-      "Mohammed Shami": {
-        "batting": 0,
-        "bowling": 10,
-        "fielding": 8,
-        "total": 18
-      },
-      "Avesh Khan": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3007,
-      "top11Points": 2837
+      "totalPointsAll": 3032,
+      "top11Points": 2862
     },
     {
       "team": "Ali",
@@ -132,8 +15,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2421,
-      "top11Points": 2421
+      "totalPointsAll": 2423,
+      "top11Points": 2423
     },
     {
       "team": "Athu",
@@ -152,8 +35,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2124,
-      "top11Points": 2124
+      "totalPointsAll": 2132,
+      "top11Points": 2132
     },
     {
       "team": "Tanay",
@@ -10891,7 +10774,7 @@
       "matchId": "espn_1529272",
       "name": "Punjab Kings v Lucknow Super Giants",
       "date": "2026-04-19",
-      "status": "Live",
+      "status": "Final",
       "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
       "score": [
         {
@@ -10902,9 +10785,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 188,
-          "w": 4,
-          "o": 18.2
+          "r": 200,
+          "w": 5,
+          "o": 20
         }
       ],
       "scorecard": [
@@ -11048,9 +10931,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 188,
-          "wickets": 4,
-          "overs": 18.2,
+          "runs": 200,
+          "wickets": 5,
+          "overs": 20,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -11090,21 +10973,30 @@
             },
             {
               "name": "Aiden Markram",
-              "runs": 36,
-              "balls": 18,
-              "fours": 2,
+              "runs": 42,
+              "balls": 22,
+              "fours": 3,
               "sixes": 3,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 190.91,
+              "dismissal": "c Marcus Stoinis b Marco Jansen"
             },
             {
               "name": "Mukul Choudhary",
-              "runs": 16,
-              "balls": 12,
+              "runs": 21,
+              "balls": 17,
               "fours": 1,
               "sixes": 1,
-              "sr": 133.33,
-              "dismissal": "batting"
+              "sr": 123.53,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Himmat Singh",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -11118,19 +11010,19 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 50,
+              "runs": 54,
               "wickets": 0,
-              "economy": 15
+              "economy": 13.5
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 1,
-              "economy": 9.67
+              "runs": 37,
+              "wickets": 2,
+              "economy": 9.25
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -11173,8 +11065,8 @@
         "Marcus Stoinis": {
           "batting": 45,
           "bowling": 0,
-          "fielding": 0,
-          "total": 45
+          "fielding": 8,
+          "total": 53
         },
         "Nehal Wadhera": {
           "batting": 16,
@@ -11190,9 +11082,9 @@
         },
         "Marco Jansen": {
           "batting": 1,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 26
+          "total": 51
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -11231,10 +11123,10 @@
           "total": 28
         },
         "Aiden Markram": {
-          "batting": 59,
+          "batting": 61,
           "bowling": 0,
           "fielding": 8,
-          "total": 67
+          "total": 69
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -11249,7 +11141,7 @@
           "total": -15
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -11817,8 +11709,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2124,
-      "top11Points": 2124,
+      "totalPointsAll": 2132,
+      "top11Points": 2132,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -11913,10 +11805,10 @@
           "role": "All-Rounder",
           "batting": 58,
           "bowling": 0,
-          "fielding": 10,
-          "rawPoints": 68,
+          "fielding": 18,
+          "rawPoints": 76,
           "multiplier": 1,
-          "effectivePoints": 68,
+          "effectivePoints": 76,
           "countsInTop11": true
         },
         {
@@ -12104,8 +11996,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2421,
-      "top11Points": 2421,
+      "totalPointsAll": 2423,
+      "top11Points": 2423,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12154,12 +12046,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 210,
+          "batting": 212,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 242,
+          "rawPoints": 244,
           "multiplier": 1,
-          "effectivePoints": 242,
+          "effectivePoints": 244,
           "countsInTop11": true
         },
         {
@@ -12369,8 +12261,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3007,
-      "top11Points": 2837,
+      "totalPointsAll": 3032,
+      "top11Points": 2862,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12461,6 +12353,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 7,
+          "bowling": 140,
+          "fielding": 16,
+          "rawPoints": 163,
+          "multiplier": 1,
+          "effectivePoints": 163,
+          "countsInTop11": true
+        },
+        {
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
@@ -12469,17 +12372,6 @@
           "rawPoints": 144,
           "multiplier": 1,
           "effectivePoints": 144,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 7,
-          "bowling": 115,
-          "fielding": 16,
-          "rawPoints": 138,
-          "multiplier": 1,
-          "effectivePoints": 138,
           "countsInTop11": true
         },
         {
