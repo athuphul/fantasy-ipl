@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-04-19T13:55:25.524Z",
+  "lastUpdated": "2026-04-19T14:05:07.906Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529272",
+    "name": "Punjab Kings v Lucknow Super Giants",
+    "status": "Live",
+    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "score": [
+      {
+        "inning": "Punjab Kings",
+        "r": 3,
+        "w": 1,
+        "o": 0.3
+      }
+    ],
+    "playerScores": {
+      "Priyansh Arya": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Prabhsimran Singh": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Mitchell Marsh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
+      },
+      "Aiden Markram": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rishabh Pant": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ayush Badoni": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nicholas Pooran": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Shami": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Avesh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Tikoo",
@@ -10,8 +79,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2391,
-      "top11Points": 2396
+      "totalPointsAll": 2399,
+      "top11Points": 2404
     },
     {
       "team": "Athu",
@@ -20,8 +89,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2351,
-      "top11Points": 2351
+      "totalPointsAll": 2346,
+      "top11Points": 2346
     },
     {
       "team": "Manav",
@@ -30,8 +99,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2208,
-      "top11Points": 2150
+      "totalPointsAll": 2209,
+      "top11Points": 2151
     },
     {
       "team": "Kishan",
@@ -45,8 +114,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1769,
-      "top11Points": 1733
+      "totalPointsAll": 1794,
+      "top11Points": 1758
     }
   ],
   "matchHistory": [
@@ -10769,6 +10838,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529272",
+      "name": "Punjab Kings v Lucknow Super Giants",
+      "date": "2026-04-19",
+      "status": "Live",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+      "score": [
+        {
+          "inning": "Punjab Kings",
+          "r": 3,
+          "w": 1,
+          "o": 0.3
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Punjab Kings",
+          "runs": 3,
+          "wickets": 1,
+          "overs": 0.3,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Mitchell Marsh b Mohammed Shami"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 1,
+              "economy": 6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Priyansh Arya": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Prabhsimran Singh": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Mitchell Marsh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
+        },
+        "Aiden Markram": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rishabh Pant": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ayush Badoni": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nicholas Pooran": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Shami": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Avesh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -10922,8 +11101,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1769,
-      "top11Points": 1733,
+      "totalPointsAll": 1794,
+      "top11Points": 1758,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10973,11 +11152,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 12,
-          "bowling": 139,
+          "bowling": 164,
           "fielding": 8,
-          "rawPoints": 159,
+          "rawPoints": 184,
           "multiplier": 1,
-          "effectivePoints": 159,
+          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -11060,8 +11239,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2391,
-      "top11Points": 2396,
+      "totalPointsAll": 2399,
+      "top11Points": 2404,
       "players": [
         {
           "name": "KL Rahul",
@@ -11134,10 +11313,10 @@
           "role": "All-Rounder",
           "batting": 138,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 138,
+          "fielding": 8,
+          "rawPoints": 146,
           "multiplier": 1,
-          "effectivePoints": 138,
+          "effectivePoints": 146,
           "countsInTop11": true
         },
         {
@@ -11198,8 +11377,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2208,
-      "top11Points": 2150,
+      "totalPointsAll": 2209,
+      "top11Points": 2151,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11226,12 +11405,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 190,
+          "batting": 191,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 190,
+          "rawPoints": 191,
           "multiplier": 1,
-          "effectivePoints": 190,
+          "effectivePoints": 191,
           "countsInTop11": true
         },
         {
@@ -11623,8 +11802,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2351,
-      "top11Points": 2351,
+      "totalPointsAll": 2346,
+      "top11Points": 2346,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11651,12 +11830,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 310,
+          "batting": 305,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 339,
+          "rawPoints": 334,
           "multiplier": 1,
-          "effectivePoints": 339,
+          "effectivePoints": 334,
           "countsInTop11": true
         },
         {
