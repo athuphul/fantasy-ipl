@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T11:24:52.957Z",
+  "lastUpdated": "2026-04-19T11:35:09.185Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 124,
-        "w": 4,
-        "o": 15.4
+        "r": 140,
+        "w": 5,
+        "o": 17.3
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 37
+        "bowling": 62,
+        "fielding": 8,
+        "total": 70
       },
       "Anukul Roy": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 0
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -82,10 +82,16 @@
         "total": 8
       },
       "Shimron Hetmyer": {
-        "batting": -3,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": -3
+        "total": 9
+      },
+      "Ravindra Jadeja": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
       }
     }
   },
@@ -102,8 +108,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2336,
-      "top11Points": 2336
+      "totalPointsAll": 2341,
+      "top11Points": 2341
     },
     {
       "team": "Athu",
@@ -117,8 +123,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2146,
-      "top11Points": 2088
+      "totalPointsAll": 2207,
+      "top11Points": 2149
     },
     {
       "team": "Tanay",
@@ -127,8 +133,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1877,
-      "top11Points": 1877
+      "totalPointsAll": 1893,
+      "top11Points": 1893
     },
     {
       "team": "Aakash",
@@ -10464,17 +10470,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 124,
-          "w": 4,
-          "o": 15.4
+          "r": 140,
+          "w": 5,
+          "o": 17.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 124,
-          "wickets": 4,
-          "overs": 15.4,
+          "runs": 140,
+          "wickets": 5,
+          "overs": 17.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -10514,31 +10520,40 @@
             },
             {
               "name": "Shimron Hetmyer",
-              "runs": 7,
-              "balls": 11,
+              "runs": 14,
+              "balls": 16,
               "fours": 0,
               "sixes": 0,
-              "sr": 63.64,
+              "sr": 87.5,
               "dismissal": "batting"
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 1,
-              "balls": 1,
+              "runs": 7,
+              "balls": 7,
               "fours": 0,
-              "sixes": 0,
+              "sixes": 1,
               "sr": 100,
+              "dismissal": "c and b Sunil Narine"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 7,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
+              "runs": 29,
               "wickets": 0,
-              "economy": 10.5
+              "economy": 9.67
             },
             {
               "name": "Kartik Tyagi",
@@ -10558,11 +10573,11 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 1,
-              "economy": 6.67
+              "runs": 26,
+              "wickets": 2,
+              "economy": 6.5
             },
             {
               "name": "Varun Chakaravarthy",
@@ -10574,9 +10589,9 @@
             },
             {
               "name": "Ramandeep Singh",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 21,
               "wickets": 0,
               "economy": 14
             }
@@ -10604,9 +10619,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 37,
-          "fielding": 0,
-          "total": 37
+          "bowling": 62,
+          "fielding": 8,
+          "total": 70
         },
         "Anukul Roy": {
           "batting": 0,
@@ -10616,9 +10631,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 0
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -10651,10 +10666,16 @@
           "total": 8
         },
         "Shimron Hetmyer": {
-          "batting": -3,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": -3
+          "total": 9
+        },
+        "Ravindra Jadeja": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
         }
       },
       "isComplete": false
@@ -11087,8 +11108,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2146,
-      "top11Points": 2088,
+      "totalPointsAll": 2207,
+      "top11Points": 2149,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11105,11 +11126,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 41,
-          "bowling": 184,
-          "fielding": 0,
-          "rawPoints": 225,
+          "bowling": 209,
+          "fielding": 8,
+          "rawPoints": 258,
           "multiplier": 1.5,
-          "effectivePoints": 338,
+          "effectivePoints": 387,
           "countsInTop11": true
         },
         {
@@ -11179,6 +11200,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 33,
+          "bowling": 0,
+          "fielding": 50,
+          "rawPoints": 83,
+          "multiplier": 1,
+          "effectivePoints": 83,
+          "countsInTop11": true
+        },
+        {
           "name": "Abdul Samad",
           "role": "All-Rounder",
           "batting": 71,
@@ -11187,17 +11219,6 @@
           "rawPoints": 79,
           "multiplier": 1,
           "effectivePoints": 79,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 21,
-          "bowling": 0,
-          "fielding": 50,
-          "rawPoints": 71,
-          "multiplier": 1,
-          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -11225,18 +11246,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1877,
-      "top11Points": 1877,
+      "totalPointsAll": 1893,
+      "top11Points": 1893,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 78,
+          "batting": 86,
           "bowling": 97,
           "fielding": 18,
-          "rawPoints": 193,
+          "rawPoints": 201,
           "multiplier": 2,
-          "effectivePoints": 386,
+          "effectivePoints": 402,
           "countsInTop11": true
         },
         {
@@ -11512,8 +11533,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2336,
-      "top11Points": 2336,
+      "totalPointsAll": 2341,
+      "top11Points": 2341,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11585,11 +11606,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 145,
+          "bowling": 150,
           "fielding": 8,
-          "rawPoints": 154,
+          "rawPoints": 159,
           "multiplier": 1,
-          "effectivePoints": 154,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
