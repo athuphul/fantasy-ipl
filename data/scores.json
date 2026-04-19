@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:15:07.990Z",
+  "lastUpdated": "2026-04-19T10:25:06.727Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 20,
+        "r": 49,
         "w": 0,
-        "o": 3
+        "o": 5.2
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -58,24 +58,24 @@
         "total": 0
       },
       "Yashasvi Jaiswal": {
-        "batting": 6,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 7
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 13,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 43
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2817,
-      "top11Points": 2647
+      "totalPointsAll": 2847,
+      "top11Points": 2677
     },
     {
       "team": "Ali",
@@ -84,8 +84,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2325,
-      "top11Points": 2325
+      "totalPointsAll": 2320,
+      "top11Points": 2320
     },
     {
       "team": "Athu",
@@ -114,8 +114,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1589,
-      "top11Points": 1553
+      "totalPointsAll": 1590,
+      "top11Points": 1554
     }
   ],
   "matchHistory": [
@@ -10446,45 +10446,45 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 20,
+          "r": 49,
           "w": 0,
-          "o": 3
+          "o": 5.2
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 20,
+          "runs": 49,
           "wickets": 0,
-          "overs": 3,
+          "overs": 5.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 9,
-              "balls": 10,
+              "runs": 10,
+              "balls": 11,
               "fours": 2,
               "sixes": 0,
-              "sr": 90,
+              "sr": 90.91,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 11,
-              "balls": 8,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 137.5,
+              "runs": 31,
+              "balls": 19,
+              "fours": 5,
+              "sixes": 1,
+              "sr": 163.16,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 21,
               "wickets": 0,
-              "economy": 6
+              "economy": 10.5
             },
             {
               "name": "Kartik Tyagi",
@@ -10501,6 +10501,14 @@
               "runs": 5,
               "wickets": 0,
               "economy": 5
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -10538,9 +10546,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -10549,16 +10557,16 @@
           "total": 0
         },
         "Yashasvi Jaiswal": {
-          "batting": 6,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 7
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 13,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 43
         }
       },
       "isComplete": false
@@ -10715,8 +10723,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1589,
-      "top11Points": 1553,
+      "totalPointsAll": 1590,
+      "top11Points": 1554,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10732,12 +10740,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 269,
+          "batting": 270,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 285,
+          "rawPoints": 286,
           "multiplier": 1,
-          "effectivePoints": 285,
+          "effectivePoints": 286,
           "countsInTop11": true
         },
         {
@@ -11416,8 +11424,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2325,
-      "top11Points": 2325,
+      "totalPointsAll": 2320,
+      "top11Points": 2320,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11489,11 +11497,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 150,
+          "bowling": 145,
           "fielding": 8,
-          "rawPoints": 159,
+          "rawPoints": 154,
           "multiplier": 1,
-          "effectivePoints": 159,
+          "effectivePoints": 154,
           "countsInTop11": true
         },
         {
@@ -11681,8 +11689,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2817,
-      "top11Points": 2647,
+      "totalPointsAll": 2847,
+      "top11Points": 2677,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11698,12 +11706,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 332,
+          "batting": 362,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 332,
+          "rawPoints": 362,
           "multiplier": 1,
-          "effectivePoints": 332,
+          "effectivePoints": 362,
           "countsInTop11": true
         },
         {
