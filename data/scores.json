@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:25:06.727Z",
+  "lastUpdated": "2026-04-19T10:35:08.513Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 49,
+        "r": 68,
         "w": 0,
-        "o": 5.2
+        "o": 6.3
       }
     ],
     "playerScores": {
@@ -23,9 +23,9 @@
       },
       "Cameron Green": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Rinku Singh": {
         "batting": 0,
@@ -58,24 +58,24 @@
         "total": 0
       },
       "Yashasvi Jaiswal": {
-        "batting": 7,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 26
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 43,
+        "batting": 58,
         "bowling": 0,
         "fielding": 0,
-        "total": 43
+        "total": 58
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2847,
-      "top11Points": 2677
+      "totalPointsAll": 2862,
+      "top11Points": 2692
     },
     {
       "team": "Ali",
@@ -104,8 +104,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2006,
-      "top11Points": 1990
+      "totalPointsAll": 1996,
+      "top11Points": 1980
     },
     {
       "team": "Kishan",
@@ -114,8 +114,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1590,
-      "top11Points": 1554
+      "totalPointsAll": 1609,
+      "top11Points": 1573
     }
   ],
   "matchHistory": [
@@ -10446,34 +10446,34 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 49,
+          "r": 68,
           "w": 0,
-          "o": 5.2
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 49,
+          "runs": 68,
           "wickets": 0,
-          "overs": 5.2,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 10,
-              "balls": 11,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 90.91,
+              "runs": 21,
+              "balls": 16,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 131.25,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 31,
-              "balls": 19,
+              "runs": 39,
+              "balls": 22,
               "fours": 5,
-              "sixes": 1,
-              "sr": 163.16,
+              "sixes": 2,
+              "sr": 177.27,
               "dismissal": "batting"
             }
           ],
@@ -10496,19 +10496,19 @@
             },
             {
               "name": "Cameron Green",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 27,
               "wickets": 0,
-              "economy": 5
+              "economy": 13.5
             },
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 7,
               "wickets": 0,
-              "economy": 6
+              "economy": 5.25
             }
           ]
         }
@@ -10522,9 +10522,9 @@
         },
         "Cameron Green": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Rinku Singh": {
           "batting": 0,
@@ -10557,16 +10557,16 @@
           "total": 0
         },
         "Yashasvi Jaiswal": {
-          "batting": 7,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 26
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 43,
+          "batting": 58,
           "bowling": 0,
           "fielding": 0,
-          "total": 43
+          "total": 58
         }
       },
       "isComplete": false
@@ -10723,8 +10723,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1590,
-      "top11Points": 1554,
+      "totalPointsAll": 1609,
+      "top11Points": 1573,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10740,12 +10740,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 270,
+          "batting": 289,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 286,
+          "rawPoints": 305,
           "multiplier": 1,
-          "effectivePoints": 286,
+          "effectivePoints": 305,
           "countsInTop11": true
         },
         {
@@ -11551,8 +11551,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2006,
-      "top11Points": 1990,
+      "totalPointsAll": 1996,
+      "top11Points": 1980,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -11602,11 +11602,11 @@
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 174,
-          "bowling": -5,
+          "bowling": -15,
           "fielding": 24,
-          "rawPoints": 193,
+          "rawPoints": 183,
           "multiplier": 1,
-          "effectivePoints": 193,
+          "effectivePoints": 183,
           "countsInTop11": true
         },
         {
@@ -11689,8 +11689,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2847,
-      "top11Points": 2677,
+      "totalPointsAll": 2862,
+      "top11Points": 2692,
       "players": [
         {
           "name": "Sanju Samson",
@@ -11706,12 +11706,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 362,
+          "batting": 377,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 362,
+          "rawPoints": 377,
           "multiplier": 1,
-          "effectivePoints": 362,
+          "effectivePoints": 377,
           "countsInTop11": true
         },
         {
