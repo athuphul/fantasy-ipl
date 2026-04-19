@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T14:55:07.897Z",
+  "lastUpdated": "2026-04-19T15:05:00.091Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 129,
+        "r": 179,
         "w": 1,
-        "o": 11
+        "o": 13
       }
     ],
     "playerScores": {
       "Priyansh Arya": {
-        "batting": 106,
+        "batting": 131,
         "bowling": 0,
         "fielding": 0,
-        "total": 106
+        "total": 131
       },
       "Prabhsimran Singh": {
         "batting": -5,
@@ -65,9 +65,9 @@
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       }
     }
   },
@@ -99,8 +99,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2314,
-      "top11Points": 2256
+      "totalPointsAll": 2339,
+      "top11Points": 2281
     },
     {
       "team": "Kishan",
@@ -109,8 +109,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2052,
-      "top11Points": 2036
+      "totalPointsAll": 2037,
+      "top11Points": 2021
     },
     {
       "team": "Aakash",
@@ -10848,25 +10848,25 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 129,
+          "r": 179,
           "w": 1,
-          "o": 11
+          "o": 13
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 129,
+          "runs": 179,
           "wickets": 1,
-          "overs": 11,
+          "overs": 13,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 67,
-              "balls": 29,
+              "runs": 86,
+              "balls": 34,
               "fours": 4,
-              "sixes": 5,
-              "sr": 231.03,
+              "sixes": 8,
+              "sr": 252.94,
               "dismissal": "batting"
             },
             {
@@ -10880,11 +10880,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 58,
-              "balls": 36,
-              "fours": 6,
-              "sixes": 4,
-              "sr": 161.11,
+              "runs": 82,
+              "balls": 42,
+              "fours": 7,
+              "sixes": 7,
+              "sr": 195.24,
               "dismissal": "batting"
             }
           ],
@@ -10923,11 +10923,11 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
+              "runs": 32,
               "wickets": 0,
-              "economy": 14
+              "economy": 16
             },
             {
               "name": "Manimaran Siddharth",
@@ -10936,16 +10936,24 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Aiden Markram",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 26,
+              "wickets": 0,
+              "economy": 31.2
             }
           ]
         }
       ],
       "playerScores": {
         "Priyansh Arya": {
-          "batting": 106,
+          "batting": 131,
           "bowling": 0,
           "fielding": 0,
-          "total": 106
+          "total": 131
         },
         "Prabhsimran Singh": {
           "batting": -5,
@@ -10991,9 +10999,9 @@
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         }
       },
       "isComplete": false
@@ -11426,8 +11434,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2314,
-      "top11Points": 2256,
+      "totalPointsAll": 2339,
+      "top11Points": 2281,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11454,12 +11462,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 296,
+          "batting": 321,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 296,
+          "rawPoints": 321,
           "multiplier": 1,
-          "effectivePoints": 296,
+          "effectivePoints": 321,
           "countsInTop11": true
         },
         {
@@ -11978,8 +11986,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2052,
-      "top11Points": 2036,
+      "totalPointsAll": 2037,
+      "top11Points": 2021,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -12051,11 +12059,11 @@
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
-          "bowling": 130,
+          "bowling": 115,
           "fielding": 8,
-          "rawPoints": 145,
+          "rawPoints": 130,
           "multiplier": 1,
-          "effectivePoints": 145,
+          "effectivePoints": 130,
           "countsInTop11": true
         },
         {
