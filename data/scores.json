@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T11:35:09.185Z",
+  "lastUpdated": "2026-04-19T11:44:53.551Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 140,
-        "w": 5,
-        "o": 17.3
+        "r": 146,
+        "w": 8,
+        "o": 18.5
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Cameron Green": {
         "batting": 0,
         "bowling": -10,
-        "fielding": 0,
-        "total": -10
+        "fielding": 8,
+        "total": -2
       },
       "Rinku Singh": {
         "batting": 0,
@@ -82,16 +82,28 @@
         "total": 8
       },
       "Shimron Hetmyer": {
-        "batting": 9,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 10
       },
       "Ravindra Jadeja": {
-        "batting": 8,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 10
+      },
+      "Jofra Archer": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Ravi Bishnoi": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       }
     }
   },
@@ -113,8 +125,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2293,
-      "top11Points": 2303
+      "totalPointsAll": 2288,
+      "top11Points": 2298
     },
     {
       "team": "Manav",
@@ -123,23 +135,23 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2207,
-      "top11Points": 2149
+      "totalPointsAll": 2208,
+      "top11Points": 2150
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 1996,
-      "top11Points": 1980
+      "totalPointsAll": 2004,
+      "top11Points": 1988
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1893,
-      "top11Points": 1893
+      "totalPointsAll": 1897,
+      "top11Points": 1897
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1735,
-      "top11Points": 1699
+      "totalPointsAll": 1736,
+      "top11Points": 1700
     }
   ],
   "matchHistory": [
@@ -10470,17 +10482,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 140,
-          "w": 5,
-          "o": 17.3
+          "r": 146,
+          "w": 8,
+          "o": 18.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 140,
-          "wickets": 5,
-          "overs": 17.3,
+          "runs": 146,
+          "wickets": 8,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -10520,12 +10532,12 @@
             },
             {
               "name": "Shimron Hetmyer",
-              "runs": 14,
-              "balls": 16,
+              "runs": 15,
+              "balls": 18,
               "fours": 0,
               "sixes": 0,
-              "sr": 87.5,
-              "dismissal": "batting"
+              "sr": 83.33,
+              "dismissal": "c Angkrish Raghuvanshi b Kartik Tyagi"
             },
             {
               "name": "Donovan Ferreira",
@@ -10538,12 +10550,30 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 7,
-              "balls": 4,
+              "runs": 9,
+              "balls": 7,
               "fours": 1,
               "sixes": 0,
-              "sr": 175,
+              "sr": 128.57,
+              "dismissal": "c Cameron Green b Kartik Tyagi"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
+            },
+            {
+              "name": "Ravi Bishnoi",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Tim Seifert b Kartik Tyagi"
             }
           ],
           "bowling": [
@@ -10557,11 +10587,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 0,
-              "economy": 6.67
+              "runs": 22,
+              "wickets": 3,
+              "economy": 5.74
             },
             {
               "name": "Cameron Green",
@@ -10589,11 +10619,11 @@
             },
             {
               "name": "Ramandeep Singh",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
+              "runs": 26,
               "wickets": 0,
-              "economy": 14
+              "economy": 13
             }
           ]
         }
@@ -10608,8 +10638,8 @@
         "Cameron Green": {
           "batting": 0,
           "bowling": -10,
-          "fielding": 0,
-          "total": -10
+          "fielding": 8,
+          "total": -2
         },
         "Rinku Singh": {
           "batting": 0,
@@ -10666,16 +10696,28 @@
           "total": 8
         },
         "Shimron Hetmyer": {
-          "batting": 9,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 10
         },
         "Ravindra Jadeja": {
-          "batting": 8,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 10
+        },
+        "Jofra Archer": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Ravi Bishnoi": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         }
       },
       "isComplete": false
@@ -10683,8 +10725,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2293,
-      "top11Points": 2303,
+      "totalPointsAll": 2288,
+      "top11Points": 2298,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -10722,12 +10764,12 @@
         {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
-          "batting": -5,
+          "batting": -10,
           "bowling": 250,
           "fielding": 24,
-          "rawPoints": 269,
+          "rawPoints": 264,
           "multiplier": 1,
-          "effectivePoints": 269,
+          "effectivePoints": 264,
           "countsInTop11": true
         },
         {
@@ -10832,8 +10874,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1735,
-      "top11Points": 1699,
+      "totalPointsAll": 1736,
+      "top11Points": 1700,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10858,6 +10900,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 4,
+          "bowling": 190,
+          "fielding": 34,
+          "rawPoints": 228,
+          "multiplier": 1,
+          "effectivePoints": 228,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 228,
@@ -10866,17 +10919,6 @@
           "rawPoints": 228,
           "multiplier": 1,
           "effectivePoints": 228,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 3,
-          "bowling": 190,
-          "fielding": 34,
-          "rawPoints": 227,
-          "multiplier": 1,
-          "effectivePoints": 227,
           "countsInTop11": true
         },
         {
@@ -11108,8 +11150,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2207,
-      "top11Points": 2149,
+      "totalPointsAll": 2208,
+      "top11Points": 2150,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11202,12 +11244,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 33,
+          "batting": 34,
           "bowling": 0,
           "fielding": 50,
-          "rawPoints": 83,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -11246,18 +11288,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1893,
-      "top11Points": 1893,
+      "totalPointsAll": 1897,
+      "top11Points": 1897,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 86,
+          "batting": 88,
           "bowling": 97,
           "fielding": 18,
-          "rawPoints": 201,
+          "rawPoints": 203,
           "multiplier": 2,
-          "effectivePoints": 402,
+          "effectivePoints": 406,
           "countsInTop11": true
         },
         {
@@ -11660,8 +11702,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 1996,
-      "top11Points": 1980,
+      "totalPointsAll": 2004,
+      "top11Points": 1988,
       "players": [
         {
           "name": "Rajat Patidar",
@@ -11712,10 +11754,10 @@
           "role": "All-Rounder",
           "batting": 174,
           "bowling": -15,
-          "fielding": 24,
-          "rawPoints": 183,
+          "fielding": 32,
+          "rawPoints": 191,
           "multiplier": 1,
-          "effectivePoints": 183,
+          "effectivePoints": 191,
           "countsInTop11": true
         },
         {
