@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T16:55:12.916Z",
+  "lastUpdated": "2026-04-19T17:04:54.694Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 99,
-        "w": 1,
-        "o": 9.3
+        "r": 109,
+        "w": 2,
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -71,15 +71,15 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Mitchell Marsh": {
-        "batting": 50,
+        "batting": 47,
         "bowling": 0,
         "fielding": 16,
-        "total": 66
+        "total": 63
       },
       "Ayush Badoni": {
         "batting": 47,
@@ -88,10 +88,10 @@
         "total": 47
       },
       "Rishabh Pant": {
-        "batting": 37,
+        "batting": 39,
         "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 39
       },
       "Aiden Markram": {
         "batting": 0,
@@ -127,8 +127,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2478,
-      "top11Points": 2483
+      "totalPointsAll": 2475,
+      "top11Points": 2480
     },
     {
       "team": "Athu",
@@ -142,8 +142,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2407,
-      "top11Points": 2349
+      "totalPointsAll": 2409,
+      "top11Points": 2351
     },
     {
       "team": "Manav",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1787,
-      "top11Points": 1751
+      "totalPointsAll": 1812,
+      "top11Points": 1776
     }
   ],
   "matchHistory": [
@@ -10902,9 +10902,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 99,
-          "w": 1,
-          "o": 9.3
+          "r": 109,
+          "w": 2,
+          "o": 11.1
         }
       ],
       "scorecard": [
@@ -11048,18 +11048,18 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 99,
-          "wickets": 1,
-          "overs": 9.3,
+          "runs": 109,
+          "wickets": 2,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 38,
-              "balls": 24,
+              "runs": 40,
+              "balls": 28,
               "fours": 3,
               "sixes": 2,
-              "sr": 158.33,
-              "dismissal": "batting"
+              "sr": 142.86,
+              "dismissal": "c Xavier Bartlett b Yuzvendra Chahal"
             },
             {
               "name": "Ayush Badoni",
@@ -11072,11 +11072,20 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 23,
-              "balls": 13,
-              "fours": 0,
+              "runs": 29,
+              "balls": 18,
+              "fours": 1,
               "sixes": 2,
-              "sr": 176.92,
+              "sr": 161.11,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -11107,19 +11116,19 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 21,
               "wickets": 1,
               "economy": 7
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 1.4,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 0,
-              "economy": 9.6
+              "runs": 18,
+              "wickets": 1,
+              "economy": 8.31
             }
           ]
         }
@@ -11175,15 +11184,15 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Mitchell Marsh": {
-          "batting": 50,
+          "batting": 47,
           "bowling": 0,
           "fielding": 16,
-          "total": 66
+          "total": 63
         },
         "Ayush Badoni": {
           "batting": 47,
@@ -11192,10 +11201,10 @@
           "total": 47
         },
         "Rishabh Pant": {
-          "batting": 37,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 39
         },
         "Aiden Markram": {
           "batting": 0,
@@ -11376,8 +11385,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1787,
-      "top11Points": 1751,
+      "totalPointsAll": 1812,
+      "top11Points": 1776,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11449,11 +11458,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 79,
+          "bowling": 104,
           "fielding": 16,
-          "rawPoints": 95,
+          "rawPoints": 120,
           "multiplier": 1,
-          "effectivePoints": 95,
+          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -11514,8 +11523,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2478,
-      "top11Points": 2483,
+      "totalPointsAll": 2475,
+      "top11Points": 2480,
       "players": [
         {
           "name": "KL Rahul",
@@ -11575,12 +11584,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 188,
+          "batting": 185,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 204,
+          "rawPoints": 201,
           "multiplier": 1,
-          "effectivePoints": 204,
+          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
@@ -11652,8 +11661,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2407,
-      "top11Points": 2349,
+      "totalPointsAll": 2409,
+      "top11Points": 2351,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11691,12 +11700,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 171,
+          "batting": 173,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 213,
+          "rawPoints": 215,
           "multiplier": 1,
-          "effectivePoints": 213,
+          "effectivePoints": 215,
           "countsInTop11": true
         },
         {
