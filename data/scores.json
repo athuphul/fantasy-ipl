@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T11:44:53.551Z",
+  "lastUpdated": "2026-04-19T11:55:17.486Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 146,
-        "w": 8,
-        "o": 18.5
+        "r": 155,
+        "w": 9,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -48,8 +48,8 @@
       "Vaibhav Arora": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 10,
+        "total": 10
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 10
       },
       "Jofra Archer": {
-        "batting": 1,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 9
       },
       "Ravi Bishnoi": {
         "batting": -5,
@@ -120,8 +120,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2341,
-      "top11Points": 2341
+      "totalPointsAll": 2351,
+      "top11Points": 2351
     },
     {
       "team": "Athu",
@@ -150,8 +150,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1736,
-      "top11Points": 1700
+      "totalPointsAll": 1744,
+      "top11Points": 1708
     }
   ],
   "matchHistory": [
@@ -10482,17 +10482,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 146,
-          "w": 8,
-          "o": 18.5
+          "r": 155,
+          "w": 9,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 146,
-          "wickets": 8,
-          "overs": 18.5,
+          "runs": 155,
+          "wickets": 9,
+          "overs": 20,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -10559,12 +10559,12 @@
             },
             {
               "name": "Jofra Archer",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 8,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 160,
+              "dismissal": "run out (Vaibhav Arora/Tim Seifert)"
             },
             {
               "name": "Ravi Bishnoi",
@@ -10574,24 +10574,33 @@
               "sixes": 0,
               "sr": 0,
               "dismissal": "c Tim Seifert b Kartik Tyagi"
+            },
+            {
+              "name": "Brijesh Sharma",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Vaibhav Arora",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
+              "runs": 37,
               "wickets": 0,
-              "economy": 9.67
+              "economy": 9.25
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
               "runs": 22,
               "wickets": 3,
-              "economy": 5.74
+              "economy": 5.5
             },
             {
               "name": "Cameron Green",
@@ -10662,8 +10671,8 @@
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 10,
+          "total": 10
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -10708,10 +10717,10 @@
           "total": 10
         },
         "Jofra Archer": {
-          "batting": 1,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 9
         },
         "Ravi Bishnoi": {
           "batting": -5,
@@ -10874,8 +10883,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1736,
-      "top11Points": 1700,
+      "totalPointsAll": 1744,
+      "top11Points": 1708,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -10902,12 +10911,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 4,
+          "batting": 12,
           "bowling": 190,
           "fielding": 34,
-          "rawPoints": 228,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 228,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -11575,8 +11584,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2341,
-      "top11Points": 2341,
+      "totalPointsAll": 2351,
+      "top11Points": 2351,
       "players": [
         {
           "name": "Jos Buttler",
@@ -11649,10 +11658,10 @@
           "role": "Fast Bowler",
           "batting": 1,
           "bowling": 150,
-          "fielding": 8,
-          "rawPoints": 159,
+          "fielding": 18,
+          "rawPoints": 169,
           "multiplier": 1,
-          "effectivePoints": 159,
+          "effectivePoints": 169,
           "countsInTop11": true
         },
         {
