@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T12:44:55.982Z",
+  "lastUpdated": "2026-04-19T12:55:10.714Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529271",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 52,
+        "r": 65,
         "w": 4,
-        "o": 7
+        "o": 9.1
       },
       {
         "inning": "Rajasthan Royals",
@@ -34,10 +34,10 @@
         "total": 46
       },
       "Rinku Singh": {
-        "batting": 0,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 3
       },
       "Sunil Narine": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Ravindra Jadeja": {
         "batting": 10,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 10
+        "total": 55
       },
       "Jofra Archer": {
         "batting": 9,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 2865,
-      "top11Points": 2695
+      "totalPointsAll": 2870,
+      "top11Points": 2700
     },
     {
       "team": "Ali",
@@ -151,8 +151,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 1897,
-      "top11Points": 1897
+      "totalPointsAll": 1987,
+      "top11Points": 1987
     },
     {
       "team": "Aakash",
@@ -10488,9 +10488,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 52,
+          "r": 65,
           "w": 4,
-          "o": 7
+          "o": 9.1
         },
         {
           "inning": "Rajasthan Royals",
@@ -10650,9 +10650,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 52,
+          "runs": 65,
           "wickets": 4,
-          "overs": 7,
+          "overs": 9.1,
           "batting": [
             {
               "name": "Tim Seifert",
@@ -10675,11 +10675,11 @@
             {
               "name": "Angkrish Raghuvanshi",
               "runs": 10,
-              "balls": 18,
+              "balls": 19,
               "fours": 1,
               "sixes": 0,
-              "sr": 55.56,
-              "dismissal": "batting"
+              "sr": 52.63,
+              "dismissal": "lbw b Ravindra Jadeja"
             },
             {
               "name": "Cameron Green",
@@ -10692,11 +10692,20 @@
             },
             {
               "name": "Rovman Powell",
-              "runs": 13,
-              "balls": 7,
-              "fours": 1,
+              "runs": 21,
+              "balls": 16,
+              "fours": 2,
               "sixes": 1,
-              "sr": 185.71,
+              "sr": 131.25,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rinku Singh",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -10727,19 +10736,19 @@
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 19,
               "wickets": 0,
-              "economy": 12
+              "economy": 9.5
             },
             {
               "name": "Ravindra Jadeja",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
-              "wickets": 0,
-              "economy": 1.2
+              "runs": 5,
+              "wickets": 1,
+              "economy": 2.5
             }
           ]
         }
@@ -10758,10 +10767,10 @@
           "total": 46
         },
         "Rinku Singh": {
-          "batting": 0,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 3
         },
         "Sunil Narine": {
           "batting": 0,
@@ -10819,9 +10828,9 @@
         },
         "Ravindra Jadeja": {
           "batting": 10,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 10
+          "total": 55
         },
         "Jofra Archer": {
           "batting": 9,
@@ -11404,18 +11413,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 1897,
-      "top11Points": 1897,
+      "totalPointsAll": 1987,
+      "top11Points": 1987,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
           "batting": 88,
-          "bowling": 97,
+          "bowling": 142,
           "fielding": 18,
-          "rawPoints": 203,
+          "rawPoints": 248,
           "multiplier": 2,
-          "effectivePoints": 406,
+          "effectivePoints": 496,
           "countsInTop11": true
         },
         {
@@ -11956,8 +11965,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 2865,
-      "top11Points": 2695,
+      "totalPointsAll": 2870,
+      "top11Points": 2700,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12028,12 +12037,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 84,
+          "batting": 87,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 124,
+          "rawPoints": 127,
           "multiplier": 1.5,
-          "effectivePoints": 186,
+          "effectivePoints": 191,
           "countsInTop11": true
         },
         {
