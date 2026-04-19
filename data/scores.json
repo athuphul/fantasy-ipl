@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T17:04:54.694Z",
+  "lastUpdated": "2026-04-19T17:15:07.433Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529272",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Lucknow Super Giants",
-        "r": 109,
-        "w": 2,
-        "o": 11.1
+        "r": 128,
+        "w": 3,
+        "o": 12.4
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Prabhsimran Singh": {
         "batting": -5,
         "bowling": 0,
-        "fielding": 0,
-        "total": -5
+        "fielding": 8,
+        "total": 3
       },
       "Shreyas Iyer": {
         "batting": 5,
@@ -65,15 +65,15 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
         "bowling": 25,
         "fielding": 0,
         "total": 25
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 20,
+        "fielding": 0,
+        "total": 20
       },
       "Mitchell Marsh": {
         "batting": 47,
@@ -88,22 +88,22 @@
         "total": 47
       },
       "Rishabh Pant": {
-        "batting": 39,
+        "batting": 62,
         "bowling": 0,
         "fielding": 0,
-        "total": 39
+        "total": 62
+      },
+      "Nicholas Pooran": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 18,
+        "total": 21
       },
       "Aiden Markram": {
         "batting": 0,
         "bowling": 0,
         "fielding": 8,
         "total": 8
-      },
-      "Nicholas Pooran": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 18,
-        "total": 18
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -136,24 +136,24 @@
       "top11Points": 2404
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 2354,
-      "top11Points": 2354
+      "team": "Ashwin",
+      "totalPointsAll": 2432,
+      "top11Points": 2374
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 2409,
-      "top11Points": 2351
+      "team": "Ritik",
+      "totalPointsAll": 2362,
+      "top11Points": 2362
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2362,
-      "top11Points": 2296
+      "totalPointsAll": 2387,
+      "top11Points": 2321
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2109,
-      "top11Points": 2109
+      "totalPointsAll": 2113,
+      "top11Points": 2113
     },
     {
       "team": "Tanay",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1812,
-      "top11Points": 1776
+      "totalPointsAll": 1807,
+      "top11Points": 1771
     }
   ],
   "matchHistory": [
@@ -10902,9 +10902,9 @@
         },
         {
           "inning": "Lucknow Super Giants",
-          "r": 109,
-          "w": 2,
-          "o": 11.1
+          "r": 128,
+          "w": 3,
+          "o": 12.4
         }
       ],
       "scorecard": [
@@ -11048,9 +11048,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 109,
-          "wickets": 2,
-          "overs": 11.1,
+          "runs": 128,
+          "wickets": 3,
+          "overs": 12.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -11072,31 +11072,31 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 29,
-              "balls": 18,
+              "runs": 43,
+              "balls": 23,
               "fours": 1,
-              "sixes": 2,
-              "sr": 161.11,
-              "dismissal": "batting"
+              "sixes": 4,
+              "sr": 186.96,
+              "dismissal": "c Prabhsimran Singh b Arshdeep Singh"
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 0,
-              "balls": 0,
+              "runs": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 75,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 0,
-              "economy": 9.5
+              "runs": 24,
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Xavier Bartlett",
@@ -11124,11 +11124,11 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
+              "runs": 31,
               "wickets": 1,
-              "economy": 8.31
+              "economy": 10.33
             }
           ]
         }
@@ -11143,8 +11143,8 @@
         "Prabhsimran Singh": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 0,
-          "total": -5
+          "fielding": 8,
+          "total": 3
         },
         "Shreyas Iyer": {
           "batting": 5,
@@ -11178,15 +11178,15 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
-        "Yuzvendra Chahal": {
-          "batting": 0,
           "bowling": 25,
           "fielding": 0,
           "total": 25
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 0,
+          "total": 20
         },
         "Mitchell Marsh": {
           "batting": 47,
@@ -11201,22 +11201,22 @@
           "total": 47
         },
         "Rishabh Pant": {
-          "batting": 39,
+          "batting": 62,
           "bowling": 0,
           "fielding": 0,
-          "total": 39
+          "total": 62
+        },
+        "Nicholas Pooran": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 18,
+          "total": 21
         },
         "Aiden Markram": {
           "batting": 0,
           "bowling": 0,
           "fielding": 8,
           "total": 8
-        },
-        "Nicholas Pooran": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 18,
-          "total": 18
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -11385,8 +11385,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1812,
-      "top11Points": 1776,
+      "totalPointsAll": 1807,
+      "top11Points": 1771,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11458,11 +11458,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 104,
+          "bowling": 99,
           "fielding": 16,
-          "rawPoints": 120,
+          "rawPoints": 115,
           "multiplier": 1,
-          "effectivePoints": 120,
+          "effectivePoints": 115,
           "countsInTop11": true
         },
         {
@@ -11661,8 +11661,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2409,
-      "top11Points": 2351,
+      "totalPointsAll": 2432,
+      "top11Points": 2374,
       "players": [
         {
           "name": "Shubman Gill",
@@ -11700,12 +11700,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 173,
+          "batting": 196,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 215,
+          "rawPoints": 238,
           "multiplier": 1,
-          "effectivePoints": 215,
+          "effectivePoints": 238,
           "countsInTop11": true
         },
         {
@@ -11799,8 +11799,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2109,
-      "top11Points": 2109,
+      "totalPointsAll": 2113,
+      "top11Points": 2113,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -11882,12 +11882,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 39,
+          "batting": 42,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 65,
+          "rawPoints": 68,
           "multiplier": 1.5,
-          "effectivePoints": 98,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -11926,8 +11926,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2362,
-      "top11Points": 2296,
+      "totalPointsAll": 2387,
+      "top11Points": 2321,
       "players": [
         {
           "name": "Axar Patel",
@@ -11988,11 +11988,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 140,
+          "bowling": 165,
           "fielding": 24,
-          "rawPoints": 164,
+          "rawPoints": 189,
           "multiplier": 1,
-          "effectivePoints": 164,
+          "effectivePoints": 189,
           "countsInTop11": true
         },
         {
@@ -12086,8 +12086,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2354,
-      "top11Points": 2354,
+      "totalPointsAll": 2362,
+      "top11Points": 2362,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12116,10 +12116,10 @@
           "role": "Wicket Keeper",
           "batting": 305,
           "bowling": 0,
-          "fielding": 29,
-          "rawPoints": 334,
+          "fielding": 37,
+          "rawPoints": 342,
           "multiplier": 1,
-          "effectivePoints": 334,
+          "effectivePoints": 342,
           "countsInTop11": true
         },
         {
