@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T16:14:58.753Z",
+  "lastUpdated": "2026-04-20T16:24:59.306Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 10,
+        "r": 30,
         "w": 2,
-        "o": 1.4
+        "o": 3.3
       },
       {
         "inning": "Mumbai Indians",
@@ -28,10 +28,10 @@
         "total": -5
       },
       "Shubman Gill": {
-        "batting": 0,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Jos Buttler": {
         "batting": 6,
@@ -40,10 +40,10 @@
         "total": 6
       },
       "Washington Sundar": {
-        "batting": 5,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 15
       },
       "Glenn Phillips": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       }
     }
   },
@@ -137,13 +137,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2462,
-      "top11Points": 2462
+      "totalPointsAll": 2482,
+      "top11Points": 2482
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2432,
-      "top11Points": 2374
+      "totalPointsAll": 2456,
+      "top11Points": 2398
     },
     {
       "team": "Manav",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2137,
-      "top11Points": 2137
+      "totalPointsAll": 2147,
+      "top11Points": 2147
     },
     {
       "team": "Tanay",
@@ -11269,9 +11269,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 10,
+          "r": 30,
           "w": 2,
-          "o": 1.4
+          "o": 3.3
         },
         {
           "inning": "Mumbai Indians",
@@ -11404,9 +11404,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 10,
+          "runs": 30,
           "wickets": 2,
-          "overs": 1.4,
+          "overs": 3.3,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -11419,11 +11419,11 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 10,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 111.11,
               "dismissal": "batting"
             },
             {
@@ -11434,24 +11434,41 @@
               "sixes": 0,
               "sr": 83.33,
               "dismissal": "lbw b Hardik Pandya"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 12,
+              "balls": 4,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 300,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jasprit Bumrah",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
+              "runs": 11,
               "wickets": 1,
-              "economy": 1
+              "economy": 5.5
             },
             {
               "name": "Hardik Pandya",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 18,
+              "wickets": 1,
+              "economy": 18
+            },
+            {
+              "name": "Krish Bhagat",
               "overs": 0.2,
               "maidens": 0,
-              "runs": 4,
-              "wickets": 1,
-              "economy": 12
+              "runs": 1,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -11464,10 +11481,10 @@
           "total": -5
         },
         "Shubman Gill": {
-          "batting": 0,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Jos Buttler": {
           "batting": 6,
@@ -11476,10 +11493,10 @@
           "total": 6
         },
         "Washington Sundar": {
-          "batting": 5,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 15
         },
         "Glenn Phillips": {
           "batting": 0,
@@ -11549,9 +11566,9 @@
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         }
       },
       "isComplete": false
@@ -11984,18 +12001,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2432,
-      "top11Points": 2374,
+      "totalPointsAll": 2456,
+      "top11Points": 2398,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 335,
+          "batting": 347,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 375,
+          "rawPoints": 387,
           "multiplier": 2,
-          "effectivePoints": 750,
+          "effectivePoints": 774,
           "countsInTop11": true
         },
         {
@@ -12122,8 +12139,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2137,
-      "top11Points": 2137,
+      "totalPointsAll": 2147,
+      "top11Points": 2147,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -12172,12 +12189,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 154,
+          "batting": 164,
           "bowling": 25,
           "fielding": 16,
-          "rawPoints": 195,
+          "rawPoints": 205,
           "multiplier": 1,
-          "effectivePoints": 195,
+          "effectivePoints": 205,
           "countsInTop11": true
         },
         {
@@ -12409,8 +12426,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2462,
-      "top11Points": 2462,
+      "totalPointsAll": 2482,
+      "top11Points": 2482,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12515,11 +12532,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 6,
-          "bowling": 35,
+          "bowling": 55,
           "fielding": 10,
-          "rawPoints": 51,
+          "rawPoints": 71,
           "multiplier": 1,
-          "effectivePoints": 51,
+          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
