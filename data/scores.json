@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T16:44:54.846Z",
+  "lastUpdated": "2026-04-20T16:54:53.216Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 55,
+        "r": 64,
         "w": 5,
-        "o": 7.4
+        "o": 9
       },
       {
         "inning": "Mumbai Indians",
@@ -52,16 +52,16 @@
         "total": 14
       },
       "Rahul Tewatia": {
-        "batting": 1,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 2
       },
       "Shahrukh Khan": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Rashid Khan": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Mitchell Santner": {
         "batting": 0,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 25
+        "bowling": 50,
+        "fielding": 8,
+        "total": 58
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -128,8 +128,8 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3073,
-      "top11Points": 2877
+      "totalPointsAll": 3117,
+      "top11Points": 2904
     },
     {
       "team": "Athu",
@@ -11275,9 +11275,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 55,
+          "r": 64,
           "w": 5,
-          "o": 7.4
+          "o": 9
         },
         {
           "inning": "Mumbai Indians",
@@ -11410,9 +11410,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 55,
+          "runs": 64,
           "wickets": 5,
-          "overs": 7.4,
+          "overs": 9,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -11453,19 +11453,28 @@
             {
               "name": "Glenn Phillips",
               "runs": 6,
-              "balls": 7,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 85.71,
-              "dismissal": "batting"
+              "sr": 75,
+              "dismissal": "c and b Mitchell Santner"
             },
             {
               "name": "Rahul Tewatia",
-              "runs": 1,
-              "balls": 1,
+              "runs": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 66.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shahrukh Khan",
+              "runs": 8,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -11504,19 +11513,19 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 16,
               "wickets": 0,
               "economy": 8
             },
             {
               "name": "Mitchell Santner",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 1,
-              "economy": 4
+              "runs": 3,
+              "wickets": 2,
+              "economy": 3
             }
           ]
         }
@@ -11553,16 +11562,16 @@
           "total": 14
         },
         "Rahul Tewatia": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 2
         },
         "Shahrukh Khan": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Rashid Khan": {
           "batting": 0,
@@ -11614,9 +11623,9 @@
         },
         "Mitchell Santner": {
           "batting": 0,
-          "bowling": 25,
-          "fielding": 0,
-          "total": 25
+          "bowling": 50,
+          "fielding": 8,
+          "total": 58
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -12745,8 +12754,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3073,
-      "top11Points": 2877,
+      "totalPointsAll": 3117,
+      "top11Points": 2904,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12859,6 +12868,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Santner",
+          "role": "All-Rounder",
+          "batting": 29,
+          "bowling": 100,
+          "fielding": 8,
+          "rawPoints": 137,
+          "multiplier": 1,
+          "effectivePoints": 137,
+          "countsInTop11": true
+        },
+        {
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
@@ -12867,39 +12887,28 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Santner",
-          "role": "All-Rounder",
-          "batting": 29,
-          "bowling": 75,
-          "fielding": 0,
-          "rawPoints": 104,
-          "multiplier": 1,
-          "effectivePoints": 104,
           "countsInTop11": false
         },
         {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
-          "batting": 47,
+          "batting": 48,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 63,
+          "rawPoints": 64,
           "multiplier": 1,
-          "effectivePoints": 63,
+          "effectivePoints": 64,
           "countsInTop11": false
         },
         {
           "name": "Shahrukh Khan",
           "role": "Batsman",
-          "batting": 21,
+          "batting": 31,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 29,
+          "rawPoints": 39,
           "multiplier": 1,
-          "effectivePoints": 29,
+          "effectivePoints": 39,
           "countsInTop11": false
         }
       ]
