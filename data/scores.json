@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:24:58.669Z",
+  "lastUpdated": "2026-04-20T15:35:04.529Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 138,
+        "r": 167,
         "w": 4,
-        "o": 16.4
+        "o": 18
       }
     ],
     "playerScores": {
@@ -88,16 +88,16 @@
         "total": 23
       },
       "Tilak Varma": {
-        "batting": 60,
+        "batting": 110,
         "bowling": 0,
         "fielding": 0,
-        "total": 60
+        "total": 110
       },
       "Hardik Pandya": {
-        "batting": -2,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": -2
+        "total": 5
       }
     }
   },
@@ -109,8 +109,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2539,
-      "top11Points": 2549
+      "totalPointsAll": 2546,
+      "top11Points": 2556
     },
     {
       "team": "Ali",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1872,
-      "top11Points": 1836
+      "totalPointsAll": 1922,
+      "top11Points": 1886
     }
   ],
   "matchHistory": [
@@ -11251,17 +11251,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 138,
+          "r": 167,
           "w": 4,
-          "o": 16.4
+          "o": 18
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 138,
+          "runs": 167,
           "wickets": 4,
-          "overs": 16.4,
+          "overs": 18,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -11301,20 +11301,20 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 48,
-              "balls": 31,
-              "fours": 3,
-              "sixes": 2,
-              "sr": 154.84,
+              "runs": 75,
+              "balls": 38,
+              "fours": 5,
+              "sixes": 5,
+              "sr": 197.37,
               "dismissal": "batting"
             },
             {
               "name": "Hardik Pandya",
-              "runs": 8,
-              "balls": 12,
+              "runs": 10,
+              "balls": 13,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 76.92,
               "dismissal": "batting"
             }
           ],
@@ -11337,19 +11337,19 @@
             },
             {
               "name": "Ashok Sharma",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 12,
+              "runs": 38,
               "wickets": 0,
-              "economy": 6
+              "economy": 12.67
             },
             {
               "name": "Rashid Khan",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 31,
               "wickets": 0,
-              "economy": 7.64
+              "economy": 7.75
             },
             {
               "name": "Prasidh Krishna",
@@ -11444,16 +11444,16 @@
           "total": 23
         },
         "Tilak Varma": {
-          "batting": 60,
+          "batting": 110,
           "bowling": 0,
           "fielding": 0,
-          "total": 60
+          "total": 110
         },
         "Hardik Pandya": {
-          "batting": -2,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": -2
+          "total": 5
         }
       },
       "isComplete": false
@@ -11461,8 +11461,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2539,
-      "top11Points": 2549,
+      "totalPointsAll": 2546,
+      "top11Points": 2556,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -11566,12 +11566,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 109,
+          "batting": 116,
           "bowling": 30,
           "fielding": 16,
-          "rawPoints": 155,
+          "rawPoints": 162,
           "multiplier": 1,
-          "effectivePoints": 155,
+          "effectivePoints": 162,
           "countsInTop11": true
         },
         {
@@ -11610,8 +11610,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1872,
-      "top11Points": 1836,
+      "totalPointsAll": 1922,
+      "top11Points": 1886,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11658,6 +11658,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tilak Varma",
+          "role": "Batsman",
+          "batting": 156,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 204,
+          "multiplier": 1,
+          "effectivePoints": 204,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 12,
@@ -11666,17 +11677,6 @@
           "rawPoints": 177,
           "multiplier": 1,
           "effectivePoints": 177,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tilak Varma",
-          "role": "Batsman",
-          "batting": 106,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 154,
-          "multiplier": 1,
-          "effectivePoints": 154,
           "countsInTop11": true
         },
         {
