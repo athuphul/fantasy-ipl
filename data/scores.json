@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:45:10.444Z",
+  "lastUpdated": "2026-04-20T15:55:25.867Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 188,
+        "r": 199,
         "w": 5,
-        "o": 19.3
+        "o": 20
       }
     ],
     "playerScores": {
@@ -88,10 +88,10 @@
         "total": 23
       },
       "Tilak Varma": {
-        "batting": 135,
+        "batting": 178,
         "bowling": 0,
         "fielding": 0,
-        "total": 135
+        "total": 178
       },
       "Hardik Pandya": {
         "batting": 11,
@@ -144,8 +144,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1947,
-      "top11Points": 1911
+      "totalPointsAll": 1990,
+      "top11Points": 1954
     }
   ],
   "matchHistory": [
@@ -11251,17 +11251,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 188,
+          "r": 199,
           "w": 5,
-          "o": 19.3
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 188,
+          "runs": 199,
           "wickets": 5,
-          "overs": 19.3,
+          "overs": 20,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -11301,12 +11301,12 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 91,
-              "balls": 43,
-              "fours": 7,
-              "sixes": 6,
-              "sr": 211.63,
-              "dismissal": "batting"
+              "runs": 101,
+              "balls": 45,
+              "fours": 8,
+              "sixes": 7,
+              "sr": 224.44,
+              "dismissal": "not out"
             },
             {
               "name": "Hardik Pandya",
@@ -11319,12 +11319,12 @@
             },
             {
               "name": "Sherfane Rutherford",
-              "runs": 0,
-              "balls": 1,
+              "runs": 1,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 50,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -11362,11 +11362,11 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 43,
+              "runs": 54,
               "wickets": 1,
-              "economy": 12.29
+              "economy": 13.5
             },
             {
               "name": "Washington Sundar",
@@ -11453,10 +11453,10 @@
           "total": 23
         },
         "Tilak Varma": {
-          "batting": 135,
+          "batting": 178,
           "bowling": 0,
           "fielding": 0,
-          "total": 135
+          "total": 178
         },
         "Hardik Pandya": {
           "batting": 11,
@@ -11619,8 +11619,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1947,
-      "top11Points": 1911,
+      "totalPointsAll": 1990,
+      "top11Points": 1954,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11645,6 +11645,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tilak Varma",
+          "role": "Batsman",
+          "batting": 224,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 272,
+          "multiplier": 1,
+          "effectivePoints": 272,
+          "countsInTop11": true
+        },
+        {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 12,
@@ -11653,17 +11664,6 @@
           "rawPoints": 261,
           "multiplier": 1,
           "effectivePoints": 261,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tilak Varma",
-          "role": "Batsman",
-          "batting": 181,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 229,
-          "multiplier": 1,
-          "effectivePoints": 229,
           "countsInTop11": true
         },
         {
