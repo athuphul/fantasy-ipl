@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:55:25.867Z",
+  "lastUpdated": "2026-04-20T16:05:12.290Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
     "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 0,
+        "w": 1,
+        "o": 0.1
+      },
       {
         "inning": "Mumbai Indians",
         "r": 199,
@@ -22,10 +28,10 @@
         "total": 0
       },
       "Sai Sudharsan": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Jos Buttler": {
         "batting": 0,
@@ -98,6 +104,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 11
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
       }
     }
   },
@@ -119,8 +131,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2428,
-      "top11Points": 2428
+      "totalPointsAll": 2453,
+      "top11Points": 2453
     },
     {
       "team": "Ashwin",
@@ -144,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1990,
-      "top11Points": 1954
+      "totalPointsAll": 1980,
+      "top11Points": 1944
     }
   ],
   "matchHistory": [
@@ -11250,6 +11262,12 @@
       "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
       "score": [
         {
+          "inning": "Gujarat Titans",
+          "r": 0,
+          "w": 1,
+          "o": 0.1
+        },
+        {
           "inning": "Mumbai Indians",
           "r": 199,
           "w": 5,
@@ -11377,6 +11395,42 @@
               "economy": 13
             }
           ]
+        },
+        {
+          "innings": "Gujarat Titans",
+          "runs": 0,
+          "wickets": 1,
+          "overs": 0.1,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Krish Bhagat b Jasprit Bumrah"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -11387,10 +11441,10 @@
           "total": 0
         },
         "Sai Sudharsan": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Jos Buttler": {
           "batting": 0,
@@ -11463,6 +11517,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 11
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
         }
       },
       "isComplete": false
@@ -11619,18 +11679,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1990,
-      "top11Points": 1954,
+      "totalPointsAll": 1980,
+      "top11Points": 1944,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 177,
+          "batting": 172,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 195,
+          "rawPoints": 190,
           "multiplier": 2,
-          "effectivePoints": 390,
+          "effectivePoints": 380,
           "countsInTop11": true
         },
         {
@@ -12320,8 +12380,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2428,
-      "top11Points": 2428,
+      "totalPointsAll": 2453,
+      "top11Points": 2453,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12426,11 +12486,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 6,
-          "bowling": 10,
+          "bowling": 35,
           "fielding": 10,
-          "rawPoints": 26,
+          "rawPoints": 51,
           "multiplier": 1,
-          "effectivePoints": 26,
+          "effectivePoints": 51,
           "countsInTop11": true
         },
         {
