@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T14:44:58.520Z",
+  "lastUpdated": "2026-04-20T14:55:38.048Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 68,
+        "r": 92,
         "w": 3,
-        "o": 9
+        "o": 11.4
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": 23
       },
       "Tilak Varma": {
-        "batting": 7,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 15
       }
     }
   },
@@ -113,8 +113,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2423,
-      "top11Points": 2423
+      "totalPointsAll": 2443,
+      "top11Points": 2443
     },
     {
       "team": "Ashwin",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1819,
-      "top11Points": 1783
+      "totalPointsAll": 1827,
+      "top11Points": 1791
     }
   ],
   "matchHistory": [
@@ -11245,17 +11245,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 68,
+          "r": 92,
           "w": 3,
-          "o": 9
+          "o": 11.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 68,
+          "runs": 92,
           "wickets": 3,
-          "overs": 9,
+          "overs": 11.4,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -11277,11 +11277,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 28,
-              "balls": 23,
-              "fours": 5,
-              "sixes": 0,
-              "sr": 121.74,
+              "runs": 43,
+              "balls": 30,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 143.33,
               "dismissal": "batting"
             },
             {
@@ -11295,11 +11295,11 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 7,
-              "balls": 6,
+              "runs": 15,
+              "balls": 14,
               "fours": 0,
               "sixes": 0,
-              "sr": 116.67,
+              "sr": 107.14,
               "dismissal": "batting"
             }
           ],
@@ -11330,11 +11330,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 1,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 4,
+              "runs": 14,
               "wickets": 0,
-              "economy": 4
+              "economy": 5.6
             },
             {
               "name": "Prasidh Krishna",
@@ -11343,6 +11343,14 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Washington Sundar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
             }
           ]
         }
@@ -11386,9 +11394,9 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -11421,10 +11429,10 @@
           "total": 23
         },
         "Tilak Varma": {
-          "batting": 7,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 15
         }
       },
       "isComplete": false
@@ -11581,8 +11589,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1819,
-      "top11Points": 1783,
+      "totalPointsAll": 1827,
+      "top11Points": 1791,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11664,12 +11672,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 53,
+          "batting": 61,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 101,
+          "rawPoints": 109,
           "multiplier": 1,
-          "effectivePoints": 101,
+          "effectivePoints": 109,
           "countsInTop11": true
         },
         {
@@ -12282,8 +12290,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2423,
-      "top11Points": 2423,
+      "totalPointsAll": 2443,
+      "top11Points": 2443,
       "players": [
         {
           "name": "Jos Buttler",
@@ -12330,6 +12338,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rashid Khan",
+          "role": "Spinner",
+          "batting": 32,
+          "bowling": 212,
+          "fielding": 8,
+          "rawPoints": 252,
+          "multiplier": 1,
+          "effectivePoints": 252,
+          "countsInTop11": true
+        },
+        {
           "name": "Aiden Markram",
           "role": "Opener",
           "batting": 212,
@@ -12338,17 +12357,6 @@
           "rawPoints": 244,
           "multiplier": 1,
           "effectivePoints": 244,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rashid Khan",
-          "role": "Spinner",
-          "batting": 32,
-          "bowling": 192,
-          "fielding": 8,
-          "rawPoints": 232,
-          "multiplier": 1,
-          "effectivePoints": 232,
           "countsInTop11": true
         },
         {
