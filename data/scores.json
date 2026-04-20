@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:35:04.529Z",
+  "lastUpdated": "2026-04-20T15:45:10.444Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 167,
-        "w": 4,
-        "o": 18
+        "r": 188,
+        "w": 5,
+        "o": 19.3
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Glenn Phillips": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Washington Sundar": {
         "batting": 0,
@@ -65,15 +65,15 @@
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 37,
         "fielding": 0,
-        "total": 20
+        "total": 37
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 15,
         "fielding": 0,
-        "total": 20
+        "total": 15
       },
       "Quinton de Kock": {
         "batting": 16,
@@ -88,34 +88,34 @@
         "total": 23
       },
       "Tilak Varma": {
-        "batting": 110,
+        "batting": 135,
         "bowling": 0,
         "fielding": 0,
-        "total": 110
+        "total": 135
       },
       "Hardik Pandya": {
-        "batting": 5,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 11
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3052,
-      "top11Points": 2882
+      "totalPointsAll": 3047,
+      "top11Points": 2877
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2546,
-      "top11Points": 2556
+      "totalPointsAll": 2552,
+      "top11Points": 2562
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2503,
-      "top11Points": 2508
+      "totalPointsAll": 2520,
+      "top11Points": 2525
     },
     {
       "team": "Ritik",
@@ -129,8 +129,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2398,
-      "top11Points": 2332
+      "totalPointsAll": 2406,
+      "top11Points": 2340
     },
     {
       "team": "Kishan",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1922,
-      "top11Points": 1886
+      "totalPointsAll": 1947,
+      "top11Points": 1911
     }
   ],
   "matchHistory": [
@@ -11251,17 +11251,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 167,
-          "w": 4,
-          "o": 18
+          "r": 188,
+          "w": 5,
+          "o": 19.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 167,
-          "wickets": 4,
-          "overs": 18,
+          "runs": 188,
+          "wickets": 5,
+          "overs": 19.3,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -11301,31 +11301,40 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 75,
-              "balls": 38,
-              "fours": 5,
-              "sixes": 5,
-              "sr": 197.37,
+              "runs": 91,
+              "balls": 43,
+              "fours": 7,
+              "sixes": 6,
+              "sr": 211.63,
               "dismissal": "batting"
             },
             {
               "name": "Hardik Pandya",
-              "runs": 10,
-              "balls": 13,
+              "runs": 15,
+              "balls": 16,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 93.75,
+              "dismissal": "c Glenn Phillips b Mohammed Siraj"
+            },
+            {
+              "name": "Sherfane Rutherford",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 76.92,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 5
+              "runs": 25,
+              "wickets": 1,
+              "economy": 6.25
             },
             {
               "name": "Kagiso Rabada",
@@ -11353,11 +11362,11 @@
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 32,
+              "runs": 43,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 12.29
             },
             {
               "name": "Washington Sundar",
@@ -11392,8 +11401,8 @@
         "Glenn Phillips": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Washington Sundar": {
           "batting": 0,
@@ -11421,15 +11430,15 @@
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 37,
           "fielding": 0,
-          "total": 20
+          "total": 37
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "total": 20
+          "total": 15
         },
         "Quinton de Kock": {
           "batting": 16,
@@ -11444,16 +11453,16 @@
           "total": 23
         },
         "Tilak Varma": {
-          "batting": 110,
+          "batting": 135,
           "bowling": 0,
           "fielding": 0,
-          "total": 110
+          "total": 135
         },
         "Hardik Pandya": {
-          "batting": 5,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 11
         }
       },
       "isComplete": false
@@ -11461,8 +11470,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2546,
-      "top11Points": 2556,
+      "totalPointsAll": 2552,
+      "top11Points": 2562,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -11566,12 +11575,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 116,
+          "batting": 122,
           "bowling": 30,
           "fielding": 16,
-          "rawPoints": 162,
+          "rawPoints": 168,
           "multiplier": 1,
-          "effectivePoints": 162,
+          "effectivePoints": 168,
           "countsInTop11": true
         },
         {
@@ -11610,8 +11619,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1922,
-      "top11Points": 1886,
+      "totalPointsAll": 1947,
+      "top11Points": 1911,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11647,6 +11656,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tilak Varma",
+          "role": "Batsman",
+          "batting": 181,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 229,
+          "multiplier": 1,
+          "effectivePoints": 229,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 228,
@@ -11655,17 +11675,6 @@
           "rawPoints": 228,
           "multiplier": 1,
           "effectivePoints": 228,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tilak Varma",
-          "role": "Batsman",
-          "batting": 156,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 204,
-          "multiplier": 1,
-          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
@@ -11748,8 +11757,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2503,
-      "top11Points": 2508,
+      "totalPointsAll": 2520,
+      "top11Points": 2525,
       "players": [
         {
           "name": "KL Rahul",
@@ -11807,6 +11816,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Siraj",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 187,
+          "fielding": 24,
+          "rawPoints": 211,
+          "multiplier": 1,
+          "effectivePoints": 211,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 185,
@@ -11815,17 +11835,6 @@
           "rawPoints": 201,
           "multiplier": 1,
           "effectivePoints": 201,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Siraj",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 170,
-          "fielding": 24,
-          "rawPoints": 194,
-          "multiplier": 1,
-          "effectivePoints": 194,
           "countsInTop11": true
         },
         {
@@ -12151,8 +12160,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2398,
-      "top11Points": 2332,
+      "totalPointsAll": 2406,
+      "top11Points": 2340,
       "players": [
         {
           "name": "Axar Patel",
@@ -12236,10 +12245,10 @@
           "role": "All-Rounder",
           "batting": 69,
           "bowling": 0,
-          "fielding": 56,
-          "rawPoints": 125,
+          "fielding": 64,
+          "rawPoints": 133,
           "multiplier": 1,
-          "effectivePoints": 125,
+          "effectivePoints": 133,
           "countsInTop11": true
         },
         {
@@ -12576,8 +12585,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3052,
-      "top11Points": 2882,
+      "totalPointsAll": 3047,
+      "top11Points": 2877,
       "players": [
         {
           "name": "Sanju Samson",
@@ -12605,11 +12614,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 332,
+          "bowling": 327,
           "fielding": 13,
-          "rawPoints": 345,
+          "rawPoints": 340,
           "multiplier": 1,
-          "effectivePoints": 345,
+          "effectivePoints": 340,
           "countsInTop11": true
         },
         {
