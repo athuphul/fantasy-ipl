@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T14:25:18.069Z",
+  "lastUpdated": "2026-04-20T14:35:05.876Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529273",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 32,
-        "w": 2,
-        "o": 4.5
+        "r": 50,
+        "w": 3,
+        "o": 6.5
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 55,
+        "bowling": 85,
         "fielding": 8,
-        "total": 63
+        "total": 93
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -82,10 +82,16 @@
         "total": 16
       },
       "Suryakumar Yadav": {
-        "batting": 4,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 23
+      },
+      "Tilak Varma": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -96,14 +102,14 @@
       "top11Points": 2862
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 2533,
+      "top11Points": 2543
+    },
+    {
       "team": "Ali",
       "totalPointsAll": 2503,
       "top11Points": 2508
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 2465,
-      "top11Points": 2475
     },
     {
       "team": "Ritik",
@@ -132,8 +138,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1812,
-      "top11Points": 1776
+      "totalPointsAll": 1814,
+      "top11Points": 1778
     }
   ],
   "matchHistory": [
@@ -11239,17 +11245,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 32,
-          "w": 2,
-          "o": 4.5
+          "r": 50,
+          "w": 3,
+          "o": 6.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 32,
-          "wickets": 2,
-          "overs": 4.5,
+          "runs": 50,
+          "wickets": 3,
+          "overs": 6.5,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -11271,20 +11277,29 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 10,
-              "balls": 9,
-              "fours": 2,
+              "runs": 19,
+              "balls": 16,
+              "fours": 4,
               "sixes": 0,
-              "sr": 111.11,
+              "sr": 118.75,
               "dismissal": "batting"
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 4,
-              "balls": 6,
+              "runs": 15,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 150,
+              "dismissal": "b Kagiso Rabada"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 2,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -11299,11 +11314,19 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 2,
-              "economy": 7.5
+              "runs": 29,
+              "wickets": 3,
+              "economy": 9.67
+            },
+            {
+              "name": "Ashok Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -11353,9 +11376,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 55,
+          "bowling": 85,
           "fielding": 8,
-          "total": 63
+          "total": 93
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -11376,10 +11399,16 @@
           "total": 16
         },
         "Suryakumar Yadav": {
-          "batting": 4,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 23
+        },
+        "Tilak Varma": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -11387,8 +11416,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2465,
-      "top11Points": 2475,
+      "totalPointsAll": 2533,
+      "top11Points": 2543,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -11399,6 +11428,28 @@
           "rawPoints": 407,
           "multiplier": 1,
           "effectivePoints": 407,
+          "countsInTop11": true
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "batting": 156,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 164,
+          "multiplier": 2,
+          "effectivePoints": 328,
+          "countsInTop11": true
+        },
+        {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 28,
+          "bowling": 260,
+          "fielding": 16,
+          "rawPoints": 304,
+          "multiplier": 1,
+          "effectivePoints": 304,
           "countsInTop11": true
         },
         {
@@ -11413,17 +11464,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Suryakumar Yadav",
-          "role": "Batsman",
-          "batting": 137,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 145,
-          "multiplier": 2,
-          "effectivePoints": 290,
-          "countsInTop11": true
-        },
-        {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": -10,
@@ -11432,17 +11472,6 @@
           "rawPoints": 284,
           "multiplier": 1,
           "effectivePoints": 284,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
-          "role": "Fast Bowler",
-          "batting": 28,
-          "bowling": 230,
-          "fielding": 16,
-          "rawPoints": 274,
-          "multiplier": 1,
-          "effectivePoints": 274,
           "countsInTop11": true
         },
         {
@@ -11536,8 +11565,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1812,
-      "top11Points": 1776,
+      "totalPointsAll": 1814,
+      "top11Points": 1778,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -11619,12 +11648,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 46,
+          "batting": 48,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 94,
+          "rawPoints": 96,
           "multiplier": 1,
-          "effectivePoints": 94,
+          "effectivePoints": 96,
           "countsInTop11": true
         },
         {
