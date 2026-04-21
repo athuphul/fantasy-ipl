@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T15:55:12.091Z",
+  "lastUpdated": "2026-04-21T16:05:06.687Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -12,6 +12,12 @@
         "r": 242,
         "w": 2,
         "o": 20
+      },
+      {
+        "inning": "Delhi Capitals",
+        "r": 1,
+        "w": 0,
+        "o": 0.3
       }
     ],
     "playerScores": {
@@ -39,6 +45,18 @@
         "fielding": 0,
         "total": 61
       },
+      "Nitish Kumar Reddy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Harsh Dubey": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "KL Rahul": {
         "batting": 0,
         "bowling": 0,
@@ -48,8 +66,8 @@
       "Sameer Rizvi": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Axar Patel": {
         "batting": 0,
@@ -72,8 +90,8 @@
       "Nitish Rana": {
         "batting": 0,
         "bowling": -10,
-        "fielding": 0,
-        "total": -10
+        "fielding": 10,
+        "total": 0
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -138,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1970,
-      "top11Points": 1941
+      "totalPointsAll": 1988,
+      "top11Points": 1952
     }
   ],
   "matchHistory": [
@@ -11654,6 +11672,12 @@
           "r": 242,
           "w": 2,
           "o": 20
+        },
+        {
+          "inning": "Delhi Capitals",
+          "r": 1,
+          "w": 0,
+          "o": 0.3
         }
       ],
       "scorecard": [
@@ -11669,7 +11693,7 @@
               "balls": 68,
               "fours": 10,
               "sixes": 10,
-              "sr": 198.52,
+              "sr": 198.53,
               "dismissal": "not out"
             },
             {
@@ -11678,8 +11702,8 @@
               "balls": 26,
               "fours": 2,
               "sixes": 2,
-              "sr": 142.3,
-              "dismissal": "c"
+              "sr": 142.31,
+              "dismissal": "c Sameer Rizvi b Axar Patel"
             },
             {
               "name": "Ishan Kishan",
@@ -11687,8 +11711,8 @@
               "balls": 13,
               "fours": 2,
               "sixes": 1,
-              "sr": 192.3,
-              "dismissal": "run out"
+              "sr": 192.31,
+              "dismissal": "run out (Nitish Rana)"
             },
             {
               "name": "Heinrich Klaasen",
@@ -11696,18 +11720,18 @@
               "balls": 13,
               "fours": 3,
               "sixes": 3,
-              "sr": 284.61,
+              "sr": 284.62,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
-              "name": "Axar Patel",
-              "overs": 2,
+              "name": "Mukesh Kumar",
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 1,
-              "economy": 11.5
+              "runs": 53,
+              "wickets": 0,
+              "economy": 13.25
             },
             {
               "name": "Nitish Rana",
@@ -11726,6 +11750,14 @@
               "economy": 10.25
             },
             {
+              "name": "Axar Patel",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 23,
+              "wickets": 1,
+              "economy": 11.5
+            },
+            {
               "name": "Kuldeep Yadav",
               "overs": 2,
               "maidens": 0,
@@ -11740,14 +11772,42 @@
               "runs": 40,
               "wickets": 0,
               "economy": 10
+            }
+          ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.3,
+          "batting": [
+            {
+              "name": "Pathum Nissanka",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
             },
             {
-              "name": "Mukesh Kumar",
-              "overs": 4,
+              "name": "KL Rahul",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Dilshan Madushanka",
+              "overs": 0.3,
               "maidens": 0,
-              "runs": 53,
+              "runs": 1,
               "wickets": 0,
-              "economy": 13.25
+              "economy": 2
             }
           ]
         }
@@ -11777,6 +11837,18 @@
           "fielding": 0,
           "total": 61
         },
+        "Nitish Kumar Reddy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Harsh Dubey": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "KL Rahul": {
           "batting": 0,
           "bowling": 0,
@@ -11786,8 +11858,8 @@
         "Sameer Rizvi": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Axar Patel": {
           "batting": 0,
@@ -11810,8 +11882,8 @@
         "Nitish Rana": {
           "batting": 0,
           "bowling": -10,
-          "fielding": 0,
-          "total": -10
+          "fielding": 10,
+          "total": 0
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -11986,8 +12058,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1970,
-      "top11Points": 1941,
+      "totalPointsAll": 1988,
+      "top11Points": 1952,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12038,10 +12110,10 @@
           "role": "Batsman",
           "batting": 228,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 228,
+          "fielding": 8,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 228,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -12078,6 +12150,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nitish Rana",
+          "role": "Batsman",
+          "batting": 15,
+          "bowling": -10,
+          "fielding": 34,
+          "rawPoints": 39,
+          "multiplier": 1,
+          "effectivePoints": 39,
+          "countsInTop11": true
+        },
+        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 8,
@@ -12086,17 +12169,6 @@
           "rawPoints": 36,
           "multiplier": 1,
           "effectivePoints": 36,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Rana",
-          "role": "Batsman",
-          "batting": 15,
-          "bowling": -10,
-          "fielding": 24,
-          "rawPoints": 29,
-          "multiplier": 1,
-          "effectivePoints": 29,
           "countsInTop11": false
         },
         {
