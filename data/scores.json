@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T16:55:09.893Z",
+  "lastUpdated": "2026-04-21T17:04:54.272Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 98,
-        "w": 1,
-        "o": 9
+        "r": 107,
+        "w": 4,
+        "o": 10.2
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
         "batting": 215,
         "bowling": 0,
-        "fielding": 0,
-        "total": 215
+        "fielding": 16,
+        "total": 231
       },
       "Travis Head": {
         "batting": 43,
@@ -58,16 +58,16 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 36,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 36
+        "total": 49
       },
       "Nitish Rana": {
-        "batting": 69,
+        "batting": 90,
         "bowling": -10,
         "fielding": 10,
-        "total": 69
+        "total": 90
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -75,17 +75,17 @@
         "fielding": 8,
         "total": 8
       },
+      "David Miller": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
       "Axar Patel": {
         "batting": 0,
         "bowling": 20,
         "fielding": 0,
         "total": 20
-      },
-      "David Miller": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -115,14 +115,14 @@
   },
   "leaderboard": [
     {
-      "team": "Tikoo",
-      "totalPointsAll": 3139,
-      "top11Points": 2919
+      "team": "Ali",
+      "totalPointsAll": 2955,
+      "top11Points": 2960
     },
     {
-      "team": "Ali",
-      "totalPointsAll": 2905,
-      "top11Points": 2910
+      "team": "Tikoo",
+      "totalPointsAll": 3134,
+      "top11Points": 2914
     },
     {
       "team": "Athu",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2057,
-      "top11Points": 2021
+      "totalPointsAll": 2078,
+      "top11Points": 2042
     }
   ],
   "matchHistory": [
@@ -11675,9 +11675,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 98,
-          "w": 1,
-          "o": 9
+          "r": 107,
+          "w": 4,
+          "o": 10.2
         }
       ],
       "scorecard": [
@@ -11777,9 +11777,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 98,
-          "wickets": 1,
-          "overs": 9,
+          "runs": 107,
+          "wickets": 4,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11792,21 +11792,39 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 31,
-              "balls": 21,
+              "runs": 37,
+              "balls": 23,
               "fours": 1,
-              "sixes": 2,
-              "sr": 147.62,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 160.87,
+              "dismissal": "c Abhishek Sharma b Sakib Hussain"
             },
             {
               "name": "Nitish Rana",
-              "runs": 48,
-              "balls": 26,
-              "fours": 5,
+              "runs": 57,
+              "balls": 30,
+              "fours": 7,
               "sixes": 3,
-              "sr": 184.62,
+              "sr": 190,
+              "dismissal": "c Abhishek Sharma b Eshan Malinga"
+            },
+            {
+              "name": "Sameer Rizvi",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
+            },
+            {
+              "name": "David Miller",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Eshan Malinga"
             }
           ],
           "bowling": [
@@ -11820,27 +11838,27 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 35,
+              "runs": 41,
               "wickets": 0,
-              "economy": 12.35
+              "economy": 13.67
             },
             {
               "name": "Eshan Malinga",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
               "runs": 9,
-              "wickets": 0,
-              "economy": 9
+              "wickets": 2,
+              "economy": 6.75
             },
             {
               "name": "Sakib Hussain",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 0,
-              "economy": 5
+              "runs": 14,
+              "wickets": 1,
+              "economy": 7
             },
             {
               "name": "Shivang Kumar",
@@ -11857,8 +11875,8 @@
         "Abhishek Sharma": {
           "batting": 215,
           "bowling": 0,
-          "fielding": 0,
-          "total": 215
+          "fielding": 16,
+          "total": 231
         },
         "Travis Head": {
           "batting": 43,
@@ -11891,16 +11909,16 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 36,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 36
+          "total": 49
         },
         "Nitish Rana": {
-          "batting": 69,
+          "batting": 90,
           "bowling": -10,
           "fielding": 10,
-          "total": 69
+          "total": 90
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -11908,17 +11926,17 @@
           "fielding": 8,
           "total": 8
         },
+        "David Miller": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
         "Axar Patel": {
           "batting": 0,
           "bowling": 20,
           "fielding": 0,
           "total": 20
-        },
-        "David Miller": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -12099,8 +12117,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2057,
-      "top11Points": 2021,
+      "totalPointsAll": 2078,
+      "top11Points": 2042,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12180,6 +12198,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nitish Rana",
+          "role": "Batsman",
+          "batting": 105,
+          "bowling": -10,
+          "fielding": 34,
+          "rawPoints": 129,
+          "multiplier": 1,
+          "effectivePoints": 129,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -12188,17 +12217,6 @@
           "rawPoints": 120,
           "multiplier": 1,
           "effectivePoints": 120,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Rana",
-          "role": "Batsman",
-          "batting": 84,
-          "bowling": -10,
-          "fielding": 34,
-          "rawPoints": 108,
-          "multiplier": 1,
-          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
@@ -12237,29 +12255,29 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2905,
-      "top11Points": 2910,
+      "totalPointsAll": 2955,
+      "top11Points": 2960,
       "players": [
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
           "batting": 507,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 515,
+          "fielding": 24,
+          "rawPoints": 531,
           "multiplier": 1.5,
-          "effectivePoints": 773,
+          "effectivePoints": 797,
           "countsInTop11": true
         },
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 277,
+          "batting": 290,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 303,
+          "rawPoints": 316,
           "multiplier": 2,
-          "effectivePoints": 606,
+          "effectivePoints": 632,
           "countsInTop11": true
         },
         {
@@ -13065,8 +13083,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3139,
-      "top11Points": 2919,
+      "totalPointsAll": 3134,
+      "top11Points": 2914,
       "players": [
         {
           "name": "Sanju Samson",
@@ -13148,12 +13166,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 152,
+          "batting": 147,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 176,
+          "rawPoints": 171,
           "multiplier": 1,
-          "effectivePoints": 176,
+          "effectivePoints": 171,
           "countsInTop11": true
         },
         {
