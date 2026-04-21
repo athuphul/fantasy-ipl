@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T17:04:54.272Z",
+  "lastUpdated": "2026-04-21T17:14:53.558Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 107,
+        "r": 124,
         "w": 4,
-        "o": 10.2
+        "o": 12.3
       }
     ],
     "playerScores": {
@@ -70,10 +70,10 @@
         "total": 90
       },
       "Sameer Rizvi": {
-        "batting": 0,
+        "batting": 17,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 25
       },
       "David Miller": {
         "batting": -5,
@@ -81,17 +81,17 @@
         "fielding": 0,
         "total": -5
       },
+      "Tristan Stubbs": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
       "Axar Patel": {
         "batting": 0,
         "bowling": 20,
         "fielding": 0,
         "total": 20
-      },
-      "Tristan Stubbs": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 2955,
-      "top11Points": 2960
+      "totalPointsAll": 2958,
+      "top11Points": 2963
     },
     {
       "team": "Tikoo",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2078,
-      "top11Points": 2042
+      "totalPointsAll": 2095,
+      "top11Points": 2059
     }
   ],
   "matchHistory": [
@@ -11675,9 +11675,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 107,
+          "r": 124,
           "w": 4,
-          "o": 10.2
+          "o": 12.3
         }
       ],
       "scorecard": [
@@ -11777,9 +11777,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 107,
+          "runs": 124,
           "wickets": 4,
-          "overs": 10.2,
+          "overs": 12.3,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11810,11 +11810,11 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 0,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 14,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 155.56,
               "dismissal": "batting"
             },
             {
@@ -11825,16 +11825,25 @@
               "sixes": 0,
               "sr": 0,
               "dismissal": "b Eshan Malinga"
+            },
+            {
+              "name": "Tristan Stubbs",
+              "runs": 3,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Dilshan Madushanka",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 24,
+              "runs": 30,
               "wickets": 1,
-              "economy": 8
+              "economy": 8.57
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -11846,11 +11855,11 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 11,
               "wickets": 2,
-              "economy": 6.75
+              "economy": 5.5
             },
             {
               "name": "Sakib Hussain",
@@ -11862,11 +11871,11 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 19,
+              "runs": 28,
               "wickets": 0,
-              "economy": 19
+              "economy": 14
             }
           ]
         }
@@ -11921,10 +11930,10 @@
           "total": 90
         },
         "Sameer Rizvi": {
-          "batting": 0,
+          "batting": 17,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 25
         },
         "David Miller": {
           "batting": -5,
@@ -11932,17 +11941,17 @@
           "fielding": 0,
           "total": -5
         },
+        "Tristan Stubbs": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
         "Axar Patel": {
           "batting": 0,
           "bowling": 20,
           "fielding": 0,
           "total": 20
-        },
-        "Tristan Stubbs": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -12117,8 +12126,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2078,
-      "top11Points": 2042,
+      "totalPointsAll": 2095,
+      "top11Points": 2059,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12167,12 +12176,12 @@
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 228,
+          "batting": 245,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 236,
+          "rawPoints": 253,
           "multiplier": 1,
-          "effectivePoints": 236,
+          "effectivePoints": 253,
           "countsInTop11": true
         },
         {
@@ -12255,8 +12264,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2955,
-      "top11Points": 2960,
+      "totalPointsAll": 2958,
+      "top11Points": 2963,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12305,12 +12314,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 215,
+          "batting": 218,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 247,
+          "rawPoints": 250,
           "multiplier": 1,
-          "effectivePoints": 247,
+          "effectivePoints": 250,
           "countsInTop11": true
         },
         {
