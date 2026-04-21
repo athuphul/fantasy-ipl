@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T16:05:06.687Z",
+  "lastUpdated": "2026-04-21T16:14:56.665Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 1,
-        "w": 0,
-        "o": 0.3
+        "r": 21,
+        "w": 1,
+        "o": 2.1
       }
     ],
     "playerScores": {
@@ -58,10 +58,10 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 0,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 15
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2833,
-      "top11Points": 2838
+      "totalPointsAll": 2863,
+      "top11Points": 2868
     },
     {
       "team": "Athu",
@@ -11675,9 +11675,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 1,
-          "w": 0,
-          "o": 0.3
+          "r": 21,
+          "w": 1,
+          "o": 2.1
         }
       ],
       "scorecard": [
@@ -11777,37 +11777,45 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 1,
-          "wickets": 0,
-          "overs": 0.3,
+          "runs": 21,
+          "wickets": 1,
+          "overs": 2.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 1,
-              "balls": 2,
+              "runs": 8,
+              "balls": 6,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 133.33,
+              "dismissal": "c (sub)Liam Livingstone b Dilshan Madushanka"
             },
             {
               "name": "KL Rahul",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 12,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 171.43,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Dilshan Madushanka",
-              "overs": 0.3,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 8,
+              "wickets": 1,
+              "economy": 6.86
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
               "wickets": 0,
-              "economy": 2
+              "economy": 13
             }
           ]
         }
@@ -11850,10 +11858,10 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 0,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 15
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -12196,8 +12204,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2833,
-      "top11Points": 2838,
+      "totalPointsAll": 2863,
+      "top11Points": 2868,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12213,12 +12221,12 @@
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 241,
+          "batting": 256,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 267,
+          "rawPoints": 282,
           "multiplier": 2,
-          "effectivePoints": 534,
+          "effectivePoints": 564,
           "countsInTop11": true
         },
         {
