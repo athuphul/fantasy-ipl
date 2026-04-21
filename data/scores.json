@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T14:14:54.458Z",
+  "lastUpdated": "2026-04-21T14:24:55.404Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 26,
+        "r": 57,
         "w": 0,
-        "o": 3
+        "o": 5.1
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 14,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 57
       },
       "Travis Head": {
-        "batting": 16,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 25
       },
       "KL Rahul": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Nitish Rana": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -90,14 +90,14 @@
       "top11Points": 2924
     },
     {
+      "team": "Ali",
+      "totalPointsAll": 2601,
+      "top11Points": 2606
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 2586,
       "top11Points": 2596
-    },
-    {
-      "team": "Ali",
-      "totalPointsAll": 2536,
-      "top11Points": 2541
     },
     {
       "team": "Ritik",
@@ -121,13 +121,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2069,
-      "top11Points": 2053
+      "totalPointsAll": 2087,
+      "top11Points": 2071
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1980,
-      "top11Points": 1944
+      "totalPointsAll": 1970,
+      "top11Points": 1941
     }
   ],
   "matchHistory": [
@@ -11639,34 +11639,34 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 26,
+          "r": 57,
           "w": 0,
-          "o": 3
+          "o": 5.1
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 26,
+          "runs": 57,
           "wickets": 0,
-          "overs": 3,
+          "overs": 5.1,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 12,
-              "balls": 7,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 171.43,
+              "runs": 34,
+              "balls": 15,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 226.67,
               "dismissal": "batting"
             },
             {
               "name": "Travis Head",
-              "runs": 14,
-              "balls": 11,
+              "runs": 21,
+              "balls": 15,
               "fours": 2,
-              "sixes": 0,
-              "sr": 127.27,
+              "sixes": 1,
+              "sr": 140,
               "dismissal": "batting"
             }
           ],
@@ -11681,35 +11681,35 @@
             },
             {
               "name": "Nitish Rana",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 26,
               "wickets": 0,
-              "economy": 6
+              "economy": 13
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 10,
               "wickets": 0,
-              "economy": 0
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 14,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 57
         },
         "Travis Head": {
-          "batting": 16,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 25
         },
         "KL Rahul": {
           "batting": 0,
@@ -11743,9 +11743,9 @@
         },
         "Nitish Rana": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -11920,8 +11920,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1980,
-      "top11Points": 1944,
+      "totalPointsAll": 1970,
+      "top11Points": 1941,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12012,17 +12012,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Nitish Rana",
-          "role": "Batsman",
-          "batting": 15,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 39,
-          "multiplier": 1,
-          "effectivePoints": 39,
-          "countsInTop11": true
-        },
-        {
           "name": "Matt Henry",
           "role": "Fast Bowler",
           "batting": 8,
@@ -12031,6 +12020,17 @@
           "rawPoints": 36,
           "multiplier": 1,
           "effectivePoints": 36,
+          "countsInTop11": true
+        },
+        {
+          "name": "Nitish Rana",
+          "role": "Batsman",
+          "batting": 15,
+          "bowling": -10,
+          "fielding": 24,
+          "rawPoints": 29,
+          "multiplier": 1,
+          "effectivePoints": 29,
           "countsInTop11": false
         },
         {
@@ -12058,9 +12058,20 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2536,
-      "top11Points": 2541,
+      "totalPointsAll": 2601,
+      "top11Points": 2606,
       "players": [
+        {
+          "name": "Abhishek Sharma",
+          "role": "Opener",
+          "batting": 349,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 357,
+          "multiplier": 1.5,
+          "effectivePoints": 536,
+          "countsInTop11": true
+        },
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
@@ -12070,17 +12081,6 @@
           "rawPoints": 267,
           "multiplier": 2,
           "effectivePoints": 534,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abhishek Sharma",
-          "role": "Opener",
-          "batting": 306,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 314,
-          "multiplier": 1.5,
-          "effectivePoints": 471,
           "countsInTop11": true
         },
         {
@@ -12748,18 +12748,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2069,
-      "top11Points": 2053,
+      "totalPointsAll": 2087,
+      "top11Points": 2071,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 209,
+          "batting": 218,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 209,
+          "rawPoints": 218,
           "multiplier": 2,
-          "effectivePoints": 418,
+          "effectivePoints": 436,
           "countsInTop11": true
         },
         {
