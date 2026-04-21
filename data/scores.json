@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-04-21T17:54:57.360Z",
+  "lastUpdated": "2026-04-21T18:04:57.963Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529274",
-    "name": "Sunrisers Hyderabad v Delhi Capitals",
-    "status": "Live",
-    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-    "score": [
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 242,
-        "w": 2,
-        "o": 20
-      },
-      {
-        "inning": "Delhi Capitals",
-        "r": 195,
-        "w": 8,
-        "o": 19.5
-      }
-    ],
-    "playerScores": {
-      "Abhishek Sharma": {
-        "batting": 215,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 231
-      },
-      "Travis Head": {
-        "batting": 43,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 43
-      },
-      "Ishan Kishan": {
-        "batting": 39,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 39
-      },
-      "Heinrich Klaasen": {
-        "batting": 61,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 61
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 8,
-        "total": -7
-      },
-      "Harsh Dubey": {
-        "batting": 0,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 50
-      },
-      "KL Rahul": {
-        "batting": 49,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 49
-      },
-      "Nitish Rana": {
-        "batting": 90,
-        "bowling": -10,
-        "fielding": 10,
-        "total": 90
-      },
-      "Sameer Rizvi": {
-        "batting": 47,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 55
-      },
-      "David Miller": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Tristan Stubbs": {
-        "batting": 37,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 37
-      },
-      "Ashutosh Sharma": {
-        "batting": 16,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 16
-      },
-      "Axar Patel": {
-        "batting": 2,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 22
-      },
-      "Kuldeep Yadav": {
-        "batting": 1,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -14
-      },
-      "Lungi Ngidi": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "T Natarajan": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -127,8 +10,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3134,
-      "top11Points": 2914
+      "totalPointsAll": 3129,
+      "top11Points": 2909
     },
     {
       "team": "Athu",
@@ -152,8 +35,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2189,
-      "top11Points": 2173
+      "totalPointsAll": 2244,
+      "top11Points": 2228
     },
     {
       "team": "Kishan",
@@ -11670,7 +11553,7 @@
       "matchId": "espn_1529274",
       "name": "Sunrisers Hyderabad v Delhi Capitals",
       "date": "2026-04-21",
-      "status": "Live",
+      "status": "Final",
       "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
       "score": [
         {
@@ -11682,8 +11565,8 @@
         {
           "inning": "Delhi Capitals",
           "r": 195,
-          "w": 8,
-          "o": 19.5
+          "w": 9,
+          "o": 20
         }
       ],
       "scorecard": [
@@ -11784,8 +11667,8 @@
         {
           "innings": "Delhi Capitals",
           "runs": 195,
-          "wickets": 8,
-          "overs": 19.5,
+          "wickets": 9,
+          "overs": 20,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11866,7 +11749,16 @@
               "fours": 0,
               "sixes": 0,
               "sr": 50,
-              "dismissal": "batting"
+              "dismissal": "not out"
+            },
+            {
+              "name": "Lungi Ngidi",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Dilshan Madushanka b Harsh Dubey"
             }
           ],
           "bowling": [
@@ -11912,11 +11804,11 @@
             },
             {
               "name": "Harsh Dubey",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 12,
-              "wickets": 2,
-              "economy": 6.55
+              "wickets": 3,
+              "economy": 6
             }
           ]
         }
@@ -11954,9 +11846,9 @@
         },
         "Harsh Dubey": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 105,
           "fielding": 0,
-          "total": 50
+          "total": 105
         },
         "KL Rahul": {
           "batting": 49,
@@ -12007,10 +11899,10 @@
           "total": -14
         },
         "Lungi Ngidi": {
-          "batting": 0,
+          "batting": -5,
           "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": -10
         },
         "T Natarajan": {
           "batting": 0,
@@ -12019,7 +11911,7 @@
           "total": -5
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -13001,8 +12893,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2189,
-      "top11Points": 2173,
+      "totalPointsAll": 2244,
+      "top11Points": 2228,
       "players": [
         {
           "name": "Travis Head",
@@ -13049,6 +12941,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Harsh Dubey",
+          "role": "All-Rounder",
+          "batting": 10,
+          "bowling": 240,
+          "fielding": 8,
+          "rawPoints": 258,
+          "multiplier": 1,
+          "effectivePoints": 258,
+          "countsInTop11": true
+        },
+        {
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 222,
@@ -13057,17 +12960,6 @@
           "rawPoints": 239,
           "multiplier": 1,
           "effectivePoints": 239,
-          "countsInTop11": true
-        },
-        {
-          "name": "Harsh Dubey",
-          "role": "All-Rounder",
-          "batting": 10,
-          "bowling": 185,
-          "fielding": 8,
-          "rawPoints": 203,
-          "multiplier": 1,
-          "effectivePoints": 203,
           "countsInTop11": true
         },
         {
@@ -13139,8 +13031,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3134,
-      "top11Points": 2914,
+      "totalPointsAll": 3129,
+      "top11Points": 2909,
       "players": [
         {
           "name": "Sanju Samson",
@@ -13200,12 +13092,12 @@
         {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
-          "batting": 3,
+          "batting": -2,
           "bowling": 200,
           "fielding": 5,
-          "rawPoints": 208,
+          "rawPoints": 203,
           "multiplier": 1,
-          "effectivePoints": 208,
+          "effectivePoints": 203,
           "countsInTop11": true
         },
         {
