@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T17:45:07.192Z",
+  "lastUpdated": "2026-04-21T17:54:57.360Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 186,
-        "w": 5,
-        "o": 17.5
+        "r": 195,
+        "w": 8,
+        "o": 19.5
       }
     ],
     "playerScores": {
@@ -48,14 +48,14 @@
       "Nitish Kumar Reddy": {
         "batting": 0,
         "bowling": -15,
-        "fielding": 0,
-        "total": -15
+        "fielding": 8,
+        "total": -7
       },
       "Harsh Dubey": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "KL Rahul": {
         "batting": 49,
@@ -94,22 +94,22 @@
         "total": 16
       },
       "Axar Patel": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 20,
         "fielding": 0,
-        "total": 20
+        "total": 22
+      },
+      "Kuldeep Yadav": {
+        "batting": 1,
+        "bowling": -15,
+        "fielding": 0,
+        "total": -14
       },
       "Lungi Ngidi": {
         "batting": 0,
         "bowling": -5,
         "fielding": 0,
         "total": -5
-      },
-      "Kuldeep Yadav": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
       },
       "T Natarajan": {
         "batting": 0,
@@ -147,18 +147,18 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2455,
-      "top11Points": 2389
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2153,
-      "top11Points": 2153
+      "totalPointsAll": 2467,
+      "top11Points": 2401
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2139,
-      "top11Points": 2123
+      "totalPointsAll": 2189,
+      "top11Points": 2173
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 2154,
+      "top11Points": 2154
     },
     {
       "team": "Aakash",
@@ -11681,9 +11681,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 186,
-          "w": 5,
-          "o": 17.5
+          "r": 195,
+          "w": 8,
+          "o": 19.5
         }
       ],
       "scorecard": [
@@ -11783,9 +11783,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 186,
-          "wickets": 5,
-          "overs": 17.5,
+          "runs": 195,
+          "wickets": 8,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11816,12 +11816,12 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 36,
-              "balls": 22,
+              "runs": 41,
+              "balls": 28,
               "fours": 2,
               "sixes": 2,
-              "sr": 163.64,
-              "dismissal": "batting"
+              "sr": 146.43,
+              "dismissal": "c Dilshan Madushanka b Harsh Dubey"
             },
             {
               "name": "David Miller",
@@ -11844,10 +11844,28 @@
             {
               "name": "Ashutosh Sharma",
               "runs": 14,
-              "balls": 9,
+              "balls": 10,
               "fours": 2,
               "sixes": 0,
-              "sr": 155.56,
+              "sr": 140,
+              "dismissal": "c Aniket Verma b Eshan Malinga"
+            },
+            {
+              "name": "Axar Patel",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "c Nitish Reddy b Harsh Dubey"
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -11870,19 +11888,19 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
               "runs": 32,
-              "wickets": 3,
-              "economy": 8.35
+              "wickets": 4,
+              "economy": 8
             },
             {
               "name": "Sakib Hussain",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 29,
               "wickets": 1,
-              "economy": 7.67
+              "economy": 7.25
             },
             {
               "name": "Shivang Kumar",
@@ -11894,11 +11912,11 @@
             },
             {
               "name": "Harsh Dubey",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 0,
-              "economy": 10
+              "runs": 12,
+              "wickets": 2,
+              "economy": 6.55
             }
           ]
         }
@@ -11931,14 +11949,14 @@
         "Nitish Kumar Reddy": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "fielding": 8,
+          "total": -7
         },
         "Harsh Dubey": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "KL Rahul": {
           "batting": 49,
@@ -11977,22 +11995,22 @@
           "total": 16
         },
         "Axar Patel": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 20,
           "fielding": 0,
-          "total": 20
+          "total": 22
+        },
+        "Kuldeep Yadav": {
+          "batting": 1,
+          "bowling": -15,
+          "fielding": 0,
+          "total": -14
         },
         "Lungi Ngidi": {
           "batting": 0,
           "bowling": -5,
           "fielding": 0,
           "total": -5
-        },
-        "Kuldeep Yadav": {
-          "batting": 0,
-          "bowling": -15,
-          "fielding": 0,
-          "total": -15
         },
         "T Natarajan": {
           "batting": 0,
@@ -12569,8 +12587,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2153,
-      "top11Points": 2153,
+      "totalPointsAll": 2154,
+      "top11Points": 2154,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -12628,6 +12646,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": 6,
+          "bowling": 100,
+          "fielding": 8,
+          "rawPoints": 114,
+          "multiplier": 1,
+          "effectivePoints": 114,
+          "countsInTop11": true
+        },
+        {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 9,
@@ -12636,17 +12665,6 @@
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": 5,
-          "bowling": 100,
-          "fielding": 8,
-          "rawPoints": 113,
-          "multiplier": 1,
-          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -12696,18 +12714,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2455,
-      "top11Points": 2389,
+      "totalPointsAll": 2467,
+      "top11Points": 2401,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 27,
+          "batting": 29,
           "bowling": 200,
           "fielding": 8,
-          "rawPoints": 235,
+          "rawPoints": 237,
           "multiplier": 2,
-          "effectivePoints": 470,
+          "effectivePoints": 474,
           "countsInTop11": true
         },
         {
@@ -12726,10 +12744,10 @@
           "role": "All-Rounder",
           "batting": 200,
           "bowling": 85,
-          "fielding": 40,
-          "rawPoints": 325,
+          "fielding": 48,
+          "rawPoints": 333,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 333,
           "countsInTop11": true
         },
         {
@@ -12983,8 +13001,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2139,
-      "top11Points": 2123,
+      "totalPointsAll": 2189,
+      "top11Points": 2173,
       "players": [
         {
           "name": "Travis Head",
@@ -13045,11 +13063,11 @@
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
-          "bowling": 135,
+          "bowling": 185,
           "fielding": 8,
-          "rawPoints": 153,
+          "rawPoints": 203,
           "multiplier": 1,
-          "effectivePoints": 153,
+          "effectivePoints": 203,
           "countsInTop11": true
         },
         {
