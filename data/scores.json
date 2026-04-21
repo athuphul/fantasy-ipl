@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T16:14:56.665Z",
+  "lastUpdated": "2026-04-21T16:25:04.092Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 21,
+        "r": 41,
         "w": 1,
-        "o": 2.1
+        "o": 3.5
       }
     ],
     "playerScores": {
@@ -58,10 +58,16 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 15,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 16
+      },
+      "Nitish Rana": {
+        "batting": 22,
+        "bowling": -10,
+        "fielding": 10,
+        "total": 22
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -85,12 +91,6 @@
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
-      },
-      "Nitish Rana": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 10,
         "total": 0
       },
       "Lungi Ngidi": {
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 2863,
-      "top11Points": 2868
+      "totalPointsAll": 2865,
+      "top11Points": 2870
     },
     {
       "team": "Athu",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 1988,
-      "top11Points": 1952
+      "totalPointsAll": 2010,
+      "top11Points": 1974
     }
   ],
   "matchHistory": [
@@ -11675,9 +11675,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 21,
+          "r": 41,
           "w": 1,
-          "o": 2.1
+          "o": 3.5
         }
       ],
       "scorecard": [
@@ -11777,9 +11777,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 21,
+          "runs": 41,
           "wickets": 1,
-          "overs": 2.1,
+          "overs": 3.5,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11792,30 +11792,39 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 12,
-              "balls": 7,
+              "runs": 13,
+              "balls": 8,
               "fours": 1,
               "sixes": 1,
-              "sr": 171.43,
+              "sr": 162.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nitish Rana",
+              "runs": 18,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Dilshan Madushanka",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 16,
               "wickets": 1,
-              "economy": 6.86
+              "economy": 8
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 13,
+              "runs": 25,
               "wickets": 0,
-              "economy": 13
+              "economy": 13.64
             }
           ]
         }
@@ -11858,10 +11867,16 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 15,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 16
+        },
+        "Nitish Rana": {
+          "batting": 22,
+          "bowling": -10,
+          "fielding": 10,
+          "total": 22
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -11885,12 +11900,6 @@
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
-        },
-        "Nitish Rana": {
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 10,
           "total": 0
         },
         "Lungi Ngidi": {
@@ -12066,8 +12075,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 1988,
-      "top11Points": 1952,
+      "totalPointsAll": 2010,
+      "top11Points": 1974,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12160,12 +12169,12 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 15,
+          "batting": 37,
           "bowling": -10,
           "fielding": 34,
-          "rawPoints": 39,
+          "rawPoints": 61,
           "multiplier": 1,
-          "effectivePoints": 39,
+          "effectivePoints": 61,
           "countsInTop11": true
         },
         {
@@ -12204,8 +12213,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2863,
-      "top11Points": 2868,
+      "totalPointsAll": 2865,
+      "top11Points": 2870,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12221,12 +12230,12 @@
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 256,
+          "batting": 257,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 282,
+          "rawPoints": 283,
           "multiplier": 2,
-          "effectivePoints": 564,
+          "effectivePoints": 566,
           "countsInTop11": true
         },
         {
