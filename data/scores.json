@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T17:34:54.485Z",
+  "lastUpdated": "2026-04-21T17:45:07.192Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529274",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 166,
+        "r": 186,
         "w": 5,
-        "o": 15.5
+        "o": 17.5
       }
     ],
     "playerScores": {
@@ -70,10 +70,10 @@
         "total": 90
       },
       "Sameer Rizvi": {
-        "batting": 43,
+        "batting": 47,
         "bowling": 0,
         "fielding": 8,
-        "total": 51
+        "total": 55
       },
       "David Miller": {
         "batting": -5,
@@ -86,6 +86,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 37
+      },
+      "Ashutosh Sharma": {
+        "batting": 16,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 16
       },
       "Axar Patel": {
         "batting": 0,
@@ -151,13 +157,13 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2123,
-      "top11Points": 2107
+      "totalPointsAll": 2139,
+      "top11Points": 2123
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2121,
-      "top11Points": 2085
+      "totalPointsAll": 2125,
+      "top11Points": 2089
     }
   ],
   "matchHistory": [
@@ -11675,9 +11681,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 166,
+          "r": 186,
           "w": 5,
-          "o": 15.5
+          "o": 17.5
         }
       ],
       "scorecard": [
@@ -11777,9 +11783,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 166,
+          "runs": 186,
           "wickets": 5,
-          "overs": 15.5,
+          "overs": 17.5,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -11810,11 +11816,11 @@
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 32,
-              "balls": 19,
+              "runs": 36,
+              "balls": 22,
               "fours": 2,
               "sixes": 2,
-              "sr": 168.42,
+              "sr": 163.64,
               "dismissal": "batting"
             },
             {
@@ -11837,11 +11843,11 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 14,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 155.56,
               "dismissal": "batting"
             }
           ],
@@ -11864,11 +11870,11 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 23,
+              "runs": 32,
               "wickets": 3,
-              "economy": 7.67
+              "economy": 8.35
             },
             {
               "name": "Sakib Hussain",
@@ -11885,6 +11891,14 @@
               "runs": 28,
               "wickets": 0,
               "economy": 14
+            },
+            {
+              "name": "Harsh Dubey",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
             }
           ]
         }
@@ -11939,10 +11953,10 @@
           "total": 90
         },
         "Sameer Rizvi": {
-          "batting": 43,
+          "batting": 47,
           "bowling": 0,
           "fielding": 8,
-          "total": 51
+          "total": 55
         },
         "David Miller": {
           "batting": -5,
@@ -11955,6 +11969,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 37
+        },
+        "Ashutosh Sharma": {
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 16
         },
         "Axar Patel": {
           "batting": 0,
@@ -12135,8 +12155,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2121,
-      "top11Points": 2085,
+      "totalPointsAll": 2125,
+      "top11Points": 2089,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12163,12 +12183,12 @@
         {
           "name": "Sameer Rizvi",
           "role": "Batsman",
-          "batting": 271,
+          "batting": 275,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 279,
+          "rawPoints": 283,
           "multiplier": 1,
-          "effectivePoints": 279,
+          "effectivePoints": 283,
           "countsInTop11": true
         },
         {
@@ -12963,8 +12983,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2123,
-      "top11Points": 2107,
+      "totalPointsAll": 2139,
+      "top11Points": 2123,
       "players": [
         {
           "name": "Travis Head",
@@ -13044,6 +13064,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 50,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 50,
+          "multiplier": 1,
+          "effectivePoints": 50,
+          "countsInTop11": true
+        },
+        {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
           "batting": 14,
@@ -13052,17 +13083,6 @@
           "rawPoints": 44,
           "multiplier": 1,
           "effectivePoints": 44,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 34,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 34,
-          "multiplier": 1,
-          "effectivePoints": 34,
           "countsInTop11": true
         },
         {
