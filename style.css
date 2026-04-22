@@ -815,6 +815,157 @@ tbody tr {
   color: var(--accent-light);
 }
 
+@media (max-width: 520px) {
+  #bottom-nav {
+    padding: 8px 4px;
+    gap: 4px;
+  }
+
+  .nav-btn {
+    padding: 8px 10px;
+    font-size: 0.72rem;
+  }
+}
+
+/* === Title race === */
+.title-race-intro {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 14px;
+  max-width: 52rem;
+}
+
+.title-race-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.title-race-toggle-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-body);
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+
+.title-race-toggle-opt:has(input:checked) {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  box-shadow: 0 0 0 1px var(--accent-glow);
+}
+
+.title-race-chart-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  height: min(58vh, 440px);
+  padding: 12px 8px 8px;
+  margin-bottom: 12px;
+}
+
+.title-race-chart-wrap canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.title-race-timeline {
+  margin-bottom: 14px;
+}
+
+.title-race-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#title-race-play-btn {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  font-family: var(--font-display);
+  cursor: pointer;
+}
+
+#title-race-play-btn:hover {
+  border-color: var(--accent);
+}
+
+#title-race-slider {
+  flex: 1;
+  min-width: 180px;
+  accent-color: var(--accent);
+}
+
+.title-race-speed-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+#title-race-speed {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 0.78rem;
+}
+
+.title-race-slider-label {
+  margin-top: 8px;
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+}
+
+.title-race-standings {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.title-race-standing-item {
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: var(--bg-card);
+}
+
+.title-race-standing-rank {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.title-race-standing-team {
+  margin-top: 2px;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.title-race-standing-points {
+  margin-top: 2px;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
 .hidden {
   display: none !important;
 }
