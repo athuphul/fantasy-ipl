@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T16:15:39.122Z",
+  "lastUpdated": "2026-04-22T16:25:09.358Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -10,8 +10,8 @@
       {
         "inning": "Lucknow Super Giants",
         "r": 11,
-        "w": 1,
-        "o": 1.1
+        "w": 3,
+        "o": 2.5
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 12,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 13
       },
       "Ayush Badoni": {
         "batting": -5,
@@ -34,16 +34,16 @@
         "total": -5
       },
       "Rishabh Pant": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 11
       },
       "Aiden Markram": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Dhruv Jurel": {
         "batting": -5,
         "bowling": 0,
-        "fielding": 0,
-        "total": -5
+        "fielding": 16,
+        "total": 11
       },
       "Riyan Parag": {
         "batting": 24,
@@ -101,9 +101,9 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3024,
-      "top11Points": 3029
+      "totalPointsAll": 3025,
+      "top11Points": 3030
     },
     {
       "team": "Tikoo",
@@ -131,18 +131,18 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2573,
-      "top11Points": 2573
+      "totalPointsAll": 2568,
+      "top11Points": 2568
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2508,
-      "top11Points": 2450
+      "totalPointsAll": 2503,
+      "top11Points": 2445
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2462,
-      "top11Points": 2396
+      "totalPointsAll": 2478,
+      "top11Points": 2412
     },
     {
       "team": "Kishan",
@@ -156,8 +156,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2216,
-      "top11Points": 2180
+      "totalPointsAll": 2241,
+      "top11Points": 2205
     }
   ],
   "matchHistory": [
@@ -12034,8 +12034,8 @@
         {
           "inning": "Lucknow Super Giants",
           "r": 11,
-          "w": 1,
-          "o": 1.1
+          "w": 3,
+          "o": 2.5
         },
         {
           "inning": "Rajasthan Royals",
@@ -12170,16 +12170,16 @@
         {
           "innings": "Lucknow Super Giants",
           "runs": 11,
-          "wickets": 1,
-          "overs": 1.1,
+          "wickets": 3,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 10,
-              "balls": 6,
+              "runs": 11,
+              "balls": 7,
               "fours": 2,
               "sixes": 0,
-              "sr": 166.67,
+              "sr": 157.14,
               "dismissal": "batting"
             },
             {
@@ -12194,6 +12194,24 @@
             {
               "name": "Rishabh Pant",
               "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Dhruv Jurel b Nandre Burger"
+            },
+            {
+              "name": "Aiden Markram",
+              "runs": 0,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Dhruv Jurel b Jofra Archer"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 0,
               "balls": 0,
               "fours": 0,
               "sixes": 0,
@@ -12204,29 +12222,29 @@
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 9,
-              "wickets": 0,
-              "economy": 9
+              "runs": 10,
+              "wickets": 1,
+              "economy": 5.45
             },
             {
               "name": "Nandre Burger",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
               "runs": 1,
-              "wickets": 0,
-              "economy": 6
+              "wickets": 1,
+              "economy": 1
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 12,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 13
         },
         "Ayush Badoni": {
           "batting": -5,
@@ -12235,16 +12253,16 @@
           "total": -5
         },
         "Rishabh Pant": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 11
         },
         "Aiden Markram": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -12279,8 +12297,8 @@
         "Dhruv Jurel": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 0,
-          "total": -5
+          "fielding": 16,
+          "total": 11
         },
         "Riyan Parag": {
           "batting": 24,
@@ -12302,9 +12320,9 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -12467,8 +12485,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2216,
-      "top11Points": 2180,
+      "totalPointsAll": 2241,
+      "top11Points": 2205,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12493,6 +12511,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 12,
+          "bowling": 240,
+          "fielding": 34,
+          "rawPoints": 286,
+          "multiplier": 1,
+          "effectivePoints": 286,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 275,
@@ -12512,17 +12541,6 @@
           "rawPoints": 272,
           "multiplier": 1,
           "effectivePoints": 272,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 12,
-          "bowling": 215,
-          "fielding": 34,
-          "rawPoints": 261,
-          "multiplier": 1,
-          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
@@ -12605,8 +12623,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3024,
-      "top11Points": 3029,
+      "totalPointsAll": 3025,
+      "top11Points": 3030,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12666,12 +12684,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 197,
+          "batting": 198,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 213,
+          "rawPoints": 214,
           "multiplier": 1,
-          "effectivePoints": 213,
+          "effectivePoints": 214,
           "countsInTop11": true
         },
         {
@@ -12743,8 +12761,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2508,
-      "top11Points": 2450,
+      "totalPointsAll": 2503,
+      "top11Points": 2445,
       "players": [
         {
           "name": "Shubman Gill",
@@ -12782,12 +12800,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 196,
+          "batting": 191,
           "bowling": 0,
           "fielding": 58,
-          "rawPoints": 254,
+          "rawPoints": 249,
           "multiplier": 1,
-          "effectivePoints": 254,
+          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
@@ -13008,8 +13026,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2462,
-      "top11Points": 2396,
+      "totalPointsAll": 2478,
+      "top11Points": 2412,
       "players": [
         {
           "name": "Axar Patel",
@@ -13027,10 +13045,10 @@
           "role": "Wicket Keeper",
           "batting": 244,
           "bowling": 0,
-          "fielding": 94,
-          "rawPoints": 338,
+          "fielding": 110,
+          "rawPoints": 354,
           "multiplier": 1,
-          "effectivePoints": 338,
+          "effectivePoints": 354,
           "countsInTop11": true
         },
         {
@@ -13168,8 +13186,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2573,
-      "top11Points": 2573,
+      "totalPointsAll": 2568,
+      "top11Points": 2568,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13216,17 +13234,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Aiden Markram",
-          "role": "Opener",
-          "batting": 212,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 244,
-          "multiplier": 1,
-          "effectivePoints": 244,
-          "countsInTop11": true
-        },
-        {
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 36,
@@ -13235,6 +13242,17 @@
           "rawPoints": 241,
           "multiplier": 1,
           "effectivePoints": 241,
+          "countsInTop11": true
+        },
+        {
+          "name": "Aiden Markram",
+          "role": "Opener",
+          "batting": 207,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 239,
+          "multiplier": 1,
+          "effectivePoints": 239,
           "countsInTop11": true
         },
         {
