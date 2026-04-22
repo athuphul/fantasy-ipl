@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T14:14:57.571Z",
+  "lastUpdated": "2026-04-22T14:24:57.018Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 28,
-        "w": 0,
-        "o": 2.3
+        "r": 32,
+        "w": 3,
+        "o": 4
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Rishabh Pant": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 16,
+        "total": 16
       },
       "Aiden Markram": {
         "batting": 0,
@@ -47,40 +47,58 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 36,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 36
+      },
+      "Vaibhav Sooryavanshi": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
-      "Yashasvi Jaiswal": {
-        "batting": 41,
+      "Dhruv Jurel": {
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": -5
       },
-      "Vaibhav Sooryavanshi": {
-        "batting": 10,
+      "Riyan Parag": {
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 0
+      },
+      "Shimron Hetmyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 2992,
-      "top11Points": 2997
+      "totalPointsAll": 3000,
+      "top11Points": 3005
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3139,
-      "top11Points": 2919
+      "totalPointsAll": 3129,
+      "top11Points": 2909
     },
     {
       "team": "Athu",
@@ -94,13 +112,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2466,
-      "top11Points": 2408
+      "totalPointsAll": 2482,
+      "top11Points": 2424
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2467,
-      "top11Points": 2401
+      "totalPointsAll": 2462,
+      "top11Points": 2396
     },
     {
       "team": "Tanay",
@@ -108,14 +126,14 @@
       "top11Points": 2228
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 2206,
+      "top11Points": 2170
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 2154,
       "top11Points": 2154
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 2166,
-      "top11Points": 2130
     }
   ],
   "matchHistory": [
@@ -11991,45 +12009,72 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 28,
-          "w": 0,
-          "o": 2.3
+          "r": 32,
+          "w": 3,
+          "o": 4
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 28,
-          "wickets": 0,
-          "overs": 2.3,
+          "runs": 32,
+          "wickets": 3,
+          "overs": 4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
               "runs": 22,
-              "balls": 11,
+              "balls": 12,
               "fours": 4,
               "sixes": 0,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 183.33,
+              "dismissal": "c Rishabh Pant b Mohammed Shami"
             },
             {
               "name": "Vaibhav Sooryavanshi",
               "runs": 8,
-              "balls": 5,
+              "balls": 11,
               "fours": 2,
               "sixes": 0,
-              "sr": 160,
+              "sr": 72.73,
+              "dismissal": "c Digvesh Singh Rathi b Mohsin Khan"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Rishabh Pant b Mohammed Shami"
+            },
+            {
+              "name": "Riyan Parag",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shimron Hetmyer",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 0,
-              "economy": 11.4
+              "runs": 20,
+              "wickets": 2,
+              "economy": 10
             },
             {
               "name": "Prince Yadav",
@@ -12038,6 +12083,14 @@
               "runs": 13,
               "wickets": 0,
               "economy": 13
+            },
+            {
+              "name": "Mohsin Khan",
+              "overs": 1,
+              "maidens": 1,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
             }
           ]
         }
@@ -12058,8 +12111,8 @@
         "Rishabh Pant": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 16,
+          "total": 16
         },
         "Aiden Markram": {
           "batting": 0,
@@ -12075,27 +12128,45 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 36,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 36
+        },
+        "Vaibhav Sooryavanshi": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
-        "Yashasvi Jaiswal": {
-          "batting": 41,
+        "Dhruv Jurel": {
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": -5
         },
-        "Vaibhav Sooryavanshi": {
-          "batting": 10,
+        "Riyan Parag": {
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 0
+        },
+        "Shimron Hetmyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -12252,8 +12323,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2166,
-      "top11Points": 2130,
+      "totalPointsAll": 2206,
+      "top11Points": 2170,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12269,12 +12340,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 351,
+          "batting": 346,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 367,
+          "rawPoints": 362,
           "multiplier": 1,
-          "effectivePoints": 367,
+          "effectivePoints": 362,
           "countsInTop11": true
         },
         {
@@ -12314,11 +12385,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 12,
-          "bowling": 149,
+          "bowling": 194,
           "fielding": 16,
-          "rawPoints": 177,
+          "rawPoints": 222,
           "multiplier": 1,
-          "effectivePoints": 177,
+          "effectivePoints": 222,
           "countsInTop11": true
         },
         {
@@ -12390,8 +12461,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 2992,
-      "top11Points": 2997,
+      "totalPointsAll": 3000,
+      "top11Points": 3005,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12486,10 +12557,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 77,
-          "fielding": 16,
-          "rawPoints": 93,
+          "fielding": 24,
+          "rawPoints": 101,
           "multiplier": 1,
-          "effectivePoints": 93,
+          "effectivePoints": 101,
           "countsInTop11": true
         },
         {
@@ -12528,8 +12599,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2466,
-      "top11Points": 2408,
+      "totalPointsAll": 2482,
+      "top11Points": 2424,
       "players": [
         {
           "name": "Shubman Gill",
@@ -12569,10 +12640,10 @@
           "role": "Wicket Keeper",
           "batting": 196,
           "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 238,
+          "fielding": 58,
+          "rawPoints": 254,
           "multiplier": 1,
-          "effectivePoints": 238,
+          "effectivePoints": 254,
           "countsInTop11": true
         },
         {
@@ -12793,8 +12864,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2467,
-      "top11Points": 2401,
+      "totalPointsAll": 2462,
+      "top11Points": 2396,
       "players": [
         {
           "name": "Axar Patel",
@@ -12810,12 +12881,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 249,
+          "batting": 244,
           "bowling": 0,
           "fielding": 94,
-          "rawPoints": 343,
+          "rawPoints": 338,
           "multiplier": 1,
-          "effectivePoints": 343,
+          "effectivePoints": 338,
           "countsInTop11": true
         },
         {
@@ -13218,8 +13289,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3139,
-      "top11Points": 2919,
+      "totalPointsAll": 3129,
+      "top11Points": 2909,
       "players": [
         {
           "name": "Sanju Samson",
@@ -13235,12 +13306,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 390,
+          "batting": 380,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 390,
+          "rawPoints": 380,
           "multiplier": 1,
-          "effectivePoints": 390,
+          "effectivePoints": 380,
           "countsInTop11": true
         },
         {
