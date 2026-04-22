@@ -74,6 +74,22 @@
     <div class="title-race-chart-wrap card">
       <canvas id="title-race-chart" aria-label="Title race chart"></canvas>
     </div>
+    <div class="title-race-timeline card">
+      <div class="title-race-controls">
+        <button id="title-race-play-btn" type="button">Play</button>
+        <label class="title-race-speed-wrap" for="title-race-speed">
+          Speed
+          <select id="title-race-speed" aria-label="Playback speed">
+            <option value="0.5">0.5x</option>
+            <option value="1" selected>1x</option>
+            <option value="2">2x</option>
+          </select>
+        </label>
+        <input id="title-race-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Title race timeline">
+      </div>
+      <div id="title-race-slider-label" class="title-race-slider-label">Season start</div>
+      <div id="title-race-standings" class="title-race-standings"></div>
+    </div>
   </section>
 
   <section id="all-matches" class="hidden">

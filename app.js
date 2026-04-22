@@ -286,10 +286,39 @@ const TITLE_RACE_COLORS = [
 
 let titleRaceChart = null;
 let titleRaceControlsBound = false;
+let titleRaceSeries = null;
+let titleRaceCurrentIndex = -1;
+let titleRacePlayInterval = null;
 
 function getTitleRaceMode() {
   const el = document.querySelector('input[name="title-race-mode"]:checked');
   return el && el.value === 'all' ? 'all' : 'top11';
+}
+
+function stopTitleRacePlayback() {
+  if (titleRacePlayInterval) {
+    clearInterval(titleRacePlayInterval);
+    titleRacePlayInterval = null;
+  }
+  const playBtn = document.getElementById('title-race-play-btn');
+  if (playBtn) playBtn.textContent = 'Play';
+}
+
+function titleRaceStepLabel(matchMeta, index) {
+  const m = matchMeta?.[index];
+  if (!m || index === 0) return 'Season start';
+  const matchNo = `Match ${index}`;
+  const name = m.name || '';
+  const date = m.date ? ` (${m.date})` : '';
+  return `${matchNo}: ${name}${date}`;
+}
+
+function getTitleRaceIntervalMs() {
+  const speedEl = document.getElementById('title-race-speed');
+  const speed = Number(speedEl?.value || '1');
+  if (speed >= 2) return 320;
+  if (speed <= 0.5) return 1100;
+  return 700;
 }
 
 function buildTitleRaceSeries(mode) {
@@ -359,6 +388,39 @@ function titleRaceChartColors() {
   };
 }
 
+function updateTitleRaceAtIndex(index) {
+  if (!titleRaceSeries || !titleRaceChart) return;
+  const maxIndex = titleRaceSeries.labels.length - 1;
+  const safeIndex = Math.max(0, Math.min(index, maxIndex));
+  titleRaceCurrentIndex = safeIndex;
+
+  const slider = document.getElementById('title-race-slider');
+  const label = document.getElementById('title-race-slider-label');
+  const standings = document.getElementById('title-race-standings');
+  if (slider) slider.value = String(safeIndex);
+  if (label) label.textContent = titleRaceStepLabel(titleRaceSeries.matchMeta, safeIndex);
+
+  const rows = titleRaceSeries.datasets
+    .map(ds => ({ team: ds.label, points: ds.data[safeIndex], color: ds.borderColor }))
+    .sort((a, b) => b.points - a.points);
+
+  titleRaceChart.data.labels = rows.map(r => r.team);
+  titleRaceChart.data.datasets[0].data = rows.map(r => r.points);
+  titleRaceChart.data.datasets[0].backgroundColor = rows.map(r => r.color);
+  titleRaceChart.data.datasets[0].borderColor = rows.map(r => r.color);
+  titleRaceChart.update('none');
+
+  if (standings) {
+    standings.innerHTML = rows.map((r, rank) => `
+      <div class="title-race-standing-item" style="border-left-color:${r.color}">
+        <div class="title-race-standing-rank">#${rank + 1}</div>
+        <div class="title-race-standing-team">${r.team}</div>
+        <div class="title-race-standing-points">${r.points} pts</div>
+      </div>
+    `).join('');
+  }
+}
+
 function renderTitleRace() {
   const canvas = document.getElementById('title-race-chart');
   if (!canvas || typeof Chart === 'undefined') return;
@@ -366,20 +428,67 @@ function renderTitleRace() {
   if (!titleRaceControlsBound) {
     titleRaceControlsBound = true;
     document.querySelectorAll('input[name="title-race-mode"]').forEach(r => {
-      r.addEventListener('change', () => renderTitleRace());
+      r.addEventListener('change', () => {
+        stopTitleRacePlayback();
+        renderTitleRace();
+      });
     });
+    const slider = document.getElementById('title-race-slider');
+    if (slider) {
+      slider.addEventListener('input', (e) => {
+        stopTitleRacePlayback();
+        updateTitleRaceAtIndex(Number(e.target.value));
+      });
+    }
+    const playBtn = document.getElementById('title-race-play-btn');
+    if (playBtn) {
+      playBtn.addEventListener('click', () => {
+        if (!titleRaceSeries) return;
+        if (titleRacePlayInterval) {
+          stopTitleRacePlayback();
+          return;
+        }
+        const max = titleRaceSeries.labels.length - 1;
+        if (titleRaceCurrentIndex >= max) titleRaceCurrentIndex = 0;
+        playBtn.textContent = 'Pause';
+        titleRacePlayInterval = setInterval(() => {
+          if (titleRaceCurrentIndex >= max) {
+            stopTitleRacePlayback();
+            return;
+          }
+          updateTitleRaceAtIndex(titleRaceCurrentIndex + 1);
+        }, getTitleRaceIntervalMs());
+      });
+    }
+    const speedEl = document.getElementById('title-race-speed');
+    if (speedEl) {
+      speedEl.addEventListener('change', () => {
+        if (!titleRacePlayInterval) return;
+        const playBtnEl = document.getElementById('title-race-play-btn');
+        stopTitleRacePlayback();
+        if (playBtnEl) playBtnEl.click();
+      });
+    }
   }
 
   if (!data || !teamsData?.teams?.length || !data.matchHistory || data.matchHistory.length === 0) {
+    stopTitleRacePlayback();
     if (titleRaceChart) {
       titleRaceChart.destroy();
       titleRaceChart = null;
     }
+    const standings = document.getElementById('title-race-standings');
+    const slider = document.getElementById('title-race-slider');
+    const label = document.getElementById('title-race-slider-label');
+    if (standings) standings.innerHTML = '';
+    if (slider) { slider.max = '0'; slider.value = '0'; }
+    if (label) label.textContent = 'Season start';
     return;
   }
 
   const mode = getTitleRaceMode();
-  const { labels, matchMeta, datasets } = buildTitleRaceSeries(mode);
+  titleRaceSeries = buildTitleRaceSeries(mode);
+  const { labels } = titleRaceSeries;
   const c = titleRaceChartColors();
 
   if (titleRaceChart) {
@@ -388,16 +497,23 @@ function renderTitleRace() {
   }
 
   titleRaceChart = new Chart(canvas.getContext('2d'), {
-    type: 'line',
-    data: { labels, datasets },
+    type: 'bar',
+    data: {
+      labels: [],
+      datasets: [{
+        label: mode === 'all' ? 'All players points' : 'Top 11 points',
+        data: [],
+        borderWidth: 1,
+      }],
+    },
     options: {
+      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
-      interaction: { mode: 'index', intersect: false },
+      animation: { duration: 250 },
       plugins: {
         legend: {
-          position: 'bottom',
-          labels: { color: c.text, boxWidth: 12, padding: 12, font: { family: 'Inter, sans-serif', size: 11 } },
+          display: false,
         },
         tooltip: {
           backgroundColor: c.bgCard,
@@ -407,35 +523,37 @@ function renderTitleRace() {
           borderWidth: 1,
           padding: 10,
           callbacks: {
-            title(items) {
-              const i = items[0]?.dataIndex;
-              if (i == null || !matchMeta[i]) return '';
-              const m = matchMeta[i];
-              return m.date ? `${m.name} (${m.date})` : m.name;
+            title() {
+              return titleRaceStepLabel(titleRaceSeries.matchMeta, titleRaceCurrentIndex);
             },
-            afterBody(items) {
-              if (!items.length) return [];
-              const rows = items
-                .map(it => ({ label: it.dataset.label || '', val: Number(it.parsed.y) }))
-                .filter(r => !Number.isNaN(r.val))
-                .sort((a, b) => b.val - a.val);
-              return rows.map((r, rank) => `#${rank + 1} ${r.label}: ${r.val}`);
+            label(item) {
+              return `${item.label}: ${item.raw} pts`;
             },
           },
         },
       },
       scales: {
         x: {
-          ticks: { color: c.muted, maxRotation: 45, minRotation: 0, font: { size: 10 } },
+          beginAtZero: true,
+          ticks: { color: c.muted, font: { size: 10 } },
           grid: { color: c.grid },
         },
         y: {
-          ticks: { color: c.muted },
+          ticks: { color: c.text, font: { size: 11 } },
           grid: { color: c.grid },
         },
       },
     },
   });
+
+  const slider = document.getElementById('title-race-slider');
+  if (slider) {
+    slider.min = '0';
+    slider.max = String(Math.max(0, labels.length - 1));
+  }
+  const maxIndex = labels.length - 1;
+  const nextIndex = titleRaceCurrentIndex < 0 ? maxIndex : Math.max(0, Math.min(titleRaceCurrentIndex, maxIndex));
+  updateTitleRaceAtIndex(nextIndex);
 }
 
 // === Leaderboard ===

@@ -878,6 +878,94 @@ tbody tr {
   height: 100% !important;
 }
 
+.title-race-timeline {
+  margin-bottom: 14px;
+}
+
+.title-race-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#title-race-play-btn {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  font-family: var(--font-display);
+  cursor: pointer;
+}
+
+#title-race-play-btn:hover {
+  border-color: var(--accent);
+}
+
+#title-race-slider {
+  flex: 1;
+  min-width: 180px;
+  accent-color: var(--accent);
+}
+
+.title-race-speed-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+#title-race-speed {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 0.78rem;
+}
+
+.title-race-slider-label {
+  margin-top: 8px;
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+}
+
+.title-race-standings {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.title-race-standing-item {
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: var(--bg-card);
+}
+
+.title-race-standing-rank {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.title-race-standing-team {
+  margin-top: 2px;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.title-race-standing-points {
+  margin-top: 2px;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
 .hidden {
   display: none !important;
 }
