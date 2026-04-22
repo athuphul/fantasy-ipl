@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T16:45:39.973Z",
+  "lastUpdated": "2026-04-22T16:55:10.791Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 36,
+        "r": 49,
         "w": 3,
-        "o": 6.5
+        "o": 8.3
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 29,
+        "batting": 34,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 34
       },
       "Ayush Badoni": {
         "batting": -5,
@@ -46,10 +46,10 @@
         "total": -5
       },
       "Nicholas Pooran": {
-        "batting": -3,
+        "batting": 15,
         "bowling": 0,
         "fielding": 8,
-        "total": 5
+        "total": 23
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3041,
-      "top11Points": 3046
+      "totalPointsAll": 3046,
+      "top11Points": 3051
     },
     {
       "team": "Tikoo",
@@ -146,8 +146,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2255,
-      "top11Points": 2255
+      "totalPointsAll": 2282,
+      "top11Points": 2282
     },
     {
       "team": "Tanay",
@@ -12033,9 +12033,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 36,
+          "r": 49,
           "w": 3,
-          "o": 6.5
+          "o": 8.3
         },
         {
           "inning": "Rajasthan Royals",
@@ -12169,17 +12169,17 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 36,
+          "runs": 49,
           "wickets": 3,
-          "overs": 6.5,
+          "overs": 8.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 24,
-              "balls": 18,
+              "runs": 29,
+              "balls": 23,
               "fours": 3,
               "sixes": 1,
-              "sr": 133.33,
+              "sr": 126.09,
               "dismissal": "batting"
             },
             {
@@ -12211,11 +12211,11 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 6,
-              "balls": 11,
-              "fours": 1,
+              "runs": 17,
+              "balls": 18,
+              "fours": 3,
               "sixes": 0,
-              "sr": 54.55,
+              "sr": 94.44,
               "dismissal": "batting"
             }
           ],
@@ -12238,21 +12238,37 @@
             },
             {
               "name": "Brijesh Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4
+            },
+            {
+              "name": "Ravi Bishnoi",
               "overs": 0.3,
               "maidens": 0,
-              "runs": 1,
+              "runs": 5,
               "wickets": 0,
-              "economy": 2
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 29,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 34
         },
         "Ayush Badoni": {
           "batting": -5,
@@ -12273,10 +12289,10 @@
           "total": -5
         },
         "Nicholas Pooran": {
-          "batting": -3,
+          "batting": 15,
           "bowling": 0,
           "fielding": 8,
-          "total": 5
+          "total": 23
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -12631,8 +12647,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3041,
-      "top11Points": 3046,
+      "totalPointsAll": 3046,
+      "top11Points": 3051,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12692,12 +12708,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 214,
+          "batting": 219,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 230,
+          "rawPoints": 235,
           "multiplier": 1,
-          "effectivePoints": 230,
+          "effectivePoints": 235,
           "countsInTop11": true
         },
         {
@@ -12907,8 +12923,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2255,
-      "top11Points": 2255,
+      "totalPointsAll": 2282,
+      "top11Points": 2282,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -12968,12 +12984,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 46,
+          "batting": 64,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 80,
+          "rawPoints": 98,
           "multiplier": 1.5,
-          "effectivePoints": 120,
+          "effectivePoints": 147,
           "countsInTop11": true
         },
         {
