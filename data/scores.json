@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T15:46:05.003Z",
+  "lastUpdated": "2026-04-22T15:55:35.782Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 135,
+        "r": 159,
         "w": 6,
-        "o": 18.5
+        "o": 20
       }
     ],
     "playerScores": {
@@ -88,10 +88,10 @@
         "total": 26
       },
       "Ravindra Jadeja": {
-        "batting": 23,
+        "batting": 47,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 47
       }
     }
   },
@@ -127,14 +127,14 @@
       "top11Points": 2396
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 2260,
+      "top11Points": 2260
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 2244,
       "top11Points": 2228
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2212,
-      "top11Points": 2212
     },
     {
       "team": "Aakash",
@@ -12015,17 +12015,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 135,
+          "r": 159,
           "w": 6,
-          "o": 18.5
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 135,
+          "runs": 159,
           "wickets": 6,
-          "overs": 18.5,
+          "overs": 20,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12074,12 +12074,12 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 23,
-              "balls": 23,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "runs": 43,
+              "balls": 29,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 148.28,
+              "dismissal": "not out"
             },
             {
               "name": "Donovan Ferreira",
@@ -12092,12 +12092,12 @@
             },
             {
               "name": "Shubham Dubey",
-              "runs": 15,
-              "balls": 10,
-              "fours": 2,
+              "runs": 19,
+              "balls": 11,
+              "fours": 3,
               "sixes": 0,
-              "sr": 150,
-              "dismissal": "batting"
+              "sr": 172.73,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -12111,11 +12111,11 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
+              "runs": 29,
               "wickets": 2,
-              "economy": 6.52
+              "economy": 7.25
             },
             {
               "name": "Mohsin Khan",
@@ -12127,11 +12127,11 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 36,
+              "runs": 56,
               "wickets": 0,
-              "economy": 12
+              "economy": 14
             },
             {
               "name": "Digvesh Rathi",
@@ -12218,10 +12218,10 @@
           "total": 26
         },
         "Ravindra Jadeja": {
-          "batting": 23,
+          "batting": 47,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 47
         }
       },
       "isComplete": false
@@ -12792,18 +12792,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2212,
-      "top11Points": 2212,
+      "totalPointsAll": 2260,
+      "top11Points": 2260,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 111,
+          "batting": 135,
           "bowling": 167,
           "fielding": 18,
-          "rawPoints": 296,
+          "rawPoints": 320,
           "multiplier": 2,
-          "effectivePoints": 592,
+          "effectivePoints": 640,
           "countsInTop11": true
         },
         {
