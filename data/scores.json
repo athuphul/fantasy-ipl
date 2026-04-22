@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T14:44:53.707Z",
+  "lastUpdated": "2026-04-22T14:55:08.703Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 58,
-        "w": 3,
-        "o": 7.3
+        "r": 76,
+        "w": 4,
+        "o": 9.3
       }
     ],
     "playerScores": {
@@ -42,8 +42,8 @@
       "Nicholas Pooran": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mohammed Shami": {
         "batting": 0,
@@ -76,16 +76,22 @@
         "total": -5
       },
       "Riyan Parag": {
-        "batting": 21,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 24
       },
       "Shimron Hetmyer": {
-        "batting": 6,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 31
+      },
+      "Ravindra Jadeja": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -107,13 +113,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2567,
-      "top11Points": 2567
+      "totalPointsAll": 2573,
+      "top11Points": 2573
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2488,
-      "top11Points": 2430
+      "totalPointsAll": 2513,
+      "top11Points": 2455
     },
     {
       "team": "Manav",
@@ -132,8 +138,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2154,
-      "top11Points": 2154
+      "totalPointsAll": 2166,
+      "top11Points": 2166
     }
   ],
   "matchHistory": [
@@ -12009,17 +12015,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 58,
-          "w": 3,
-          "o": 7.3
+          "r": 76,
+          "w": 4,
+          "o": 9.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 58,
-          "wickets": 3,
-          "overs": 7.3,
+          "runs": 76,
+          "wickets": 4,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12050,20 +12056,29 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 17,
-              "balls": 13,
+              "runs": 20,
+              "balls": 19,
               "fours": 2,
               "sixes": 1,
-              "sr": 130.77,
-              "dismissal": "batting"
+              "sr": 105.26,
+              "dismissal": "c Nicholas Pooran b Prince Yadav"
             },
             {
               "name": "Shimron Hetmyer",
-              "runs": 6,
-              "balls": 7,
+              "runs": 22,
+              "balls": 14,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 157.14,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 0,
+              "balls": 0,
               "fours": 0,
               "sixes": 0,
-              "sr": 85.71,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -12078,11 +12093,11 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 13
+              "runs": 15,
+              "wickets": 1,
+              "economy": 7.5
             },
             {
               "name": "Mohsin Khan",
@@ -12094,19 +12109,19 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 10,
+              "runs": 24,
               "wickets": 0,
-              "economy": 10
+              "economy": 16
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 3,
+              "runs": 6,
               "wickets": 0,
-              "economy": 9
+              "economy": 6
             }
           ]
         }
@@ -12139,8 +12154,8 @@
         "Nicholas Pooran": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mohammed Shami": {
           "batting": 0,
@@ -12173,16 +12188,22 @@
           "total": -5
         },
         "Riyan Parag": {
-          "batting": 21,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 24
         },
         "Shimron Hetmyer": {
-          "batting": 6,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 31
+        },
+        "Ravindra Jadeja": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -12615,8 +12636,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2488,
-      "top11Points": 2430,
+      "totalPointsAll": 2513,
+      "top11Points": 2455,
       "players": [
         {
           "name": "Shubman Gill",
@@ -12685,6 +12706,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 65,
+          "bowling": 0,
+          "fielding": 50,
+          "rawPoints": 115,
+          "multiplier": 1,
+          "effectivePoints": 115,
+          "countsInTop11": true
+        },
+        {
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 46,
@@ -12704,17 +12736,6 @@
           "rawPoints": 92,
           "multiplier": 1,
           "effectivePoints": 92,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 40,
-          "bowling": 0,
-          "fielding": 50,
-          "rawPoints": 90,
-          "multiplier": 1,
-          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -12753,8 +12774,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2154,
-      "top11Points": 2154,
+      "totalPointsAll": 2166,
+      "top11Points": 2166,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -12812,6 +12833,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nicholas Pooran",
+          "role": "Wicket Keeper",
+          "batting": 49,
+          "bowling": 0,
+          "fielding": 34,
+          "rawPoints": 83,
+          "multiplier": 1.5,
+          "effectivePoints": 125,
+          "countsInTop11": true
+        },
+        {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 6,
@@ -12831,17 +12863,6 @@
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nicholas Pooran",
-          "role": "Wicket Keeper",
-          "batting": 49,
-          "bowling": 0,
-          "fielding": 26,
-          "rawPoints": 75,
-          "multiplier": 1.5,
-          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -13040,8 +13061,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2567,
-      "top11Points": 2567,
+      "totalPointsAll": 2573,
+      "top11Points": 2573,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13079,12 +13100,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 104,
+          "batting": 107,
           "bowling": 50,
           "fielding": 8,
-          "rawPoints": 162,
+          "rawPoints": 165,
           "multiplier": 2,
-          "effectivePoints": 324,
+          "effectivePoints": 330,
           "countsInTop11": true
         },
         {
