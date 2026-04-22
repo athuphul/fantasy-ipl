@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T15:35:28.563Z",
+  "lastUpdated": "2026-04-22T15:46:05.003Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 113,
+        "r": 135,
         "w": 6,
-        "o": 16.4
+        "o": 18.5
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 12,
         "fielding": 8,
-        "total": 28
+        "total": 20
       },
       "Yashasvi Jaiswal": {
         "batting": 36,
@@ -88,18 +88,18 @@
         "total": 26
       },
       "Ravindra Jadeja": {
-        "batting": 11,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 23
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3020,
-      "top11Points": 3025
+      "totalPointsAll": 3012,
+      "top11Points": 3017
     },
     {
       "team": "Tikoo",
@@ -133,8 +133,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2188,
-      "top11Points": 2188
+      "totalPointsAll": 2212,
+      "top11Points": 2212
     },
     {
       "team": "Aakash",
@@ -12015,17 +12015,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 113,
+          "r": 135,
           "w": 6,
-          "o": 16.4
+          "o": 18.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 113,
+          "runs": 135,
           "wickets": 6,
-          "overs": 16.4,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12074,11 +12074,11 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 16,
-              "balls": 18,
+              "runs": 23,
+              "balls": 23,
               "fours": 0,
               "sixes": 0,
-              "sr": 88.89,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
@@ -12092,11 +12092,11 @@
             },
             {
               "name": "Shubham Dubey",
-              "runs": 2,
-              "balls": 3,
-              "fours": 0,
+              "runs": 15,
+              "balls": 10,
+              "fours": 2,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
@@ -12111,19 +12111,19 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 18,
+              "runs": 25,
               "wickets": 2,
-              "economy": 6
+              "economy": 6.52
             },
             {
               "name": "Mohsin Khan",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 1,
-              "runs": 15,
+              "runs": 17,
               "wickets": 2,
-              "economy": 3.91
+              "economy": 4.25
             },
             {
               "name": "Mayank Yadav",
@@ -12135,11 +12135,11 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 15,
+              "runs": 26,
               "wickets": 0,
-              "economy": 5
+              "economy": 6.5
             }
           ]
         }
@@ -12183,9 +12183,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 12,
           "fielding": 8,
-          "total": 28
+          "total": 20
         },
         "Yashasvi Jaiswal": {
           "batting": 36,
@@ -12218,10 +12218,10 @@
           "total": 26
         },
         "Ravindra Jadeja": {
-          "batting": 11,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 23
         }
       },
       "isComplete": false
@@ -12516,8 +12516,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3020,
-      "top11Points": 3025,
+      "totalPointsAll": 3012,
+      "top11Points": 3017,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12597,17 +12597,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 97,
-          "fielding": 24,
-          "rawPoints": 121,
-          "multiplier": 1,
-          "effectivePoints": 121,
-          "countsInTop11": true
-        },
-        {
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 1,
@@ -12616,6 +12605,17 @@
           "rawPoints": 119,
           "multiplier": 1,
           "effectivePoints": 119,
+          "countsInTop11": true
+        },
+        {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 89,
+          "fielding": 24,
+          "rawPoints": 113,
+          "multiplier": 1,
+          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -12792,18 +12792,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2188,
-      "top11Points": 2188,
+      "totalPointsAll": 2212,
+      "top11Points": 2212,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 99,
+          "batting": 111,
           "bowling": 167,
           "fielding": 18,
-          "rawPoints": 284,
+          "rawPoints": 296,
           "multiplier": 2,
-          "effectivePoints": 568,
+          "effectivePoints": 592,
           "countsInTop11": true
         },
         {
