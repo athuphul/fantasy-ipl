@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T17:25:36.652Z",
+  "lastUpdated": "2026-04-22T17:34:54.222Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 106,
-        "w": 5,
-        "o": 15.2
+        "r": 111,
+        "w": 7,
+        "o": 16.1
       },
       {
         "inning": "Rajasthan Royals",
@@ -52,10 +52,10 @@
         "total": 28
       },
       "Mohammed Shami": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 55,
         "fielding": 0,
-        "total": 55
+        "total": 63
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -84,8 +84,8 @@
       "Riyan Parag": {
         "batting": 24,
         "bowling": 0,
-        "fielding": 0,
-        "total": 24
+        "fielding": 16,
+        "total": 40
       },
       "Shimron Hetmyer": {
         "batting": 26,
@@ -131,8 +131,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2568,
-      "top11Points": 2568
+      "totalPointsAll": 2600,
+      "top11Points": 2600
     },
     {
       "team": "Ashwin",
@@ -150,14 +150,14 @@
       "top11Points": 2350
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 2269,
+      "top11Points": 2233
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 2244,
       "top11Points": 2228
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 2261,
-      "top11Points": 2225
     }
   ],
   "matchHistory": [
@@ -12033,9 +12033,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 106,
-          "w": 5,
-          "o": 15.2
+          "r": 111,
+          "w": 7,
+          "o": 16.1
         },
         {
           "inning": "Rajasthan Royals",
@@ -12169,18 +12169,18 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 106,
-          "wickets": 5,
-          "overs": 15.2,
+          "runs": 111,
+          "wickets": 7,
+          "overs": 16.1,
           "batting": [
             {
               "name": "Mitchell Marsh",
               "runs": 55,
-              "balls": 40,
+              "balls": 41,
               "fours": 6,
               "sixes": 2,
-              "sr": 137.5,
-              "dismissal": "batting"
+              "sr": 134.15,
+              "dismissal": "c Riyan Parag b Nandre Burger"
             },
             {
               "name": "Ayush Badoni",
@@ -12230,10 +12230,28 @@
             {
               "name": "Mukul Choudhary",
               "runs": 7,
-              "balls": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 1,
-              "sr": 350,
+              "sr": 233.33,
+              "dismissal": "c Riyan Parag b Brijesh Sharma"
+            },
+            {
+              "name": "Mohammed Shami",
+              "runs": 6,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Mayank Yadav",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -12248,19 +12266,19 @@
             },
             {
               "name": "Nandre Burger",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 1,
-              "economy": 6.3
+              "runs": 27,
+              "wickets": 2,
+              "economy": 6.75
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 7.5
+              "runs": 16,
+              "wickets": 1,
+              "economy": 7.38
             },
             {
               "name": "Ravindra Jadeja",
@@ -12313,10 +12331,10 @@
           "total": 28
         },
         "Mohammed Shami": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 55,
           "fielding": 0,
-          "total": 55
+          "total": 63
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -12345,8 +12363,8 @@
         "Riyan Parag": {
           "batting": 24,
           "bowling": 0,
-          "fielding": 0,
-          "total": 24
+          "fielding": 16,
+          "total": 40
         },
         "Shimron Hetmyer": {
           "batting": 26,
@@ -12527,8 +12545,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2261,
-      "top11Points": 2225,
+      "totalPointsAll": 2269,
+      "top11Points": 2233,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12588,12 +12606,12 @@
         {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
-          "batting": 12,
+          "batting": 20,
           "bowling": 204,
           "fielding": 16,
-          "rawPoints": 232,
+          "rawPoints": 240,
           "multiplier": 1,
-          "effectivePoints": 232,
+          "effectivePoints": 240,
           "countsInTop11": true
         },
         {
@@ -13228,8 +13246,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2568,
-      "top11Points": 2568,
+      "totalPointsAll": 2600,
+      "top11Points": 2600,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13254,6 +13272,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Riyan Parag",
+          "role": "Batsman",
+          "batting": 107,
+          "bowling": 50,
+          "fielding": 24,
+          "rawPoints": 181,
+          "multiplier": 2,
+          "effectivePoints": 362,
+          "countsInTop11": true
+        },
+        {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
           "batting": 305,
@@ -13262,17 +13291,6 @@
           "rawPoints": 342,
           "multiplier": 1,
           "effectivePoints": 342,
-          "countsInTop11": true
-        },
-        {
-          "name": "Riyan Parag",
-          "role": "Batsman",
-          "batting": 107,
-          "bowling": 50,
-          "fielding": 8,
-          "rawPoints": 165,
-          "multiplier": 2,
-          "effectivePoints": 330,
           "countsInTop11": true
         },
         {
