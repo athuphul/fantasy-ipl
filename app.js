@@ -279,56 +279,62 @@ function matchHistoryInOrder(matches) {
   return [...(matches || [])];
 }
 
+// ─── Bar Chart Race (smooth canvas animation) ────────────────────────────────
+
 const TITLE_RACE_COLORS = [
   '#60a5fa', '#f472b6', '#4ade80', '#fbbf24', '#a78bfa',
   '#f87171', '#22d3ee', '#fb923c', '#c084fc', '#2dd4bf',
 ];
 
-let titleRaceChart = null;
+// State
 let titleRaceControlsBound = false;
-let titleRaceSeries = null;
-let titleRaceCurrentIndex = -1;
-let titleRacePlayInterval = null;
+let titleRaceSeries = null;       // { matchMeta, frames: [{team,points,color}[]] }
+let titleRaceRafId = null;        // rAF handle
+let titleRaceIsPlaying = false;
+
+// Animation state (all in "frame-space" where 1 unit = one match step)
+let trAnimPos = 0;               // current animated position (fractional frame index)
+let trAnimTarget = 0;            // target position
+let trLastTs = null;             // timestamp of last rAF tick
+let trSpeedFps = 1;              // frames-per-second advance speed during playback
+
+// Per-team current displayed values (interpolated)
+let trBarState = {};             // { teamName: { y, value } }  — y in [0..N-1], value in points
 
 function getTitleRaceMode() {
   const el = document.querySelector('input[name="title-race-mode"]:checked');
   return el && el.value === 'all' ? 'all' : 'top11';
 }
 
-function stopTitleRacePlayback() {
-  if (titleRacePlayInterval) {
-    clearInterval(titleRacePlayInterval);
-    titleRacePlayInterval = null;
-  }
-  const playBtn = document.getElementById('title-race-play-btn');
-  if (playBtn) playBtn.textContent = 'Play';
-}
-
-function titleRaceStepLabel(matchMeta, index) {
-  const m = matchMeta?.[index];
-  if (!m || index === 0) return 'Season start';
-  const matchNo = `Match ${index}`;
-  const name = m.name || '';
-  const date = m.date ? ` (${m.date})` : '';
-  return `${matchNo}: ${name}${date}`;
-}
-
-function getTitleRaceIntervalMs() {
+function getTitleRaceSpeedFps() {
   const speedEl = document.getElementById('title-race-speed');
   const speed = Number(speedEl?.value || '1');
-  if (speed >= 2) return 320;
-  if (speed <= 0.5) return 1100;
-  return 700;
+  // speed knob: 0.5 → 0.5 fps, 1 → 1 fps, 2 → 2 fps
+  return speed;
+}
+
+function titleRaceStepLabel(index) {
+  if (!titleRaceSeries) return '';
+  const m = titleRaceSeries.matchMeta[Math.round(index)];
+  if (!m || Math.round(index) === 0) return 'Season start';
+  const i = Math.round(index);
+  return `Match ${i}: ${m.name || ''}${m.date ? ' (' + m.date + ')' : ''}`;
 }
 
 function buildTitleRaceSeries(mode) {
-  const history = matchHistoryInOrder(data?.matchHistory);
+  const allHistory = matchHistoryInOrder(data?.matchHistory);
   const teams = teamsData?.teams || [];
+
+  // Only include matches that have actual player scores — a match entry with
+  // no scored players means it's a live/stub entry and its data is carried by
+  // data.leaderboard instead.  Excluding it prevents the last two frames from
+  // showing identical values.
+  const history = allHistory.filter(m => Object.keys(m.playerScores || {}).length > 0);
   const n = history.length;
-  const labels = ['Start'];
+
+  // matchMeta[0] = season start, matchMeta[k] = after match k
   const matchMeta = [{ name: 'Season start', date: '' }];
   for (let i = 0; i < n; i++) {
-    labels.push(`M${i + 1}`);
     matchMeta.push({ name: history[i].name || '', date: history[i].date || '' });
   }
 
@@ -338,222 +344,389 @@ function buildTitleRaceSeries(mode) {
     for (const p of t.players) rawByTeam[t.name][p.name] = 0;
   }
 
-  const datasets = teams.map((t, idx) => ({
-    label: t.name,
-    data: [0],
-    borderColor: TITLE_RACE_COLORS[idx % TITLE_RACE_COLORS.length],
-    backgroundColor: 'transparent',
-    tension: 0.2,
-    pointRadius: 0,
-    pointHoverRadius: 5,
-    borderWidth: 2,
-  }));
+  // frames[f] = array of { team, points, color } sorted desc by points at frame f
+  const frames = [];
+  const teamColors = {};
+  teams.forEach((t, idx) => { teamColors[t.name] = TITLE_RACE_COLORS[idx % TITLE_RACE_COLORS.length]; });
+
+  // Frame 0: all zero
+  frames.push(teams.map(t => ({ team: t.name, points: 0, color: teamColors[t.name] }))
+    .sort((a, b) => b.points - a.points));
 
   for (let k = 0; k < n; k++) {
     const match = history[k];
     const ps = match.playerScores || {};
-    for (let ti = 0; ti < teams.length; ti++) {
-      const team = teams[ti];
+    for (const team of teams) {
       const rawMap = rawByTeam[team.name];
       for (const p of team.players) {
         const s = ps[p.name];
         if (s) rawMap[p.name] += s.total;
       }
     }
-    for (let ti = 0; ti < teams.length; ti++) {
-      const team = teams[ti];
-      const rawMap = rawByTeam[team.name];
-      const v = mode === 'all'
-        ? computeTotalPointsAllStyle(team, rawMap)
-        : computeTop11PointsForTeam(team, rawMap);
-      datasets[ti].data.push(v);
+    const snapshot = teams.map(t => ({
+      team: t.name,
+      color: teamColors[t.name],
+      points: mode === 'all'
+        ? computeTotalPointsAllStyle(t, rawByTeam[t.name])
+        : computeTop11PointsForTeam(t, rawByTeam[t.name]),
+    })).sort((a, b) => b.points - a.points);
+    frames.push(snapshot);
+  }
+
+  // Snap the last frame to data.leaderboard — the authoritative server totals.
+  // This corrects any minor rounding drift and also handles the case where the
+  // newest match's scores are reflected in leaderboard but not yet in
+  // matchHistory (e.g. still marked as currentMatch on the server).
+  if (data?.leaderboard?.length) {
+    const lbMap = {};
+    for (const entry of data.leaderboard) {
+      lbMap[entry.team] = mode === 'all' ? entry.totalPointsAll : entry.top11Points;
+    }
+
+    // Check if leaderboard totals differ meaningfully from our last frame —
+    // if so, the leaderboard includes a match we don't have in history yet,
+    // so append an extra frame for it.
+    const lastFrame = frames[frames.length - 1];
+    const lbFrame = lastFrame.map(bar => ({
+      ...bar,
+      points: lbMap[bar.team] ?? bar.points,
+    })).sort((a, b) => b.points - a.points);
+
+    const hasExtraMatch = lbFrame.some((bar, i) => bar.points !== lastFrame[i]?.points || bar.team !== lastFrame[i]?.team);
+
+    if (hasExtraMatch) {
+      // Label it as the match that's in leaderboard but not history
+      const extraMatchName = data.currentMatch?.name || allHistory[allHistory.length - 1]?.name || '';
+      const extraMatchDate = data.currentMatch?.date || allHistory[allHistory.length - 1]?.date || '';
+      matchMeta.push({ name: extraMatchName, date: extraMatchDate });
+      frames.push(lbFrame);
+    } else {
+      // Just snap values in place to fix rounding
+      for (const bar of lastFrame) {
+        if (lbMap[bar.team] !== undefined) bar.points = lbMap[bar.team];
+      }
+      lastFrame.sort((a, b) => b.points - a.points);
     }
   }
 
-  datasets.sort((a, b) => b.data[b.data.length - 1] - a.data[a.data.length - 1]);
-  return { labels, matchMeta, datasets };
+  return { matchMeta, frames };
 }
 
-function titleRaceChartColors() {
+// ── Canvas renderer ──────────────────────────────────────────────────────────
+function getTitleRaceCanvas() { return document.getElementById('title-race-chart'); }
+
+function easeInOut(t) {
+  // smooth-step
+  return t * t * (3 - 2 * t);
+}
+
+function lerpBarState(frameA, frameB, t) {
+  // Build a map for each frame
+  const mapA = {}, mapB = {};
+  frameA.forEach((d, i) => { mapA[d.team] = { rank: i, points: d.points, color: d.color }; });
+  frameB.forEach((d, i) => { mapB[d.team] = { rank: i, points: d.points, color: d.color }; });
+
+  const teams = frameB.map(d => d.team);
+  const et = easeInOut(Math.max(0, Math.min(1, t)));
+
+  return teams.map(name => {
+    const a = mapA[name] ?? { rank: mapA[teams[0]]?.rank ?? 0, points: 0 };
+    const b = mapB[name];
+    return {
+      team: name,
+      color: b.color,
+      rank: a.rank + (b.rank - a.rank) * et,
+      points: a.points + (b.points - a.points) * et,
+    };
+  });
+}
+
+function drawTitleRaceFrame(animPos) {
+  const canvas = getTitleRaceCanvas();
+  if (!canvas || !titleRaceSeries) return;
+
+  const frames = titleRaceSeries.frames;
+  const maxFrame = frames.length - 1;
+  const clampedPos = Math.max(0, Math.min(animPos, maxFrame));
+
+  const frameFloor = Math.floor(clampedPos);
+  const frameA = Math.min(frameFloor, maxFrame);
+  const frameB = Math.min(frameFloor + 1, maxFrame);
+  const t = clampedPos - frameFloor;
+
+  const bars = (frameA === frameB || t === 0)
+    ? frames[frameA].map((d, i) => ({ team: d.team, color: d.color, rank: i, points: d.points }))
+    : lerpBarState(frames[frameA], frames[frameB], t);
+
+  // Sort by animated rank for drawing order (so labels don't overlap awkwardly)
+  bars.sort((a, b) => a.rank - b.rank);
+
   const cs = getComputedStyle(document.documentElement);
-  const pick = (v) => (v || '').trim() || '#94a3b8';
-  return {
-    text: pick(cs.getPropertyValue('--text-secondary')),
-    muted: pick(cs.getPropertyValue('--text-muted')),
-    border: pick(cs.getPropertyValue('--border')),
-    grid: pick(cs.getPropertyValue('--border')),
-    bgCard: pick(cs.getPropertyValue('--bg-card')),
-    textPrimary: pick(cs.getPropertyValue('--text-primary')),
-    textBody: pick(cs.getPropertyValue('--text-body')),
-  };
-}
+  const pick = v => (v || '').trim() || '#94a3b8';
+  const colorText   = pick(cs.getPropertyValue('--text-secondary'));
+  const colorMuted  = pick(cs.getPropertyValue('--text-muted'));
+  const colorBg     = pick(cs.getPropertyValue('--bg-card'));
+  const colorBorder = pick(cs.getPropertyValue('--border'));
 
-function updateTitleRaceAtIndex(index) {
-  if (!titleRaceSeries || !titleRaceChart) return;
-  const maxIndex = titleRaceSeries.labels.length - 1;
-  const safeIndex = Math.max(0, Math.min(index, maxIndex));
-  titleRaceCurrentIndex = safeIndex;
+  const dpr = window.devicePixelRatio || 1;
+  const W = canvas.clientWidth;
+  const H = canvas.clientHeight;
+  if (canvas.width !== Math.round(W * dpr) || canvas.height !== Math.round(H * dpr)) {
+    canvas.width  = Math.round(W * dpr);
+    canvas.height = Math.round(H * dpr);
+  }
+  const ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, W, H);
 
+  const N = bars.length;
+  if (N === 0) return;
+
+  const PAD_L = 8;
+  const PAD_R = 110; // room for value label
+  const PAD_T = 36;
+  const PAD_B = 24;
+  const rowH = (H - PAD_T - PAD_B) / N;
+  const barH = Math.max(6, rowH * 0.62);
+  const barGap = (rowH - barH) / 2;
+
+  const maxPoints = Math.max(...frames[maxFrame].map(d => d.points), 1);
+  const barMaxW = W - PAD_L - PAD_R - 120; // 120 for team name label
+
+  const LABEL_W = 112;
+
+  // Grid lines
+  const gridSteps = 4;
+  ctx.save();
+  ctx.strokeStyle = colorBorder;
+  ctx.lineWidth = 0.5;
+  ctx.setLineDash([3, 3]);
+  for (let g = 0; g <= gridSteps; g++) {
+    const x = PAD_L + LABEL_W + (barMaxW * g / gridSteps);
+    ctx.beginPath();
+    ctx.moveTo(x, PAD_T - 8);
+    ctx.lineTo(x, H - PAD_B);
+    ctx.stroke();
+    // grid label
+    ctx.fillStyle = colorMuted;
+    ctx.font = `10px system-ui, sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.fillText(Math.round(maxPoints * g / gridSteps), x, PAD_T - 12);
+  }
+  ctx.restore();
+
+  // Bars
+  bars.forEach(bar => {
+    const y = PAD_T + bar.rank * rowH + barGap;
+    const w = Math.max(0, (bar.points / maxPoints) * barMaxW);
+    const x = PAD_L + LABEL_W;
+
+    // Bar fill with slight gradient
+    const grad = ctx.createLinearGradient(x, 0, x + w, 0);
+    grad.addColorStop(0, bar.color + 'cc');
+    grad.addColorStop(1, bar.color);
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect
+      ? ctx.roundRect(x, y, w, barH, 4)
+      : ctx.rect(x, y, w, barH);
+    ctx.fill();
+
+    // Team name (left of bar)
+    ctx.fillStyle = colorText;
+    ctx.font = `bold 12px system-ui, sans-serif`;
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    const shortName = bar.team.length > 14 ? bar.team.slice(0, 13) + '…' : bar.team;
+    ctx.fillText(shortName, x - 8, y + barH / 2);
+
+    // Points value (right of bar)
+    ctx.fillStyle = bar.color;
+    ctx.font = `bold 12px system-ui, sans-serif`;
+    ctx.textAlign = 'left';
+    ctx.fillText(Math.round(bar.points) + ' pts', x + w + 8, y + barH / 2);
+  });
+
+  // Match label (top centre)
+  ctx.fillStyle = colorText;
+  ctx.font = `bold 13px system-ui, sans-serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText(titleRaceStepLabel(clampedPos), W / 2, 20);
+
+  // Update slider & standings sidebar
   const slider = document.getElementById('title-race-slider');
-  const label = document.getElementById('title-race-slider-label');
+  const label  = document.getElementById('title-race-slider-label');
+  if (slider) slider.value = String(Math.round(clampedPos));
+  if (label)  label.textContent = titleRaceStepLabel(clampedPos);
+
   const standings = document.getElementById('title-race-standings');
-  if (slider) slider.value = String(safeIndex);
-  if (label) label.textContent = titleRaceStepLabel(titleRaceSeries.matchMeta, safeIndex);
-
-  const rows = titleRaceSeries.datasets
-    .map(ds => ({ team: ds.label, points: ds.data[safeIndex], color: ds.borderColor }))
-    .sort((a, b) => b.points - a.points);
-
-  titleRaceChart.data.labels = rows.map(r => r.team);
-  titleRaceChart.data.datasets[0].data = rows.map(r => r.points);
-  titleRaceChart.data.datasets[0].backgroundColor = rows.map(r => r.color);
-  titleRaceChart.data.datasets[0].borderColor = rows.map(r => r.color);
-  titleRaceChart.update('none');
-
   if (standings) {
-    standings.innerHTML = rows.map((r, rank) => `
+    const sorted = [...bars].sort((a, b) => a.rank - b.rank);
+    standings.innerHTML = sorted.map((r, rank) => `
       <div class="title-race-standing-item" style="border-left-color:${r.color}">
         <div class="title-race-standing-rank">#${rank + 1}</div>
         <div class="title-race-standing-team">${r.team}</div>
-        <div class="title-race-standing-points">${r.points} pts</div>
+        <div class="title-race-standing-points">${Math.round(r.points)} pts</div>
       </div>
     `).join('');
   }
 }
 
+// ── Animation loop ───────────────────────────────────────────────────────────
+function titleRaceAnimLoop(ts) {
+  if (!titleRaceSeries) return;
+  const maxFrame = titleRaceSeries.frames.length - 1;
+
+  if (trLastTs !== null) {
+    const dt = Math.min((ts - trLastTs) / 1000, 0.1); // seconds, capped at 100 ms
+
+    if (titleRaceIsPlaying) {
+      // Advance target by speed * dt frames
+      trAnimTarget = Math.min(trAnimTarget + getTitleRaceSpeedFps() * dt, maxFrame);
+    }
+
+    // Smoothly chase target (lerp with fixed decay)
+    const diff = trAnimTarget - trAnimPos;
+    if (Math.abs(diff) > 0.001) {
+      // Use a spring-like approach: move 85% of remaining gap per second
+      trAnimPos += diff * Math.min(1, 8 * dt);
+    } else {
+      trAnimPos = trAnimTarget;
+    }
+  }
+  trLastTs = ts;
+
+  drawTitleRaceFrame(trAnimPos);
+
+  // Stop playing if we've reached the end
+  if (titleRaceIsPlaying && trAnimTarget >= maxFrame && Math.abs(trAnimPos - maxFrame) < 0.01) {
+    titleRaceIsPlaying = false;
+    trAnimPos = maxFrame;
+    const playBtn = document.getElementById('title-race-play-btn');
+    if (playBtn) playBtn.textContent = 'Play';
+  }
+
+  titleRaceRafId = requestAnimationFrame(titleRaceAnimLoop);
+}
+
+function startTitleRaceLoop() {
+  if (titleRaceRafId) return;
+  trLastTs = null;
+  titleRaceRafId = requestAnimationFrame(titleRaceAnimLoop);
+}
+
+function stopTitleRacePlayback() {
+  titleRaceIsPlaying = false;
+  const playBtn = document.getElementById('title-race-play-btn');
+  if (playBtn) playBtn.textContent = 'Play';
+}
+
+function destroyTitleRaceLoop() {
+  if (titleRaceRafId) {
+    cancelAnimationFrame(titleRaceRafId);
+    titleRaceRafId = null;
+  }
+  titleRaceIsPlaying = false;
+}
+
+// ── Main render entry ────────────────────────────────────────────────────────
 function renderTitleRace() {
-  const canvas = document.getElementById('title-race-chart');
-  if (!canvas || typeof Chart === 'undefined') return;
+  const canvas = getTitleRaceCanvas();
+  if (!canvas) return;
+
+  // Switch canvas from Chart.js mode to plain 2d (destroy old Chart if any)
+  if (canvas._chartInstance) {
+    canvas._chartInstance.destroy();
+    canvas._chartInstance = null;
+  }
 
   if (!titleRaceControlsBound) {
     titleRaceControlsBound = true;
+
     document.querySelectorAll('input[name="title-race-mode"]').forEach(r => {
       r.addEventListener('change', () => {
         stopTitleRacePlayback();
-        renderTitleRace();
+        rebuildTitleRaceSeries();
       });
     });
+
     const slider = document.getElementById('title-race-slider');
     if (slider) {
       slider.addEventListener('input', (e) => {
         stopTitleRacePlayback();
-        updateTitleRaceAtIndex(Number(e.target.value));
+        const idx = Number(e.target.value);
+        trAnimTarget = idx;
+        trAnimPos = idx;
       });
     }
+
     const playBtn = document.getElementById('title-race-play-btn');
     if (playBtn) {
       playBtn.addEventListener('click', () => {
         if (!titleRaceSeries) return;
-        if (titleRacePlayInterval) {
+        if (titleRaceIsPlaying) {
           stopTitleRacePlayback();
           return;
         }
-        const max = titleRaceSeries.labels.length - 1;
-        if (titleRaceCurrentIndex >= max) titleRaceCurrentIndex = 0;
+        const maxFrame = titleRaceSeries.frames.length - 1;
+        if (trAnimTarget >= maxFrame) {
+          trAnimTarget = 0;
+          trAnimPos = 0;
+        }
+        titleRaceIsPlaying = true;
         playBtn.textContent = 'Pause';
-        titleRacePlayInterval = setInterval(() => {
-          if (titleRaceCurrentIndex >= max) {
-            stopTitleRacePlayback();
-            return;
-          }
-          updateTitleRaceAtIndex(titleRaceCurrentIndex + 1);
-        }, getTitleRaceIntervalMs());
+        startTitleRaceLoop();
       });
     }
+
     const speedEl = document.getElementById('title-race-speed');
     if (speedEl) {
-      speedEl.addEventListener('change', () => {
-        if (!titleRacePlayInterval) return;
-        const playBtnEl = document.getElementById('title-race-play-btn');
-        stopTitleRacePlayback();
-        if (playBtnEl) playBtnEl.click();
-      });
+      // speed change takes effect automatically since getTitleRaceSpeedFps() is called each tick
+      speedEl.addEventListener('change', () => { /* no-op, handled in loop */ });
     }
+
+    // Keep canvas sized correctly on resize
+    const ro = new ResizeObserver(() => {
+      if (titleRaceSeries) drawTitleRaceFrame(trAnimPos);
+    });
+    ro.observe(canvas);
   }
 
   if (!data || !teamsData?.teams?.length || !data.matchHistory || data.matchHistory.length === 0) {
-    stopTitleRacePlayback();
-    if (titleRaceChart) {
-      titleRaceChart.destroy();
-      titleRaceChart = null;
-    }
+    destroyTitleRaceLoop();
+    titleRaceSeries = null;
     const standings = document.getElementById('title-race-standings');
-    const slider = document.getElementById('title-race-slider');
-    const label = document.getElementById('title-race-slider-label');
+    const slider    = document.getElementById('title-race-slider');
+    const label     = document.getElementById('title-race-slider-label');
     if (standings) standings.innerHTML = '';
-    if (slider) { slider.max = '0'; slider.value = '0'; }
-    if (label) label.textContent = 'Season start';
+    if (slider)  { slider.max = '0'; slider.value = '0'; }
+    if (label)   label.textContent = 'Season start';
     return;
   }
 
+  rebuildTitleRaceSeries();
+}
+
+function rebuildTitleRaceSeries() {
   const mode = getTitleRaceMode();
   titleRaceSeries = buildTitleRaceSeries(mode);
-  const { labels } = titleRaceSeries;
-  const c = titleRaceChartColors();
-
-  if (titleRaceChart) {
-    titleRaceChart.destroy();
-    titleRaceChart = null;
-  }
-
-  titleRaceChart = new Chart(canvas.getContext('2d'), {
-    type: 'bar',
-    data: {
-      labels: [],
-      datasets: [{
-        label: mode === 'all' ? 'All players points' : 'Top 11 points',
-        data: [],
-        borderWidth: 1,
-      }],
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: { duration: 250 },
-      plugins: {
-        legend: {
-          display: false,
-        },
-        tooltip: {
-          backgroundColor: c.bgCard,
-          titleColor: c.textPrimary,
-          bodyColor: c.textBody,
-          borderColor: c.border,
-          borderWidth: 1,
-          padding: 10,
-          callbacks: {
-            title() {
-              return titleRaceStepLabel(titleRaceSeries.matchMeta, titleRaceCurrentIndex);
-            },
-            label(item) {
-              return `${item.label}: ${item.raw} pts`;
-            },
-          },
-        },
-      },
-      scales: {
-        x: {
-          beginAtZero: true,
-          ticks: { color: c.muted, font: { size: 10 } },
-          grid: { color: c.grid },
-        },
-        y: {
-          ticks: { color: c.text, font: { size: 11 } },
-          grid: { color: c.grid },
-        },
-      },
-    },
-  });
+  const maxFrame = titleRaceSeries.frames.length - 1;
 
   const slider = document.getElementById('title-race-slider');
-  if (slider) {
-    slider.min = '0';
-    slider.max = String(Math.max(0, labels.length - 1));
+  if (slider) { slider.min = '0'; slider.max = String(maxFrame); }
+
+  // Keep current position valid; jump to end on first build
+  if (trAnimPos <= 0 && trAnimTarget <= 0) {
+    trAnimPos = maxFrame;
+    trAnimTarget = maxFrame;
+  } else {
+    trAnimPos = Math.min(trAnimPos, maxFrame);
+    trAnimTarget = Math.min(trAnimTarget, maxFrame);
   }
-  const maxIndex = labels.length - 1;
-  const nextIndex = titleRaceCurrentIndex < 0 ? maxIndex : Math.max(0, Math.min(titleRaceCurrentIndex, maxIndex));
-  updateTitleRaceAtIndex(nextIndex);
+
+  startTitleRaceLoop();
+  drawTitleRaceFrame(trAnimPos);
 }
 
 // === Leaderboard ===
