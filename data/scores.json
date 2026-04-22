@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T17:34:54.222Z",
+  "lastUpdated": "2026-04-22T17:45:01.468Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 111,
-        "w": 7,
-        "o": 16.1
+        "r": 119,
+        "w": 9,
+        "o": 17.5
       },
       {
         "inning": "Rajasthan Royals",
@@ -58,10 +58,10 @@
         "total": 63
       },
       "Digvesh Rathi": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 12,
         "fielding": 8,
-        "total": 20
+        "total": 22
       },
       "Yashasvi Jaiswal": {
         "batting": 36,
@@ -78,8 +78,8 @@
       "Dhruv Jurel": {
         "batting": -5,
         "bowling": 0,
-        "fielding": 16,
-        "total": 11
+        "fielding": 24,
+        "total": 19
       },
       "Riyan Parag": {
         "batting": 24,
@@ -101,9 +101,9 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 45,
+        "bowling": 105,
         "fielding": 0,
-        "total": 45
+        "total": 105
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3087,
-      "top11Points": 3092
+      "totalPointsAll": 3089,
+      "top11Points": 3094
     },
     {
       "team": "Tikoo",
@@ -141,8 +141,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2478,
-      "top11Points": 2412
+      "totalPointsAll": 2486,
+      "top11Points": 2420
     },
     {
       "team": "Kishan",
@@ -151,8 +151,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2269,
-      "top11Points": 2233
+      "totalPointsAll": 2329,
+      "top11Points": 2293
     },
     {
       "team": "Tanay",
@@ -12033,9 +12033,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 111,
-          "w": 7,
-          "o": 16.1
+          "r": 119,
+          "w": 9,
+          "o": 17.5
         },
         {
           "inning": "Rajasthan Royals",
@@ -12169,9 +12169,9 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 111,
-          "wickets": 7,
-          "overs": 16.1,
+          "runs": 119,
+          "wickets": 9,
+          "overs": 17.5,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -12239,29 +12239,47 @@
             {
               "name": "Mohammed Shami",
               "runs": 6,
-              "balls": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 1,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 150,
+              "dismissal": "b Brijesh Sharma"
             },
             {
               "name": "Mayank Yadav",
+              "runs": 5,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "c Dhruv Jurel b Jofra Archer"
+            },
+            {
+              "name": "Digvesh Rathi",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Mohsin Khan",
               "runs": 0,
-              "balls": 0,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "batting"
+              "dismissal": "b Jofra Archer"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 3,
+              "overs": 4,
               "maidens": 1,
-              "runs": 15,
-              "wickets": 1,
+              "runs": 20,
+              "wickets": 3,
               "economy": 5
             },
             {
@@ -12274,11 +12292,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 1,
-              "economy": 7.38
+              "runs": 18,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Ravindra Jadeja",
@@ -12337,10 +12355,10 @@
           "total": 63
         },
         "Digvesh Rathi": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 12,
           "fielding": 8,
-          "total": 20
+          "total": 22
         },
         "Yashasvi Jaiswal": {
           "batting": 36,
@@ -12357,8 +12375,8 @@
         "Dhruv Jurel": {
           "batting": -5,
           "bowling": 0,
-          "fielding": 16,
-          "total": 11
+          "fielding": 24,
+          "total": 19
         },
         "Riyan Parag": {
           "batting": 24,
@@ -12380,9 +12398,9 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 45,
+          "bowling": 105,
           "fielding": 0,
-          "total": 45
+          "total": 105
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -12545,8 +12563,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2269,
-      "top11Points": 2233,
+      "totalPointsAll": 2329,
+      "top11Points": 2293,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12560,6 +12578,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 12,
+          "bowling": 320,
+          "fielding": 34,
+          "rawPoints": 366,
+          "multiplier": 1,
+          "effectivePoints": 366,
+          "countsInTop11": true
+        },
+        {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
           "batting": 346,
@@ -12568,17 +12597,6 @@
           "rawPoints": 362,
           "multiplier": 1,
           "effectivePoints": 362,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 12,
-          "bowling": 260,
-          "fielding": 34,
-          "rawPoints": 306,
-          "multiplier": 1,
-          "effectivePoints": 306,
           "countsInTop11": true
         },
         {
@@ -12683,8 +12701,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3087,
-      "top11Points": 3092,
+      "totalPointsAll": 3089,
+      "top11Points": 3094,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12777,12 +12795,12 @@
         {
           "name": "Digvesh Rathi",
           "role": "Spinner",
-          "batting": 0,
+          "batting": 2,
           "bowling": 89,
           "fielding": 24,
-          "rawPoints": 113,
+          "rawPoints": 115,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 115,
           "countsInTop11": true
         },
         {
@@ -13086,8 +13104,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2478,
-      "top11Points": 2412,
+      "totalPointsAll": 2486,
+      "top11Points": 2420,
       "players": [
         {
           "name": "Axar Patel",
@@ -13105,10 +13123,10 @@
           "role": "Wicket Keeper",
           "batting": 244,
           "bowling": 0,
-          "fielding": 110,
-          "rawPoints": 354,
+          "fielding": 118,
+          "rawPoints": 362,
           "multiplier": 1,
-          "effectivePoints": 354,
+          "effectivePoints": 362,
           "countsInTop11": true
         },
         {
