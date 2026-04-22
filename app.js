@@ -16,6 +16,7 @@ themeToggle.addEventListener('click', () => {
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('fipl-theme', next);
   themeToggle.textContent = next === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+  renderTitleRace();
 });
 
 // === Team Logos ===
@@ -88,12 +89,14 @@ async function loadData() {
     renderLeaderboard();
     renderAllMatches();
     renderTopScorers();
+    renderTitleRace();
 
     if (!initialLoadDone) initialLoadDone = true;
   } else {
     document.getElementById('leaderboard').querySelector('tbody').innerHTML =
       '<tr><td colspan="7" style="text-align:center;padding:20px;color:var(--text-muted)">No scores yet. Data will appear once matches begin.</td></tr>';
     renderAllMatches();
+    renderTitleRace();
   }
 }
 
@@ -227,6 +230,212 @@ function computeTeamMatchTotal(teamMeta, matchPlayerScores) {
     }
   }
   return total;
+}
+
+// Mirrors scripts/update-scores-espn.js buildOutput top-11 selection (cumulative raw × C/VC).
+const REQUIRED_ROLES_TOP11 = ['Opener', 'Batsman', 'Wicket Keeper', 'Fast Bowler', 'All-Rounder', 'Spinner'];
+
+function computeTop11PointsForTeam(teamMeta, rawTotalsByName) {
+  const playerList = teamMeta.players.map(p => {
+    const raw = rawTotalsByName[p.name] || 0;
+    let mult = 1;
+    if (p.name === teamMeta.captain) mult = 2;
+    else if (p.name === teamMeta.viceCaptain) mult = 1.5;
+    const effectivePoints = Math.round(raw * mult);
+    return { name: p.name, role: p.role, effectivePoints };
+  });
+  playerList.sort((a, b) => b.effectivePoints - a.effectivePoints);
+  const selected = new Set();
+  for (const role of REQUIRED_ROLES_TOP11) {
+    const best = playerList.find(pl => pl.role === role && !selected.has(pl.name));
+    if (best) selected.add(best.name);
+  }
+  for (const pl of playerList) {
+    if (selected.size >= 11) break;
+    if (!selected.has(pl.name)) selected.add(pl.name);
+  }
+  let sum = 0;
+  for (const pl of playerList) {
+    if (selected.has(pl.name)) sum += pl.effectivePoints;
+  }
+  return sum;
+}
+
+// Matches buildOutput totalPointsAll: sum over roster of round(cumulative_raw * mult), not sum of per-match rounded squad totals.
+function computeTotalPointsAllStyle(teamMeta, rawTotalsByName) {
+  let sum = 0;
+  for (const p of teamMeta.players) {
+    const raw = rawTotalsByName[p.name] || 0;
+    let mult = 1;
+    if (p.name === teamMeta.captain) mult = 2;
+    else if (p.name === teamMeta.viceCaptain) mult = 1.5;
+    sum += Math.round(raw * mult);
+  }
+  return sum;
+}
+
+// Same order as `scores.json` / buildOutput (do not re-sort by date: ties would diverge from leaderboard).
+function matchHistoryInOrder(matches) {
+  return [...(matches || [])];
+}
+
+const TITLE_RACE_COLORS = [
+  '#60a5fa', '#f472b6', '#4ade80', '#fbbf24', '#a78bfa',
+  '#f87171', '#22d3ee', '#fb923c', '#c084fc', '#2dd4bf',
+];
+
+let titleRaceChart = null;
+let titleRaceControlsBound = false;
+
+function getTitleRaceMode() {
+  const el = document.querySelector('input[name="title-race-mode"]:checked');
+  return el && el.value === 'all' ? 'all' : 'top11';
+}
+
+function buildTitleRaceSeries(mode) {
+  const history = matchHistoryInOrder(data?.matchHistory);
+  const teams = teamsData?.teams || [];
+  const n = history.length;
+  const labels = ['Start'];
+  const matchMeta = [{ name: 'Season start', date: '' }];
+  for (let i = 0; i < n; i++) {
+    labels.push(`M${i + 1}`);
+    matchMeta.push({ name: history[i].name || '', date: history[i].date || '' });
+  }
+
+  const rawByTeam = {};
+  for (const t of teams) {
+    rawByTeam[t.name] = {};
+    for (const p of t.players) rawByTeam[t.name][p.name] = 0;
+  }
+
+  const datasets = teams.map((t, idx) => ({
+    label: t.name,
+    data: [0],
+    borderColor: TITLE_RACE_COLORS[idx % TITLE_RACE_COLORS.length],
+    backgroundColor: 'transparent',
+    tension: 0.2,
+    pointRadius: 0,
+    pointHoverRadius: 5,
+    borderWidth: 2,
+  }));
+
+  for (let k = 0; k < n; k++) {
+    const match = history[k];
+    const ps = match.playerScores || {};
+    for (let ti = 0; ti < teams.length; ti++) {
+      const team = teams[ti];
+      const rawMap = rawByTeam[team.name];
+      for (const p of team.players) {
+        const s = ps[p.name];
+        if (s) rawMap[p.name] += s.total;
+      }
+    }
+    for (let ti = 0; ti < teams.length; ti++) {
+      const team = teams[ti];
+      const rawMap = rawByTeam[team.name];
+      const v = mode === 'all'
+        ? computeTotalPointsAllStyle(team, rawMap)
+        : computeTop11PointsForTeam(team, rawMap);
+      datasets[ti].data.push(v);
+    }
+  }
+
+  datasets.sort((a, b) => b.data[b.data.length - 1] - a.data[a.data.length - 1]);
+  return { labels, matchMeta, datasets };
+}
+
+function titleRaceChartColors() {
+  const cs = getComputedStyle(document.documentElement);
+  const pick = (v) => (v || '').trim() || '#94a3b8';
+  return {
+    text: pick(cs.getPropertyValue('--text-secondary')),
+    muted: pick(cs.getPropertyValue('--text-muted')),
+    border: pick(cs.getPropertyValue('--border')),
+    grid: pick(cs.getPropertyValue('--border')),
+    bgCard: pick(cs.getPropertyValue('--bg-card')),
+    textPrimary: pick(cs.getPropertyValue('--text-primary')),
+    textBody: pick(cs.getPropertyValue('--text-body')),
+  };
+}
+
+function renderTitleRace() {
+  const canvas = document.getElementById('title-race-chart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  if (!titleRaceControlsBound) {
+    titleRaceControlsBound = true;
+    document.querySelectorAll('input[name="title-race-mode"]').forEach(r => {
+      r.addEventListener('change', () => renderTitleRace());
+    });
+  }
+
+  if (!data || !teamsData?.teams?.length || !data.matchHistory || data.matchHistory.length === 0) {
+    if (titleRaceChart) {
+      titleRaceChart.destroy();
+      titleRaceChart = null;
+    }
+    return;
+  }
+
+  const mode = getTitleRaceMode();
+  const { labels, matchMeta, datasets } = buildTitleRaceSeries(mode);
+  const c = titleRaceChartColors();
+
+  if (titleRaceChart) {
+    titleRaceChart.destroy();
+    titleRaceChart = null;
+  }
+
+  titleRaceChart = new Chart(canvas.getContext('2d'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: c.text, boxWidth: 12, padding: 12, font: { family: 'Inter, sans-serif', size: 11 } },
+        },
+        tooltip: {
+          backgroundColor: c.bgCard,
+          titleColor: c.textPrimary,
+          bodyColor: c.textBody,
+          borderColor: c.border,
+          borderWidth: 1,
+          padding: 10,
+          callbacks: {
+            title(items) {
+              const i = items[0]?.dataIndex;
+              if (i == null || !matchMeta[i]) return '';
+              const m = matchMeta[i];
+              return m.date ? `${m.name} (${m.date})` : m.name;
+            },
+            afterBody(items) {
+              if (!items.length) return [];
+              const rows = items
+                .map(it => ({ label: it.dataset.label || '', val: Number(it.parsed.y) }))
+                .filter(r => !Number.isNaN(r.val))
+                .sort((a, b) => b.val - a.val);
+              return rows.map((r, rank) => `#${rank + 1} ${r.label}: ${r.val}`);
+            },
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: c.muted, maxRotation: 45, minRotation: 0, font: { size: 10 } },
+          grid: { color: c.grid },
+        },
+        y: {
+          ticks: { color: c.muted },
+          grid: { color: c.grid },
+        },
+      },
+    },
+  });
 }
 
 // === Leaderboard ===
@@ -442,9 +651,10 @@ function showTeam(teamName) {
 
   const teamMeta = teamsData?.teams?.find(t => t.name === teamName);
 
-  document.getElementById('leaderboard-section').classList.add('hidden');
-  document.getElementById('all-matches').classList.add('hidden');
-  document.getElementById('team-detail').classList.remove('hidden');
+  allSections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden', id !== 'team-detail');
+  });
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
 
   document.getElementById('team-name').textContent = teamName;
@@ -956,7 +1166,7 @@ function togglePlayerExpand(id) {
 }
 
 // === Navigation ===
-const allSections = ['leaderboard-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];
+const allSections = ['leaderboard-section', 'title-race-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];
 
 document.getElementById('back-btn').addEventListener('click', () => {
   allSections.forEach(id => document.getElementById(id).classList.add('hidden'));

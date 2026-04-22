@@ -815,6 +815,69 @@ tbody tr {
   color: var(--accent-light);
 }
 
+@media (max-width: 520px) {
+  #bottom-nav {
+    padding: 8px 4px;
+    gap: 4px;
+  }
+
+  .nav-btn {
+    padding: 8px 10px;
+    font-size: 0.72rem;
+  }
+}
+
+/* === Title race === */
+.title-race-intro {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 14px;
+  max-width: 52rem;
+}
+
+.title-race-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.title-race-toggle-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-body);
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+
+.title-race-toggle-opt:has(input:checked) {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  box-shadow: 0 0 0 1px var(--accent-glow);
+}
+
+.title-race-chart-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  height: min(58vh, 440px);
+  padding: 12px 8px 8px;
+  margin-bottom: 12px;
+}
+
+.title-race-chart-wrap canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .hidden {
   display: none !important;
 }
