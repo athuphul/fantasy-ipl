@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T14:34:55.132Z",
+  "lastUpdated": "2026-04-22T14:44:53.707Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 46,
+        "r": 58,
         "w": 3,
-        "o": 6.1
+        "o": 7.3
       }
     ],
     "playerScores": {
@@ -76,16 +76,16 @@
         "total": -5
       },
       "Riyan Parag": {
-        "batting": 11,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 21
       },
       "Shimron Hetmyer": {
-        "batting": 2,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 6
       }
     }
   },
@@ -107,13 +107,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2547,
-      "top11Points": 2547
+      "totalPointsAll": 2567,
+      "top11Points": 2567
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2484,
-      "top11Points": 2426
+      "totalPointsAll": 2488,
+      "top11Points": 2430
     },
     {
       "team": "Manav",
@@ -12009,17 +12009,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 46,
+          "r": 58,
           "w": 3,
-          "o": 6.1
+          "o": 7.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 46,
+          "runs": 58,
           "wickets": 3,
-          "overs": 6.1,
+          "overs": 7.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12050,20 +12050,20 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 9,
-              "balls": 9,
+              "runs": 17,
+              "balls": 13,
               "fours": 2,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 130.77,
               "dismissal": "batting"
             },
             {
               "name": "Shimron Hetmyer",
-              "runs": 2,
-              "balls": 3,
+              "runs": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 85.71,
               "dismissal": "batting"
             }
           ],
@@ -12094,11 +12094,19 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 10,
               "wickets": 0,
-              "economy": 0
+              "economy": 10
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
@@ -12165,16 +12173,16 @@
           "total": -5
         },
         "Riyan Parag": {
-          "batting": 11,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 21
         },
         "Shimron Hetmyer": {
-          "batting": 2,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 6
         }
       },
       "isComplete": false
@@ -12607,8 +12615,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2484,
-      "top11Points": 2426,
+      "totalPointsAll": 2488,
+      "top11Points": 2430,
       "players": [
         {
           "name": "Shubman Gill",
@@ -12701,12 +12709,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 36,
+          "batting": 40,
           "bowling": 0,
           "fielding": 50,
-          "rawPoints": 86,
+          "rawPoints": 90,
           "multiplier": 1,
-          "effectivePoints": 86,
+          "effectivePoints": 90,
           "countsInTop11": true
         },
         {
@@ -13032,8 +13040,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2547,
-      "top11Points": 2547,
+      "totalPointsAll": 2567,
+      "top11Points": 2567,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13071,12 +13079,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 94,
+          "batting": 104,
           "bowling": 50,
           "fielding": 8,
-          "rawPoints": 152,
+          "rawPoints": 162,
           "multiplier": 2,
-          "effectivePoints": 304,
+          "effectivePoints": 324,
           "countsInTop11": true
         },
         {
