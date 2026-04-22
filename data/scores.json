@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T14:55:08.703Z",
+  "lastUpdated": "2026-04-22T15:04:53.701Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 76,
-        "w": 4,
-        "o": 9.3
+        "r": 80,
+        "w": 5,
+        "o": 11
       }
     ],
     "playerScores": {
@@ -82,16 +82,16 @@
         "total": 24
       },
       "Shimron Hetmyer": {
-        "batting": 31,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 31
+        "total": 26
       },
       "Ravindra Jadeja": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       }
     }
   },
@@ -118,8 +118,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2513,
-      "top11Points": 2455
+      "totalPointsAll": 2508,
+      "top11Points": 2450
     },
     {
       "team": "Manav",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2166,
-      "top11Points": 2166
+      "totalPointsAll": 2170,
+      "top11Points": 2170
     }
   ],
   "matchHistory": [
@@ -12015,17 +12015,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 76,
-          "w": 4,
-          "o": 9.3
+          "r": 80,
+          "w": 5,
+          "o": 11
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 76,
-          "wickets": 4,
-          "overs": 9.3,
+          "runs": 80,
+          "wickets": 5,
+          "overs": 11,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12066,19 +12066,28 @@
             {
               "name": "Shimron Hetmyer",
               "runs": 22,
-              "balls": 14,
+              "balls": 18,
               "fours": 2,
               "sixes": 1,
-              "sr": 157.14,
-              "dismissal": "batting"
+              "sr": 122.22,
+              "dismissal": "c Prince Yadav b Mohsin Khan"
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 0,
-              "balls": 0,
+              "runs": 2,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Donovan Ferreira",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -12101,19 +12110,19 @@
             },
             {
               "name": "Mohsin Khan",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 1,
-              "runs": 7,
-              "wickets": 1,
-              "economy": 3.5
+              "runs": 10,
+              "wickets": 2,
+              "economy": 3.53
             },
             {
               "name": "Mayank Yadav",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
               "runs": 24,
               "wickets": 0,
-              "economy": 16
+              "economy": 12
             },
             {
               "name": "Digvesh Rathi",
@@ -12194,16 +12203,16 @@
           "total": 24
         },
         "Shimron Hetmyer": {
-          "batting": 31,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 31
+          "total": 26
         },
         "Ravindra Jadeja": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         }
       },
       "isComplete": false
@@ -12636,8 +12645,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2513,
-      "top11Points": 2455,
+      "totalPointsAll": 2508,
+      "top11Points": 2450,
       "players": [
         {
           "name": "Shubman Gill",
@@ -12706,17 +12715,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Shimron Hetmyer",
-          "role": "Batsman",
-          "batting": 65,
-          "bowling": 0,
-          "fielding": 50,
-          "rawPoints": 115,
-          "multiplier": 1,
-          "effectivePoints": 115,
-          "countsInTop11": true
-        },
-        {
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 46,
@@ -12725,6 +12723,17 @@
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "batting": 60,
+          "bowling": 0,
+          "fielding": 50,
+          "rawPoints": 110,
+          "multiplier": 1,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
@@ -12774,18 +12783,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2166,
-      "top11Points": 2166,
+      "totalPointsAll": 2170,
+      "top11Points": 2170,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 88,
+          "batting": 90,
           "bowling": 167,
           "fielding": 18,
-          "rawPoints": 273,
+          "rawPoints": 275,
           "multiplier": 2,
-          "effectivePoints": 546,
+          "effectivePoints": 550,
           "countsInTop11": true
         },
         {
