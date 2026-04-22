@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T15:25:13.804Z",
+  "lastUpdated": "2026-04-22T15:35:28.563Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 107,
-        "w": 5,
-        "o": 14.6
+        "r": 113,
+        "w": 6,
+        "o": 16.4
       }
     ],
     "playerScores": {
@@ -88,10 +88,10 @@
         "total": 26
       },
       "Ravindra Jadeja": {
-        "batting": 6,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 11
       }
     }
   },
@@ -132,14 +132,14 @@
       "top11Points": 2228
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 2188,
+      "top11Points": 2188
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 2216,
       "top11Points": 2180
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2178,
-      "top11Points": 2178
     }
   ],
   "matchHistory": [
@@ -12015,17 +12015,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 107,
-          "w": 5,
-          "o": 14.6
+          "r": 113,
+          "w": 6,
+          "o": 16.4
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 107,
-          "wickets": 5,
-          "overs": 14.6,
+          "runs": 113,
+          "wickets": 6,
+          "overs": 16.4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -12074,20 +12074,29 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 11,
-              "balls": 12,
+              "runs": 16,
+              "balls": 18,
               "fours": 0,
               "sixes": 0,
-              "sr": 91.67,
+              "sr": 88.89,
               "dismissal": "batting"
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 16,
-              "balls": 16,
-              "fours": 1,
+              "runs": 20,
+              "balls": 19,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 105.26,
+              "dismissal": "c Mohsin Khan b Prince Yadav"
+            },
+            {
+              "name": "Shubham Dubey",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
@@ -12102,27 +12111,27 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 1,
-              "economy": 7.5
+              "runs": 18,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Mohsin Khan",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 1,
-              "runs": 11,
+              "runs": 15,
               "wickets": 2,
-              "economy": 3.67
+              "economy": 3.91
             },
             {
               "name": "Mayank Yadav",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 32,
+              "runs": 36,
               "wickets": 0,
-              "economy": 11.29
+              "economy": 12
             },
             {
               "name": "Digvesh Rathi",
@@ -12209,10 +12218,10 @@
           "total": 26
         },
         "Ravindra Jadeja": {
-          "batting": 6,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 11
         }
       },
       "isComplete": false
@@ -12783,18 +12792,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2178,
-      "top11Points": 2178,
+      "totalPointsAll": 2188,
+      "top11Points": 2188,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 94,
+          "batting": 99,
           "bowling": 167,
           "fielding": 18,
-          "rawPoints": 279,
+          "rawPoints": 284,
           "multiplier": 2,
-          "effectivePoints": 558,
+          "effectivePoints": 568,
           "countsInTop11": true
         },
         {
