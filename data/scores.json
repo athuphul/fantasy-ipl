@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T16:04:54.506Z",
+  "lastUpdated": "2026-04-22T16:15:39.122Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529275",
@@ -8,6 +8,12 @@
     "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
     "score": [
       {
+        "inning": "Lucknow Super Giants",
+        "r": 11,
+        "w": 1,
+        "o": 1.1
+      },
+      {
         "inning": "Rajasthan Royals",
         "r": 159,
         "w": 6,
@@ -15,17 +21,17 @@
       }
     ],
     "playerScores": {
-      "Ayush Badoni": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
       "Mitchell Marsh": {
-        "batting": 0,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 12
+      },
+      "Ayush Badoni": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
       },
       "Rishabh Pant": {
         "batting": 0,
@@ -92,14 +98,26 @@
         "bowling": 0,
         "fielding": 0,
         "total": 47
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ravi Bishnoi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3012,
-      "top11Points": 3017
+      "totalPointsAll": 3024,
+      "top11Points": 3029
     },
     {
       "team": "Tikoo",
@@ -108,8 +126,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2647,
-      "top11Points": 2657
+      "totalPointsAll": 2642,
+      "top11Points": 2652
     },
     {
       "team": "Ritik",
@@ -12014,6 +12032,12 @@
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "score": [
         {
+          "inning": "Lucknow Super Giants",
+          "r": 11,
+          "w": 1,
+          "o": 1.1
+        },
+        {
           "inning": "Rajasthan Royals",
           "r": 159,
           "w": 6,
@@ -12142,20 +12166,73 @@
               "economy": 6.5
             }
           ]
+        },
+        {
+          "innings": "Lucknow Super Giants",
+          "runs": 11,
+          "wickets": 1,
+          "overs": 1.1,
+          "batting": [
+            {
+              "name": "Mitchell Marsh",
+              "runs": 10,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ayush Badoni",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "run out ((sub)Ravi Singh)"
+            },
+            {
+              "name": "Rishabh Pant",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
-        "Ayush Badoni": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
         "Mitchell Marsh": {
-          "batting": 0,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 12
+        },
+        "Ayush Badoni": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
         },
         "Rishabh Pant": {
           "batting": 0,
@@ -12222,6 +12299,18 @@
           "bowling": 0,
           "fielding": 0,
           "total": 47
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ravi Bishnoi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -12229,8 +12318,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2647,
-      "top11Points": 2657,
+      "totalPointsAll": 2642,
+      "top11Points": 2652,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -12310,17 +12399,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Ayush Badoni",
-          "role": "Batsman",
-          "batting": 189,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 189,
-          "multiplier": 1,
-          "effectivePoints": 189,
-          "countsInTop11": true
-        },
-        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 50,
@@ -12329,6 +12407,17 @@
           "rawPoints": 188,
           "multiplier": 1,
           "effectivePoints": 188,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ayush Badoni",
+          "role": "Batsman",
+          "batting": 184,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 184,
+          "multiplier": 1,
+          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -12516,8 +12605,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3012,
-      "top11Points": 3017,
+      "totalPointsAll": 3024,
+      "top11Points": 3029,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -12575,6 +12664,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 197,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 213,
+          "multiplier": 1,
+          "effectivePoints": 213,
+          "countsInTop11": true
+        },
+        {
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
@@ -12583,17 +12683,6 @@
           "rawPoints": 206,
           "multiplier": 1,
           "effectivePoints": 206,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 185,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 201,
-          "multiplier": 1,
-          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
