@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T17:34:54.480Z",
+  "lastUpdated": "2026-04-23T17:44:57.453Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 97,
-        "w": 7,
-        "o": 15.3
+        "r": 102,
+        "w": 9,
+        "o": 17.2
       },
       {
         "inning": "Chennai Super Kings",
@@ -46,22 +46,22 @@
         "total": -14
       },
       "Shardul Thakur": {
-        "batting": 4,
+        "batting": -4,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": -4
+      },
+      "Jasprit Bumrah": {
+        "batting": 1,
+        "bowling": 30,
+        "fielding": 8,
+        "total": 39
       },
       "Mitchell Santner": {
         "batting": 0,
         "bowling": 20,
         "fielding": 8,
         "total": 28
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 8,
-        "total": 38
       },
       "Sanju Samson": {
         "batting": 173,
@@ -90,8 +90,8 @@
       "Dewald Brevis": {
         "batting": 36,
         "bowling": 0,
-        "fielding": 0,
-        "total": 36
+        "fielding": 8,
+        "total": 44
       },
       "Kartik Sharma": {
         "batting": 17,
@@ -125,13 +125,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2638,
-      "top11Points": 2638
+      "totalPointsAll": 2639,
+      "top11Points": 2639
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2539,
-      "top11Points": 2481
+      "totalPointsAll": 2547,
+      "top11Points": 2489
     },
     {
       "team": "Manav",
@@ -140,8 +140,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2354,
-      "top11Points": 2354
+      "totalPointsAll": 2346,
+      "top11Points": 2346
     },
     {
       "team": "Aakash",
@@ -12414,9 +12414,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 97,
-          "w": 7,
-          "o": 15.3
+          "r": 102,
+          "w": 9,
+          "o": 17.2
         },
         {
           "inning": "Chennai Super Kings",
@@ -12558,9 +12558,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 97,
-          "wickets": 7,
-          "overs": 15.3,
+          "runs": 102,
+          "wickets": 9,
+          "overs": 17.2,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -12627,20 +12627,29 @@
             },
             {
               "name": "Shardul Thakur",
-              "runs": 4,
-              "balls": 8,
+              "runs": 6,
+              "balls": 12,
               "fours": 0,
               "sixes": 0,
               "sr": 50,
-              "dismissal": "batting"
+              "dismissal": "c Dewald Brevis b Anshul Kamboj"
             },
             {
               "name": "Krish Bhagat",
-              "runs": 6,
-              "balls": 9,
+              "runs": 7,
+              "balls": 15,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 46.67,
+              "dismissal": "c Gurjapneet Singh b Jamie Overton"
+            },
+            {
+              "name": "Ashwani Kumar",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -12663,11 +12672,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
               "runs": 8,
-              "wickets": 0,
-              "economy": 4
+              "wickets": 1,
+              "economy": 3.69
             },
             {
               "name": "Noor Ahmad",
@@ -12679,19 +12688,19 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 13
+              "runs": 14,
+              "wickets": 1,
+              "economy": 7
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 3,
+              "runs": 5,
               "wickets": 0,
-              "economy": 6
+              "economy": 5
             }
           ]
         }
@@ -12722,22 +12731,22 @@
           "total": -14
         },
         "Shardul Thakur": {
-          "batting": 4,
+          "batting": -4,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": -4
+        },
+        "Jasprit Bumrah": {
+          "batting": 1,
+          "bowling": 30,
+          "fielding": 8,
+          "total": 39
         },
         "Mitchell Santner": {
           "batting": 0,
           "bowling": 20,
           "fielding": 8,
           "total": 28
-        },
-        "Jasprit Bumrah": {
-          "batting": 0,
-          "bowling": 30,
-          "fielding": 8,
-          "total": 38
         },
         "Sanju Samson": {
           "batting": 173,
@@ -12766,8 +12775,8 @@
         "Dewald Brevis": {
           "batting": 36,
           "bowling": 0,
-          "fielding": 0,
-          "total": 36
+          "fielding": 8,
+          "total": 44
         },
         "Kartik Sharma": {
           "batting": 17,
@@ -13212,8 +13221,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2539,
-      "top11Points": 2481,
+      "totalPointsAll": 2547,
+      "top11Points": 2489,
       "players": [
         {
           "name": "Shubman Gill",
@@ -13286,10 +13295,10 @@
           "role": "Batsman",
           "batting": 80,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 128,
+          "fielding": 56,
+          "rawPoints": 136,
           "multiplier": 1,
-          "effectivePoints": 128,
+          "effectivePoints": 136,
           "countsInTop11": true
         },
         {
@@ -13350,8 +13359,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2354,
-      "top11Points": 2354,
+      "totalPointsAll": 2346,
+      "top11Points": 2346,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13420,17 +13429,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Shardul Thakur",
-          "role": "Fast Bowler",
-          "batting": 13,
-          "bowling": 105,
-          "fielding": 0,
-          "rawPoints": 118,
-          "multiplier": 1,
-          "effectivePoints": 118,
-          "countsInTop11": true
-        },
-        {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 6,
@@ -13439,6 +13437,17 @@
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shardul Thakur",
+          "role": "Fast Bowler",
+          "batting": 5,
+          "bowling": 105,
+          "fielding": 0,
+          "rawPoints": 110,
+          "multiplier": 1,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
@@ -13637,8 +13646,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2638,
-      "top11Points": 2638,
+      "totalPointsAll": 2639,
+      "top11Points": 2639,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13731,12 +13740,12 @@
         {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
-          "batting": 6,
+          "batting": 7,
           "bowling": 85,
           "fielding": 18,
-          "rawPoints": 109,
+          "rawPoints": 110,
           "multiplier": 1,
-          "effectivePoints": 109,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
