@@ -1885,7 +1885,7 @@ function drawHeatmap() {
     }).join('');
     const total = playerTotals[pi];
     return `<tr>
-      <td class="heatmap-player-name">${p.name}<br><span class="heatmap-team-tag">${p.team.split(' ').map(w=>w[0]).join('')}</span></td>
+      <td class="heatmap-player-name">${p.name}<br><span class="heatmap-team-tag">${p.team}</span></td>
       ${cells}
       <td class="heatmap-total ${total > 0 ? 'fp-positive' : total < 0 ? 'fp-negative' : ''}">${total}</td>
     </tr>`;
