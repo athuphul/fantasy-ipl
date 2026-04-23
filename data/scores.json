@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T14:14:56.093Z",
+  "lastUpdated": "2026-04-23T14:24:59.900Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 26,
-        "w": 0,
-        "o": 2.1
+        "r": 55,
+        "w": 1,
+        "o": 4.1
       }
     ],
     "playerScores": {
@@ -29,15 +29,15 @@
       },
       "Hardik Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -52,16 +52,22 @@
         "total": 0
       },
       "Sanju Samson": {
-        "batting": 6,
+        "batting": 45,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 45
       },
       "Ruturaj Gaikwad": {
-        "batting": 20,
+        "batting": 32,
         "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 32
+      },
+      "Sarfaraz Khan": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       }
     }
   },
@@ -73,13 +79,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3141,
-      "top11Points": 2921
+      "totalPointsAll": 3224,
+      "top11Points": 3004
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2672,
-      "top11Points": 2682
+      "totalPointsAll": 2657,
+      "top11Points": 2667
     },
     {
       "team": "Ritik",
@@ -88,8 +94,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2516,
-      "top11Points": 2450
+      "totalPointsAll": 2534,
+      "top11Points": 2468
     },
     {
       "team": "Ashwin",
@@ -103,8 +109,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2329,
-      "top11Points": 2293
+      "totalPointsAll": 2337,
+      "top11Points": 2301
     },
     {
       "team": "Tanay",
@@ -12372,53 +12378,70 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 26,
-          "w": 0,
-          "o": 2.1
+          "r": 55,
+          "w": 1,
+          "o": 4.1
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 26,
-          "wickets": 0,
-          "overs": 2.1,
+          "runs": 55,
+          "wickets": 1,
+          "overs": 4.1,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 5,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 24,
+              "balls": 12,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 16,
-              "balls": 7,
-              "fours": 2,
+              "runs": 22,
+              "balls": 14,
+              "fours": 3,
               "sixes": 1,
-              "sr": 228.57,
+              "sr": 157.14,
+              "dismissal": "c Tilak Varma b AM Ghazanfar"
+            },
+            {
+              "name": "Sarfaraz Khan",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jasprit Bumrah",
-              "overs": 1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 10,
               "wickets": 0,
-              "economy": 6
+              "economy": 8.57
             },
             {
               "name": "Hardik Pandya",
-              "overs": 0.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 38,
               "wickets": 0,
-              "economy": 27
+              "economy": 19
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
@@ -12438,15 +12461,15 @@
         },
         "Hardik Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -12461,16 +12484,22 @@
           "total": 0
         },
         "Sanju Samson": {
-          "batting": 6,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 45
         },
         "Ruturaj Gaikwad": {
-          "batting": 20,
+          "batting": 32,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 32
+        },
+        "Sarfaraz Khan": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         }
       },
       "isComplete": false
@@ -12478,8 +12507,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2672,
-      "top11Points": 2682,
+      "totalPointsAll": 2657,
+      "top11Points": 2667,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -12548,17 +12577,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Hardik Pandya",
-          "role": "All-Rounder",
-          "batting": 122,
-          "bowling": 55,
-          "fielding": 16,
-          "rawPoints": 193,
-          "multiplier": 1,
-          "effectivePoints": 193,
-          "countsInTop11": true
-        },
-        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 50,
@@ -12578,6 +12596,17 @@
           "rawPoints": 184,
           "multiplier": 1,
           "effectivePoints": 184,
+          "countsInTop11": true
+        },
+        {
+          "name": "Hardik Pandya",
+          "role": "All-Rounder",
+          "batting": 122,
+          "bowling": 40,
+          "fielding": 16,
+          "rawPoints": 178,
+          "multiplier": 1,
+          "effectivePoints": 178,
           "countsInTop11": true
         },
         {
@@ -12627,8 +12656,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2329,
-      "top11Points": 2293,
+      "totalPointsAll": 2337,
+      "top11Points": 2301,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12679,10 +12708,10 @@
           "role": "Batsman",
           "batting": 224,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 272,
+          "fielding": 56,
+          "rawPoints": 280,
           "multiplier": 1,
-          "effectivePoints": 272,
+          "effectivePoints": 280,
           "countsInTop11": true
         },
         {
@@ -13168,8 +13197,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2516,
-      "top11Points": 2450,
+      "totalPointsAll": 2534,
+      "top11Points": 2468,
       "players": [
         {
           "name": "Axar Patel",
@@ -13229,12 +13258,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 97,
+          "batting": 109,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 126,
+          "rawPoints": 138,
           "multiplier": 1.5,
-          "effectivePoints": 189,
+          "effectivePoints": 207,
           "countsInTop11": true
         },
         {
@@ -13593,18 +13622,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3141,
-      "top11Points": 2921,
+      "totalPointsAll": 3224,
+      "top11Points": 3004,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 297,
+          "batting": 336,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 305,
+          "rawPoints": 344,
           "multiplier": 2,
-          "effectivePoints": 610,
+          "effectivePoints": 688,
           "countsInTop11": true
         },
         {
@@ -13643,12 +13672,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 219,
+          "batting": 224,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 253,
+          "rawPoints": 258,
           "multiplier": 1,
-          "effectivePoints": 253,
+          "effectivePoints": 258,
           "countsInTop11": true
         },
         {
