@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T17:24:57.726Z",
+  "lastUpdated": "2026-04-23T17:34:54.480Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 87,
+        "r": 97,
         "w": 7,
-        "o": 13.1
+        "o": 15.3
       },
       {
         "inning": "Chennai Super Kings",
@@ -46,10 +46,10 @@
         "total": -14
       },
       "Shardul Thakur": {
-        "batting": 0,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 4
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Sarfaraz Khan": {
         "batting": 17,
         "bowling": 0,
-        "fielding": 0,
-        "total": 17
+        "fielding": 8,
+        "total": 25
       },
       "Shivam Dube": {
         "batting": 5,
@@ -101,17 +101,17 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 62,
+        "bowling": 70,
         "fielding": 0,
-        "total": 62
+        "total": 70
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3603,
-      "top11Points": 3383
+      "totalPointsAll": 3619,
+      "top11Points": 3399
     },
     {
       "team": "Ali",
@@ -140,8 +140,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2350,
-      "top11Points": 2350
+      "totalPointsAll": 2354,
+      "top11Points": 2354
     },
     {
       "team": "Aakash",
@@ -12414,9 +12414,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 87,
+          "r": 97,
           "w": 7,
-          "o": 13.1
+          "o": 15.3
         },
         {
           "inning": "Chennai Super Kings",
@@ -12558,9 +12558,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 87,
+          "runs": 97,
           "wickets": 7,
-          "overs": 13.1,
+          "overs": 15.3,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -12592,11 +12592,11 @@
             {
               "name": "Suryakumar Yadav",
               "runs": 36,
-              "balls": 29,
+              "balls": 30,
               "fours": 5,
               "sixes": 0,
-              "sr": 124.14,
-              "dismissal": "batting"
+              "sr": 120,
+              "dismissal": "c Sarfaraz Khan b Akeal Hosein"
             },
             {
               "name": "Tilak Varma",
@@ -12627,22 +12627,31 @@
             },
             {
               "name": "Shardul Thakur",
-              "runs": 0,
-              "balls": 3,
+              "runs": 4,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Krish Bhagat",
+              "runs": 6,
+              "balls": 9,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 3,
+              "overs": 4,
               "maidens": 1,
-              "runs": 14,
-              "wickets": 3,
-              "economy": 4.67
+              "runs": 17,
+              "wickets": 4,
+              "economy": 4.25
             },
             {
               "name": "Mukesh Choudhary",
@@ -12662,11 +12671,11 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 20,
+              "runs": 24,
               "wickets": 2,
-              "economy": 6.67
+              "economy": 6
             },
             {
               "name": "Jamie Overton",
@@ -12675,6 +12684,14 @@
               "runs": 13,
               "wickets": 0,
               "economy": 13
+            },
+            {
+              "name": "Gurjapneet Singh",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -12705,10 +12722,10 @@
           "total": -14
         },
         "Shardul Thakur": {
-          "batting": 0,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 4
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -12737,8 +12754,8 @@
         "Sarfaraz Khan": {
           "batting": 17,
           "bowling": 0,
-          "fielding": 0,
-          "total": 17
+          "fielding": 8,
+          "total": 25
         },
         "Shivam Dube": {
           "batting": 5,
@@ -12760,9 +12777,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 62,
+          "bowling": 70,
           "fielding": 0,
-          "total": 62
+          "total": 70
         }
       },
       "isComplete": false
@@ -13333,8 +13350,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2350,
-      "top11Points": 2350,
+      "totalPointsAll": 2354,
+      "top11Points": 2354,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13403,22 +13420,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Shardul Thakur",
+          "role": "Fast Bowler",
+          "batting": 13,
+          "bowling": 105,
+          "fielding": 0,
+          "rawPoints": 118,
+          "multiplier": 1,
+          "effectivePoints": 118,
+          "countsInTop11": true
+        },
+        {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 6,
           "bowling": 100,
           "fielding": 8,
-          "rawPoints": 114,
-          "multiplier": 1,
-          "effectivePoints": 114,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shardul Thakur",
-          "role": "Fast Bowler",
-          "batting": 9,
-          "bowling": 105,
-          "fielding": 0,
           "rawPoints": 114,
           "multiplier": 1,
           "effectivePoints": 114,
@@ -13885,8 +13902,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3603,
-      "top11Points": 3383,
+      "totalPointsAll": 3619,
+      "top11Points": 3399,
       "players": [
         {
           "name": "Sanju Samson",
@@ -13937,21 +13954,21 @@
           "role": "Batsman",
           "batting": 236,
           "bowling": 0,
-          "fielding": 34,
-          "rawPoints": 270,
+          "fielding": 42,
+          "rawPoints": 278,
           "multiplier": 1,
-          "effectivePoints": 270,
+          "effectivePoints": 278,
           "countsInTop11": true
         },
         {
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 162,
+          "bowling": 170,
           "fielding": 32,
-          "rawPoints": 206,
+          "rawPoints": 214,
           "multiplier": 1,
-          "effectivePoints": 206,
+          "effectivePoints": 214,
           "countsInTop11": true
         },
         {
