@@ -783,24 +783,60 @@ tbody tr {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid var(--border);
-  display: flex;
-  padding: 10px 8px;
-  gap: 8px;
-  justify-content: center;
   z-index: 100;
+  /* Scrollable single row */
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  padding: 8px 10px;
+  gap: 6px;
+  /* Don't let items shrink — let the bar scroll instead */
+  align-items: center;
+}
+
+#bottom-nav::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Fade edges to hint at scrollability */
+#bottom-nav::before,
+#bottom-nav::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  width: 20px;
+  height: 57px;
+  pointer-events: none;
+  z-index: 101;
+}
+
+#bottom-nav::before {
+  left: 0;
+  background: linear-gradient(to right, var(--nav-bg), transparent);
+}
+
+#bottom-nav::after {
+  right: 0;
+  background: linear-gradient(to left, var(--nav-bg), transparent);
 }
 
 .nav-btn {
   background: none;
   border: 1px solid var(--border);
   color: var(--text-secondary);
-  padding: 8px 24px;
-  border-radius: 6px;
+  padding: 7px 14px;
+  border-radius: 20px; /* pill shape */
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-family: var(--font-display);
   font-weight: 500;
   transition: all 0.15s ease;
+  white-space: nowrap;   /* never wrap text */
+  flex-shrink: 0;        /* never compress */
+  scroll-snap-align: start;
 }
 
 .nav-btn.active {
@@ -813,18 +849,6 @@ tbody tr {
 .nav-btn:hover:not(.active) {
   border-color: var(--accent);
   color: var(--accent-light);
-}
-
-@media (max-width: 520px) {
-  #bottom-nav {
-    padding: 8px 4px;
-    gap: 4px;
-  }
-
-  .nav-btn {
-    padding: 8px 10px;
-    font-size: 0.72rem;
-  }
 }
 
 /* === Title race === */

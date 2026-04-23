@@ -1470,6 +1470,8 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
+    // Scroll the tapped pill into view in the nav bar
+    btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
     document.getElementById(btn.dataset.view).classList.remove('hidden');
     // Auto-expand live match on Matches tab, collapse on others
