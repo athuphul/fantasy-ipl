@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T15:55:16.444Z",
+  "lastUpdated": "2026-04-23T16:24:57.646Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Wankhede Stadium, Mumbai",
     "score": [
+      {
+        "inning": "Mumbai Indians",
+        "r": 13,
+        "w": 3,
+        "o": 3.4
+      },
       {
         "inning": "Chennai Super Kings",
         "r": 207,
@@ -16,28 +22,28 @@
     ],
     "playerScores": {
       "Quinton de Kock": {
-        "batting": 0,
+        "batting": -1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -1
       },
       "Suryakumar Yadav": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
-      },
-      "Hardik Pandya": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
+        "total": 6
       },
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
         "fielding": 8,
         "total": 8
+      },
+      "Hardik Pandya": {
+        "batting": 0,
+        "bowling": -15,
+        "fielding": 0,
+        "total": -15
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -54,8 +60,8 @@
       "Sanju Samson": {
         "batting": 173,
         "bowling": 0,
-        "fielding": 0,
-        "total": 173
+        "fielding": 8,
+        "total": 181
       },
       "Ruturaj Gaikwad": {
         "batting": 32,
@@ -86,14 +92,20 @@
         "bowling": 0,
         "fielding": 0,
         "total": 17
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3525,
-      "top11Points": 3305
+      "totalPointsAll": 3541,
+      "top11Points": 3321
     },
     {
       "team": "Ali",
@@ -102,8 +114,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2657,
-      "top11Points": 2667
+      "totalPointsAll": 2669,
+      "top11Points": 2679
     },
     {
       "team": "Ritik",
@@ -117,8 +129,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2534,
-      "top11Points": 2468
+      "totalPointsAll": 2533,
+      "top11Points": 2467
     },
     {
       "team": "Kishan",
@@ -12395,6 +12407,12 @@
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
+          "inning": "Mumbai Indians",
+          "r": 13,
+          "w": 3,
+          "o": 3.4
+        },
+        {
           "inning": "Chennai Super Kings",
           "r": 207,
           "w": 6,
@@ -12531,32 +12549,103 @@
               "economy": 15.5
             }
           ]
+        },
+        {
+          "innings": "Mumbai Indians",
+          "runs": 13,
+          "wickets": 3,
+          "overs": 3.4,
+          "batting": [
+            {
+              "name": "Quinton de Kock",
+              "runs": 7,
+              "balls": 10,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 70,
+              "dismissal": "b Mukesh Choudhary"
+            },
+            {
+              "name": "Danish Malewar",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Sanju Samson b Akeal Hosein"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Akeal Hosein"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 5,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 250,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 0,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Akeal Hosein",
+              "overs": 2,
+              "maidens": 1,
+              "runs": 7,
+              "wickets": 2,
+              "economy": 3.5
+            },
+            {
+              "name": "Mukesh Choudhary",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 3.75
+            }
+          ]
         }
       ],
       "playerScores": {
         "Quinton de Kock": {
-          "batting": 0,
+          "batting": -1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -1
         },
         "Suryakumar Yadav": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
-        },
-        "Hardik Pandya": {
-          "batting": 0,
-          "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "total": 6
         },
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
           "fielding": 8,
           "total": 8
+        },
+        "Hardik Pandya": {
+          "batting": 0,
+          "bowling": -15,
+          "fielding": 0,
+          "total": -15
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -12573,8 +12662,8 @@
         "Sanju Samson": {
           "batting": 173,
           "bowling": 0,
-          "fielding": 0,
-          "total": 173
+          "fielding": 8,
+          "total": 181
         },
         "Ruturaj Gaikwad": {
           "batting": 32,
@@ -12605,6 +12694,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 17
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -12612,8 +12707,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2657,
-      "top11Points": 2667,
+      "totalPointsAll": 2669,
+      "top11Points": 2679,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -12629,12 +12724,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 156,
+          "batting": 162,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 164,
+          "rawPoints": 170,
           "multiplier": 2,
-          "effectivePoints": 328,
+          "effectivePoints": 340,
           "countsInTop11": true
         },
         {
@@ -13302,8 +13397,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2534,
-      "top11Points": 2468,
+      "totalPointsAll": 2533,
+      "top11Points": 2467,
       "players": [
         {
           "name": "Axar Patel",
@@ -13352,12 +13447,12 @@
         {
           "name": "Quinton de Kock",
           "role": "Opener",
-          "batting": 200,
+          "batting": 199,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 226,
+          "rawPoints": 225,
           "multiplier": 1,
-          "effectivePoints": 226,
+          "effectivePoints": 225,
           "countsInTop11": true
         },
         {
@@ -13727,18 +13822,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3525,
-      "top11Points": 3305,
+      "totalPointsAll": 3541,
+      "top11Points": 3321,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 464,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 472,
+          "fielding": 16,
+          "rawPoints": 480,
           "multiplier": 2,
-          "effectivePoints": 944,
+          "effectivePoints": 960,
           "countsInTop11": true
         },
         {
