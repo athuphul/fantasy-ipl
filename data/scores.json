@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T17:05:04.885Z",
+  "lastUpdated": "2026-04-23T17:15:00.405Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 70,
-        "w": 3,
-        "o": 10.1
+        "r": 85,
+        "w": 4,
+        "o": 12
       },
       {
         "inning": "Chennai Super Kings",
@@ -28,22 +28,22 @@
         "total": -1
       },
       "Suryakumar Yadav": {
-        "batting": 32,
+        "batting": 40,
         "bowling": 0,
         "fielding": 0,
-        "total": 32
+        "total": 40
       },
       "Tilak Varma": {
-        "batting": 34,
+        "batting": 42,
         "bowling": 0,
         "fielding": 8,
-        "total": 42
+        "total": 50
       },
       "Hardik Pandya": {
-        "batting": 0,
+        "batting": 1,
         "bowling": -15,
         "fielding": 0,
-        "total": -15
+        "total": -14
       },
       "Mitchell Santner": {
         "batting": 0,
@@ -114,8 +114,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2721,
-      "top11Points": 2731
+      "totalPointsAll": 2738,
+      "top11Points": 2748
     },
     {
       "team": "Ritik",
@@ -139,8 +139,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2371,
-      "top11Points": 2335
+      "totalPointsAll": 2379,
+      "top11Points": 2343
     },
     {
       "team": "Tanay",
@@ -12408,9 +12408,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 70,
-          "w": 3,
-          "o": 10.1
+          "r": 85,
+          "w": 4,
+          "o": 12
         },
         {
           "inning": "Chennai Super Kings",
@@ -12552,9 +12552,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 70,
-          "wickets": 3,
-          "overs": 10.1,
+          "runs": 85,
+          "wickets": 4,
+          "overs": 12,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -12585,31 +12585,40 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 27,
-              "balls": 22,
+              "runs": 35,
+              "balls": 28,
               "fours": 5,
               "sixes": 0,
-              "sr": 122.73,
+              "sr": 125,
               "dismissal": "batting"
             },
             {
               "name": "Tilak Varma",
-              "runs": 30,
-              "balls": 24,
-              "fours": 4,
+              "runs": 37,
+              "balls": 29,
+              "fours": 5,
               "sixes": 0,
-              "sr": 125,
+              "sr": 127.59,
+              "dismissal": "b Akeal Hosein"
+            },
+            {
+              "name": "Hardik Pandya",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 2,
+              "overs": 3,
               "maidens": 1,
-              "runs": 7,
-              "wickets": 2,
-              "economy": 3.5
+              "runs": 14,
+              "wickets": 3,
+              "economy": 4.67
             },
             {
               "name": "Mukesh Choudhary",
@@ -12629,11 +12638,11 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 19,
               "wickets": 0,
-              "economy": 10
+              "economy": 9.5
             },
             {
               "name": "Jamie Overton",
@@ -12654,22 +12663,22 @@
           "total": -1
         },
         "Suryakumar Yadav": {
-          "batting": 32,
+          "batting": 40,
           "bowling": 0,
           "fielding": 0,
-          "total": 32
+          "total": 40
         },
         "Tilak Varma": {
-          "batting": 34,
+          "batting": 42,
           "bowling": 0,
           "fielding": 8,
-          "total": 42
+          "total": 50
         },
         "Hardik Pandya": {
-          "batting": 0,
+          "batting": 1,
           "bowling": -15,
           "fielding": 0,
-          "total": -15
+          "total": -14
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -12731,8 +12740,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2721,
-      "top11Points": 2731,
+      "totalPointsAll": 2738,
+      "top11Points": 2748,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -12748,12 +12757,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 188,
+          "batting": 196,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 196,
+          "rawPoints": 204,
           "multiplier": 2,
-          "effectivePoints": 392,
+          "effectivePoints": 408,
           "countsInTop11": true
         },
         {
@@ -12825,12 +12834,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 122,
+          "batting": 123,
           "bowling": 40,
           "fielding": 16,
-          "rawPoints": 178,
+          "rawPoints": 179,
           "multiplier": 1,
-          "effectivePoints": 178,
+          "effectivePoints": 179,
           "countsInTop11": true
         },
         {
@@ -12880,8 +12889,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2371,
-      "top11Points": 2335,
+      "totalPointsAll": 2379,
+      "top11Points": 2343,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -12919,12 +12928,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 258,
+          "batting": 266,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 314,
+          "rawPoints": 322,
           "multiplier": 1,
-          "effectivePoints": 314,
+          "effectivePoints": 322,
           "countsInTop11": true
         },
         {
