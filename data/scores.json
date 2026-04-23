@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T15:25:11.939Z",
+  "lastUpdated": "2026-04-23T15:35:12.249Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 164,
-        "w": 4,
-        "o": 16
+        "r": 175,
+        "w": 5,
+        "o": 17.4
       }
     ],
     "playerScores": {
@@ -42,14 +42,14 @@
       "Mitchell Santner": {
         "batting": 0,
         "bowling": 20,
-        "fielding": 0,
-        "total": 20
+        "fielding": 8,
+        "total": 28
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 37,
         "fielding": 8,
-        "total": 8
+        "total": 45
       },
       "Sanju Samson": {
         "batting": 114,
@@ -82,18 +82,18 @@
         "total": 36
       },
       "Kartik Sharma": {
-        "batting": 22,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 17
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3399,
-      "top11Points": 3179
+      "totalPointsAll": 3407,
+      "top11Points": 3187
     },
     {
       "team": "Ali",
@@ -107,8 +107,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2608,
-      "top11Points": 2608
+      "totalPointsAll": 2645,
+      "top11Points": 2645
     },
     {
       "team": "Ashwin",
@@ -132,8 +132,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2266,
-      "top11Points": 2250
+      "totalPointsAll": 2261,
+      "top11Points": 2245
     }
   ],
   "matchHistory": [
@@ -12396,17 +12396,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 164,
-          "w": 4,
-          "o": 16
+          "r": 175,
+          "w": 5,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 164,
-          "wickets": 4,
-          "overs": 16,
+          "runs": 175,
+          "wickets": 5,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -12456,21 +12456,30 @@
             {
               "name": "Kartik Sharma",
               "runs": 18,
-              "balls": 15,
+              "balls": 19,
               "fours": 0,
               "sixes": 2,
-              "sr": 120,
+              "sr": 94.74,
+              "dismissal": "c Mitchell Santner b Jasprit Bumrah"
+            },
+            {
+              "name": "Jamie Overton",
+              "runs": 9,
+              "balls": 5,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 180,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jasprit Bumrah",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 0,
-              "economy": 9.23
+              "runs": 21,
+              "wickets": 1,
+              "economy": 7
             },
             {
               "name": "Hardik Pandya",
@@ -12498,11 +12507,11 @@
             },
             {
               "name": "Ashwani Kumar",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 22,
+              "runs": 31,
               "wickets": 1,
-              "economy": 7.33
+              "economy": 8.45
             },
             {
               "name": "Krish Bhagat",
@@ -12543,14 +12552,14 @@
         "Mitchell Santner": {
           "batting": 0,
           "bowling": 20,
-          "fielding": 0,
-          "total": 20
+          "fielding": 8,
+          "total": 28
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 37,
           "fielding": 8,
-          "total": 8
+          "total": 45
         },
         "Sanju Samson": {
           "batting": 114,
@@ -12583,10 +12592,10 @@
           "total": 36
         },
         "Kartik Sharma": {
-          "batting": 22,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 17
         }
       },
       "isComplete": false
@@ -13444,8 +13453,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2608,
-      "top11Points": 2608,
+      "totalPointsAll": 2645,
+      "top11Points": 2645,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13539,11 +13548,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 6,
-          "bowling": 55,
+          "bowling": 92,
           "fielding": 18,
-          "rawPoints": 79,
+          "rawPoints": 116,
           "multiplier": 1,
-          "effectivePoints": 79,
+          "effectivePoints": 116,
           "countsInTop11": true
         },
         {
@@ -13571,8 +13580,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2266,
-      "top11Points": 2250,
+      "totalPointsAll": 2261,
+      "top11Points": 2245,
       "players": [
         {
           "name": "Travis Head",
@@ -13652,17 +13661,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Kartik Sharma",
-          "role": "Wicket Keeper",
-          "batting": 51,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 51,
-          "multiplier": 1,
-          "effectivePoints": 51,
-          "countsInTop11": true
-        },
-        {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
           "batting": 50,
@@ -13671,6 +13669,17 @@
           "rawPoints": 50,
           "multiplier": 1,
           "effectivePoints": 50,
+          "countsInTop11": true
+        },
+        {
+          "name": "Kartik Sharma",
+          "role": "Wicket Keeper",
+          "batting": 46,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 46,
+          "multiplier": 1,
+          "effectivePoints": 46,
           "countsInTop11": true
         },
         {
@@ -13709,8 +13718,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3399,
-      "top11Points": 3179,
+      "totalPointsAll": 3407,
+      "top11Points": 3187,
       "players": [
         {
           "name": "Sanju Samson",
@@ -13794,10 +13803,10 @@
           "role": "All-Rounder",
           "batting": 29,
           "bowling": 140,
-          "fielding": 8,
-          "rawPoints": 177,
+          "fielding": 16,
+          "rawPoints": 185,
           "multiplier": 1,
-          "effectivePoints": 177,
+          "effectivePoints": 185,
           "countsInTop11": true
         },
         {
