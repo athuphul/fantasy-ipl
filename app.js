@@ -1474,6 +1474,8 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
+    // Scroll the tapped pill into view in the nav bar
+    btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
     document.getElementById(btn.dataset.view).classList.remove('hidden');
     // Auto-expand live match on Matches tab, collapse on others
@@ -1483,6 +1485,11 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     } else {
       cm.classList.add('collapsed');
     }
+    // Render new sections on demand
+    if (btn.dataset.view === 'h2h-section') renderH2H();
+    if (btn.dataset.view === 'best-xi-section') renderBestXI();
+    if (btn.dataset.view === 'heatmap-section') renderHeatmap();
+    if (btn.dataset.view === 'report-card-section') renderReportCard();
   });
 });
 
@@ -1878,7 +1885,7 @@ function drawHeatmap() {
     }).join('');
     const total = playerTotals[pi];
     return `<tr>
-      <td class="heatmap-player-name">${p.name}<br><span class="heatmap-team-tag">${p.team.split(' ').map(w=>w[0]).join('')}</span></td>
+      <td class="heatmap-player-name">${p.name}<br><span class="heatmap-team-tag">${p.team}</span></td>
       ${cells}
       <td class="heatmap-total ${total > 0 ? 'fp-positive' : total < 0 ? 'fp-negative' : ''}">${total}</td>
     </tr>`;

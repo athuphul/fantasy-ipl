@@ -94,7 +94,7 @@ body {
   background: var(--bg-primary);
   color: var(--text-primary);
   min-height: 100vh;
-  padding-bottom: 60px;
+  padding-bottom: 90px; /* enough for 2-row nav on desktop */
 }
 
 /* === Header === */
@@ -774,33 +774,41 @@ tbody tr {
 }
 
 /* === Bottom nav === */
-#bottom-nav {
+#bottom-nav-wrap {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   background: var(--nav-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid var(--border);
+}
+
+#bottom-nav {
   display: flex;
-  padding: 10px 8px;
-  gap: 8px;
+  align-items: center;
   justify-content: center;
-  z-index: 100;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 12px;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .nav-btn {
   background: none;
   border: 1px solid var(--border);
   color: var(--text-secondary);
-  padding: 8px 24px;
+  padding: 7px 16px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-family: var(--font-display);
   font-weight: 500;
   transition: all 0.15s ease;
+  white-space: nowrap;
 }
 
 .nav-btn.active {
@@ -815,15 +823,35 @@ tbody tr {
   color: var(--accent-light);
 }
 
-@media (max-width: 520px) {
+/* On mobile: scrollable single row, no wrap */
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 56px;
+  }
+
   #bottom-nav {
-    padding: 8px 4px;
-    gap: 4px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding: 8px 8px;
+    gap: 6px;
+    /* fade hint on right edge */
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  #bottom-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .nav-btn {
-    padding: 8px 10px;
-    font-size: 0.72rem;
+    flex-shrink: 0;
+    padding: 6px 13px;
+    font-size: 0.78rem;
+    border-radius: 20px;
   }
 }
 
