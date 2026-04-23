@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T14:24:59.900Z",
+  "lastUpdated": "2026-04-23T14:34:54.919Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 55,
-        "w": 1,
-        "o": 4.1
+        "r": 73,
+        "w": 2,
+        "o": 6
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Mitchell Santner": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -52,10 +52,10 @@
         "total": 0
       },
       "Sanju Samson": {
-        "batting": 45,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 45
+        "total": 54
       },
       "Ruturaj Gaikwad": {
         "batting": 32,
@@ -64,10 +64,16 @@
         "total": 32
       },
       "Sarfaraz Khan": {
-        "batting": 5,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 17
+      },
+      "Shivam Dube": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -79,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3224,
-      "top11Points": 3004
+      "totalPointsAll": 3280,
+      "top11Points": 3060
     },
     {
       "team": "Athu",
@@ -12378,25 +12384,25 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 55,
-          "w": 1,
-          "o": 4.1
+          "r": 73,
+          "w": 2,
+          "o": 6
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 55,
-          "wickets": 1,
-          "overs": 4.1,
+          "runs": 73,
+          "wickets": 2,
+          "overs": 6,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 24,
-              "balls": 12,
+              "runs": 31,
+              "balls": 15,
               "fours": 4,
-              "sixes": 1,
-              "sr": 200,
+              "sixes": 2,
+              "sr": 206.67,
               "dismissal": "batting"
             },
             {
@@ -12410,22 +12416,31 @@
             },
             {
               "name": "Sarfaraz Khan",
-              "runs": 4,
-              "balls": 1,
-              "fours": 1,
+              "runs": 14,
+              "balls": 8,
+              "fours": 3,
               "sixes": 0,
-              "sr": 400,
+              "sr": 175,
+              "dismissal": "b Mitchell Santner"
+            },
+            {
+              "name": "Shivam Dube",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jasprit Bumrah",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 19,
               "wickets": 0,
-              "economy": 8.57
+              "economy": 9.5
             },
             {
               "name": "Hardik Pandya",
@@ -12442,6 +12457,14 @@
               "runs": 6,
               "wickets": 1,
               "economy": 6
+            },
+            {
+              "name": "Mitchell Santner",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 9
             }
           ]
         }
@@ -12473,9 +12496,9 @@
         },
         "Mitchell Santner": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -12484,10 +12507,10 @@
           "total": 0
         },
         "Sanju Samson": {
-          "batting": 45,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 45
+          "total": 54
         },
         "Ruturaj Gaikwad": {
           "batting": 32,
@@ -12496,10 +12519,16 @@
           "total": 32
         },
         "Sarfaraz Khan": {
-          "batting": 5,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 17
+        },
+        "Shivam Dube": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -13622,18 +13651,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3224,
-      "top11Points": 3004,
+      "totalPointsAll": 3280,
+      "top11Points": 3060,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 336,
+          "batting": 345,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 344,
+          "rawPoints": 353,
           "multiplier": 2,
-          "effectivePoints": 688,
+          "effectivePoints": 706,
           "countsInTop11": true
         },
         {
@@ -13672,12 +13701,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 224,
+          "batting": 236,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 258,
+          "rawPoints": 270,
           "multiplier": 1,
-          "effectivePoints": 258,
+          "effectivePoints": 270,
           "countsInTop11": true
         },
         {
@@ -13694,12 +13723,23 @@
         {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 164,
+          "batting": 165,
           "bowling": 10,
           "fielding": 24,
-          "rawPoints": 198,
+          "rawPoints": 199,
           "multiplier": 1,
-          "effectivePoints": 198,
+          "effectivePoints": 199,
+          "countsInTop11": true
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "All-Rounder",
+          "batting": 29,
+          "bowling": 145,
+          "fielding": 8,
+          "rawPoints": 182,
+          "multiplier": 1,
+          "effectivePoints": 182,
           "countsInTop11": true
         },
         {
@@ -13722,17 +13762,6 @@
           "rawPoints": 163,
           "multiplier": 1,
           "effectivePoints": 163,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Santner",
-          "role": "All-Rounder",
-          "batting": 29,
-          "bowling": 120,
-          "fielding": 8,
-          "rawPoints": 157,
-          "multiplier": 1,
-          "effectivePoints": 157,
           "countsInTop11": true
         },
         {
