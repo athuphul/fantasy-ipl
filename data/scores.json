@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T14:55:09.092Z",
+  "lastUpdated": "2026-04-23T15:05:00.870Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529276",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 111,
-        "w": 3,
-        "o": 9.5
+        "r": 128,
+        "w": 4,
+        "o": 12
       }
     ],
     "playerScores": {
@@ -41,21 +41,21 @@
       },
       "Mitchell Santner": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 20,
         "fielding": 0,
-        "total": 25
+        "total": 20
       },
       "Jasprit Bumrah": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Sanju Samson": {
-        "batting": 74,
+        "batting": 88,
         "bowling": 0,
         "fielding": 0,
-        "total": 74
+        "total": 88
       },
       "Ruturaj Gaikwad": {
         "batting": 32,
@@ -76,18 +76,24 @@
         "total": 5
       },
       "Dewald Brevis": {
-        "batting": 12,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 36
+      },
+      "Kartik Sharma": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3324,
-      "top11Points": 3104
+      "totalPointsAll": 3347,
+      "top11Points": 3127
     },
     {
       "team": "Ali",
@@ -101,18 +107,18 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2600,
-      "top11Points": 2600
+      "totalPointsAll": 2608,
+      "top11Points": 2608
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 2539,
+      "top11Points": 2481
     },
     {
       "team": "Manav",
       "totalPointsAll": 2534,
       "top11Points": 2468
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 2515,
-      "top11Points": 2457
     },
     {
       "team": "Kishan",
@@ -126,8 +132,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2244,
-      "top11Points": 2228
+      "totalPointsAll": 2246,
+      "top11Points": 2230
     }
   ],
   "matchHistory": [
@@ -12390,25 +12396,25 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 111,
-          "w": 3,
-          "o": 9.5
+          "r": 128,
+          "w": 4,
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 111,
-          "wickets": 3,
-          "overs": 9.5,
+          "runs": 128,
+          "wickets": 4,
+          "overs": 12,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 48,
-              "balls": 24,
-              "fours": 5,
+              "runs": 56,
+              "balls": 29,
+              "fours": 6,
               "sixes": 3,
-              "sr": 200,
+              "sr": 193.1,
               "dismissal": "batting"
             },
             {
@@ -12440,11 +12446,20 @@
             },
             {
               "name": "Dewald Brevis",
-              "runs": 10,
-              "balls": 6,
+              "runs": 21,
+              "balls": 11,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 190.91,
+              "dismissal": "c Jasprit Bumrah b Ashwani Kumar"
+            },
+            {
+              "name": "Kartik Sharma",
+              "runs": 2,
+              "balls": 2,
               "fours": 0,
-              "sixes": 1,
-              "sr": 166.67,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -12475,19 +12490,19 @@
             },
             {
               "name": "Mitchell Santner",
-              "overs": 1.4,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 29,
               "wickets": 1,
-              "economy": 10.8
+              "economy": 10.88
             },
             {
               "name": "Ashwani Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 8
+              "runs": 19,
+              "wickets": 1,
+              "economy": 9.5
             }
           ]
         }
@@ -12519,21 +12534,21 @@
         },
         "Mitchell Santner": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "total": 25
+          "total": 20
         },
         "Jasprit Bumrah": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Sanju Samson": {
-          "batting": 74,
+          "batting": 88,
           "bowling": 0,
           "fielding": 0,
-          "total": 74
+          "total": 88
         },
         "Ruturaj Gaikwad": {
           "batting": 32,
@@ -12554,10 +12569,16 @@
           "total": 5
         },
         "Dewald Brevis": {
-          "batting": 12,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 36
+        },
+        "Kartik Sharma": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -12990,8 +13011,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2515,
-      "top11Points": 2457,
+      "totalPointsAll": 2539,
+      "top11Points": 2481,
       "players": [
         {
           "name": "Shubman Gill",
@@ -13060,6 +13081,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dewald Brevis",
+          "role": "Batsman",
+          "batting": 80,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 128,
+          "multiplier": 1,
+          "effectivePoints": 128,
+          "countsInTop11": true
+        },
+        {
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 46,
@@ -13079,17 +13111,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dewald Brevis",
-          "role": "Batsman",
-          "batting": 56,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 104,
-          "multiplier": 1,
-          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
@@ -13415,8 +13436,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2600,
-      "top11Points": 2600,
+      "totalPointsAll": 2608,
+      "top11Points": 2608,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13507,6 +13528,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 6,
+          "bowling": 55,
+          "fielding": 18,
+          "rawPoints": 79,
+          "multiplier": 1,
+          "effectivePoints": 79,
+          "countsInTop11": true
+        },
+        {
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
@@ -13515,17 +13547,6 @@
           "rawPoints": 72,
           "multiplier": 1,
           "effectivePoints": 72,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
-          "batting": 6,
-          "bowling": 55,
-          "fielding": 10,
-          "rawPoints": 71,
-          "multiplier": 1,
-          "effectivePoints": 71,
           "countsInTop11": true
         },
         {
@@ -13542,8 +13563,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2244,
-      "top11Points": 2228,
+      "totalPointsAll": 2246,
+      "top11Points": 2230,
       "players": [
         {
           "name": "Travis Head",
@@ -13647,12 +13668,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 29,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 29,
+          "rawPoints": 31,
           "multiplier": 1,
-          "effectivePoints": 29,
+          "effectivePoints": 31,
           "countsInTop11": true
         },
         {
@@ -13680,18 +13701,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3324,
-      "top11Points": 3104,
+      "totalPointsAll": 3347,
+      "top11Points": 3127,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 365,
+          "batting": 379,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 373,
+          "rawPoints": 387,
           "multiplier": 2,
-          "effectivePoints": 746,
+          "effectivePoints": 774,
           "countsInTop11": true
         },
         {
@@ -13764,11 +13785,11 @@
           "name": "Mitchell Santner",
           "role": "All-Rounder",
           "batting": 29,
-          "bowling": 145,
+          "bowling": 140,
           "fielding": 8,
-          "rawPoints": 182,
+          "rawPoints": 177,
           "multiplier": 1,
-          "effectivePoints": 182,
+          "effectivePoints": 177,
           "countsInTop11": true
         },
         {
