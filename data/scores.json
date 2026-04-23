@@ -1,117 +1,12 @@
 {
-  "lastUpdated": "2026-04-23T17:44:57.453Z",
+  "lastUpdated": "2026-04-23T17:55:07.042Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529276",
-    "name": "Mumbai Indians v Chennai Super Kings",
-    "status": "Live",
-    "venue": "Wankhede Stadium, Mumbai",
-    "score": [
-      {
-        "inning": "Mumbai Indians",
-        "r": 102,
-        "w": 9,
-        "o": 17.2
-      },
-      {
-        "inning": "Chennai Super Kings",
-        "r": 207,
-        "w": 6,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Quinton de Kock": {
-        "batting": -1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -1
-      },
-      "Suryakumar Yadav": {
-        "batting": 41,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 41
-      },
-      "Tilak Varma": {
-        "batting": 42,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 50
-      },
-      "Hardik Pandya": {
-        "batting": 1,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -14
-      },
-      "Shardul Thakur": {
-        "batting": -4,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -4
-      },
-      "Jasprit Bumrah": {
-        "batting": 1,
-        "bowling": 30,
-        "fielding": 8,
-        "total": 39
-      },
-      "Mitchell Santner": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 8,
-        "total": 28
-      },
-      "Sanju Samson": {
-        "batting": 173,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 181
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 32,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 32
-      },
-      "Sarfaraz Khan": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 25
-      },
-      "Shivam Dube": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
-      },
-      "Dewald Brevis": {
-        "batting": 36,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 44
-      },
-      "Kartik Sharma": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 17
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3619,
-      "top11Points": 3399
+      "totalPointsAll": 3635,
+      "top11Points": 3415
     },
     {
       "team": "Ali",
@@ -125,8 +20,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2639,
-      "top11Points": 2639
+      "totalPointsAll": 2640,
+      "top11Points": 2640
     },
     {
       "team": "Ashwin",
@@ -12409,14 +12304,14 @@
       "matchId": "espn_1529276",
       "name": "Mumbai Indians v Chennai Super Kings",
       "date": "2026-04-23",
-      "status": "Live",
+      "status": "Final",
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 102,
-          "w": 9,
-          "o": 17.2
+          "r": 104,
+          "w": 10,
+          "o": 19
         },
         {
           "inning": "Chennai Super Kings",
@@ -12558,9 +12453,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 102,
-          "wickets": 9,
-          "overs": 17.2,
+          "runs": 104,
+          "wickets": 10,
+          "overs": 19,
           "batting": [
             {
               "name": "Quinton de Kock",
@@ -12645,12 +12540,21 @@
             },
             {
               "name": "Ashwani Kumar",
-              "runs": 0,
-              "balls": 0,
+              "runs": 1,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 16.67,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
+              "dismissal": "c Sanju Samson b Gurjapneet Singh"
             }
           ],
           "bowling": [
@@ -12672,11 +12576,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 8,
+              "runs": 10,
               "wickets": 1,
-              "economy": 3.69
+              "economy": 3.33
             },
             {
               "name": "Noor Ahmad",
@@ -12696,11 +12600,11 @@
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 0,
-              "economy": 5
+              "runs": 7,
+              "wickets": 1,
+              "economy": 3.5
             }
           ]
         }
@@ -12737,10 +12641,10 @@
           "total": -4
         },
         "Jasprit Bumrah": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 30,
           "fielding": 8,
-          "total": 39
+          "total": 40
         },
         "Mitchell Santner": {
           "batting": 0,
@@ -12751,8 +12655,8 @@
         "Sanju Samson": {
           "batting": 173,
           "bowling": 0,
-          "fielding": 8,
-          "total": 181
+          "fielding": 16,
+          "total": 189
         },
         "Ruturaj Gaikwad": {
           "batting": 32,
@@ -12791,7 +12695,7 @@
           "total": 70
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -13646,8 +13550,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2639,
-      "top11Points": 2639,
+      "totalPointsAll": 2640,
+      "top11Points": 2640,
       "players": [
         {
           "name": "Jos Buttler",
@@ -13740,12 +13644,12 @@
         {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
-          "batting": 7,
+          "batting": 8,
           "bowling": 85,
           "fielding": 18,
-          "rawPoints": 110,
+          "rawPoints": 111,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 111,
           "countsInTop11": true
         },
         {
@@ -13911,18 +13815,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3619,
-      "top11Points": 3399,
+      "totalPointsAll": 3635,
+      "top11Points": 3415,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 464,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 480,
+          "fielding": 24,
+          "rawPoints": 488,
           "multiplier": 2,
-          "effectivePoints": 960,
+          "effectivePoints": 976,
           "countsInTop11": true
         },
         {
