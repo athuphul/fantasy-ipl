@@ -166,13 +166,58 @@
     <div id="top-scorers-list"></div>
   </section>
 
-  <nav id="bottom-nav">
+  <!-- H2H Comparison -->
+  <section id="h2h-section" class="hidden">
+    <h2>Head to Head</h2>
+    <div class="h2h-selectors">
+      <select id="h2h-team-a" class="h2h-select"></select>
+      <span class="h2h-vs">vs</span>
+      <select id="h2h-team-b" class="h2h-select"></select>
+    </div>
+    <div id="h2h-content"></div>
+  </section>
+
+  <!-- Best XI -->
+  <section id="best-xi-section" class="hidden">
+    <h2>Dream XI</h2>
+    <p class="section-intro">The best eleven players across all rosters, picked by role using the same rules as the leaderboard. Captain &amp; vice captain chosen by highest raw score.</p>
+    <div id="best-xi-content"></div>
+  </section>
+
+  <!-- Heatmap -->
+  <section id="heatmap-section" class="hidden">
+    <h2>Score Heatmap</h2>
+    <p class="section-intro">Each player&rsquo;s fantasy points per match. Colour intensity = magnitude; red = negative.</p>
+    <div class="heatmap-filters">
+      <select id="heatmap-team-filter" class="h2h-select">
+        <option value="all">All teams</option>
+      </select>
+    </div>
+    <div id="heatmap-content" class="heatmap-wrap"></div>
+  </section>
+
+  <!-- Match Report Card -->
+  <section id="report-card-section" class="hidden">
+    <h2>Match Report Card</h2>
+    <p class="section-intro">A shareable summary of any completed match.</p>
+    <div class="report-match-select-wrap">
+      <select id="report-match-select" class="h2h-select"></select>
+    </div>
+    <div id="report-card-content"></div>
+    <button id="report-share-btn" class="share-btn hidden">📋 Copy to clipboard</button>
+  </section>
+
+  <div id="bottom-nav-wrap"><nav id="bottom-nav">
     <button class="nav-btn active" data-view="leaderboard-section">Leaderboard</button>
     <button class="nav-btn" data-view="title-race-section">Race</button>
     <button class="nav-btn" data-view="all-matches">Matches</button>
     <button class="nav-btn" data-view="top-scorers">Players</button>
+    <button class="nav-btn" data-view="h2h-section">H2H</button>
+    <button class="nav-btn" data-view="best-xi-section">Dream XI</button>
+    <button class="nav-btn" data-view="heatmap-section">Heatmap</button>
+    <button class="nav-btn" data-view="report-card-section">Report</button>
     <button class="nav-btn" data-view="scoring-rules">Scoring</button>
-  </nav>
+  </nav></div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="app.js?v=12"></script>

@@ -90,6 +90,10 @@ async function loadData() {
     renderAllMatches();
     renderTopScorers();
     renderTitleRace();
+    renderH2H();
+    renderBestXI();
+    renderHeatmap();
+    renderReportCard();
 
     if (!initialLoadDone) initialLoadDone = true;
   } else {
@@ -1457,7 +1461,7 @@ function togglePlayerExpand(id) {
 }
 
 // === Navigation ===
-const allSections = ['leaderboard-section', 'title-race-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers'];
+const allSections = ['leaderboard-section', 'title-race-section', 'all-matches', 'team-detail', 'scoring-rules', 'top-scorers', 'h2h-section', 'best-xi-section', 'heatmap-section', 'report-card-section'];
 
 document.getElementById('back-btn').addEventListener('click', () => {
   allSections.forEach(id => document.getElementById(id).classList.add('hidden'));
@@ -1481,6 +1485,11 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     } else {
       cm.classList.add('collapsed');
     }
+    // Render new sections on demand
+    if (btn.dataset.view === 'h2h-section') renderH2H();
+    if (btn.dataset.view === 'best-xi-section') renderBestXI();
+    if (btn.dataset.view === 'heatmap-section') renderHeatmap();
+    if (btn.dataset.view === 'report-card-section') renderReportCard();
   });
 });
 
@@ -1489,3 +1498,601 @@ setInterval(loadData, 5 * 60 * 1000);
 
 // Initial load
 loadData();
+
+// ═══════════════════════════════════════════════════════════════════
+// === HEAD TO HEAD COMPARISON =======================================
+// ═══════════════════════════════════════════════════════════════════
+
+let h2hBound = false;
+
+function renderH2H() {
+  if (!teamsData?.teams?.length) return;
+
+  const selA = document.getElementById('h2h-team-a');
+  const selB = document.getElementById('h2h-team-b');
+  if (!selA || !selB) return;
+
+  const teamNames = teamsData.teams.map(t => t.name);
+
+  if (!h2hBound) {
+    h2hBound = true;
+    [selA, selB].forEach(sel => {
+      teamNames.forEach((name, i) => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = name;
+        sel.appendChild(opt);
+      });
+      sel.addEventListener('change', drawH2H);
+    });
+    // Default: first vs second
+    selA.value = teamNames[0] || '';
+    selB.value = teamNames[1] || '';
+  }
+  drawH2H();
+}
+
+function drawH2H() {
+  const container = document.getElementById('h2h-content');
+  if (!container) return;
+
+  const nameA = document.getElementById('h2h-team-a')?.value;
+  const nameB = document.getElementById('h2h-team-b')?.value;
+  if (!nameA || !nameB || nameA === nameB) {
+    container.innerHTML = '<p class="section-intro">Pick two different teams.</p>';
+    return;
+  }
+
+  const teamA = teamsData.teams.find(t => t.name === nameA);
+  const teamB = teamsData.teams.find(t => t.name === nameB);
+  if (!teamA || !teamB) return;
+
+  const history = data?.matchHistory || [];
+
+  // Aggregate cumulative raw per player
+  const rawA = {}, rawB = {};
+  teamA.players.forEach(p => rawA[p.name] = 0);
+  teamB.players.forEach(p => rawB[p.name] = 0);
+
+  const matchScoresA = [], matchScoresB = [];
+
+  for (const match of history) {
+    const ps = match.playerScores || {};
+    let mA = 0, mB = 0;
+    for (const p of teamA.players) {
+      const s = ps[p.name];
+      if (s) { rawA[p.name] += s.total; mA += s.total; }
+    }
+    for (const p of teamB.players) {
+      const s = ps[p.name];
+      if (s) { rawB[p.name] += s.total; mB += s.total; }
+    }
+    matchScoresA.push(mA);
+    matchScoresB.push(mB);
+  }
+
+  // Top-11 totals
+  const totalA = computeTop11PointsForTeam(teamA, rawA);
+  const totalB = computeTop11PointsForTeam(teamB, rawB);
+  const winsA = matchScoresA.filter((s, i) => s > matchScoresB[i]).length;
+  const winsB = matchScoresB.filter((s, i) => s > matchScoresA[i]).length;
+  const draws = matchScoresA.filter((s, i) => s === matchScoresB[i]).length;
+
+  // Player-by-player comparison (shared IPL teams or just sorted lists)
+  const playersA = teamA.players.map(p => {
+    const raw = rawA[p.name] || 0;
+    const mult = p.name === teamA.captain ? 2 : p.name === teamA.viceCaptain ? 1.5 : 1;
+    return { name: p.name, iplTeam: p.iplTeam || '', role: p.role, pts: Math.round(raw * mult), raw };
+  }).sort((a, b) => b.pts - a.pts);
+
+  const playersB = teamB.players.map(p => {
+    const raw = rawB[p.name] || 0;
+    const mult = p.name === teamB.captain ? 2 : p.name === teamB.viceCaptain ? 1.5 : 1;
+    return { name: p.name, iplTeam: p.iplTeam || '', role: p.role, pts: Math.round(raw * mult), raw };
+  }).sort((a, b) => b.pts - a.pts);
+
+  const maxPts = Math.max(...playersA.map(p => p.pts), ...playersB.map(p => p.pts), 1);
+
+  function playerRow(p, side) {
+    const barPct = Math.round((p.pts / maxPts) * 100);
+    const bar = side === 'left'
+      ? `<div class="h2h-bar-wrap left"><div class="h2h-bar" style="width:${barPct}%"></div></div>`
+      : `<div class="h2h-bar-wrap right"><div class="h2h-bar" style="width:${barPct}%"></div></div>`;
+    const name = `<span class="h2h-player-name">${p.name} ${iplBadge(p.iplTeam)}</span>`;
+    const pts = `<span class="h2h-pts">${p.pts}</span>`;
+    return side === 'left'
+      ? `<div class="h2h-player left">${pts}${bar}${name}</div>`
+      : `<div class="h2h-player right">${name}${bar}${pts}</div>`;
+  }
+
+  const maxRows = Math.max(playersA.length, playersB.length);
+  let rows = '';
+  for (let i = 0; i < maxRows; i++) {
+    const pA = playersA[i];
+    const pB = playersB[i];
+    rows += `<div class="h2h-row">
+      <div class="h2h-col">${pA ? playerRow(pA, 'left') : ''}</div>
+      <div class="h2h-col">${pB ? playerRow(pB, 'right') : ''}</div>
+    </div>`;
+  }
+
+  // Match-by-match sparkline data
+  const n = history.length;
+  let cumA = 0, cumB = 0;
+  let sparkRows = '';
+  for (let i = 0; i < n; i++) {
+    cumA += matchScoresA[i];
+    cumB += matchScoresB[i];
+    const winner = matchScoresA[i] > matchScoresB[i] ? 'A' : matchScoresB[i] > matchScoresA[i] ? 'B' : '-';
+    sparkRows += `<tr>
+      <td class="h2h-match-name">${history[i].name ? history[i].name.replace(/ vs /, ' v ') : `M${i+1}`}</td>
+      <td class="${winner === 'A' ? 'fp-positive' : ''}" style="text-align:right">${matchScoresA[i]}</td>
+      <td class="${winner === 'B' ? 'fp-positive' : ''}" style="text-align:left">${matchScoresB[i]}</td>
+      <td style="color:var(--text-muted);font-size:0.7rem">${winner === 'A' ? nameA.split(' ')[0] : winner === 'B' ? nameB.split(' ')[0] : 'Draw'}</td>
+    </tr>`;
+  }
+
+  container.innerHTML = `
+    <div class="h2h-scoreboard card">
+      <div class="h2h-score-row">
+        <div class="h2h-score-block ${totalA > totalB ? 'h2h-winner' : ''}">
+          <div class="h2h-score-name">${nameA}</div>
+          <div class="h2h-score-pts">${totalA}</div>
+          <div class="h2h-score-sub">Top 11 pts</div>
+        </div>
+        <div class="h2h-score-divider">
+          <div class="h2h-record">${winsA}–${draws}–${winsB}</div>
+          <div class="h2h-record-label">W–D–W</div>
+        </div>
+        <div class="h2h-score-block ${totalB > totalA ? 'h2h-winner' : ''}">
+          <div class="h2h-score-name">${nameB}</div>
+          <div class="h2h-score-pts">${totalB}</div>
+          <div class="h2h-score-sub">Top 11 pts</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="h2h-players-header">
+      <span>${nameA}</span><span>${nameB}</span>
+    </div>
+    <div class="h2h-players card">${rows}</div>
+
+    ${n > 0 ? `
+    <h3>Match by Match</h3>
+    <div class="card" style="padding:8px">
+      <table style="font-size:0.78rem">
+        <thead><tr>
+          <th>Match</th>
+          <th style="text-align:right">${nameA.split(' ')[0]}</th>
+          <th style="text-align:left">${nameB.split(' ')[0]}</th>
+          <th>Winner</th>
+        </tr></thead>
+        <tbody>${sparkRows}</tbody>
+      </table>
+    </div>` : ''}
+  `;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// === DREAM XI (BEST XI) ============================================
+// ═══════════════════════════════════════════════════════════════════
+
+function renderBestXI() {
+  const container = document.getElementById('best-xi-content');
+  if (!container || !teamsData?.teams?.length) return;
+
+  const history = data?.matchHistory || [];
+  const playerMeta = {}; // name → { role, iplTeam, fantasyTeam, captain, viceCaptain }
+  const rawTotals = {};
+
+  for (const team of teamsData.teams) {
+    for (const p of team.players) {
+      playerMeta[p.name] = {
+        role: p.role,
+        iplTeam: p.iplTeam || '',
+        fantasyTeam: team.name,
+        isCaptain: p.name === team.captain,
+        isVC: p.name === team.viceCaptain,
+      };
+      rawTotals[p.name] = 0;
+    }
+  }
+
+  for (const match of history) {
+    for (const [name, s] of Object.entries(match.playerScores || {})) {
+      if (rawTotals[name] !== undefined) rawTotals[name] += s.total;
+    }
+  }
+
+  // Pick best XI using same role rules as computeTop11PointsForTeam
+  // but across ALL players in ALL teams
+  const allPlayers = Object.entries(rawTotals).map(([name, raw]) => ({
+    name,
+    raw,
+    role: playerMeta[name]?.role || '',
+    iplTeam: playerMeta[name]?.iplTeam || '',
+    fantasyTeam: playerMeta[name]?.fantasyTeam || '',
+  })).sort((a, b) => b.raw - a.raw);
+
+  const selected = new Set();
+  for (const role of REQUIRED_ROLES_TOP11) {
+    const best = allPlayers.find(p => p.role === role && !selected.has(p.name));
+    if (best) selected.add(best.name);
+  }
+  for (const p of allPlayers) {
+    if (selected.size >= 11) break;
+    if (!selected.has(p.name)) selected.add(p.name);
+  }
+
+  const xi = allPlayers.filter(p => selected.has(p.name));
+  // Captain = highest raw, VC = second highest
+  xi.sort((a, b) => b.raw - a.raw);
+  const captain = xi[0];
+  const vc = xi[1];
+
+  // Group by role for display
+  const roleOrder = ['Opener', 'Batsman', 'Wicket Keeper', 'All-Rounder', 'Fast Bowler', 'Spinner'];
+  const byRole = {};
+  for (const p of xi) {
+    const r = p.role || 'Other';
+    if (!byRole[r]) byRole[r] = [];
+    byRole[r].push(p);
+  }
+
+  let html = '<div class="best-xi-grid">';
+  for (const role of roleOrder) {
+    const players = byRole[role];
+    if (!players?.length) continue;
+    html += `<div class="best-xi-role-group">
+      <div class="best-xi-role-label">${role}</div>`;
+    for (const p of players) {
+      const isCap = p.name === captain?.name;
+      const isVC  = p.name === vc?.name;
+      const mult  = isCap ? 2 : isVC ? 1.5 : 1;
+      const effective = Math.round(p.raw * mult);
+      html += `<div class="best-xi-card ${isCap ? 'xi-captain' : isVC ? 'xi-vc' : ''}">
+        <div class="xi-badge-row">
+          ${isCap ? '<span class="xi-badge cap">C</span>' : ''}
+          ${isVC  ? '<span class="xi-badge vc">VC</span>' : ''}
+          ${iplBadge(p.iplTeam)}
+        </div>
+        <div class="xi-name">${p.name}</div>
+        <div class="xi-team">${p.fantasyTeam}</div>
+        <div class="xi-pts">${effective}<span class="xi-pts-label"> pts${mult > 1 ? ' (' + mult + 'x)' : ''}</span></div>
+      </div>`;
+    }
+    html += '</div>';
+  }
+  html += '</div>';
+
+  const totalPts = xi.reduce((sum, p) => {
+    const mult = p.name === captain?.name ? 2 : p.name === vc?.name ? 1.5 : 1;
+    return sum + Math.round(p.raw * mult);
+  }, 0);
+
+  container.innerHTML = `
+    <div class="card" style="text-align:center;margin-bottom:12px">
+      <div class="league-stat-label">Dream XI Total</div>
+      <div class="league-stat-value">${totalPts} pts</div>
+    </div>
+    ${html}
+  `;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// === HEATMAP =======================================================
+// ═══════════════════════════════════════════════════════════════════
+
+let heatmapBound = false;
+
+function renderHeatmap() {
+  const container = document.getElementById('heatmap-content');
+  const filterSel = document.getElementById('heatmap-team-filter');
+  if (!container || !teamsData?.teams?.length) return;
+
+  const history = (data?.matchHistory || []).filter(m => Object.keys(m.playerScores || {}).length > 0);
+  if (history.length === 0) {
+    container.innerHTML = '<p class="section-intro">No match data yet.</p>';
+    return;
+  }
+
+  if (!heatmapBound && filterSel) {
+    heatmapBound = true;
+    // Populate team filter
+    teamsData.teams.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t.name;
+      opt.textContent = t.name;
+      filterSel.appendChild(opt);
+    });
+    filterSel.addEventListener('change', drawHeatmap);
+  }
+  drawHeatmap();
+}
+
+function drawHeatmap() {
+  const container = document.getElementById('heatmap-content');
+  const filterSel = document.getElementById('heatmap-team-filter');
+  if (!container) return;
+
+  const history = (data?.matchHistory || []).filter(m => Object.keys(m.playerScores || {}).length > 0);
+  const filterTeam = filterSel?.value || 'all';
+
+  // Collect players
+  let players = [];
+  const playerTeamMap = {};
+  for (const team of (teamsData?.teams || [])) {
+    for (const p of team.players) {
+      playerTeamMap[p.name] = team.name;
+      if (filterTeam === 'all' || team.name === filterTeam) {
+        players.push({ name: p.name, team: team.name, role: p.role });
+      }
+    }
+  }
+
+  // Build score matrix: players × matches
+  const scores = players.map(p =>
+    history.map(m => {
+      const s = m.playerScores?.[p.name];
+      return s ? s.total : null; // null = didn't play
+    })
+  );
+
+  // Find scale
+  const allVals = scores.flat().filter(v => v !== null);
+  const maxAbs = Math.max(Math.abs(Math.min(...allVals, 0)), Math.max(...allVals, 1));
+
+  function cellColor(val) {
+    if (val === null) return 'var(--bg-primary)';
+    if (val === 0) return 'var(--bg-hover)';
+    if (val > 0) {
+      const intensity = Math.min(val / maxAbs, 1);
+      const g = Math.round(74 + intensity * (180 - 74)); // 4ade80 range
+      const r = Math.round(74 * (1 - intensity * 0.6));
+      const b = Math.round(128 * (1 - intensity * 0.7));
+      return `rgb(${r},${g},${b})`;
+    } else {
+      const intensity = Math.min(Math.abs(val) / maxAbs, 1);
+      const r = Math.round(180 + intensity * 75);
+      const g = Math.round(80 * (1 - intensity * 0.6));
+      const b = Math.round(80 * (1 - intensity * 0.6));
+      return `rgb(${r},${g},${b})`;
+    }
+  }
+
+  // Abbreviate match labels
+  const matchLabels = history.map((m, i) => {
+    const teams = matchTeams(m.name || '');
+    return teams.length === 2 ? `${teams[0]}<br>v ${teams[1]}` : `M${i+1}`;
+  });
+
+  // Sort players by total desc
+  const playerTotals = players.map((p, pi) =>
+    scores[pi].reduce((s, v) => s + (v || 0), 0)
+  );
+  const order = players.map((_, i) => i).sort((a, b) => playerTotals[b] - playerTotals[a]);
+
+  let headerCells = matchLabels.map(l =>
+    `<th class="heatmap-col-header">${l}</th>`
+  ).join('');
+
+  let bodyRows = order.map(pi => {
+    const p = players[pi];
+    const cells = scores[pi].map((val, mi) => {
+      const bg = cellColor(val);
+      const textColor = val === null ? 'transparent' : Math.abs(val) > maxAbs * 0.4 ? '#fff' : 'var(--text-primary)';
+      return `<td class="heatmap-cell" style="background:${bg};color:${textColor}" title="${p.name} | ${history[mi]?.name || ''}: ${val ?? 'DNP'}">${val ?? ''}</td>`;
+    }).join('');
+    const total = playerTotals[pi];
+    return `<tr>
+      <td class="heatmap-player-name">${p.name}<br><span class="heatmap-team-tag">${p.team.split(' ').map(w=>w[0]).join('')}</span></td>
+      ${cells}
+      <td class="heatmap-total ${total > 0 ? 'fp-positive' : total < 0 ? 'fp-negative' : ''}">${total}</td>
+    </tr>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="heatmap-scroll">
+      <table class="heatmap-table">
+        <thead>
+          <tr>
+            <th class="heatmap-player-header">Player</th>
+            ${headerCells}
+            <th class="heatmap-total-header">Total</th>
+          </tr>
+        </thead>
+        <tbody>${bodyRows}</tbody>
+      </table>
+    </div>
+    <div class="heatmap-legend">
+      <span class="heatmap-legend-swatch" style="background:rgb(74,222,128)"></span> High
+      <span class="heatmap-legend-swatch" style="background:var(--bg-hover)"></span> 0
+      <span class="heatmap-legend-swatch" style="background:rgb(248,113,113)"></span> Negative
+      <span class="heatmap-legend-swatch" style="background:var(--bg-primary);border:1px solid var(--border)"></span> DNP
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// === MATCH REPORT CARD =============================================
+// ═══════════════════════════════════════════════════════════════════
+
+let reportBound = false;
+
+function renderReportCard() {
+  const sel = document.getElementById('report-match-select');
+  const container = document.getElementById('report-card-content');
+  if (!sel || !container) return;
+
+  const history = (data?.matchHistory || []).filter(m => Object.keys(m.playerScores || {}).length > 0);
+  if (history.length === 0) {
+    container.innerHTML = '<p class="section-intro">No completed matches yet.</p>';
+    return;
+  }
+
+  if (!reportBound) {
+    reportBound = true;
+    sel.addEventListener('change', drawReportCard);
+  }
+
+  // Repopulate selector (in case new matches came in)
+  const currentVal = sel.value;
+  sel.innerHTML = '';
+  history.slice().reverse().forEach((m, ri) => {
+    const i = history.length - 1 - ri;
+    const opt = document.createElement('option');
+    opt.value = String(i);
+    opt.textContent = `M${i+1}: ${m.name || 'Match ' + (i+1)}${m.date ? ' (' + m.date + ')' : ''}`;
+    sel.appendChild(opt);
+  });
+  // Restore or default to latest
+  sel.value = currentVal && sel.querySelector(`option[value="${currentVal}"]`) ? currentVal : String(history.length - 1);
+
+  drawReportCard();
+}
+
+function drawReportCard() {
+  const sel = document.getElementById('report-match-select');
+  const container = document.getElementById('report-card-content');
+  const shareBtn = document.getElementById('report-share-btn');
+  if (!sel || !container) return;
+
+  const history = (data?.matchHistory || []).filter(m => Object.keys(m.playerScores || {}).length > 0);
+  const idx = Number(sel.value);
+  const match = history[idx];
+  if (!match) return;
+
+  const ps = match.playerScores || {};
+
+  // Per-team totals for this match
+  const teamResults = (teamsData?.teams || []).map(team => {
+    let score = 0;
+    const contributors = [];
+    for (const p of team.players) {
+      const s = ps[p.name];
+      if (s) {
+        const mult = p.name === team.captain ? 2 : p.name === team.viceCaptain ? 1.5 : 1;
+        const eff = Math.round(s.total * mult);
+        score += eff;
+        if (s.total !== 0) contributors.push({ name: p.name, pts: eff, raw: s.total, iplTeam: p.iplTeam || '' });
+      }
+    }
+    contributors.sort((a, b) => b.pts - a.pts);
+    return { team: team.name, score, contributors };
+  }).sort((a, b) => b.score - a.score);
+
+  // Best individual performers
+  const allPerformers = Object.entries(ps)
+    .map(([name, s]) => ({ name, total: s.total, batting: s.batting, bowling: s.bowling, fielding: s.fielding }))
+    .filter(p => p.total > 0)
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 5);
+
+  const worst = Object.entries(ps)
+    .map(([name, s]) => ({ name, total: s.total }))
+    .filter(p => p.total < 0)
+    .sort((a, b) => a.total - b.total)
+    .slice(0, 3);
+
+  const winner = teamResults[0];
+  const maxScore = teamResults[0]?.score || 1;
+
+  const teamRows = teamResults.map((t, i) => {
+    const barPct = Math.round((t.score / maxScore) * 100);
+    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i+1}.`;
+    const top = t.contributors[0];
+    return `<div class="report-team-row ${i === 0 ? 'report-winner' : ''}">
+      <div class="report-rank">${medal}</div>
+      <div class="report-team-info">
+        <div class="report-team-name">${t.team}</div>
+        ${top ? `<div class="report-team-top">⭐ ${top.name} (${top.pts > 0 ? '+' : ''}${top.pts})</div>` : ''}
+      </div>
+      <div class="report-team-score-wrap">
+        <div class="report-score-bar-track"><div class="report-score-bar" style="width:${barPct}%"></div></div>
+        <div class="report-team-score">${t.score}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const perfRows = allPerformers.map(p => {
+    const parts = [];
+    if (p.batting > 0) parts.push(`🏏 ${p.batting}`);
+    if (p.bowling > 0) parts.push(`🎳 ${p.bowling}`);
+    if (p.fielding > 0) parts.push(`🧤 ${p.fielding}`);
+    return `<div class="report-performer">
+      <div class="report-performer-name">${p.name}</div>
+      <div class="report-performer-breakdown">${parts.join(' · ')}</div>
+      <div class="report-performer-pts fp-positive">+${p.total}</div>
+    </div>`;
+  }).join('');
+
+  const worstRows = worst.map(p =>
+    `<div class="report-performer">
+      <div class="report-performer-name">${p.name}</div>
+      <div class="report-performer-pts fp-negative">${p.total}</div>
+    </div>`
+  ).join('');
+
+  const iplTeams = matchTeams(match.name || '');
+  const iplMatchHeader = iplTeams.length === 2
+    ? `${teamLogo(iplTeams[0], 28)} ${iplTeams[0]} vs ${iplTeams[1]} ${teamLogo(iplTeams[1], 28)}`
+    : (match.name || '');
+
+  container.innerHTML = `
+    <div class="report-card card" id="report-card-inner">
+      <div class="report-header">
+        <div class="report-match-name">${iplMatchHeader}</div>
+        <div class="report-match-date">${match.date || ''}</div>
+      </div>
+
+      <div class="report-winner-banner">
+        🏆 <strong>${winner.team}</strong> won the match day with <strong>${winner.score} pts</strong>
+      </div>
+
+      <h3 style="margin-top:16px">Team Standings</h3>
+      <div class="report-teams">${teamRows}</div>
+
+      ${allPerformers.length ? `<h3>Top Performers</h3><div class="report-performers">${perfRows}</div>` : ''}
+      ${worst.length ? `<h3>Ones to Forget</h3><div class="report-performers">${worstRows}</div>` : ''}
+    </div>
+  `;
+
+  if (shareBtn) {
+    shareBtn.classList.remove('hidden');
+    shareBtn.onclick = () => copyReportToClipboard(match, teamResults, allPerformers, worst);
+  }
+}
+
+function copyReportToClipboard(match, teamResults, topPerformers, worst) {
+  const iplTeams = matchTeams(match.name || '');
+  const header = iplTeams.length === 2 ? `${iplTeams[0]} vs ${iplTeams[1]}` : match.name || 'Match';
+
+  let text = `🏏 Fantasy IPL – ${header}`;
+  if (match.date) text += ` (${match.date})`;
+  text += '\n\n';
+
+  text += '📊 Team Standings\n';
+  const medals = ['🥇','🥈','🥉'];
+  teamResults.forEach((t, i) => {
+    text += `${medals[i] || `${i+1}.`} ${t.team} — ${t.score} pts`;
+    if (t.contributors[0]) text += ` (⭐ ${t.contributors[0].name})`;
+    text += '\n';
+  });
+
+  if (topPerformers.length) {
+    text += '\n⭐ Top Performers\n';
+    topPerformers.forEach(p => { text += `  ${p.name}: +${p.total}\n`; });
+  }
+
+  if (worst.length) {
+    text += '\n📉 Ones to Forget\n';
+    worst.forEach(p => { text += `  ${p.name}: ${p.total}\n`; });
+  }
+
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('report-share-btn');
+    if (btn) { btn.textContent = '✅ Copied!'; setTimeout(() => { btn.textContent = '📋 Copy to clipboard'; }, 2000); }
+  }).catch(() => {
+    alert(text);
+  });
+}
