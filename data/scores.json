@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T14:04:57.766Z",
+  "lastUpdated": "2026-04-24T14:14:57.359Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 7,
+        "r": 24,
         "w": 0,
-        "o": 0.6
+        "o": 3.2
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -76,10 +76,10 @@
         "total": 0
       },
       "Sai Sudharsan": {
-        "batting": 7,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 20
       },
       "Shubman Gill": {
         "batting": 1,
@@ -122,13 +122,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2393,
-      "top11Points": 2357
+      "totalPointsAll": 2419,
+      "top11Points": 2383
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2346,
-      "top11Points": 2346
+      "totalPointsAll": 2351,
+      "top11Points": 2351
     },
     {
       "team": "Tanay",
@@ -12793,25 +12793,25 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 7,
+          "r": 24,
           "w": 0,
-          "o": 0.6
+          "o": 3.2
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 7,
+          "runs": 24,
           "wickets": 0,
-          "overs": 0.6,
+          "overs": 3.2,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 6,
-              "balls": 4,
-              "fours": 1,
+              "runs": 17,
+              "balls": 17,
+              "fours": 3,
               "sixes": 0,
-              "sr": 150,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
@@ -12827,11 +12827,27 @@
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Josh Hazlewood",
               "overs": 1,
               "maidens": 0,
-              "runs": 7,
+              "runs": 3,
               "wickets": 0,
-              "economy": 7
+              "economy": 3
+            },
+            {
+              "name": "Rasikh Salam Dar",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -12881,9 +12897,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -12898,10 +12914,10 @@
           "total": 0
         },
         "Sai Sudharsan": {
-          "batting": 7,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 20
         },
         "Shubman Gill": {
           "batting": 1,
@@ -13064,18 +13080,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2393,
-      "top11Points": 2357,
+      "totalPointsAll": 2419,
+      "top11Points": 2383,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 179,
+          "batting": 192,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 197,
+          "rawPoints": 210,
           "multiplier": 2,
-          "effectivePoints": 394,
+          "effectivePoints": 420,
           "countsInTop11": true
         },
         {
@@ -13478,8 +13494,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2346,
-      "top11Points": 2346,
+      "totalPointsAll": 2351,
+      "top11Points": 2351,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13507,11 +13523,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
-          "bowling": 304,
+          "bowling": 309,
           "fielding": 8,
-          "rawPoints": 325,
+          "rawPoints": 330,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 330,
           "countsInTop11": true
         },
         {
