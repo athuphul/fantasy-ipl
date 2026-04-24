@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T15:25:11.450Z",
+  "lastUpdated": "2026-04-24T15:34:57.610Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 176,
-        "w": 2,
-        "o": 17.2
+        "r": 187,
+        "w": 3,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -59,15 +59,15 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 30,
         "fielding": 0,
-        "total": 0
+        "total": 30
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 20,
-        "fielding": 8,
-        "total": 28
+        "bowling": 25,
+        "fielding": 16,
+        "total": 41
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 34
       },
       "Washington Sundar": {
-        "batting": 16,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 24
       }
     }
   },
@@ -134,13 +134,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2581,
-      "top11Points": 2515
+      "totalPointsAll": 2594,
+      "top11Points": 2528
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2370,
-      "top11Points": 2370
+      "totalPointsAll": 2408,
+      "top11Points": 2408
     },
     {
       "team": "Tanay",
@@ -12805,17 +12805,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 176,
-          "w": 2,
-          "o": 17.2
+          "r": 187,
+          "w": 3,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 176,
-          "wickets": 2,
-          "overs": 17.2,
+          "runs": 187,
+          "wickets": 3,
+          "overs": 19,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -12838,38 +12838,47 @@
             {
               "name": "Jos Buttler",
               "runs": 25,
-              "balls": 15,
+              "balls": 16,
               "fours": 2,
               "sixes": 1,
-              "sr": 166.67,
-              "dismissal": "batting"
+              "sr": 156.25,
+              "dismissal": "c Josh Hazlewood b Bhuvneshwar Kumar"
             },
             {
               "name": "Washington Sundar",
-              "runs": 13,
-              "balls": 7,
+              "runs": 16,
+              "balls": 10,
               "fours": 1,
               "sixes": 1,
-              "sr": 185.71,
+              "sr": 160,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jason Holder",
+              "runs": 6,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 120,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
-              "wickets": 0,
-              "economy": 8.4
+              "runs": 31,
+              "wickets": 1,
+              "economy": 7.75
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 32,
+              "runs": 38,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 9.91
             },
             {
               "name": "Rasikh Salam Dar",
@@ -12951,15 +12960,15 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 30,
           "fielding": 0,
-          "total": 0
+          "total": 30
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 20,
-          "fielding": 8,
-          "total": 28
+          "bowling": 25,
+          "fielding": 16,
+          "total": 41
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -12986,10 +12995,10 @@
           "total": 34
         },
         "Washington Sundar": {
-          "batting": 16,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 24
         }
       },
       "isComplete": false
@@ -13560,8 +13569,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2370,
-      "top11Points": 2370,
+      "totalPointsAll": 2408,
+      "top11Points": 2408,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13589,11 +13598,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
-          "bowling": 304,
+          "bowling": 334,
           "fielding": 8,
-          "rawPoints": 325,
+          "rawPoints": 355,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 355,
           "countsInTop11": true
         },
         {
@@ -13610,12 +13619,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 201,
+          "batting": 209,
           "bowling": 25,
           "fielding": 16,
-          "rawPoints": 242,
+          "rawPoints": 250,
           "multiplier": 1,
-          "effectivePoints": 242,
+          "effectivePoints": 250,
           "countsInTop11": true
         },
         {
@@ -13687,8 +13696,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2581,
-      "top11Points": 2515,
+      "totalPointsAll": 2594,
+      "top11Points": 2528,
       "players": [
         {
           "name": "Axar Patel",
@@ -13768,6 +13777,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 115,
+          "fielding": 24,
+          "rawPoints": 139,
+          "multiplier": 1,
+          "effectivePoints": 139,
+          "countsInTop11": true
+        },
+        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 75,
@@ -13787,17 +13807,6 @@
           "rawPoints": 135,
           "multiplier": 1,
           "effectivePoints": 135,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 110,
-          "fielding": 16,
-          "rawPoints": 126,
-          "multiplier": 1,
-          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
