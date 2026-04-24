@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T16:05:08.816Z",
+  "lastUpdated": "2026-04-24T16:16:42.891Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 3,
-        "w": 0,
-        "o": 0.4
+        "r": 30,
+        "w": 1,
+        "o": 3.1
       },
       {
         "inning": "Gujarat Titans",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 2,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 16
       },
       "Devdutt Padikkal": {
-        "batting": 0,
+        "batting": 17,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 25
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -175,8 +175,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2413,
-      "top11Points": 2413
+      "totalPointsAll": 2444,
+      "top11Points": 2444
     },
     {
       "team": "Tanay",
@@ -12841,9 +12841,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 3,
-          "w": 0,
-          "o": 0.4
+          "r": 30,
+          "w": 1,
+          "o": 3.1
         },
         {
           "inning": "Gujarat Titans",
@@ -12958,53 +12958,61 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 3,
-          "wickets": 0,
-          "overs": 0.4,
+          "runs": 30,
+          "wickets": 1,
+          "overs": 3.1,
           "batting": [
             {
-              "name": "Jacob Bethell",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
+              "name": "Devdutt Padikkal",
+              "runs": 14,
+              "balls": 9,
+              "fours": 3,
               "sixes": 0,
-              "sr": 50,
+              "sr": 155.56,
               "dismissal": "batting"
             },
             {
-              "name": "Virat Kohli",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
+              "name": "Jacob Bethell",
+              "runs": 10,
+              "balls": 8,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 0.4,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 3,
+              "runs": 15,
               "wickets": 0,
-              "economy": 4.5
+              "economy": 8.18
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 2,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 16
         },
         "Devdutt Padikkal": {
-          "batting": 0,
+          "batting": 17,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 25
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -13677,8 +13685,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2413,
-      "top11Points": 2413,
+      "totalPointsAll": 2444,
+      "top11Points": 2444,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13694,12 +13702,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 343,
+          "batting": 357,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 375,
+          "rawPoints": 389,
           "multiplier": 1,
-          "effectivePoints": 375,
+          "effectivePoints": 389,
           "countsInTop11": true
         },
         {
@@ -13716,12 +13724,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 219,
+          "batting": 236,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 275,
+          "rawPoints": 292,
           "multiplier": 1,
-          "effectivePoints": 275,
+          "effectivePoints": 292,
           "countsInTop11": true
         },
         {
