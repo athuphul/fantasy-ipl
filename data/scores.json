@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T15:54:54.305Z",
+  "lastUpdated": "2026-04-24T16:05:08.816Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "M.Chinnaswamy Stadium, Bengaluru",
     "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 3,
+        "w": 0,
+        "o": 0.4
+      },
       {
         "inning": "Gujarat Titans",
         "r": 205,
@@ -16,10 +22,10 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       },
       "Devdutt Padikkal": {
         "batting": 0,
@@ -98,6 +104,36 @@
         "bowling": 0,
         "fielding": 0,
         "total": 27
+      },
+      "Shahrukh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prasidh Krishna": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -139,8 +175,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2411,
-      "top11Points": 2411
+      "totalPointsAll": 2413,
+      "top11Points": 2413
     },
     {
       "team": "Tanay",
@@ -12804,6 +12840,12 @@
       "venue": "M.Chinnaswamy Stadium, Bengaluru",
       "score": [
         {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 3,
+          "w": 0,
+          "o": 0.4
+        },
+        {
           "inning": "Gujarat Titans",
           "r": 205,
           "w": 3,
@@ -12913,14 +12955,50 @@
               "economy": 9
             }
           ]
+        },
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 3,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Jacob Bethell",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 4.5
+            }
+          ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         },
         "Devdutt Padikkal": {
           "batting": 0,
@@ -12999,6 +13077,36 @@
           "bowling": 0,
           "fielding": 0,
           "total": 27
+        },
+        "Shahrukh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -13569,8 +13677,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2411,
-      "top11Points": 2411,
+      "totalPointsAll": 2413,
+      "top11Points": 2413,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13586,12 +13694,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 341,
+          "batting": 343,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 373,
+          "rawPoints": 375,
           "multiplier": 1,
-          "effectivePoints": 373,
+          "effectivePoints": 375,
           "countsInTop11": true
         },
         {
