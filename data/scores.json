@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T14:34:56.450Z",
+  "lastUpdated": "2026-04-24T14:44:54.500Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 78,
+        "r": 99,
         "w": 0,
-        "o": 7.6
+        "o": 9.4
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -76,16 +76,16 @@
         "total": 0
       },
       "Sai Sudharsan": {
-        "batting": 87,
+        "batting": 110,
         "bowling": 0,
         "fielding": 0,
-        "total": 87
+        "total": 110
       },
       "Shubman Gill": {
-        "batting": 18,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 23
       }
     }
   },
@@ -111,19 +111,19 @@
       "top11Points": 2640
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 2583,
-      "top11Points": 2525
+      "team": "Aakash",
+      "totalPointsAll": 2599,
+      "top11Points": 2563
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 2553,
-      "top11Points": 2517
+      "team": "Ashwin",
+      "totalPointsAll": 2593,
+      "top11Points": 2535
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2533,
-      "top11Points": 2467
+      "totalPointsAll": 2528,
+      "top11Points": 2462
     },
     {
       "team": "Kishan",
@@ -12793,34 +12793,34 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 78,
+          "r": 99,
           "w": 0,
-          "o": 7.6
+          "o": 9.4
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 78,
+          "runs": 99,
           "wickets": 0,
-          "overs": 7.6,
+          "overs": 9.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 59,
-              "balls": 35,
+              "runs": 73,
+              "balls": 40,
               "fours": 9,
-              "sixes": 2,
-              "sr": 168.57,
+              "sixes": 4,
+              "sr": 182.5,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 16,
-              "balls": 12,
+              "runs": 21,
+              "balls": 17,
               "fours": 2,
               "sixes": 0,
-              "sr": 133.33,
+              "sr": 123.53,
               "dismissal": "batting"
             }
           ],
@@ -12851,19 +12851,27 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 20,
               "wickets": 0,
-              "economy": 4
+              "economy": 10
             },
             {
               "name": "Romario Shepherd",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
-              "runs": 16,
+              "runs": 17,
               "wickets": 0,
-              "economy": 19.2
+              "economy": 17
+            },
+            {
+              "name": "Suyash Sharma",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -12907,9 +12915,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -12930,16 +12938,16 @@
           "total": 0
         },
         "Sai Sudharsan": {
-          "batting": 87,
+          "batting": 110,
           "bowling": 0,
           "fielding": 0,
-          "total": 87
+          "total": 110
         },
         "Shubman Gill": {
-          "batting": 18,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 23
         }
       },
       "isComplete": false
@@ -13096,18 +13104,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2553,
-      "top11Points": 2517,
+      "totalPointsAll": 2599,
+      "top11Points": 2563,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 259,
+          "batting": 282,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 277,
+          "rawPoints": 300,
           "multiplier": 2,
-          "effectivePoints": 554,
+          "effectivePoints": 600,
           "countsInTop11": true
         },
         {
@@ -13372,18 +13380,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2583,
-      "top11Points": 2525,
+      "totalPointsAll": 2593,
+      "top11Points": 2535,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 370,
+          "batting": 375,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 410,
+          "rawPoints": 415,
           "multiplier": 2,
-          "effectivePoints": 820,
+          "effectivePoints": 830,
           "countsInTop11": true
         },
         {
@@ -13637,8 +13645,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2533,
-      "top11Points": 2467,
+      "totalPointsAll": 2528,
+      "top11Points": 2462,
       "players": [
         {
           "name": "Axar Patel",
@@ -13677,11 +13685,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 15,
-          "bowling": 217,
+          "bowling": 212,
           "fielding": 8,
-          "rawPoints": 240,
+          "rawPoints": 235,
           "multiplier": 1,
-          "effectivePoints": 240,
+          "effectivePoints": 235,
           "countsInTop11": true
         },
         {
