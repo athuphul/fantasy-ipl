@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T16:34:54.249Z",
+  "lastUpdated": "2026-04-24T16:44:54.475Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 70,
+        "r": 102,
         "w": 1,
-        "o": 7
+        "o": 9
       },
       {
         "inning": "Gujarat Titans",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 43,
+        "batting": 60,
         "bowling": 0,
         "fielding": 0,
-        "total": 43
+        "total": 60
       },
       "Devdutt Padikkal": {
-        "batting": 36,
+        "batting": 64,
         "bowling": 0,
         "fielding": 8,
-        "total": 44
+        "total": 72
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -131,17 +131,17 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       }
     }
   },
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3643,
-      "top11Points": 3415
+      "totalPointsAll": 3628,
+      "top11Points": 3400
     },
     {
       "team": "Ali",
@@ -169,14 +169,14 @@
       "top11Points": 2561
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 2535,
+      "top11Points": 2535
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 2584,
       "top11Points": 2518
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2490,
-      "top11Points": 2490
     },
     {
       "team": "Tanay",
@@ -12841,9 +12841,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 70,
+          "r": 102,
           "w": 1,
-          "o": 7
+          "o": 9
         },
         {
           "inning": "Gujarat Titans",
@@ -12958,9 +12958,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 70,
+          "runs": 102,
           "wickets": 1,
-          "overs": 7,
+          "overs": 9,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -12973,20 +12973,20 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 33,
-              "balls": 20,
-              "fours": 5,
-              "sixes": 0,
-              "sr": 165,
+              "runs": 47,
+              "balls": 27,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 174.07,
               "dismissal": "batting"
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 21,
-              "balls": 12,
-              "fours": 1,
-              "sixes": 2,
-              "sr": 175,
+              "runs": 39,
+              "balls": 17,
+              "fours": 2,
+              "sixes": 4,
+              "sr": 229.41,
               "dismissal": "batting"
             }
           ],
@@ -13017,27 +13017,35 @@
             },
             {
               "name": "Prasidh Krishna",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 0,
+              "economy": 15.5
+            },
+            {
+              "name": "Rashid Khan",
               "overs": 1,
               "maidens": 0,
-              "runs": 12,
+              "runs": 13,
               "wickets": 0,
-              "economy": 12
+              "economy": 13
             }
           ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 43,
+          "batting": 60,
           "bowling": 0,
           "fielding": 0,
-          "total": 43
+          "total": 60
         },
         "Devdutt Padikkal": {
-          "batting": 36,
+          "batting": 64,
           "bowling": 0,
           "fielding": 8,
-          "total": 44
+          "total": 72
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -13137,9 +13145,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         }
       },
       "isComplete": false
@@ -13710,8 +13718,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2490,
-      "top11Points": 2490,
+      "totalPointsAll": 2535,
+      "top11Points": 2535,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13727,12 +13735,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 384,
+          "batting": 401,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 416,
+          "rawPoints": 433,
           "multiplier": 1,
-          "effectivePoints": 416,
+          "effectivePoints": 433,
           "countsInTop11": true
         },
         {
@@ -13749,12 +13757,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 255,
+          "batting": 283,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 311,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 311,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -14262,8 +14270,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3643,
-      "top11Points": 3415,
+      "totalPointsAll": 3628,
+      "top11Points": 3400,
       "players": [
         {
           "name": "Sanju Samson",
@@ -14291,11 +14299,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 327,
+          "bowling": 312,
           "fielding": 13,
-          "rawPoints": 340,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 340,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
