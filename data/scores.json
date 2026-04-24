@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T16:16:42.891Z",
+  "lastUpdated": "2026-04-24T16:24:56.193Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 30,
+        "r": 50,
         "w": 1,
-        "o": 3.1
+        "o": 4.6
       },
       {
         "inning": "Gujarat Titans",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 16,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 18
       },
       "Devdutt Padikkal": {
-        "batting": 17,
+        "batting": 15,
         "bowling": 0,
         "fielding": 8,
-        "total": 25
+        "total": 23
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -108,8 +108,8 @@
       "Shahrukh Khan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rashid Khan": {
         "batting": 0,
@@ -119,15 +119,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 30,
         "fielding": 0,
-        "total": 0
+        "total": 30
       },
       "Prasidh Krishna": {
         "batting": 0,
@@ -140,18 +140,18 @@
   "leaderboard": [
     {
       "team": "Tikoo",
-      "totalPointsAll": 3635,
+      "totalPointsAll": 3643,
       "top11Points": 3415
     },
     {
       "team": "Ali",
-      "totalPointsAll": 3089,
-      "top11Points": 3094
+      "totalPointsAll": 3119,
+      "top11Points": 3124
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2740,
-      "top11Points": 2750
+      "totalPointsAll": 2735,
+      "top11Points": 2745
     },
     {
       "team": "Ritik",
@@ -12841,9 +12841,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 30,
+          "r": 50,
           "w": 1,
-          "o": 3.1
+          "o": 4.6
         },
         {
           "inning": "Gujarat Titans",
@@ -12958,61 +12958,70 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 30,
+          "runs": 50,
           "wickets": 1,
-          "overs": 3.1,
+          "overs": 4.6,
           "batting": [
             {
-              "name": "Devdutt Padikkal",
+              "name": "Jacob Bethell",
               "runs": 14,
-              "balls": 9,
+              "balls": 10,
               "fours": 3,
               "sixes": 0,
-              "sr": 155.56,
+              "sr": 140,
+              "dismissal": "c Shahrukh Khan b Mohammed Siraj"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 16,
+              "balls": 11,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 145.45,
               "dismissal": "batting"
             },
             {
-              "name": "Jacob Bethell",
-              "runs": 10,
-              "balls": 8,
+              "name": "Devdutt Padikkal",
+              "runs": 12,
+              "balls": 7,
               "fours": 1,
-              "sixes": 0,
-              "sr": 125,
+              "sixes": 1,
+              "sr": 171.43,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 1.5,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 8.18
+              "runs": 19,
+              "wickets": 1,
+              "economy": 7.13
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 23,
               "wickets": 0,
-              "economy": 9
+              "economy": 11.5
             }
           ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 16,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 18
         },
         "Devdutt Padikkal": {
-          "batting": 17,
+          "batting": 15,
           "bowling": 0,
           "fielding": 8,
-          "total": 25
+          "total": 23
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -13089,8 +13098,8 @@
         "Shahrukh Khan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rashid Khan": {
           "batting": 0,
@@ -13100,15 +13109,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 30,
           "fielding": 0,
-          "total": 0
+          "total": 30
         },
         "Prasidh Krishna": {
           "batting": 0,
@@ -13122,8 +13131,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2740,
-      "top11Points": 2750,
+      "totalPointsAll": 2735,
+      "top11Points": 2745,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -13151,11 +13160,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 260,
+          "bowling": 255,
           "fielding": 24,
-          "rawPoints": 321,
+          "rawPoints": 316,
           "multiplier": 1,
-          "effectivePoints": 321,
+          "effectivePoints": 316,
           "countsInTop11": true
         },
         {
@@ -13409,8 +13418,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3089,
-      "top11Points": 3094,
+      "totalPointsAll": 3119,
+      "top11Points": 3124,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -13482,11 +13491,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 187,
+          "bowling": 217,
           "fielding": 24,
-          "rawPoints": 206,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 206,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -13702,12 +13711,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 357,
+          "batting": 359,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 389,
+          "rawPoints": 391,
           "multiplier": 1,
-          "effectivePoints": 389,
+          "effectivePoints": 391,
           "countsInTop11": true
         },
         {
@@ -13724,12 +13733,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 236,
+          "batting": 234,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 292,
+          "rawPoints": 290,
           "multiplier": 1,
-          "effectivePoints": 292,
+          "effectivePoints": 290,
           "countsInTop11": true
         },
         {
@@ -14237,7 +14246,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3635,
+      "totalPointsAll": 3643,
       "top11Points": 3415,
       "players": [
         {
@@ -14388,10 +14397,10 @@
           "role": "Batsman",
           "batting": 41,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 49,
+          "fielding": 16,
+          "rawPoints": 57,
           "multiplier": 1,
-          "effectivePoints": 49,
+          "effectivePoints": 57,
           "countsInTop11": false
         }
       ]
