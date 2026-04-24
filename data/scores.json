@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T17:14:53.606Z",
+  "lastUpdated": "2026-04-24T17:24:58.626Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 173,
+        "r": 192,
         "w": 5,
-        "o": 15.3
+        "o": 17.3
       },
       {
         "inning": "Gujarat Titans",
@@ -46,22 +46,22 @@
         "total": 13
       },
       "Tim David": {
-        "batting": 1,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 11
+      },
+      "Krunal Pandya": {
+        "batting": 12,
+        "bowling": -10,
+        "fielding": 0,
+        "total": 2
       },
       "Romario Shepherd": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
-      },
-      "Krunal Pandya": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -119,9 +119,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": -5,
         "fielding": 0,
-        "total": -10
+        "total": -5
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -145,13 +145,13 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 3115,
-      "top11Points": 3120
+      "totalPointsAll": 3125,
+      "top11Points": 3130
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2730,
-      "top11Points": 2740
+      "totalPointsAll": 2735,
+      "top11Points": 2745
     },
     {
       "team": "Ritik",
@@ -175,8 +175,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2597,
-      "top11Points": 2531
+      "totalPointsAll": 2609,
+      "top11Points": 2543
     },
     {
       "team": "Tanay",
@@ -12841,9 +12841,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 173,
+          "r": 192,
           "w": 5,
-          "o": 15.3
+          "o": 17.3
         },
         {
           "inning": "Gujarat Titans",
@@ -12958,9 +12958,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 173,
+          "runs": 192,
           "wickets": 5,
-          "overs": 15.3,
+          "overs": 17.3,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -13009,11 +13009,20 @@
             },
             {
               "name": "Tim David",
-              "runs": 1,
-              "balls": 1,
+              "runs": 9,
+              "balls": 8,
               "fours": 0,
+              "sixes": 1,
+              "sr": 112.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Krunal Pandya",
+              "runs": 10,
+              "balls": 4,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 250,
               "dismissal": "batting"
             }
           ],
@@ -13028,11 +13037,11 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 36,
+              "runs": 45,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.25
             },
             {
               "name": "Jason Holder",
@@ -13060,11 +13069,11 @@
             },
             {
               "name": "Manav Suthar",
-              "overs": 0.3,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 12,
               "wickets": 1,
-              "economy": 4
+              "economy": 9
             }
           ]
         }
@@ -13095,22 +13104,22 @@
           "total": 13
         },
         "Tim David": {
-          "batting": 1,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 11
+        },
+        "Krunal Pandya": {
+          "batting": 12,
+          "bowling": -10,
+          "fielding": 0,
+          "total": 2
         },
         "Romario Shepherd": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Krunal Pandya": {
-          "batting": 0,
-          "bowling": -10,
-          "fielding": 0,
-          "total": -10
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -13168,9 +13177,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 0,
-          "total": -10
+          "total": -5
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -13190,8 +13199,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2730,
-      "top11Points": 2740,
+      "totalPointsAll": 2735,
+      "top11Points": 2745,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -13216,6 +13225,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 37,
+          "bowling": 255,
+          "fielding": 24,
+          "rawPoints": 316,
+          "multiplier": 1,
+          "effectivePoints": 316,
+          "countsInTop11": true
+        },
+        {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": -10,
@@ -13224,17 +13244,6 @@
           "rawPoints": 314,
           "multiplier": 1,
           "effectivePoints": 314,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
-          "role": "Fast Bowler",
-          "batting": 37,
-          "bowling": 250,
-          "fielding": 24,
-          "rawPoints": 311,
-          "multiplier": 1,
-          "effectivePoints": 311,
           "countsInTop11": true
         },
         {
@@ -13477,8 +13486,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3115,
-      "top11Points": 3120,
+      "totalPointsAll": 3125,
+      "top11Points": 3130,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -13525,6 +13534,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 274,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 282,
+          "multiplier": 1,
+          "effectivePoints": 282,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 260,
@@ -13533,17 +13553,6 @@
           "rawPoints": 276,
           "multiplier": 1,
           "effectivePoints": 276,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 264,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 272,
-          "multiplier": 1,
-          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
@@ -13880,8 +13889,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2597,
-      "top11Points": 2531,
+      "totalPointsAll": 2609,
+      "top11Points": 2543,
       "players": [
         {
           "name": "Axar Patel",
@@ -13919,12 +13928,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 15,
+          "batting": 27,
           "bowling": 207,
           "fielding": 8,
-          "rawPoints": 230,
+          "rawPoints": 242,
           "multiplier": 1,
-          "effectivePoints": 230,
+          "effectivePoints": 242,
           "countsInTop11": true
         },
         {
