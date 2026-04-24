@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T14:44:54.500Z",
+  "lastUpdated": "2026-04-24T15:05:34.445Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529277",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 99,
-        "w": 0,
-        "o": 9.4
+        "r": 138,
+        "w": 1,
+        "o": 13.3
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -71,21 +71,27 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Sai Sudharsan": {
-        "batting": 110,
+        "batting": 132,
         "bowling": 0,
         "fielding": 0,
-        "total": 110
+        "total": 132
       },
       "Shubman Gill": {
-        "batting": 23,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 36
+      },
+      "Jos Buttler": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
       }
     }
   },
@@ -107,28 +113,28 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2640,
-      "top11Points": 2640
+      "totalPointsAll": 2646,
+      "top11Points": 2646
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2599,
-      "top11Points": 2563
+      "totalPointsAll": 2643,
+      "top11Points": 2607
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2593,
-      "top11Points": 2535
+      "totalPointsAll": 2619,
+      "top11Points": 2561
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2528,
-      "top11Points": 2462
+      "totalPointsAll": 2553,
+      "top11Points": 2487
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2351,
-      "top11Points": 2351
+      "totalPointsAll": 2354,
+      "top11Points": 2354
     },
     {
       "team": "Tanay",
@@ -12793,45 +12799,54 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 99,
-          "w": 0,
-          "o": 9.4
+          "r": 138,
+          "w": 1,
+          "o": 13.3
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 99,
-          "wickets": 0,
-          "overs": 9.4,
+          "runs": 138,
+          "wickets": 1,
+          "overs": 13.3,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 73,
-              "balls": 40,
-              "fours": 9,
-              "sixes": 4,
-              "sr": 182.5,
+              "runs": 92,
+              "balls": 52,
+              "fours": 10,
+              "sixes": 5,
+              "sr": 176.92,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 21,
-              "balls": 17,
+              "runs": 32,
+              "balls": 24,
               "fours": 2,
+              "sixes": 1,
+              "sr": 133.33,
+              "dismissal": "c Devdutt Padikkal b Suyash Sharma"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 4,
+              "balls": 4,
+              "fours": 0,
               "sixes": 0,
-              "sr": 123.53,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 19,
               "wickets": 0,
-              "economy": 8
+              "economy": 8.14
             },
             {
               "name": "Josh Hazlewood",
@@ -12843,19 +12858,19 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 28,
               "wickets": 0,
-              "economy": 11.5
+              "economy": 9.33
             },
             {
               "name": "Krunal Pandya",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 20,
+              "runs": 32,
               "wickets": 0,
-              "economy": 10
+              "economy": 10.67
             },
             {
               "name": "Romario Shepherd",
@@ -12867,11 +12882,11 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 0.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
-              "wickets": 0,
-              "economy": 8
+              "runs": 18,
+              "wickets": 1,
+              "economy": 9
             }
           ]
         }
@@ -12886,8 +12901,8 @@
         "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -12921,9 +12936,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -12933,21 +12948,27 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Sai Sudharsan": {
-          "batting": 110,
+          "batting": 132,
           "bowling": 0,
           "fielding": 0,
-          "total": 110
+          "total": 132
         },
         "Shubman Gill": {
-          "batting": 23,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 36
+        },
+        "Jos Buttler": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
         }
       },
       "isComplete": false
@@ -13104,18 +13125,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2599,
-      "top11Points": 2563,
+      "totalPointsAll": 2643,
+      "top11Points": 2607,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 282,
+          "batting": 304,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 300,
+          "rawPoints": 322,
           "multiplier": 2,
-          "effectivePoints": 600,
+          "effectivePoints": 644,
           "countsInTop11": true
         },
         {
@@ -13380,18 +13401,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2593,
-      "top11Points": 2535,
+      "totalPointsAll": 2619,
+      "top11Points": 2561,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 375,
+          "batting": 388,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 415,
+          "rawPoints": 428,
           "multiplier": 2,
-          "effectivePoints": 830,
+          "effectivePoints": 856,
           "countsInTop11": true
         },
         {
@@ -13518,8 +13539,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2351,
-      "top11Points": 2351,
+      "totalPointsAll": 2354,
+      "top11Points": 2354,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13547,11 +13568,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
-          "bowling": 309,
+          "bowling": 304,
           "fielding": 8,
-          "rawPoints": 330,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 330,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
@@ -13559,10 +13580,10 @@
           "role": "Batsman",
           "batting": 219,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 267,
+          "fielding": 56,
+          "rawPoints": 275,
           "multiplier": 1,
-          "effectivePoints": 267,
+          "effectivePoints": 275,
           "countsInTop11": true
         },
         {
@@ -13645,8 +13666,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2528,
-      "top11Points": 2462,
+      "totalPointsAll": 2553,
+      "top11Points": 2487,
       "players": [
         {
           "name": "Axar Patel",
@@ -13740,11 +13761,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 110,
+          "bowling": 135,
           "fielding": 0,
-          "rawPoints": 110,
+          "rawPoints": 135,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 135,
           "countsInTop11": true
         },
         {
@@ -13805,18 +13826,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2640,
-      "top11Points": 2640,
+      "totalPointsAll": 2646,
+      "top11Points": 2646,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 299,
+          "batting": 303,
           "bowling": 0,
           "fielding": 84,
-          "rawPoints": 383,
+          "rawPoints": 387,
           "multiplier": 1.5,
-          "effectivePoints": 575,
+          "effectivePoints": 581,
           "countsInTop11": true
         },
         {
