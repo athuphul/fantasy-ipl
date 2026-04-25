@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T13:44:53.587Z",
+  "lastUpdated": "2026-04-25T13:54:54.291Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529278",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 192,
-        "w": 3,
-        "o": 13.4
+        "r": 203,
+        "w": 4,
+        "o": 15
       }
     ],
     "playerScores": {
@@ -71,9 +71,9 @@
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -106,16 +106,16 @@
         "total": 41
       },
       "Nehal Wadhera": {
-        "batting": 19,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 20
       },
       "Shashank Singh": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Marcus Stoinis": {
         "batting": 0,
@@ -146,8 +146,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3653,
-      "top11Points": 3673
+      "totalPointsAll": 3644,
+      "top11Points": 3664
     },
     {
       "team": "Tikoo",
@@ -176,8 +176,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2689,
-      "top11Points": 2631
+      "totalPointsAll": 2690,
+      "top11Points": 2632
     },
     {
       "team": "Manav",
@@ -13217,9 +13217,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 192,
-          "w": 3,
-          "o": 13.4
+          "r": 203,
+          "w": 4,
+          "o": 15
         }
       ],
       "scorecard": [
@@ -13319,9 +13319,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 192,
-          "wickets": 3,
-          "overs": 13.4,
+          "runs": 203,
+          "wickets": 4,
+          "overs": 15,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -13353,19 +13353,19 @@
             {
               "name": "Shreyas Iyer",
               "runs": 28,
-              "balls": 19,
+              "balls": 20,
               "fours": 1,
               "sixes": 2,
-              "sr": 147.37,
+              "sr": 140,
               "dismissal": "batting"
             },
             {
               "name": "Nehal Wadhera",
-              "runs": 16,
-              "balls": 11,
+              "runs": 17,
+              "balls": 12,
               "fours": 1,
               "sixes": 1,
-              "sr": 145.45,
+              "sr": 141.67,
               "dismissal": "batting"
             }
           ],
@@ -13396,11 +13396,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 24,
+              "runs": 25,
               "wickets": 0,
-              "economy": 14.4
+              "economy": 12.5
             },
             {
               "name": "Kuldeep Yadav",
@@ -13472,9 +13472,9 @@
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -13507,16 +13507,16 @@
           "total": 41
         },
         "Nehal Wadhera": {
-          "batting": 19,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 20
         },
         "Shashank Singh": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -13835,8 +13835,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3653,
-      "top11Points": 3673,
+      "totalPointsAll": 3644,
+      "top11Points": 3664,
       "players": [
         {
           "name": "KL Rahul",
@@ -13916,17 +13916,6 @@
           "countsInTop11": true
         },
         {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 110,
-          "fielding": 8,
-          "rawPoints": 119,
-          "multiplier": 1,
-          "effectivePoints": 119,
-          "countsInTop11": true
-        },
-        {
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
@@ -13938,14 +13927,25 @@
           "countsInTop11": true
         },
         {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 100,
+          "fielding": 8,
+          "rawPoints": 109,
+          "multiplier": 1,
+          "effectivePoints": 109,
+          "countsInTop11": true
+        },
+        {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 66,
+          "batting": 67,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 82,
+          "rawPoints": 83,
           "multiplier": 1,
-          "effectivePoints": 82,
+          "effectivePoints": 83,
           "countsInTop11": true
         },
         {
@@ -13973,8 +13973,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2689,
-      "top11Points": 2631,
+      "totalPointsAll": 2690,
+      "top11Points": 2632,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14023,12 +14023,12 @@
         {
           "name": "Shashank Singh",
           "role": "Batsman",
-          "batting": 61,
+          "batting": 62,
           "bowling": 87,
           "fielding": 8,
-          "rawPoints": 156,
+          "rawPoints": 157,
           "multiplier": 1,
-          "effectivePoints": 156,
+          "effectivePoints": 157,
           "countsInTop11": true
         },
         {
