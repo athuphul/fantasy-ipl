@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T15:04:57.792Z",
+  "lastUpdated": "2026-04-25T15:14:54.300Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 132,
-        "w": 1,
-        "o": 11.3
+        "r": 152,
+        "w": 2,
+        "o": 12.5
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 12
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 123,
+        "batting": 136,
         "bowling": 0,
         "fielding": 0,
-        "total": 123
+        "total": 136
       },
       "Dhruv Jurel": {
-        "batting": 45,
+        "batting": 71,
         "bowling": 0,
         "fielding": 0,
-        "total": 45
+        "total": 71
+      },
+      "Riyan Parag": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -53,9 +59,9 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
@@ -67,13 +73,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3749,
-      "top11Points": 3521
+      "totalPointsAll": 3762,
+      "top11Points": 3534
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2859,
-      "top11Points": 2859
+      "totalPointsAll": 2861,
+      "top11Points": 2861
     },
     {
       "team": "Aakash",
@@ -86,14 +92,14 @@
       "top11Points": 2753
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 2786,
+      "top11Points": 2720
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 2675,
       "top11Points": 2675
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 2735,
-      "top11Points": 2669
     },
     {
       "team": "Ashwin",
@@ -13479,17 +13485,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 132,
-          "w": 1,
-          "o": 11.3
+          "r": 152,
+          "w": 2,
+          "o": 12.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 132,
-          "wickets": 1,
-          "overs": 11.3,
+          "runs": 152,
+          "wickets": 2,
+          "overs": 12.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -13502,21 +13508,21 @@
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 77,
-              "balls": 30,
-              "fours": 3,
-              "sixes": 9,
-              "sr": 256.67,
+              "runs": 87,
+              "balls": 33,
+              "fours": 4,
+              "sixes": 10,
+              "sr": 263.64,
               "dismissal": "batting"
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 38,
-              "balls": 28,
-              "fours": 5,
+              "runs": 51,
+              "balls": 35,
+              "fours": 8,
               "sixes": 1,
-              "sr": 135.71,
-              "dismissal": "batting"
+              "sr": 145.71,
+              "dismissal": "c Aniket Verma b Nitish Reddy"
             }
           ],
           "bowling": [
@@ -13554,11 +13560,19 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 31,
               "wickets": 0,
-              "economy": 16
+              "economy": 15.5
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 15
             }
           ]
         }
@@ -13571,16 +13585,22 @@
           "total": 12
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 123,
+          "batting": 136,
           "bowling": 0,
           "fielding": 0,
-          "total": 123
+          "total": 136
         },
         "Dhruv Jurel": {
-          "batting": 45,
+          "batting": 71,
           "bowling": 0,
           "fielding": 0,
-          "total": 45
+          "total": 71
+        },
+        "Riyan Parag": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -13602,9 +13622,9 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -14302,8 +14322,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2735,
-      "top11Points": 2669,
+      "totalPointsAll": 2786,
+      "top11Points": 2720,
       "players": [
         {
           "name": "Axar Patel",
@@ -14319,23 +14339,23 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 289,
+          "batting": 315,
           "bowling": 0,
           "fielding": 118,
-          "rawPoints": 407,
+          "rawPoints": 433,
           "multiplier": 1,
-          "effectivePoints": 407,
+          "effectivePoints": 433,
           "countsInTop11": true
         },
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 200,
-          "bowling": 85,
+          "bowling": 110,
           "fielding": 48,
-          "rawPoints": 333,
+          "rawPoints": 358,
           "multiplier": 1,
-          "effectivePoints": 333,
+          "effectivePoints": 358,
           "countsInTop11": true
         },
         {
@@ -14462,8 +14482,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2859,
-      "top11Points": 2859,
+      "totalPointsAll": 2861,
+      "top11Points": 2861,
       "players": [
         {
           "name": "Jos Buttler",
@@ -14501,12 +14521,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 107,
+          "batting": 108,
           "bowling": 50,
           "fielding": 24,
-          "rawPoints": 181,
+          "rawPoints": 182,
           "multiplier": 2,
-          "effectivePoints": 362,
+          "effectivePoints": 364,
           "countsInTop11": true
         },
         {
@@ -14727,8 +14747,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3749,
-      "top11Points": 3521,
+      "totalPointsAll": 3762,
+      "top11Points": 3534,
       "players": [
         {
           "name": "Sanju Samson",
@@ -14744,12 +14764,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 503,
+          "batting": 516,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 503,
+          "rawPoints": 516,
           "multiplier": 1,
-          "effectivePoints": 503,
+          "effectivePoints": 516,
           "countsInTop11": true
         },
         {
