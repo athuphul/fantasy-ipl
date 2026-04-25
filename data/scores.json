@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T10:04:54.218Z",
+  "lastUpdated": "2026-04-25T10:15:17.679Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529278",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 8,
-        "w": 0,
-        "o": 0.6
+        "r": 28,
+        "w": 1,
+        "o": 2.4
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 0,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Prabhsimran Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Priyansh Arya": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -79,8 +79,8 @@
     },
     {
       "team": "Ali",
-      "totalPointsAll": 3126,
-      "top11Points": 3131
+      "totalPointsAll": 3166,
+      "top11Points": 3171
     },
     {
       "team": "Athu",
@@ -89,8 +89,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2731,
-      "top11Points": 2731
+      "totalPointsAll": 2739,
+      "top11Points": 2739
     },
     {
       "team": "Aakash",
@@ -104,8 +104,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2635,
-      "top11Points": 2569
+      "totalPointsAll": 2660,
+      "top11Points": 2594
     },
     {
       "team": "Ashwin",
@@ -13139,61 +13139,69 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 8,
-          "w": 0,
-          "o": 0.6
+          "r": 28,
+          "w": 1,
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 8,
-          "wickets": 0,
-          "overs": 0.6,
+          "runs": 28,
+          "wickets": 1,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
+              "runs": 11,
+              "balls": 7,
+              "fours": 2,
               "sixes": 0,
-              "sr": 50,
-              "dismissal": "batting"
+              "sr": 157.14,
+              "dismissal": "c Prabhsimran Singh b Arshdeep Singh"
             },
             {
               "name": "KL Rahul",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 17,
+              "balls": 9,
+              "fours": 3,
               "sixes": 0,
-              "sr": 0,
+              "sr": 188.89,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 0.2,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 1,
+              "runs": 13,
+              "wickets": 1,
+              "economy": 7.8
+            },
+            {
+              "name": "Xavier Bartlett",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
               "wickets": 0,
-              "economy": 3
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 0,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Prabhsimran Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Priyansh Arya": {
           "batting": 0,
@@ -13227,9 +13235,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -13530,8 +13538,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3126,
-      "top11Points": 3131,
+      "totalPointsAll": 3166,
+      "top11Points": 3171,
       "players": [
         {
           "name": "Abhishek Sharma",
@@ -13547,12 +13555,12 @@
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 290,
+          "batting": 310,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 316,
+          "rawPoints": 336,
           "multiplier": 2,
-          "effectivePoints": 632,
+          "effectivePoints": 672,
           "countsInTop11": true
         },
         {
@@ -13933,8 +13941,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2635,
-      "top11Points": 2569,
+      "totalPointsAll": 2660,
+      "top11Points": 2594,
       "players": [
         {
           "name": "Axar Patel",
@@ -13992,6 +14000,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 185,
+          "fielding": 24,
+          "rawPoints": 209,
+          "multiplier": 1,
+          "effectivePoints": 209,
+          "countsInTop11": true
+        },
+        {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
           "batting": 109,
@@ -14000,17 +14019,6 @@
           "rawPoints": 138,
           "multiplier": 1.5,
           "effectivePoints": 207,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 160,
-          "fielding": 24,
-          "rawPoints": 184,
-          "multiplier": 1,
-          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -14093,8 +14101,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2731,
-      "top11Points": 2731,
+      "totalPointsAll": 2739,
+      "top11Points": 2739,
       "players": [
         {
           "name": "Jos Buttler",
@@ -14134,10 +14142,10 @@
           "role": "Wicket Keeper",
           "batting": 305,
           "bowling": 0,
-          "fielding": 37,
-          "rawPoints": 342,
+          "fielding": 45,
+          "rawPoints": 350,
           "multiplier": 1,
-          "effectivePoints": 342,
+          "effectivePoints": 350,
           "countsInTop11": true
         },
         {
