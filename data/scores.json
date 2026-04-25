@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T14:04:53.466Z",
+  "lastUpdated": "2026-04-25T14:14:55.500Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 25,
-        "w": 0,
-        "o": 0.6
+        "r": 41,
+        "w": 1,
+        "o": 2.5
       }
     ],
     "playerScores": {
@@ -22,10 +22,16 @@
         "total": 1
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 0,
+        "batting": 32,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 32
+      },
+      "Dhruv Jurel": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -56,13 +62,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3644,
-      "top11Points": 3664
+      "totalPointsAll": 3728,
+      "top11Points": 3748
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3626,
-      "top11Points": 3398
+      "totalPointsAll": 3658,
+      "top11Points": 3430
     },
     {
       "team": "Ritik",
@@ -81,23 +87,23 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2685,
-      "top11Points": 2685
+      "totalPointsAll": 2675,
+      "top11Points": 2675
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2691,
-      "top11Points": 2633
+      "totalPointsAll": 2696,
+      "top11Points": 2638
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2690,
-      "top11Points": 2624
+      "totalPointsAll": 2691,
+      "top11Points": 2625
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2271,
-      "top11Points": 2255
+      "totalPointsAll": 2286,
+      "top11Points": 2270
     }
   ],
   "matchHistory": [
@@ -13127,9 +13133,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 237,
+          "r": 263,
           "w": 4,
-          "o": 16.4
+          "o": 18.4
         }
       ],
       "scorecard": [
@@ -13229,9 +13235,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 237,
+          "runs": 263,
           "wickets": 4,
-          "overs": 16.4,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -13262,26 +13268,35 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 28,
-              "balls": 20,
-              "fours": 1,
-              "sixes": 2,
-              "sr": 140,
+              "runs": 62,
+              "balls": 31,
+              "fours": 3,
+              "sixes": 6,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
               "name": "Nehal Wadhera",
-              "runs": 17,
-              "balls": 12,
-              "fours": 1,
+              "runs": 25,
+              "balls": 15,
+              "fours": 3,
               "sixes": 1,
-              "sr": 141.67,
+              "sr": 166.67,
+              "dismissal": "c (sub)Karun Nair b Vipraj Nigam"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 6,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
-              "name": "Auqib Nabi Dar",
+              "name": "Auqib Nabi",
               "overs": 2,
               "maidens": 0,
               "runs": 41,
@@ -13306,27 +13321,27 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 25,
+              "runs": 41,
               "wickets": 0,
-              "economy": 12.5
+              "economy": 13.67
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 46,
               "wickets": 2,
-              "economy": 7.67
+              "economy": 11.5
             },
             {
               "name": "Vipraj Nigam",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 14
+              "runs": 24,
+              "wickets": 1,
+              "economy": 12
             }
           ]
         }
@@ -13376,9 +13391,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 55,
+          "bowling": 45,
           "fielding": 0,
-          "total": 55
+          "total": 45
         },
         "T Natarajan": {
           "batting": 0,
@@ -13394,9 +13409,9 @@
         },
         "Vipraj Nigam": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 15,
           "fielding": 0,
-          "total": 0
+          "total": 15
         },
         "Priyansh Arya": {
           "batting": 70,
@@ -13411,22 +13426,22 @@
           "total": 128
         },
         "Shreyas Iyer": {
-          "batting": 33,
+          "batting": 102,
           "bowling": 0,
           "fielding": 8,
-          "total": 41
+          "total": 110
         },
         "Nehal Wadhera": {
-          "batting": 20,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 35
         },
         "Shashank Singh": {
-          "batting": 2,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 7
         },
         "Marcus Stoinis": {
           "batting": 0,
@@ -13464,17 +13479,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 25,
-          "w": 0,
-          "o": 0.6
+          "r": 41,
+          "w": 1,
+          "o": 2.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 25,
-          "wickets": 0,
-          "overs": 0.6,
+          "runs": 41,
+          "wickets": 1,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -13487,22 +13502,30 @@
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 0,
-              "balls": 0,
+              "runs": 24,
+              "balls": 5,
               "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sixes": 4,
+              "sr": 480,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 25,
               "wickets": 0,
-              "economy": 6
+              "economy": 25
+            },
+            {
+              "name": "Pat Cummins",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -13515,10 +13538,16 @@
           "total": 1
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 0,
+          "batting": 32,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 32
+        },
+        "Dhruv Jurel": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -13837,8 +13866,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3644,
-      "top11Points": 3664,
+      "totalPointsAll": 3728,
+      "top11Points": 3748,
       "players": [
         {
           "name": "KL Rahul",
@@ -13865,12 +13894,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 348,
+          "batting": 417,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 372,
+          "rawPoints": 441,
           "multiplier": 1,
-          "effectivePoints": 372,
+          "effectivePoints": 441,
           "countsInTop11": true
         },
         {
@@ -13942,12 +13971,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 67,
+          "batting": 82,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 83,
+          "rawPoints": 98,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 98,
           "countsInTop11": true
         },
         {
@@ -13975,8 +14004,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2691,
-      "top11Points": 2633,
+      "totalPointsAll": 2696,
+      "top11Points": 2638,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14025,12 +14054,12 @@
         {
           "name": "Shashank Singh",
           "role": "Batsman",
-          "batting": 63,
+          "batting": 68,
           "bowling": 87,
           "fielding": 8,
-          "rawPoints": 158,
+          "rawPoints": 163,
           "multiplier": 1,
-          "effectivePoints": 158,
+          "effectivePoints": 163,
           "countsInTop11": true
         },
         {
@@ -14113,8 +14142,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2685,
-      "top11Points": 2685,
+      "totalPointsAll": 2675,
+      "top11Points": 2675,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -14175,11 +14204,11 @@
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 6,
-          "bowling": 155,
+          "bowling": 145,
           "fielding": 8,
-          "rawPoints": 169,
+          "rawPoints": 159,
           "multiplier": 1,
-          "effectivePoints": 169,
+          "effectivePoints": 159,
           "countsInTop11": true
         },
         {
@@ -14240,8 +14269,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2690,
-      "top11Points": 2624,
+      "totalPointsAll": 2691,
+      "top11Points": 2625,
       "players": [
         {
           "name": "Axar Patel",
@@ -14257,12 +14286,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 244,
+          "batting": 245,
           "bowling": 0,
           "fielding": 118,
-          "rawPoints": 362,
+          "rawPoints": 363,
           "multiplier": 1,
-          "effectivePoints": 362,
+          "effectivePoints": 363,
           "countsInTop11": true
         },
         {
@@ -14527,8 +14556,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2271,
-      "top11Points": 2255,
+      "totalPointsAll": 2286,
+      "top11Points": 2270,
       "players": [
         {
           "name": "Travis Head",
@@ -14608,6 +14637,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Vipraj Nigam",
+          "role": "All-Rounder",
+          "batting": 14,
+          "bowling": 45,
+          "fielding": 0,
+          "rawPoints": 59,
+          "multiplier": 1,
+          "effectivePoints": 59,
+          "countsInTop11": true
+        },
+        {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
           "batting": 50,
@@ -14627,17 +14667,6 @@
           "rawPoints": 46,
           "multiplier": 1,
           "effectivePoints": 46,
-          "countsInTop11": true
-        },
-        {
-          "name": "Vipraj Nigam",
-          "role": "All-Rounder",
-          "batting": 14,
-          "bowling": 30,
-          "fielding": 0,
-          "rawPoints": 44,
-          "multiplier": 1,
-          "effectivePoints": 44,
           "countsInTop11": true
         },
         {
@@ -14665,8 +14694,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3626,
-      "top11Points": 3398,
+      "totalPointsAll": 3658,
+      "top11Points": 3430,
       "players": [
         {
           "name": "Sanju Samson",
@@ -14682,12 +14711,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 380,
+          "batting": 412,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 380,
+          "rawPoints": 412,
           "multiplier": 1,
-          "effectivePoints": 380,
+          "effectivePoints": 412,
           "countsInTop11": true
         },
         {
