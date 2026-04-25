@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T11:25:10.010Z",
+  "lastUpdated": "2026-04-25T11:35:05.937Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529278",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 213,
-        "w": 1,
-        "o": 15.6
+        "r": 220,
+        "w": 2,
+        "o": 17
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 204,
+        "batting": 213,
         "bowling": 0,
         "fielding": 0,
-        "total": 204
+        "total": 213
       },
       "Nitish Rana": {
-        "batting": 111,
+        "batting": 108,
         "bowling": 0,
         "fielding": 0,
-        "total": 111
+        "total": 108
       },
       "Prabhsimran Singh": {
         "batting": 0,
@@ -54,8 +54,8 @@
       "Marcus Stoinis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Marco Jansen": {
         "batting": 0,
@@ -71,17 +71,17 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3534,
-      "top11Points": 3539
+      "totalPointsAll": 3552,
+      "top11Points": 3557
     },
     {
       "team": "Tikoo",
@@ -90,8 +90,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2822,
-      "top11Points": 2786
+      "totalPointsAll": 2844,
+      "top11Points": 2808
     },
     {
       "team": "Athu",
@@ -105,8 +105,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2630,
-      "top11Points": 2630
+      "totalPointsAll": 2638,
+      "top11Points": 2638
     },
     {
       "team": "Manav",
@@ -13145,17 +13145,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 213,
-          "w": 1,
-          "o": 15.6
+          "r": 220,
+          "w": 2,
+          "o": 17
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 213,
-          "wickets": 1,
-          "overs": 15.6,
+          "runs": 220,
+          "wickets": 2,
+          "overs": 17,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -13168,21 +13168,21 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 121,
-              "balls": 52,
-              "fours": 12,
+              "runs": 129,
+              "balls": 57,
+              "fours": 13,
               "sixes": 8,
-              "sr": 232.69,
+              "sr": 226.32,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Rana",
-              "runs": 72,
-              "balls": 36,
+              "runs": 74,
+              "balls": 39,
               "fours": 10,
               "sixes": 2,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 189.74,
+              "dismissal": "c Marcus Stoinis b Yuzvendra Chahal"
             }
           ],
           "bowling": [
@@ -13212,19 +13212,19 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 43,
+              "runs": 48,
               "wickets": 0,
-              "economy": 16.13
+              "economy": 16
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 0,
-              "economy": 9.67
+              "runs": 36,
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Marcus Stoinis",
@@ -13239,16 +13239,16 @@
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 204,
+          "batting": 213,
           "bowling": 0,
           "fielding": 0,
-          "total": 204
+          "total": 213
         },
         "Nitish Rana": {
-          "batting": 111,
+          "batting": 108,
           "bowling": 0,
           "fielding": 0,
-          "total": 111
+          "total": 108
         },
         "Prabhsimran Singh": {
           "batting": 0,
@@ -13277,8 +13277,8 @@
         "Marcus Stoinis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Marco Jansen": {
           "batting": 0,
@@ -13294,9 +13294,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -13453,8 +13453,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2822,
-      "top11Points": 2786,
+      "totalPointsAll": 2844,
+      "top11Points": 2808,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -13525,12 +13525,23 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 216,
+          "batting": 213,
           "bowling": -10,
           "fielding": 34,
-          "rawPoints": 240,
+          "rawPoints": 237,
           "multiplier": 1,
-          "effectivePoints": 240,
+          "effectivePoints": 237,
+          "countsInTop11": true
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 129,
+          "fielding": 16,
+          "rawPoints": 145,
+          "multiplier": 1,
+          "effectivePoints": 145,
           "countsInTop11": true
         },
         {
@@ -13542,17 +13553,6 @@
           "rawPoints": 141,
           "multiplier": 1,
           "effectivePoints": 141,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yuzvendra Chahal",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 104,
-          "fielding": 16,
-          "rawPoints": 120,
-          "multiplier": 1,
-          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
@@ -13591,18 +13591,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3534,
-      "top11Points": 3539,
+      "totalPointsAll": 3552,
+      "top11Points": 3557,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 494,
+          "batting": 503,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 520,
+          "rawPoints": 529,
           "multiplier": 2,
-          "effectivePoints": 1040,
+          "effectivePoints": 1058,
           "countsInTop11": true
         },
         {
@@ -13867,8 +13867,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2630,
-      "top11Points": 2630,
+      "totalPointsAll": 2638,
+      "top11Points": 2638,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -13963,10 +13963,10 @@
           "role": "All-Rounder",
           "batting": 58,
           "bowling": 0,
-          "fielding": 18,
-          "rawPoints": 76,
+          "fielding": 26,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 76,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
