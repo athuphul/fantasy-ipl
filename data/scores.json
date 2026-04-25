@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T13:14:54.444Z",
+  "lastUpdated": "2026-04-25T13:24:55.541Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529278",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 133,
-        "w": 2,
-        "o": 7.5
+        "r": 147,
+        "w": 3,
+        "o": 10
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 15,
         "fielding": 0,
-        "total": 10
+        "total": 15
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 70,
         "fielding": 0,
-        "total": 25
+        "total": 70
       },
       "T Natarajan": {
         "batting": 0,
@@ -100,10 +100,16 @@
         "total": 128
       },
       "Shreyas Iyer": {
-        "batting": 1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 11
+      },
+      "Nehal Wadhera": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Shashank Singh": {
         "batting": 0,
@@ -134,20 +140,14 @@
         "bowling": -5,
         "fielding": 0,
         "total": -5
-      },
-      "Nehal Wadhera": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3602,
-      "top11Points": 3622
+      "totalPointsAll": 3605,
+      "top11Points": 3625
     },
     {
       "team": "Tikoo",
@@ -171,8 +171,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2655,
-      "top11Points": 2655
+      "totalPointsAll": 2700,
+      "top11Points": 2700
     },
     {
       "team": "Ashwin",
@@ -181,8 +181,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2670,
-      "top11Points": 2604
+      "totalPointsAll": 2680,
+      "top11Points": 2614
     },
     {
       "team": "Tanay",
@@ -13217,9 +13217,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 133,
-          "w": 2,
-          "o": 7.5
+          "r": 147,
+          "w": 3,
+          "o": 10
         }
       ],
       "scorecard": [
@@ -13319,9 +13319,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 133,
-          "wickets": 2,
-          "overs": 7.5,
+          "runs": 147,
+          "wickets": 3,
+          "overs": 10,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -13343,20 +13343,29 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 7,
-              "balls": 5,
+              "runs": 17,
+              "balls": 10,
               "fours": 1,
-              "sixes": 0,
-              "sr": 140,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 170,
+              "dismissal": "b Kuldeep Yadav"
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 1,
-              "balls": 1,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 60,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nehal Wadhera",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
@@ -13379,11 +13388,11 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 31,
+              "runs": 40,
               "wickets": 1,
-              "economy": 15.5
+              "economy": 13.33
             },
             {
               "name": "T Natarajan",
@@ -13395,11 +13404,11 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
-              "wickets": 1,
-              "economy": 7
+              "runs": 11,
+              "wickets": 2,
+              "economy": 5.5
             }
           ]
         }
@@ -13431,9 +13440,9 @@
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 15,
           "fielding": 0,
-          "total": 10
+          "total": 15
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -13449,9 +13458,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 70,
           "fielding": 0,
-          "total": 25
+          "total": 70
         },
         "T Natarajan": {
           "batting": 0,
@@ -13484,10 +13493,16 @@
           "total": 128
         },
         "Shreyas Iyer": {
-          "batting": 1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 11
+        },
+        "Nehal Wadhera": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Shashank Singh": {
           "batting": 0,
@@ -13518,12 +13533,6 @@
           "bowling": -5,
           "fielding": 0,
           "total": -5
-        },
-        "Nehal Wadhera": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         }
       },
       "isComplete": false
@@ -13818,8 +13827,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3602,
-      "top11Points": 3622,
+      "totalPointsAll": 3605,
+      "top11Points": 3625,
       "players": [
         {
           "name": "KL Rahul",
@@ -13846,12 +13855,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 316,
+          "batting": 318,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 340,
+          "rawPoints": 342,
           "multiplier": 1,
-          "effectivePoints": 340,
+          "effectivePoints": 342,
           "countsInTop11": true
         },
         {
@@ -13923,12 +13932,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 47,
+          "batting": 48,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 63,
+          "rawPoints": 64,
           "multiplier": 1,
-          "effectivePoints": 63,
+          "effectivePoints": 64,
           "countsInTop11": true
         },
         {
@@ -14094,8 +14103,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2655,
-      "top11Points": 2655,
+      "totalPointsAll": 2700,
+      "top11Points": 2700,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -14153,6 +14162,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": 6,
+          "bowling": 170,
+          "fielding": 8,
+          "rawPoints": 184,
+          "multiplier": 1,
+          "effectivePoints": 184,
+          "countsInTop11": true
+        },
+        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 69,
@@ -14161,17 +14181,6 @@
           "rawPoints": 103,
           "multiplier": 1.5,
           "effectivePoints": 155,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": 6,
-          "bowling": 125,
-          "fielding": 8,
-          "rawPoints": 139,
-          "multiplier": 1,
-          "effectivePoints": 139,
           "countsInTop11": true
         },
         {
@@ -14221,18 +14230,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2670,
-      "top11Points": 2604,
+      "totalPointsAll": 2680,
+      "top11Points": 2614,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 29,
-          "bowling": 210,
+          "bowling": 215,
           "fielding": 8,
-          "rawPoints": 247,
+          "rawPoints": 252,
           "multiplier": 2,
-          "effectivePoints": 494,
+          "effectivePoints": 504,
           "countsInTop11": true
         },
         {
