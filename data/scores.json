@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T15:55:10.682Z",
+  "lastUpdated": "2026-04-25T16:04:56.799Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 225,
-        "w": 5,
-        "o": 19.2
+        "r": 228,
+        "w": 6,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -51,6 +51,12 @@
         "fielding": 0,
         "total": 5
       },
+      "Jofra Archer": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
       "Abhishek Sharma": {
         "batting": 0,
         "bowling": 0,
@@ -72,8 +78,8 @@
       "Nitish Kumar Reddy": {
         "batting": 0,
         "bowling": 20,
-        "fielding": 0,
-        "total": 20
+        "fielding": 8,
+        "total": 28
       },
       "Travis Head": {
         "batting": 0,
@@ -101,8 +107,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2861,
-      "top11Points": 2825
+      "totalPointsAll": 2863,
+      "top11Points": 2827
     },
     {
       "team": "Athu",
@@ -111,8 +117,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2781,
-      "top11Points": 2715
+      "totalPointsAll": 2789,
+      "top11Points": 2723
     },
     {
       "team": "Kishan",
@@ -13503,17 +13509,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 225,
-          "w": 5,
-          "o": 19.2
+          "r": 228,
+          "w": 6,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 225,
-          "wickets": 5,
-          "overs": 19.2,
+          "runs": 228,
+          "wickets": 6,
+          "overs": 20,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -13563,30 +13569,39 @@
             {
               "name": "Shimron Hetmyer",
               "runs": 11,
-              "balls": 9,
+              "balls": 10,
               "fours": 1,
               "sixes": 0,
-              "sr": 122.22,
-              "dismissal": "batting"
+              "sr": 110,
+              "dismissal": "c Nitish Reddy b Praful Hinge"
             },
             {
               "name": "Ravindra Jadeja",
               "runs": 4,
-              "balls": 2,
+              "balls": 3,
               "fours": 1,
               "sixes": 0,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 133.33,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Praful Hinge",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 47,
-              "wickets": 0,
-              "economy": 14.1
+              "runs": 49,
+              "wickets": 1,
+              "economy": 12.25
             },
             {
               "name": "Pat Cummins",
@@ -13668,6 +13683,12 @@
           "fielding": 0,
           "total": 5
         },
+        "Jofra Archer": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
         "Abhishek Sharma": {
           "batting": 0,
           "bowling": 0,
@@ -13689,8 +13710,8 @@
         "Nitish Kumar Reddy": {
           "batting": 0,
           "bowling": 20,
-          "fielding": 0,
-          "total": 20
+          "fielding": 8,
+          "total": 28
         },
         "Travis Head": {
           "batting": 0,
@@ -13853,8 +13874,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2861,
-      "top11Points": 2825,
+      "totalPointsAll": 2863,
+      "top11Points": 2827,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -13881,12 +13902,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 12,
+          "batting": 14,
           "bowling": 320,
           "fielding": 34,
-          "rawPoints": 366,
+          "rawPoints": 368,
           "multiplier": 1,
-          "effectivePoints": 366,
+          "effectivePoints": 368,
           "countsInTop11": true
         },
         {
@@ -14394,8 +14415,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2781,
-      "top11Points": 2715,
+      "totalPointsAll": 2789,
+      "top11Points": 2723,
       "players": [
         {
           "name": "Axar Patel",
@@ -14424,10 +14445,10 @@
           "role": "All-Rounder",
           "batting": 200,
           "bowling": 105,
-          "fielding": 48,
-          "rawPoints": 353,
+          "fielding": 56,
+          "rawPoints": 361,
           "multiplier": 1,
-          "effectivePoints": 353,
+          "effectivePoints": 361,
           "countsInTop11": true
         },
         {
