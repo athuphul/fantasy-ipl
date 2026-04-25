@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T13:04:53.772Z",
+  "lastUpdated": "2026-04-25T13:14:54.444Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529278",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 121,
-        "w": 0,
-        "o": 6.2
+        "r": 133,
+        "w": 2,
+        "o": 7.5
       }
     ],
     "playerScores": {
@@ -42,14 +42,14 @@
       "Sameer Rizvi": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Axar Patel": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 10,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "T Natarajan": {
         "batting": 0,
@@ -88,22 +88,22 @@
         "total": 0
       },
       "Priyansh Arya": {
-        "batting": 64,
+        "batting": 70,
         "bowling": 0,
         "fielding": 0,
-        "total": 64
+        "total": 70
       },
       "Prabhsimran Singh": {
-        "batting": 114,
+        "batting": 120,
         "bowling": 0,
         "fielding": 8,
-        "total": 122
+        "total": 128
       },
       "Shreyas Iyer": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 9
       },
       "Shashank Singh": {
         "batting": 0,
@@ -146,8 +146,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3601,
-      "top11Points": 3621
+      "totalPointsAll": 3602,
+      "top11Points": 3622
     },
     {
       "team": "Tikoo",
@@ -156,13 +156,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2853,
-      "top11Points": 2853
+      "totalPointsAll": 2859,
+      "top11Points": 2859
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2841,
-      "top11Points": 2805
+      "totalPointsAll": 2849,
+      "top11Points": 2813
     },
     {
       "team": "Athu",
@@ -171,18 +171,18 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2630,
-      "top11Points": 2630
+      "totalPointsAll": 2655,
+      "top11Points": 2655
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2683,
-      "top11Points": 2625
+      "totalPointsAll": 2689,
+      "top11Points": 2631
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2650,
-      "top11Points": 2584
+      "totalPointsAll": 2670,
+      "top11Points": 2604
     },
     {
       "team": "Tanay",
@@ -13217,9 +13217,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 121,
-          "w": 0,
-          "o": 6.2
+          "r": 133,
+          "w": 2,
+          "o": 7.5
         }
       ],
       "scorecard": [
@@ -13319,26 +13319,44 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 121,
-          "wickets": 0,
-          "overs": 6.2,
+          "runs": 133,
+          "wickets": 2,
+          "overs": 7.5,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 38,
-              "balls": 14,
-              "fours": 1,
+              "runs": 43,
+              "balls": 17,
+              "fours": 2,
               "sixes": 5,
-              "sr": 271.43,
-              "dismissal": "batting"
+              "sr": 252.94,
+              "dismissal": "c Sameer Rizvi b Axar Patel"
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 71,
-              "balls": 23,
-              "fours": 8,
+              "runs": 76,
+              "balls": 26,
+              "fours": 9,
               "sixes": 5,
-              "sr": 308.7,
+              "sr": 292.31,
+              "dismissal": "lbw b Kuldeep Yadav"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 7,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shreyas Iyer",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -13361,11 +13379,11 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 0,
-              "economy": 20
+              "runs": 31,
+              "wickets": 1,
+              "economy": 15.5
             },
             {
               "name": "T Natarajan",
@@ -13374,6 +13392,14 @@
               "runs": 9,
               "wickets": 0,
               "economy": 9
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
             }
           ]
         }
@@ -13400,14 +13426,14 @@
         "Sameer Rizvi": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Axar Patel": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 10,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -13423,9 +13449,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "T Natarajan": {
           "batting": 0,
@@ -13446,22 +13472,22 @@
           "total": 0
         },
         "Priyansh Arya": {
-          "batting": 64,
+          "batting": 70,
           "bowling": 0,
           "fielding": 0,
-          "total": 64
+          "total": 70
         },
         "Prabhsimran Singh": {
-          "batting": 114,
+          "batting": 120,
           "bowling": 0,
           "fielding": 8,
-          "total": 122
+          "total": 128
         },
         "Shreyas Iyer": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
         },
         "Shashank Singh": {
           "batting": 0,
@@ -13654,8 +13680,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2841,
-      "top11Points": 2805,
+      "totalPointsAll": 2849,
+      "top11Points": 2813,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -13706,10 +13732,10 @@
           "role": "Batsman",
           "batting": 275,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 283,
+          "fielding": 16,
+          "rawPoints": 291,
           "multiplier": 1,
-          "effectivePoints": 283,
+          "effectivePoints": 291,
           "countsInTop11": true
         },
         {
@@ -13792,8 +13818,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3601,
-      "top11Points": 3621,
+      "totalPointsAll": 3602,
+      "top11Points": 3622,
       "players": [
         {
           "name": "KL Rahul",
@@ -13820,12 +13846,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 315,
+          "batting": 316,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 339,
+          "rawPoints": 340,
           "multiplier": 1,
-          "effectivePoints": 339,
+          "effectivePoints": 340,
           "countsInTop11": true
         },
         {
@@ -13930,8 +13956,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2683,
-      "top11Points": 2625,
+      "totalPointsAll": 2689,
+      "top11Points": 2631,
       "players": [
         {
           "name": "Shubman Gill",
@@ -13947,12 +13973,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 394,
+          "batting": 400,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 394,
+          "rawPoints": 400,
           "multiplier": 1,
-          "effectivePoints": 394,
+          "effectivePoints": 400,
           "countsInTop11": true
         },
         {
@@ -14068,8 +14094,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2630,
-      "top11Points": 2630,
+      "totalPointsAll": 2655,
+      "top11Points": 2655,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -14141,11 +14167,11 @@
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": 6,
-          "bowling": 100,
+          "bowling": 125,
           "fielding": 8,
-          "rawPoints": 114,
+          "rawPoints": 139,
           "multiplier": 1,
-          "effectivePoints": 114,
+          "effectivePoints": 139,
           "countsInTop11": true
         },
         {
@@ -14195,18 +14221,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2650,
-      "top11Points": 2584,
+      "totalPointsAll": 2670,
+      "top11Points": 2604,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 29,
-          "bowling": 200,
+          "bowling": 210,
           "fielding": 8,
-          "rawPoints": 237,
+          "rawPoints": 247,
           "multiplier": 2,
-          "effectivePoints": 474,
+          "effectivePoints": 494,
           "countsInTop11": true
         },
         {
@@ -14355,8 +14381,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2853,
-      "top11Points": 2853,
+      "totalPointsAll": 2859,
+      "top11Points": 2859,
       "players": [
         {
           "name": "Jos Buttler",
@@ -14372,12 +14398,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 419,
+          "batting": 425,
           "bowling": 0,
           "fielding": 45,
-          "rawPoints": 464,
+          "rawPoints": 470,
           "multiplier": 1,
-          "effectivePoints": 464,
+          "effectivePoints": 470,
           "countsInTop11": true
         },
         {
