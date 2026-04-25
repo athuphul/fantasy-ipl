@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T16:35:00.421Z",
+  "lastUpdated": "2026-04-25T16:44:55.160Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 38,
+        "r": 62,
         "w": 1,
-        "o": 3.1
+        "o": 4.3
       }
     ],
     "playerScores": {
@@ -82,16 +82,16 @@
         "total": 8
       },
       "Abhishek Sharma": {
-        "batting": 10,
+        "batting": 38,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 38
       },
       "Ishan Kishan": {
-        "batting": 23,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 43
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3743,
-      "top11Points": 3763
+      "totalPointsAll": 3785,
+      "top11Points": 3805
     },
     {
       "team": "Tikoo",
@@ -120,8 +120,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2896,
-      "top11Points": 2896
+      "totalPointsAll": 2916,
+      "top11Points": 2916
     },
     {
       "team": "Aakash",
@@ -13533,9 +13533,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 38,
+          "r": 62,
           "w": 1,
-          "o": 3.1
+          "o": 4.3
         }
       ],
       "scorecard": [
@@ -13671,9 +13671,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 38,
+          "runs": 62,
           "wickets": 1,
-          "overs": 3.1,
+          "overs": 4.3,
           "batting": [
             {
               "name": "Travis Head",
@@ -13686,20 +13686,20 @@
             },
             {
               "name": "Abhishek Sharma",
-              "runs": 8,
-              "balls": 8,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 22,
+              "balls": 12,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 183.33,
               "dismissal": "batting"
             },
             {
               "name": "Ishan Kishan",
-              "runs": 18,
-              "balls": 7,
-              "fours": 3,
+              "runs": 22,
+              "balls": 10,
+              "fours": 4,
               "sixes": 1,
-              "sr": 257.14,
+              "sr": 220,
               "dismissal": "batting"
             }
           ],
@@ -13714,11 +13714,19 @@
             },
             {
               "name": "Nandre Burger",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 28,
               "wickets": 0,
-              "economy": 9.75
+              "economy": 14
+            },
+            {
+              "name": "Tushar Deshpande",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -13785,16 +13793,16 @@
           "total": 8
         },
         "Abhishek Sharma": {
-          "batting": 10,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 38
         },
         "Ishan Kishan": {
-          "batting": 23,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 43
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -14101,8 +14109,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3743,
-      "top11Points": 3763,
+      "totalPointsAll": 3785,
+      "top11Points": 3805,
       "players": [
         {
           "name": "KL Rahul",
@@ -14118,12 +14126,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 517,
+          "batting": 545,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 541,
+          "rawPoints": 569,
           "multiplier": 1.5,
-          "effectivePoints": 812,
+          "effectivePoints": 854,
           "countsInTop11": true
         },
         {
@@ -14664,8 +14672,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2896,
-      "top11Points": 2896,
+      "totalPointsAll": 2916,
+      "top11Points": 2916,
       "players": [
         {
           "name": "Jos Buttler",
@@ -14692,12 +14700,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 371,
+          "batting": 391,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 423,
+          "rawPoints": 443,
           "multiplier": 1,
-          "effectivePoints": 423,
+          "effectivePoints": 443,
           "countsInTop11": true
         },
         {
