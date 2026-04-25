@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T16:24:54.363Z",
+  "lastUpdated": "2026-04-25T16:35:00.421Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 17,
+        "r": 38,
         "w": 1,
-        "o": 1.3
+        "o": 3.1
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Jofra Archer": {
         "batting": 2,
-        "bowling": 25,
+        "bowling": 15,
         "fielding": 0,
-        "total": 27
+        "total": 17
       },
       "Tushar Deshpande": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 8
       },
       "Abhishek Sharma": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Ishan Kishan": {
-        "batting": 8,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 23
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3728,
-      "top11Points": 3748
+      "totalPointsAll": 3743,
+      "top11Points": 3763
     },
     {
       "team": "Tikoo",
@@ -120,13 +120,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 2881,
-      "top11Points": 2881
+      "totalPointsAll": 2896,
+      "top11Points": 2896
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2888,
-      "top11Points": 2852
+      "totalPointsAll": 2878,
+      "top11Points": 2842
     },
     {
       "team": "Athu",
@@ -13533,9 +13533,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 17,
+          "r": 38,
           "w": 1,
-          "o": 1.3
+          "o": 3.1
         }
       ],
       "scorecard": [
@@ -13671,9 +13671,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 17,
+          "runs": 38,
           "wickets": 1,
-          "overs": 1.3,
+          "overs": 3.1,
           "batting": [
             {
               "name": "Travis Head",
@@ -13686,39 +13686,39 @@
             },
             {
               "name": "Abhishek Sharma",
-              "runs": 0,
-              "balls": 2,
-              "fours": 0,
+              "runs": 8,
+              "balls": 8,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "Ishan Kishan",
-              "runs": 6,
-              "balls": 1,
-              "fours": 0,
+              "runs": 18,
+              "balls": 7,
+              "fours": 3,
               "sixes": 1,
-              "sr": 600,
+              "sr": 257.14,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 25,
               "wickets": 1,
-              "economy": 13
+              "economy": 12.5
             },
             {
               "name": "Nandre Burger",
-              "overs": 0.2,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 0,
+              "runs": 13,
               "wickets": 0,
-              "economy": 0
+              "economy": 9.75
             }
           ]
         }
@@ -13762,9 +13762,9 @@
         },
         "Jofra Archer": {
           "batting": 2,
-          "bowling": 25,
+          "bowling": 15,
           "fielding": 0,
-          "total": 27
+          "total": 17
         },
         "Tushar Deshpande": {
           "batting": 0,
@@ -13785,16 +13785,16 @@
           "total": 8
         },
         "Abhishek Sharma": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Ishan Kishan": {
-          "batting": 8,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 23
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -13963,8 +13963,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2888,
-      "top11Points": 2852,
+      "totalPointsAll": 2878,
+      "top11Points": 2842,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -13981,11 +13981,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 14,
-          "bowling": 345,
+          "bowling": 335,
           "fielding": 34,
-          "rawPoints": 393,
+          "rawPoints": 383,
           "multiplier": 1,
-          "effectivePoints": 393,
+          "effectivePoints": 383,
           "countsInTop11": true
         },
         {
@@ -14101,8 +14101,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3728,
-      "top11Points": 3748,
+      "totalPointsAll": 3743,
+      "top11Points": 3763,
       "players": [
         {
           "name": "KL Rahul",
@@ -14118,12 +14118,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 507,
+          "batting": 517,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 531,
+          "rawPoints": 541,
           "multiplier": 1.5,
-          "effectivePoints": 797,
+          "effectivePoints": 812,
           "countsInTop11": true
         },
         {
@@ -14664,8 +14664,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 2881,
-      "top11Points": 2881,
+      "totalPointsAll": 2896,
+      "top11Points": 2896,
       "players": [
         {
           "name": "Jos Buttler",
@@ -14692,12 +14692,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 356,
+          "batting": 371,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 408,
+          "rawPoints": 423,
           "multiplier": 1,
-          "effectivePoints": 408,
+          "effectivePoints": 423,
           "countsInTop11": true
         },
         {
