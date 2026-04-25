@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T17:40:27.914Z",
+  "lastUpdated": "2026-04-25T17:44:57.648Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529279",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 193,
+        "r": 213,
         "w": 3,
-        "o": 16
+        "o": 17
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Tushar Deshpande": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": -10,
         "fielding": 0,
-        "total": -5
+        "total": -10
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -94,16 +94,16 @@
         "total": 116
       },
       "Heinrich Klaasen": {
-        "batting": 20,
+        "batting": 29,
         "bowling": 0,
         "fielding": 16,
-        "total": 36
+        "total": 45
       },
       "Nitish Kumar Reddy": {
-        "batting": 30,
+        "batting": 46,
         "bowling": 20,
         "fielding": 8,
-        "total": 58
+        "total": 74
       }
     }
   },
@@ -130,13 +130,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2771,
-      "top11Points": 2781
+      "totalPointsAll": 2780,
+      "top11Points": 2790
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2827,
-      "top11Points": 2761
+      "totalPointsAll": 2843,
+      "top11Points": 2777
     },
     {
       "team": "Kishan",
@@ -145,8 +145,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2729,
-      "top11Points": 2671
+      "totalPointsAll": 2724,
+      "top11Points": 2666
     },
     {
       "team": "Tanay",
@@ -13533,9 +13533,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 193,
+          "r": 213,
           "w": 3,
-          "o": 16
+          "o": 17
         }
       ],
       "scorecard": [
@@ -13671,9 +13671,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 193,
+          "runs": 213,
           "wickets": 3,
-          "overs": 16,
+          "overs": 17,
           "batting": [
             {
               "name": "Travis Head",
@@ -13704,20 +13704,20 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 18,
-              "balls": 18,
+              "runs": 25,
+              "balls": 20,
               "fours": 2,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 125,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 21,
-              "balls": 13,
+              "runs": 30,
+              "balls": 16,
               "fours": 2,
-              "sixes": 1,
-              "sr": 161.54,
+              "sixes": 2,
+              "sr": 187.5,
               "dismissal": "batting"
             }
           ],
@@ -13740,11 +13740,11 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 23,
+              "runs": 39,
               "wickets": 0,
-              "economy": 11.5
+              "economy": 13.76
             },
             {
               "name": "Brijesh Sharma",
@@ -13834,9 +13834,9 @@
         },
         "Tushar Deshpande": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": -10,
           "fielding": 0,
-          "total": -5
+          "total": -10
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -13863,16 +13863,16 @@
           "total": 116
         },
         "Heinrich Klaasen": {
-          "batting": 20,
+          "batting": 29,
           "bowling": 0,
           "fielding": 16,
-          "total": 36
+          "total": 45
         },
         "Nitish Kumar Reddy": {
-          "batting": 30,
+          "batting": 46,
           "bowling": 20,
           "fielding": 8,
-          "total": 58
+          "total": 74
         }
       },
       "isComplete": false
@@ -13880,18 +13880,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2771,
-      "top11Points": 2781,
+      "totalPointsAll": 2780,
+      "top11Points": 2790,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 448,
+          "batting": 457,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 504,
+          "rawPoints": 513,
           "multiplier": 1,
-          "effectivePoints": 504,
+          "effectivePoints": 513,
           "countsInTop11": true
         },
         {
@@ -14305,8 +14305,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2729,
-      "top11Points": 2671,
+      "totalPointsAll": 2724,
+      "top11Points": 2666,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14400,11 +14400,11 @@
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 46,
-          "bowling": 50,
+          "bowling": 45,
           "fielding": 13,
-          "rawPoints": 109,
+          "rawPoints": 104,
           "multiplier": 1,
-          "effectivePoints": 109,
+          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
@@ -14570,8 +14570,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2827,
-      "top11Points": 2761,
+      "totalPointsAll": 2843,
+      "top11Points": 2777,
       "players": [
         {
           "name": "Axar Patel",
@@ -14598,12 +14598,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 230,
+          "batting": 246,
           "bowling": 105,
           "fielding": 56,
-          "rawPoints": 391,
+          "rawPoints": 407,
           "multiplier": 1,
-          "effectivePoints": 391,
+          "effectivePoints": 407,
           "countsInTop11": true
         },
         {
