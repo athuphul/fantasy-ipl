@@ -1,112 +1,7 @@
 {
-  "lastUpdated": "2026-04-25T17:54:54.658Z",
+  "lastUpdated": "2026-04-25T18:05:09.150Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529279",
-    "name": "Rajasthan Royals v Sunrisers Hyderabad",
-    "status": "Live",
-    "venue": "Sawai Mansingh Stadium, Jaipur",
-    "score": [
-      {
-        "inning": "Rajasthan Royals",
-        "r": 228,
-        "w": 6,
-        "o": 20
-      },
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 220,
-        "w": 5,
-        "o": 18
-      }
-    ],
-    "playerScores": {
-      "Yashasvi Jaiswal": {
-        "batting": 12,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 12
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 187,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 187
-      },
-      "Dhruv Jurel": {
-        "batting": 71,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 79
-      },
-      "Riyan Parag": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Shimron Hetmyer": {
-        "batting": 12,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 12
-      },
-      "Ravindra Jadeja": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
-      },
-      "Jofra Archer": {
-        "batting": 2,
-        "bowling": 50,
-        "fielding": 8,
-        "total": 60
-      },
-      "Tushar Deshpande": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      },
-      "Ravi Bishnoi": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Travis Head": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 8
-      },
-      "Abhishek Sharma": {
-        "batting": 90,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 90
-      },
-      "Ishan Kishan": {
-        "batting": 116,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 116
-      },
-      "Heinrich Klaasen": {
-        "batting": 34,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 50
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 59,
-        "bowling": 20,
-        "fielding": 8,
-        "total": 87
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -13522,7 +13417,7 @@
       "matchId": "espn_1529279",
       "name": "Rajasthan Royals v Sunrisers Hyderabad",
       "date": "2026-04-25",
-      "status": "Live",
+      "status": "Final",
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "score": [
         {
@@ -13533,9 +13428,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 220,
+          "r": 229,
           "w": 5,
-          "o": 18
+          "o": 18.3
         }
       ],
       "scorecard": [
@@ -13671,9 +13566,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 220,
+          "runs": 229,
           "wickets": 5,
-          "overs": 18,
+          "overs": 18.3,
           "batting": [
             {
               "name": "Travis Head",
@@ -13722,12 +13617,21 @@
             },
             {
               "name": "Salil Arora",
+              "runs": 8,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 266.67,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Aniket Verma",
               "runs": 1,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -13741,11 +13645,11 @@
             },
             {
               "name": "Nandre Burger",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 41,
+              "runs": 50,
               "wickets": 0,
-              "economy": 13.67
+              "economy": 14.29
             },
             {
               "name": "Tushar Deshpande",
@@ -13884,7 +13788,7 @@
           "total": 87
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
