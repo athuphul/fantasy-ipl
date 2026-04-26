@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T15:04:53.242Z",
+  "lastUpdated": "2026-04-26T15:15:07.121Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 77,
+        "r": 81,
         "w": 6,
-        "o": 11.4
+        "o": 13.1
       }
     ],
     "playerScores": {
       "Aiden Markram": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 8,
-        "total": 8
+        "total": 28
       },
       "Mitchell Marsh": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 45
       },
       "Rinku Singh": {
-        "batting": 17,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 17
+        "total": 13
       },
       "Anukul Roy": {
         "batting": -5,
@@ -91,8 +91,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3924,
-      "top11Points": 3688
+      "totalPointsAll": 3918,
+      "top11Points": 3682
     },
     {
       "team": "Aakash",
@@ -101,8 +101,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3088,
-      "top11Points": 3088
+      "totalPointsAll": 3108,
+      "top11Points": 3108
     },
     {
       "team": "Manav",
@@ -14229,17 +14229,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 77,
+          "r": 81,
           "w": 6,
-          "o": 11.4
+          "o": 13.1
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 77,
+          "runs": 81,
           "wickets": 6,
-          "overs": 11.4,
+          "overs": 13.1,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -14288,11 +14288,11 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 16,
-              "balls": 16,
+              "runs": 17,
+              "balls": 21,
               "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 80.95,
               "dismissal": "batting"
             },
             {
@@ -14306,11 +14306,11 @@
             },
             {
               "name": "Ramandeep Singh",
-              "runs": 2,
-              "balls": 1,
+              "runs": 4,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 200,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
@@ -14333,19 +14333,19 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 1,
-              "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 6
-            },
-            {
-              "name": "Digvesh Rathi",
               "overs": 2,
               "maidens": 0,
               "runs": 10,
               "wickets": 0,
               "economy": 5
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 2.1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 4.62
             },
             {
               "name": "George Linde",
@@ -14357,11 +14357,11 @@
             },
             {
               "name": "Aiden Markram",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 9,
               "wickets": 0,
-              "economy": 5.33
+              "economy": 4.5
             }
           ]
         }
@@ -14369,9 +14369,9 @@
       "playerScores": {
         "Aiden Markram": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 8,
-          "total": 8
+          "total": 28
         },
         "Mitchell Marsh": {
           "batting": 0,
@@ -14422,10 +14422,10 @@
           "total": 45
         },
         "Rinku Singh": {
-          "batting": 17,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 17
+          "total": 13
         },
         "Anukul Roy": {
           "batting": -5,
@@ -15289,8 +15289,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3088,
-      "top11Points": 3088,
+      "totalPointsAll": 3108,
+      "top11Points": 3108,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15351,11 +15351,11 @@
           "name": "Aiden Markram",
           "role": "Opener",
           "batting": 207,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 40,
-          "rawPoints": 247,
+          "rawPoints": 267,
           "multiplier": 1,
-          "effectivePoints": 247,
+          "effectivePoints": 267,
           "countsInTop11": true
         },
         {
@@ -15554,8 +15554,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3924,
-      "top11Points": 3688,
+      "totalPointsAll": 3918,
+      "top11Points": 3682,
       "players": [
         {
           "name": "Sanju Samson",
@@ -15580,17 +15580,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Rinku Singh",
-          "role": "Batsman",
-          "batting": 178,
-          "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 218,
-          "multiplier": 1.5,
-          "effectivePoints": 327,
-          "countsInTop11": true
-        },
-        {
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
@@ -15599,6 +15588,17 @@
           "rawPoints": 325,
           "multiplier": 1,
           "effectivePoints": 325,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rinku Singh",
+          "role": "Batsman",
+          "batting": 174,
+          "bowling": 0,
+          "fielding": 40,
+          "rawPoints": 214,
+          "multiplier": 1.5,
+          "effectivePoints": 321,
           "countsInTop11": true
         },
         {
