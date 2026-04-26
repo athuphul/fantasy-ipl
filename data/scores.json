@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:34:54.596Z",
+  "lastUpdated": "2026-04-26T11:45:04.480Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 114,
-        "w": 5,
-        "o": 17.1
+        "r": 135,
+        "w": 6,
+        "o": 18.3
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 3
       },
       "Ruturaj Gaikwad": {
-        "batting": 80,
+        "batting": 81,
         "bowling": 0,
         "fielding": 0,
-        "total": 80
+        "total": 81
       },
       "Sarfaraz Khan": {
         "batting": -5,
@@ -46,10 +46,10 @@
         "total": 27
       },
       "Kartik Sharma": {
-        "batting": 8,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 18
       },
       "Shubman Gill": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 70,
+        "bowling": 97,
         "fielding": 0,
-        "total": 70
+        "total": 97
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -119,18 +119,18 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2976,
-      "top11Points": 2910
+      "totalPointsAll": 2978,
+      "top11Points": 2912
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 2890,
+      "top11Points": 2900
     },
     {
       "team": "Aakash",
       "totalPointsAll": 2921,
       "top11Points": 2885
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 2863,
-      "top11Points": 2873
     },
     {
       "team": "Kishan",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2310,
-      "top11Points": 2294
+      "totalPointsAll": 2320,
+      "top11Points": 2304
     }
   ],
   "matchHistory": [
@@ -13898,17 +13898,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 114,
-          "w": 5,
-          "o": 17.1
+          "r": 135,
+          "w": 6,
+          "o": 18.3
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 114,
-          "wickets": 5,
-          "overs": 17.1,
+          "runs": 135,
+          "wickets": 6,
+          "overs": 18.3,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -13921,11 +13921,11 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 59,
-              "balls": 53,
+              "runs": 60,
+              "balls": 54,
               "fours": 3,
               "sixes": 4,
-              "sr": 111.32,
+              "sr": 111.11,
               "dismissal": "batting"
             },
             {
@@ -13966,11 +13966,20 @@
             },
             {
               "name": "Kartik Sharma",
-              "runs": 7,
-              "balls": 5,
-              "fours": 1,
+              "runs": 15,
+              "balls": 9,
+              "fours": 3,
               "sixes": 0,
-              "sr": 140,
+              "sr": 166.67,
+              "dismissal": "c Jason Holder b Kagiso Rabada"
+            },
+            {
+              "name": "Jamie Overton",
+              "runs": 10,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 333.33,
               "dismissal": "batting"
             }
           ],
@@ -13985,11 +13994,11 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 2,
-              "economy": 5.37
+              "runs": 25,
+              "wickets": 3,
+              "economy": 6.25
             },
             {
               "name": "Manav Suthar",
@@ -14009,11 +14018,11 @@
             },
             {
               "name": "Arshad Khan",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 35,
               "wickets": 1,
-              "economy": 7.33
+              "economy": 10
             },
             {
               "name": "Rashid Khan",
@@ -14034,10 +14043,10 @@
           "total": 3
         },
         "Ruturaj Gaikwad": {
-          "batting": 80,
+          "batting": 81,
           "bowling": 0,
           "fielding": 0,
-          "total": 80
+          "total": 81
         },
         "Sarfaraz Khan": {
           "batting": -5,
@@ -14058,10 +14067,10 @@
           "total": 27
         },
         "Kartik Sharma": {
-          "batting": 8,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 18
         },
         "Shubman Gill": {
           "batting": 0,
@@ -14101,9 +14110,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 70,
+          "bowling": 97,
           "fielding": 0,
-          "total": 70
+          "total": 97
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -14117,8 +14126,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2863,
-      "top11Points": 2873,
+      "totalPointsAll": 2890,
+      "top11Points": 2900,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -14132,6 +14141,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kagiso Rabada",
+          "role": "Fast Bowler",
+          "batting": 37,
+          "bowling": 352,
+          "fielding": 24,
+          "rawPoints": 413,
+          "multiplier": 1,
+          "effectivePoints": 413,
+          "countsInTop11": true
+        },
+        {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
           "batting": 197,
@@ -14140,17 +14160,6 @@
           "rawPoints": 205,
           "multiplier": 2,
           "effectivePoints": 410,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kagiso Rabada",
-          "role": "Fast Bowler",
-          "batting": 37,
-          "bowling": 325,
-          "fielding": 24,
-          "rawPoints": 386,
-          "multiplier": 1,
-          "effectivePoints": 386,
           "countsInTop11": true
         },
         {
@@ -14807,8 +14816,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2976,
-      "top11Points": 2910,
+      "totalPointsAll": 2978,
+      "top11Points": 2912,
       "players": [
         {
           "name": "Axar Patel",
@@ -14846,12 +14855,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 189,
+          "batting": 190,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 218,
+          "rawPoints": 219,
           "multiplier": 1.5,
-          "effectivePoints": 327,
+          "effectivePoints": 329,
           "countsInTop11": true
         },
         {
@@ -15094,8 +15103,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2310,
-      "top11Points": 2294,
+      "totalPointsAll": 2320,
+      "top11Points": 2304,
       "players": [
         {
           "name": "Travis Head",
@@ -15175,6 +15184,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kartik Sharma",
+          "role": "Wicket Keeper",
+          "batting": 64,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 64,
+          "multiplier": 1,
+          "effectivePoints": 64,
+          "countsInTop11": true
+        },
+        {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
           "batting": 14,
@@ -15183,17 +15203,6 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kartik Sharma",
-          "role": "Wicket Keeper",
-          "batting": 54,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 54,
-          "multiplier": 1,
-          "effectivePoints": 54,
           "countsInTop11": true
         },
         {
