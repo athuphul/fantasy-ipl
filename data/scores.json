@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T15:44:53.691Z",
+  "lastUpdated": "2026-04-26T15:54:53.700Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 130,
+        "r": 155,
         "w": 7,
-        "o": 19.2
+        "o": 20
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": -5,
         "fielding": 0,
-        "total": 12
+        "total": -5
       },
       "Ajinkya Rahane": {
         "batting": 2,
@@ -70,10 +70,10 @@
         "total": 45
       },
       "Rinku Singh": {
-        "batting": 78,
+        "batting": 115,
         "bowling": 0,
         "fielding": 0,
-        "total": 78
+        "total": 115
       },
       "Anukul Roy": {
         "batting": -5,
@@ -92,13 +92,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3929,
-      "top11Points": 3949
+      "totalPointsAll": 3912,
+      "top11Points": 3932
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4016,
-      "top11Points": 3780
+      "totalPointsAll": 4071,
+      "top11Points": 3835
     },
     {
       "team": "Aakash",
@@ -14235,17 +14235,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 130,
+          "r": 155,
           "w": 7,
-          "o": 19.2
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 130,
+          "runs": 155,
           "wickets": 7,
-          "overs": 19.2,
+          "overs": 20,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -14294,12 +14294,12 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 59,
-              "balls": 46,
+              "runs": 83,
+              "balls": 51,
               "fours": 7,
-              "sixes": 1,
-              "sr": 128.26,
-              "dismissal": "batting"
+              "sixes": 5,
+              "sr": 162.75,
+              "dismissal": "not out"
             },
             {
               "name": "Anukul Roy",
@@ -14326,7 +14326,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 66.67,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -14356,11 +14356,11 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 21,
+              "runs": 46,
               "wickets": 0,
-              "economy": 6.63
+              "economy": 11.5
             },
             {
               "name": "George Linde",
@@ -14420,9 +14420,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": -5,
           "fielding": 0,
-          "total": 12
+          "total": -5
         },
         "Ajinkya Rahane": {
           "batting": 2,
@@ -14437,10 +14437,10 @@
           "total": 45
         },
         "Rinku Singh": {
-          "batting": 78,
+          "batting": 115,
           "bowling": 0,
           "fielding": 0,
-          "total": 78
+          "total": 115
         },
         "Anukul Roy": {
           "batting": -5,
@@ -14747,8 +14747,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3929,
-      "top11Points": 3949,
+      "totalPointsAll": 3912,
+      "top11Points": 3932,
       "players": [
         {
           "name": "KL Rahul",
@@ -14831,11 +14831,11 @@
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
-          "bowling": 101,
+          "bowling": 84,
           "fielding": 24,
-          "rawPoints": 127,
+          "rawPoints": 110,
           "multiplier": 1,
-          "effectivePoints": 127,
+          "effectivePoints": 110,
           "countsInTop11": true
         },
         {
@@ -15575,8 +15575,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4016,
-      "top11Points": 3780,
+      "totalPointsAll": 4071,
+      "top11Points": 3835,
       "players": [
         {
           "name": "Sanju Samson",
@@ -15603,12 +15603,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 239,
+          "batting": 276,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 279,
+          "rawPoints": 316,
           "multiplier": 1.5,
-          "effectivePoints": 419,
+          "effectivePoints": 474,
           "countsInTop11": true
         },
         {
