@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T10:05:12.944Z",
+  "lastUpdated": "2026-04-26T10:15:06.617Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 0,
+        "r": 19,
         "w": 0,
-        "o": 0.4
+        "o": 2.5
       }
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 8
       },
       "Ruturaj Gaikwad": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Shubman Gill": {
         "batting": 0,
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3813,
-      "top11Points": 3585
+      "totalPointsAll": 3829,
+      "top11Points": 3601
     },
     {
       "team": "Ritik",
@@ -99,14 +99,14 @@
       "top11Points": 2885
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 2871,
+      "top11Points": 2805
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 2793,
       "top11Points": 2803
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 2856,
-      "top11Points": 2790
     },
     {
       "team": "Kishan",
@@ -13874,61 +13874,69 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 0,
+          "r": 19,
           "w": 0,
-          "o": 0.4
+          "o": 2.5
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 0,
+          "runs": 19,
           "wickets": 0,
-          "overs": 0.4,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 0,
-              "balls": 4,
-              "fours": 0,
+              "runs": 11,
+              "balls": 12,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 91.67,
               "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 8,
+              "balls": 4,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 0.4,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 0,
+              "runs": 9,
               "wickets": 0,
-              "economy": 0
+              "economy": 5.4
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 8
         },
         "Ruturaj Gaikwad": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Shubman Gill": {
           "batting": 0,
@@ -14674,8 +14682,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2856,
-      "top11Points": 2790,
+      "totalPointsAll": 2871,
+      "top11Points": 2805,
       "players": [
         {
           "name": "Axar Patel",
@@ -14735,12 +14743,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 109,
+          "batting": 119,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 138,
+          "rawPoints": 148,
           "multiplier": 1.5,
-          "effectivePoints": 207,
+          "effectivePoints": 222,
           "countsInTop11": true
         },
         {
@@ -15099,18 +15107,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3813,
-      "top11Points": 3585,
+      "totalPointsAll": 3829,
+      "top11Points": 3601,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 464,
+          "batting": 472,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 488,
+          "rawPoints": 496,
           "multiplier": 2,
-          "effectivePoints": 976,
+          "effectivePoints": 992,
           "countsInTop11": true
         },
         {
