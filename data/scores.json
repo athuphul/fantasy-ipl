@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T16:44:57.630Z",
+  "lastUpdated": "2026-04-26T16:54:56.110Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 57,
-        "w": 1,
-        "o": 9
+        "r": 65,
+        "w": 2,
+        "o": 10.2
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Aiden Markram": {
-        "batting": 32,
+        "batting": 35,
         "bowling": 20,
         "fielding": 8,
-        "total": 60
+        "total": 63
       },
       "Mitchell Marsh": {
         "batting": 2,
@@ -34,10 +34,10 @@
         "total": 10
       },
       "Rishabh Pant": {
-        "batting": 24,
+        "batting": 30,
         "bowling": 0,
         "fielding": 16,
-        "total": 40
+        "total": 46
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -71,15 +71,15 @@
       },
       "Cameron Green": {
         "batting": 45,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 45
+        "total": 70
       },
       "Rinku Singh": {
         "batting": 115,
         "bowling": 0,
-        "fielding": 0,
-        "total": 115
+        "fielding": 8,
+        "total": 123
       },
       "Anukul Roy": {
         "batting": -5,
@@ -115,13 +115,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4071,
-      "top11Points": 3835
+      "totalPointsAll": 4083,
+      "top11Points": 3847
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3185,
-      "top11Points": 3185
+      "totalPointsAll": 3188,
+      "top11Points": 3188
     },
     {
       "team": "Aakash",
@@ -140,8 +140,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2889,
-      "top11Points": 2831
+      "totalPointsAll": 2895,
+      "top11Points": 2837
     },
     {
       "team": "Kishan",
@@ -150,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2365,
-      "top11Points": 2349
+      "totalPointsAll": 2390,
+      "top11Points": 2374
     }
   ],
   "matchHistory": [
@@ -14253,9 +14253,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 57,
-          "w": 1,
-          "o": 9
+          "r": 65,
+          "w": 2,
+          "o": 10.2
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -14406,18 +14406,18 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 57,
-          "wickets": 1,
-          "overs": 9,
+          "runs": 65,
+          "wickets": 2,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Aiden Markram",
-              "runs": 28,
-              "balls": 23,
+              "runs": 31,
+              "balls": 27,
               "fours": 2,
               "sixes": 1,
-              "sr": 121.74,
-              "dismissal": "batting"
+              "sr": 114.81,
+              "dismissal": "c Rinku Singh b Cameron Green"
             },
             {
               "name": "Mitchell Marsh",
@@ -14430,11 +14430,11 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 26,
-              "balls": 28,
-              "fours": 1,
+              "runs": 31,
+              "balls": 32,
+              "fours": 2,
               "sixes": 1,
-              "sr": 92.86,
+              "sr": 96.88,
               "dismissal": "batting"
             }
           ],
@@ -14457,11 +14457,11 @@
             },
             {
               "name": "Cameron Green",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 8
+              "runs": 10,
+              "wickets": 1,
+              "economy": 7.5
             },
             {
               "name": "Sunil Narine",
@@ -14478,16 +14478,24 @@
               "runs": 15,
               "wickets": 0,
               "economy": 7.5
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
       ],
       "playerScores": {
         "Aiden Markram": {
-          "batting": 32,
+          "batting": 35,
           "bowling": 20,
           "fielding": 8,
-          "total": 60
+          "total": 63
         },
         "Mitchell Marsh": {
           "batting": 2,
@@ -14496,10 +14504,10 @@
           "total": 10
         },
         "Rishabh Pant": {
-          "batting": 24,
+          "batting": 30,
           "bowling": 0,
           "fielding": 16,
-          "total": 40
+          "total": 46
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -14533,15 +14541,15 @@
         },
         "Cameron Green": {
           "batting": 45,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 45
+          "total": 70
         },
         "Rinku Singh": {
           "batting": 115,
           "bowling": 0,
-          "fielding": 0,
-          "total": 115
+          "fielding": 8,
+          "total": 123
         },
         "Anukul Roy": {
           "batting": -5,
@@ -14998,8 +15006,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2889,
-      "top11Points": 2831,
+      "totalPointsAll": 2895,
+      "top11Points": 2837,
       "players": [
         {
           "name": "Shubman Gill",
@@ -15037,12 +15045,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 215,
+          "batting": 221,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 289,
+          "rawPoints": 295,
           "multiplier": 1,
-          "effectivePoints": 289,
+          "effectivePoints": 295,
           "countsInTop11": true
         },
         {
@@ -15423,8 +15431,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3185,
-      "top11Points": 3185,
+      "totalPointsAll": 3188,
+      "top11Points": 3188,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15473,12 +15481,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 239,
+          "batting": 242,
           "bowling": 20,
           "fielding": 40,
-          "rawPoints": 299,
+          "rawPoints": 302,
           "multiplier": 1,
-          "effectivePoints": 299,
+          "effectivePoints": 302,
           "countsInTop11": true
         },
         {
@@ -15550,8 +15558,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2365,
-      "top11Points": 2349,
+      "totalPointsAll": 2390,
+      "top11Points": 2374,
       "players": [
         {
           "name": "Travis Head",
@@ -15587,6 +15595,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 267,
+          "bowling": 10,
+          "fielding": 32,
+          "rawPoints": 309,
+          "multiplier": 1,
+          "effectivePoints": 309,
+          "countsInTop11": true
+        },
+        {
           "name": "Rohit Sharma",
           "role": "Opener",
           "batting": 191,
@@ -15595,17 +15614,6 @@
           "rawPoints": 191,
           "multiplier": 1.5,
           "effectivePoints": 287,
-          "countsInTop11": true
-        },
-        {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 267,
-          "bowling": -15,
-          "fielding": 32,
-          "rawPoints": 284,
-          "multiplier": 1,
-          "effectivePoints": 284,
           "countsInTop11": true
         },
         {
@@ -15688,8 +15696,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4071,
-      "top11Points": 3835,
+      "totalPointsAll": 4083,
+      "top11Points": 3847,
       "players": [
         {
           "name": "Sanju Samson",
@@ -15718,10 +15726,10 @@
           "role": "Batsman",
           "batting": 276,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 316,
+          "fielding": 48,
+          "rawPoints": 324,
           "multiplier": 1.5,
-          "effectivePoints": 474,
+          "effectivePoints": 486,
           "countsInTop11": true
         },
         {
