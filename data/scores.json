@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T14:24:55.094Z",
+  "lastUpdated": "2026-04-26T14:34:54.660Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 25,
-        "w": 2,
-        "o": 4.2
+        "r": 31,
+        "w": 3,
+        "o": 5.5
       }
     ],
     "playerScores": {
@@ -64,10 +64,10 @@
         "total": 2
       },
       "Cameron Green": {
-        "batting": 1,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 6
       }
     }
   },
@@ -114,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2321,
-      "top11Points": 2305
+      "totalPointsAll": 2326,
+      "top11Points": 2310
     }
   ],
   "matchHistory": [
@@ -14217,17 +14217,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 25,
-          "w": 2,
-          "o": 4.2
+          "r": 31,
+          "w": 3,
+          "o": 5.5
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 25,
-          "wickets": 2,
-          "overs": 4.2,
+          "runs": 31,
+          "wickets": 3,
+          "overs": 5.5,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -14249,20 +14249,29 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 8,
-              "balls": 5,
+              "runs": 9,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 160,
-              "dismissal": "batting"
+              "sr": 112.5,
+              "dismissal": "obs"
             },
             {
               "name": "Cameron Green",
-              "runs": 1,
-              "balls": 1,
+              "runs": 6,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 120,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
@@ -14285,11 +14294,19 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 6,
               "wickets": 0,
-              "economy": 0
+              "economy": 6
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -14344,10 +14361,10 @@
           "total": 2
         },
         "Cameron Green": {
-          "batting": 1,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 6
         }
       },
       "isComplete": false
@@ -15332,8 +15349,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2321,
-      "top11Points": 2305,
+      "totalPointsAll": 2326,
+      "top11Points": 2310,
       "players": [
         {
           "name": "Travis Head",
@@ -15393,12 +15410,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 223,
+          "batting": 228,
           "bowling": -15,
           "fielding": 32,
-          "rawPoints": 240,
+          "rawPoints": 245,
           "multiplier": 1,
-          "effectivePoints": 240,
+          "effectivePoints": 245,
           "countsInTop11": true
         },
         {
