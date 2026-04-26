@@ -1,118 +1,7 @@
 {
-  "lastUpdated": "2026-04-26T13:35:18.737Z",
+  "lastUpdated": "2026-04-26T13:44:58.193Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529280",
-    "name": "Chennai Super Kings v Gujarat Titans",
-    "status": "Live",
-    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-    "score": [
-      {
-        "inning": "Chennai Super Kings",
-        "r": 158,
-        "w": 7,
-        "o": 20
-      },
-      {
-        "inning": "Gujarat Titans",
-        "r": 154,
-        "w": 1,
-        "o": 16
-      }
-    ],
-    "playerScores": {
-      "Sanju Samson": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 13
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 98,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 98
-      },
-      "Sarfaraz Khan": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Dewald Brevis": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Shivam Dube": {
-        "batting": 27,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 27
-      },
-      "Kartik Sharma": {
-        "batting": 18,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 18
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Sai Sudharsan": {
-        "batting": 125,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 125
-      },
-      "Shubman Gill": {
-        "batting": 40,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 48
-      },
-      "Jos Buttler": {
-        "batting": 36,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 52
-      },
-      "Shahrukh Khan": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Washington Sundar": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Rashid Khan": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Kagiso Rabada": {
-        "batting": 0,
-        "bowling": 97,
-        "fielding": 0,
-        "total": 97
-      },
-      "Mohammed Siraj": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -131,8 +20,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3067,
-      "top11Points": 3067
+      "totalPointsAll": 3080,
+      "top11Points": 3080
     },
     {
       "team": "Manav",
@@ -146,13 +35,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2817,
-      "top11Points": 2759
+      "totalPointsAll": 2825,
+      "top11Points": 2767
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2685,
-      "top11Points": 2685
+      "totalPointsAll": 2686,
+      "top11Points": 2686
     },
     {
       "team": "Tanay",
@@ -13905,7 +13794,7 @@
       "matchId": "espn_1529280",
       "name": "Chennai Super Kings v Gujarat Titans",
       "date": "2026-04-26",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
@@ -13916,9 +13805,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 154,
-          "w": 1,
-          "o": 16
+          "r": 162,
+          "w": 2,
+          "o": 16.4
         }
       ],
       "scorecard": [
@@ -14063,18 +13952,18 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 154,
-          "wickets": 1,
-          "overs": 16,
+          "runs": 162,
+          "wickets": 2,
+          "overs": 16.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
               "runs": 87,
-              "balls": 45,
+              "balls": 46,
               "fours": 4,
               "sixes": 7,
-              "sr": 193.33,
-              "dismissal": "batting"
+              "sr": 189.13,
+              "dismissal": "c Dewald Brevis b Akeal Hosein"
             },
             {
               "name": "Shubman Gill",
@@ -14087,22 +13976,31 @@
             },
             {
               "name": "Jos Buttler",
-              "runs": 32,
-              "balls": 28,
+              "runs": 39,
+              "balls": 30,
               "fours": 4,
+              "sixes": 1,
+              "sr": 130,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 114.29,
-              "dismissal": "batting"
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 38,
-              "wickets": 0,
-              "economy": 12.67
+              "runs": 46,
+              "wickets": 1,
+              "economy": 12.55
             },
             {
               "name": "Anshul Kamboj",
@@ -14169,8 +14067,8 @@
         "Dewald Brevis": {
           "batting": 2,
           "bowling": 0,
-          "fielding": 0,
-          "total": 2
+          "fielding": 8,
+          "total": 10
         },
         "Shivam Dube": {
           "batting": 27,
@@ -14203,22 +14101,22 @@
           "total": 48
         },
         "Jos Buttler": {
-          "batting": 36,
+          "batting": 45,
           "bowling": 0,
           "fielding": 16,
-          "total": 52
+          "total": 61
+        },
+        "Washington Sundar": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Shahrukh Khan": {
           "batting": 0,
           "bowling": 0,
           "fielding": 8,
           "total": 8
-        },
-        "Washington Sundar": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Rashid Khan": {
           "batting": 0,
@@ -14239,7 +14137,7 @@
           "total": 45
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -14669,8 +14567,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2817,
-      "top11Points": 2759,
+      "totalPointsAll": 2825,
+      "top11Points": 2767,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14728,6 +14626,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dewald Brevis",
+          "role": "Batsman",
+          "batting": 82,
+          "bowling": 0,
+          "fielding": 64,
+          "rawPoints": 146,
+          "multiplier": 1,
+          "effectivePoints": 146,
+          "countsInTop11": true
+        },
+        {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
           "batting": 61,
@@ -14736,17 +14645,6 @@
           "rawPoints": 144,
           "multiplier": 1,
           "effectivePoints": 144,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dewald Brevis",
-          "role": "Batsman",
-          "batting": 82,
-          "bowling": 0,
-          "fielding": 56,
-          "rawPoints": 138,
-          "multiplier": 1,
-          "effectivePoints": 138,
           "countsInTop11": true
         },
         {
@@ -14807,8 +14705,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2685,
-      "top11Points": 2685,
+      "totalPointsAll": 2686,
+      "top11Points": 2686,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -14857,12 +14755,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 212,
+          "batting": 213,
           "bowling": 25,
           "fielding": 24,
-          "rawPoints": 261,
+          "rawPoints": 262,
           "multiplier": 1,
-          "effectivePoints": 261,
+          "effectivePoints": 262,
           "countsInTop11": true
         },
         {
@@ -15094,18 +14992,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3067,
-      "top11Points": 3067,
+      "totalPointsAll": 3080,
+      "top11Points": 3080,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 369,
+          "batting": 378,
           "bowling": 0,
           "fielding": 100,
-          "rawPoints": 469,
+          "rawPoints": 478,
           "multiplier": 1.5,
-          "effectivePoints": 704,
+          "effectivePoints": 717,
           "countsInTop11": true
         },
         {
