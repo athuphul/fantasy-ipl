@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T10:35:06.715Z",
+  "lastUpdated": "2026-04-26T10:44:59.889Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 30,
-        "w": 3,
-        "o": 6.3
+        "r": 37,
+        "w": 4,
+        "o": 8.2
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 3
       },
       "Ruturaj Gaikwad": {
-        "batting": 9,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 15
       },
       "Sarfaraz Khan": {
         "batting": -5,
@@ -42,8 +42,8 @@
       "Shubman Gill": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Sai Sudharsan": {
         "batting": 0,
@@ -117,8 +117,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2870,
-      "top11Points": 2804
+      "totalPointsAll": 2879,
+      "top11Points": 2813
     },
     {
       "team": "Kishan",
@@ -127,8 +127,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2721,
-      "top11Points": 2663
+      "totalPointsAll": 2737,
+      "top11Points": 2679
     },
     {
       "team": "Tanay",
@@ -13886,17 +13886,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 30,
-          "w": 3,
-          "o": 6.3
+          "r": 37,
+          "w": 4,
+          "o": 8.2
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 30,
-          "wickets": 3,
-          "overs": 6.3,
+          "runs": 37,
+          "wickets": 4,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -13909,11 +13909,11 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 12,
-              "balls": 14,
+              "runs": 18,
+              "balls": 22,
               "fours": 2,
               "sixes": 0,
-              "sr": 85.71,
+              "sr": 81.82,
               "dismissal": "batting"
             },
             {
@@ -13937,11 +13937,11 @@
             {
               "name": "Dewald Brevis",
               "runs": 2,
-              "balls": 5,
+              "balls": 9,
               "fours": 0,
               "sixes": 0,
-              "sr": 40,
-              "dismissal": "batting"
+              "sr": 22.22,
+              "dismissal": "c Shubman Gill b Manav Suthar"
             }
           ],
           "bowling": [
@@ -13963,11 +13963,19 @@
             },
             {
               "name": "Manav Suthar",
-              "overs": 0.2,
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 4.5
+            },
+            {
+              "name": "Jason Holder",
+              "overs": 1,
               "maidens": 0,
               "runs": 2,
               "wickets": 0,
-              "economy": 6
+              "economy": 2
             }
           ]
         }
@@ -13980,10 +13988,10 @@
           "total": 3
         },
         "Ruturaj Gaikwad": {
-          "batting": 9,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 15
         },
         "Sarfaraz Khan": {
           "batting": -5,
@@ -14000,8 +14008,8 @@
         "Shubman Gill": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Sai Sudharsan": {
           "batting": 0,
@@ -14476,18 +14484,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2721,
-      "top11Points": 2663,
+      "totalPointsAll": 2737,
+      "top11Points": 2679,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 388,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 428,
+          "fielding": 48,
+          "rawPoints": 436,
           "multiplier": 2,
-          "effectivePoints": 856,
+          "effectivePoints": 872,
           "countsInTop11": true
         },
         {
@@ -14741,8 +14749,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2870,
-      "top11Points": 2804,
+      "totalPointsAll": 2879,
+      "top11Points": 2813,
       "players": [
         {
           "name": "Axar Patel",
@@ -14789,6 +14797,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 124,
+          "bowling": 0,
+          "fielding": 29,
+          "rawPoints": 153,
+          "multiplier": 1.5,
+          "effectivePoints": 230,
+          "countsInTop11": true
+        },
+        {
           "name": "Quinton de Kock",
           "role": "Opener",
           "batting": 199,
@@ -14797,17 +14816,6 @@
           "rawPoints": 225,
           "multiplier": 1,
           "effectivePoints": 225,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 118,
-          "bowling": 0,
-          "fielding": 29,
-          "rawPoints": 147,
-          "multiplier": 1.5,
-          "effectivePoints": 221,
           "countsInTop11": true
         },
         {
