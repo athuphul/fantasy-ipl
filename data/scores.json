@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T12:45:08.510Z",
+  "lastUpdated": "2026-04-26T12:54:58.483Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 58,
+        "r": 73,
         "w": 1,
-        "o": 6.2
+        "o": 8.4
       }
     ],
     "playerScores": {
       "Sanju Samson": {
         "batting": 3,
         "bowling": 0,
-        "fielding": 0,
-        "total": 3
+        "fielding": 10,
+        "total": 13
       },
       "Ruturaj Gaikwad": {
         "batting": 98,
@@ -59,15 +59,15 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Sai Sudharsan": {
-        "batting": 34,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 34
+        "total": 43
       },
       "Shubman Gill": {
         "batting": 40,
@@ -76,10 +76,10 @@
         "total": 48
       },
       "Jos Buttler": {
-        "batting": 0,
+        "batting": 4,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 20
       },
       "Shahrukh Khan": {
         "batting": 0,
@@ -121,18 +121,18 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3849,
-      "top11Points": 3613
+      "totalPointsAll": 3894,
+      "top11Points": 3658
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3013,
-      "top11Points": 3013
+      "totalPointsAll": 3019,
+      "top11Points": 3019
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 2989,
-      "top11Points": 2953
+      "totalPointsAll": 3007,
+      "top11Points": 2971
     },
     {
       "team": "Manav",
@@ -13916,9 +13916,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 58,
+          "r": 73,
           "w": 1,
-          "o": 6.2
+          "o": 8.4
         }
       ],
       "scorecard": [
@@ -14063,17 +14063,17 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 58,
+          "runs": 73,
           "wickets": 1,
-          "overs": 6.2,
+          "overs": 8.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 24,
-              "balls": 15,
-              "fours": 3,
+              "runs": 37,
+              "balls": 25,
+              "fours": 4,
               "sixes": 1,
-              "sr": 160,
+              "sr": 148,
               "dismissal": "batting"
             },
             {
@@ -14083,6 +14083,15 @@
               "fours": 1,
               "sixes": 3,
               "sr": 143.48,
+              "dismissal": "st Sanju Samson b Noor Ahmad"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 4,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 80,
               "dismissal": "batting"
             }
           ],
@@ -14113,18 +14122,18 @@
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 20,
               "wickets": 0,
-              "economy": 11
+              "economy": 10
             },
             {
               "name": "Noor Ahmad",
-              "overs": 0.2,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 0,
+              "runs": 11,
+              "wickets": 1,
               "economy": 6
             }
           ]
@@ -14134,8 +14143,8 @@
         "Sanju Samson": {
           "batting": 3,
           "bowling": 0,
-          "fielding": 0,
-          "total": 3
+          "fielding": 10,
+          "total": 13
         },
         "Ruturaj Gaikwad": {
           "batting": 98,
@@ -14169,15 +14178,15 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Sai Sudharsan": {
-          "batting": 34,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 34
+          "total": 43
         },
         "Shubman Gill": {
           "batting": 40,
@@ -14186,10 +14195,10 @@
           "total": 48
         },
         "Jos Buttler": {
-          "batting": 0,
+          "batting": 4,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 20
         },
         "Shahrukh Khan": {
           "batting": 0,
@@ -14376,18 +14385,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 2989,
-      "top11Points": 2953,
+      "totalPointsAll": 3007,
+      "top11Points": 2971,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 372,
+          "batting": 381,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 390,
+          "rawPoints": 399,
           "multiplier": 2,
-          "effectivePoints": 780,
+          "effectivePoints": 798,
           "countsInTop11": true
         },
         {
@@ -15077,18 +15086,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3013,
-      "top11Points": 3013,
+      "totalPointsAll": 3019,
+      "top11Points": 3019,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 333,
+          "batting": 337,
           "bowling": 0,
           "fielding": 100,
-          "rawPoints": 433,
+          "rawPoints": 437,
           "multiplier": 1.5,
-          "effectivePoints": 650,
+          "effectivePoints": 656,
           "countsInTop11": true
         },
         {
@@ -15342,18 +15351,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3849,
-      "top11Points": 3613,
+      "totalPointsAll": 3894,
+      "top11Points": 3658,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 467,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 491,
+          "fielding": 34,
+          "rawPoints": 501,
           "multiplier": 2,
-          "effectivePoints": 982,
+          "effectivePoints": 1002,
           "countsInTop11": true
         },
         {
@@ -15401,6 +15410,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": 12,
+          "bowling": 195,
+          "fielding": 32,
+          "rawPoints": 239,
+          "multiplier": 1,
+          "effectivePoints": 239,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 196,
@@ -15409,17 +15429,6 @@
           "rawPoints": 230,
           "multiplier": 1,
           "effectivePoints": 230,
-          "countsInTop11": true
-        },
-        {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 12,
-          "bowling": 170,
-          "fielding": 32,
-          "rawPoints": 214,
-          "multiplier": 1,
-          "effectivePoints": 214,
           "countsInTop11": true
         },
         {
