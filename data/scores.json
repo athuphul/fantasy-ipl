@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T10:24:53.056Z",
+  "lastUpdated": "2026-04-26T10:35:06.715Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 26,
-        "w": 2,
-        "o": 4.3
+        "r": 30,
+        "w": 3,
+        "o": 6.3
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 3
       },
       "Ruturaj Gaikwad": {
-        "batting": 12,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 9
       },
       "Sarfaraz Khan": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
+      },
+      "Dewald Brevis": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Shubman Gill": {
         "batting": 0,
@@ -48,8 +54,8 @@
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Shahrukh Khan": {
         "batting": 0,
@@ -71,33 +77,33 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 62,
+        "bowling": 70,
         "fielding": 0,
-        "total": 62
+        "total": 70
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 45,
         "fielding": 0,
-        "total": 20
+        "total": 45
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3884,
-      "top11Points": 3904
+      "totalPointsAll": 3909,
+      "top11Points": 3929
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3819,
-      "top11Points": 3591
+      "totalPointsAll": 3814,
+      "top11Points": 3586
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3001,
-      "top11Points": 3001
+      "totalPointsAll": 3013,
+      "top11Points": 3013
     },
     {
       "team": "Aakash",
@@ -106,13 +112,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2855,
-      "top11Points": 2865
+      "totalPointsAll": 2863,
+      "top11Points": 2873
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2874,
-      "top11Points": 2808
+      "totalPointsAll": 2870,
+      "top11Points": 2804
     },
     {
       "team": "Kishan",
@@ -121,8 +127,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2719,
-      "top11Points": 2661
+      "totalPointsAll": 2721,
+      "top11Points": 2663
     },
     {
       "team": "Tanay",
@@ -13880,17 +13886,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 26,
-          "w": 2,
-          "o": 4.3
+          "r": 30,
+          "w": 3,
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 26,
-          "wickets": 2,
-          "overs": 4.3,
+          "runs": 30,
+          "wickets": 3,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -13903,11 +13909,11 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 10,
-              "balls": 8,
+              "runs": 12,
+              "balls": 14,
               "fours": 2,
               "sixes": 0,
-              "sr": 125,
+              "sr": 85.71,
               "dismissal": "batting"
             },
             {
@@ -13922,29 +13928,46 @@
             {
               "name": "Sarfaraz Khan",
               "runs": 0,
-              "balls": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
+              "dismissal": "c Jos Buttler b Mohammed Siraj"
+            },
+            {
+              "name": "Dewald Brevis",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 11,
-              "wickets": 0,
-              "economy": 4.71
+              "runs": 12,
+              "wickets": 1,
+              "economy": 4
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 16,
               "wickets": 2,
-              "economy": 7
+              "economy": 5.33
+            },
+            {
+              "name": "Manav Suthar",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -13957,16 +13980,22 @@
           "total": 3
         },
         "Ruturaj Gaikwad": {
-          "batting": 12,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 9
         },
         "Sarfaraz Khan": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
+        },
+        "Dewald Brevis": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Shubman Gill": {
           "batting": 0,
@@ -13983,8 +14012,8 @@
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Shahrukh Khan": {
           "batting": 0,
@@ -14006,15 +14035,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 62,
+          "bowling": 70,
           "fielding": 0,
-          "total": 62
+          "total": 70
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 45,
           "fielding": 0,
-          "total": 20
+          "total": 45
         }
       },
       "isComplete": false
@@ -14022,8 +14051,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2855,
-      "top11Points": 2865,
+      "totalPointsAll": 2863,
+      "top11Points": 2873,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -14051,11 +14080,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 317,
+          "bowling": 325,
           "fielding": 24,
-          "rawPoints": 378,
+          "rawPoints": 386,
           "multiplier": 1,
-          "effectivePoints": 378,
+          "effectivePoints": 386,
           "countsInTop11": true
         },
         {
@@ -14309,8 +14338,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3884,
-      "top11Points": 3904,
+      "totalPointsAll": 3909,
+      "top11Points": 3929,
       "players": [
         {
           "name": "KL Rahul",
@@ -14382,11 +14411,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 232,
+          "bowling": 257,
           "fielding": 24,
-          "rawPoints": 251,
+          "rawPoints": 276,
           "multiplier": 1,
-          "effectivePoints": 251,
+          "effectivePoints": 276,
           "countsInTop11": true
         },
         {
@@ -14447,8 +14476,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2719,
-      "top11Points": 2661,
+      "totalPointsAll": 2721,
+      "top11Points": 2663,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14519,12 +14548,12 @@
         {
           "name": "Dewald Brevis",
           "role": "Batsman",
-          "batting": 80,
+          "batting": 82,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 136,
+          "rawPoints": 138,
           "multiplier": 1,
-          "effectivePoints": 136,
+          "effectivePoints": 138,
           "countsInTop11": true
         },
         {
@@ -14712,8 +14741,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2874,
-      "top11Points": 2808,
+      "totalPointsAll": 2870,
+      "top11Points": 2804,
       "players": [
         {
           "name": "Axar Patel",
@@ -14773,12 +14802,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 121,
+          "batting": 118,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 150,
+          "rawPoints": 147,
           "multiplier": 1.5,
-          "effectivePoints": 225,
+          "effectivePoints": 221,
           "countsInTop11": true
         },
         {
@@ -14872,18 +14901,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3001,
-      "top11Points": 3001,
+      "totalPointsAll": 3013,
+      "top11Points": 3013,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 333,
           "bowling": 0,
-          "fielding": 92,
-          "rawPoints": 425,
+          "fielding": 100,
+          "rawPoints": 433,
           "multiplier": 1.5,
-          "effectivePoints": 638,
+          "effectivePoints": 650,
           "countsInTop11": true
         },
         {
@@ -15137,8 +15166,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3819,
-      "top11Points": 3591,
+      "totalPointsAll": 3814,
+      "top11Points": 3586,
       "players": [
         {
           "name": "Sanju Samson",
@@ -15187,12 +15216,12 @@
         {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
-          "batting": 236,
+          "batting": 231,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 278,
+          "rawPoints": 273,
           "multiplier": 1,
-          "effectivePoints": 278,
+          "effectivePoints": 273,
           "countsInTop11": true
         },
         {
