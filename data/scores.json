@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T15:34:53.631Z",
+  "lastUpdated": "2026-04-26T15:44:53.691Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 107,
+        "r": 130,
         "w": 7,
-        "o": 17.4
+        "o": 19.2
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 0
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 45
       },
       "Rinku Singh": {
-        "batting": 42,
+        "batting": 78,
         "bowling": 0,
         "fielding": 0,
-        "total": 42
+        "total": 78
       },
       "Anukul Roy": {
         "batting": -5,
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Sunil Narine": {
-        "batting": 3,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 4
       }
     }
   },
@@ -97,13 +97,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3962,
-      "top11Points": 3726
+      "totalPointsAll": 4016,
+      "top11Points": 3780
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3191,
-      "top11Points": 3155
+      "totalPointsAll": 3171,
+      "top11Points": 3135
     },
     {
       "team": "Ritik",
@@ -122,8 +122,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2846,
-      "top11Points": 2788
+      "totalPointsAll": 2847,
+      "top11Points": 2789
     },
     {
       "team": "Kishan",
@@ -14235,17 +14235,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 107,
+          "r": 130,
           "w": 7,
-          "o": 17.4
+          "o": 19.2
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 107,
+          "runs": 130,
           "wickets": 7,
-          "overs": 17.4,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -14294,11 +14294,11 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 38,
-              "balls": 38,
-              "fours": 4,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 59,
+              "balls": 46,
+              "fours": 7,
+              "sixes": 1,
+              "sr": 128.26,
               "dismissal": "batting"
             },
             {
@@ -14321,22 +14321,22 @@
             },
             {
               "name": "Sunil Narine",
-              "runs": 3,
-              "balls": 5,
+              "runs": 4,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 60,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 17,
+              "runs": 34,
               "wickets": 0,
-              "economy": 5.67
+              "economy": 8.5
             },
             {
               "name": "Mohsin Khan",
@@ -14348,19 +14348,19 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
+              "runs": 24,
               "wickets": 0,
-              "economy": 5.18
+              "economy": 6
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 20,
+              "runs": 21,
               "wickets": 0,
-              "economy": 6.67
+              "economy": 6.63
             },
             {
               "name": "George Linde",
@@ -14414,9 +14414,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 0
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -14437,10 +14437,10 @@
           "total": 45
         },
         "Rinku Singh": {
-          "batting": 42,
+          "batting": 78,
           "bowling": 0,
           "fielding": 0,
-          "total": 42
+          "total": 78
         },
         "Anukul Roy": {
           "batting": -5,
@@ -14449,10 +14449,10 @@
           "total": -5
         },
         "Sunil Narine": {
-          "batting": 3,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 4
         }
       },
       "isComplete": false
@@ -14609,8 +14609,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3191,
-      "top11Points": 3155,
+      "totalPointsAll": 3171,
+      "top11Points": 3135,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -14682,11 +14682,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 20,
-          "bowling": 224,
+          "bowling": 204,
           "fielding": 16,
-          "rawPoints": 260,
+          "rawPoints": 240,
           "multiplier": 1,
-          "effectivePoints": 260,
+          "effectivePoints": 240,
           "countsInTop11": true
         },
         {
@@ -14885,8 +14885,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2846,
-      "top11Points": 2788,
+      "totalPointsAll": 2847,
+      "top11Points": 2789,
       "players": [
         {
           "name": "Shubman Gill",
@@ -14913,12 +14913,12 @@
         {
           "name": "Sunil Narine",
           "role": "All-Rounder",
-          "batting": 44,
+          "batting": 45,
           "bowling": 209,
           "fielding": 8,
-          "rawPoints": 261,
+          "rawPoints": 262,
           "multiplier": 1.5,
-          "effectivePoints": 392,
+          "effectivePoints": 393,
           "countsInTop11": true
         },
         {
@@ -15575,8 +15575,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3962,
-      "top11Points": 3726,
+      "totalPointsAll": 4016,
+      "top11Points": 3780,
       "players": [
         {
           "name": "Sanju Samson",
@@ -15603,12 +15603,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 203,
+          "batting": 239,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 243,
+          "rawPoints": 279,
           "multiplier": 1.5,
-          "effectivePoints": 365,
+          "effectivePoints": 419,
           "countsInTop11": true
         },
         {
