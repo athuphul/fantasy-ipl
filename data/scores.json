@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:45:04.480Z",
+  "lastUpdated": "2026-04-26T11:54:54.166Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529280",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 135,
-        "w": 6,
-        "o": 18.3
+        "r": 158,
+        "w": 7,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 3
       },
       "Ruturaj Gaikwad": {
-        "batting": 81,
+        "batting": 98,
         "bowling": 0,
         "fielding": 0,
-        "total": 81
+        "total": 98
       },
       "Sarfaraz Khan": {
         "batting": -5,
@@ -72,8 +72,8 @@
       "Shahrukh Khan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Washington Sundar": {
         "batting": 0,
@@ -109,7 +109,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 3841,
+      "totalPointsAll": 3849,
       "top11Points": 3613
     },
     {
@@ -119,8 +119,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 2978,
-      "top11Points": 2912
+      "totalPointsAll": 3003,
+      "top11Points": 2937
     },
     {
       "team": "Athu",
@@ -13898,17 +13898,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 135,
-          "w": 6,
-          "o": 18.3
+          "r": 158,
+          "w": 7,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 135,
-          "wickets": 6,
-          "overs": 18.3,
+          "runs": 158,
+          "wickets": 7,
+          "overs": 20,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -13921,12 +13921,12 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 60,
-              "balls": 54,
-              "fours": 3,
+              "runs": 74,
+              "balls": 60,
+              "fours": 6,
               "sixes": 4,
-              "sr": 111.11,
-              "dismissal": "batting"
+              "sr": 123.33,
+              "dismissal": "not out"
             },
             {
               "name": "Urvil Patel",
@@ -13975,12 +13975,21 @@
             },
             {
               "name": "Jamie Overton",
-              "runs": 10,
-              "balls": 3,
-              "fours": 1,
+              "runs": 18,
+              "balls": 6,
+              "fours": 3,
               "sixes": 1,
-              "sr": 333.33,
-              "dismissal": "batting"
+              "sr": 300,
+              "dismissal": "c Shahrukh Khan b Arshad Khan"
+            },
+            {
+              "name": "Akeal Hosein",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -14002,11 +14011,11 @@
             },
             {
               "name": "Manav Suthar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 7,
+              "runs": 22,
               "wickets": 1,
-              "economy": 3.5
+              "economy": 7.33
             },
             {
               "name": "Jason Holder",
@@ -14018,11 +14027,11 @@
             },
             {
               "name": "Arshad Khan",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 35,
-              "wickets": 1,
-              "economy": 10
+              "runs": 43,
+              "wickets": 2,
+              "economy": 10.75
             },
             {
               "name": "Rashid Khan",
@@ -14043,10 +14052,10 @@
           "total": 3
         },
         "Ruturaj Gaikwad": {
-          "batting": 81,
+          "batting": 98,
           "bowling": 0,
           "fielding": 0,
-          "total": 81
+          "total": 98
         },
         "Sarfaraz Khan": {
           "batting": -5,
@@ -14093,8 +14102,8 @@
         "Shahrukh Khan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Washington Sundar": {
           "batting": 0,
@@ -14816,8 +14825,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 2978,
-      "top11Points": 2912,
+      "totalPointsAll": 3003,
+      "top11Points": 2937,
       "players": [
         {
           "name": "Axar Patel",
@@ -14855,12 +14864,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 190,
+          "batting": 207,
           "bowling": 0,
           "fielding": 29,
-          "rawPoints": 219,
+          "rawPoints": 236,
           "multiplier": 1.5,
-          "effectivePoints": 329,
+          "effectivePoints": 354,
           "countsInTop11": true
         },
         {
@@ -15241,7 +15250,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 3841,
+      "totalPointsAll": 3849,
       "top11Points": 3613,
       "players": [
         {
@@ -15377,6 +15386,17 @@
           "countsInTop11": false
         },
         {
+          "name": "Shahrukh Khan",
+          "role": "Batsman",
+          "batting": 41,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 65,
+          "multiplier": 1,
+          "effectivePoints": 65,
+          "countsInTop11": false
+        },
+        {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
           "batting": 45,
@@ -15385,17 +15405,6 @@
           "rawPoints": 61,
           "multiplier": 1,
           "effectivePoints": 61,
-          "countsInTop11": false
-        },
-        {
-          "name": "Shahrukh Khan",
-          "role": "Batsman",
-          "batting": 41,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 57,
-          "multiplier": 1,
-          "effectivePoints": 57,
           "countsInTop11": false
         }
       ]
