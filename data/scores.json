@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T14:14:54.702Z",
+  "lastUpdated": "2026-04-26T14:24:55.094Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 11,
-        "w": 1,
-        "o": 2.3
+        "r": 25,
+        "w": 2,
+        "o": 4.2
       }
     ],
     "playerScores": {
       "Aiden Markram": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Mitchell Marsh": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -58,10 +58,16 @@
         "total": 0
       },
       "Ajinkya Rahane": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
+      },
+      "Cameron Green": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -78,13 +84,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3171,
-      "top11Points": 3135
+      "totalPointsAll": 3191,
+      "top11Points": 3155
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3080,
-      "top11Points": 3080
+      "totalPointsAll": 3088,
+      "top11Points": 3088
     },
     {
       "team": "Manav",
@@ -93,8 +99,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2890,
-      "top11Points": 2900
+      "totalPointsAll": 2892,
+      "top11Points": 2902
     },
     {
       "team": "Ashwin",
@@ -108,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2320,
-      "top11Points": 2304
+      "totalPointsAll": 2321,
+      "top11Points": 2305
     }
   ],
   "matchHistory": [
@@ -14211,26 +14217,26 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 11,
-          "w": 1,
-          "o": 2.3
+          "r": 25,
+          "w": 2,
+          "o": 4.2
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 11,
-          "wickets": 1,
-          "overs": 2.3,
+          "runs": 25,
+          "wickets": 2,
+          "overs": 4.2,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 8,
-              "balls": 11,
+              "runs": 10,
+              "balls": 15,
               "fours": 0,
               "sixes": 1,
-              "sr": 72.73,
-              "dismissal": "batting"
+              "sr": 66.67,
+              "dismissal": "c Aiden Markram b Mohsin Khan"
             },
             {
               "name": "Tim Seifert",
@@ -14243,6 +14249,15 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
+              "runs": 8,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 160,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
               "runs": 1,
               "balls": 1,
               "fours": 0,
@@ -14254,18 +14269,26 @@
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 12,
               "wickets": 0,
-              "economy": 6.67
+              "economy": 6
             },
             {
               "name": "Mohsin Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 1,
-              "runs": 0,
-              "wickets": 1,
+              "runs": 8,
+              "wickets": 2,
+              "economy": 4
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
               "economy": 0
             }
           ]
@@ -14275,8 +14298,8 @@
         "Aiden Markram": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Mitchell Marsh": {
           "batting": 0,
@@ -14304,9 +14327,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -14315,10 +14338,16 @@
           "total": 0
         },
         "Ajinkya Rahane": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
+        },
+        "Cameron Green": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -14326,8 +14355,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2890,
-      "top11Points": 2900,
+      "totalPointsAll": 2892,
+      "top11Points": 2902,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -14387,12 +14416,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 183,
+          "batting": 185,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 199,
+          "rawPoints": 201,
           "multiplier": 1,
-          "effectivePoints": 199,
+          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
@@ -14475,8 +14504,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3171,
-      "top11Points": 3135,
+      "totalPointsAll": 3191,
+      "top11Points": 3155,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -14548,11 +14577,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 20,
-          "bowling": 204,
+          "bowling": 224,
           "fielding": 16,
-          "rawPoints": 240,
+          "rawPoints": 260,
           "multiplier": 1,
-          "effectivePoints": 240,
+          "effectivePoints": 260,
           "countsInTop11": true
         },
         {
@@ -15176,8 +15205,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3080,
-      "top11Points": 3080,
+      "totalPointsAll": 3088,
+      "top11Points": 3088,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15239,10 +15268,10 @@
           "role": "Opener",
           "batting": 207,
           "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 239,
+          "fielding": 40,
+          "rawPoints": 247,
           "multiplier": 1,
-          "effectivePoints": 239,
+          "effectivePoints": 247,
           "countsInTop11": true
         },
         {
@@ -15303,8 +15332,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2320,
-      "top11Points": 2304,
+      "totalPointsAll": 2321,
+      "top11Points": 2305,
       "players": [
         {
           "name": "Travis Head",
@@ -15364,12 +15393,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 222,
+          "batting": 223,
           "bowling": -15,
           "fielding": 32,
-          "rawPoints": 239,
+          "rawPoints": 240,
           "multiplier": 1,
-          "effectivePoints": 239,
+          "effectivePoints": 240,
           "countsInTop11": true
         },
         {
