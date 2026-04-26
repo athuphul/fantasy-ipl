@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T16:14:53.000Z",
+  "lastUpdated": "2026-04-26T16:25:25.807Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529281",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 9,
+        "r": 22,
         "w": 1,
-        "o": 1.5
+        "o": 4
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Aiden Markram": {
-        "batting": 7,
+        "batting": 10,
         "bowling": 20,
         "fielding": 8,
-        "total": 35
+        "total": 38
       },
       "Mitchell Marsh": {
         "batting": 2,
@@ -34,10 +34,10 @@
         "total": 10
       },
       "Rishabh Pant": {
-        "batting": 1,
+        "batting": 8,
         "bowling": 0,
         "fielding": 16,
-        "total": 17
+        "total": 24
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       }
     }
   },
@@ -114,8 +114,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3140,
-      "top11Points": 3140
+      "totalPointsAll": 3163,
+      "top11Points": 3163
     },
     {
       "team": "Aakash",
@@ -134,8 +134,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2848,
-      "top11Points": 2790
+      "totalPointsAll": 2855,
+      "top11Points": 2797
     },
     {
       "team": "Kishan",
@@ -14247,9 +14247,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 9,
+          "r": 22,
           "w": 1,
-          "o": 1.5
+          "o": 4
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -14400,17 +14400,17 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 9,
+          "runs": 22,
           "wickets": 1,
-          "overs": 1.5,
+          "overs": 4,
           "batting": [
             {
               "name": "Aiden Markram",
-              "runs": 6,
-              "balls": 4,
+              "runs": 9,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 150,
+              "sr": 112.5,
               "dismissal": "batting"
             },
             {
@@ -14424,11 +14424,11 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 1,
-              "balls": 4,
+              "runs": 11,
+              "balls": 13,
               "fours": 0,
-              "sixes": 0,
-              "sr": 25,
+              "sixes": 1,
+              "sr": 84.62,
               "dismissal": "batting"
             }
           ],
@@ -14443,21 +14443,37 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
+              "runs": 6,
               "wickets": 1,
-              "economy": 1.2
+              "economy": 3
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
       ],
       "playerScores": {
         "Aiden Markram": {
-          "batting": 7,
+          "batting": 10,
           "bowling": 20,
           "fielding": 8,
-          "total": 35
+          "total": 38
         },
         "Mitchell Marsh": {
           "batting": 2,
@@ -14466,10 +14482,10 @@
           "total": 10
         },
         "Rishabh Pant": {
-          "batting": 1,
+          "batting": 8,
           "bowling": 0,
           "fielding": 16,
-          "total": 17
+          "total": 24
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -14527,9 +14543,9 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         }
       },
       "isComplete": false
@@ -14962,8 +14978,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2848,
-      "top11Points": 2790,
+      "totalPointsAll": 2855,
+      "top11Points": 2797,
       "players": [
         {
           "name": "Shubman Gill",
@@ -15001,12 +15017,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 192,
+          "batting": 199,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 266,
+          "rawPoints": 273,
           "multiplier": 1,
-          "effectivePoints": 266,
+          "effectivePoints": 273,
           "countsInTop11": true
         },
         {
@@ -15387,8 +15403,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3140,
-      "top11Points": 3140,
+      "totalPointsAll": 3163,
+      "top11Points": 3163,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15448,23 +15464,23 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 214,
+          "batting": 217,
           "bowling": 20,
           "fielding": 40,
-          "rawPoints": 274,
+          "rawPoints": 277,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 277,
           "countsInTop11": true
         },
         {
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 175,
+          "bowling": 195,
           "fielding": 18,
-          "rawPoints": 194,
+          "rawPoints": 214,
           "multiplier": 1,
-          "effectivePoints": 194,
+          "effectivePoints": 214,
           "countsInTop11": true
         },
         {
