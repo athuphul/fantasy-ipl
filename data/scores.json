@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:04:56.525Z",
+  "lastUpdated": "2026-04-27T15:14:55.286Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 45,
+        "r": 59,
         "w": 7,
-        "o": 9.5
+        "o": 12.1
       }
     ],
     "playerScores": {
@@ -83,9 +83,9 @@
       },
       "Romario Shepherd": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Krunal Pandya": {
         "batting": 0,
@@ -107,9 +107,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       }
     }
   },
@@ -136,8 +136,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3130,
-      "top11Points": 3064
+      "totalPointsAll": 3150,
+      "top11Points": 3084
     },
     {
       "team": "Athu",
@@ -146,8 +146,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 2975,
-      "top11Points": 2917
+      "totalPointsAll": 2970,
+      "top11Points": 2912
     },
     {
       "team": "Kishan",
@@ -14656,17 +14656,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 45,
+          "r": 59,
           "w": 7,
-          "o": 9.5
+          "o": 12.1
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 45,
+          "runs": 59,
           "wickets": 7,
-          "overs": 9.5,
+          "overs": 12.1,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14724,11 +14724,11 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 18,
-              "balls": 20,
+              "runs": 19,
+              "balls": 21,
               "fours": 2,
               "sixes": 0,
-              "sr": 90,
+              "sr": 90.48,
               "dismissal": "batting"
             },
             {
@@ -14742,10 +14742,10 @@
             },
             {
               "name": "Kyle Jamieson",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
+              "runs": 12,
+              "balls": 12,
+              "fours": 1,
+              "sixes": 1,
               "sr": 100,
               "dismissal": "batting"
             }
@@ -14777,19 +14777,19 @@
             },
             {
               "name": "Romario Shepherd",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 21,
               "wickets": 0,
-              "economy": 9
+              "economy": 10.5
             },
             {
               "name": "Suyash Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
+              "runs": 4,
               "wickets": 0,
-              "economy": 3
+              "economy": 2
             }
           ]
         }
@@ -14863,9 +14863,9 @@
         },
         "Romario Shepherd": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Krunal Pandya": {
           "batting": 0,
@@ -14887,9 +14887,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         }
       },
       "isComplete": false
@@ -15322,8 +15322,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2975,
-      "top11Points": 2917,
+      "totalPointsAll": 2970,
+      "top11Points": 2912,
       "players": [
         {
           "name": "Shubman Gill",
@@ -15395,11 +15395,11 @@
           "name": "Romario Shepherd",
           "role": "All-Rounder",
           "batting": 61,
-          "bowling": 75,
+          "bowling": 70,
           "fielding": 8,
-          "rawPoints": 144,
+          "rawPoints": 139,
           "multiplier": 1,
-          "effectivePoints": 144,
+          "effectivePoints": 139,
           "countsInTop11": true
         },
         {
@@ -15587,8 +15587,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3130,
-      "top11Points": 3064,
+      "totalPointsAll": 3150,
+      "top11Points": 3084,
       "players": [
         {
           "name": "Axar Patel",
@@ -15679,6 +15679,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Suyash Sharma",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 155,
+          "fielding": 0,
+          "rawPoints": 155,
+          "multiplier": 1,
+          "effectivePoints": 155,
+          "countsInTop11": true
+        },
+        {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
           "batting": 58,
@@ -15698,17 +15709,6 @@
           "rawPoints": 139,
           "multiplier": 1,
           "effectivePoints": 139,
-          "countsInTop11": true
-        },
-        {
-          "name": "Suyash Sharma",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 135,
-          "fielding": 0,
-          "rawPoints": 135,
-          "multiplier": 1,
-          "effectivePoints": 135,
           "countsInTop11": true
         },
         {
