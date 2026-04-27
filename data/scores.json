@@ -1,136 +1,7 @@
 {
-  "lastUpdated": "2026-04-27T16:24:53.717Z",
+  "lastUpdated": "2026-04-27T16:34:58.120Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529282",
-    "name": "Delhi Capitals v Royal Challengers Bengaluru",
-    "status": "Live",
-    "venue": "Arun Jaitley Stadium, Delhi",
-    "score": [
-      {
-        "inning": "Delhi Capitals",
-        "r": 75,
-        "w": 10,
-        "o": 16.3
-      },
-      {
-        "inning": "Royal Challengers Bengaluru",
-        "r": 65,
-        "w": 1,
-        "o": 6
-      }
-    ],
-    "playerScores": {
-      "KL Rahul": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Nitish Rana": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Sameer Rizvi": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Tristan Stubbs": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 6
-      },
-      "Axar Patel": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "David Miller": {
-        "batting": 22,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 22
-      },
-      "Kuldeep Yadav": {
-        "batting": -7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -7
-      },
-      "T Natarajan": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Virat Kohli": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Devdutt Padikkal": {
-        "batting": 58,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 74
-      },
-      "Rajat Patidar": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Jitesh Sharma": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 32,
-        "total": 32
-      },
-      "Tim David": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Romario Shepherd": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Krunal Pandya": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      },
-      "Bhuvneshwar Kumar": {
-        "batting": 0,
-        "bowling": 105,
-        "fielding": 0,
-        "total": 105
-      },
-      "Josh Hazlewood": {
-        "batting": 0,
-        "bowling": 140,
-        "fielding": 0,
-        "total": 140
-      },
-      "Suyash Sharma": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -169,8 +40,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2874,
-      "top11Points": 2874
+      "totalPointsAll": 2900,
+      "top11Points": 2900
     },
     {
       "team": "Tanay",
@@ -14669,7 +14540,7 @@
       "matchId": "espn_1529282",
       "name": "Delhi Capitals v Royal Challengers Bengaluru",
       "date": "2026-04-27",
-      "status": "Live",
+      "status": "Final",
       "venue": "Arun Jaitley Stadium, Delhi",
       "score": [
         {
@@ -14680,9 +14551,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 65,
+          "r": 77,
           "w": 1,
-          "o": 6
+          "o": 6.3
         }
       ],
       "scorecard": [
@@ -14845,9 +14716,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 65,
+          "runs": 77,
           "wickets": 1,
-          "overs": 6,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -14860,12 +14731,12 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 11,
-              "balls": 12,
+              "runs": 23,
+              "balls": 15,
               "fours": 1,
-              "sixes": 0,
-              "sr": 91.67,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 153.33,
+              "dismissal": "not out"
             },
             {
               "name": "Devdutt Padikkal",
@@ -14874,7 +14745,7 @@
               "fours": 3,
               "sixes": 3,
               "sr": 261.54,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -14903,12 +14774,12 @@
               "economy": 5
             },
             {
-              "name": "Kuldeep Yadav",
-              "overs": 0,
+              "name": "T Natarajan",
+              "overs": 0.3,
               "maidens": 0,
-              "runs": 0,
+              "runs": 12,
               "wickets": 0,
-              "economy": 0
+              "economy": 24
             }
           ]
         }
@@ -14963,10 +14834,10 @@
           "total": 8
         },
         "Virat Kohli": {
-          "batting": 7,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 33
         },
         "Devdutt Padikkal": {
           "batting": 58,
@@ -15023,7 +14894,7 @@
           "total": 45
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -15591,8 +15462,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2874,
-      "top11Points": 2874,
+      "totalPointsAll": 2900,
+      "top11Points": 2900,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15608,12 +15479,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 465,
+          "batting": 491,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 497,
+          "rawPoints": 523,
           "multiplier": 1,
-          "effectivePoints": 497,
+          "effectivePoints": 523,
           "countsInTop11": true
         },
         {
