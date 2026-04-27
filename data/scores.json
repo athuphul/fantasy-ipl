@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T14:35:05.654Z",
+  "lastUpdated": "2026-04-27T14:45:06.312Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 11,
+        "r": 31,
         "w": 6,
-        "o": 5
+        "o": 7.3
       }
     ],
     "playerScores": {
@@ -46,10 +46,10 @@
         "total": -5
       },
       "David Miller": {
-        "batting": 4,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 4
+        "total": 6
       },
       "Virat Kohli": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4123,
-      "top11Points": 3887
+      "totalPointsAll": 4125,
+      "top11Points": 3889
     },
     {
       "team": "Ritik",
@@ -14656,17 +14656,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 11,
+          "r": 31,
           "w": 6,
-          "o": 5
+          "o": 7.3
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 11,
+          "runs": 31,
           "wickets": 6,
-          "overs": 5,
+          "overs": 7.3,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14724,20 +14724,20 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 1,
-              "balls": 3,
-              "fours": 0,
+              "runs": 11,
+              "balls": 11,
+              "fours": 2,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "David Miller",
-              "runs": 4,
-              "balls": 8,
-              "fours": 0,
+              "runs": 10,
+              "balls": 11,
+              "fours": 1,
               "sixes": 0,
-              "sr": 50,
+              "sr": 90.91,
               "dismissal": "batting"
             }
           ],
@@ -14752,11 +14752,27 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
               "runs": 8,
               "wickets": 3,
-              "economy": 3.43
+              "economy": 2.67
+            },
+            {
+              "name": "Rasikh Salam Dar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
+            },
+            {
+              "name": "Romario Shepherd",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 24
             }
           ]
         }
@@ -14793,10 +14809,10 @@
           "total": -5
         },
         "David Miller": {
-          "batting": 4,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 4
+          "total": 6
         },
         "Virat Kohli": {
           "batting": 0,
@@ -15979,8 +15995,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4123,
-      "top11Points": 3887,
+      "totalPointsAll": 4125,
+      "top11Points": 3889,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16084,12 +16100,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 154,
+          "batting": 156,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 178,
+          "rawPoints": 180,
           "multiplier": 1,
-          "effectivePoints": 178,
+          "effectivePoints": 180,
           "countsInTop11": true
         },
         {
