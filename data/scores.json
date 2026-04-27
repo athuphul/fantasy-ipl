@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T14:45:06.312Z",
+  "lastUpdated": "2026-04-27T14:54:57.841Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 31,
-        "w": 6,
-        "o": 7.3
+        "r": 43,
+        "w": 7,
+        "o": 9
       }
     ],
     "playerScores": {
@@ -46,10 +46,10 @@
         "total": -5
       },
       "David Miller": {
-        "batting": 6,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 22
       },
       "Virat Kohli": {
         "batting": 0,
@@ -72,8 +72,8 @@
       "Jitesh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 24,
-        "total": 24
+        "fielding": 32,
+        "total": 32
       },
       "Tim David": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4125,
-      "top11Points": 3889
+      "totalPointsAll": 4141,
+      "top11Points": 3905
     },
     {
       "team": "Ritik",
@@ -136,8 +136,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3122,
-      "top11Points": 3056
+      "totalPointsAll": 3130,
+      "top11Points": 3064
     },
     {
       "team": "Athu",
@@ -14656,17 +14656,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 31,
-          "w": 6,
-          "o": 7.3
+          "r": 43,
+          "w": 7,
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 31,
-          "wickets": 6,
-          "overs": 7.3,
+          "runs": 43,
+          "wickets": 7,
+          "overs": 9,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14724,21 +14724,21 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 11,
-              "balls": 11,
+              "runs": 16,
+              "balls": 15,
               "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 106.67,
               "dismissal": "batting"
             },
             {
               "name": "David Miller",
-              "runs": 10,
-              "balls": 11,
-              "fours": 1,
+              "runs": 19,
+              "balls": 18,
+              "fours": 3,
               "sixes": 0,
-              "sr": 90.91,
-              "dismissal": "batting"
+              "sr": 105.56,
+              "dismissal": "c Jitesh Sharma b Rasikh Salam Dar"
             }
           ],
           "bowling": [
@@ -14760,19 +14760,19 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
-              "economy": 12
+              "runs": 21,
+              "wickets": 1,
+              "economy": 10.5
             },
             {
               "name": "Romario Shepherd",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 4,
+              "runs": 9,
               "wickets": 0,
-              "economy": 24
+              "economy": 9
             }
           ]
         }
@@ -14809,10 +14809,10 @@
           "total": -5
         },
         "David Miller": {
-          "batting": 6,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 22
         },
         "Virat Kohli": {
           "batting": 0,
@@ -14835,8 +14835,8 @@
         "Jitesh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 24,
-          "total": 24
+          "fielding": 32,
+          "total": 32
         },
         "Tim David": {
           "batting": 0,
@@ -15570,8 +15570,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3122,
-      "top11Points": 3056,
+      "totalPointsAll": 3130,
+      "top11Points": 3064,
       "players": [
         {
           "name": "Axar Patel",
@@ -15662,6 +15662,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jitesh Sharma",
+          "role": "Wicket Keeper",
+          "batting": 58,
+          "bowling": 0,
+          "fielding": 82,
+          "rawPoints": 140,
+          "multiplier": 1,
+          "effectivePoints": 140,
+          "countsInTop11": true
+        },
+        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 75,
@@ -15681,17 +15692,6 @@
           "rawPoints": 135,
           "multiplier": 1,
           "effectivePoints": 135,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jitesh Sharma",
-          "role": "Wicket Keeper",
-          "batting": 58,
-          "bowling": 0,
-          "fielding": 74,
-          "rawPoints": 132,
-          "multiplier": 1,
-          "effectivePoints": 132,
           "countsInTop11": true
         },
         {
@@ -15995,8 +15995,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4125,
-      "top11Points": 3889,
+      "totalPointsAll": 4141,
+      "top11Points": 3905,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16087,6 +16087,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 172,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 196,
+          "multiplier": 1,
+          "effectivePoints": 196,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
           "batting": 29,
@@ -16095,17 +16106,6 @@
           "rawPoints": 185,
           "multiplier": 1,
           "effectivePoints": 185,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 156,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 180,
-          "multiplier": 1,
-          "effectivePoints": 180,
           "countsInTop11": true
         },
         {
