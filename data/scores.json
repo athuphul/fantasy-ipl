@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T16:04:57.152Z",
+  "lastUpdated": "2026-04-27T16:14:55.165Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 20,
-        "w": 0,
-        "o": 2.2
+        "r": 35,
+        "w": 1,
+        "o": 3.4
       }
     ],
     "playerScores": {
@@ -66,8 +66,8 @@
       "T Natarajan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Virat Kohli": {
         "batting": 7,
@@ -76,10 +76,10 @@
         "total": 7
       },
       "Devdutt Padikkal": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 26
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -134,8 +134,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3922,
-      "top11Points": 3942
+      "totalPointsAll": 3930,
+      "top11Points": 3950
     },
     {
       "team": "Tikoo",
@@ -169,8 +169,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2816,
-      "top11Points": 2816
+      "totalPointsAll": 2826,
+      "top11Points": 2826
     },
     {
       "team": "Tanay",
@@ -14680,9 +14680,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 20,
-          "w": 0,
-          "o": 2.2
+          "r": 35,
+          "w": 1,
+          "o": 3.4
         }
       ],
       "scorecard": [
@@ -14845,18 +14845,18 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 20,
-          "wickets": 0,
-          "overs": 2.2,
+          "runs": 35,
+          "wickets": 1,
+          "overs": 3.4,
           "batting": [
             {
               "name": "Jacob Bethell",
-              "runs": 8,
-              "balls": 7,
+              "runs": 20,
+              "balls": 11,
               "fours": 1,
-              "sixes": 0,
-              "sr": 114.29,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 181.82,
+              "dismissal": "c T Natarajan b Kyle Jamieson"
             },
             {
               "name": "Virat Kohli",
@@ -14866,24 +14866,33 @@
               "sixes": 0,
               "sr": 100,
               "dismissal": "batting"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 8,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Kyle Jamieson",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 6.86
+              "runs": 21,
+              "wickets": 1,
+              "economy": 10.5
             },
             {
               "name": "Dushmantha Chameera",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 6,
+              "runs": 13,
               "wickets": 0,
-              "economy": 6
+              "economy": 8.67
             }
           ]
         }
@@ -14934,8 +14943,8 @@
         "T Natarajan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Virat Kohli": {
           "batting": 7,
@@ -14944,10 +14953,10 @@
           "total": 7
         },
         "Devdutt Padikkal": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 26
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -15290,8 +15299,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3922,
-      "top11Points": 3942,
+      "totalPointsAll": 3930,
+      "top11Points": 3950,
       "players": [
         {
           "name": "KL Rahul",
@@ -15371,6 +15380,17 @@
           "countsInTop11": true
         },
         {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 95,
+          "fielding": 16,
+          "rawPoints": 112,
+          "multiplier": 1,
+          "effectivePoints": 112,
+          "countsInTop11": true
+        },
+        {
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
@@ -15379,17 +15399,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 95,
-          "fielding": 8,
-          "rawPoints": 104,
-          "multiplier": 1,
-          "effectivePoints": 104,
           "countsInTop11": true
         },
         {
@@ -15566,8 +15575,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2816,
-      "top11Points": 2816,
+      "totalPointsAll": 2826,
+      "top11Points": 2826,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15605,12 +15614,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 313,
+          "batting": 323,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 385,
+          "rawPoints": 395,
           "multiplier": 1,
-          "effectivePoints": 385,
+          "effectivePoints": 395,
           "countsInTop11": true
         },
         {
