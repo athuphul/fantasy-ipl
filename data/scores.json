@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T14:14:53.448Z",
+  "lastUpdated": "2026-04-27T14:25:26.278Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 7,
-        "w": 3,
-        "o": 2
+        "r": 8,
+        "w": 5,
+        "o": 3.1
       }
     ],
     "playerScores": {
@@ -39,6 +39,12 @@
         "fielding": 0,
         "total": 6
       },
+      "Axar Patel": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
       "Virat Kohli": {
         "batting": 0,
         "bowling": 0,
@@ -48,8 +54,8 @@
       "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -60,8 +66,8 @@
       "Jitesh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 16,
-        "total": 16
+        "fielding": 24,
+        "total": 24
       },
       "Tim David": {
         "batting": 0,
@@ -83,9 +89,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 105,
         "fielding": 0,
-        "total": 25
+        "total": 105
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -124,8 +130,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3069,
-      "top11Points": 3003
+      "totalPointsAll": 3067,
+      "top11Points": 3001
     },
     {
       "team": "Athu",
@@ -139,8 +145,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2720,
-      "top11Points": 2720
+      "totalPointsAll": 2808,
+      "top11Points": 2808
     },
     {
       "team": "Tanay",
@@ -14644,17 +14650,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 7,
-          "w": 3,
-          "o": 2
+          "r": 8,
+          "w": 5,
+          "o": 3.1
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 7,
-          "wickets": 3,
-          "overs": 2,
+          "runs": 8,
+          "wickets": 5,
+          "overs": 3.1,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14677,10 +14683,10 @@
             {
               "name": "Nitish Rana",
               "runs": 1,
-              "balls": 2,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 16.67,
               "dismissal": "batting"
             },
             {
@@ -14695,29 +14701,47 @@
             {
               "name": "Tristan Stubbs",
               "runs": 5,
-              "balls": 2,
+              "balls": 3,
               "fours": 1,
               "sixes": 0,
-              "sr": 250,
+              "sr": 166.67,
+              "dismissal": "c Devdutt Padikkal b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Axar Patel",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Jitesh Sharma b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Abishek Porel",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 1,
-              "economy": 2
+              "runs": 3,
+              "wickets": 3,
+              "economy": 1.5
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 0.4,
+              "overs": 1.2,
               "maidens": 0,
               "runs": 5,
               "wickets": 2,
-              "economy": 7.5
+              "economy": 3.75
             }
           ]
         }
@@ -14747,6 +14771,12 @@
           "fielding": 0,
           "total": 6
         },
+        "Axar Patel": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
         "Virat Kohli": {
           "batting": 0,
           "bowling": 0,
@@ -14756,8 +14786,8 @@
         "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -14768,8 +14798,8 @@
         "Jitesh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 24,
+          "total": 24
         },
         "Tim David": {
           "batting": 0,
@@ -14791,9 +14821,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 105,
           "fielding": 0,
-          "total": 25
+          "total": 105
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -15376,8 +15406,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2720,
-      "top11Points": 2720,
+      "totalPointsAll": 2808,
+      "top11Points": 2808,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15405,11 +15435,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
-          "bowling": 359,
+          "bowling": 439,
           "fielding": 8,
-          "rawPoints": 380,
+          "rawPoints": 460,
           "multiplier": 1,
-          "effectivePoints": 380,
+          "effectivePoints": 460,
           "countsInTop11": true
         },
         {
@@ -15417,10 +15447,10 @@
           "role": "Batsman",
           "batting": 313,
           "bowling": 0,
-          "fielding": 56,
-          "rawPoints": 369,
+          "fielding": 64,
+          "rawPoints": 377,
           "multiplier": 1,
-          "effectivePoints": 369,
+          "effectivePoints": 377,
           "countsInTop11": true
         },
         {
@@ -15503,18 +15533,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3069,
-      "top11Points": 3003,
+      "totalPointsAll": 3067,
+      "top11Points": 3001,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 29,
+          "batting": 24,
           "bowling": 220,
           "fielding": 8,
-          "rawPoints": 257,
+          "rawPoints": 252,
           "multiplier": 2,
-          "effectivePoints": 514,
+          "effectivePoints": 504,
           "countsInTop11": true
         },
         {
@@ -15621,10 +15651,10 @@
           "role": "Wicket Keeper",
           "batting": 58,
           "bowling": 0,
-          "fielding": 66,
-          "rawPoints": 124,
+          "fielding": 74,
+          "rawPoints": 132,
           "multiplier": 1,
-          "effectivePoints": 124,
+          "effectivePoints": 132,
           "countsInTop11": true
         },
         {
