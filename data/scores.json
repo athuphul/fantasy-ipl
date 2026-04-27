@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:14:55.286Z",
+  "lastUpdated": "2026-04-27T15:24:57.540Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 59,
-        "w": 7,
-        "o": 12.1
+        "r": 67,
+        "w": 8,
+        "o": 14
       }
     ],
     "playerScores": {
@@ -51,6 +51,12 @@
         "fielding": 0,
         "total": 22
       },
+      "Kuldeep Yadav": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
       "Virat Kohli": {
         "batting": 0,
         "bowling": 0,
@@ -89,9 +95,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -136,8 +142,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3150,
-      "top11Points": 3084
+      "totalPointsAll": 3175,
+      "top11Points": 3109
     },
     {
       "team": "Athu",
@@ -151,8 +157,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2816,
-      "top11Points": 2816
+      "totalPointsAll": 2817,
+      "top11Points": 2817
     },
     {
       "team": "Tanay",
@@ -14656,17 +14662,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 59,
-          "w": 7,
-          "o": 12.1
+          "r": 67,
+          "w": 8,
+          "o": 14
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 59,
-          "wickets": 7,
-          "overs": 12.1,
+          "runs": 67,
+          "wickets": 8,
+          "overs": 14,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14724,11 +14730,11 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 19,
-              "balls": 21,
+              "runs": 24,
+              "balls": 27,
               "fours": 2,
               "sixes": 0,
-              "sr": 90.48,
+              "sr": 88.89,
               "dismissal": "batting"
             },
             {
@@ -14743,10 +14749,19 @@
             {
               "name": "Kyle Jamieson",
               "runs": 12,
-              "balls": 12,
+              "balls": 13,
               "fours": 1,
               "sixes": 1,
-              "sr": 100,
+              "sr": 92.31,
+              "dismissal": "lbw b Krunal Pandya"
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "runs": 1,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 16.67,
               "dismissal": "batting"
             }
           ],
@@ -14785,11 +14800,19 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 4,
+              "runs": 7,
               "wickets": 0,
-              "economy": 2
+              "economy": 2.33
+            },
+            {
+              "name": "Krunal Pandya",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 1,
+              "economy": 4.29
             }
           ]
         }
@@ -14831,6 +14854,12 @@
           "fielding": 0,
           "total": 22
         },
+        "Kuldeep Yadav": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
         "Virat Kohli": {
           "batting": 0,
           "bowling": 0,
@@ -14869,9 +14898,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -15460,8 +15489,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2816,
-      "top11Points": 2816,
+      "totalPointsAll": 2817,
+      "top11Points": 2817,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15532,12 +15561,12 @@
         {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
-          "batting": 6,
+          "batting": 7,
           "bowling": 145,
           "fielding": 8,
-          "rawPoints": 159,
+          "rawPoints": 160,
           "multiplier": 1,
-          "effectivePoints": 159,
+          "effectivePoints": 160,
           "countsInTop11": true
         },
         {
@@ -15587,8 +15616,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3150,
-      "top11Points": 3084,
+      "totalPointsAll": 3175,
+      "top11Points": 3109,
       "players": [
         {
           "name": "Axar Patel",
@@ -15638,11 +15667,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 53,
-          "bowling": 207,
+          "bowling": 232,
           "fielding": 8,
-          "rawPoints": 268,
+          "rawPoints": 293,
           "multiplier": 1,
-          "effectivePoints": 268,
+          "effectivePoints": 293,
           "countsInTop11": true
         },
         {
