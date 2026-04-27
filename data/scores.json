@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:24:57.540Z",
+  "lastUpdated": "2026-04-27T15:34:58.967Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 67,
-        "w": 8,
-        "o": 14
+        "r": 71,
+        "w": 9,
+        "o": 15.5
       }
     ],
     "playerScores": {
@@ -52,10 +52,10 @@
         "total": 22
       },
       "Kuldeep Yadav": {
-        "batting": 1,
+        "batting": -7,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": -7
       },
       "Virat Kohli": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 45,
         "fielding": 0,
-        "total": 20
+        "total": 45
       }
     }
   },
@@ -142,8 +142,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3175,
-      "top11Points": 3109
+      "totalPointsAll": 3220,
+      "top11Points": 3154
     },
     {
       "team": "Athu",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2817,
-      "top11Points": 2817
+      "totalPointsAll": 2809,
+      "top11Points": 2809
     },
     {
       "team": "Tanay",
@@ -14662,17 +14662,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 67,
-          "w": 8,
-          "o": 14
+          "r": 71,
+          "w": 9,
+          "o": 15.5
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 67,
-          "wickets": 8,
-          "overs": 14,
+          "runs": 71,
+          "wickets": 9,
+          "overs": 15.5,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14730,11 +14730,11 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 24,
-              "balls": 27,
+              "runs": 26,
+              "balls": 30,
               "fours": 2,
               "sixes": 0,
-              "sr": 88.89,
+              "sr": 86.67,
               "dismissal": "batting"
             },
             {
@@ -14757,11 +14757,20 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "runs": 1,
-              "balls": 6,
+              "runs": 3,
+              "balls": 11,
               "fours": 0,
               "sixes": 0,
-              "sr": 16.67,
+              "sr": 27.27,
+              "dismissal": "b Suyash Sharma"
+            },
+            {
+              "name": "Dushmantha Chameera",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -14800,19 +14809,19 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
               "runs": 7,
-              "wickets": 0,
-              "economy": 2.33
+              "wickets": 1,
+              "economy": 1.91
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 9,
               "wickets": 1,
-              "economy": 4.29
+              "economy": 4.5
             }
           ]
         }
@@ -14855,10 +14864,10 @@
           "total": 22
         },
         "Kuldeep Yadav": {
-          "batting": 1,
+          "batting": -7,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": -7
         },
         "Virat Kohli": {
           "batting": 0,
@@ -14898,9 +14907,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -14916,9 +14925,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 45,
           "fielding": 0,
-          "total": 20
+          "total": 45
         }
       },
       "isComplete": false
@@ -15489,8 +15498,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2817,
-      "top11Points": 2817,
+      "totalPointsAll": 2809,
+      "top11Points": 2809,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15561,12 +15570,12 @@
         {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
-          "batting": 7,
+          "batting": -1,
           "bowling": 145,
           "fielding": 8,
-          "rawPoints": 160,
+          "rawPoints": 152,
           "multiplier": 1,
-          "effectivePoints": 160,
+          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -15616,8 +15625,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3175,
-      "top11Points": 3109,
+      "totalPointsAll": 3220,
+      "top11Points": 3154,
       "players": [
         {
           "name": "Axar Patel",
@@ -15667,11 +15676,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 53,
-          "bowling": 232,
+          "bowling": 252,
           "fielding": 8,
-          "rawPoints": 293,
+          "rawPoints": 313,
           "multiplier": 1,
-          "effectivePoints": 293,
+          "effectivePoints": 313,
           "countsInTop11": true
         },
         {
@@ -15711,11 +15720,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 155,
+          "bowling": 180,
           "fielding": 0,
-          "rawPoints": 155,
+          "rawPoints": 180,
           "multiplier": 1,
-          "effectivePoints": 155,
+          "effectivePoints": 180,
           "countsInTop11": true
         },
         {
