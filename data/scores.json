@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T14:25:26.278Z",
+  "lastUpdated": "2026-04-27T14:35:05.654Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529282",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 8,
-        "w": 5,
-        "o": 3.1
+        "r": 11,
+        "w": 6,
+        "o": 5
       }
     ],
     "playerScores": {
@@ -45,6 +45,12 @@
         "fielding": 0,
         "total": -5
       },
+      "David Miller": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
+      },
       "Virat Kohli": {
         "batting": 0,
         "bowling": 0,
@@ -54,8 +60,8 @@
       "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -95,9 +101,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 105,
         "fielding": 0,
-        "total": 50
+        "total": 105
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -115,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4119,
-      "top11Points": 3883
+      "totalPointsAll": 4123,
+      "top11Points": 3887
     },
     {
       "team": "Ritik",
@@ -130,8 +136,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3067,
-      "top11Points": 3001
+      "totalPointsAll": 3122,
+      "top11Points": 3056
     },
     {
       "team": "Athu",
@@ -145,8 +151,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2808,
-      "top11Points": 2808
+      "totalPointsAll": 2816,
+      "top11Points": 2816
     },
     {
       "team": "Tanay",
@@ -14650,17 +14656,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 8,
-          "w": 5,
-          "o": 3.1
+          "r": 11,
+          "w": 6,
+          "o": 5
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 8,
-          "wickets": 5,
-          "overs": 3.1,
+          "runs": 11,
+          "wickets": 6,
+          "overs": 5,
           "batting": [
             {
               "name": "Sahil Parakh",
@@ -14683,11 +14689,11 @@
             {
               "name": "Nitish Rana",
               "runs": 1,
-              "balls": 6,
+              "balls": 9,
               "fours": 0,
               "sixes": 0,
-              "sr": 16.67,
-              "dismissal": "batting"
+              "sr": 11.11,
+              "dismissal": "c Devdutt Padikkal b Josh Hazlewood"
             },
             {
               "name": "Sameer Rizvi",
@@ -14718,30 +14724,39 @@
             },
             {
               "name": "Abishek Porel",
-              "runs": 0,
-              "balls": 2,
+              "runs": 1,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "David Miller",
+              "runs": 4,
+              "balls": 8,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 3,
+              "runs": 5,
               "wickets": 3,
-              "economy": 1.5
+              "economy": 1.67
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 1.2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 2,
-              "economy": 3.75
+              "runs": 8,
+              "wickets": 3,
+              "economy": 3.43
             }
           ]
         }
@@ -14777,6 +14792,12 @@
           "fielding": 0,
           "total": -5
         },
+        "David Miller": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
+        },
         "Virat Kohli": {
           "batting": 0,
           "bowling": 0,
@@ -14786,8 +14807,8 @@
         "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -14827,9 +14848,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 105,
           "fielding": 0,
-          "total": 50
+          "total": 105
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -15406,8 +15427,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2808,
-      "top11Points": 2808,
+      "totalPointsAll": 2816,
+      "top11Points": 2816,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15447,10 +15468,10 @@
           "role": "Batsman",
           "batting": 313,
           "bowling": 0,
-          "fielding": 64,
-          "rawPoints": 377,
+          "fielding": 72,
+          "rawPoints": 385,
           "multiplier": 1,
-          "effectivePoints": 377,
+          "effectivePoints": 385,
           "countsInTop11": true
         },
         {
@@ -15533,8 +15554,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3067,
-      "top11Points": 3001,
+      "totalPointsAll": 3122,
+      "top11Points": 3056,
       "players": [
         {
           "name": "Axar Patel",
@@ -15592,6 +15613,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Josh Hazlewood",
+          "role": "Fast Bowler",
+          "batting": 0,
+          "bowling": 215,
+          "fielding": 24,
+          "rawPoints": 239,
+          "multiplier": 1,
+          "effectivePoints": 239,
+          "countsInTop11": true
+        },
+        {
           "name": "Quinton de Kock",
           "role": "Opener",
           "batting": 199,
@@ -15611,17 +15643,6 @@
           "rawPoints": 199,
           "multiplier": 1,
           "effectivePoints": 199,
-          "countsInTop11": true
-        },
-        {
-          "name": "Josh Hazlewood",
-          "role": "Fast Bowler",
-          "batting": 0,
-          "bowling": 160,
-          "fielding": 24,
-          "rawPoints": 184,
-          "multiplier": 1,
-          "effectivePoints": 184,
           "countsInTop11": true
         },
         {
@@ -15958,8 +15979,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4119,
-      "top11Points": 3883,
+      "totalPointsAll": 4123,
+      "top11Points": 3887,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16063,12 +16084,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 150,
+          "batting": 154,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 174,
+          "rawPoints": 178,
           "multiplier": 1,
-          "effectivePoints": 174,
+          "effectivePoints": 178,
           "countsInTop11": true
         },
         {
