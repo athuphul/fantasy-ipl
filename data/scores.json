@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:04:57.833Z",
+  "lastUpdated": "2026-04-28T14:15:05.959Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 8,
+        "r": 37,
         "w": 0,
-        "o": 0.5
+        "o": 2.4
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 5
       },
       "Priyansh Arya": {
-        "batting": 0,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 31
       },
       "Vaibhav Sooryavanshi": {
         "batting": 0,
@@ -97,14 +97,14 @@
       "top11Points": 2966
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 3001,
+      "top11Points": 2943
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 2928,
       "top11Points": 2928
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 2970,
-      "top11Points": 2912
     },
     {
       "team": "Tanay",
@@ -14974,45 +14974,53 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 8,
+          "r": 37,
           "w": 0,
-          "o": 0.5
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 8,
+          "runs": 37,
           "wickets": 0,
-          "overs": 0.5,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Prabhsimran Singh",
               "runs": 4,
-              "balls": 5,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 80,
+              "sr": 66.67,
               "dismissal": "batting"
             },
             {
               "name": "Priyansh Arya",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 25,
+              "balls": 9,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 277.78,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 0.5,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 4,
+              "runs": 8,
               "wickets": 0,
-              "economy": 4.8
+              "economy": 5.33
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 0,
+              "economy": 21
             }
           ]
         }
@@ -15025,10 +15033,10 @@
           "total": 5
         },
         "Priyansh Arya": {
-          "batting": 0,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 31
         },
         "Vaibhav Sooryavanshi": {
           "batting": 0,
@@ -15497,8 +15505,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 2970,
-      "top11Points": 2912,
+      "totalPointsAll": 3001,
+      "top11Points": 2943,
       "players": [
         {
           "name": "Shubman Gill",
@@ -15525,12 +15533,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 400,
+          "batting": 431,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 400,
+          "rawPoints": 431,
           "multiplier": 1,
-          "effectivePoints": 400,
+          "effectivePoints": 431,
           "countsInTop11": true
         },
         {
