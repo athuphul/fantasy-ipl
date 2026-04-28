@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:45:32.346Z",
+  "lastUpdated": "2026-04-28T15:54:54.178Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -12,6 +12,12 @@
         "r": 222,
         "w": 4,
         "o": 20
+      },
+      {
+        "inning": "Rajasthan Royals",
+        "r": 1,
+        "w": 0,
+        "o": 0.2
       }
     ],
     "playerScores": {
@@ -39,13 +45,37 @@
         "fielding": 0,
         "total": 103
       },
-      "Vaibhav Sooryavanshi": {
+      "Nehal Wadhera": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
       "Yashasvi Jaiswal": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Vaibhav Sooryavanshi": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -95,8 +125,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3251,
-      "top11Points": 3215
+      "totalPointsAll": 3252,
+      "top11Points": 3216
     },
     {
       "team": "Manav",
@@ -14989,6 +15019,12 @@
           "r": 222,
           "w": 4,
           "o": 20
+        },
+        {
+          "inning": "Rajasthan Royals",
+          "r": 1,
+          "w": 0,
+          "o": 0.2
         }
       ],
       "scorecard": [
@@ -15095,6 +15131,42 @@
               "economy": 8
             }
           ]
+        },
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.2,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -15122,13 +15194,37 @@
           "fielding": 0,
           "total": 103
         },
-        "Vaibhav Sooryavanshi": {
+        "Nehal Wadhera": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
         "Yashasvi Jaiswal": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Vaibhav Sooryavanshi": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -15313,8 +15409,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3251,
-      "top11Points": 3215,
+      "totalPointsAll": 3252,
+      "top11Points": 3216,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15341,12 +15437,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 358,
+          "batting": 359,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 374,
+          "rawPoints": 375,
           "multiplier": 1,
-          "effectivePoints": 374,
+          "effectivePoints": 375,
           "countsInTop11": true
         },
         {
