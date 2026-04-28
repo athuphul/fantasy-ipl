@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:44:54.498Z",
+  "lastUpdated": "2026-04-28T16:55:00.944Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 127,
-        "w": 3,
-        "o": 11.5
+        "r": 151,
+        "w": 4,
+        "o": 14
       }
     ],
     "playerScores": {
@@ -65,9 +65,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 62,
+        "bowling": 85,
         "fielding": 0,
-        "total": 62
+        "total": 85
       },
       "Harpreet Brar": {
         "batting": 0,
@@ -94,10 +94,10 @@
         "total": 21
       },
       "Riyan Parag": {
-        "batting": 14,
+        "batting": 45,
         "bowling": 0,
         "fielding": 8,
-        "total": 22
+        "total": 53
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -125,14 +125,14 @@
       "top11Points": 3984
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 3393,
-      "top11Points": 3357
+      "team": "Ritik",
+      "totalPointsAll": 3396,
+      "top11Points": 3396
     },
     {
-      "team": "Ritik",
-      "totalPointsAll": 3334,
-      "top11Points": 3334
+      "team": "Aakash",
+      "totalPointsAll": 3416,
+      "top11Points": 3380
     },
     {
       "team": "Manav",
@@ -15028,9 +15028,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 127,
-          "w": 3,
-          "o": 11.5
+          "r": 151,
+          "w": 4,
+          "o": 14
         }
       ],
       "scorecard": [
@@ -15140,9 +15140,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 127,
-          "wickets": 3,
-          "overs": 11.5,
+          "runs": 151,
+          "wickets": 4,
+          "overs": 14,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -15173,20 +15173,20 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 11,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 220,
-              "dismissal": "batting"
+              "runs": 29,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 181.25,
+              "dismissal": "c Suryansh Shedge b Yuzvendra Chahal"
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 8,
+              "balls": 6,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -15209,11 +15209,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 19,
               "wickets": 0,
-              "economy": 12
+              "economy": 9.5
             },
             {
               "name": "Harpreet Brar",
@@ -15225,11 +15225,11 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 2,
-              "economy": 6.8
+              "runs": 36,
+              "wickets": 3,
+              "economy": 9
             }
           ]
         }
@@ -15279,9 +15279,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 62,
+          "bowling": 85,
           "fielding": 0,
-          "total": 62
+          "total": 85
         },
         "Harpreet Brar": {
           "batting": 0,
@@ -15308,10 +15308,10 @@
           "total": 21
         },
         "Riyan Parag": {
-          "batting": 14,
+          "batting": 45,
           "bowling": 0,
           "fielding": 8,
-          "total": 22
+          "total": 53
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -15480,8 +15480,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3393,
-      "top11Points": 3357,
+      "totalPointsAll": 3416,
+      "top11Points": 3380,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15561,6 +15561,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Yuzvendra Chahal",
+          "role": "Spinner",
+          "batting": 0,
+          "bowling": 184,
+          "fielding": 16,
+          "rawPoints": 200,
+          "multiplier": 1,
+          "effectivePoints": 200,
+          "countsInTop11": true
+        },
+        {
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
           "batting": -5,
@@ -15569,17 +15580,6 @@
           "rawPoints": 191,
           "multiplier": 1,
           "effectivePoints": 191,
-          "countsInTop11": true
-        },
-        {
-          "name": "Yuzvendra Chahal",
-          "role": "Spinner",
-          "batting": 0,
-          "bowling": 161,
-          "fielding": 16,
-          "rawPoints": 177,
-          "multiplier": 1,
-          "effectivePoints": 177,
           "countsInTop11": true
         },
         {
@@ -16181,8 +16181,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3334,
-      "top11Points": 3334,
+      "totalPointsAll": 3396,
+      "top11Points": 3396,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16220,12 +16220,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 128,
+          "batting": 159,
           "bowling": 50,
           "fielding": 32,
-          "rawPoints": 210,
+          "rawPoints": 241,
           "multiplier": 2,
-          "effectivePoints": 420,
+          "effectivePoints": 482,
           "countsInTop11": true
         },
         {
