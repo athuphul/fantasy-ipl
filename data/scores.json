@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:35:08.542Z",
+  "lastUpdated": "2026-04-28T15:45:32.346Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 214,
+        "r": 222,
         "w": 4,
-        "o": 19.4
+        "o": 20
       }
     ],
     "playerScores": {
@@ -34,10 +34,10 @@
         "total": 33
       },
       "Marcus Stoinis": {
-        "batting": 75,
+        "batting": 103,
         "bowling": 0,
         "fielding": 0,
-        "total": 75
+        "total": 103
       },
       "Vaibhav Sooryavanshi": {
         "batting": 0,
@@ -105,8 +105,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3013,
-      "top11Points": 3013
+      "totalPointsAll": 3041,
+      "top11Points": 3041
     },
     {
       "team": "Athu",
@@ -14986,17 +14986,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 214,
+          "r": 222,
           "w": 4,
-          "o": 19.4
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 214,
+          "runs": 222,
           "wickets": 4,
-          "overs": 19.4,
+          "overs": 20,
           "batting": [
             {
               "name": "Prabhsimran Singh",
@@ -15036,12 +15036,12 @@
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 48,
-              "balls": 19,
-              "fours": 2,
-              "sixes": 5,
-              "sr": 252.63,
-              "dismissal": "batting"
+              "runs": 62,
+              "balls": 22,
+              "fours": 4,
+              "sixes": 6,
+              "sr": 281.82,
+              "dismissal": "not out"
             },
             {
               "name": "Suryansh Shedge",
@@ -15050,7 +15050,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 150,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -15072,11 +15072,11 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 42,
               "wickets": 0,
-              "economy": 8
+              "economy": 10.5
             },
             {
               "name": "Yash Raj Punja",
@@ -15117,10 +15117,10 @@
           "total": 33
         },
         "Marcus Stoinis": {
-          "batting": 75,
+          "batting": 103,
           "bowling": 0,
           "fielding": 0,
-          "total": 75
+          "total": 103
         },
         "Vaibhav Sooryavanshi": {
           "batting": 0,
@@ -15727,8 +15727,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3013,
-      "top11Points": 3013,
+      "totalPointsAll": 3041,
+      "top11Points": 3041,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15786,6 +15786,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marcus Stoinis",
+          "role": "All-Rounder",
+          "batting": 161,
+          "bowling": 0,
+          "fielding": 18,
+          "rawPoints": 179,
+          "multiplier": 1,
+          "effectivePoints": 179,
+          "countsInTop11": true
+        },
+        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 75,
@@ -15805,17 +15816,6 @@
           "rawPoints": 152,
           "multiplier": 1,
           "effectivePoints": 152,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marcus Stoinis",
-          "role": "All-Rounder",
-          "batting": 133,
-          "bowling": 0,
-          "fielding": 18,
-          "rawPoints": 151,
-          "multiplier": 1,
-          "effectivePoints": 151,
           "countsInTop11": true
         },
         {
