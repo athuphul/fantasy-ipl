@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:54:54.178Z",
+  "lastUpdated": "2026-04-28T16:05:06.733Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 1,
+        "r": 37,
         "w": 0,
-        "o": 0.2
+        "o": 2.3
       }
     ],
     "playerScores": {
@@ -70,16 +70,16 @@
         "total": 0
       },
       "Yashasvi Jaiswal": {
-        "batting": 1,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 8
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 0,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 54
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -115,8 +115,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4141,
-      "top11Points": 3905
+      "totalPointsAll": 4195,
+      "top11Points": 3959
     },
     {
       "team": "Ritik",
@@ -125,8 +125,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3252,
-      "top11Points": 3216
+      "totalPointsAll": 3259,
+      "top11Points": 3223
     },
     {
       "team": "Manav",
@@ -15022,9 +15022,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 1,
+          "r": 37,
           "w": 0,
-          "o": 0.2
+          "o": 2.3
         }
       ],
       "scorecard": [
@@ -15134,37 +15134,53 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 1,
+          "runs": 37,
           "wickets": 0,
-          "overs": 0.2,
+          "overs": 2.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 7,
+              "balls": 4,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 175,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 30,
+              "balls": 11,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 272.73,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 15,
               "wickets": 0,
-              "economy": 6
+              "economy": 15
+            },
+            {
+              "name": "Lockie Ferguson",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 17
+            },
+            {
+              "name": "Marco Jansen",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 10
             }
           ]
         }
@@ -15219,16 +15235,16 @@
           "total": 0
         },
         "Yashasvi Jaiswal": {
-          "batting": 1,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 8
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 0,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 54
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -15409,8 +15425,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3252,
-      "top11Points": 3216,
+      "totalPointsAll": 3259,
+      "top11Points": 3223,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15437,12 +15453,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 359,
+          "batting": 366,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 375,
+          "rawPoints": 382,
           "multiplier": 1,
-          "effectivePoints": 375,
+          "effectivePoints": 382,
           "countsInTop11": true
         },
         {
@@ -16375,8 +16391,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4141,
-      "top11Points": 3905,
+      "totalPointsAll": 4195,
+      "top11Points": 3959,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16392,12 +16408,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 567,
+          "batting": 621,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 567,
+          "rawPoints": 621,
           "multiplier": 1,
-          "effectivePoints": 567,
+          "effectivePoints": 621,
           "countsInTop11": true
         },
         {
