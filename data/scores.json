@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:25:22.024Z",
+  "lastUpdated": "2026-04-28T15:35:08.542Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 180,
-        "w": 3,
-        "o": 17.4
+        "r": 214,
+        "w": 4,
+        "o": 19.4
       }
     ],
     "playerScores": {
@@ -28,16 +28,16 @@
         "total": 51
       },
       "Shreyas Iyer": {
-        "batting": 32,
+        "batting": 33,
         "bowling": 0,
         "fielding": 0,
-        "total": 32
+        "total": 33
       },
       "Marcus Stoinis": {
-        "batting": 13,
+        "batting": 75,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 75
       },
       "Vaibhav Sooryavanshi": {
         "batting": 0,
@@ -54,8 +54,8 @@
       "Dhruv Jurel": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Riyan Parag": {
         "batting": 0,
@@ -71,17 +71,17 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 20,
         "fielding": 0,
-        "total": 30
+        "total": 20
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3962,
-      "top11Points": 3982
+      "totalPointsAll": 3963,
+      "top11Points": 3983
     },
     {
       "team": "Tikoo",
@@ -95,13 +95,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3261,
-      "top11Points": 3225
+      "totalPointsAll": 3251,
+      "top11Points": 3215
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3255,
-      "top11Points": 3189
+      "totalPointsAll": 3263,
+      "top11Points": 3197
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 3013,
+      "top11Points": 3013
     },
     {
       "team": "Athu",
@@ -112,11 +117,6 @@
       "team": "Ashwin",
       "totalPointsAll": 3021,
       "top11Points": 2963
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2951,
-      "top11Points": 2951
     },
     {
       "team": "Tanay",
@@ -14986,17 +14986,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 180,
-          "w": 3,
-          "o": 17.4
+          "r": 214,
+          "w": 4,
+          "o": 19.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 180,
-          "wickets": 3,
-          "overs": 17.4,
+          "runs": 214,
+          "wickets": 4,
+          "overs": 19.4,
           "batting": [
             {
               "name": "Prabhsimran Singh",
@@ -15027,47 +15027,56 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 29,
-              "balls": 25,
+              "runs": 30,
+              "balls": 27,
               "fours": 1,
               "sixes": 1,
-              "sr": 116,
-              "dismissal": "batting"
+              "sr": 111.11,
+              "dismissal": "c Dhruv Jurel b Nandre Burger"
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 11,
-              "balls": 8,
+              "runs": 48,
+              "balls": 19,
+              "fours": 2,
+              "sixes": 5,
+              "sr": 252.63,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Suryansh Shedge",
+              "runs": 3,
+              "balls": 2,
               "fours": 0,
-              "sixes": 1,
-              "sr": 137.5,
+              "sixes": 0,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 40,
               "wickets": 1,
-              "economy": 7.67
+              "economy": 10
             },
             {
               "name": "Nandre Burger",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 45,
-              "wickets": 0,
-              "economy": 15
+              "runs": 59,
+              "wickets": 1,
+              "economy": 14.75
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 18,
+              "runs": 28,
               "wickets": 0,
-              "economy": 6
+              "economy": 8
             },
             {
               "name": "Yash Raj Punja",
@@ -15102,16 +15111,16 @@
           "total": 51
         },
         "Shreyas Iyer": {
-          "batting": 32,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 32
+          "total": 33
         },
         "Marcus Stoinis": {
-          "batting": 13,
+          "batting": 75,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 75
         },
         "Vaibhav Sooryavanshi": {
           "batting": 0,
@@ -15128,8 +15137,8 @@
         "Dhruv Jurel": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Riyan Parag": {
           "batting": 0,
@@ -15145,9 +15154,9 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 20,
           "fielding": 0,
-          "total": 30
+          "total": 20
         }
       },
       "isComplete": false
@@ -15304,8 +15313,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3261,
-      "top11Points": 3225,
+      "totalPointsAll": 3251,
+      "top11Points": 3215,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15322,11 +15331,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 14,
-          "bowling": 400,
+          "bowling": 390,
           "fielding": 42,
-          "rawPoints": 456,
+          "rawPoints": 446,
           "multiplier": 1,
-          "effectivePoints": 456,
+          "effectivePoints": 446,
           "countsInTop11": true
         },
         {
@@ -15442,8 +15451,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3962,
-      "top11Points": 3982,
+      "totalPointsAll": 3963,
+      "top11Points": 3983,
       "players": [
         {
           "name": "KL Rahul",
@@ -15470,12 +15479,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 455,
+          "batting": 456,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 479,
+          "rawPoints": 480,
           "multiplier": 1,
-          "effectivePoints": 479,
+          "effectivePoints": 480,
           "countsInTop11": true
         },
         {
@@ -15718,8 +15727,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2951,
-      "top11Points": 2951,
+      "totalPointsAll": 3013,
+      "top11Points": 3013,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15799,6 +15808,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marcus Stoinis",
+          "role": "All-Rounder",
+          "batting": 133,
+          "bowling": 0,
+          "fielding": 18,
+          "rawPoints": 151,
+          "multiplier": 1,
+          "effectivePoints": 151,
+          "countsInTop11": true
+        },
+        {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 5,
@@ -15807,17 +15827,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marcus Stoinis",
-          "role": "All-Rounder",
-          "batting": 71,
-          "bowling": 0,
-          "fielding": 18,
-          "rawPoints": 89,
-          "multiplier": 1,
-          "effectivePoints": 89,
           "countsInTop11": true
         },
         {
@@ -15845,8 +15854,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3255,
-      "top11Points": 3189,
+      "totalPointsAll": 3263,
+      "top11Points": 3197,
       "players": [
         {
           "name": "Axar Patel",
@@ -15864,10 +15873,10 @@
           "role": "Wicket Keeper",
           "batting": 315,
           "bowling": 0,
-          "fielding": 126,
-          "rawPoints": 441,
+          "fielding": 134,
+          "rawPoints": 449,
           "multiplier": 1,
-          "effectivePoints": 441,
+          "effectivePoints": 449,
           "countsInTop11": true
         },
         {
