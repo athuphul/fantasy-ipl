@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T18:25:15.637Z",
+  "lastUpdated": "2026-04-28T02:23:12.229Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
@@ -34,14 +34,14 @@
       "top11Points": 2966
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 2928,
+      "top11Points": 2928
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 2970,
       "top11Points": 2912
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 2900,
-      "top11Points": 2900
     },
     {
       "team": "Tanay",
@@ -14815,6 +14815,12 @@
           "fielding": 0,
           "total": -5
         },
+        "Abishek Porel": {
+          "batting": 28,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 28
+        },
         "David Miller": {
           "batting": 22,
           "bowling": 0,
@@ -14894,7 +14900,7 @@
           "total": 45
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -15462,8 +15468,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2900,
-      "top11Points": 2900,
+      "totalPointsAll": 2928,
+      "top11Points": 2928,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -15565,14 +15571,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Abhishek Porel",
+          "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 0,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 28,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 28,
           "countsInTop11": true
         },
         {
