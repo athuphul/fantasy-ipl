@@ -1,118 +1,7 @@
 {
-  "lastUpdated": "2026-04-28T17:24:53.888Z",
+  "lastUpdated": "2026-04-28T17:34:55.287Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529283",
-    "name": "Punjab Kings v Rajasthan Royals",
-    "status": "Live",
-    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
-    "score": [
-      {
-        "inning": "Punjab Kings",
-        "r": 222,
-        "w": 4,
-        "o": 20
-      },
-      {
-        "inning": "Rajasthan Royals",
-        "r": 222,
-        "w": 4,
-        "o": 19.1
-      }
-    ],
-    "playerScores": {
-      "Prabhsimran Singh": {
-        "batting": 77,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 77
-      },
-      "Priyansh Arya": {
-        "batting": 51,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 51
-      },
-      "Shreyas Iyer": {
-        "batting": 33,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 41
-      },
-      "Marcus Stoinis": {
-        "batting": 103,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 103
-      },
-      "Nehal Wadhera": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Marco Jansen": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 8,
-        "total": 3
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 10
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 85,
-        "fielding": 0,
-        "total": 85
-      },
-      "Harpreet Brar": {
-        "batting": 0,
-        "bowling": 12,
-        "fielding": 0,
-        "total": 12
-      },
-      "Yashasvi Jaiswal": {
-        "batting": 80,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 80
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 71,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 71
-      },
-      "Dhruv Jurel": {
-        "batting": 13,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 21
-      },
-      "Riyan Parag": {
-        "batting": 45,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 53
-      },
-      "Ravindra Jadeja": {
-        "batting": 0,
-        "bowling": 5,
-        "fielding": 0,
-        "total": 5
-      },
-      "Jofra Archer": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -121,8 +10,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4215,
-      "top11Points": 3979
+      "totalPointsAll": 4210,
+      "top11Points": 3974
     },
     {
       "team": "Ritik",
@@ -15017,7 +14906,7 @@
       "matchId": "espn_1529283",
       "name": "Punjab Kings v Rajasthan Royals",
       "date": "2026-04-28",
-      "status": "Live",
+      "status": "Final",
       "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
       "score": [
         {
@@ -15028,9 +14917,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 222,
+          "r": 228,
           "w": 4,
-          "o": 19.1
+          "o": 19.2
         }
       ],
       "scorecard": [
@@ -15140,9 +15029,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 222,
+          "runs": 228,
           "wickets": 4,
-          "overs": 19.1,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -15182,12 +15071,12 @@
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 46,
-              "balls": 25,
+              "runs": 52,
+              "balls": 26,
               "fours": 6,
-              "sixes": 2,
-              "sr": 184,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 200,
+              "dismissal": "not out"
             },
             {
               "name": "Shubham Dubey",
@@ -15196,7 +15085,7 @@
               "fours": 3,
               "sixes": 2,
               "sr": 258.33,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -15218,11 +15107,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 3.1,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 35,
+              "runs": 41,
               "wickets": 0,
-              "economy": 11.05
+              "economy": 12.3
             },
             {
               "name": "Harpreet Brar",
@@ -15276,9 +15165,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": -10,
           "fielding": 8,
-          "total": 3
+          "total": -2
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -15335,7 +15224,7 @@
           "total": 20
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -16455,8 +16344,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4215,
-      "top11Points": 3979,
+      "totalPointsAll": 4210,
+      "top11Points": 3974,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16572,11 +16461,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 7,
-          "bowling": 130,
+          "bowling": 125,
           "fielding": 24,
-          "rawPoints": 161,
+          "rawPoints": 156,
           "multiplier": 1,
-          "effectivePoints": 161,
+          "effectivePoints": 156,
           "countsInTop11": true
         },
         {
