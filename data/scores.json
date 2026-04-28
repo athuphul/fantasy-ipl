@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:45:10.711Z",
+  "lastUpdated": "2026-04-28T14:55:03.524Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -9,23 +9,29 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 96,
+        "r": 117,
         "w": 2,
-        "o": 8.2
+        "o": 10.5
       }
     ],
     "playerScores": {
       "Prabhsimran Singh": {
-        "batting": 37,
+        "batting": 55,
         "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 55
       },
       "Priyansh Arya": {
         "batting": 51,
         "bowling": 0,
         "fielding": 0,
         "total": 51
+      },
+      "Shreyas Iyer": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Vaibhav Sooryavanshi": {
         "batting": 0,
@@ -53,23 +59,23 @@
       },
       "Ravindra Jadeja": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 45,
+        "bowling": 30,
         "fielding": 0,
-        "total": 45
+        "total": 30
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3930,
-      "top11Points": 3950
+      "totalPointsAll": 3936,
+      "top11Points": 3956
     },
     {
       "team": "Tikoo",
@@ -78,13 +84,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3250,
-      "top11Points": 3250
+      "totalPointsAll": 3268,
+      "top11Points": 3268
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3276,
-      "top11Points": 3240
+      "totalPointsAll": 3261,
+      "top11Points": 3225
     },
     {
       "team": "Manav",
@@ -103,8 +109,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2928,
-      "top11Points": 2928
+      "totalPointsAll": 2918,
+      "top11Points": 2918
     },
     {
       "team": "Tanay",
@@ -14974,25 +14980,25 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 96,
+          "r": 117,
           "w": 2,
-          "o": 8.2
+          "o": 10.5
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 96,
+          "runs": 117,
           "wickets": 2,
-          "overs": 8.2,
+          "overs": 10.5,
           "batting": [
             {
               "name": "Prabhsimran Singh",
-              "runs": 32,
-              "balls": 25,
-              "fours": 3,
+              "runs": 47,
+              "balls": 32,
+              "fours": 6,
               "sixes": 1,
-              "sr": 128,
+              "sr": 146.88,
               "dismissal": "batting"
             },
             {
@@ -15015,22 +15021,22 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 0,
-              "balls": 0,
+              "runs": 6,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 75,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 12,
+              "runs": 22,
               "wickets": 1,
-              "economy": 6
+              "economy": 7.76
             },
             {
               "name": "Nandre Burger",
@@ -15050,35 +15056,41 @@
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 21,
               "wickets": 1,
-              "economy": 12
+              "economy": 10.5
             },
             {
               "name": "Ravindra Jadeja",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 21,
               "wickets": 0,
-              "economy": 15
+              "economy": 10.5
             }
           ]
         }
       ],
       "playerScores": {
         "Prabhsimran Singh": {
-          "batting": 37,
+          "batting": 55,
           "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 55
         },
         "Priyansh Arya": {
           "batting": 51,
           "bowling": 0,
           "fielding": 0,
           "total": 51
+        },
+        "Shreyas Iyer": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Vaibhav Sooryavanshi": {
           "batting": 0,
@@ -15106,15 +15118,15 @@
         },
         "Ravindra Jadeja": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 45,
+          "bowling": 30,
           "fielding": 0,
-          "total": 45
+          "total": 30
         }
       },
       "isComplete": false
@@ -15271,8 +15283,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3276,
-      "top11Points": 3240,
+      "totalPointsAll": 3261,
+      "top11Points": 3225,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15289,11 +15301,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 14,
-          "bowling": 415,
+          "bowling": 400,
           "fielding": 42,
-          "rawPoints": 471,
+          "rawPoints": 456,
           "multiplier": 1,
-          "effectivePoints": 471,
+          "effectivePoints": 456,
           "countsInTop11": true
         },
         {
@@ -15409,8 +15421,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3930,
-      "top11Points": 3950,
+      "totalPointsAll": 3936,
+      "top11Points": 3956,
       "players": [
         {
           "name": "KL Rahul",
@@ -15437,12 +15449,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 423,
+          "batting": 429,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 447,
+          "rawPoints": 453,
           "multiplier": 1,
-          "effectivePoints": 447,
+          "effectivePoints": 453,
           "countsInTop11": true
         },
         {
@@ -15685,18 +15697,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2928,
-      "top11Points": 2928,
+      "totalPointsAll": 2918,
+      "top11Points": 2918,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
           "batting": 140,
-          "bowling": 197,
+          "bowling": 192,
           "fielding": 18,
-          "rawPoints": 355,
+          "rawPoints": 350,
           "multiplier": 2,
-          "effectivePoints": 710,
+          "effectivePoints": 700,
           "countsInTop11": true
         },
         {
@@ -15972,8 +15984,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3250,
-      "top11Points": 3250,
+      "totalPointsAll": 3268,
+      "top11Points": 3268,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15987,6 +15999,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Prabhsimran Singh",
+          "role": "Wicket Keeper",
+          "batting": 480,
+          "bowling": 0,
+          "fielding": 45,
+          "rawPoints": 525,
+          "multiplier": 1,
+          "effectivePoints": 525,
+          "countsInTop11": true
+        },
+        {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
           "batting": 464,
@@ -15995,17 +16018,6 @@
           "rawPoints": 516,
           "multiplier": 1,
           "effectivePoints": 516,
-          "countsInTop11": true
-        },
-        {
-          "name": "Prabhsimran Singh",
-          "role": "Wicket Keeper",
-          "batting": 462,
-          "bowling": 0,
-          "fielding": 45,
-          "rawPoints": 507,
-          "multiplier": 1,
-          "effectivePoints": 507,
           "countsInTop11": true
         },
         {
