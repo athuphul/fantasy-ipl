@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:24:54.244Z",
+  "lastUpdated": "2026-04-28T16:34:57.258Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 85,
+        "r": 105,
         "w": 1,
-        "o": 6.2
+        "o": 9.3
       }
     ],
     "playerScores": {
@@ -54,8 +54,8 @@
       "Marco Jansen": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -65,21 +65,21 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Harpreet Brar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Yashasvi Jaiswal": {
-        "batting": 53,
+        "batting": 68,
         "bowling": 0,
         "fielding": 0,
-        "total": 53
+        "total": 68
       },
       "Vaibhav Sooryavanshi": {
         "batting": 71,
@@ -88,10 +88,10 @@
         "total": 71
       },
       "Dhruv Jurel": {
-        "batting": 12,
+        "batting": 13,
         "bowling": 0,
         "fielding": 8,
-        "total": 20
+        "total": 21
       },
       "Riyan Parag": {
         "batting": 0,
@@ -121,8 +121,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4212,
-      "top11Points": 3976
+      "totalPointsAll": 4220,
+      "top11Points": 3984
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 3344,
+      "top11Points": 3308
     },
     {
       "team": "Ritik",
@@ -130,14 +135,9 @@
       "top11Points": 3306
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 3304,
-      "top11Points": 3268
-    },
-    {
       "team": "Manav",
-      "totalPointsAll": 3285,
-      "top11Points": 3219
+      "totalPointsAll": 3286,
+      "top11Points": 3220
     },
     {
       "team": "Kishan",
@@ -145,14 +145,14 @@
       "top11Points": 3041
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 3041,
+      "top11Points": 2983
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 2956,
       "top11Points": 2966
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 3021,
-      "top11Points": 2963
     },
     {
       "team": "Tanay",
@@ -15028,9 +15028,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 85,
+          "r": 105,
           "w": 1,
-          "o": 6.2
+          "o": 9.3
         }
       ],
       "scorecard": [
@@ -15140,17 +15140,17 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 85,
+          "runs": 105,
           "wickets": 1,
-          "overs": 6.2,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 31,
-              "balls": 12,
-              "fours": 5,
+              "runs": 45,
+              "balls": 22,
+              "fours": 6,
               "sixes": 1,
-              "sr": 258.33,
+              "sr": 204.55,
               "dismissal": "batting"
             },
             {
@@ -15164,12 +15164,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 10,
-              "balls": 10,
+              "runs": 16,
+              "balls": 20,
               "fours": 0,
               "sixes": 1,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 80,
+              "dismissal": "c Marco Jansen b Yuzvendra Chahal"
             }
           ],
           "bowling": [
@@ -15199,11 +15199,19 @@
             },
             {
               "name": "Harpreet Brar",
-              "overs": 1.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 3,
+              "runs": 16,
               "wickets": 0,
-              "economy": 2.25
+              "economy": 5.33
+            },
+            {
+              "name": "Yuzvendra Chahal",
+              "overs": 1.4,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 4.2
             }
           ]
         }
@@ -15242,8 +15250,8 @@
         "Marco Jansen": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -15253,21 +15261,21 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Harpreet Brar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Yashasvi Jaiswal": {
-          "batting": 53,
+          "batting": 68,
           "bowling": 0,
           "fielding": 0,
-          "total": 53
+          "total": 68
         },
         "Vaibhav Sooryavanshi": {
           "batting": 71,
@@ -15276,10 +15284,10 @@
           "total": 71
         },
         "Dhruv Jurel": {
-          "batting": 12,
+          "batting": 13,
           "bowling": 0,
           "fielding": 8,
-          "total": 20
+          "total": 21
         },
         "Riyan Parag": {
           "batting": 0,
@@ -15454,8 +15462,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3304,
-      "top11Points": 3268,
+      "totalPointsAll": 3344,
+      "top11Points": 3308,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15482,12 +15490,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 411,
+          "batting": 426,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 427,
+          "rawPoints": 442,
           "multiplier": 1,
-          "effectivePoints": 427,
+          "effectivePoints": 442,
           "countsInTop11": true
         },
         {
@@ -15549,11 +15557,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 99,
+          "bowling": 124,
           "fielding": 16,
-          "rawPoints": 115,
+          "rawPoints": 140,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 140,
           "countsInTop11": true
         },
         {
@@ -15730,8 +15738,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3021,
-      "top11Points": 2963,
+      "totalPointsAll": 3041,
+      "top11Points": 2983,
       "players": [
         {
           "name": "Shubman Gill",
@@ -15858,11 +15866,11 @@
           "name": "Harpreet Brar",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 20,
           "countsInTop11": true
         }
       ]
@@ -15995,8 +16003,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3285,
-      "top11Points": 3219,
+      "totalPointsAll": 3286,
+      "top11Points": 3220,
       "players": [
         {
           "name": "Axar Patel",
@@ -16012,12 +16020,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 327,
+          "batting": 328,
           "bowling": 0,
           "fielding": 134,
-          "rawPoints": 461,
+          "rawPoints": 462,
           "multiplier": 1,
-          "effectivePoints": 461,
+          "effectivePoints": 462,
           "countsInTop11": true
         },
         {
@@ -16420,8 +16428,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4212,
-      "top11Points": 3976,
+      "totalPointsAll": 4220,
+      "top11Points": 3984,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16538,10 +16546,10 @@
           "role": "All-Rounder",
           "batting": 7,
           "bowling": 135,
-          "fielding": 16,
-          "rawPoints": 158,
+          "fielding": 24,
+          "rawPoints": 166,
           "multiplier": 1,
-          "effectivePoints": 158,
+          "effectivePoints": 166,
           "countsInTop11": true
         },
         {
