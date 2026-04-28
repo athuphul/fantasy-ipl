@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:05:06.733Z",
+  "lastUpdated": "2026-04-28T16:14:55.004Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Rajasthan Royals",
-        "r": 37,
-        "w": 0,
-        "o": 2.3
+        "r": 66,
+        "w": 1,
+        "o": 4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Shreyas Iyer": {
         "batting": 33,
         "bowling": 0,
-        "fielding": 0,
-        "total": 33
+        "fielding": 8,
+        "total": 41
       },
       "Marcus Stoinis": {
         "batting": 103,
@@ -59,9 +59,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 10,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -69,23 +69,29 @@
         "fielding": 0,
         "total": 0
       },
-      "Yashasvi Jaiswal": {
-        "batting": 8,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 8
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 54,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 54
-      },
-      "Dhruv Jurel": {
+      "Harpreet Brar": {
         "batting": 0,
         "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 26,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 26
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 71,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 71
+      },
+      "Dhruv Jurel": {
+        "batting": 1,
+        "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 9
       },
       "Riyan Parag": {
         "batting": 0,
@@ -110,13 +116,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3963,
-      "top11Points": 3983
+      "totalPointsAll": 3971,
+      "top11Points": 3991
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4195,
-      "top11Points": 3959
+      "totalPointsAll": 4212,
+      "top11Points": 3976
     },
     {
       "team": "Ritik",
@@ -125,13 +131,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3259,
-      "top11Points": 3223
+      "totalPointsAll": 3277,
+      "top11Points": 3241
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3263,
-      "top11Points": 3197
+      "totalPointsAll": 3274,
+      "top11Points": 3208
     },
     {
       "team": "Kishan",
@@ -15022,9 +15028,9 @@
         },
         {
           "inning": "Rajasthan Royals",
-          "r": 37,
-          "w": 0,
-          "o": 2.3
+          "r": 66,
+          "w": 1,
+          "o": 4
         }
       ],
       "scorecard": [
@@ -15134,37 +15140,46 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 37,
-          "wickets": 0,
-          "overs": 2.3,
+          "runs": 66,
+          "wickets": 1,
+          "overs": 4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 7,
-              "balls": 4,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 175,
+              "runs": 21,
+              "balls": 7,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 300,
               "dismissal": "batting"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 30,
-              "balls": 11,
+              "runs": 43,
+              "balls": 16,
               "fours": 3,
-              "sixes": 3,
-              "sr": 272.73,
+              "sixes": 5,
+              "sr": 268.75,
+              "dismissal": "c Shreyas Iyer b Arshdeep Singh"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 15
+              "runs": 37,
+              "wickets": 1,
+              "economy": 18.5
             },
             {
               "name": "Lockie Ferguson",
@@ -15176,11 +15191,19 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 5,
+              "runs": 12,
               "wickets": 0,
-              "economy": 10
+              "economy": 12
+            },
+            {
+              "name": "Harpreet Brar",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -15201,8 +15224,8 @@
         "Shreyas Iyer": {
           "batting": 33,
           "bowling": 0,
-          "fielding": 0,
-          "total": 33
+          "fielding": 8,
+          "total": 41
         },
         "Marcus Stoinis": {
           "batting": 103,
@@ -15224,9 +15247,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 10,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -15234,23 +15257,29 @@
           "fielding": 0,
           "total": 0
         },
-        "Yashasvi Jaiswal": {
-          "batting": 8,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 8
-        },
-        "Vaibhav Sooryavanshi": {
-          "batting": 54,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 54
-        },
-        "Dhruv Jurel": {
+        "Harpreet Brar": {
           "batting": 0,
           "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 26,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 26
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 71,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 71
+        },
+        "Dhruv Jurel": {
+          "batting": 1,
+          "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
         },
         "Riyan Parag": {
           "batting": 0,
@@ -15425,8 +15454,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3259,
-      "top11Points": 3223,
+      "totalPointsAll": 3277,
+      "top11Points": 3241,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -15453,12 +15482,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 366,
+          "batting": 384,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 382,
+          "rawPoints": 400,
           "multiplier": 1,
-          "effectivePoints": 382,
+          "effectivePoints": 400,
           "countsInTop11": true
         },
         {
@@ -15563,8 +15592,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3963,
-      "top11Points": 3983,
+      "totalPointsAll": 3971,
+      "top11Points": 3991,
       "players": [
         {
           "name": "KL Rahul",
@@ -15593,10 +15622,10 @@
           "role": "Batsman",
           "batting": 456,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 480,
+          "fielding": 32,
+          "rawPoints": 488,
           "multiplier": 1,
-          "effectivePoints": 480,
+          "effectivePoints": 488,
           "countsInTop11": true
         },
         {
@@ -15966,8 +15995,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3263,
-      "top11Points": 3197,
+      "totalPointsAll": 3274,
+      "top11Points": 3208,
       "players": [
         {
           "name": "Axar Patel",
@@ -15983,12 +16012,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 315,
+          "batting": 316,
           "bowling": 0,
           "fielding": 134,
-          "rawPoints": 449,
+          "rawPoints": 450,
           "multiplier": 1,
-          "effectivePoints": 449,
+          "effectivePoints": 450,
           "countsInTop11": true
         },
         {
@@ -16050,11 +16079,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 175,
+          "bowling": 185,
           "fielding": 24,
-          "rawPoints": 199,
+          "rawPoints": 209,
           "multiplier": 1,
-          "effectivePoints": 199,
+          "effectivePoints": 209,
           "countsInTop11": true
         },
         {
@@ -16391,8 +16420,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4195,
-      "top11Points": 3959,
+      "totalPointsAll": 4212,
+      "top11Points": 3976,
       "players": [
         {
           "name": "Sanju Samson",
@@ -16408,12 +16437,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 621,
+          "batting": 638,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 621,
+          "rawPoints": 638,
           "multiplier": 1,
-          "effectivePoints": 621,
+          "effectivePoints": 638,
           "countsInTop11": true
         },
         {
