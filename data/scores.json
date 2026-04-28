@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:05:32.435Z",
+  "lastUpdated": "2026-04-28T15:15:07.947Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529283",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 143,
-        "w": 2,
-        "o": 13.4
+        "r": 160,
+        "w": 3,
+        "o": 16
       }
     ],
     "playerScores": {
@@ -28,10 +28,16 @@
         "total": 51
       },
       "Shreyas Iyer": {
-        "batting": 5,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 25
+      },
+      "Marcus Stoinis": {
+        "batting": 12,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 12
       },
       "Vaibhav Sooryavanshi": {
         "batting": 0,
@@ -54,14 +60,14 @@
       "Riyan Parag": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Ravindra Jadeja": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Jofra Archer": {
         "batting": 0,
@@ -74,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3935,
-      "top11Points": 3955
+      "totalPointsAll": 3955,
+      "top11Points": 3975
     },
     {
       "team": "Tikoo",
@@ -84,8 +90,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3290,
-      "top11Points": 3290
+      "totalPointsAll": 3306,
+      "top11Points": 3306
     },
     {
       "team": "Aakash",
@@ -109,8 +115,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 2928,
-      "top11Points": 2928
+      "totalPointsAll": 2950,
+      "top11Points": 2950
     },
     {
       "team": "Tanay",
@@ -14980,26 +14986,26 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 143,
-          "w": 2,
-          "o": 13.4
+          "r": 160,
+          "w": 3,
+          "o": 16
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 143,
-          "wickets": 2,
-          "overs": 13.4,
+          "runs": 160,
+          "wickets": 3,
+          "overs": 16,
           "batting": [
             {
               "name": "Prabhsimran Singh",
               "runs": 59,
-              "balls": 43,
+              "balls": 44,
               "fours": 6,
               "sixes": 1,
-              "sr": 137.21,
-              "dismissal": "batting"
+              "sr": 134.09,
+              "dismissal": "c Riyan Parag b Yash Raj Punja"
             },
             {
               "name": "Priyansh Arya",
@@ -15021,11 +15027,20 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 10,
-              "balls": 13,
+              "runs": 23,
+              "balls": 20,
               "fours": 0,
-              "sixes": 0,
-              "sr": 76.92,
+              "sixes": 1,
+              "sr": 115,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Marcus Stoinis",
+              "runs": 10,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 142.86,
               "dismissal": "batting"
             }
           ],
@@ -15056,19 +15071,19 @@
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 2.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
-              "wickets": 1,
-              "economy": 9.6
+              "runs": 41,
+              "wickets": 2,
+              "economy": 10.25
             },
             {
               "name": "Ravindra Jadeja",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 26,
+              "runs": 32,
               "wickets": 0,
-              "economy": 8.67
+              "economy": 8
             }
           ]
         }
@@ -15087,10 +15102,16 @@
           "total": 51
         },
         "Shreyas Iyer": {
-          "batting": 5,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 25
+        },
+        "Marcus Stoinis": {
+          "batting": 12,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 12
         },
         "Vaibhav Sooryavanshi": {
           "batting": 0,
@@ -15113,14 +15134,14 @@
         "Riyan Parag": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Ravindra Jadeja": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Jofra Archer": {
           "batting": 0,
@@ -15421,8 +15442,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3935,
-      "top11Points": 3955,
+      "totalPointsAll": 3955,
+      "top11Points": 3975,
       "players": [
         {
           "name": "KL Rahul",
@@ -15449,12 +15470,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 428,
+          "batting": 448,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 452,
+          "rawPoints": 472,
           "multiplier": 1,
-          "effectivePoints": 452,
+          "effectivePoints": 472,
           "countsInTop11": true
         },
         {
@@ -15697,18 +15718,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 2928,
-      "top11Points": 2928,
+      "totalPointsAll": 2950,
+      "top11Points": 2950,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
           "batting": 140,
-          "bowling": 197,
+          "bowling": 202,
           "fielding": 18,
-          "rawPoints": 355,
+          "rawPoints": 360,
           "multiplier": 2,
-          "effectivePoints": 710,
+          "effectivePoints": 720,
           "countsInTop11": true
         },
         {
@@ -15791,12 +15812,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 58,
+          "batting": 70,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 76,
+          "rawPoints": 88,
           "multiplier": 1,
-          "effectivePoints": 76,
+          "effectivePoints": 88,
           "countsInTop11": true
         },
         {
@@ -15984,8 +16005,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3290,
-      "top11Points": 3290,
+      "totalPointsAll": 3306,
+      "top11Points": 3306,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16025,10 +16046,10 @@
           "role": "Batsman",
           "batting": 114,
           "bowling": 50,
-          "fielding": 24,
-          "rawPoints": 188,
+          "fielding": 32,
+          "rawPoints": 196,
           "multiplier": 2,
-          "effectivePoints": 376,
+          "effectivePoints": 392,
           "countsInTop11": true
         },
         {
