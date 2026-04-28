@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-04-28T02:23:12.229Z",
+  "lastUpdated": "2026-04-28T14:04:57.833Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529283",
+    "name": "Punjab Kings v Rajasthan Royals",
+    "status": "Live",
+    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "score": [
+      {
+        "inning": "Punjab Kings",
+        "r": 8,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Prabhsimran Singh": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
+      "Priyansh Arya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dhruv Jurel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Riyan Parag": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ravindra Jadeja": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -15,8 +78,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3213,
-      "top11Points": 3213
+      "totalPointsAll": 3218,
+      "top11Points": 3218
     },
     {
       "team": "Aakash",
@@ -14901,6 +14964,110 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529283",
+      "name": "Punjab Kings v Rajasthan Royals",
+      "date": "2026-04-28",
+      "status": "Live",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+      "score": [
+        {
+          "inning": "Punjab Kings",
+          "r": 8,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Punjab Kings",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 4,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 80,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Priyansh Arya",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4.8
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Prabhsimran Singh": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
+        "Priyansh Arya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dhruv Jurel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Riyan Parag": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ravindra Jadeja": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -15755,8 +15922,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3213,
-      "top11Points": 3213,
+      "totalPointsAll": 3218,
+      "top11Points": 3218,
       "players": [
         {
           "name": "Jos Buttler",
@@ -15783,12 +15950,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 425,
+          "batting": 430,
           "bowling": 0,
           "fielding": 45,
-          "rawPoints": 470,
+          "rawPoints": 475,
           "multiplier": 1,
-          "effectivePoints": 470,
+          "effectivePoints": 475,
           "countsInTop11": true
         },
         {
