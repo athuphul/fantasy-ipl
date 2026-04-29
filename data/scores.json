@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T17:44:58.338Z",
+  "lastUpdated": "2026-04-29T17:54:53.621Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 191,
-        "w": 3,
-        "o": 14.2
+        "r": 213,
+        "w": 4,
+        "o": 16.2
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Suryakumar Yadav": {
         "batting": 6,
         "bowling": 0,
-        "fielding": 0,
-        "total": 6
+        "fielding": 8,
+        "total": 14
       },
       "Hardik Pandya": {
         "batting": 52,
@@ -47,9 +47,9 @@
       },
       "Trent Boult": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 20,
         "fielding": 8,
-        "total": -2
+        "total": 28
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 3
       },
       "Heinrich Klaasen": {
-        "batting": 68,
+        "batting": 98,
         "bowling": 0,
         "fielding": 16,
-        "total": 84
+        "total": 114
       },
       "Nitish Kumar Reddy": {
-        "batting": 17,
+        "batting": 24,
         "bowling": 10,
         "fielding": 0,
-        "total": 27
+        "total": 34
       },
       "Harsh Dubey": {
         "batting": 0,
@@ -124,13 +124,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3313,
-      "top11Points": 3247
+      "totalPointsAll": 3320,
+      "top11Points": 3254
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3134,
-      "top11Points": 3144
+      "totalPointsAll": 3180,
+      "top11Points": 3190
     },
     {
       "team": "Kishan",
@@ -144,7 +144,7 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2643,
+      "totalPointsAll": 2673,
       "top11Points": 2629
     }
   ],
@@ -15340,9 +15340,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 191,
-          "w": 3,
-          "o": 14.2
+          "r": 213,
+          "w": 4,
+          "o": 16.2
         }
       ],
       "scorecard": [
@@ -15469,9 +15469,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 191,
-          "wickets": 3,
-          "overs": 14.2,
+          "runs": 213,
+          "wickets": 4,
+          "overs": 16.2,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -15502,31 +15502,40 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 43,
-              "balls": 20,
+              "runs": 59,
+              "balls": 26,
               "fours": 6,
-              "sixes": 2,
-              "sr": 215,
+              "sixes": 4,
+              "sr": 226.92,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 15,
-              "balls": 11,
-              "fours": 2,
+              "runs": 21,
+              "balls": 17,
+              "fours": 3,
               "sixes": 0,
-              "sr": 136.36,
+              "sr": 123.53,
+              "dismissal": "c Suryakumar Yadav b Trent Boult"
+            },
+            {
+              "name": "Salil Arora",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Trent Boult",
-              "overs": 2.2,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 31,
-              "wickets": 0,
-              "economy": 13.29
+              "runs": 34,
+              "wickets": 1,
+              "economy": 10.2
             },
             {
               "name": "Jasprit Bumrah",
@@ -15546,11 +15555,11 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 51,
               "wickets": 2,
-              "economy": 10.67
+              "economy": 12.75
             },
             {
               "name": "Ashwani Kumar",
@@ -15581,8 +15590,8 @@
         "Suryakumar Yadav": {
           "batting": 6,
           "bowling": 0,
-          "fielding": 0,
-          "total": 6
+          "fielding": 8,
+          "total": 14
         },
         "Hardik Pandya": {
           "batting": 52,
@@ -15598,9 +15607,9 @@
         },
         "Trent Boult": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 20,
           "fielding": 8,
-          "total": -2
+          "total": 28
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -15633,16 +15642,16 @@
           "total": 3
         },
         "Heinrich Klaasen": {
-          "batting": 68,
+          "batting": 98,
           "bowling": 0,
           "fielding": 16,
-          "total": 84
+          "total": 114
         },
         "Nitish Kumar Reddy": {
-          "batting": 17,
+          "batting": 24,
           "bowling": 10,
           "fielding": 0,
-          "total": 27
+          "total": 34
         },
         "Harsh Dubey": {
           "batting": 0,
@@ -15656,18 +15665,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3134,
-      "top11Points": 3144,
+      "totalPointsAll": 3180,
+      "top11Points": 3190,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 530,
+          "batting": 560,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 602,
+          "rawPoints": 632,
           "multiplier": 1,
-          "effectivePoints": 602,
+          "effectivePoints": 632,
           "countsInTop11": true
         },
         {
@@ -15675,10 +15684,10 @@
           "role": "Batsman",
           "batting": 203,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 211,
+          "fielding": 16,
+          "rawPoints": 219,
           "multiplier": 2,
-          "effectivePoints": 422,
+          "effectivePoints": 438,
           "countsInTop11": true
         },
         {
@@ -16346,8 +16355,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3313,
-      "top11Points": 3247,
+      "totalPointsAll": 3320,
+      "top11Points": 3254,
       "players": [
         {
           "name": "Axar Patel",
@@ -16374,12 +16383,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 276,
+          "batting": 283,
           "bowling": 115,
           "fielding": 56,
-          "rawPoints": 447,
+          "rawPoints": 454,
           "multiplier": 1,
-          "effectivePoints": 447,
+          "effectivePoints": 454,
           "countsInTop11": true
         },
         {
@@ -16633,7 +16642,7 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2643,
+      "totalPointsAll": 2673,
       "top11Points": 2629,
       "players": [
         {
@@ -16750,11 +16759,11 @@
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 5,
+          "bowling": 35,
           "fielding": 8,
-          "rawPoints": 14,
+          "rawPoints": 44,
           "multiplier": 1,
-          "effectivePoints": 14,
+          "effectivePoints": 44,
           "countsInTop11": false
         },
         {
