@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T14:14:55.532Z",
+  "lastUpdated": "2026-04-29T14:25:16.439Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 32,
+        "r": 56,
         "w": 0,
-        "o": 2.3
+        "o": 4.4
       }
     ],
     "playerScores": {
       "Will Jacks": {
-        "batting": 16,
+        "batting": 48,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 48
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -72,8 +72,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3412,
-      "top11Points": 3412
+      "totalPointsAll": 3444,
+      "top11Points": 3444
     },
     {
       "team": "Aakash",
@@ -15292,45 +15292,45 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 32,
+          "r": 56,
           "w": 0,
-          "o": 2.3
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 32,
+          "runs": 56,
           "wickets": 0,
-          "overs": 2.3,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Will Jacks",
-              "runs": 13,
-              "balls": 6,
-              "fours": 3,
-              "sixes": 0,
-              "sr": 216.67,
+              "runs": 27,
+              "balls": 13,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 207.69,
               "dismissal": "batting"
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 19,
-              "balls": 10,
+              "runs": 20,
+              "balls": 13,
               "fours": 2,
               "sixes": 1,
-              "sr": 190,
+              "sr": 153.85,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 22,
               "wickets": 0,
-              "economy": 10.8
+              "economy": 11
             },
             {
               "name": "Praful Hinge",
@@ -15339,16 +15339,32 @@
               "runs": 15,
               "wickets": 0,
               "economy": 15
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            },
+            {
+              "name": "Harsh Dubey",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 18
             }
           ]
         }
       ],
       "playerScores": {
         "Will Jacks": {
-          "batting": 16,
+          "batting": 48,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 48
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -16242,8 +16258,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3412,
-      "top11Points": 3412,
+      "totalPointsAll": 3444,
+      "top11Points": 3444,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16358,12 +16374,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 16,
+          "batting": 48,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 16,
+          "rawPoints": 48,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 48,
           "countsInTop11": true
         }
       ]
