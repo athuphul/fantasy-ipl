@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:15:09.786Z",
+  "lastUpdated": "2026-04-29T15:24:58.434Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 163,
-        "w": 2,
-        "o": 13
+        "r": 179,
+        "w": 3,
+        "o": 14.5
       }
     ],
     "playerScores": {
@@ -26,6 +26,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 6
+      },
+      "Hardik Pandya": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -60,8 +66,8 @@
       "Harsh Dubey": {
         "batting": 0,
         "bowling": -15,
-        "fielding": 0,
-        "total": -15
+        "fielding": 8,
+        "total": -7
       }
     }
   },
@@ -98,8 +104,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2968,
-      "top11Points": 2978
+      "totalPointsAll": 2970,
+      "top11Points": 2980
     },
     {
       "team": "Ashwin",
@@ -108,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2395,
-      "top11Points": 2379
+      "totalPointsAll": 2403,
+      "top11Points": 2387
     }
   ],
   "matchHistory": [
@@ -15298,17 +15304,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 163,
-          "w": 2,
-          "o": 13
+          "r": 179,
+          "w": 3,
+          "o": 14.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 163,
-          "wickets": 2,
-          "overs": 13,
+          "runs": 179,
+          "wickets": 3,
+          "overs": 14.5,
           "batting": [
             {
               "name": "Will Jacks",
@@ -15321,11 +15327,11 @@
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 86,
-              "balls": 37,
-              "fours": 7,
-              "sixes": 6,
-              "sr": 232.43,
+              "runs": 99,
+              "balls": 42,
+              "fours": 8,
+              "sixes": 7,
+              "sr": 235.71,
               "dismissal": "batting"
             },
             {
@@ -15339,11 +15345,20 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 21,
-              "balls": 14,
+              "runs": 22,
+              "balls": 17,
               "fours": 3,
               "sixes": 0,
-              "sr": 150,
+              "sr": 129.41,
+              "dismissal": "c Harsh Dubey b Praful Hinge"
+            },
+            {
+              "name": "Hardik Pandya",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -15358,11 +15373,11 @@
             },
             {
               "name": "Praful Hinge",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 15
+              "runs": 19,
+              "wickets": 1,
+              "economy": 9.5
             },
             {
               "name": "Eshan Malinga",
@@ -15390,11 +15405,11 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 17,
+              "runs": 29,
               "wickets": 1,
-              "economy": 17
+              "economy": 17.4
             }
           ]
         }
@@ -15411,6 +15426,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 6
+        },
+        "Hardik Pandya": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -15445,8 +15466,8 @@
         "Harsh Dubey": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "fielding": 8,
+          "total": -7
         }
       },
       "isComplete": false
@@ -15454,8 +15475,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2968,
-      "top11Points": 2978,
+      "totalPointsAll": 2970,
+      "top11Points": 2980,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -15548,12 +15569,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 123,
+          "batting": 125,
           "bowling": 40,
           "fielding": 16,
-          "rawPoints": 179,
+          "rawPoints": 181,
           "multiplier": 1,
-          "effectivePoints": 179,
+          "effectivePoints": 181,
           "countsInTop11": true
         },
         {
@@ -16431,8 +16452,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2395,
-      "top11Points": 2379,
+      "totalPointsAll": 2403,
+      "top11Points": 2387,
       "players": [
         {
           "name": "Travis Head",
@@ -16494,10 +16515,10 @@
           "role": "All-Rounder",
           "batting": 10,
           "bowling": 225,
-          "fielding": 8,
-          "rawPoints": 243,
+          "fielding": 16,
+          "rawPoints": 251,
           "multiplier": 1,
-          "effectivePoints": 243,
+          "effectivePoints": 251,
           "countsInTop11": true
         },
         {
