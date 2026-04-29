@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T14:34:57.675Z",
+  "lastUpdated": "2026-04-29T14:45:00.189Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,17 +9,23 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 79,
-        "w": 0,
-        "o": 6.1
+        "r": 108,
+        "w": 1,
+        "o": 7.5
       }
     ],
     "playerScores": {
       "Will Jacks": {
-        "batting": 62,
+        "batting": 72,
         "bowling": 0,
         "fielding": 0,
-        "total": 62
+        "total": 72
+      },
+      "Suryakumar Yadav": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -36,8 +42,8 @@
       "Ishan Kishan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -47,15 +53,15 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Harsh Dubey": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       }
     }
   },
@@ -72,8 +78,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3458,
-      "top11Points": 3458
+      "totalPointsAll": 3476,
+      "top11Points": 3476
     },
     {
       "team": "Aakash",
@@ -82,8 +88,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3286,
-      "top11Points": 3220
+      "totalPointsAll": 3311,
+      "top11Points": 3245
     },
     {
       "team": "Kishan",
@@ -91,19 +97,19 @@
       "top11Points": 3041
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 2968,
+      "top11Points": 2978
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 3033,
       "top11Points": 2975
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 2956,
-      "top11Points": 2966
-    },
-    {
       "team": "Tanay",
-      "totalPointsAll": 2410,
-      "top11Points": 2394
+      "totalPointsAll": 2395,
+      "top11Points": 2379
     }
   ],
   "matchHistory": [
@@ -15292,34 +15298,43 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 79,
-          "w": 0,
-          "o": 6.1
+          "r": 108,
+          "w": 1,
+          "o": 7.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 79,
-          "wickets": 0,
-          "overs": 6.1,
+          "runs": 108,
+          "wickets": 1,
+          "overs": 7.5,
           "batting": [
             {
               "name": "Will Jacks",
-              "runs": 38,
-              "balls": 18,
+              "runs": 46,
+              "balls": 22,
               "fours": 5,
-              "sixes": 2,
-              "sr": 211.11,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 209.09,
+              "dismissal": "c Ishan Kishan b Nitish Reddy"
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 37,
-              "balls": 18,
-              "fours": 3,
-              "sixes": 3,
-              "sr": 205.56,
+              "runs": 54,
+              "balls": 23,
+              "fours": 5,
+              "sixes": 4,
+              "sr": 234.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 5,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 250,
               "dismissal": "batting"
             }
           ],
@@ -15350,11 +15365,11 @@
             },
             {
               "name": "Harsh Dubey",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 31,
               "wickets": 0,
-              "economy": 16
+              "economy": 15.5
             },
             {
               "name": "Sakib Hussain",
@@ -15363,16 +15378,30 @@
               "runs": 18,
               "wickets": 0,
               "economy": 18
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 1,
+              "economy": 18
             }
           ]
         }
       ],
       "playerScores": {
         "Will Jacks": {
-          "batting": 62,
+          "batting": 72,
           "bowling": 0,
           "fielding": 0,
-          "total": 62
+          "total": 72
+        },
+        "Suryakumar Yadav": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -15389,8 +15418,8 @@
         "Ishan Kishan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -15400,15 +15429,15 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Harsh Dubey": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         }
       },
       "isComplete": false
@@ -15416,8 +15445,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2956,
-      "top11Points": 2966,
+      "totalPointsAll": 2968,
+      "top11Points": 2978,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -15431,6 +15460,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "batting": 203,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 211,
+          "multiplier": 2,
+          "effectivePoints": 422,
+          "countsInTop11": true
+        },
+        {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
@@ -15439,17 +15479,6 @@
           "rawPoints": 413,
           "multiplier": 1,
           "effectivePoints": 413,
-          "countsInTop11": true
-        },
-        {
-          "name": "Suryakumar Yadav",
-          "role": "Batsman",
-          "batting": 197,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 205,
-          "multiplier": 2,
-          "effectivePoints": 410,
           "countsInTop11": true
         },
         {
@@ -16106,8 +16135,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3286,
-      "top11Points": 3220,
+      "totalPointsAll": 3311,
+      "top11Points": 3245,
       "players": [
         {
           "name": "Axar Patel",
@@ -16135,11 +16164,11 @@
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 259,
-          "bowling": 105,
+          "bowling": 130,
           "fielding": 56,
-          "rawPoints": 420,
+          "rawPoints": 445,
           "multiplier": 1,
-          "effectivePoints": 420,
+          "effectivePoints": 445,
           "countsInTop11": true
         },
         {
@@ -16266,8 +16295,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3458,
-      "top11Points": 3458,
+      "totalPointsAll": 3476,
+      "top11Points": 3476,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16296,10 +16325,10 @@
           "role": "Wicket Keeper",
           "batting": 464,
           "bowling": 0,
-          "fielding": 52,
-          "rawPoints": 516,
+          "fielding": 60,
+          "rawPoints": 524,
           "multiplier": 1,
-          "effectivePoints": 516,
+          "effectivePoints": 524,
           "countsInTop11": true
         },
         {
@@ -16369,6 +16398,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Will Jacks",
+          "role": "All-Rounder",
+          "batting": 72,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 72,
+          "multiplier": 1,
+          "effectivePoints": 72,
+          "countsInTop11": true
+        },
+        {
           "name": "Khaleel Ahmed",
           "role": "Fast Bowler",
           "batting": 0,
@@ -16378,23 +16418,12 @@
           "multiplier": 1,
           "effectivePoints": 72,
           "countsInTop11": true
-        },
-        {
-          "name": "Will Jacks",
-          "role": "All-Rounder",
-          "batting": 62,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 62,
-          "multiplier": 1,
-          "effectivePoints": 62,
-          "countsInTop11": true
         }
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2410,
-      "top11Points": 2394,
+      "totalPointsAll": 2395,
+      "top11Points": 2379,
       "players": [
         {
           "name": "Travis Head",
@@ -16455,11 +16484,11 @@
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
-          "bowling": 240,
+          "bowling": 225,
           "fielding": 8,
-          "rawPoints": 258,
+          "rawPoints": 243,
           "multiplier": 1,
-          "effectivePoints": 258,
+          "effectivePoints": 243,
           "countsInTop11": true
         },
         {
