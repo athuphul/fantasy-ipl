@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T16:24:55.853Z",
+  "lastUpdated": "2026-04-29T16:34:55.979Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 15,
+        "r": 51,
         "w": 0,
-        "o": 1.3
+        "o": 3.3
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Trent Boult": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -58,16 +58,16 @@
         "total": 0
       },
       "Abhishek Sharma": {
-        "batting": 11,
+        "batting": 34,
         "bowling": 0,
         "fielding": 8,
-        "total": 19
+        "total": 42
       },
       "Travis Head": {
-        "batting": 2,
+        "batting": 41,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 41
       },
       "Ishan Kishan": {
         "batting": 0,
@@ -98,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3999,
-      "top11Points": 4019
+      "totalPointsAll": 4034,
+      "top11Points": 4054
     },
     {
       "team": "Tikoo",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2407,
-      "top11Points": 2391
+      "totalPointsAll": 2470,
+      "top11Points": 2469
     }
   ],
   "matchHistory": [
@@ -15334,9 +15334,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 15,
+          "r": 51,
           "w": 0,
-          "o": 1.3
+          "o": 3.3
         }
       ],
       "scorecard": [
@@ -15463,45 +15463,53 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 15,
+          "runs": 51,
           "wickets": 0,
-          "overs": 1.3,
+          "overs": 3.3,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 9,
-              "balls": 5,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 180,
+              "runs": 19,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 190,
               "dismissal": "batting"
             },
             {
               "name": "Travis Head",
-              "runs": 2,
-              "balls": 4,
+              "runs": 20,
+              "balls": 10,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sixes": 3,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Trent Boult",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 29,
               "wickets": 0,
-              "economy": 11
+              "economy": 14.5
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 3,
+              "runs": 10,
               "wickets": 0,
-              "economy": 6
+              "economy": 10
+            },
+            {
+              "name": "Will Jacks",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -15533,9 +15541,9 @@
         },
         "Trent Boult": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -15544,16 +15552,16 @@
           "total": 0
         },
         "Abhishek Sharma": {
-          "batting": 11,
+          "batting": 34,
           "bowling": 0,
           "fielding": 8,
-          "total": 19
+          "total": 42
         },
         "Travis Head": {
-          "batting": 2,
+          "batting": 41,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 41
         },
         "Ishan Kishan": {
           "batting": 0,
@@ -15872,8 +15880,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3999,
-      "top11Points": 4019,
+      "totalPointsAll": 4034,
+      "top11Points": 4054,
       "players": [
         {
           "name": "KL Rahul",
@@ -15889,12 +15897,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 608,
+          "batting": 631,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 640,
+          "rawPoints": 663,
           "multiplier": 1.5,
-          "effectivePoints": 960,
+          "effectivePoints": 995,
           "countsInTop11": true
         },
         {
@@ -16562,18 +16570,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2407,
-      "top11Points": 2391,
+      "totalPointsAll": 2470,
+      "top11Points": 2469,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 246,
+          "batting": 285,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 246,
+          "rawPoints": 285,
           "multiplier": 2,
-          "effectivePoints": 492,
+          "effectivePoints": 570,
           "countsInTop11": true
         },
         {
@@ -16679,11 +16687,11 @@
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 15,
+          "bowling": 0,
           "fielding": 0,
-          "rawPoints": 16,
+          "rawPoints": 1,
           "multiplier": 1,
-          "effectivePoints": 16,
+          "effectivePoints": 1,
           "countsInTop11": false
         },
         {
