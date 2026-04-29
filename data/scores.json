@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:54:57.634Z",
+  "lastUpdated": "2026-04-29T16:04:55.028Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 229,
-        "w": 4,
-        "o": 19
+        "r": 243,
+        "w": 5,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -60,8 +60,8 @@
       "Heinrich Klaasen": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
@@ -104,14 +104,14 @@
       "top11Points": 3230
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 3036,
+      "top11Points": 3046
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 3041,
       "top11Points": 3041
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 3028,
-      "top11Points": 3038
     },
     {
       "team": "Ashwin",
@@ -15310,17 +15310,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 229,
-          "w": 4,
-          "o": 19
+          "r": 243,
+          "w": 5,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 229,
-          "wickets": 4,
-          "overs": 19,
+          "runs": 243,
+          "wickets": 5,
+          "overs": 20,
           "batting": [
             {
               "name": "Will Jacks",
@@ -15333,12 +15333,12 @@
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 110,
-              "balls": 51,
-              "fours": 9,
-              "sixes": 7,
-              "sr": 215.69,
-              "dismissal": "batting"
+              "runs": 123,
+              "balls": 55,
+              "fours": 10,
+              "sixes": 8,
+              "sr": 223.64,
+              "dismissal": "not out"
             },
             {
               "name": "Suryakumar Yadav",
@@ -15370,11 +15370,20 @@
             {
               "name": "Tilak Varma",
               "runs": 7,
-              "balls": 4,
+              "balls": 5,
               "fours": 0,
               "sixes": 1,
-              "sr": 175,
-              "dismissal": "batting"
+              "sr": 140,
+              "dismissal": "c Heinrich Klaasen b Praful Hinge"
+            },
+            {
+              "name": "Robin Minz",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -15388,11 +15397,11 @@
             },
             {
               "name": "Praful Hinge",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 40,
-              "wickets": 1,
-              "economy": 13.33
+              "runs": 54,
+              "wickets": 2,
+              "economy": 13.5
             },
             {
               "name": "Eshan Malinga",
@@ -15475,8 +15484,8 @@
         "Heinrich Klaasen": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
@@ -15496,18 +15505,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3028,
-      "top11Points": 3038,
+      "totalPointsAll": 3036,
+      "top11Points": 3046,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
           "batting": 462,
           "bowling": 0,
-          "fielding": 64,
-          "rawPoints": 526,
+          "fielding": 72,
+          "rawPoints": 534,
           "multiplier": 1,
-          "effectivePoints": 526,
+          "effectivePoints": 534,
           "countsInTop11": true
         },
         {
