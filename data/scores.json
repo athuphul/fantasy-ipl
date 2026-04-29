@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T16:14:55.048Z",
+  "lastUpdated": "2026-04-29T16:24:55.853Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -12,6 +12,12 @@
         "r": 243,
         "w": 5,
         "o": 20
+      },
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 15,
+        "w": 0,
+        "o": 1.3
       }
     ],
     "playerScores": {
@@ -39,17 +45,29 @@
         "fielding": 0,
         "total": 9
       },
-      "Abhishek Sharma": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Travis Head": {
+      "Trent Boult": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Abhishek Sharma": {
+        "batting": 11,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 19
+      },
+      "Travis Head": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Ishan Kishan": {
         "batting": 0,
@@ -80,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3983,
-      "top11Points": 4003
+      "totalPointsAll": 3999,
+      "top11Points": 4019
     },
     {
       "team": "Tikoo",
@@ -120,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2403,
-      "top11Points": 2387
+      "totalPointsAll": 2407,
+      "top11Points": 2391
     }
   ],
   "matchHistory": [
@@ -15313,6 +15331,12 @@
           "r": 243,
           "w": 5,
           "o": 20
+        },
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 15,
+          "w": 0,
+          "o": 1.3
         }
       ],
       "scorecard": [
@@ -15436,6 +15460,50 @@
               "economy": 15.5
             }
           ]
+        },
+        {
+          "innings": "Sunrisers Hyderabad",
+          "runs": 15,
+          "wickets": 0,
+          "overs": 1.3,
+          "batting": [
+            {
+              "name": "Abhishek Sharma",
+              "runs": 9,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 180,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Travis Head",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Trent Boult",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -15463,17 +15531,29 @@
           "fielding": 0,
           "total": 9
         },
-        "Abhishek Sharma": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
-        },
-        "Travis Head": {
+        "Trent Boult": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Abhishek Sharma": {
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 19
+        },
+        "Travis Head": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Ishan Kishan": {
           "batting": 0,
@@ -15792,8 +15872,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3983,
-      "top11Points": 4003,
+      "totalPointsAll": 3999,
+      "top11Points": 4019,
       "players": [
         {
           "name": "KL Rahul",
@@ -15809,12 +15889,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 597,
+          "batting": 608,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 629,
+          "rawPoints": 640,
           "multiplier": 1.5,
-          "effectivePoints": 944,
+          "effectivePoints": 960,
           "countsInTop11": true
         },
         {
@@ -16482,18 +16562,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2403,
-      "top11Points": 2387,
+      "totalPointsAll": 2407,
+      "top11Points": 2391,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 244,
+          "batting": 246,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 244,
+          "rawPoints": 246,
           "multiplier": 2,
-          "effectivePoints": 488,
+          "effectivePoints": 492,
           "countsInTop11": true
         },
         {
