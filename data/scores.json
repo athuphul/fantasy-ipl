@@ -1,7 +1,64 @@
 {
-  "lastUpdated": "2026-04-28T18:24:56.497Z",
+  "lastUpdated": "2026-04-29T14:04:57.095Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529284",
+    "name": "Mumbai Indians v Sunrisers Hyderabad",
+    "status": "Live",
+    "venue": "Wankhede Stadium, Mumbai",
+    "score": [
+      {
+        "inning": "Mumbai Indians",
+        "r": 1,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Will Jacks": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Abhishek Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Travis Head": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ishan Kishan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Heinrich Klaasen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nitish Kumar Reddy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Harsh Dubey": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -15,8 +72,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3396,
-      "top11Points": 3396
+      "totalPointsAll": 3397,
+      "top11Points": 3397
     },
     {
       "team": "Aakash",
@@ -15225,6 +15282,104 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529284",
+      "name": "Mumbai Indians v Sunrisers Hyderabad",
+      "date": "2026-04-29",
+      "status": "Live",
+      "venue": "Wankhede Stadium, Mumbai",
+      "score": [
+        {
+          "inning": "Mumbai Indians",
+          "r": 1,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Mumbai Indians",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Will Jacks",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ryan Rickelton",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Pat Cummins",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 2
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Will Jacks": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Abhishek Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Travis Head": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ishan Kishan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Heinrich Klaasen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nitish Kumar Reddy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Harsh Dubey": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -16079,8 +16234,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3396,
-      "top11Points": 3396,
+      "totalPointsAll": 3397,
+      "top11Points": 3397,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16195,12 +16350,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 1,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 1,
           "countsInTop11": true
         }
       ]
