@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:35:26.923Z",
+  "lastUpdated": "2026-04-29T15:44:57.990Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 203,
+        "r": 219,
         "w": 3,
-        "o": 16.1
+        "o": 17.3
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 6
       },
       "Hardik Pandya": {
-        "batting": 22,
+        "batting": 51,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 51
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -104,8 +104,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 2990,
-      "top11Points": 3000
+      "totalPointsAll": 3019,
+      "top11Points": 3029
     },
     {
       "team": "Ashwin",
@@ -15304,17 +15304,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 203,
+          "r": 219,
           "w": 3,
-          "o": 16.1
+          "o": 17.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 203,
+          "runs": 219,
           "wickets": 3,
-          "overs": 16.1,
+          "overs": 17.3,
           "batting": [
             {
               "name": "Will Jacks",
@@ -15327,11 +15327,11 @@
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 105,
-              "balls": 46,
+              "runs": 108,
+              "balls": 49,
               "fours": 9,
               "sixes": 7,
-              "sr": 228.26,
+              "sr": 220.41,
               "dismissal": "batting"
             },
             {
@@ -15354,22 +15354,22 @@
             },
             {
               "name": "Hardik Pandya",
-              "runs": 18,
-              "balls": 6,
+              "runs": 30,
+              "balls": 12,
               "fours": 2,
-              "sixes": 1,
-              "sr": 300,
+              "sixes": 2,
+              "sr": 250,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 39,
               "wickets": 0,
-              "economy": 11
+              "economy": 9.75
             },
             {
               "name": "Praful Hinge",
@@ -15381,11 +15381,11 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 26,
               "wickets": 1,
-              "economy": 5.33
+              "economy": 7.43
             },
             {
               "name": "Harsh Dubey",
@@ -15428,10 +15428,10 @@
           "total": 6
         },
         "Hardik Pandya": {
-          "batting": 22,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 51
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -15475,8 +15475,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 2990,
-      "top11Points": 3000,
+      "totalPointsAll": 3019,
+      "top11Points": 3029,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -15534,6 +15534,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Hardik Pandya",
+          "role": "All-Rounder",
+          "batting": 174,
+          "bowling": 40,
+          "fielding": 16,
+          "rawPoints": 230,
+          "multiplier": 1,
+          "effectivePoints": 230,
+          "countsInTop11": true
+        },
+        {
           "name": "Ayush Badoni",
           "role": "Batsman",
           "batting": 212,
@@ -15553,17 +15564,6 @@
           "rawPoints": 216,
           "multiplier": 1,
           "effectivePoints": 216,
-          "countsInTop11": true
-        },
-        {
-          "name": "Hardik Pandya",
-          "role": "All-Rounder",
-          "batting": 145,
-          "bowling": 40,
-          "fielding": 16,
-          "rawPoints": 201,
-          "multiplier": 1,
-          "effectivePoints": 201,
           "countsInTop11": true
         },
         {
