@@ -1,106 +1,7 @@
 {
-  "lastUpdated": "2026-04-29T18:04:54.351Z",
+  "lastUpdated": "2026-04-29T18:15:00.816Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529284",
-    "name": "Mumbai Indians v Sunrisers Hyderabad",
-    "status": "Live",
-    "venue": "Wankhede Stadium, Mumbai",
-    "score": [
-      {
-        "inning": "Mumbai Indians",
-        "r": 243,
-        "w": 5,
-        "o": 20
-      },
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 249,
-        "w": 4,
-        "o": 18.4
-      }
-    ],
-    "playerScores": {
-      "Will Jacks": {
-        "batting": 72,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 80
-      },
-      "Suryakumar Yadav": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 14
-      },
-      "Hardik Pandya": {
-        "batting": 52,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 77
-      },
-      "Tilak Varma": {
-        "batting": 9,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 9
-      },
-      "Trent Boult": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 8,
-        "total": 28
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
-      },
-      "Shardul Thakur": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Abhishek Sharma": {
-        "batting": 65,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 73
-      },
-      "Travis Head": {
-        "batting": 121,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 121
-      },
-      "Ishan Kishan": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 3
-      },
-      "Heinrich Klaasen": {
-        "batting": 105,
-        "bowling": 0,
-        "fielding": 16,
-        "total": 121
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 24,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 34
-      },
-      "Harsh Dubey": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 8,
-        "total": -7
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -129,8 +30,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3182,
-      "top11Points": 3192
+      "totalPointsAll": 3177,
+      "top11Points": 3187
     },
     {
       "team": "Kishan",
@@ -15329,7 +15230,7 @@
       "matchId": "espn_1529284",
       "name": "Mumbai Indians v Sunrisers Hyderabad",
       "date": "2026-04-29",
-      "status": "Live",
+      "status": "Final",
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
@@ -15507,7 +15408,7 @@
               "fours": 7,
               "sixes": 4,
               "sr": 216.67,
-              "dismissal": "batting"
+              "dismissal": "not out"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -15520,12 +15421,12 @@
             },
             {
               "name": "Salil Arora",
-              "runs": 24,
-              "balls": 9,
+              "runs": 30,
+              "balls": 10,
               "fours": 2,
-              "sixes": 2,
-              "sr": 266.67,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 300,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -15571,11 +15472,11 @@
             },
             {
               "name": "Hardik Pandya",
-              "overs": 3.3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 39,
               "wickets": 1,
-              "economy": 9.43
+              "economy": 10.64
             }
           ]
         }
@@ -15595,9 +15496,9 @@
         },
         "Hardik Pandya": {
           "batting": 52,
-          "bowling": 25,
+          "bowling": 20,
           "fielding": 0,
-          "total": 77
+          "total": 72
         },
         "Tilak Varma": {
           "batting": 9,
@@ -15660,13 +15561,13 @@
           "total": -7
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3182,
-      "top11Points": 3192,
+      "totalPointsAll": 3177,
+      "top11Points": 3187,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -15727,11 +15628,11 @@
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 175,
-          "bowling": 65,
+          "bowling": 60,
           "fielding": 16,
-          "rawPoints": 256,
+          "rawPoints": 251,
           "multiplier": 1,
-          "effectivePoints": 256,
+          "effectivePoints": 251,
           "countsInTop11": true
         },
         {
