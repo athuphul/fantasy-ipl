@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T14:45:00.189Z",
+  "lastUpdated": "2026-04-29T14:55:10.447Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529284",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 108,
-        "w": 1,
-        "o": 7.5
+        "r": 115,
+        "w": 2,
+        "o": 9.3
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Abhishek Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Travis Head": {
         "batting": 0,
@@ -68,8 +68,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 3971,
-      "top11Points": 3991
+      "totalPointsAll": 3983,
+      "top11Points": 4003
     },
     {
       "team": "Tikoo",
@@ -15298,17 +15298,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 108,
-          "w": 1,
-          "o": 7.5
+          "r": 115,
+          "w": 2,
+          "o": 9.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 108,
-          "wickets": 1,
-          "overs": 7.5,
+          "runs": 115,
+          "wickets": 2,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Will Jacks",
@@ -15321,31 +15321,40 @@
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 54,
-              "balls": 23,
+              "runs": 57,
+              "balls": 25,
               "fours": 5,
               "sixes": 4,
-              "sr": 234.78,
+              "sr": 228,
               "dismissal": "batting"
             },
             {
               "name": "Suryakumar Yadav",
               "runs": 5,
-              "balls": 2,
+              "balls": 5,
               "fours": 1,
               "sixes": 0,
-              "sr": 250,
+              "sr": 100,
+              "dismissal": "c Abhishek Sharma b Eshan Malinga"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
               "runs": 22,
               "wickets": 0,
-              "economy": 11
+              "economy": 10.15
             },
             {
               "name": "Praful Hinge",
@@ -15357,11 +15366,11 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 6
+              "runs": 9,
+              "wickets": 1,
+              "economy": 4.5
             },
             {
               "name": "Harsh Dubey",
@@ -15381,11 +15390,11 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
-              "runs": 15,
+              "runs": 17,
               "wickets": 1,
-              "economy": 18
+              "economy": 17
             }
           ]
         }
@@ -15406,8 +15415,8 @@
         "Abhishek Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Travis Head": {
           "batting": 0,
@@ -15732,8 +15741,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 3971,
-      "top11Points": 3991,
+      "totalPointsAll": 3983,
+      "top11Points": 4003,
       "players": [
         {
           "name": "KL Rahul",
@@ -15751,10 +15760,10 @@
           "role": "Opener",
           "batting": 597,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 621,
+          "fielding": 32,
+          "rawPoints": 629,
           "multiplier": 1.5,
-          "effectivePoints": 932,
+          "effectivePoints": 944,
           "countsInTop11": true
         },
         {
