@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T16:04:58.060Z",
+  "lastUpdated": "2026-04-30T16:14:58.167Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -8,6 +8,12 @@
     "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
     "score": [
       {
+        "inning": "Gujarat Titans",
+        "r": 41,
+        "w": 0,
+        "o": 2.2
+      },
+      {
         "inning": "Royal Challengers Bengaluru",
         "r": 155,
         "w": 10,
@@ -15,17 +21,17 @@
       }
     ],
     "playerScores": {
-      "Shubman Gill": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 10
-      },
       "Sai Sudharsan": {
         "batting": 1,
         "bowling": 0,
         "fielding": 16,
         "total": 17
+      },
+      "Shubman Gill": {
+        "batting": 60,
+        "bowling": 0,
+        "fielding": 10,
+        "total": 70
       },
       "Jos Buttler": {
         "batting": 0,
@@ -163,8 +169,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3074,
-      "top11Points": 3016
+      "totalPointsAll": 3194,
+      "top11Points": 3136
     },
     {
       "team": "Tanay",
@@ -15694,6 +15700,12 @@
       "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
       "score": [
         {
+          "inning": "Gujarat Titans",
+          "r": 41,
+          "w": 0,
+          "o": 2.2
+        },
+        {
           "inning": "Royal Challengers Bengaluru",
           "r": 155,
           "w": 10,
@@ -15852,53 +15864,61 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 1,
+          "runs": 41,
           "wickets": 0,
-          "overs": 0.1,
+          "overs": 2.2,
           "batting": [
             {
               "name": "Sai Sudharsan",
               "runs": 1,
-              "balls": 1,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 50,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 35,
+              "balls": 10,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 350,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 12,
               "wickets": 0,
-              "economy": 6
+              "economy": 12
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 24,
+              "wickets": 0,
+              "economy": 24
             }
           ]
         }
       ],
       "playerScores": {
-        "Shubman Gill": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 10,
-          "total": 10
-        },
         "Sai Sudharsan": {
           "batting": 1,
           "bowling": 0,
           "fielding": 16,
           "total": 17
+        },
+        "Shubman Gill": {
+          "batting": 60,
+          "bowling": 0,
+          "fielding": 10,
+          "total": 70
         },
         "Jos Buttler": {
           "batting": 0,
@@ -16427,18 +16447,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3074,
-      "top11Points": 3016,
+      "totalPointsAll": 3194,
+      "top11Points": 3136,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 428,
+          "batting": 488,
           "bowling": 0,
           "fielding": 58,
-          "rawPoints": 486,
+          "rawPoints": 546,
           "multiplier": 2,
-          "effectivePoints": 972,
+          "effectivePoints": 1092,
           "countsInTop11": true
         },
         {
