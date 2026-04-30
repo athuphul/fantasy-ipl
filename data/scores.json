@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T17:04:58.864Z",
+  "lastUpdated": "2026-04-30T17:14:55.567Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 122,
+        "r": 137,
         "w": 5,
-        "o": 11
+        "o": 13
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -52,10 +52,10 @@
         "total": 9
       },
       "Rahul Tewatia": {
-        "batting": 1,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 19
       },
       "Rashid Khan": {
         "batting": 0,
@@ -131,9 +131,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       }
     }
   },
@@ -145,7 +145,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4220,
+      "totalPointsAll": 4238,
       "top11Points": 3974
     },
     {
@@ -165,8 +165,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3322,
-      "top11Points": 3256
+      "totalPointsAll": 3312,
+      "top11Points": 3246
     },
     {
       "team": "Athu",
@@ -15707,9 +15707,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 122,
+          "r": 137,
           "w": 5,
-          "o": 11
+          "o": 13
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -15870,9 +15870,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 122,
+          "runs": 137,
           "wickets": 5,
-          "overs": 11,
+          "overs": 13,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -15921,20 +15921,20 @@
             },
             {
               "name": "Rahul Tewatia",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 16,
+              "balls": 9,
+              "fours": 3,
               "sixes": 0,
-              "sr": 100,
+              "sr": 177.78,
               "dismissal": "batting"
             },
             {
               "name": "Jason Holder",
-              "runs": 7,
-              "balls": 2,
+              "runs": 11,
+              "balls": 7,
               "fours": 0,
               "sixes": 1,
-              "sr": 350,
+              "sr": 157.14,
               "dismissal": "batting"
             }
           ],
@@ -15957,19 +15957,19 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 17,
+              "runs": 27,
               "wickets": 0,
-              "economy": 17
+              "economy": 13.5
             },
             {
               "name": "Romario Shepherd",
-              "overs": 1.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 26,
               "wickets": 2,
-              "economy": 9.27
+              "economy": 8.67
             }
           ]
         }
@@ -16006,10 +16006,10 @@
           "total": 9
         },
         "Rahul Tewatia": {
-          "batting": 1,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 19
         },
         "Rashid Khan": {
           "batting": 0,
@@ -16085,9 +16085,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         }
       },
       "isComplete": false
@@ -16785,8 +16785,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3322,
-      "top11Points": 3256,
+      "totalPointsAll": 3312,
+      "top11Points": 3246,
       "players": [
         {
           "name": "Axar Patel",
@@ -16880,11 +16880,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 180,
+          "bowling": 170,
           "fielding": 0,
-          "rawPoints": 180,
+          "rawPoints": 170,
           "multiplier": 1,
-          "effectivePoints": 180,
+          "effectivePoints": 170,
           "countsInTop11": true
         },
         {
@@ -17210,7 +17210,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4220,
+      "totalPointsAll": 4238,
       "top11Points": 3974,
       "players": [
         {
@@ -17346,6 +17346,17 @@
           "countsInTop11": false
         },
         {
+          "name": "Rahul Tewatia",
+          "role": "All-Rounder",
+          "batting": 64,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 80,
+          "multiplier": 1,
+          "effectivePoints": 80,
+          "countsInTop11": false
+        },
+        {
           "name": "Shahrukh Khan",
           "role": "Batsman",
           "batting": 50,
@@ -17354,17 +17365,6 @@
           "rawPoints": 74,
           "multiplier": 1,
           "effectivePoints": 74,
-          "countsInTop11": false
-        },
-        {
-          "name": "Rahul Tewatia",
-          "role": "All-Rounder",
-          "batting": 46,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 62,
-          "multiplier": 1,
-          "effectivePoints": 62,
           "countsInTop11": false
         }
       ]
