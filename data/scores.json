@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T14:24:57.240Z",
+  "lastUpdated": "2026-04-30T14:34:54.904Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 49,
+        "r": 67,
         "w": 2,
-        "o": 4.4
+        "o": 6.2
       }
     ],
     "playerScores": {
@@ -53,15 +53,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 15,
+        "bowling": 20,
         "fielding": 0,
-        "total": 15
+        "total": 20
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 30,
+        "bowling": 25,
         "fielding": 0,
-        "total": 30
+        "total": 25
       },
       "Virat Kohli": {
         "batting": 50,
@@ -70,24 +70,24 @@
         "total": 50
       },
       "Devdutt Padikkal": {
-        "batting": 13,
+        "batting": 44,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 44
       },
       "Rajat Patidar": {
-        "batting": 5,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 11
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4110,
-      "top11Points": 4130
+      "totalPointsAll": 4105,
+      "top11Points": 4125
     },
     {
       "team": "Tikoo",
@@ -111,13 +111,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3192,
-      "top11Points": 3202
+      "totalPointsAll": 3197,
+      "top11Points": 3207
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3104,
-      "top11Points": 3104
+      "totalPointsAll": 3135,
+      "top11Points": 3135
     },
     {
       "team": "Ashwin",
@@ -126,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2678,
-      "top11Points": 2634
+      "totalPointsAll": 2684,
+      "top11Points": 2640
     }
   ],
   "matchHistory": [
@@ -15653,17 +15653,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 49,
+          "r": 67,
           "w": 2,
-          "o": 4.4
+          "o": 6.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 49,
+          "runs": 67,
           "wickets": 2,
-          "overs": 4.4,
+          "overs": 6.2,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -15685,18 +15685,18 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 10,
-              "balls": 7,
-              "fours": 1,
+              "runs": 23,
+              "balls": 11,
+              "fours": 4,
               "sixes": 1,
-              "sr": 142.86,
+              "sr": 209.09,
               "dismissal": "batting"
             },
             {
               "name": "Rajat Patidar",
-              "runs": 4,
-              "balls": 4,
-              "fours": 1,
+              "runs": 9,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
               "sr": 100,
               "dismissal": "batting"
@@ -15705,19 +15705,27 @@
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2.5,
-              "maidens": 0,
-              "runs": 22,
-              "wickets": 1,
-              "economy": 7.76
-            },
-            {
-              "name": "Kagiso Rabada",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
               "runs": 26,
               "wickets": 1,
-              "economy": 13
+              "economy": 8.67
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 32,
+              "wickets": 1,
+              "economy": 10.67
+            },
+            {
+              "name": "Jason Holder",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 24
             }
           ]
         }
@@ -15761,15 +15769,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 15,
+          "bowling": 20,
           "fielding": 0,
-          "total": 15
+          "total": 20
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 30,
+          "bowling": 25,
           "fielding": 0,
-          "total": 30
+          "total": 25
         },
         "Virat Kohli": {
           "batting": 50,
@@ -15778,16 +15786,16 @@
           "total": 50
         },
         "Devdutt Padikkal": {
-          "batting": 13,
+          "batting": 44,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 44
         },
         "Rajat Patidar": {
-          "batting": 5,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 11
         }
       },
       "isComplete": false
@@ -15795,8 +15803,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3192,
-      "top11Points": 3202,
+      "totalPointsAll": 3197,
+      "top11Points": 3207,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -15824,11 +15832,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 367,
+          "bowling": 372,
           "fielding": 24,
-          "rawPoints": 428,
+          "rawPoints": 433,
           "multiplier": 1,
-          "effectivePoints": 428,
+          "effectivePoints": 433,
           "countsInTop11": true
         },
         {
@@ -16082,8 +16090,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4110,
-      "top11Points": 4130,
+      "totalPointsAll": 4105,
+      "top11Points": 4125,
       "players": [
         {
           "name": "KL Rahul",
@@ -16122,11 +16130,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 287,
+          "bowling": 282,
           "fielding": 24,
-          "rawPoints": 306,
+          "rawPoints": 301,
           "multiplier": 1,
-          "effectivePoints": 306,
+          "effectivePoints": 301,
           "countsInTop11": true
         },
         {
@@ -16358,8 +16366,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3104,
-      "top11Points": 3104,
+      "totalPointsAll": 3135,
+      "top11Points": 3135,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16384,6 +16392,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Devdutt Padikkal",
+          "role": "Batsman",
+          "batting": 415,
+          "bowling": 0,
+          "fielding": 72,
+          "rawPoints": 487,
+          "multiplier": 1,
+          "effectivePoints": 487,
+          "countsInTop11": true
+        },
+        {
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 13,
@@ -16392,17 +16411,6 @@
           "rawPoints": 460,
           "multiplier": 1,
           "effectivePoints": 460,
-          "countsInTop11": true
-        },
-        {
-          "name": "Devdutt Padikkal",
-          "role": "Batsman",
-          "batting": 384,
-          "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 456,
-          "multiplier": 1,
-          "effectivePoints": 456,
           "countsInTop11": true
         },
         {
@@ -16772,8 +16780,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2678,
-      "top11Points": 2634,
+      "totalPointsAll": 2684,
+      "top11Points": 2640,
       "players": [
         {
           "name": "Travis Head",
@@ -16789,12 +16797,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 386,
+          "batting": 392,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 418,
+          "rawPoints": 424,
           "multiplier": 1,
-          "effectivePoints": 418,
+          "effectivePoints": 424,
           "countsInTop11": true
         },
         {
