@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T15:44:53.903Z",
+  "lastUpdated": "2026-04-30T15:54:58.070Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -10,7 +10,7 @@
       {
         "inning": "Royal Challengers Bengaluru",
         "r": 155,
-        "w": 9,
+        "w": 10,
         "o": 19.2
       }
     ],
@@ -18,8 +18,8 @@
       "Shubman Gill": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 10,
+        "total": 10
       },
       "Sai Sudharsan": {
         "batting": 0,
@@ -112,10 +112,10 @@
         "total": 17
       },
       "Josh Hazlewood": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
       }
     }
   },
@@ -142,8 +142,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3326,
-      "top11Points": 3260
+      "totalPointsAll": 3321,
+      "top11Points": 3255
     },
     {
       "team": "Athu",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3054,
-      "top11Points": 2996
+      "totalPointsAll": 3074,
+      "top11Points": 3016
     },
     {
       "team": "Tanay",
@@ -15690,7 +15690,7 @@
         {
           "inning": "Royal Challengers Bengaluru",
           "r": 155,
-          "w": 9,
+          "w": 10,
           "o": 19.2
         }
       ],
@@ -15698,7 +15698,7 @@
         {
           "innings": "Royal Challengers Bengaluru",
           "runs": 155,
-          "wickets": 9,
+          "wickets": 10,
           "overs": 19.2,
           "batting": [
             {
@@ -15789,16 +15789,16 @@
               "fours": 2,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             },
             {
               "name": "Josh Hazlewood",
               "runs": 0,
-              "balls": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
-              "dismissal": "batting"
+              "dismissal": "run out (Shubman Gill)"
             }
           ],
           "bowling": [
@@ -15828,11 +15828,11 @@
             },
             {
               "name": "Arshad Khan",
-              "overs": 3.1,
+              "overs": 3.2,
               "maidens": 0,
               "runs": 22,
               "wickets": 3,
-              "economy": 6.95
+              "economy": 6.6
             },
             {
               "name": "Rashid Khan",
@@ -15849,8 +15849,8 @@
         "Shubman Gill": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 10,
+          "total": 10
         },
         "Sai Sudharsan": {
           "batting": 0,
@@ -15943,10 +15943,10 @@
           "total": 17
         },
         "Josh Hazlewood": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
         }
       },
       "isComplete": false
@@ -16379,18 +16379,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3054,
-      "top11Points": 2996,
+      "totalPointsAll": 3074,
+      "top11Points": 3016,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 428,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 476,
+          "fielding": 58,
+          "rawPoints": 486,
           "multiplier": 2,
-          "effectivePoints": 952,
+          "effectivePoints": 972,
           "countsInTop11": true
         },
         {
@@ -16644,8 +16644,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3326,
-      "top11Points": 3260,
+      "totalPointsAll": 3321,
+      "top11Points": 3255,
       "players": [
         {
           "name": "Axar Patel",
@@ -16705,12 +16705,12 @@
         {
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": -5,
           "bowling": 250,
           "fielding": 24,
-          "rawPoints": 274,
+          "rawPoints": 269,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 269,
           "countsInTop11": true
         },
         {
