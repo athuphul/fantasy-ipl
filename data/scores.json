@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T14:34:54.904Z",
+  "lastUpdated": "2026-04-30T14:45:07.569Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 67,
-        "w": 2,
-        "o": 6.2
+        "r": 80,
+        "w": 3,
+        "o": 8
       }
     ],
     "playerScores": {
@@ -70,16 +70,22 @@
         "total": 50
       },
       "Devdutt Padikkal": {
-        "batting": 44,
+        "batting": 41,
         "bowling": 0,
         "fielding": 0,
-        "total": 44
+        "total": 41
       },
       "Rajat Patidar": {
-        "batting": 11,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 23
+      },
+      "Jitesh Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -116,8 +122,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3135,
-      "top11Points": 3135
+      "totalPointsAll": 3132,
+      "top11Points": 3132
     },
     {
       "team": "Ashwin",
@@ -126,8 +132,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2684,
-      "top11Points": 2640
+      "totalPointsAll": 2696,
+      "top11Points": 2652
     }
   ],
   "matchHistory": [
@@ -15653,17 +15659,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 67,
-          "w": 2,
-          "o": 6.2
+          "r": 80,
+          "w": 3,
+          "o": 8
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 67,
-          "wickets": 2,
-          "overs": 6.2,
+          "runs": 80,
+          "wickets": 3,
+          "overs": 8,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -15685,20 +15691,29 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 23,
-              "balls": 11,
+              "runs": 25,
+              "balls": 13,
               "fours": 4,
               "sixes": 1,
-              "sr": 209.09,
+              "sr": 192.31,
               "dismissal": "batting"
             },
             {
               "name": "Rajat Patidar",
-              "runs": 9,
-              "balls": 9,
+              "runs": 19,
+              "balls": 15,
               "fours": 2,
+              "sixes": 1,
+              "sr": 126.67,
+              "dismissal": "c Jason Holder b Arshad Khan"
+            },
+            {
+              "name": "Jitesh Sharma",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -15721,11 +15736,19 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 0.2,
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
+            },
+            {
+              "name": "Arshad Khan",
+              "overs": 0.5,
               "maidens": 0,
               "runs": 8,
-              "wickets": 0,
-              "economy": 24
+              "wickets": 1,
+              "economy": 9.6
             }
           ]
         }
@@ -15786,16 +15809,22 @@
           "total": 50
         },
         "Devdutt Padikkal": {
-          "batting": 44,
+          "batting": 41,
           "bowling": 0,
           "fielding": 0,
-          "total": 44
+          "total": 41
         },
         "Rajat Patidar": {
-          "batting": 11,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 23
+        },
+        "Jitesh Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -16366,8 +16395,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3135,
-      "top11Points": 3135,
+      "totalPointsAll": 3132,
+      "top11Points": 3132,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16394,12 +16423,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 415,
+          "batting": 412,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 487,
+          "rawPoints": 484,
           "multiplier": 1,
-          "effectivePoints": 487,
+          "effectivePoints": 484,
           "countsInTop11": true
         },
         {
@@ -16780,8 +16809,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2684,
-      "top11Points": 2640,
+      "totalPointsAll": 2696,
+      "top11Points": 2652,
       "players": [
         {
           "name": "Travis Head",
@@ -16797,12 +16826,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 392,
+          "batting": 404,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 424,
+          "rawPoints": 436,
           "multiplier": 1,
-          "effectivePoints": 424,
+          "effectivePoints": 436,
           "countsInTop11": true
         },
         {
