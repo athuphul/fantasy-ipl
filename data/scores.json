@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T15:54:58.070Z",
+  "lastUpdated": "2026-04-30T16:04:58.060Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -22,10 +22,10 @@
         "total": 10
       },
       "Sai Sudharsan": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 17
       },
       "Jos Buttler": {
         "batting": 0,
@@ -116,6 +116,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Suyash Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -137,8 +143,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3457,
-      "top11Points": 3421
+      "totalPointsAll": 3459,
+      "top11Points": 3423
     },
     {
       "team": "Manav",
@@ -15843,6 +15849,42 @@
               "economy": 4.75
             }
           ]
+        },
+        {
+          "innings": "Gujarat Titans",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.1,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -15853,10 +15895,10 @@
           "total": 10
         },
         "Sai Sudharsan": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 17
         },
         "Jos Buttler": {
           "batting": 0,
@@ -15947,6 +15989,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Suyash Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -16103,18 +16151,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3457,
-      "top11Points": 3421,
+      "totalPointsAll": 3459,
+      "top11Points": 3423,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 463,
+          "batting": 464,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 497,
+          "rawPoints": 498,
           "multiplier": 2,
-          "effectivePoints": 994,
+          "effectivePoints": 996,
           "countsInTop11": true
         },
         {
