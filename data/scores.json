@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T15:14:57.868Z",
+  "lastUpdated": "2026-04-30T15:25:11.256Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 126,
-        "w": 7,
-        "o": 14
+        "r": 133,
+        "w": 8,
+        "o": 15.4
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Sai Sudharsan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Jos Buttler": {
         "batting": 0,
@@ -104,6 +104,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 21
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
       }
     }
   },
@@ -125,8 +131,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3425,
-      "top11Points": 3389
+      "totalPointsAll": 3441,
+      "top11Points": 3405
     },
     {
       "team": "Manav",
@@ -140,8 +146,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3145,
-      "top11Points": 3145
+      "totalPointsAll": 3149,
+      "top11Points": 3149
     },
     {
       "team": "Ashwin",
@@ -15677,17 +15683,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 126,
-          "w": 7,
-          "o": 14
+          "r": 133,
+          "w": 8,
+          "o": 15.4
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 126,
-          "wickets": 7,
-          "overs": 14,
+          "runs": 133,
+          "wickets": 8,
+          "overs": 15.4,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -15755,19 +15761,28 @@
             {
               "name": "Romario Shepherd",
               "runs": 17,
-              "balls": 14,
+              "balls": 15,
               "fours": 0,
               "sixes": 2,
-              "sr": 121.43,
-              "dismissal": "batting"
+              "sr": 113.33,
+              "dismissal": "c Sai Sudharsan b Jason Holder"
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 0,
-              "balls": 0,
+              "runs": 2,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "runs": 4,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -15790,11 +15805,11 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 1,
-              "economy": 10.5
+              "runs": 27,
+              "wickets": 2,
+              "economy": 9
             },
             {
               "name": "Arshad Khan",
@@ -15806,11 +15821,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
               "runs": 18,
               "wickets": 2,
-              "economy": 6
+              "economy": 5.4
             }
           ]
         }
@@ -15825,8 +15840,8 @@
         "Sai Sudharsan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Jos Buttler": {
           "batting": 0,
@@ -15905,6 +15920,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 21
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
         }
       },
       "isComplete": false
@@ -16061,18 +16082,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3425,
-      "top11Points": 3389,
+      "totalPointsAll": 3441,
+      "top11Points": 3405,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
           "batting": 463,
           "bowling": 0,
-          "fielding": 18,
-          "rawPoints": 481,
+          "fielding": 26,
+          "rawPoints": 489,
           "multiplier": 2,
-          "effectivePoints": 962,
+          "effectivePoints": 978,
           "countsInTop11": true
         },
         {
@@ -16475,8 +16496,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3145,
-      "top11Points": 3145,
+      "totalPointsAll": 3149,
+      "top11Points": 3149,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16514,12 +16535,12 @@
         {
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
-          "batting": 13,
+          "batting": 17,
           "bowling": 439,
           "fielding": 8,
-          "rawPoints": 460,
+          "rawPoints": 464,
           "multiplier": 1,
-          "effectivePoints": 460,
+          "effectivePoints": 464,
           "countsInTop11": true
         },
         {
