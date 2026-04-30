@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-04-29T18:24:52.338Z",
+  "lastUpdated": "2026-04-30T14:05:17.903Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529285",
+    "name": "Gujarat Titans v Royal Challengers Bengaluru",
+    "status": "Live",
+    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+    "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 6,
+        "w": 0,
+        "o": 0.6
+      }
+    ],
+    "playerScores": {
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Sudharsan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jos Buttler": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shahrukh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Washington Sundar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Virat Kohli": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -35,8 +104,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3041,
-      "top11Points": 3041
+      "totalPointsAll": 3042,
+      "top11Points": 3042
     },
     {
       "team": "Ashwin",
@@ -15562,6 +15631,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529285",
+      "name": "Gujarat Titans v Royal Challengers Bengaluru",
+      "date": "2026-04-30",
+      "status": "Live",
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+      "score": [
+        {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 6,
+          "w": 0,
+          "o": 0.6
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 6,
+          "wickets": 0,
+          "overs": 0.6,
+          "batting": [
+            {
+              "name": "Jacob Bethell",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 2.4
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jos Buttler": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shahrukh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Washington Sundar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Virat Kohli": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -16129,8 +16308,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3041,
-      "top11Points": 3041,
+      "totalPointsAll": 3042,
+      "top11Points": 3042,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16146,12 +16325,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 491,
+          "batting": 492,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 523,
+          "rawPoints": 524,
           "multiplier": 1,
-          "effectivePoints": 523,
+          "effectivePoints": 524,
           "countsInTop11": true
         },
         {
