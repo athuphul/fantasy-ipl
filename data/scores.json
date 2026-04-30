@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T16:44:56.326Z",
+  "lastUpdated": "2026-04-30T16:54:55.712Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 92,
+        "r": 104,
         "w": 3,
-        "o": 7.3
+        "o": 9.4
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -40,16 +40,16 @@
         "total": 72
       },
       "Washington Sundar": {
+        "batting": 14,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 14
+      },
+      "Shahrukh Khan": {
         "batting": 3,
         "bowling": 0,
         "fielding": 0,
         "total": 3
-      },
-      "Shahrukh Khan": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Rashid Khan": {
         "batting": 0,
@@ -113,15 +113,15 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 17,
-        "bowling": 90,
+        "bowling": 97,
         "fielding": 0,
-        "total": 107
+        "total": 114
       },
       "Josh Hazlewood": {
         "batting": -5,
-        "bowling": -15,
+        "bowling": -10,
         "fielding": 0,
-        "total": -20
+        "total": -15
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -139,7 +139,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4210,
+      "totalPointsAll": 4213,
       "top11Points": 3974
     },
     {
@@ -154,13 +154,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3263,
-      "top11Points": 3263
+      "totalPointsAll": 3281,
+      "top11Points": 3281
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3314,
-      "top11Points": 3248
+      "totalPointsAll": 3319,
+      "top11Points": 3253
     },
     {
       "team": "Athu",
@@ -15701,9 +15701,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 92,
+          "r": 104,
           "w": 3,
-          "o": 7.3
+          "o": 9.4
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -15864,9 +15864,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 92,
+          "runs": 104,
           "wickets": 3,
-          "overs": 7.3,
+          "overs": 9.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -15897,30 +15897,39 @@
             },
             {
               "name": "Washington Sundar",
+              "runs": 12,
+              "balls": 11,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 109.09,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shahrukh Khan",
               "runs": 3,
-              "balls": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 60,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 26,
+              "runs": 28,
               "wickets": 3,
-              "economy": 7.43
+              "economy": 7
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 49,
+              "runs": 51,
               "wickets": 0,
-              "economy": 16.33
+              "economy": 13.91
             },
             {
               "name": "Suyash Sharma",
@@ -15929,6 +15938,14 @@
               "runs": 17,
               "wickets": 0,
               "economy": 17
+            },
+            {
+              "name": "Romario Shepherd",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -15953,16 +15970,16 @@
           "total": 72
         },
         "Washington Sundar": {
+          "batting": 14,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 14
+        },
+        "Shahrukh Khan": {
           "batting": 3,
           "bowling": 0,
           "fielding": 0,
           "total": 3
-        },
-        "Shahrukh Khan": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Rashid Khan": {
           "batting": 0,
@@ -16026,15 +16043,15 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 17,
-          "bowling": 90,
+          "bowling": 97,
           "fielding": 0,
-          "total": 107
+          "total": 114
         },
         "Josh Hazlewood": {
           "batting": -5,
-          "bowling": -15,
+          "bowling": -10,
           "fielding": 0,
-          "total": -20
+          "total": -15
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -16611,8 +16628,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3263,
-      "top11Points": 3263,
+      "totalPointsAll": 3281,
+      "top11Points": 3281,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16640,11 +16657,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 30,
-          "bowling": 529,
+          "bowling": 536,
           "fielding": 8,
-          "rawPoints": 567,
+          "rawPoints": 574,
           "multiplier": 1,
-          "effectivePoints": 567,
+          "effectivePoints": 574,
           "countsInTop11": true
         },
         {
@@ -16661,12 +16678,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 216,
+          "batting": 227,
           "bowling": 25,
           "fielding": 24,
-          "rawPoints": 265,
+          "rawPoints": 276,
           "multiplier": 1,
-          "effectivePoints": 265,
+          "effectivePoints": 276,
           "countsInTop11": true
         },
         {
@@ -16738,8 +16755,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3314,
-      "top11Points": 3248,
+      "totalPointsAll": 3319,
+      "top11Points": 3253,
       "players": [
         {
           "name": "Axar Patel",
@@ -16800,11 +16817,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 235,
+          "bowling": 240,
           "fielding": 24,
-          "rawPoints": 254,
+          "rawPoints": 259,
           "multiplier": 1,
-          "effectivePoints": 254,
+          "effectivePoints": 259,
           "countsInTop11": true
         },
         {
@@ -17163,7 +17180,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4210,
+      "totalPointsAll": 4213,
       "top11Points": 3974,
       "players": [
         {
@@ -17301,12 +17318,12 @@
         {
           "name": "Shahrukh Khan",
           "role": "Batsman",
-          "batting": 41,
+          "batting": 44,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 65,
+          "rawPoints": 68,
           "multiplier": 1,
-          "effectivePoints": 65,
+          "effectivePoints": 68,
           "countsInTop11": false
         },
         {
