@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T14:55:06.069Z",
+  "lastUpdated": "2026-04-30T15:05:07.511Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529285",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 91,
-        "w": 5,
-        "o": 10
+        "r": 101,
+        "w": 6,
+        "o": 12.1
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 16,
-        "total": 41
+        "total": 61
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 50
       },
       "Devdutt Padikkal": {
-        "batting": 38,
+        "batting": 35,
         "bowling": 0,
         "fielding": 0,
-        "total": 38
+        "total": 35
       },
       "Rajat Patidar": {
         "batting": 23,
@@ -94,10 +94,16 @@
         "total": 11
       },
       "Krunal Pandya": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 5
+      },
+      "Romario Shepherd": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       }
     }
   },
@@ -114,8 +120,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3522,
-      "top11Points": 3522
+      "totalPointsAll": 3542,
+      "top11Points": 3542
     },
     {
       "team": "Aakash",
@@ -124,8 +130,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3321,
-      "top11Points": 3255
+      "totalPointsAll": 3326,
+      "top11Points": 3260
     },
     {
       "team": "Athu",
@@ -134,13 +140,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3129,
-      "top11Points": 3129
+      "totalPointsAll": 3126,
+      "top11Points": 3126
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3033,
-      "top11Points": 2975
+      "totalPointsAll": 3036,
+      "top11Points": 2978
     },
     {
       "team": "Tanay",
@@ -15671,17 +15677,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 91,
-          "w": 5,
-          "o": 10
+          "r": 101,
+          "w": 6,
+          "o": 12.1
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 91,
-          "wickets": 5,
-          "overs": 10,
+          "runs": 101,
+          "wickets": 6,
+          "overs": 12.1,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -15703,11 +15709,11 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 27,
-              "balls": 16,
+              "runs": 29,
+              "balls": 20,
               "fours": 4,
               "sixes": 1,
-              "sr": 168.75,
+              "sr": 145,
               "dismissal": "batting"
             },
             {
@@ -15739,11 +15745,20 @@
             },
             {
               "name": "Krunal Pandya",
-              "runs": 0,
-              "balls": 2,
+              "runs": 4,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "c Jason Holder b Arshad Khan"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 3,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 42.86,
               "dismissal": "batting"
             }
           ],
@@ -15758,11 +15773,11 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 3,
+              "overs": 3.1,
               "maidens": 0,
               "runs": 32,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 10.11
             },
             {
               "name": "Jason Holder",
@@ -15774,19 +15789,19 @@
             },
             {
               "name": "Arshad Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
-              "wickets": 1,
-              "economy": 9
+              "runs": 15,
+              "wickets": 2,
+              "economy": 7.5
             },
             {
               "name": "Rashid Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 5,
               "wickets": 1,
-              "economy": 2
+              "economy": 2.5
             }
           ]
         }
@@ -15824,9 +15839,9 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 16,
-          "total": 41
+          "total": 61
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -15847,10 +15862,10 @@
           "total": 50
         },
         "Devdutt Padikkal": {
-          "batting": 38,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "total": 38
+          "total": 35
         },
         "Rajat Patidar": {
           "batting": 23,
@@ -15871,10 +15886,16 @@
           "total": 11
         },
         "Krunal Pandya": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 5
+        },
+        "Romario Shepherd": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         }
       },
       "isComplete": false
@@ -16307,8 +16328,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3033,
-      "top11Points": 2975,
+      "totalPointsAll": 3036,
+      "top11Points": 2978,
       "players": [
         {
           "name": "Shubman Gill",
@@ -16379,12 +16400,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 61,
+          "batting": 64,
           "bowling": 70,
           "fielding": 8,
-          "rawPoints": 139,
+          "rawPoints": 142,
           "multiplier": 1,
-          "effectivePoints": 139,
+          "effectivePoints": 142,
           "countsInTop11": true
         },
         {
@@ -16445,8 +16466,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3129,
-      "top11Points": 3129,
+      "totalPointsAll": 3126,
+      "top11Points": 3126,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16473,12 +16494,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 409,
+          "batting": 406,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 481,
+          "rawPoints": 478,
           "multiplier": 1,
-          "effectivePoints": 481,
+          "effectivePoints": 478,
           "countsInTop11": true
         },
         {
@@ -16572,8 +16593,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3321,
-      "top11Points": 3255,
+      "totalPointsAll": 3326,
+      "top11Points": 3260,
       "players": [
         {
           "name": "Axar Patel",
@@ -16622,12 +16643,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 53,
+          "batting": 58,
           "bowling": 252,
           "fielding": 8,
-          "rawPoints": 313,
+          "rawPoints": 318,
           "multiplier": 1,
-          "effectivePoints": 313,
+          "effectivePoints": 318,
           "countsInTop11": true
         },
         {
@@ -16732,8 +16753,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3522,
-      "top11Points": 3522,
+      "totalPointsAll": 3542,
+      "top11Points": 3542,
       "players": [
         {
           "name": "Jos Buttler",
@@ -16783,11 +16804,11 @@
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 36,
-          "bowling": 262,
+          "bowling": 282,
           "fielding": 24,
-          "rawPoints": 322,
+          "rawPoints": 342,
           "multiplier": 1,
-          "effectivePoints": 322,
+          "effectivePoints": 342,
           "countsInTop11": true
         },
         {
