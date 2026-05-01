@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T17:45:08.779Z",
+  "lastUpdated": "2026-05-01T17:54:54.139Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 201,
+        "r": 225,
         "w": 3,
-        "o": 17.2
+        "o": 19.1
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Jofra Archer": {
         "batting": 1,
-        "bowling": 15,
+        "bowling": 20,
         "fielding": 0,
-        "total": 16
+        "total": 21
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 50
       },
       "Tristan Stubbs": {
-        "batting": 4,
+        "batting": 26,
         "bowling": 0,
         "fielding": 8,
-        "total": 12
+        "total": 34
       },
       "Ashutosh Sharma": {
-        "batting": 20,
+        "batting": 29,
         "bowling": 0,
         "fielding": 16,
-        "total": 36
+        "total": 45
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4365,
-      "top11Points": 4385
+      "totalPointsAll": 4387,
+      "top11Points": 4407
     },
     {
       "team": "Tikoo",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3545,
-      "top11Points": 3509
+      "totalPointsAll": 3550,
+      "top11Points": 3514
     },
     {
       "team": "Manav",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2732,
-      "top11Points": 2688
+      "totalPointsAll": 2741,
+      "top11Points": 2697
     }
   ],
   "matchHistory": [
@@ -16098,9 +16098,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 201,
+          "r": 225,
           "w": 3,
-          "o": 17.2
+          "o": 19.1
         }
       ],
       "scorecard": [
@@ -16228,9 +16228,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 201,
+          "runs": 225,
           "wickets": 3,
-          "overs": 17.2,
+          "overs": 19.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -16261,31 +16261,31 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 4,
-              "balls": 5,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 80,
+              "runs": 18,
+              "balls": 11,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 163.64,
               "dismissal": "batting"
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 17,
-              "balls": 9,
+              "runs": 21,
+              "balls": 13,
               "fours": 3,
               "sixes": 0,
-              "sr": 188.89,
+              "sr": 161.54,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 37,
+              "runs": 46,
               "wickets": 1,
-              "economy": 12.33
+              "economy": 11.5
             },
             {
               "name": "Nandre Burger",
@@ -16297,11 +16297,11 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 38,
               "wickets": 1,
-              "economy": 8.1
+              "economy": 9.5
             },
             {
               "name": "Brijesh Sharma",
@@ -16363,9 +16363,9 @@
         },
         "Jofra Archer": {
           "batting": 1,
-          "bowling": 15,
+          "bowling": 20,
           "fielding": 0,
-          "total": 16
+          "total": 21
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -16392,16 +16392,16 @@
           "total": 50
         },
         "Tristan Stubbs": {
-          "batting": 4,
+          "batting": 26,
           "bowling": 0,
           "fielding": 8,
-          "total": 12
+          "total": 34
         },
         "Ashutosh Sharma": {
-          "batting": 20,
+          "batting": 29,
           "bowling": 0,
           "fielding": 16,
-          "total": 36
+          "total": 45
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -16582,8 +16582,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3545,
-      "top11Points": 3509,
+      "totalPointsAll": 3550,
+      "top11Points": 3514,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -16597,22 +16597,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 15,
+          "bowling": 410,
+          "fielding": 42,
+          "rawPoints": 467,
+          "multiplier": 1,
+          "effectivePoints": 467,
+          "countsInTop11": true
+        },
+        {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
           "batting": 446,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 462,
-          "multiplier": 1,
-          "effectivePoints": 462,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 15,
-          "bowling": 405,
-          "fielding": 42,
           "rawPoints": 462,
           "multiplier": 1,
           "effectivePoints": 462,
@@ -16720,8 +16720,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4365,
-      "top11Points": 4385,
+      "totalPointsAll": 4387,
+      "top11Points": 4407,
       "players": [
         {
           "name": "KL Rahul",
@@ -16759,12 +16759,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 262,
+          "batting": 284,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 302,
+          "rawPoints": 324,
           "multiplier": 1,
-          "effectivePoints": 302,
+          "effectivePoints": 324,
           "countsInTop11": true
         },
         {
@@ -17410,8 +17410,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2732,
-      "top11Points": 2688,
+      "totalPointsAll": 2741,
+      "top11Points": 2697,
       "players": [
         {
           "name": "Travis Head",
@@ -17493,12 +17493,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 70,
+          "batting": 79,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 86,
+          "rawPoints": 95,
           "multiplier": 1,
-          "effectivePoints": 86,
+          "effectivePoints": 95,
           "countsInTop11": true
         },
         {
