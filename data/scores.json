@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T15:14:59.714Z",
+  "lastUpdated": "2026-05-01T15:25:08.513Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 142,
-        "w": 3,
-        "o": 14.4
+        "r": 167,
+        "w": 4,
+        "o": 16.2
       }
     ],
     "playerScores": {
@@ -34,16 +34,16 @@
         "total": 48
       },
       "Riyan Parag": {
-        "batting": 98,
+        "batting": 128,
         "bowling": 0,
         "fielding": 0,
-        "total": 98
+        "total": 128
       },
       "Ravindra Jadeja": {
-        "batting": 7,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 23
       },
       "KL Rahul": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Ashutosh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -89,17 +89,17 @@
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": -10,
         "fielding": 0,
-        "total": -5
+        "total": -10
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4119,
-      "top11Points": 4139
+      "totalPointsAll": 4114,
+      "top11Points": 4134
     },
     {
       "team": "Tikoo",
@@ -108,8 +108,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3860,
-      "top11Points": 3860
+      "totalPointsAll": 3920,
+      "top11Points": 3920
     },
     {
       "team": "Aakash",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3315,
-      "top11Points": 3315
+      "totalPointsAll": 3347,
+      "top11Points": 3347
     },
     {
       "team": "Athu",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2696,
-      "top11Points": 2652
+      "totalPointsAll": 2704,
+      "top11Points": 2660
     }
   ],
   "matchHistory": [
@@ -16068,17 +16068,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 142,
-          "w": 3,
-          "o": 14.4
+          "r": 167,
+          "w": 4,
+          "o": 16.2
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 142,
-          "wickets": 3,
-          "overs": 14.4,
+          "runs": 167,
+          "wickets": 4,
+          "overs": 16.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -16109,39 +16109,48 @@
             },
             {
               "name": "Riyan Parag",
-              "runs": 69,
-              "balls": 41,
-              "fours": 4,
+              "runs": 90,
+              "balls": 49,
+              "fours": 8,
               "sixes": 5,
-              "sr": 168.29,
+              "sr": 183.67,
               "dismissal": "batting"
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 7,
-              "balls": 8,
+              "runs": 20,
+              "balls": 14,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 142.86,
+              "dismissal": "c Ashutosh Sharma b Mitchell Starc"
+            },
+            {
+              "name": "Donovan Ferreira",
+              "runs": 0,
+              "balls": 0,
               "fours": 0,
               "sixes": 0,
-              "sr": 87.5,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 1,
-              "economy": 8
+              "runs": 21,
+              "wickets": 2,
+              "economy": 9
             },
             {
               "name": "Kyle Jamieson",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 48,
               "wickets": 1,
-              "economy": 11
+              "economy": 12
             },
             {
               "name": "Axar Patel",
@@ -16161,11 +16170,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 20,
+              "runs": 37,
               "wickets": 0,
-              "economy": 10
+              "economy": 12.33
             }
           ]
         }
@@ -16190,16 +16199,16 @@
           "total": 48
         },
         "Riyan Parag": {
-          "batting": 98,
+          "batting": 128,
           "bowling": 0,
           "fielding": 0,
-          "total": 98
+          "total": 128
         },
         "Ravindra Jadeja": {
-          "batting": 7,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 23
         },
         "KL Rahul": {
           "batting": 0,
@@ -16234,8 +16243,8 @@
         "Ashutosh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -16245,9 +16254,9 @@
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": -10,
           "fielding": 0,
-          "total": -5
+          "total": -10
         }
       },
       "isComplete": false
@@ -16542,8 +16551,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4119,
-      "top11Points": 4139,
+      "totalPointsAll": 4114,
+      "top11Points": 4134,
       "players": [
         {
           "name": "KL Rahul",
@@ -16637,11 +16646,11 @@
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 90,
+          "bowling": 85,
           "fielding": 16,
-          "rawPoints": 107,
+          "rawPoints": 102,
           "multiplier": 1,
-          "effectivePoints": 107,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -16818,18 +16827,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3315,
-      "top11Points": 3315,
+      "totalPointsAll": 3347,
+      "top11Points": 3347,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 147,
+          "batting": 163,
           "bowling": 202,
           "fielding": 18,
-          "rawPoints": 367,
+          "rawPoints": 383,
           "multiplier": 2,
-          "effectivePoints": 734,
+          "effectivePoints": 766,
           "countsInTop11": true
         },
         {
@@ -17105,8 +17114,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3860,
-      "top11Points": 3860,
+      "totalPointsAll": 3920,
+      "top11Points": 3920,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17122,12 +17131,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 257,
+          "batting": 287,
           "bowling": 50,
           "fielding": 32,
-          "rawPoints": 339,
+          "rawPoints": 369,
           "multiplier": 2,
-          "effectivePoints": 678,
+          "effectivePoints": 738,
           "countsInTop11": true
         },
         {
@@ -17232,8 +17241,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2696,
-      "top11Points": 2652,
+      "totalPointsAll": 2704,
+      "top11Points": 2660,
       "players": [
         {
           "name": "Travis Head",
@@ -17339,10 +17348,10 @@
           "role": "Batsman",
           "batting": 50,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 50,
+          "fielding": 8,
+          "rawPoints": 58,
           "multiplier": 1,
-          "effectivePoints": 50,
+          "effectivePoints": 58,
           "countsInTop11": true
         },
         {
