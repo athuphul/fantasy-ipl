@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T16:04:56.740Z",
+  "lastUpdated": "2026-05-01T16:14:59.254Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 0,
+        "r": 23,
         "w": 0,
-        "o": 0.3
+        "o": 2.1
       }
     ],
     "playerScores": {
@@ -70,10 +70,10 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4139,
-      "top11Points": 4159
+      "totalPointsAll": 4159,
+      "top11Points": 4179
     },
     {
       "team": "Tikoo",
@@ -16098,9 +16098,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 0,
+          "r": 23,
           "w": 0,
-          "o": 0.3
+          "o": 2.1
         }
       ],
       "scorecard": [
@@ -16228,37 +16228,45 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 0,
+          "runs": 23,
           "wickets": 0,
-          "overs": 0.3,
+          "overs": 2.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 0,
-              "balls": 3,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "runs": 10,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 142.86,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 8,
+              "balls": 6,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 0.3,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 11,
               "wickets": 0,
-              "economy": 0
+              "economy": 9.43
+            },
+            {
+              "name": "Nandre Burger",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -16313,10 +16321,10 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -16653,18 +16661,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4139,
-      "top11Points": 4159,
+      "totalPointsAll": 4159,
+      "top11Points": 4179,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 532,
+          "batting": 542,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 558,
+          "rawPoints": 568,
           "multiplier": 2,
-          "effectivePoints": 1116,
+          "effectivePoints": 1136,
           "countsInTop11": true
         },
         {
