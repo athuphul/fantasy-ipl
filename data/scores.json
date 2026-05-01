@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T15:25:08.513Z",
+  "lastUpdated": "2026-05-01T15:35:11.975Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 167,
-        "w": 4,
-        "o": 16.2
+        "r": 194,
+        "w": 5,
+        "o": 18.1
       }
     ],
     "playerScores": {
@@ -72,8 +72,8 @@
       "Axar Patel": {
         "batting": 0,
         "bowling": 25,
-        "fielding": 0,
-        "total": 25
+        "fielding": 8,
+        "total": 33
       },
       "Ashutosh Sharma": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": -5,
         "fielding": 0,
-        "total": 12
+        "total": -5
       },
       "T Natarajan": {
         "batting": 0,
@@ -118,13 +118,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3440,
-      "top11Points": 3374
+      "totalPointsAll": 3456,
+      "top11Points": 3390
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3347,
-      "top11Points": 3347
+      "totalPointsAll": 3330,
+      "top11Points": 3330
     },
     {
       "team": "Athu",
@@ -16068,17 +16068,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 167,
-          "w": 4,
-          "o": 16.2
+          "r": 194,
+          "w": 5,
+          "o": 18.1
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 167,
-          "wickets": 4,
-          "overs": 16.2,
+          "runs": 194,
+          "wickets": 5,
+          "overs": 18.1,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -16110,11 +16110,11 @@
             {
               "name": "Riyan Parag",
               "runs": 90,
-              "balls": 49,
+              "balls": 50,
               "fours": 8,
               "sixes": 5,
-              "sr": 183.67,
-              "dismissal": "batting"
+              "sr": 180,
+              "dismissal": "c Axar Patel b Mitchell Starc"
             },
             {
               "name": "Ravindra Jadeja",
@@ -16127,21 +16127,30 @@
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 0,
-              "balls": 0,
+              "runs": 20,
+              "balls": 6,
               "fours": 0,
+              "sixes": 3,
+              "sr": 333.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubham Dubey",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 166.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 2,
+              "runs": 27,
+              "wickets": 3,
               "economy": 9
             },
             {
@@ -16162,11 +16171,11 @@
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 21,
+              "runs": 41,
               "wickets": 0,
-              "economy": 7
+              "economy": 10.25
             },
             {
               "name": "T Natarajan",
@@ -16237,8 +16246,8 @@
         "Axar Patel": {
           "batting": 0,
           "bowling": 25,
-          "fielding": 0,
-          "total": 25
+          "fielding": 8,
+          "total": 33
         },
         "Ashutosh Sharma": {
           "batting": 0,
@@ -16248,9 +16257,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": -5,
           "fielding": 0,
-          "total": 12
+          "total": -5
         },
         "T Natarajan": {
           "batting": 0,
@@ -16827,8 +16836,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3347,
-      "top11Points": 3347,
+      "totalPointsAll": 3330,
+      "top11Points": 3330,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -16897,17 +16906,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": -1,
-          "bowling": 157,
-          "fielding": 8,
-          "rawPoints": 164,
-          "multiplier": 1,
-          "effectivePoints": 164,
-          "countsInTop11": true
-        },
-        {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
           "batting": 75,
@@ -16916,6 +16914,17 @@
           "rawPoints": 109,
           "multiplier": 1.5,
           "effectivePoints": 164,
+          "countsInTop11": true
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": -1,
+          "bowling": 140,
+          "fielding": 8,
+          "rawPoints": 147,
+          "multiplier": 1,
+          "effectivePoints": 147,
           "countsInTop11": true
         },
         {
@@ -16954,18 +16963,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3440,
-      "top11Points": 3374,
+      "totalPointsAll": 3456,
+      "top11Points": 3390,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 24,
           "bowling": 245,
-          "fielding": 8,
-          "rawPoints": 277,
+          "fielding": 16,
+          "rawPoints": 285,
           "multiplier": 2,
-          "effectivePoints": 554,
+          "effectivePoints": 570,
           "countsInTop11": true
         },
         {
