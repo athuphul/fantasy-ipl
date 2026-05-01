@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T14:15:00.210Z",
+  "lastUpdated": "2026-05-01T14:24:54.166Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 17,
+        "r": 35,
         "w": 2,
-        "o": 2.2
+        "o": 4.4
       }
     ],
     "playerScores": {
@@ -28,16 +28,16 @@
         "total": 5
       },
       "Dhruv Jurel": {
-        "batting": 8,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 21
       },
       "Riyan Parag": {
-        "batting": 0,
+        "batting": -2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -2
       },
       "KL Rahul": {
         "batting": 0,
@@ -102,8 +102,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3664,
-      "top11Points": 3664
+      "totalPointsAll": 3660,
+      "top11Points": 3660
     },
     {
       "team": "Aakash",
@@ -111,14 +111,14 @@
       "top11Points": 3443
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 3363,
+      "top11Points": 3297
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 3289,
       "top11Points": 3289
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 3350,
-      "top11Points": 3284
     },
     {
       "team": "Athu",
@@ -16062,17 +16062,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 17,
+          "r": 35,
           "w": 2,
-          "o": 2.2
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 17,
+          "runs": 35,
           "wickets": 2,
-          "overs": 2.2,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -16094,39 +16094,47 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 7,
-              "balls": 8,
-              "fours": 1,
+              "runs": 18,
+              "balls": 13,
+              "fours": 3,
               "sixes": 0,
-              "sr": 87.5,
+              "sr": 138.46,
               "dismissal": "batting"
             },
             {
               "name": "Riyan Parag",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 7,
+              "balls": 10,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 70,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 1.2,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 16,
               "wickets": 1,
-              "economy": 9
+              "economy": 8
             },
             {
               "name": "Kyle Jamieson",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 13,
               "wickets": 1,
-              "economy": 5
+              "economy": 6.5
+            },
+            {
+              "name": "Axar Patel",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
@@ -16145,16 +16153,16 @@
           "total": 5
         },
         "Dhruv Jurel": {
-          "batting": 8,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 21
         },
         "Riyan Parag": {
-          "batting": 0,
+          "batting": -2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -2
         },
         "KL Rahul": {
           "batting": 0,
@@ -16900,8 +16908,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3350,
-      "top11Points": 3284,
+      "totalPointsAll": 3363,
+      "top11Points": 3297,
       "players": [
         {
           "name": "Axar Patel",
@@ -16917,12 +16925,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 336,
+          "batting": 349,
           "bowling": 0,
           "fielding": 134,
-          "rawPoints": 470,
+          "rawPoints": 483,
           "multiplier": 1,
-          "effectivePoints": 470,
+          "effectivePoints": 483,
           "countsInTop11": true
         },
         {
@@ -17060,8 +17068,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3664,
-      "top11Points": 3664,
+      "totalPointsAll": 3660,
+      "top11Points": 3660,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17099,12 +17107,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 159,
+          "batting": 157,
           "bowling": 50,
           "fielding": 32,
-          "rawPoints": 241,
+          "rawPoints": 239,
           "multiplier": 2,
-          "effectivePoints": 482,
+          "effectivePoints": 478,
           "countsInTop11": true
         },
         {
