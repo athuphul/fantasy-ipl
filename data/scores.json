@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T16:14:59.254Z",
+  "lastUpdated": "2026-05-01T16:24:55.314Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 23,
+        "r": 51,
         "w": 0,
-        "o": 2.1
+        "o": 4.1
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Jofra Archer": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 1
+        "total": -9
       },
       "Ravi Bishnoi": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 10,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 18
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4159,
-      "top11Points": 4179
+      "totalPointsAll": 4175,
+      "top11Points": 4195
     },
     {
       "team": "Tikoo",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3480,
-      "top11Points": 3444
+      "totalPointsAll": 3470,
+      "top11Points": 3434
     },
     {
       "team": "Manav",
@@ -16098,9 +16098,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 23,
+          "r": 51,
           "w": 0,
-          "o": 2.1
+          "o": 4.1
         }
       ],
       "scorecard": [
@@ -16228,45 +16228,45 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 23,
+          "runs": 51,
           "wickets": 0,
-          "overs": 2.1,
+          "overs": 4.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 10,
-              "balls": 7,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 142.86,
+              "runs": 33,
+              "balls": 14,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 235.71,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 8,
-              "balls": 6,
+              "runs": 14,
+              "balls": 9,
               "fours": 2,
-              "sixes": 0,
-              "sr": 133.33,
+              "sixes": 1,
+              "sr": 155.56,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 26,
               "wickets": 0,
-              "economy": 9.43
+              "economy": 13
             },
             {
               "name": "Nandre Burger",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 8,
+              "runs": 22,
               "wickets": 0,
-              "economy": 8
+              "economy": 12
             }
           ]
         }
@@ -16304,9 +16304,9 @@
         },
         "Jofra Archer": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 1
+          "total": -9
         },
         "Ravi Bishnoi": {
           "batting": 0,
@@ -16321,10 +16321,10 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 10,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 18
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -16523,8 +16523,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3480,
-      "top11Points": 3444,
+      "totalPointsAll": 3470,
+      "top11Points": 3434,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -16552,11 +16552,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 15,
-          "bowling": 390,
+          "bowling": 380,
           "fielding": 42,
-          "rawPoints": 447,
+          "rawPoints": 437,
           "multiplier": 1,
-          "effectivePoints": 447,
+          "effectivePoints": 437,
           "countsInTop11": true
         },
         {
@@ -16661,18 +16661,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4159,
-      "top11Points": 4179,
+      "totalPointsAll": 4175,
+      "top11Points": 4195,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 542,
+          "batting": 550,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 568,
+          "rawPoints": 576,
           "multiplier": 2,
-          "effectivePoints": 1136,
+          "effectivePoints": 1152,
           "countsInTop11": true
         },
         {
