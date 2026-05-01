@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T16:54:54.684Z",
+  "lastUpdated": "2026-05-01T17:05:17.690Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 113,
+        "r": 139,
         "w": 1,
-        "o": 10
+        "o": 12.1
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Ravindra Jadeja": {
         "batting": 23,
-        "bowling": 30,
+        "bowling": 20,
         "fielding": 0,
-        "total": 53
+        "total": 43
       },
       "Jofra Archer": {
         "batting": 1,
@@ -70,16 +70,16 @@
         "total": 0
       },
       "KL Rahul": {
-        "batting": 69,
+        "batting": 92,
         "bowling": 0,
         "fielding": 0,
-        "total": 69
+        "total": 92
       },
       "Nitish Rana": {
-        "batting": 2,
+        "batting": 35,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 35
       },
       "Sameer Rizvi": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4277,
-      "top11Points": 4297
+      "totalPointsAll": 4323,
+      "top11Points": 4343
     },
     {
       "team": "Tikoo",
@@ -137,18 +137,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3472,
-      "top11Points": 3436
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 3390,
-      "top11Points": 3390
+      "totalPointsAll": 3505,
+      "top11Points": 3469
     },
     {
       "team": "Manav",
       "totalPointsAll": 3456,
       "top11Points": 3390
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 3370,
+      "top11Points": 3370
     },
     {
       "team": "Ashwin",
@@ -16098,9 +16098,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 113,
+          "r": 139,
           "w": 1,
-          "o": 10
+          "o": 12.1
         }
       ],
       "scorecard": [
@@ -16228,9 +16228,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 113,
+          "runs": 139,
           "wickets": 1,
-          "overs": 10,
+          "overs": 12.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -16243,20 +16243,20 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 48,
-              "balls": 25,
+              "runs": 59,
+              "balls": 30,
               "fours": 5,
-              "sixes": 3,
-              "sr": 192,
+              "sixes": 4,
+              "sr": 196.67,
               "dismissal": "batting"
             },
             {
               "name": "Nitish Rana",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 21,
+              "balls": 11,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 190.91,
               "dismissal": "batting"
             }
           ],
@@ -16279,19 +16279,19 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 15,
               "wickets": 0,
-              "economy": 10
+              "economy": 11.25
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 18,
               "wickets": 0,
-              "economy": 11
+              "economy": 9
             },
             {
               "name": "Ravi Bishnoi",
@@ -16303,11 +16303,11 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
+              "runs": 33,
               "wickets": 1,
-              "economy": 7.5
+              "economy": 11
             }
           ]
         }
@@ -16339,9 +16339,9 @@
         },
         "Ravindra Jadeja": {
           "batting": 23,
-          "bowling": 30,
+          "bowling": 20,
           "fielding": 0,
-          "total": 53
+          "total": 43
         },
         "Jofra Archer": {
           "batting": 1,
@@ -16362,16 +16362,16 @@
           "total": 0
         },
         "KL Rahul": {
-          "batting": 69,
+          "batting": 92,
           "bowling": 0,
           "fielding": 0,
-          "total": 69
+          "total": 92
         },
         "Nitish Rana": {
-          "batting": 2,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 35
         },
         "Sameer Rizvi": {
           "batting": 0,
@@ -16564,8 +16564,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3472,
-      "top11Points": 3436,
+      "totalPointsAll": 3505,
+      "top11Points": 3469,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -16612,6 +16612,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nitish Rana",
+          "role": "Batsman",
+          "batting": 276,
+          "bowling": -10,
+          "fielding": 34,
+          "rawPoints": 300,
+          "multiplier": 1,
+          "effectivePoints": 300,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 270,
@@ -16620,17 +16631,6 @@
           "rawPoints": 286,
           "multiplier": 1,
           "effectivePoints": 286,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nitish Rana",
-          "role": "Batsman",
-          "batting": 243,
-          "bowling": -10,
-          "fielding": 34,
-          "rawPoints": 267,
-          "multiplier": 1,
-          "effectivePoints": 267,
           "countsInTop11": true
         },
         {
@@ -16702,18 +16702,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4277,
-      "top11Points": 4297,
+      "totalPointsAll": 4323,
+      "top11Points": 4343,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 601,
+          "batting": 624,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 627,
+          "rawPoints": 650,
           "multiplier": 2,
-          "effectivePoints": 1254,
+          "effectivePoints": 1300,
           "countsInTop11": true
         },
         {
@@ -16978,18 +16978,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3390,
-      "top11Points": 3390,
+      "totalPointsAll": 3370,
+      "top11Points": 3370,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
           "batting": 163,
-          "bowling": 232,
+          "bowling": 222,
           "fielding": 18,
-          "rawPoints": 413,
+          "rawPoints": 403,
           "multiplier": 2,
-          "effectivePoints": 826,
+          "effectivePoints": 806,
           "countsInTop11": true
         },
         {
