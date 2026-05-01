@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T15:35:11.975Z",
+  "lastUpdated": "2026-05-01T15:44:54.187Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529286",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 194,
-        "w": 5,
-        "o": 18.1
+        "r": 219,
+        "w": 6,
+        "o": 19.4
       }
     ],
     "playerScores": {
@@ -44,6 +44,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 23
+      },
+      "Jofra Archer": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "KL Rahul": {
         "batting": 0,
@@ -78,8 +84,8 @@
       "Ashutosh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -89,17 +95,17 @@
       },
       "T Natarajan": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": 15,
         "fielding": 0,
-        "total": -10
+        "total": 15
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4114,
-      "top11Points": 4134
+      "totalPointsAll": 4139,
+      "top11Points": 4159
     },
     {
       "team": "Tikoo",
@@ -113,8 +119,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3479,
-      "top11Points": 3443
+      "totalPointsAll": 3480,
+      "top11Points": 3444
     },
     {
       "team": "Manav",
@@ -138,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2704,
-      "top11Points": 2660
+      "totalPointsAll": 2712,
+      "top11Points": 2668
     }
   ],
   "matchHistory": [
@@ -16068,17 +16074,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 194,
-          "w": 5,
-          "o": 18.1
+          "r": 219,
+          "w": 6,
+          "o": 19.4
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 194,
-          "wickets": 5,
-          "overs": 18.1,
+          "runs": 219,
+          "wickets": 6,
+          "overs": 19.4,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -16127,31 +16133,40 @@
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 20,
-              "balls": 6,
-              "fours": 0,
-              "sixes": 3,
-              "sr": 333.33,
+              "runs": 41,
+              "balls": 12,
+              "fours": 2,
+              "sixes": 5,
+              "sr": 341.67,
               "dismissal": "batting"
             },
             {
               "name": "Shubham Dubey",
-              "runs": 5,
-              "balls": 3,
+              "runs": 6,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 166.67,
+              "sr": 100,
+              "dismissal": "c Ashutosh Sharma b T Natarajan"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 40,
               "wickets": 3,
-              "economy": 9
+              "economy": 10
             },
             {
               "name": "Kyle Jamieson",
@@ -16179,11 +16194,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 37,
-              "wickets": 0,
-              "economy": 12.33
+              "runs": 49,
+              "wickets": 1,
+              "economy": 13.36
             }
           ]
         }
@@ -16219,6 +16234,12 @@
           "fielding": 0,
           "total": 23
         },
+        "Jofra Archer": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
         "KL Rahul": {
           "batting": 0,
           "bowling": 0,
@@ -16252,8 +16273,8 @@
         "Ashutosh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -16263,9 +16284,9 @@
         },
         "T Natarajan": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": 15,
           "fielding": 0,
-          "total": -10
+          "total": 15
         }
       },
       "isComplete": false
@@ -16422,8 +16443,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3479,
-      "top11Points": 3443,
+      "totalPointsAll": 3480,
+      "top11Points": 3444,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -16450,12 +16471,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 14,
+          "batting": 15,
           "bowling": 390,
           "fielding": 42,
-          "rawPoints": 446,
+          "rawPoints": 447,
           "multiplier": 1,
-          "effectivePoints": 446,
+          "effectivePoints": 447,
           "countsInTop11": true
         },
         {
@@ -16560,8 +16581,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4114,
-      "top11Points": 4134,
+      "totalPointsAll": 4139,
+      "top11Points": 4159,
       "players": [
         {
           "name": "KL Rahul",
@@ -16641,6 +16662,17 @@
           "countsInTop11": true
         },
         {
+          "name": "T Natarajan",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 110,
+          "fielding": 16,
+          "rawPoints": 127,
+          "multiplier": 1,
+          "effectivePoints": 127,
+          "countsInTop11": true
+        },
+        {
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
@@ -16649,17 +16681,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": true
-        },
-        {
-          "name": "T Natarajan",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 85,
-          "fielding": 16,
-          "rawPoints": 102,
-          "multiplier": 1,
-          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -17250,8 +17271,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2704,
-      "top11Points": 2660,
+      "totalPointsAll": 2712,
+      "top11Points": 2668,
       "players": [
         {
           "name": "Travis Head",
@@ -17331,6 +17352,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 50,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 66,
+          "multiplier": 1,
+          "effectivePoints": 66,
+          "countsInTop11": true
+        },
+        {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
           "batting": 64,
@@ -17350,17 +17382,6 @@
           "rawPoints": 59,
           "multiplier": 1,
           "effectivePoints": 59,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 50,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 58,
-          "multiplier": 1,
-          "effectivePoints": 58,
           "countsInTop11": true
         },
         {
