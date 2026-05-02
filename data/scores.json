@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T16:25:13.342Z",
+  "lastUpdated": "2026-05-02T16:34:54.961Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 32,
+        "r": 55,
         "w": 1,
-        "o": 3.1
+        "o": 5
       },
       {
         "inning": "Mumbai Indians",
@@ -28,10 +28,10 @@
         "total": 13
       },
       "Ruturaj Gaikwad": {
-        "batting": 22,
+        "batting": 33,
         "bowling": 0,
         "fielding": 8,
-        "total": 30
+        "total": 41
       },
       "Dewald Brevis": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 37,
         "fielding": 0,
-        "total": 25
+        "total": 37
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -114,8 +114,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3946,
-      "top11Points": 3946
+      "totalPointsAll": 3958,
+      "top11Points": 3958
     },
     {
       "team": "Aakash",
@@ -124,8 +124,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3509,
-      "top11Points": 3443
+      "totalPointsAll": 3526,
+      "top11Points": 3460
     },
     {
       "team": "Kishan",
@@ -16421,9 +16421,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 32,
+          "r": 55,
           "w": 1,
-          "o": 3.1
+          "o": 5
         },
         {
           "inning": "Mumbai Indians",
@@ -16574,9 +16574,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 32,
+          "runs": 55,
           "wickets": 1,
-          "overs": 3.1,
+          "overs": 5,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -16589,20 +16589,20 @@
             },
             {
               "name": "Ruturaj Gaikwad",
+              "runs": 19,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 190,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Urvil Patel",
               "runs": 18,
               "balls": 9,
               "fours": 2,
               "sixes": 1,
               "sr": 200,
-              "dismissal": "batting"
-            },
-            {
-              "name": "Urvil Patel",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -16617,11 +16617,19 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 13,
               "wickets": 1,
-              "economy": 6
+              "economy": 6.5
+            },
+            {
+              "name": "Krish Bhagat",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 18
             }
           ]
         }
@@ -16634,10 +16642,10 @@
           "total": 13
         },
         "Ruturaj Gaikwad": {
-          "batting": 22,
+          "batting": 33,
           "bowling": 0,
           "fielding": 8,
-          "total": 30
+          "total": 41
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -16695,9 +16703,9 @@
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 37,
           "fielding": 0,
-          "total": 25
+          "total": 37
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -17401,8 +17409,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3509,
-      "top11Points": 3443,
+      "totalPointsAll": 3526,
+      "top11Points": 3460,
       "players": [
         {
           "name": "Axar Patel",
@@ -17440,12 +17448,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 229,
+          "batting": 240,
           "bowling": 0,
           "fielding": 37,
-          "rawPoints": 266,
+          "rawPoints": 277,
           "multiplier": 1.5,
-          "effectivePoints": 399,
+          "effectivePoints": 416,
           "countsInTop11": true
         },
         {
@@ -17561,8 +17569,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3946,
-      "top11Points": 3946,
+      "totalPointsAll": 3958,
+      "top11Points": 3958,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17642,6 +17650,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 8,
+          "bowling": 112,
+          "fielding": 18,
+          "rawPoints": 138,
+          "multiplier": 1,
+          "effectivePoints": 138,
+          "countsInTop11": true
+        },
+        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -17650,17 +17669,6 @@
           "rawPoints": 129,
           "multiplier": 1,
           "effectivePoints": 129,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
-          "batting": 8,
-          "bowling": 100,
-          "fielding": 18,
-          "rawPoints": 126,
-          "multiplier": 1,
-          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
