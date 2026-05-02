@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T14:04:56.735Z",
+  "lastUpdated": "2026-05-02T14:14:55.099Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 1,
-        "w": 0,
-        "o": 0.4
+        "r": 17,
+        "w": 1,
+        "o": 2.3
       }
     ],
     "playerScores": {
@@ -16379,45 +16379,62 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 1,
-          "w": 0,
-          "o": 0.4
+          "r": 17,
+          "w": 1,
+          "o": 2.3
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 1,
-          "wickets": 0,
-          "overs": 0.4,
+          "runs": 17,
+          "wickets": 1,
+          "overs": 2.3,
           "batting": [
             {
               "name": "Will Jacks",
               "runs": 1,
-              "balls": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
-              "dismissal": "batting"
+              "sr": 20,
+              "dismissal": "c Ramakrishna Ghosh b Anshul Kamboj"
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 0,
-              "balls": 1,
+              "runs": 12,
+              "balls": 7,
               "fours": 0,
+              "sixes": 2,
+              "sr": 171.43,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 4,
+              "balls": 4,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 0.4,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 1,
+              "runs": 13,
               "wickets": 0,
-              "economy": 1.5
+              "economy": 7.8
+            },
+            {
+              "name": "Anshul Kamboj",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 1,
+              "economy": 4
             }
           ]
         }
