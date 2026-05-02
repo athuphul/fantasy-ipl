@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T16:14:53.255Z",
+  "lastUpdated": "2026-05-02T16:25:13.342Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 7,
-        "w": 0,
-        "o": 1.1
+        "r": 32,
+        "w": 1,
+        "o": 3.1
       },
       {
         "inning": "Mumbai Indians",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 7,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 13
       },
       "Ruturaj Gaikwad": {
-        "batting": 1,
+        "batting": 22,
         "bowling": 0,
         "fielding": 8,
-        "total": 9
+        "total": 30
       },
       "Dewald Brevis": {
         "batting": 0,
@@ -83,15 +83,15 @@
       },
       "Trent Boult": {
         "batting": 9,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 9
+        "total": -1
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -109,13 +109,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4344,
-      "top11Points": 4063
+      "totalPointsAll": 4356,
+      "top11Points": 4075
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3921,
-      "top11Points": 3921
+      "totalPointsAll": 3946,
+      "top11Points": 3946
     },
     {
       "team": "Aakash",
@@ -124,8 +124,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3478,
-      "top11Points": 3412
+      "totalPointsAll": 3509,
+      "top11Points": 3443
     },
     {
       "team": "Kishan",
@@ -144,7 +144,7 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2755,
+      "totalPointsAll": 2745,
       "top11Points": 2702
     }
   ],
@@ -16421,9 +16421,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 7,
-          "w": 0,
-          "o": 1.1
+          "r": 32,
+          "w": 1,
+          "o": 3.1
         },
         {
           "inning": "Mumbai Indians",
@@ -16574,61 +16574,70 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 7,
-          "wickets": 0,
-          "overs": 1.1,
+          "runs": 32,
+          "wickets": 1,
+          "overs": 3.1,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 6,
-              "balls": 5,
-              "fours": 1,
+              "runs": 11,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 120,
-              "dismissal": "batting"
+              "sr": 122.22,
+              "dismissal": "c Ryan Rickelton b Jasprit Bumrah"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 1,
-              "balls": 2,
+              "runs": 18,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Urvil Patel",
+              "runs": 0,
+              "balls": 0,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Trent Boult",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 24,
               "wickets": 0,
-              "economy": 7
+              "economy": 12
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
-              "wickets": 0,
-              "economy": 0
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 7,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 13
         },
         "Ruturaj Gaikwad": {
-          "batting": 1,
+          "batting": 22,
           "bowling": 0,
           "fielding": 8,
-          "total": 9
+          "total": 30
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -16680,15 +16689,15 @@
         },
         "Trent Boult": {
           "batting": 9,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 9
+          "total": -1
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -17392,8 +17401,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3478,
-      "top11Points": 3412,
+      "totalPointsAll": 3509,
+      "top11Points": 3443,
       "players": [
         {
           "name": "Axar Patel",
@@ -17431,12 +17440,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 208,
+          "batting": 229,
           "bowling": 0,
           "fielding": 37,
-          "rawPoints": 245,
+          "rawPoints": 266,
           "multiplier": 1.5,
-          "effectivePoints": 368,
+          "effectivePoints": 399,
           "countsInTop11": true
         },
         {
@@ -17552,8 +17561,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3921,
-      "top11Points": 3921,
+      "totalPointsAll": 3946,
+      "top11Points": 3946,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17647,11 +17656,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 75,
+          "bowling": 100,
           "fielding": 18,
-          "rawPoints": 101,
+          "rawPoints": 126,
           "multiplier": 1,
-          "effectivePoints": 101,
+          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
@@ -17679,7 +17688,7 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2755,
+      "totalPointsAll": 2745,
       "top11Points": 2702,
       "players": [
         {
@@ -17796,11 +17805,11 @@
           "name": "Trent Boult",
           "role": "Fast Bowler",
           "batting": 10,
-          "bowling": 35,
+          "bowling": 25,
           "fielding": 8,
-          "rawPoints": 53,
+          "rawPoints": 43,
           "multiplier": 1,
-          "effectivePoints": 53,
+          "effectivePoints": 43,
           "countsInTop11": false
         },
         {
@@ -17817,18 +17826,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4344,
-      "top11Points": 4063,
+      "totalPointsAll": 4356,
+      "top11Points": 4075,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 474,
+          "batting": 480,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 508,
+          "rawPoints": 514,
           "multiplier": 2,
-          "effectivePoints": 1016,
+          "effectivePoints": 1028,
           "countsInTop11": true
         },
         {
