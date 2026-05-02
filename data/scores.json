@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T16:34:54.961Z",
+  "lastUpdated": "2026-05-02T16:44:53.452Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 55,
-        "w": 1,
-        "o": 5
+        "r": 70,
+        "w": 2,
+        "o": 7.1
       },
       {
         "inning": "Mumbai Indians",
@@ -28,10 +28,16 @@
         "total": 13
       },
       "Ruturaj Gaikwad": {
-        "batting": 33,
+        "batting": 44,
         "bowling": 0,
         "fielding": 8,
-        "total": 41
+        "total": 52
+      },
+      "Kartik Sharma": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Dewald Brevis": {
         "batting": 0,
@@ -124,8 +130,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3526,
-      "top11Points": 3460
+      "totalPointsAll": 3542,
+      "top11Points": 3476
     },
     {
       "team": "Kishan",
@@ -144,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2745,
-      "top11Points": 2702
+      "totalPointsAll": 2751,
+      "top11Points": 2708
     }
   ],
   "matchHistory": [
@@ -16421,9 +16427,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 55,
-          "w": 1,
-          "o": 5
+          "r": 70,
+          "w": 2,
+          "o": 7.1
         },
         {
           "inning": "Mumbai Indians",
@@ -16574,9 +16580,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 55,
-          "wickets": 1,
-          "overs": 5,
+          "runs": 70,
+          "wickets": 2,
+          "overs": 7.1,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -16589,20 +16595,29 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 19,
-              "balls": 10,
+              "runs": 28,
+              "balls": 15,
               "fours": 2,
-              "sixes": 1,
-              "sr": 190,
+              "sixes": 2,
+              "sr": 186.67,
               "dismissal": "batting"
             },
             {
               "name": "Urvil Patel",
-              "runs": 18,
-              "balls": 9,
+              "runs": 24,
+              "balls": 12,
               "fours": 2,
-              "sixes": 1,
+              "sixes": 2,
               "sr": 200,
+              "dismissal": "b AM Ghazanfar"
+            },
+            {
+              "name": "Kartik Sharma",
+              "runs": 5,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 83.33,
               "dismissal": "batting"
             }
           ],
@@ -16625,11 +16640,27 @@
             },
             {
               "name": "Krish Bhagat",
-              "overs": 0.4,
+              "overs": 1,
               "maidens": 0,
-              "runs": 12,
+              "runs": 18,
               "wickets": 0,
               "economy": 18
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
+            },
+            {
+              "name": "Raghu Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
             }
           ]
         }
@@ -16642,10 +16673,16 @@
           "total": 13
         },
         "Ruturaj Gaikwad": {
-          "batting": 33,
+          "batting": 44,
           "bowling": 0,
           "fielding": 8,
-          "total": 41
+          "total": 52
+        },
+        "Kartik Sharma": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -17409,8 +17446,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3526,
-      "top11Points": 3460,
+      "totalPointsAll": 3542,
+      "top11Points": 3476,
       "players": [
         {
           "name": "Axar Patel",
@@ -17448,12 +17485,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 240,
+          "batting": 251,
           "bowling": 0,
           "fielding": 37,
-          "rawPoints": 277,
+          "rawPoints": 288,
           "multiplier": 1.5,
-          "effectivePoints": 416,
+          "effectivePoints": 432,
           "countsInTop11": true
         },
         {
@@ -17696,8 +17733,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2745,
-      "top11Points": 2702,
+      "totalPointsAll": 2751,
+      "top11Points": 2708,
       "players": [
         {
           "name": "Travis Head",
@@ -17790,12 +17827,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 64,
+          "batting": 70,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 64,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 64,
+          "effectivePoints": 70,
           "countsInTop11": true
         },
         {
