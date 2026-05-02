@@ -1,7 +1,64 @@
 {
-  "lastUpdated": "2026-05-01T18:24:52.268Z",
+  "lastUpdated": "2026-05-02T14:04:56.735Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529287",
+    "name": "Chennai Super Kings v Mumbai Indians",
+    "status": "Live",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "score": [
+      {
+        "inning": "Mumbai Indians",
+        "r": 1,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Sanju Samson": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dewald Brevis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shivam Dube": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prashant Veer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Will Jacks": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -15,8 +72,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3920,
-      "top11Points": 3920
+      "totalPointsAll": 3921,
+      "top11Points": 3921
     },
     {
       "team": "Aakash",
@@ -16312,6 +16369,104 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529287",
+      "name": "Chennai Super Kings v Mumbai Indians",
+      "date": "2026-05-02",
+      "status": "Live",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "score": [
+        {
+          "inning": "Mumbai Indians",
+          "r": 1,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Mumbai Indians",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Will Jacks",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ryan Rickelton",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mukesh Choudhary",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 1.5
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sanju Samson": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dewald Brevis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shivam Dube": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prashant Veer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Will Jacks": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -17166,8 +17321,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3920,
-      "top11Points": 3920,
+      "totalPointsAll": 3921,
+      "top11Points": 3921,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17271,12 +17426,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 72,
+          "batting": 73,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 80,
+          "rawPoints": 81,
           "multiplier": 1,
-          "effectivePoints": 80,
+          "effectivePoints": 81,
           "countsInTop11": true
         },
         {
