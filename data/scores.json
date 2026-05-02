@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T15:44:57.385Z",
+  "lastUpdated": "2026-05-02T15:54:54.160Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 143,
-        "w": 6,
-        "o": 18.2
+        "r": 159,
+        "w": 7,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Shivam Dube": {
         "batting": 0,
@@ -70,10 +70,16 @@
         "total": 5
       },
       "Hardik Pandya": {
-        "batting": 2,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 15
+      },
+      "Trent Boult": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -116,17 +122,17 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3256,
-      "top11Points": 3266
+      "totalPointsAll": 3269,
+      "top11Points": 3279
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3288,
-      "top11Points": 3240
+      "totalPointsAll": 3296,
+      "top11Points": 3248
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2746,
+      "totalPointsAll": 2755,
       "top11Points": 2702
     }
   ],
@@ -16403,17 +16409,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 143,
-          "w": 6,
-          "o": 18.2
+          "r": 159,
+          "w": 7,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 143,
-          "wickets": 6,
-          "overs": 18.2,
+          "runs": 159,
+          "wickets": 7,
+          "overs": 20,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16462,12 +16468,12 @@
             },
             {
               "name": "Hardik Pandya",
-              "runs": 11,
-              "balls": 16,
-              "fours": 1,
+              "runs": 18,
+              "balls": 23,
+              "fours": 2,
               "sixes": 0,
-              "sr": 68.75,
-              "dismissal": "batting"
+              "sr": 78.26,
+              "dismissal": "c Dewald Brevis b Anshul Kamboj"
             },
             {
               "name": "Robin Minz",
@@ -16480,11 +16486,20 @@
             },
             {
               "name": "Krish Bhagat",
-              "runs": 2,
-              "balls": 3,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 60,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Trent Boult",
+              "runs": 7,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 350,
               "dismissal": "batting"
             }
           ],
@@ -16499,11 +16514,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 2,
-              "economy": 6.67
+              "runs": 32,
+              "wickets": 3,
+              "economy": 8.35
             },
             {
               "name": "Prashant Veer",
@@ -16531,11 +16546,11 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
+              "runs": 23,
               "wickets": 1,
-              "economy": 6.33
+              "economy": 5.75
             }
           ]
         }
@@ -16556,8 +16571,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Shivam Dube": {
           "batting": 0,
@@ -16596,10 +16611,16 @@
           "total": 5
         },
         "Hardik Pandya": {
-          "batting": 2,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 15
+        },
+        "Trent Boult": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -16613,8 +16634,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3256,
-      "top11Points": 3266,
+      "totalPointsAll": 3269,
+      "top11Points": 3279,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -16674,12 +16695,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 177,
+          "batting": 190,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 253,
+          "rawPoints": 266,
           "multiplier": 1,
-          "effectivePoints": 253,
+          "effectivePoints": 266,
           "countsInTop11": true
         },
         {
@@ -17038,8 +17059,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3288,
-      "top11Points": 3240,
+      "totalPointsAll": 3296,
+      "top11Points": 3248,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17112,10 +17133,10 @@
           "role": "Batsman",
           "batting": 82,
           "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 154,
+          "fielding": 80,
+          "rawPoints": 162,
           "multiplier": 1,
-          "effectivePoints": 154,
+          "effectivePoints": 162,
           "countsInTop11": true
         },
         {
@@ -17590,7 +17611,7 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2746,
+      "totalPointsAll": 2755,
       "top11Points": 2702,
       "players": [
         {
@@ -17706,12 +17727,12 @@
         {
           "name": "Trent Boult",
           "role": "Fast Bowler",
-          "batting": 1,
+          "batting": 10,
           "bowling": 35,
           "fielding": 8,
-          "rawPoints": 44,
+          "rawPoints": 53,
           "multiplier": 1,
-          "effectivePoints": 44,
+          "effectivePoints": 53,
           "countsInTop11": false
         },
         {
