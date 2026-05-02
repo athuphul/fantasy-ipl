@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T14:35:00.933Z",
+  "lastUpdated": "2026-05-02T14:45:20.346Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 59,
+        "r": 76,
         "w": 2,
-        "o": 6.4
+        "o": 8.5
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Prashant Veer": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -58,10 +58,10 @@
         "total": 1
       },
       "Suryakumar Yadav": {
-        "batting": 5,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 12
       }
     }
   },
@@ -98,13 +98,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3290,
+      "totalPointsAll": 3280,
       "top11Points": 3232
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3192,
-      "top11Points": 3202
+      "totalPointsAll": 3206,
+      "top11Points": 3216
     },
     {
       "team": "Tanay",
@@ -16385,17 +16385,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 59,
+          "r": 76,
           "w": 2,
-          "o": 6.4
+          "o": 8.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 59,
+          "runs": 76,
           "wickets": 2,
-          "overs": 6.4,
+          "overs": 8.5,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16417,20 +16417,20 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 20,
-              "balls": 11,
-              "fours": 1,
+              "runs": 27,
+              "balls": 16,
+              "fours": 2,
               "sixes": 2,
-              "sr": 181.82,
+              "sr": 168.75,
               "dismissal": "batting"
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 4,
-              "balls": 1,
-              "fours": 1,
+              "runs": 10,
+              "balls": 8,
+              "fours": 2,
               "sixes": 0,
-              "sr": 400,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
@@ -16453,18 +16453,26 @@
             },
             {
               "name": "Prashant Veer",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 25,
               "wickets": 0,
-              "economy": 18
+              "economy": 12.5
             },
             {
               "name": "Noor Ahmad",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 6,
               "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "Ramakrishna Ghosh",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
               "economy": 7.2
             }
           ]
@@ -16497,9 +16505,9 @@
         },
         "Prashant Veer": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -16514,10 +16522,10 @@
           "total": 1
         },
         "Suryakumar Yadav": {
-          "batting": 5,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 12
         }
       },
       "isComplete": false
@@ -16525,8 +16533,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3192,
-      "top11Points": 3202,
+      "totalPointsAll": 3206,
+      "top11Points": 3216,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -16542,12 +16550,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 208,
+          "batting": 215,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 224,
+          "rawPoints": 231,
           "multiplier": 2,
-          "effectivePoints": 448,
+          "effectivePoints": 462,
           "countsInTop11": true
         },
         {
@@ -16950,7 +16958,7 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3290,
+      "totalPointsAll": 3280,
       "top11Points": 3232,
       "players": [
         {
@@ -17067,11 +17075,11 @@
           "name": "Prashant Veer",
           "role": "All-Rounder",
           "batting": 58,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "rawPoints": 58,
+          "rawPoints": 48,
           "multiplier": 1,
-          "effectivePoints": 58,
+          "effectivePoints": 48,
           "countsInTop11": false
         },
         {
