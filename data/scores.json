@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T14:25:08.747Z",
+  "lastUpdated": "2026-05-02T14:35:00.933Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 41,
-        "w": 1,
-        "o": 4.5
+        "r": 59,
+        "w": 2,
+        "o": 6.4
       }
     ],
     "playerScores": {
@@ -47,15 +47,21 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Will Jacks": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
         "total": 1
+      },
+      "Suryakumar Yadav": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       }
     }
   },
@@ -67,8 +73,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4260,
-      "top11Points": 3979
+      "totalPointsAll": 4285,
+      "top11Points": 4004
     },
     {
       "team": "Ritik",
@@ -97,8 +103,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3182,
-      "top11Points": 3192
+      "totalPointsAll": 3192,
+      "top11Points": 3202
     },
     {
       "team": "Tanay",
@@ -16379,17 +16385,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 41,
-          "w": 1,
-          "o": 4.5
+          "r": 59,
+          "w": 2,
+          "o": 6.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 41,
-          "wickets": 1,
-          "overs": 4.5,
+          "runs": 59,
+          "wickets": 2,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16402,31 +16408,40 @@
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 21,
-              "balls": 15,
+              "runs": 37,
+              "balls": 24,
               "fours": 0,
-              "sixes": 3,
-              "sr": 140,
-              "dismissal": "batting"
+              "sixes": 5,
+              "sr": 154.17,
+              "dismissal": "c Urvil Patel b Noor Ahmad"
             },
             {
               "name": "Naman Dhir",
-              "runs": 13,
-              "balls": 7,
+              "runs": 20,
+              "balls": 11,
               "fours": 1,
-              "sixes": 1,
-              "sr": 185.71,
+              "sixes": 2,
+              "sr": 181.82,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 25,
               "wickets": 0,
-              "economy": 8
+              "economy": 8.33
             },
             {
               "name": "Anshul Kamboj",
@@ -16438,11 +16453,19 @@
             },
             {
               "name": "Prashant Veer",
-              "overs": 0.3,
+              "overs": 1,
+              "maidens": 0,
+              "runs": 18,
+              "wickets": 0,
+              "economy": 18
+            },
+            {
+              "name": "Noor Ahmad",
+              "overs": 0.5,
               "maidens": 0,
               "runs": 6,
-              "wickets": 0,
-              "economy": 12
+              "wickets": 1,
+              "economy": 7.2
             }
           ]
         }
@@ -16480,15 +16503,21 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Will Jacks": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
           "total": 1
+        },
+        "Suryakumar Yadav": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         }
       },
       "isComplete": false
@@ -16496,8 +16525,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3182,
-      "top11Points": 3192,
+      "totalPointsAll": 3192,
+      "top11Points": 3202,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -16513,12 +16542,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 203,
+          "batting": 208,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 219,
+          "rawPoints": 224,
           "multiplier": 2,
-          "effectivePoints": 438,
+          "effectivePoints": 448,
           "countsInTop11": true
         },
         {
@@ -17611,8 +17640,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4260,
-      "top11Points": 3979,
+      "totalPointsAll": 4285,
+      "top11Points": 4004,
       "players": [
         {
           "name": "Sanju Samson",
@@ -17673,11 +17702,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 200,
+          "bowling": 225,
           "fielding": 32,
-          "rawPoints": 244,
+          "rawPoints": 269,
           "multiplier": 1,
-          "effectivePoints": 244,
+          "effectivePoints": 269,
           "countsInTop11": true
         },
         {
