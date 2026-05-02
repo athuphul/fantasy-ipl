@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T14:54:54.479Z",
+  "lastUpdated": "2026-05-02T15:04:53.123Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 98,
-        "w": 2,
-        "o": 10.2
+        "r": 106,
+        "w": 3,
+        "o": 12
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Shivam Dube": {
         "batting": 0,
@@ -62,6 +62,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 36
+      },
+      "Tilak Varma": {
+        "batting": 4,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 4
       }
     }
   },
@@ -83,8 +89,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3550,
-      "top11Points": 3514
+      "totalPointsAll": 3554,
+      "top11Points": 3518
     },
     {
       "team": "Manav",
@@ -103,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3280,
-      "top11Points": 3232
+      "totalPointsAll": 3288,
+      "top11Points": 3240
     },
     {
       "team": "Tanay",
@@ -16385,17 +16391,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 98,
-          "w": 2,
-          "o": 10.2
+          "r": 106,
+          "w": 3,
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 98,
-          "wickets": 2,
-          "overs": 10.2,
+          "runs": 106,
+          "wickets": 3,
+          "overs": 12,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16417,20 +16423,29 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 34,
-              "balls": 21,
-              "fours": 3,
+              "runs": 42,
+              "balls": 25,
+              "fours": 4,
               "sixes": 2,
-              "sr": 161.9,
+              "sr": 168,
               "dismissal": "batting"
             },
             {
               "name": "Suryakumar Yadav",
               "runs": 21,
-              "balls": 11,
+              "balls": 12,
               "fours": 3,
               "sixes": 1,
-              "sr": 190.91,
+              "sr": 175,
+              "dismissal": "c Dewald Brevis b Ramakrishna Ghosh"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 4,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 80,
               "dismissal": "batting"
             }
           ],
@@ -16469,11 +16484,19 @@
             },
             {
               "name": "Ramakrishna Ghosh",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 17,
+              "wickets": 1,
+              "economy": 8.5
+            },
+            {
+              "name": "Jamie Overton",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 6,
               "wickets": 0,
-              "economy": 9.43
+              "economy": 7.2
             }
           ]
         }
@@ -16494,8 +16517,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Shivam Dube": {
           "batting": 0,
@@ -16526,6 +16549,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 36
+        },
+        "Tilak Varma": {
+          "batting": 4,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 4
         }
       },
       "isComplete": false
@@ -16682,8 +16711,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3550,
-      "top11Points": 3514,
+      "totalPointsAll": 3554,
+      "top11Points": 3518,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -16721,12 +16750,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 275,
+          "batting": 279,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 331,
+          "rawPoints": 335,
           "multiplier": 1,
-          "effectivePoints": 331,
+          "effectivePoints": 335,
           "countsInTop11": true
         },
         {
@@ -16958,8 +16987,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3280,
-      "top11Points": 3232,
+      "totalPointsAll": 3288,
+      "top11Points": 3240,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17032,10 +17061,10 @@
           "role": "Batsman",
           "batting": 82,
           "bowling": 0,
-          "fielding": 64,
-          "rawPoints": 146,
+          "fielding": 72,
+          "rawPoints": 154,
           "multiplier": 1,
-          "effectivePoints": 146,
+          "effectivePoints": 154,
           "countsInTop11": true
         },
         {
