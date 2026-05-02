@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T14:45:20.346Z",
+  "lastUpdated": "2026-05-02T14:54:54.479Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 76,
+        "r": 98,
         "w": 2,
-        "o": 8.5
+        "o": 10.2
       }
     ],
     "playerScores": {
@@ -58,10 +58,10 @@
         "total": 1
       },
       "Suryakumar Yadav": {
-        "batting": 12,
+        "batting": 36,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 36
       }
     }
   },
@@ -97,14 +97,14 @@
       "top11Points": 3370
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 3254,
+      "top11Points": 3264
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 3280,
       "top11Points": 3232
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 3206,
-      "top11Points": 3216
     },
     {
       "team": "Tanay",
@@ -16385,17 +16385,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 76,
+          "r": 98,
           "w": 2,
-          "o": 8.5
+          "o": 10.2
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 76,
+          "runs": 98,
           "wickets": 2,
-          "overs": 8.5,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16417,20 +16417,20 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 27,
-              "balls": 16,
-              "fours": 2,
+              "runs": 34,
+              "balls": 21,
+              "fours": 3,
               "sixes": 2,
-              "sr": 168.75,
+              "sr": 161.9,
               "dismissal": "batting"
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 10,
-              "balls": 8,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 125,
+              "runs": 21,
+              "balls": 11,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 190.91,
               "dismissal": "batting"
             }
           ],
@@ -16461,19 +16461,19 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 19,
               "wickets": 1,
-              "economy": 6
+              "economy": 9.5
             },
             {
               "name": "Ramakrishna Ghosh",
-              "overs": 0.5,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 11,
               "wickets": 0,
-              "economy": 7.2
+              "economy": 9.43
             }
           ]
         }
@@ -16522,10 +16522,10 @@
           "total": 1
         },
         "Suryakumar Yadav": {
-          "batting": 12,
+          "batting": 36,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 36
         }
       },
       "isComplete": false
@@ -16533,8 +16533,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3206,
-      "top11Points": 3216,
+      "totalPointsAll": 3254,
+      "top11Points": 3264,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -16550,12 +16550,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 215,
+          "batting": 239,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 231,
+          "rawPoints": 255,
           "multiplier": 2,
-          "effectivePoints": 462,
+          "effectivePoints": 510,
           "countsInTop11": true
         },
         {
