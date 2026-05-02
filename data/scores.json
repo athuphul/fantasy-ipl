@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T15:14:54.171Z",
+  "lastUpdated": "2026-05-02T15:24:54.422Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529287",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 112,
+        "r": 122,
         "w": 4,
-        "o": 13.2
+        "o": 15.2
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 55,
+        "bowling": 62,
         "fielding": 0,
-        "total": 55
+        "total": 62
       },
       "Will Jacks": {
         "batting": 1,
@@ -70,10 +70,10 @@
         "total": 5
       },
       "Hardik Pandya": {
-        "batting": 1,
+        "batting": -1,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": -1
       }
     }
   },
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4315,
-      "top11Points": 4034
+      "totalPointsAll": 4322,
+      "top11Points": 4041
     },
     {
       "team": "Ritik",
@@ -110,8 +110,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3255,
-      "top11Points": 3265
+      "totalPointsAll": 3253,
+      "top11Points": 3263
     },
     {
       "team": "Ashwin",
@@ -16397,17 +16397,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 112,
+          "r": 122,
           "w": 4,
-          "o": 13.2
+          "o": 15.2
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 112,
+          "runs": 122,
           "wickets": 4,
-          "overs": 13.2,
+          "overs": 15.2,
           "batting": [
             {
               "name": "Will Jacks",
@@ -16429,11 +16429,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 44,
-              "balls": 28,
+              "runs": 47,
+              "balls": 32,
               "fours": 4,
               "sixes": 2,
-              "sr": 157.14,
+              "sr": 146.88,
               "dismissal": "batting"
             },
             {
@@ -16456,11 +16456,11 @@
             },
             {
               "name": "Hardik Pandya",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 8,
+              "balls": 12,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
@@ -16491,27 +16491,27 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 24,
               "wickets": 2,
-              "economy": 7.67
+              "economy": 6.86
             },
             {
               "name": "Ramakrishna Ghosh",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 24,
               "wickets": 1,
-              "economy": 8.5
+              "economy": 8
             },
             {
               "name": "Jamie Overton",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 8,
               "wickets": 0,
-              "economy": 6
+              "economy": 4
             }
           ]
         }
@@ -16549,9 +16549,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 55,
+          "bowling": 62,
           "fielding": 0,
-          "total": 55
+          "total": 62
         },
         "Will Jacks": {
           "batting": 1,
@@ -16572,10 +16572,10 @@
           "total": 5
         },
         "Hardik Pandya": {
-          "batting": 1,
+          "batting": -1,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": -1
         }
       },
       "isComplete": false
@@ -16583,8 +16583,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3255,
-      "top11Points": 3265,
+      "totalPointsAll": 3253,
+      "top11Points": 3263,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -16644,12 +16644,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 176,
+          "batting": 174,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 252,
+          "rawPoints": 250,
           "multiplier": 1,
-          "effectivePoints": 252,
+          "effectivePoints": 250,
           "countsInTop11": true
         },
         {
@@ -17698,8 +17698,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4315,
-      "top11Points": 4034,
+      "totalPointsAll": 4322,
+      "top11Points": 4041,
       "players": [
         {
           "name": "Sanju Samson",
@@ -17749,11 +17749,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 255,
+          "bowling": 262,
           "fielding": 32,
-          "rawPoints": 299,
+          "rawPoints": 306,
           "multiplier": 1,
-          "effectivePoints": 299,
+          "effectivePoints": 306,
           "countsInTop11": true
         },
         {
