@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T15:24:53.202Z",
+  "lastUpdated": "2026-05-03T15:34:59.030Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 126,
-        "w": 6,
-        "o": 16.1
+        "r": 141,
+        "w": 7,
+        "o": 17.4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Washington Sundar": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rashid Khan": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": -5
       },
       "Marcus Stoinis": {
-        "batting": 34,
+        "batting": 47,
         "bowling": 0,
         "fielding": 0,
-        "total": 34
+        "total": 47
       },
       "Marco Jansen": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       }
     }
   },
@@ -103,8 +103,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4418,
-      "top11Points": 4137
+      "totalPointsAll": 4420,
+      "top11Points": 4139
     },
     {
       "team": "Ritik",
@@ -128,8 +128,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3404,
-      "top11Points": 3404
+      "totalPointsAll": 3425,
+      "top11Points": 3425
     },
     {
       "team": "Ashwin",
@@ -17122,17 +17122,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 126,
-          "w": 6,
-          "o": 16.1
+          "r": 141,
+          "w": 7,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 126,
-          "wickets": 6,
-          "overs": 16.1,
+          "runs": 141,
+          "wickets": 7,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17190,22 +17190,31 @@
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 29,
-              "balls": 23,
-              "fours": 3,
+              "runs": 40,
+              "balls": 31,
+              "fours": 5,
               "sixes": 1,
-              "sr": 126.09,
+              "sr": 129.03,
+              "dismissal": "c Washington Sundar b Jason Holder"
+            },
+            {
+              "name": "Marco Jansen",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 20,
+              "runs": 28,
               "wickets": 2,
-              "economy": 6.67
+              "economy": 7
             },
             {
               "name": "Kagiso Rabada",
@@ -17217,11 +17226,11 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 2,
-              "economy": 5.67
+              "runs": 24,
+              "wickets": 3,
+              "economy": 6.55
             },
             {
               "name": "Arshad Khan",
@@ -17272,8 +17281,8 @@
         "Washington Sundar": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rashid Khan": {
           "batting": 0,
@@ -17318,16 +17327,16 @@
           "total": -5
         },
         "Marcus Stoinis": {
-          "batting": 34,
+          "batting": 47,
           "bowling": 0,
           "fielding": 0,
-          "total": 34
+          "total": 47
         },
         "Marco Jansen": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         }
       },
       "isComplete": false
@@ -17898,8 +17907,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3404,
-      "top11Points": 3404,
+      "totalPointsAll": 3425,
+      "top11Points": 3425,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -17950,21 +17959,21 @@
           "role": "All-Rounder",
           "batting": 227,
           "bowling": 25,
-          "fielding": 24,
-          "rawPoints": 276,
+          "fielding": 32,
+          "rawPoints": 284,
           "multiplier": 1,
-          "effectivePoints": 276,
+          "effectivePoints": 284,
           "countsInTop11": true
         },
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 195,
+          "batting": 208,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 213,
+          "rawPoints": 226,
           "multiplier": 1,
-          "effectivePoints": 213,
+          "effectivePoints": 226,
           "countsInTop11": true
         },
         {
@@ -18450,8 +18459,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4418,
-      "top11Points": 4137,
+      "totalPointsAll": 4420,
+      "top11Points": 4139,
       "players": [
         {
           "name": "Sanju Samson",
@@ -18566,12 +18575,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 7,
+          "batting": 9,
           "bowling": 125,
           "fielding": 24,
-          "rawPoints": 156,
+          "rawPoints": 158,
           "multiplier": 1,
-          "effectivePoints": 156,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
