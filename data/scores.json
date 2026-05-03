@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T15:44:53.241Z",
+  "lastUpdated": "2026-05-03T15:54:53.467Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 149,
-        "w": 8,
-        "o": 19
+        "r": 163,
+        "w": 9,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Shubman Gill": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Jos Buttler": {
         "batting": 0,
@@ -41,9 +41,9 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 30,
         "fielding": 0,
-        "total": 20
+        "total": 30
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -88,10 +88,16 @@
         "total": 47
       },
       "Marco Jansen": {
-        "batting": 8,
+        "batting": 33,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 33
+      },
+      "Arshdeep Singh": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -103,13 +109,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4426,
-      "top11Points": 4145
+      "totalPointsAll": 4451,
+      "top11Points": 4170
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4114,
-      "top11Points": 4114
+      "totalPointsAll": 4124,
+      "top11Points": 4124
     },
     {
       "team": "Aakash",
@@ -123,8 +129,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3605,
-      "top11Points": 3539
+      "totalPointsAll": 3606,
+      "top11Points": 3540
     },
     {
       "team": "Kishan",
@@ -133,8 +139,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3380,
-      "top11Points": 3332
+      "totalPointsAll": 3396,
+      "top11Points": 3348
     },
     {
       "team": "Tanay",
@@ -17122,17 +17128,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 149,
-          "w": 8,
-          "o": 19
+          "r": 163,
+          "w": 9,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 149,
-          "wickets": 8,
-          "overs": 19,
+          "runs": 163,
+          "wickets": 9,
+          "overs": 20,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17199,12 +17205,12 @@
             },
             {
               "name": "Marco Jansen",
-              "runs": 8,
-              "balls": 6,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 133.33,
-              "dismissal": "batting"
+              "runs": 20,
+              "balls": 11,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 181.82,
+              "dismissal": "c Shubman Gill b Rashid Khan"
             },
             {
               "name": "Xavier Bartlett",
@@ -17222,7 +17228,16 @@
               "fours": 0,
               "sixes": 0,
               "sr": 33.33,
-              "dismissal": "batting"
+              "dismissal": "not out"
+            },
+            {
+              "name": "Arshdeep Singh",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -17260,11 +17275,11 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 0,
-              "economy": 6
+              "runs": 32,
+              "wickets": 1,
+              "economy": 8
             },
             {
               "name": "Manav Suthar",
@@ -17287,8 +17302,8 @@
         "Shubman Gill": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Jos Buttler": {
           "batting": 0,
@@ -17304,9 +17319,9 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 30,
           "fielding": 0,
-          "total": 20
+          "total": 30
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -17351,10 +17366,16 @@
           "total": 47
         },
         "Marco Jansen": {
-          "batting": 8,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 33
+        },
+        "Arshdeep Singh": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -17787,18 +17808,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3380,
-      "top11Points": 3332,
+      "totalPointsAll": 3396,
+      "top11Points": 3348,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 496,
           "bowling": 0,
-          "fielding": 58,
-          "rawPoints": 554,
+          "fielding": 66,
+          "rawPoints": 562,
           "multiplier": 2,
-          "effectivePoints": 1108,
+          "effectivePoints": 1124,
           "countsInTop11": true
         },
         {
@@ -18052,8 +18073,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3605,
-      "top11Points": 3539,
+      "totalPointsAll": 3606,
+      "top11Points": 3540,
       "players": [
         {
           "name": "Axar Patel",
@@ -18135,12 +18156,12 @@
         {
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 1,
           "bowling": 185,
           "fielding": 24,
-          "rawPoints": 209,
+          "rawPoints": 210,
           "multiplier": 1,
-          "effectivePoints": 209,
+          "effectivePoints": 210,
           "countsInTop11": true
         },
         {
@@ -18212,8 +18233,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4114,
-      "top11Points": 4114,
+      "totalPointsAll": 4124,
+      "top11Points": 4124,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18263,11 +18284,11 @@
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 37,
-          "bowling": 327,
+          "bowling": 337,
           "fielding": 24,
-          "rawPoints": 388,
+          "rawPoints": 398,
           "multiplier": 1,
-          "effectivePoints": 388,
+          "effectivePoints": 398,
           "countsInTop11": true
         },
         {
@@ -18477,8 +18498,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4426,
-      "top11Points": 4145,
+      "totalPointsAll": 4451,
+      "top11Points": 4170,
       "players": [
         {
           "name": "Sanju Samson",
@@ -18580,6 +18601,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 40,
+          "bowling": 125,
+          "fielding": 24,
+          "rawPoints": 189,
+          "multiplier": 1,
+          "effectivePoints": 189,
+          "countsInTop11": true
+        },
+        {
           "name": "Mitchell Santner",
           "role": "All-Rounder",
           "batting": 29,
@@ -18588,17 +18620,6 @@
           "rawPoints": 185,
           "multiplier": 1,
           "effectivePoints": 185,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 15,
-          "bowling": 125,
-          "fielding": 24,
-          "rawPoints": 164,
-          "multiplier": 1,
-          "effectivePoints": 164,
           "countsInTop11": true
         },
         {
