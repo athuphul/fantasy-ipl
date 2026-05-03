@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T11:24:56.843Z",
+  "lastUpdated": "2026-05-03T11:34:52.835Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 149,
-        "w": 7,
-        "o": 16.2
+        "r": 156,
+        "w": 9,
+        "o": 17.3
       }
     ],
     "playerScores": {
@@ -71,15 +71,15 @@
       },
       "Anukul Roy": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "bowling": 25,
+        "fielding": 16,
+        "total": 41
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 25,
         "fielding": 0,
-        "total": -5
+        "total": 25
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -102,8 +102,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4003,
-      "top11Points": 4003
+      "totalPointsAll": 4033,
+      "top11Points": 4033
     },
     {
       "team": "Aakash",
@@ -121,14 +121,14 @@
       "top11Points": 3370
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 3340,
+      "top11Points": 3350
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 3378,
       "top11Points": 3330
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 3307,
-      "top11Points": 3317
     },
     {
       "team": "Tanay",
@@ -16752,17 +16752,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 149,
-          "w": 7,
-          "o": 16.2
+          "r": 156,
+          "w": 9,
+          "o": 17.3
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 149,
-          "wickets": 7,
-          "overs": 16.2,
+          "runs": 156,
+          "wickets": 9,
+          "overs": 17.3,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -16829,17 +16829,35 @@
             },
             {
               "name": "Pat Cummins",
-              "runs": 4,
-              "balls": 5,
+              "runs": 10,
+              "balls": 8,
               "fours": 0,
-              "sixes": 0,
-              "sr": 80,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 125,
+              "dismissal": "c and b Anukul Roy"
             },
             {
               "name": "Shivang Kumar",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "c Angkrish Raghuvanshi b Vaibhav Arora"
+            },
+            {
+              "name": "Harshal Patel",
               "runs": 0,
               "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Eshan Malinga",
+              "runs": 0,
+              "balls": 2,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -16857,11 +16875,11 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
               "runs": 22,
-              "wickets": 0,
-              "economy": 11
+              "wickets": 1,
+              "economy": 8.8
             },
             {
               "name": "Kartik Tyagi",
@@ -16889,11 +16907,11 @@
             },
             {
               "name": "Anukul Roy",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
-              "wickets": 0,
-              "economy": 3
+              "runs": 8,
+              "wickets": 1,
+              "economy": 8
             }
           ]
         }
@@ -16955,15 +16973,15 @@
         },
         "Anukul Roy": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "bowling": 25,
+          "fielding": 16,
+          "total": 41
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 25,
           "fielding": 0,
-          "total": -5
+          "total": 25
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -16977,8 +16995,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3307,
-      "top11Points": 3317,
+      "totalPointsAll": 3340,
+      "top11Points": 3350,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17050,11 +17068,11 @@
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 137,
-          "fielding": 42,
-          "rawPoints": 224,
+          "bowling": 162,
+          "fielding": 50,
+          "rawPoints": 257,
           "multiplier": 1,
-          "effectivePoints": 224,
+          "effectivePoints": 257,
           "countsInTop11": true
         },
         {
@@ -17827,8 +17845,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4003,
-      "top11Points": 4003,
+      "totalPointsAll": 4033,
+      "top11Points": 4033,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17900,11 +17918,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 215,
+          "bowling": 245,
           "fielding": 18,
-          "rawPoints": 234,
+          "rawPoints": 264,
           "multiplier": 1,
-          "effectivePoints": 234,
+          "effectivePoints": 264,
           "countsInTop11": true
         },
         {
