@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T13:15:08.078Z",
+  "lastUpdated": "2026-05-03T13:24:55.652Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 134,
-        "w": 2,
-        "o": 15.1
+        "r": 153,
+        "w": 3,
+        "o": 16.5
       }
     ],
     "playerScores": {
@@ -63,17 +63,17 @@
         "fielding": 0,
         "total": 51
       },
-      "Cameron Green": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 16,
-        "total": 36
-      },
       "Rinku Singh": {
-        "batting": 0,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 10
+      },
+      "Cameron Green": {
+        "batting": 2,
+        "bowling": 20,
+        "fielding": 16,
+        "total": 38
       },
       "Sunil Narine": {
         "batting": 0,
@@ -109,8 +109,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4356,
-      "top11Points": 4075
+      "totalPointsAll": 4371,
+      "top11Points": 4090
     },
     {
       "team": "Ritik",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3062,
-      "top11Points": 3014
+      "totalPointsAll": 3064,
+      "top11Points": 3016
     }
   ],
   "matchHistory": [
@@ -16770,9 +16770,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 134,
-          "w": 2,
-          "o": 15.1
+          "r": 153,
+          "w": 3,
+          "o": 16.5
         }
       ],
       "scorecard": [
@@ -16935,9 +16935,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 134,
-          "wickets": 2,
-          "overs": 15.1,
+          "runs": 153,
+          "wickets": 3,
+          "overs": 16.5,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -16959,20 +16959,20 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 52,
-              "balls": 42,
-              "fours": 4,
+              "runs": 59,
+              "balls": 47,
+              "fours": 5,
               "sixes": 2,
-              "sr": 123.81,
-              "dismissal": "batting"
+              "sr": 125.53,
+              "dismissal": "c Eshan Malinga b Shivang Kumar"
             },
             {
               "name": "Rinku Singh",
-              "runs": 0,
-              "balls": 0,
+              "runs": 8,
+              "balls": 4,
               "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -16987,11 +16987,11 @@
             },
             {
               "name": "Pat Cummins",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 38,
+              "runs": 47,
               "wickets": 1,
-              "economy": 12
+              "economy": 11.75
             },
             {
               "name": "Eshan Malinga",
@@ -17003,11 +17003,11 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 0,
-              "economy": 7
+              "runs": 29,
+              "wickets": 1,
+              "economy": 7.91
             },
             {
               "name": "Harshal Patel",
@@ -17071,17 +17071,17 @@
           "fielding": 0,
           "total": 51
         },
-        "Cameron Green": {
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 16,
-          "total": 36
-        },
         "Rinku Singh": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 10
+        },
+        "Cameron Green": {
+          "batting": 2,
+          "bowling": 20,
+          "fielding": 16,
+          "total": 38
         },
         "Sunil Narine": {
           "batting": 0,
@@ -18090,8 +18090,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3062,
-      "top11Points": 3014,
+      "totalPointsAll": 3064,
+      "top11Points": 3016,
       "players": [
         {
           "name": "Travis Head",
@@ -18118,12 +18118,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 267,
+          "batting": 269,
           "bowling": 50,
           "fielding": 48,
-          "rawPoints": 365,
+          "rawPoints": 367,
           "multiplier": 1,
-          "effectivePoints": 365,
+          "effectivePoints": 367,
           "countsInTop11": true
         },
         {
@@ -18228,8 +18228,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4356,
-      "top11Points": 4075,
+      "totalPointsAll": 4371,
+      "top11Points": 4090,
       "players": [
         {
           "name": "Sanju Samson",
@@ -18256,12 +18256,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 276,
+          "batting": 286,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 348,
+          "rawPoints": 358,
           "multiplier": 1.5,
-          "effectivePoints": 522,
+          "effectivePoints": 537,
           "countsInTop11": true
         },
         {
