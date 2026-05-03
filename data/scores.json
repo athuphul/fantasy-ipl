@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T17:34:54.451Z",
+  "lastUpdated": "2026-05-03T17:45:07.183Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 140,
-        "w": 5,
-        "o": 17
+        "r": 152,
+        "w": 6,
+        "o": 18.5
       },
       {
         "inning": "Punjab Kings",
@@ -40,10 +40,10 @@
         "total": 55
       },
       "Washington Sundar": {
-        "batting": 36,
+        "batting": 44,
         "bowling": 0,
         "fielding": 8,
-        "total": 44
+        "total": 52
       },
       "Rahul Tewatia": {
         "batting": 2,
@@ -101,15 +101,15 @@
       },
       "Marco Jansen": {
         "batting": 33,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 33
+        "total": 58
       },
       "Arshdeep Singh": {
         "batting": 1,
-        "bowling": 45,
+        "bowling": 70,
         "fielding": 0,
-        "total": 46
+        "total": 71
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -126,14 +126,14 @@
       "top11Points": 4542
     },
     {
+      "team": "Tikoo",
+      "totalPointsAll": 4478,
+      "top11Points": 4195
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 4171,
       "top11Points": 4171
-    },
-    {
-      "team": "Tikoo",
-      "totalPointsAll": 4453,
-      "top11Points": 4170
     },
     {
       "team": "Aakash",
@@ -142,8 +142,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3651,
-      "top11Points": 3585
+      "totalPointsAll": 3676,
+      "top11Points": 3610
     },
     {
       "team": "Athu",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3506,
-      "top11Points": 3506
+      "totalPointsAll": 3514,
+      "top11Points": 3514
     },
     {
       "team": "Ashwin",
@@ -17146,9 +17146,9 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 140,
-          "w": 5,
-          "o": 17
+          "r": 152,
+          "w": 6,
+          "o": 18.5
         },
         {
           "inning": "Punjab Kings",
@@ -17317,9 +17317,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 140,
-          "wickets": 5,
-          "overs": 17,
+          "runs": 152,
+          "wickets": 6,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -17359,47 +17359,65 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 27,
-              "balls": 18,
-              "fours": 4,
+              "runs": 34,
+              "balls": 22,
+              "fours": 5,
               "sixes": 0,
-              "sr": 150,
+              "sr": 154.55,
               "dismissal": "batting"
             },
             {
               "name": "Rahul Tewatia",
               "runs": 2,
-              "balls": 5,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 40,
+              "sr": 33.33,
+              "dismissal": "c Xavier Bartlett b Marco Jansen"
+            },
+            {
+              "name": "Jason Holder",
+              "runs": 5,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 71.43,
+              "dismissal": "c Cooper Connolly b Arshdeep Singh"
+            },
+            {
+              "name": "Arshad Khan",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Xavier Bartlett",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 38,
               "wickets": 0,
-              "economy": 10.33
+              "economy": 9.5
             },
             {
               "name": "Arshdeep Singh",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 1,
+              "runs": 23,
+              "wickets": 2,
               "economy": 6
             },
             {
               "name": "Marco Jansen",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
               "runs": 33,
-              "wickets": 0,
-              "economy": 8.61
+              "wickets": 1,
+              "economy": 8.25
             },
             {
               "name": "Vijaykumar Vyshak",
@@ -17448,10 +17466,10 @@
           "total": 55
         },
         "Washington Sundar": {
-          "batting": 36,
+          "batting": 44,
           "bowling": 0,
           "fielding": 8,
-          "total": 44
+          "total": 52
         },
         "Rahul Tewatia": {
           "batting": 2,
@@ -17509,15 +17527,15 @@
         },
         "Marco Jansen": {
           "batting": 33,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 33
+          "total": 58
         },
         "Arshdeep Singh": {
           "batting": 1,
-          "bowling": 45,
+          "bowling": 70,
           "fielding": 0,
-          "total": 46
+          "total": 71
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -18094,8 +18112,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3506,
-      "top11Points": 3506,
+      "totalPointsAll": 3514,
+      "top11Points": 3514,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -18144,12 +18162,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 263,
+          "batting": 271,
           "bowling": 25,
           "fielding": 32,
-          "rawPoints": 320,
+          "rawPoints": 328,
           "multiplier": 1,
-          "effectivePoints": 320,
+          "effectivePoints": 328,
           "countsInTop11": true
         },
         {
@@ -18221,8 +18239,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3651,
-      "top11Points": 3585,
+      "totalPointsAll": 3676,
+      "top11Points": 3610,
       "players": [
         {
           "name": "Axar Patel",
@@ -18280,6 +18298,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 255,
+          "fielding": 24,
+          "rawPoints": 280,
+          "multiplier": 1,
+          "effectivePoints": 280,
+          "countsInTop11": true
+        },
+        {
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
@@ -18288,17 +18317,6 @@
           "rawPoints": 262,
           "multiplier": 1,
           "effectivePoints": 262,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 230,
-          "fielding": 24,
-          "rawPoints": 255,
-          "multiplier": 1,
-          "effectivePoints": 255,
           "countsInTop11": true
         },
         {
@@ -18646,8 +18664,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4453,
-      "top11Points": 4170,
+      "totalPointsAll": 4478,
+      "top11Points": 4195,
       "players": [
         {
           "name": "Sanju Samson",
@@ -18727,6 +18745,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 40,
+          "bowling": 150,
+          "fielding": 24,
+          "rawPoints": 214,
+          "multiplier": 1,
+          "effectivePoints": 214,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -2,
@@ -18746,17 +18775,6 @@
           "rawPoints": 196,
           "multiplier": 1,
           "effectivePoints": 196,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 40,
-          "bowling": 125,
-          "fielding": 24,
-          "rawPoints": 189,
-          "multiplier": 1,
-          "effectivePoints": 189,
           "countsInTop11": true
         },
         {
