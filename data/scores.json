@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T12:34:55.724Z",
+  "lastUpdated": "2026-05-03T12:44:55.912Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 82,
+        "r": 103,
         "w": 1,
-        "o": 7.3
+        "o": 9.4
       }
     ],
     "playerScores": {
@@ -52,10 +52,10 @@
         "total": 7
       },
       "Ajinkya Rahane": {
-        "batting": 33,
+        "batting": 38,
         "bowling": 0,
         "fielding": 16,
-        "total": 49
+        "total": 54
       },
       "Finn Allen": {
         "batting": 51,
@@ -129,8 +129,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3464,
-      "top11Points": 3467
+      "totalPointsAll": 3469,
+      "top11Points": 3472
     },
     {
       "team": "Kishan",
@@ -16770,9 +16770,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 82,
+          "r": 103,
           "w": 1,
-          "o": 7.3
+          "o": 9.4
         }
       ],
       "scorecard": [
@@ -16935,17 +16935,17 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 82,
+          "runs": 103,
           "wickets": 1,
-          "overs": 7.3,
+          "overs": 9.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 28,
-              "balls": 19,
+              "runs": 33,
+              "balls": 24,
               "fours": 3,
               "sixes": 1,
-              "sr": 147.37,
+              "sr": 137.5,
               "dismissal": "batting"
             },
             {
@@ -16959,11 +16959,11 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 18,
-              "balls": 12,
-              "fours": 0,
+              "runs": 32,
+              "balls": 20,
+              "fours": 2,
               "sixes": 2,
-              "sr": 150,
+              "sr": 160,
               "dismissal": "batting"
             }
           ],
@@ -16994,17 +16994,25 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 18,
               "wickets": 0,
-              "economy": 8
+              "economy": 9
             },
             {
               "name": "Harshal Patel",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 2,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Sakib Hussain",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 3,
               "wickets": 0,
               "economy": 6
             }
@@ -17043,10 +17051,10 @@
           "total": 7
         },
         "Ajinkya Rahane": {
-          "batting": 33,
+          "batting": 38,
           "bowling": 0,
           "fielding": 16,
-          "total": 49
+          "total": 54
         },
         "Finn Allen": {
           "batting": 51,
@@ -17096,8 +17104,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3464,
-      "top11Points": 3467,
+      "totalPointsAll": 3469,
+      "top11Points": 3472,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17177,6 +17185,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ajinkya Rahane",
+          "role": "Batsman",
+          "batting": 223,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 255,
+          "multiplier": 1,
+          "effectivePoints": 255,
+          "countsInTop11": true
+        },
+        {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
           "batting": 168,
@@ -17185,17 +17204,6 @@
           "rawPoints": 168,
           "multiplier": 1.5,
           "effectivePoints": 252,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ajinkya Rahane",
-          "role": "Batsman",
-          "batting": 218,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 250,
-          "multiplier": 1,
-          "effectivePoints": 250,
           "countsInTop11": true
         },
         {
