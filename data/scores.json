@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-05-03T17:45:07.183Z",
+  "lastUpdated": "2026-05-03T17:54:53.567Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529289",
-    "name": "Gujarat Titans v Punjab Kings",
-    "status": "Live",
-    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
-    "score": [
-      {
-        "inning": "Gujarat Titans",
-        "r": 152,
-        "w": 6,
-        "o": 18.5
-      },
-      {
-        "inning": "Punjab Kings",
-        "r": 163,
-        "w": 9,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Sai Sudharsan": {
-        "batting": 74,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 74
-      },
-      "Shubman Gill": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 14
-      },
-      "Jos Buttler": {
-        "batting": 31,
-        "bowling": 0,
-        "fielding": 24,
-        "total": 55
-      },
-      "Washington Sundar": {
-        "batting": 44,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 52
-      },
-      "Rahul Tewatia": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Rashid Khan": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Kagiso Rabada": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Mohammed Siraj": {
-        "batting": 0,
-        "bowling": 62,
-        "fielding": 0,
-        "total": 62
-      },
-      "Priyansh Arya": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Prabhsimran Singh": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 17
-      },
-      "Shreyas Iyer": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 25
-      },
-      "Nehal Wadhera": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Marcus Stoinis": {
-        "batting": 47,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 92
-      },
-      "Marco Jansen": {
-        "batting": 33,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 58
-      },
-      "Arshdeep Singh": {
-        "batting": 1,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 71
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -152,8 +35,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3514,
-      "top11Points": 3514
+      "totalPointsAll": 3502,
+      "top11Points": 3502
     },
     {
       "team": "Ashwin",
@@ -17141,14 +17024,14 @@
       "matchId": "espn_1529289",
       "name": "Gujarat Titans v Punjab Kings",
       "date": "2026-05-03",
-      "status": "Live",
+      "status": "Final",
       "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 152,
+          "r": 167,
           "w": 6,
-          "o": 18.5
+          "o": 19.5
         },
         {
           "inning": "Punjab Kings",
@@ -17317,9 +17200,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 152,
+          "runs": 167,
           "wickets": 6,
-          "overs": 18.5,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -17359,12 +17242,12 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 34,
-              "balls": 22,
+              "runs": 40,
+              "balls": 23,
               "fours": 5,
-              "sixes": 0,
-              "sr": 154.55,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 173.91,
+              "dismissal": "not out"
             },
             {
               "name": "Rahul Tewatia",
@@ -17386,12 +17269,12 @@
             },
             {
               "name": "Arshad Khan",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 8,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 160,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -17405,9 +17288,9 @@
             },
             {
               "name": "Arshdeep Singh",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 24,
               "wickets": 2,
               "economy": 6
             },
@@ -17429,11 +17312,11 @@
             },
             {
               "name": "Marcus Stoinis",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 12,
+              "runs": 26,
               "wickets": 1,
-              "economy": 6
+              "economy": 9.18
             },
             {
               "name": "Yuzvendra Chahal",
@@ -17466,10 +17349,10 @@
           "total": 55
         },
         "Washington Sundar": {
-          "batting": 44,
+          "batting": 52,
           "bowling": 0,
           "fielding": 8,
-          "total": 52
+          "total": 60
         },
         "Rahul Tewatia": {
           "batting": 2,
@@ -17521,9 +17404,9 @@
         },
         "Marcus Stoinis": {
           "batting": 47,
-          "bowling": 45,
+          "bowling": 25,
           "fielding": 0,
-          "total": 92
+          "total": 72
         },
         "Marco Jansen": {
           "batting": 33,
@@ -17544,7 +17427,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -18112,8 +17995,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3514,
-      "top11Points": 3514,
+      "totalPointsAll": 3502,
+      "top11Points": 3502,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -18162,23 +18045,23 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 271,
+          "batting": 279,
           "bowling": 25,
           "fielding": 32,
-          "rawPoints": 328,
+          "rawPoints": 336,
           "multiplier": 1,
-          "effectivePoints": 328,
+          "effectivePoints": 336,
           "countsInTop11": true
         },
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
           "batting": 208,
-          "bowling": 45,
+          "bowling": 25,
           "fielding": 18,
-          "rawPoints": 271,
+          "rawPoints": 251,
           "multiplier": 1,
-          "effectivePoints": 271,
+          "effectivePoints": 251,
           "countsInTop11": true
         },
         {
