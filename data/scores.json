@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T15:34:59.030Z",
+  "lastUpdated": "2026-05-03T15:44:53.241Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 141,
-        "w": 7,
-        "o": 17.4
+        "r": 149,
+        "w": 8,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -88,10 +88,10 @@
         "total": 47
       },
       "Marco Jansen": {
-        "batting": 2,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 8
       }
     }
   },
@@ -103,8 +103,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4420,
-      "top11Points": 4139
+      "totalPointsAll": 4426,
+      "top11Points": 4145
     },
     {
       "team": "Ritik",
@@ -17122,17 +17122,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 141,
-          "w": 7,
-          "o": 17.4
+          "r": 149,
+          "w": 8,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 141,
-          "wickets": 7,
-          "overs": 17.4,
+          "runs": 149,
+          "wickets": 8,
+          "overs": 19,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17199,11 +17199,29 @@
             },
             {
               "name": "Marco Jansen",
-              "runs": 2,
-              "balls": 2,
+              "runs": 8,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 133.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Xavier Bartlett",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "b Jason Holder"
+            },
+            {
+              "name": "Vijaykumar Vyshak",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
               "dismissal": "batting"
             }
           ],
@@ -17226,19 +17244,19 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
               "runs": 24,
-              "wickets": 3,
-              "economy": 6.55
+              "wickets": 4,
+              "economy": 6
             },
             {
               "name": "Arshad Khan",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
+              "runs": 29,
               "wickets": 0,
-              "economy": 10.5
+              "economy": 9.67
             },
             {
               "name": "Rashid Khan",
@@ -17333,10 +17351,10 @@
           "total": 47
         },
         "Marco Jansen": {
-          "batting": 2,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 8
         }
       },
       "isComplete": false
@@ -18459,8 +18477,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4420,
-      "top11Points": 4139,
+      "totalPointsAll": 4426,
+      "top11Points": 4145,
       "players": [
         {
           "name": "Sanju Samson",
@@ -18575,12 +18593,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 9,
+          "batting": 15,
           "bowling": 125,
           "fielding": 24,
-          "rawPoints": 158,
+          "rawPoints": 164,
           "multiplier": 1,
-          "effectivePoints": 158,
+          "effectivePoints": 164,
           "countsInTop11": true
         },
         {
