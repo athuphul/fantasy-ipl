@@ -1,12 +1,81 @@
 {
-  "lastUpdated": "2026-05-03T13:54:51.457Z",
+  "lastUpdated": "2026-05-03T14:04:52.847Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529289",
+    "name": "Gujarat Titans v Punjab Kings",
+    "status": "Live",
+    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+    "score": [
+      {
+        "inning": "Punjab Kings",
+        "r": 2,
+        "w": 1,
+        "o": 0.3
+      }
+    ],
+    "playerScores": {
+      "Sai Sudharsan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jos Buttler": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Washington Sundar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Priyansh Arya": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4440,
-      "top11Points": 4460
+      "totalPointsAll": 4465,
+      "top11Points": 4485
     },
     {
       "team": "Tikoo",
@@ -40,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3378,
-      "top11Points": 3330
+      "totalPointsAll": 3380,
+      "top11Points": 3332
     },
     {
       "team": "Tanay",
@@ -17019,6 +17088,125 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529289",
+      "name": "Gujarat Titans v Punjab Kings",
+      "date": "2026-05-03",
+      "status": "Live",
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+      "score": [
+        {
+          "inning": "Punjab Kings",
+          "r": 2,
+          "w": 1,
+          "o": 0.3
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Punjab Kings",
+          "runs": 2,
+          "wickets": 1,
+          "overs": 0.3,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "c Nishant Sindhu b Mohammed Siraj"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 1,
+              "economy": 6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sai Sudharsan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jos Buttler": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Washington Sundar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Priyansh Arya": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -17310,8 +17498,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4440,
-      "top11Points": 4460,
+      "totalPointsAll": 4465,
+      "top11Points": 4485,
       "players": [
         {
           "name": "KL Rahul",
@@ -17347,6 +17535,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Siraj",
+          "role": "Fast Bowler",
+          "batting": -5,
+          "bowling": 307,
+          "fielding": 24,
+          "rawPoints": 326,
+          "multiplier": 1,
+          "effectivePoints": 326,
+          "countsInTop11": true
+        },
+        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 284,
@@ -17355,17 +17554,6 @@
           "rawPoints": 324,
           "multiplier": 1,
           "effectivePoints": 324,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Siraj",
-          "role": "Fast Bowler",
-          "batting": -5,
-          "bowling": 282,
-          "fielding": 24,
-          "rawPoints": 301,
-          "multiplier": 1,
-          "effectivePoints": 301,
           "countsInTop11": true
         },
         {
@@ -17448,8 +17636,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3378,
-      "top11Points": 3330,
+      "totalPointsAll": 3380,
+      "top11Points": 3332,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17476,12 +17664,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 451,
+          "batting": 453,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 451,
+          "rawPoints": 453,
           "multiplier": 1,
-          "effectivePoints": 451,
+          "effectivePoints": 453,
           "countsInTop11": true
         },
         {
