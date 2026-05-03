@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T11:34:52.835Z",
+  "lastUpdated": "2026-05-03T11:44:56.099Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 156,
-        "w": 9,
-        "o": 17.3
+        "r": 165,
+        "w": 10,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -40,10 +40,10 @@
         "total": 14
       },
       "Harshal Patel": {
-        "batting": 0,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 7
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Vaibhav Arora": {
         "batting": 0,
         "bowling": 25,
-        "fielding": 0,
-        "total": 25
+        "fielding": 8,
+        "total": 33
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -102,8 +102,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4033,
-      "top11Points": 4033
+      "totalPointsAll": 4041,
+      "top11Points": 4041
     },
     {
       "team": "Aakash",
@@ -122,7 +122,7 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3340,
+      "totalPointsAll": 3347,
       "top11Points": 3350
     },
     {
@@ -16752,17 +16752,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 156,
-          "w": 9,
-          "o": 17.3
+          "r": 165,
+          "w": 10,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 156,
-          "wickets": 9,
-          "overs": 17.3,
+          "runs": 165,
+          "wickets": 10,
+          "overs": 19,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -16847,21 +16847,21 @@
             },
             {
               "name": "Harshal Patel",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 6,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 120,
+              "dismissal": "c Vaibhav Arora b Kartik Tyagi"
             },
             {
               "name": "Eshan Malinga",
-              "runs": 0,
-              "balls": 2,
+              "runs": 2,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 33.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -16875,19 +16875,19 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 25,
               "wickets": 1,
-              "economy": 8.8
+              "economy": 8.33
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
-              "wickets": 1,
-              "economy": 8
+              "runs": 30,
+              "wickets": 2,
+              "economy": 7.5
             },
             {
               "name": "Cameron Green",
@@ -16942,10 +16942,10 @@
           "total": 14
         },
         "Harshal Patel": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 7
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -16980,8 +16980,8 @@
         "Vaibhav Arora": {
           "batting": 0,
           "bowling": 25,
-          "fielding": 0,
-          "total": 25
+          "fielding": 8,
+          "total": 33
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -16995,7 +16995,7 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3340,
+      "totalPointsAll": 3347,
       "top11Points": 3350,
       "players": [
         {
@@ -17133,12 +17133,12 @@
         {
           "name": "Harshal Patel",
           "role": "Fast Bowler",
-          "batting": 0,
+          "batting": 7,
           "bowling": -10,
           "fielding": 0,
-          "rawPoints": -10,
+          "rawPoints": -3,
           "multiplier": 1,
-          "effectivePoints": -10,
+          "effectivePoints": -3,
           "countsInTop11": false
         }
       ]
@@ -17845,8 +17845,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4033,
-      "top11Points": 4033,
+      "totalPointsAll": 4041,
+      "top11Points": 4041,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17919,10 +17919,10 @@
           "role": "Fast Bowler",
           "batting": 1,
           "bowling": 245,
-          "fielding": 18,
-          "rawPoints": 264,
+          "fielding": 26,
+          "rawPoints": 272,
           "multiplier": 1,
-          "effectivePoints": 264,
+          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
