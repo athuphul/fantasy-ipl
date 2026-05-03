@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T14:24:53.595Z",
+  "lastUpdated": "2026-05-03T14:34:53.244Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 27,
-        "w": 2,
-        "o": 4.1
+        "r": 36,
+        "w": 3,
+        "o": 6.1
       }
     ],
     "playerScores": {
@@ -47,15 +47,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": 45,
         "fielding": 0,
-        "total": 12
+        "total": 45
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 70,
+        "bowling": 62,
         "fielding": 0,
-        "total": 70
+        "total": 62
       },
       "Priyansh Arya": {
         "batting": 2,
@@ -70,18 +70,24 @@
         "total": 17
       },
       "Shreyas Iyer": {
-        "batting": -2,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": -2
+        "total": 19
+      },
+      "Nehal Wadhera": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4508,
-      "top11Points": 4528
+      "totalPointsAll": 4521,
+      "top11Points": 4541
     },
     {
       "team": "Tikoo",
@@ -105,8 +111,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3492,
-      "top11Points": 3495
+      "totalPointsAll": 3525,
+      "top11Points": 3528
     },
     {
       "team": "Kishan",
@@ -17104,17 +17110,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 27,
-          "w": 2,
-          "o": 4.1
+          "r": 36,
+          "w": 3,
+          "o": 6.1
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 27,
-          "wickets": 2,
-          "overs": 4.1,
+          "runs": 36,
+          "wickets": 3,
+          "overs": 6.1,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17128,11 +17134,11 @@
             {
               "name": "Prabhsimran Singh",
               "runs": 15,
-              "balls": 12,
+              "balls": 14,
               "fours": 2,
               "sixes": 0,
-              "sr": 125,
-              "dismissal": "batting"
+              "sr": 107.14,
+              "dismissal": "c Manav Suthar b Kagiso Rabada"
             },
             {
               "name": "Cooper Connolly",
@@ -17145,30 +17151,47 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 7,
-              "balls": 10,
-              "fours": 1,
+              "runs": 16,
+              "balls": 16,
+              "fours": 3,
               "sixes": 0,
-              "sr": 70,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nehal Wadhera",
+              "runs": 0,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 12,
+              "runs": 20,
               "wickets": 2,
-              "economy": 5.54
+              "economy": 6.67
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2,
-              "maidens": 0,
+              "overs": 3,
+              "maidens": 1,
               "runs": 14,
+              "wickets": 1,
+              "economy": 4.67
+            },
+            {
+              "name": "Jason Holder",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
               "wickets": 0,
-              "economy": 7
+              "economy": 3
             }
           ]
         }
@@ -17206,15 +17229,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": 45,
           "fielding": 0,
-          "total": 12
+          "total": 45
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 70,
+          "bowling": 62,
           "fielding": 0,
-          "total": 70
+          "total": 62
         },
         "Priyansh Arya": {
           "batting": 2,
@@ -17229,10 +17252,16 @@
           "total": 17
         },
         "Shreyas Iyer": {
-          "batting": -2,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": -2
+          "total": 19
+        },
+        "Nehal Wadhera": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -17240,8 +17269,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3492,
-      "top11Points": 3495,
+      "totalPointsAll": 3525,
+      "top11Points": 3528,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17269,11 +17298,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 384,
+          "bowling": 417,
           "fielding": 24,
-          "rawPoints": 445,
+          "rawPoints": 478,
           "multiplier": 1,
-          "effectivePoints": 445,
+          "effectivePoints": 478,
           "countsInTop11": true
         },
         {
@@ -17527,8 +17556,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4508,
-      "top11Points": 4528,
+      "totalPointsAll": 4521,
+      "top11Points": 4541,
       "players": [
         {
           "name": "KL Rahul",
@@ -17555,23 +17584,23 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 454,
+          "batting": 475,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 486,
+          "rawPoints": 507,
           "multiplier": 1,
-          "effectivePoints": 486,
+          "effectivePoints": 507,
           "countsInTop11": true
         },
         {
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 352,
+          "bowling": 344,
           "fielding": 24,
-          "rawPoints": 371,
+          "rawPoints": 363,
           "multiplier": 1,
-          "effectivePoints": 371,
+          "effectivePoints": 363,
           "countsInTop11": true
         },
         {
