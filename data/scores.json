@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T10:34:53.351Z",
+  "lastUpdated": "2026-05-03T10:44:55.728Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 84,
-        "w": 1,
-        "o": 7
+        "r": 106,
+        "w": 2,
+        "o": 9.3
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 23
       },
       "Travis Head": {
-        "batting": 91,
+        "batting": 101,
         "bowling": 0,
         "fielding": 0,
-        "total": 91
+        "total": 101
       },
       "Ishan Kishan": {
-        "batting": 23,
+        "batting": 38,
         "bowling": 0,
         "fielding": 0,
-        "total": 23
+        "total": 38
+      },
+      "Heinrich Klaasen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -42,8 +48,8 @@
       "Cameron Green": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Rinku Singh": {
         "batting": 0,
@@ -53,9 +59,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": 0
       },
       "Anukul Roy": {
         "batting": 0,
@@ -65,15 +71,15 @@
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 10,
         "fielding": 0,
-        "total": 0
+        "total": 10
       }
     }
   },
@@ -90,8 +96,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3981,
-      "top11Points": 3981
+      "totalPointsAll": 3991,
+      "top11Points": 3991
     },
     {
       "team": "Manav",
@@ -100,8 +106,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3555,
-      "top11Points": 3519
+      "totalPointsAll": 3565,
+      "top11Points": 3529
     },
     {
       "team": "Kishan",
@@ -115,13 +121,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3288,
-      "top11Points": 3240
+      "totalPointsAll": 3296,
+      "top11Points": 3248
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3014,
-      "top11Points": 2966
+      "totalPointsAll": 3042,
+      "top11Points": 2994
     }
   ],
   "matchHistory": [
@@ -16740,17 +16746,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 84,
-          "w": 1,
-          "o": 7
+          "r": 106,
+          "w": 2,
+          "o": 9.3
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 84,
-          "wickets": 1,
-          "overs": 7,
+          "runs": 106,
+          "wickets": 2,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -16763,39 +16769,48 @@
             },
             {
               "name": "Travis Head",
-              "runs": 53,
-              "balls": 22,
+              "runs": 61,
+              "balls": 28,
               "fours": 9,
-              "sixes": 2,
-              "sr": 240.91,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 217.86,
+              "dismissal": "c Cameron Green b Varun Chakaravarthy"
             },
             {
               "name": "Ishan Kishan",
-              "runs": 15,
-              "balls": 10,
-              "fours": 1,
+              "runs": 28,
+              "balls": 18,
+              "fours": 3,
               "sixes": 1,
-              "sr": 150,
+              "sr": 155.56,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Sunil Narine",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 20,
+              "runs": 21,
               "wickets": 0,
-              "economy": 10
+              "economy": 9
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 17,
+              "runs": 22,
               "wickets": 0,
-              "economy": 17
+              "economy": 11
             },
             {
               "name": "Kartik Tyagi",
@@ -16815,11 +16830,11 @@
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 13
+              "runs": 29,
+              "wickets": 1,
+              "economy": 14.5
             }
           ]
         }
@@ -16832,16 +16847,22 @@
           "total": 23
         },
         "Travis Head": {
-          "batting": 91,
+          "batting": 101,
           "bowling": 0,
           "fielding": 0,
-          "total": 91
+          "total": 101
         },
         "Ishan Kishan": {
-          "batting": 23,
+          "batting": 38,
           "bowling": 0,
           "fielding": 0,
-          "total": 23
+          "total": 38
+        },
+        "Heinrich Klaasen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -16852,8 +16873,8 @@
         "Cameron Green": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Rinku Singh": {
           "batting": 0,
@@ -16863,9 +16884,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": 0
         },
         "Anukul Roy": {
           "batting": 0,
@@ -16875,15 +16896,15 @@
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 10,
           "fielding": 0,
-          "total": 0
+          "total": 10
         }
       },
       "isComplete": false
@@ -17040,8 +17061,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3555,
-      "top11Points": 3519,
+      "totalPointsAll": 3565,
+      "top11Points": 3529,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -17121,6 +17142,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Varun Chakaravarthy",
+          "role": "Spinner",
+          "batting": -5,
+          "bowling": 190,
+          "fielding": 16,
+          "rawPoints": 201,
+          "multiplier": 1,
+          "effectivePoints": 201,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -17129,17 +17161,6 @@
           "rawPoints": 200,
           "multiplier": 1,
           "effectivePoints": 200,
-          "countsInTop11": true
-        },
-        {
-          "name": "Varun Chakaravarthy",
-          "role": "Spinner",
-          "batting": -5,
-          "bowling": 180,
-          "fielding": 16,
-          "rawPoints": 191,
-          "multiplier": 1,
-          "effectivePoints": 191,
           "countsInTop11": true
         },
         {
@@ -17316,8 +17337,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3288,
-      "top11Points": 3240,
+      "totalPointsAll": 3296,
+      "top11Points": 3248,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17334,11 +17355,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 249,
+          "bowling": 254,
           "fielding": 16,
-          "rawPoints": 310,
+          "rawPoints": 315,
           "multiplier": 1.5,
-          "effectivePoints": 465,
+          "effectivePoints": 473,
           "countsInTop11": true
         },
         {
@@ -17741,8 +17762,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3981,
-      "top11Points": 3981,
+      "totalPointsAll": 3991,
+      "top11Points": 3991,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17767,6 +17788,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ishan Kishan",
+          "role": "Wicket Keeper",
+          "batting": 497,
+          "bowling": 0,
+          "fielding": 60,
+          "rawPoints": 557,
+          "multiplier": 1,
+          "effectivePoints": 557,
+          "countsInTop11": true
+        },
+        {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
           "batting": 502,
@@ -17775,17 +17807,6 @@
           "rawPoints": 547,
           "multiplier": 1,
           "effectivePoints": 547,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ishan Kishan",
-          "role": "Wicket Keeper",
-          "batting": 482,
-          "bowling": 0,
-          "fielding": 60,
-          "rawPoints": 542,
-          "multiplier": 1,
-          "effectivePoints": 542,
           "countsInTop11": true
         },
         {
@@ -17814,11 +17835,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 220,
+          "bowling": 215,
           "fielding": 18,
-          "rawPoints": 239,
+          "rawPoints": 234,
           "multiplier": 1,
-          "effectivePoints": 239,
+          "effectivePoints": 234,
           "countsInTop11": true
         },
         {
@@ -17868,18 +17889,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3014,
-      "top11Points": 2966,
+      "totalPointsAll": 3042,
+      "top11Points": 2994,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 456,
+          "batting": 466,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 456,
+          "rawPoints": 466,
           "multiplier": 2,
-          "effectivePoints": 912,
+          "effectivePoints": 932,
           "countsInTop11": true
         },
         {
@@ -17898,10 +17919,10 @@
           "role": "All-Rounder",
           "batting": 267,
           "bowling": 30,
-          "fielding": 40,
-          "rawPoints": 337,
+          "fielding": 48,
+          "rawPoints": 345,
           "multiplier": 1,
-          "effectivePoints": 337,
+          "effectivePoints": 345,
           "countsInTop11": true
         },
         {
