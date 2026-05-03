@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T12:14:53.066Z",
+  "lastUpdated": "2026-05-03T12:24:54.109Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 49,
-        "w": 0,
-        "o": 3.5
+        "r": 71,
+        "w": 1,
+        "o": 5.6
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
         "batting": 23,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 23
+        "total": 35
       },
       "Travis Head": {
         "batting": 101,
@@ -42,8 +42,8 @@
       "Heinrich Klaasen": {
         "batting": 14,
         "bowling": 0,
-        "fielding": 0,
-        "total": 14
+        "fielding": 8,
+        "total": 22
       },
       "Harshal Patel": {
         "batting": 7,
@@ -52,10 +52,10 @@
         "total": 7
       },
       "Ajinkya Rahane": {
-        "batting": 18,
+        "batting": 30,
         "bowling": 0,
         "fielding": 16,
-        "total": 34
+        "total": 46
       },
       "Finn Allen": {
         "batting": 51,
@@ -104,8 +104,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4422,
-      "top11Points": 4442
+      "totalPointsAll": 4440,
+      "top11Points": 4460
     },
     {
       "team": "Tikoo",
@@ -129,8 +129,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3441,
-      "top11Points": 3444
+      "totalPointsAll": 3461,
+      "top11Points": 3464
     },
     {
       "team": "Kishan",
@@ -16770,9 +16770,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 49,
-          "w": 0,
-          "o": 3.5
+          "r": 71,
+          "w": 1,
+          "o": 5.6
         }
       ],
       "scorecard": [
@@ -16935,53 +16935,62 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 49,
-          "wickets": 0,
-          "overs": 3.5,
+          "runs": 71,
+          "wickets": 1,
+          "overs": 5.6,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 15,
-              "balls": 11,
-              "fours": 1,
+              "runs": 21,
+              "balls": 14,
+              "fours": 2,
               "sixes": 1,
-              "sr": 136.36,
+              "sr": 150,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
               "runs": 29,
-              "balls": 12,
+              "balls": 13,
               "fours": 3,
               "sixes": 2,
-              "sr": 241.67,
+              "sr": 223.08,
+              "dismissal": "c Heinrich Klaasen b Pat Cummins"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 8,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 114.29,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Abhishek Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 14,
               "wickets": 0,
-              "economy": 8
+              "economy": 7
             },
             {
               "name": "Pat Cummins",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 33,
-              "wickets": 0,
-              "economy": 18
+              "wickets": 1,
+              "economy": 16.5
             },
             {
               "name": "Eshan Malinga",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 8,
+              "runs": 16,
               "wickets": 0,
-              "economy": 8
+              "economy": 9.6
             }
           ]
         }
@@ -16989,9 +16998,9 @@
       "playerScores": {
         "Abhishek Sharma": {
           "batting": 23,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 23
+          "total": 35
         },
         "Travis Head": {
           "batting": 101,
@@ -17008,8 +17017,8 @@
         "Heinrich Klaasen": {
           "batting": 14,
           "bowling": 0,
-          "fielding": 0,
-          "total": 14
+          "fielding": 8,
+          "total": 22
         },
         "Harshal Patel": {
           "batting": 7,
@@ -17018,10 +17027,10 @@
           "total": 7
         },
         "Ajinkya Rahane": {
-          "batting": 18,
+          "batting": 30,
           "bowling": 0,
           "fielding": 16,
-          "total": 34
+          "total": 46
         },
         "Finn Allen": {
           "batting": 51,
@@ -17071,18 +17080,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3441,
-      "top11Points": 3444,
+      "totalPointsAll": 3461,
+      "top11Points": 3464,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
           "batting": 581,
           "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 653,
+          "fielding": 80,
+          "rawPoints": 661,
           "multiplier": 1,
-          "effectivePoints": 653,
+          "effectivePoints": 661,
           "countsInTop11": true
         },
         {
@@ -17165,12 +17174,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 203,
+          "batting": 215,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 235,
+          "rawPoints": 247,
           "multiplier": 1,
-          "effectivePoints": 235,
+          "effectivePoints": 247,
           "countsInTop11": true
         },
         {
@@ -17358,8 +17367,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4422,
-      "top11Points": 4442,
+      "totalPointsAll": 4440,
+      "top11Points": 4460,
       "players": [
         {
           "name": "KL Rahul",
@@ -17376,11 +17385,11 @@
           "name": "Abhishek Sharma",
           "role": "Opener",
           "batting": 685,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 32,
-          "rawPoints": 717,
+          "rawPoints": 729,
           "multiplier": 1.5,
-          "effectivePoints": 1076,
+          "effectivePoints": 1094,
           "countsInTop11": true
         },
         {
