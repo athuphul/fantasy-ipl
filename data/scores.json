@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T14:34:53.244Z",
+  "lastUpdated": "2026-05-03T14:45:09.719Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 36,
-        "w": 3,
-        "o": 6.1
+        "r": 46,
+        "w": 4,
+        "o": 8.2
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Jos Buttler": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Washington Sundar": {
         "batting": 0,
@@ -70,24 +70,24 @@
         "total": 17
       },
       "Shreyas Iyer": {
-        "batting": 19,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 21
       },
       "Nehal Wadhera": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": -5
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4521,
-      "top11Points": 4541
+      "totalPointsAll": 4518,
+      "top11Points": 4538
     },
     {
       "team": "Tikoo",
@@ -96,8 +96,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4070,
-      "top11Points": 4070
+      "totalPointsAll": 4082,
+      "top11Points": 4082
     },
     {
       "team": "Aakash",
@@ -17110,17 +17110,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 36,
-          "w": 3,
-          "o": 6.1
+          "r": 46,
+          "w": 4,
+          "o": 8.2
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 36,
-          "wickets": 3,
-          "overs": 6.1,
+          "runs": 46,
+          "wickets": 4,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17151,8 +17151,8 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 16,
-              "balls": 16,
+              "runs": 18,
+              "balls": 18,
               "fours": 3,
               "sixes": 0,
               "sr": 100,
@@ -17161,10 +17161,19 @@
             {
               "name": "Nehal Wadhera",
               "runs": 0,
-              "balls": 5,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
+              "dismissal": "c Jos Buttler b Jason Holder"
+            },
+            {
+              "name": "Suryansh Shedge",
+              "runs": 7,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -17187,11 +17196,19 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 4,
+              "wickets": 1,
+              "economy": 4
+            },
+            {
+              "name": "Arshad Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
               "wickets": 0,
-              "economy": 3
+              "economy": 6
             }
           ]
         }
@@ -17212,8 +17229,8 @@
         "Jos Buttler": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Washington Sundar": {
           "batting": 0,
@@ -17252,16 +17269,16 @@
           "total": 17
         },
         "Shreyas Iyer": {
-          "batting": 19,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 21
         },
         "Nehal Wadhera": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": -5
         }
       },
       "isComplete": false
@@ -17556,8 +17573,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4521,
-      "top11Points": 4541,
+      "totalPointsAll": 4518,
+      "top11Points": 4538,
       "players": [
         {
           "name": "KL Rahul",
@@ -17584,12 +17601,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 475,
+          "batting": 477,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 507,
+          "rawPoints": 509,
           "multiplier": 1,
-          "effectivePoints": 507,
+          "effectivePoints": 509,
           "countsInTop11": true
         },
         {
@@ -17661,12 +17678,12 @@
         {
           "name": "Nehal Wadhera",
           "role": "Batsman",
-          "batting": 82,
+          "batting": 77,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 98,
+          "rawPoints": 93,
           "multiplier": 1,
-          "effectivePoints": 98,
+          "effectivePoints": 93,
           "countsInTop11": true
         },
         {
@@ -18119,18 +18136,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4070,
-      "top11Points": 4070,
+      "totalPointsAll": 4082,
+      "top11Points": 4082,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 442,
           "bowling": 0,
-          "fielding": 116,
-          "rawPoints": 558,
+          "fielding": 124,
+          "rawPoints": 566,
           "multiplier": 1.5,
-          "effectivePoints": 837,
+          "effectivePoints": 849,
           "countsInTop11": true
         },
         {
