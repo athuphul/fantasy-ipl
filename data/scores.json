@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T11:15:06.940Z",
+  "lastUpdated": "2026-05-03T11:24:56.843Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 136,
-        "w": 5,
-        "o": 14.2
+        "r": 149,
+        "w": 7,
+        "o": 16.2
       }
     ],
     "playerScores": {
@@ -28,16 +28,22 @@
         "total": 101
       },
       "Ishan Kishan": {
-        "batting": 41,
+        "batting": 50,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": 50
       },
       "Heinrich Klaasen": {
         "batting": 14,
         "bowling": 0,
         "fielding": 0,
         "total": 14
+      },
+      "Harshal Patel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -59,15 +65,15 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 55,
         "fielding": 0,
-        "total": 5
+        "total": 55
       },
       "Anukul Roy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Vaibhav Arora": {
         "batting": 0,
@@ -96,8 +102,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 3994,
-      "top11Points": 3994
+      "totalPointsAll": 4003,
+      "top11Points": 4003
     },
     {
       "team": "Aakash",
@@ -115,14 +121,14 @@
       "top11Points": 3370
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 3299,
-      "top11Points": 3309
+      "team": "Ashwin",
+      "totalPointsAll": 3378,
+      "top11Points": 3330
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 3303,
-      "top11Points": 3255
+      "team": "Athu",
+      "totalPointsAll": 3307,
+      "top11Points": 3317
     },
     {
       "team": "Tanay",
@@ -16746,17 +16752,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 136,
-          "w": 5,
-          "o": 14.2
+          "r": 149,
+          "w": 7,
+          "o": 16.2
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 136,
-          "wickets": 5,
-          "overs": 14.2,
+          "runs": 149,
+          "wickets": 7,
+          "overs": 16.2,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -16778,12 +16784,12 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 35,
-              "balls": 25,
+              "runs": 42,
+              "balls": 29,
               "fours": 4,
-              "sixes": 1,
-              "sr": 140,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 144.83,
+              "dismissal": "c Anukul Roy b Sunil Narine"
             },
             {
               "name": "Heinrich Klaasen",
@@ -16814,22 +16820,40 @@
             },
             {
               "name": "Salil Arora",
-              "runs": 1,
-              "balls": 4,
+              "runs": 2,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 25,
+              "sr": 33.33,
+              "dismissal": "b Sunil Narine"
+            },
+            {
+              "name": "Pat Cummins",
+              "runs": 4,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 80,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shivang Kumar",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 22,
-              "wickets": 0,
-              "economy": 7.33
+              "runs": 31,
+              "wickets": 2,
+              "economy": 7.75
             },
             {
               "name": "Vaibhav Arora",
@@ -16841,11 +16865,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 24,
               "wickets": 1,
-              "economy": 8.8
+              "economy": 8
             },
             {
               "name": "Cameron Green",
@@ -16862,6 +16886,14 @@
               "runs": 36,
               "wickets": 3,
               "economy": 9
+            },
+            {
+              "name": "Anukul Roy",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -16880,16 +16912,22 @@
           "total": 101
         },
         "Ishan Kishan": {
-          "batting": 41,
+          "batting": 50,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": 50
         },
         "Heinrich Klaasen": {
           "batting": 14,
           "bowling": 0,
           "fielding": 0,
           "total": 14
+        },
+        "Harshal Patel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -16911,15 +16949,15 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 55,
           "fielding": 0,
-          "total": 5
+          "total": 55
         },
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Vaibhav Arora": {
           "batting": 0,
@@ -16939,8 +16977,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3299,
-      "top11Points": 3309,
+      "totalPointsAll": 3307,
+      "top11Points": 3317,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17009,6 +17047,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Anukul Roy",
+          "role": "All-Rounder",
+          "batting": 45,
+          "bowling": 137,
+          "fielding": 42,
+          "rawPoints": 224,
+          "multiplier": 1,
+          "effectivePoints": 224,
+          "countsInTop11": true
+        },
+        {
           "name": "Ayush Badoni",
           "role": "Batsman",
           "batting": 212,
@@ -17028,17 +17077,6 @@
           "rawPoints": 217,
           "multiplier": 1,
           "effectivePoints": 217,
-          "countsInTop11": true
-        },
-        {
-          "name": "Anukul Roy",
-          "role": "All-Rounder",
-          "batting": 45,
-          "bowling": 137,
-          "fielding": 34,
-          "rawPoints": 216,
-          "multiplier": 1,
-          "effectivePoints": 216,
           "countsInTop11": true
         },
         {
@@ -17364,8 +17402,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3303,
-      "top11Points": 3255,
+      "totalPointsAll": 3378,
+      "top11Points": 3330,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17382,11 +17420,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 259,
+          "bowling": 309,
           "fielding": 16,
-          "rawPoints": 320,
+          "rawPoints": 370,
           "multiplier": 1.5,
-          "effectivePoints": 480,
+          "effectivePoints": 555,
           "countsInTop11": true
         },
         {
@@ -17789,8 +17827,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 3994,
-      "top11Points": 3994,
+      "totalPointsAll": 4003,
+      "top11Points": 4003,
       "players": [
         {
           "name": "Jos Buttler",
@@ -17817,12 +17855,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 500,
+          "batting": 509,
           "bowling": 0,
           "fielding": 60,
-          "rawPoints": 560,
+          "rawPoints": 569,
           "multiplier": 1,
-          "effectivePoints": 560,
+          "effectivePoints": 569,
           "countsInTop11": true
         },
         {
