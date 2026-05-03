@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T14:45:09.719Z",
+  "lastUpdated": "2026-05-03T14:54:52.631Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 46,
-        "w": 4,
-        "o": 8.2
+        "r": 50,
+        "w": 5,
+        "o": 9.4
       }
     ],
     "playerScores": {
@@ -70,24 +70,30 @@
         "total": 17
       },
       "Shreyas Iyer": {
-        "batting": 21,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 17
       },
       "Nehal Wadhera": {
         "batting": -5,
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Marcus Stoinis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4518,
-      "top11Points": 4538
+      "totalPointsAll": 4514,
+      "top11Points": 4534
     },
     {
       "team": "Tikoo",
@@ -17110,17 +17116,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 46,
-          "w": 4,
-          "o": 8.2
+          "r": 50,
+          "w": 5,
+          "o": 9.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 46,
-          "wickets": 4,
-          "overs": 8.2,
+          "runs": 50,
+          "wickets": 5,
+          "overs": 9.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -17151,12 +17157,12 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 18,
-              "balls": 18,
+              "runs": 19,
+              "balls": 21,
               "fours": 3,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 90.48,
+              "dismissal": "b Jason Holder"
             },
             {
               "name": "Nehal Wadhera",
@@ -17169,11 +17175,20 @@
             },
             {
               "name": "Suryansh Shedge",
-              "runs": 7,
-              "balls": 7,
+              "runs": 9,
+              "balls": 9,
               "fours": 1,
               "sixes": 0,
               "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Marcus Stoinis",
+              "runs": 0,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -17196,11 +17211,11 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
-              "wickets": 1,
-              "economy": 4
+              "runs": 6,
+              "wickets": 2,
+              "economy": 3
             },
             {
               "name": "Arshad Khan",
@@ -17209,6 +17224,14 @@
               "runs": 6,
               "wickets": 0,
               "economy": 6
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -17269,16 +17292,22 @@
           "total": 17
         },
         "Shreyas Iyer": {
-          "batting": 21,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 17
         },
         "Nehal Wadhera": {
           "batting": -5,
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Marcus Stoinis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -17573,8 +17602,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4518,
-      "top11Points": 4538,
+      "totalPointsAll": 4514,
+      "top11Points": 4534,
       "players": [
         {
           "name": "KL Rahul",
@@ -17601,12 +17630,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 477,
+          "batting": 473,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 509,
+          "rawPoints": 505,
           "multiplier": 1,
-          "effectivePoints": 509,
+          "effectivePoints": 505,
           "countsInTop11": true
         },
         {
