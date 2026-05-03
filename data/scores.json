@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T10:04:55.949Z",
+  "lastUpdated": "2026-05-03T10:14:56.602Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 9,
+        "r": 42,
         "w": 0,
-        "o": 1
+        "o": 3.2
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 10,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 17
       },
       "Travis Head": {
-        "batting": 1,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 49
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Anukul Roy": {
         "batting": 0,
@@ -74,8 +74,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4402,
-      "top11Points": 4422
+      "totalPointsAll": 4413,
+      "top11Points": 4433
     },
     {
       "team": "Tikoo",
@@ -109,13 +109,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3296,
-      "top11Points": 3248
+      "totalPointsAll": 3288,
+      "top11Points": 3240
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 2826,
-      "top11Points": 2778
+      "totalPointsAll": 2922,
+      "top11Points": 2874
     }
   ],
   "matchHistory": [
@@ -16734,61 +16734,77 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 9,
+          "r": 42,
           "w": 0,
-          "o": 1
+          "o": 3.2
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 9,
+          "runs": 42,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3.2,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 8,
-              "balls": 5,
-              "fours": 0,
+              "runs": 14,
+              "balls": 8,
+              "fours": 1,
               "sixes": 1,
-              "sr": 160,
+              "sr": 175,
               "dismissal": "batting"
             },
             {
               "name": "Travis Head",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 27,
+              "balls": 11,
+              "fours": 5,
+              "sixes": 1,
+              "sr": 245.45,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Sunil Narine",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Vaibhav Arora",
               "overs": 1,
               "maidens": 0,
-              "runs": 9,
+              "runs": 17,
               "wickets": 0,
-              "economy": 9
+              "economy": 17
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 24
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 10,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 17
         },
         "Travis Head": {
-          "batting": 1,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 49
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -16810,9 +16826,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Anukul Roy": {
           "batting": 0,
@@ -17125,8 +17141,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4402,
-      "top11Points": 4422,
+      "totalPointsAll": 4413,
+      "top11Points": 4433,
       "players": [
         {
           "name": "KL Rahul",
@@ -17142,12 +17158,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 672,
+          "batting": 679,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 704,
+          "rawPoints": 711,
           "multiplier": 1.5,
-          "effectivePoints": 1056,
+          "effectivePoints": 1067,
           "countsInTop11": true
         },
         {
@@ -17263,8 +17279,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3296,
-      "top11Points": 3248,
+      "totalPointsAll": 3288,
+      "top11Points": 3240,
       "players": [
         {
           "name": "Shubman Gill",
@@ -17281,11 +17297,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 254,
+          "bowling": 249,
           "fielding": 16,
-          "rawPoints": 315,
+          "rawPoints": 310,
           "multiplier": 1.5,
-          "effectivePoints": 473,
+          "effectivePoints": 465,
           "countsInTop11": true
         },
         {
@@ -17815,18 +17831,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 2826,
-      "top11Points": 2778,
+      "totalPointsAll": 2922,
+      "top11Points": 2874,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 366,
+          "batting": 414,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 366,
+          "rawPoints": 414,
           "multiplier": 2,
-          "effectivePoints": 732,
+          "effectivePoints": 828,
           "countsInTop11": true
         },
         {
