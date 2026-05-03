@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T16:04:55.063Z",
+  "lastUpdated": "2026-05-03T16:14:53.416Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529289",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
     "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 18,
+        "w": 1,
+        "o": 2
+      },
       {
         "inning": "Punjab Kings",
         "r": 163,
@@ -16,22 +22,22 @@
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 0,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Shubman Gill": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 14
       },
       "Jos Buttler": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 24,
-        "total": 24
+        "total": 26
       },
       "Washington Sundar": {
         "batting": 0,
@@ -95,9 +101,15 @@
       },
       "Arshdeep Singh": {
         "batting": 1,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 26
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 0
       }
     }
   },
@@ -114,23 +126,23 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4124,
-      "top11Points": 4124
+      "totalPointsAll": 4127,
+      "top11Points": 4127
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3640,
-      "top11Points": 3604
+      "totalPointsAll": 3664,
+      "top11Points": 3628
+    },
+    {
+      "team": "Manav",
+      "totalPointsAll": 3631,
+      "top11Points": 3565
     },
     {
       "team": "Athu",
       "totalPointsAll": 3550,
       "top11Points": 3553
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 3606,
-      "top11Points": 3540
     },
     {
       "team": "Kishan",
@@ -139,8 +151,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3396,
-      "top11Points": 3348
+      "totalPointsAll": 3408,
+      "top11Points": 3360
     },
     {
       "team": "Tanay",
@@ -17127,6 +17139,12 @@
       "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
       "score": [
         {
+          "inning": "Gujarat Titans",
+          "r": 18,
+          "w": 1,
+          "o": 2
+        },
+        {
           "inning": "Punjab Kings",
           "r": 163,
           "w": 9,
@@ -17293,59 +17311,76 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 0,
-          "wickets": 0,
-          "overs": 0,
+          "runs": 18,
+          "wickets": 1,
+          "overs": 2,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 11,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 220,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 0,
-              "balls": 0,
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "c Cooper Connolly b Arshdeep Singh"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Xavier Bartlett",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 12,
               "wickets": 0,
-              "economy": 0
+              "economy": 12
+            },
+            {
+              "name": "Arshdeep Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 0,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Shubman Gill": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 14
         },
         "Jos Buttler": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 24,
-          "total": 24
+          "total": 26
         },
         "Washington Sundar": {
           "batting": 0,
@@ -17409,9 +17444,15 @@
         },
         "Arshdeep Singh": {
           "batting": 1,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 26
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 0
         }
       },
       "isComplete": false
@@ -17568,18 +17609,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3640,
-      "top11Points": 3604,
+      "totalPointsAll": 3664,
+      "top11Points": 3628,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 470,
+          "batting": 482,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 504,
+          "rawPoints": 516,
           "multiplier": 2,
-          "effectivePoints": 1008,
+          "effectivePoints": 1032,
           "countsInTop11": true
         },
         {
@@ -17844,18 +17885,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3396,
-      "top11Points": 3348,
+      "totalPointsAll": 3408,
+      "top11Points": 3360,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 496,
+          "batting": 502,
           "bowling": 0,
           "fielding": 66,
-          "rawPoints": 562,
+          "rawPoints": 568,
           "multiplier": 2,
-          "effectivePoints": 1124,
+          "effectivePoints": 1136,
           "countsInTop11": true
         },
         {
@@ -18109,8 +18150,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3606,
-      "top11Points": 3540,
+      "totalPointsAll": 3631,
+      "top11Points": 3565,
       "players": [
         {
           "name": "Axar Patel",
@@ -18179,6 +18220,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 210,
+          "fielding": 24,
+          "rawPoints": 235,
+          "multiplier": 1,
+          "effectivePoints": 235,
+          "countsInTop11": true
+        },
+        {
           "name": "Quinton de Kock",
           "role": "Opener",
           "batting": 199,
@@ -18187,17 +18239,6 @@
           "rawPoints": 225,
           "multiplier": 1,
           "effectivePoints": 225,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 185,
-          "fielding": 24,
-          "rawPoints": 210,
-          "multiplier": 1,
-          "effectivePoints": 210,
           "countsInTop11": true
         },
         {
@@ -18269,18 +18310,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4124,
-      "top11Points": 4124,
+      "totalPointsAll": 4127,
+      "top11Points": 4127,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 442,
+          "batting": 444,
           "bowling": 0,
           "fielding": 132,
-          "rawPoints": 574,
+          "rawPoints": 576,
           "multiplier": 1.5,
-          "effectivePoints": 861,
+          "effectivePoints": 864,
           "countsInTop11": true
         },
         {
