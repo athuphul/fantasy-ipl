@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T12:04:54.004Z",
+  "lastUpdated": "2026-05-03T12:14:53.066Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529288",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 14,
+        "r": 49,
         "w": 0,
-        "o": 2
+        "o": 3.5
       }
     ],
     "playerScores": {
@@ -52,16 +52,16 @@
         "total": 7
       },
       "Ajinkya Rahane": {
-        "batting": 8,
+        "batting": 18,
         "bowling": 0,
         "fielding": 16,
-        "total": 24
+        "total": 34
       },
       "Finn Allen": {
-        "batting": 3,
+        "batting": 51,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 51
       },
       "Cameron Green": {
         "batting": 0,
@@ -128,14 +128,14 @@
       "top11Points": 3539
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 3441,
+      "top11Points": 3444
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 3370,
       "top11Points": 3370
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 3359,
-      "top11Points": 3362
     },
     {
       "team": "Ashwin",
@@ -16770,9 +16770,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 14,
+          "r": 49,
           "w": 0,
-          "o": 2
+          "o": 3.5
         }
       ],
       "scorecard": [
@@ -16935,26 +16935,26 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 14,
+          "runs": 49,
           "wickets": 0,
-          "overs": 2,
+          "overs": 3.5,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 7,
-              "balls": 5,
+              "runs": 15,
+              "balls": 11,
               "fours": 1,
-              "sixes": 0,
-              "sr": 140,
+              "sixes": 1,
+              "sr": 136.36,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
-              "runs": 3,
-              "balls": 5,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 60,
+              "runs": 29,
+              "balls": 12,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 241.67,
               "dismissal": "batting"
             }
           ],
@@ -16969,11 +16969,19 @@
             },
             {
               "name": "Pat Cummins",
-              "overs": 0.4,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 2,
+              "runs": 33,
               "wickets": 0,
-              "economy": 3
+              "economy": 18
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -17010,16 +17018,16 @@
           "total": 7
         },
         "Ajinkya Rahane": {
-          "batting": 8,
+          "batting": 18,
           "bowling": 0,
           "fielding": 16,
-          "total": 24
+          "total": 34
         },
         "Finn Allen": {
-          "batting": 3,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 51
         },
         "Cameron Green": {
           "batting": 0,
@@ -17063,8 +17071,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3359,
-      "top11Points": 3362,
+      "totalPointsAll": 3441,
+      "top11Points": 3444,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17144,14 +17152,25 @@
           "countsInTop11": true
         },
         {
+          "name": "Finn Allen",
+          "role": "Wicket Keeper",
+          "batting": 168,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 168,
+          "multiplier": 1.5,
+          "effectivePoints": 252,
+          "countsInTop11": true
+        },
+        {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 193,
+          "batting": 203,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 225,
+          "rawPoints": 235,
           "multiplier": 1,
-          "effectivePoints": 225,
+          "effectivePoints": 235,
           "countsInTop11": true
         },
         {
@@ -17163,17 +17182,6 @@
           "rawPoints": 220,
           "multiplier": 1,
           "effectivePoints": 220,
-          "countsInTop11": true
-        },
-        {
-          "name": "Finn Allen",
-          "role": "Wicket Keeper",
-          "batting": 120,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 120,
-          "multiplier": 1.5,
-          "effectivePoints": 180,
           "countsInTop11": true
         },
         {
