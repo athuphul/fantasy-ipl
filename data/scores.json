@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T14:15:09.149Z",
+  "lastUpdated": "2026-05-04T14:24:59.502Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 30,
+        "r": 65,
         "w": 1,
-        "o": 3
+        "o": 4.4
       }
     ],
     "playerScores": {
@@ -41,29 +41,29 @@
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Mitchell Marsh": {
-        "batting": 20,
+        "batting": 51,
         "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 51
       },
       "Nicholas Pooran": {
-        "batting": 1,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 12
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4542,
-      "top11Points": 4562
+      "totalPointsAll": 4573,
+      "top11Points": 4593
     },
     {
       "team": "Tikoo",
@@ -72,8 +72,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4171,
-      "top11Points": 4171
+      "totalPointsAll": 4156,
+      "top11Points": 4156
     },
     {
       "team": "Aakash",
@@ -92,8 +92,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3503,
-      "top11Points": 3503
+      "totalPointsAll": 3520,
+      "top11Points": 3520
     },
     {
       "team": "Ashwin",
@@ -17495,25 +17495,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 30,
+          "r": 65,
           "w": 1,
-          "o": 3
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 30,
+          "runs": 65,
           "wickets": 1,
-          "overs": 3,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 16,
-              "balls": 11,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 145.45,
+              "runs": 33,
+              "balls": 18,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 183.33,
               "dismissal": "batting"
             },
             {
@@ -17527,11 +17527,11 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 1,
-              "balls": 1,
+              "runs": 10,
+              "balls": 5,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -17546,19 +17546,27 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 31,
               "wickets": 0,
-              "economy": 10
+              "economy": 15.5
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 9,
               "wickets": 1,
-              "economy": 10.8
+              "economy": 9
+            },
+            {
+              "name": "Will Jacks",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 16
             }
           ]
         }
@@ -17590,21 +17598,21 @@
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Mitchell Marsh": {
-          "batting": 20,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 51
         },
         "Nicholas Pooran": {
-          "batting": 1,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 12
         }
       },
       "isComplete": false
@@ -17899,8 +17907,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4542,
-      "top11Points": 4562,
+      "totalPointsAll": 4573,
+      "top11Points": 4593,
       "players": [
         {
           "name": "KL Rahul",
@@ -17947,6 +17955,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 313,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 337,
+          "multiplier": 1,
+          "effectivePoints": 337,
+          "countsInTop11": true
+        },
+        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 284,
@@ -17955,17 +17974,6 @@
           "rawPoints": 324,
           "multiplier": 1,
           "effectivePoints": 324,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 282,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 306,
-          "multiplier": 1,
-          "effectivePoints": 306,
           "countsInTop11": true
         },
         {
@@ -18175,8 +18183,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3503,
-      "top11Points": 3503,
+      "totalPointsAll": 3520,
+      "top11Points": 3520,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -18247,12 +18255,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 76,
+          "batting": 87,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 110,
+          "rawPoints": 121,
           "multiplier": 1.5,
-          "effectivePoints": 165,
+          "effectivePoints": 182,
           "countsInTop11": true
         },
         {
@@ -18462,8 +18470,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4171,
-      "top11Points": 4171,
+      "totalPointsAll": 4156,
+      "top11Points": 4156,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18543,17 +18551,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Jasprit Bumrah",
-          "role": "Fast Bowler",
-          "batting": 8,
-          "bowling": 112,
-          "fielding": 18,
-          "rawPoints": 138,
-          "multiplier": 1,
-          "effectivePoints": 138,
-          "countsInTop11": true
-        },
-        {
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
@@ -18562,6 +18559,17 @@
           "rawPoints": 129,
           "multiplier": 1,
           "effectivePoints": 129,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Fast Bowler",
+          "batting": 8,
+          "bowling": 97,
+          "fielding": 18,
+          "rawPoints": 123,
+          "multiplier": 1,
+          "effectivePoints": 123,
           "countsInTop11": true
         },
         {
