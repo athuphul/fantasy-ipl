@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T16:14:57.968Z",
+  "lastUpdated": "2026-05-04T16:24:55.082Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 21,
+        "r": 44,
         "w": 0,
-        "o": 2.1
+        "o": 4
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 7,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 15
       },
       "Suryakumar Yadav": {
         "batting": 0,
@@ -83,9 +83,9 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Avesh Khan": {
         "batting": 0,
@@ -113,8 +113,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3788,
-      "top11Points": 3752
+      "totalPointsAll": 3783,
+      "top11Points": 3747
     },
     {
       "team": "Kishan",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3075,
-      "top11Points": 3027
+      "totalPointsAll": 3087,
+      "top11Points": 3039
     }
   ],
   "matchHistory": [
@@ -17531,9 +17531,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 21,
+          "r": 44,
           "w": 0,
-          "o": 2.1
+          "o": 4
         },
         {
           "inning": "Lucknow Super Giants",
@@ -17666,55 +17666,55 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 21,
+          "runs": 44,
           "wickets": 0,
-          "overs": 2.1,
+          "overs": 4,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 15,
-              "balls": 7,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 214.29,
+              "runs": 31,
+              "balls": 13,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 238.46,
               "dismissal": "batting"
             },
             {
               "name": "Rohit Sharma",
-              "runs": 6,
-              "balls": 6,
+              "runs": 12,
+              "balls": 11,
               "fours": 1,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 109.09,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 23,
               "wickets": 0,
-              "economy": 8.57
+              "economy": 11.5
             },
             {
               "name": "Mohsin Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 20,
               "wickets": 0,
-              "economy": 11
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 7,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 15
         },
         "Suryakumar Yadav": {
           "batting": 0,
@@ -17772,9 +17772,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Avesh Khan": {
           "batting": 0,
@@ -17937,8 +17937,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3788,
-      "top11Points": 3752,
+      "totalPointsAll": 3783,
+      "top11Points": 3747,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18021,11 +18021,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 34,
-          "bowling": 204,
+          "bowling": 199,
           "fielding": 16,
-          "rawPoints": 254,
+          "rawPoints": 249,
           "multiplier": 1,
-          "effectivePoints": 254,
+          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
@@ -18765,8 +18765,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3075,
-      "top11Points": 3027,
+      "totalPointsAll": 3087,
+      "top11Points": 3039,
       "players": [
         {
           "name": "Travis Head",
@@ -18815,12 +18815,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 198,
+          "batting": 206,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 198,
+          "rawPoints": 206,
           "multiplier": 1.5,
-          "effectivePoints": 297,
+          "effectivePoints": 309,
           "countsInTop11": true
         },
         {
