@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T16:34:54.539Z",
+  "lastUpdated": "2026-05-04T16:44:53.563Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 70,
+        "r": 87,
         "w": 0,
-        "o": 5.5
+        "o": 7
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 41,
+        "batting": 65,
         "bowling": 0,
         "fielding": 0,
-        "total": 41
+        "total": 65
       },
       "Suryakumar Yadav": {
         "batting": 0,
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3126,
-      "top11Points": 3078
+      "totalPointsAll": 3162,
+      "top11Points": 3114
     }
   ],
   "matchHistory": [
@@ -17531,9 +17531,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 70,
+          "r": 87,
           "w": 0,
-          "o": 5.5
+          "o": 7
         },
         {
           "inning": "Lucknow Super Giants",
@@ -17666,26 +17666,26 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 70,
+          "runs": 87,
           "wickets": 0,
-          "overs": 5.5,
+          "overs": 7,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 34,
-              "balls": 16,
+              "runs": 42,
+              "balls": 19,
               "fours": 4,
-              "sixes": 2,
-              "sr": 212.5,
+              "sixes": 3,
+              "sr": 221.05,
               "dismissal": "batting"
             },
             {
               "name": "Rohit Sharma",
-              "runs": 29,
-              "balls": 18,
+              "runs": 44,
+              "balls": 23,
               "fours": 3,
-              "sixes": 2,
-              "sr": 161.11,
+              "sixes": 4,
+              "sr": 191.3,
               "dismissal": "batting"
             }
           ],
@@ -17716,21 +17716,29 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 0.4,
+              "overs": 1,
               "maidens": 0,
-              "runs": 14,
+              "runs": 21,
               "wickets": 0,
               "economy": 21
+            },
+            {
+              "name": "Manimaran Siddharth",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
             }
           ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 41,
+          "batting": 65,
           "bowling": 0,
           "fielding": 0,
-          "total": 41
+          "total": 65
         },
         "Suryakumar Yadav": {
           "batting": 0,
@@ -18781,8 +18789,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3126,
-      "top11Points": 3078,
+      "totalPointsAll": 3162,
+      "top11Points": 3114,
       "players": [
         {
           "name": "Travis Head",
@@ -18807,6 +18815,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 256,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 256,
+          "multiplier": 1.5,
+          "effectivePoints": 384,
+          "countsInTop11": true
+        },
+        {
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 270,
@@ -18815,17 +18834,6 @@
           "rawPoints": 368,
           "multiplier": 1,
           "effectivePoints": 368,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": 232,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 232,
-          "multiplier": 1.5,
-          "effectivePoints": 348,
           "countsInTop11": true
         },
         {
