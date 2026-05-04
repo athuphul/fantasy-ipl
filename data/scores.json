@@ -1,12 +1,63 @@
 {
-  "lastUpdated": "2026-05-03T18:24:57.254Z",
+  "lastUpdated": "2026-05-04T14:05:09.468Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529290",
+    "name": "Mumbai Indians v Lucknow Super Giants",
+    "status": "Live",
+    "venue": "Wankhede Stadium, Mumbai",
+    "score": [
+      {
+        "inning": "Lucknow Super Giants",
+        "r": 11,
+        "w": 0,
+        "o": 1
+      }
+    ],
+    "playerScores": {
+      "Suryakumar Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tilak Varma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Will Jacks": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Deepak Chahar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mitchell Marsh": {
+        "batting": 13,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 13
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4522,
-      "top11Points": 4542
+      "totalPointsAll": 4535,
+      "top11Points": 4555
     },
     {
       "team": "Tikoo",
@@ -17428,6 +17479,98 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529290",
+      "name": "Mumbai Indians v Lucknow Super Giants",
+      "date": "2026-05-04",
+      "status": "Live",
+      "venue": "Wankhede Stadium, Mumbai",
+      "score": [
+        {
+          "inning": "Lucknow Super Giants",
+          "r": 11,
+          "w": 0,
+          "o": 1
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Lucknow Super Giants",
+          "runs": 11,
+          "wickets": 0,
+          "overs": 1,
+          "batting": [
+            {
+              "name": "Mitchell Marsh",
+              "runs": 10,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Josh Inglis",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Deepak Chahar",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 12
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Suryakumar Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tilak Varma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Will Jacks": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Deepak Chahar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mitchell Marsh": {
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 13
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -17719,8 +17862,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4522,
-      "top11Points": 4542,
+      "totalPointsAll": 4535,
+      "top11Points": 4555,
       "players": [
         {
           "name": "KL Rahul",
@@ -17778,6 +17921,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 275,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 299,
+          "multiplier": 1,
+          "effectivePoints": 299,
+          "countsInTop11": true
+        },
+        {
           "name": "Tim David",
           "role": "Batsman",
           "batting": 286,
@@ -17786,17 +17940,6 @@
           "rawPoints": 294,
           "multiplier": 1,
           "effectivePoints": 294,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 262,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 286,
-          "multiplier": 1,
-          "effectivePoints": 286,
           "countsInTop11": true
         },
         {
