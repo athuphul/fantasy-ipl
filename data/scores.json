@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T14:44:56.666Z",
+  "lastUpdated": "2026-05-04T14:54:54.197Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 123,
-        "w": 2,
-        "o": 8.1
+        "r": 127,
+        "w": 3,
+        "o": 9
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -52,10 +52,22 @@
         "total": 64
       },
       "Nicholas Pooran": {
-        "batting": 104,
+        "batting": 105,
         "bowling": 0,
         "fielding": 0,
-        "total": 104
+        "total": 105
+      },
+      "Rishabh Pant": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Aiden Markram": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -72,8 +84,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4156,
-      "top11Points": 4156
+      "totalPointsAll": 4157,
+      "top11Points": 4157
     },
     {
       "team": "Aakash",
@@ -82,12 +94,12 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3658,
-      "top11Points": 3658
+      "totalPointsAll": 3659,
+      "top11Points": 3659
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3676,
+      "totalPointsAll": 3661,
       "top11Points": 3610
     },
     {
@@ -97,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3408,
-      "top11Points": 3360
+      "totalPointsAll": 3409,
+      "top11Points": 3361
     },
     {
       "team": "Tanay",
@@ -17495,26 +17507,26 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 123,
-          "w": 2,
-          "o": 8.1
+          "r": 127,
+          "w": 3,
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 123,
-          "wickets": 2,
-          "overs": 8.1,
+          "runs": 127,
+          "wickets": 3,
+          "overs": 9,
           "batting": [
             {
               "name": "Mitchell Marsh",
               "runs": 44,
-              "balls": 24,
+              "balls": 25,
               "fours": 4,
               "sixes": 3,
-              "sr": 183.33,
-              "dismissal": "batting"
+              "sr": 176,
+              "dismissal": "c Naman Dhir b Corbin Bosch"
             },
             {
               "name": "Josh Inglis",
@@ -17527,22 +17539,40 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 62,
-              "balls": 19,
+              "runs": 63,
+              "balls": 21,
               "fours": 1,
               "sixes": 8,
-              "sr": 326.32,
+              "sr": 300,
+              "dismissal": "c Ryan Rickelton b Corbin Bosch"
+            },
+            {
+              "name": "Rishabh Pant",
+              "runs": 1,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 25,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Aiden Markram",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 27,
+              "runs": 28,
               "wickets": 0,
-              "economy": 14.73
+              "economy": 14
             },
             {
               "name": "Jasprit Bumrah",
@@ -17570,11 +17600,19 @@
             },
             {
               "name": "Corbin Bosch",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 20,
+              "wickets": 2,
+              "economy": 10
+            },
+            {
+              "name": "Raghu Sharma",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
               "wickets": 0,
-              "economy": 16
+              "economy": 0
             }
           ]
         }
@@ -17600,9 +17638,9 @@
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -17617,10 +17655,22 @@
           "total": 64
         },
         "Nicholas Pooran": {
-          "batting": 104,
+          "batting": 105,
           "bowling": 0,
           "fielding": 0,
-          "total": 104
+          "total": 105
+        },
+        "Rishabh Pant": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Aiden Markram": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -18053,8 +18103,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3408,
-      "top11Points": 3360,
+      "totalPointsAll": 3409,
+      "top11Points": 3361,
       "players": [
         {
           "name": "Shubman Gill",
@@ -18092,12 +18142,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 239,
+          "batting": 240,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 313,
+          "rawPoints": 314,
           "multiplier": 1,
-          "effectivePoints": 313,
+          "effectivePoints": 314,
           "countsInTop11": true
         },
         {
@@ -18191,8 +18241,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3658,
-      "top11Points": 3658,
+      "totalPointsAll": 3659,
+      "top11Points": 3659,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -18252,12 +18302,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 179,
+          "batting": 180,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 213,
+          "rawPoints": 214,
           "multiplier": 1.5,
-          "effectivePoints": 320,
+          "effectivePoints": 321,
           "countsInTop11": true
         },
         {
@@ -18318,7 +18368,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3676,
+      "totalPointsAll": 3661,
       "top11Points": 3610,
       "players": [
         {
@@ -18443,17 +18493,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
-          "batting": 7,
-          "bowling": 22,
-          "fielding": 8,
-          "rawPoints": 37,
-          "multiplier": 1,
-          "effectivePoints": 37,
-          "countsInTop11": false
-        },
-        {
           "name": "Kumar Kushagra",
           "role": "Wicket Keeper",
           "batting": 21,
@@ -18462,6 +18501,17 @@
           "rawPoints": 29,
           "multiplier": 1,
           "effectivePoints": 29,
+          "countsInTop11": false
+        },
+        {
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
+          "batting": 7,
+          "bowling": 7,
+          "fielding": 8,
+          "rawPoints": 22,
+          "multiplier": 1,
+          "effectivePoints": 22,
           "countsInTop11": false
         },
         {
@@ -18478,8 +18528,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4156,
-      "top11Points": 4156,
+      "totalPointsAll": 4157,
+      "top11Points": 4157,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18539,12 +18589,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 242,
+          "batting": 243,
           "bowling": 20,
           "fielding": 40,
-          "rawPoints": 302,
+          "rawPoints": 303,
           "multiplier": 1,
-          "effectivePoints": 302,
+          "effectivePoints": 303,
           "countsInTop11": true
         },
         {
