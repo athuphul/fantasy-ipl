@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T14:05:09.468Z",
+  "lastUpdated": "2026-05-04T14:15:09.149Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 11,
-        "w": 0,
-        "o": 1
+        "r": 30,
+        "w": 1,
+        "o": 3
       }
     ],
     "playerScores": {
       "Suryakumar Yadav": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Tilak Varma": {
         "batting": 0,
@@ -46,18 +46,24 @@
         "total": 0
       },
       "Mitchell Marsh": {
-        "batting": 13,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 20
+      },
+      "Nicholas Pooran": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4535,
-      "top11Points": 4555
+      "totalPointsAll": 4542,
+      "top11Points": 4562
     },
     {
       "team": "Tikoo",
@@ -81,13 +87,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3550,
-      "top11Points": 3553
+      "totalPointsAll": 3566,
+      "top11Points": 3569
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3502,
-      "top11Points": 3502
+      "totalPointsAll": 3503,
+      "top11Points": 3503
     },
     {
       "team": "Ashwin",
@@ -17489,45 +17495,70 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 11,
-          "w": 0,
-          "o": 1
+          "r": 30,
+          "w": 1,
+          "o": 3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 11,
-          "wickets": 0,
-          "overs": 1,
+          "runs": 30,
+          "wickets": 1,
+          "overs": 3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 10,
-              "balls": 5,
-              "fours": 1,
+              "runs": 16,
+              "balls": 11,
+              "fours": 2,
               "sixes": 1,
-              "sr": 200,
+              "sr": 145.45,
               "dismissal": "batting"
             },
             {
               "name": "Josh Inglis",
-              "runs": 0,
-              "balls": 0,
+              "runs": 13,
+              "balls": 5,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 260,
+              "dismissal": "c Suryakumar Yadav b AM Ghazanfar"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 1,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 0.5,
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 1,
               "maidens": 0,
               "runs": 10,
               "wickets": 0,
-              "economy": 12
+              "economy": 10
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 10.8
             }
           ]
         }
@@ -17536,8 +17567,8 @@
         "Suryakumar Yadav": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Tilak Varma": {
           "batting": 0,
@@ -17564,10 +17595,16 @@
           "total": 0
         },
         "Mitchell Marsh": {
-          "batting": 13,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 20
+        },
+        "Nicholas Pooran": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -17575,8 +17612,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3550,
-      "top11Points": 3553,
+      "totalPointsAll": 3566,
+      "top11Points": 3569,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -17594,10 +17631,10 @@
           "role": "Batsman",
           "batting": 239,
           "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 255,
+          "fielding": 24,
+          "rawPoints": 263,
           "multiplier": 2,
-          "effectivePoints": 510,
+          "effectivePoints": 526,
           "countsInTop11": true
         },
         {
@@ -17862,8 +17899,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4535,
-      "top11Points": 4555,
+      "totalPointsAll": 4542,
+      "top11Points": 4562,
       "players": [
         {
           "name": "KL Rahul",
@@ -17923,12 +17960,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 275,
+          "batting": 282,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 299,
+          "rawPoints": 306,
           "multiplier": 1,
-          "effectivePoints": 299,
+          "effectivePoints": 306,
           "countsInTop11": true
         },
         {
@@ -18138,8 +18175,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3502,
-      "top11Points": 3502,
+      "totalPointsAll": 3503,
+      "top11Points": 3503,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -18210,12 +18247,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 75,
+          "batting": 76,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 109,
+          "rawPoints": 110,
           "multiplier": 1.5,
-          "effectivePoints": 164,
+          "effectivePoints": 165,
           "countsInTop11": true
         },
         {
