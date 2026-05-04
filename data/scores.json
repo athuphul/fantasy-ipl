@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T16:04:54.177Z",
+  "lastUpdated": "2026-05-04T16:14:57.968Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -8,6 +8,12 @@
     "venue": "Wankhede Stadium, Mumbai",
     "score": [
       {
+        "inning": "Mumbai Indians",
+        "r": 21,
+        "w": 0,
+        "o": 2.1
+      },
+      {
         "inning": "Lucknow Super Giants",
         "r": 228,
         "w": 5,
@@ -15,6 +21,12 @@
       }
     ],
     "playerScores": {
+      "Rohit Sharma": {
+        "batting": 7,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 7
+      },
       "Suryakumar Yadav": {
         "batting": 0,
         "bowling": 0,
@@ -68,6 +80,18 @@
         "bowling": 0,
         "fielding": 0,
         "total": 34
+      },
+      "Mohammed Shami": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Avesh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -114,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3065,
-      "top11Points": 3017
+      "totalPointsAll": 3075,
+      "top11Points": 3027
     }
   ],
   "matchHistory": [
@@ -17506,6 +17530,12 @@
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
+          "inning": "Mumbai Indians",
+          "r": 21,
+          "w": 0,
+          "o": 2.1
+        },
+        {
           "inning": "Lucknow Super Giants",
           "r": 228,
           "w": 5,
@@ -17633,9 +17663,59 @@
               "economy": 9
             }
           ]
+        },
+        {
+          "innings": "Mumbai Indians",
+          "runs": 21,
+          "wickets": 0,
+          "overs": 2.1,
+          "batting": [
+            {
+              "name": "Ryan Rickelton",
+              "runs": 15,
+              "balls": 7,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 214.29,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rohit Sharma",
+              "runs": 6,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 8.57
+            },
+            {
+              "name": "Mohsin Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            }
+          ]
         }
       ],
       "playerScores": {
+        "Rohit Sharma": {
+          "batting": 7,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 7
+        },
         "Suryakumar Yadav": {
           "batting": 0,
           "bowling": 0,
@@ -17689,6 +17769,18 @@
           "bowling": 0,
           "fielding": 0,
           "total": 34
+        },
+        "Mohammed Shami": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Avesh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -18673,8 +18765,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3065,
-      "top11Points": 3017,
+      "totalPointsAll": 3075,
+      "top11Points": 3027,
       "players": [
         {
           "name": "Travis Head",
@@ -18723,12 +18815,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 191,
+          "batting": 198,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 191,
+          "rawPoints": 198,
           "multiplier": 1.5,
-          "effectivePoints": 287,
+          "effectivePoints": 297,
           "countsInTop11": true
         },
         {
