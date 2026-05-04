@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T16:24:55.082Z",
+  "lastUpdated": "2026-05-04T16:34:54.539Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 44,
+        "r": 70,
         "w": 0,
-        "o": 4
+        "o": 5.5
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 15,
+        "batting": 41,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 41
       },
       "Suryakumar Yadav": {
         "batting": 0,
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3087,
-      "top11Points": 3039
+      "totalPointsAll": 3126,
+      "top11Points": 3078
     }
   ],
   "matchHistory": [
@@ -17531,9 +17531,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 44,
+          "r": 70,
           "w": 0,
-          "o": 4
+          "o": 5.5
         },
         {
           "inning": "Lucknow Super Giants",
@@ -17666,26 +17666,26 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 44,
+          "runs": 70,
           "wickets": 0,
-          "overs": 4,
+          "overs": 5.5,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 31,
-              "balls": 13,
+              "runs": 34,
+              "balls": 16,
               "fours": 4,
               "sixes": 2,
-              "sr": 238.46,
+              "sr": 212.5,
               "dismissal": "batting"
             },
             {
               "name": "Rohit Sharma",
-              "runs": 12,
-              "balls": 11,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 109.09,
+              "runs": 29,
+              "balls": 18,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 161.11,
               "dismissal": "batting"
             }
           ],
@@ -17705,16 +17705,32 @@
               "runs": 20,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            },
+            {
+              "name": "Avesh Khan",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 21
             }
           ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 15,
+          "batting": 41,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 41
         },
         "Suryakumar Yadav": {
           "batting": 0,
@@ -18765,8 +18781,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3087,
-      "top11Points": 3039,
+      "totalPointsAll": 3126,
+      "top11Points": 3078,
       "players": [
         {
           "name": "Travis Head",
@@ -18802,6 +18818,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 232,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 232,
+          "multiplier": 1.5,
+          "effectivePoints": 348,
+          "countsInTop11": true
+        },
+        {
           "name": "Phil Salt",
           "role": "Opener",
           "batting": 280,
@@ -18810,17 +18837,6 @@
           "rawPoints": 328,
           "multiplier": 1,
           "effectivePoints": 328,
-          "countsInTop11": true
-        },
-        {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": 206,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 206,
-          "multiplier": 1.5,
-          "effectivePoints": 309,
           "countsInTop11": true
         },
         {
