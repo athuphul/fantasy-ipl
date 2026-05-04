@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T15:24:57.303Z",
+  "lastUpdated": "2026-05-04T15:34:57.384Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 171,
+        "r": 206,
         "w": 5,
-        "o": 14.1
+        "o": 17
       }
     ],
     "playerScores": {
@@ -64,10 +64,10 @@
         "total": 23
       },
       "Aiden Markram": {
-        "batting": 12,
+        "batting": 30,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 30
       }
     }
   },
@@ -78,14 +78,14 @@
       "top11Points": 4606
     },
     {
+      "team": "Ritik",
+      "totalPointsAll": 4201,
+      "top11Points": 4201
+    },
+    {
       "team": "Tikoo",
       "totalPointsAll": 4478,
       "top11Points": 4195
-    },
-    {
-      "team": "Ritik",
-      "totalPointsAll": 4183,
-      "top11Points": 4183
     },
     {
       "team": "Aakash",
@@ -17507,17 +17507,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 171,
+          "r": 206,
           "w": 5,
-          "o": 14.1
+          "o": 17
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 171,
+          "runs": 206,
           "wickets": 5,
-          "overs": 14.1,
+          "overs": 17,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -17557,11 +17557,11 @@
             },
             {
               "name": "Aiden Markram",
-              "runs": 12,
-              "balls": 12,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 27,
+              "balls": 20,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 135,
               "dismissal": "batting"
             },
             {
@@ -17575,11 +17575,11 @@
             },
             {
               "name": "Himmat Singh",
-              "runs": 4,
-              "balls": 8,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 24,
+              "balls": 18,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -17602,11 +17602,11 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 50,
               "wickets": 1,
-              "economy": 11
+              "economy": 12.5
             },
             {
               "name": "Will Jacks",
@@ -17626,9 +17626,9 @@
             },
             {
               "name": "Raghu Sharma",
-              "overs": 2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 36,
               "wickets": 1,
               "economy": 9
             }
@@ -17685,10 +17685,10 @@
           "total": 23
         },
         "Aiden Markram": {
-          "batting": 12,
+          "batting": 30,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 30
         }
       },
       "isComplete": false
@@ -18546,8 +18546,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4183,
-      "top11Points": 4183,
+      "totalPointsAll": 4201,
+      "top11Points": 4201,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18607,12 +18607,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 254,
+          "batting": 272,
           "bowling": 20,
           "fielding": 40,
-          "rawPoints": 314,
+          "rawPoints": 332,
           "multiplier": 1,
-          "effectivePoints": 314,
+          "effectivePoints": 332,
           "countsInTop11": true
         },
         {
