@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T14:54:54.197Z",
+  "lastUpdated": "2026-05-04T15:04:54.029Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 127,
-        "w": 3,
-        "o": 9
+        "r": 157,
+        "w": 4,
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -29,9 +29,9 @@
       },
       "Will Jacks": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Deepak Chahar": {
         "batting": 0,
@@ -58,16 +58,16 @@
         "total": 105
       },
       "Rishabh Pant": {
-        "batting": 1,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 23
       },
       "Aiden Markram": {
-        "batting": 1,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 7
       }
     }
   },
@@ -84,8 +84,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4157,
-      "top11Points": 4157
+      "totalPointsAll": 4188,
+      "top11Points": 4188
     },
     {
       "team": "Aakash",
@@ -109,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3409,
-      "top11Points": 3361
+      "totalPointsAll": 3431,
+      "top11Points": 3383
     },
     {
       "team": "Tanay",
@@ -17507,17 +17507,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 127,
-          "w": 3,
-          "o": 9
+          "r": 157,
+          "w": 4,
+          "o": 11.1
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 127,
-          "wickets": 3,
-          "overs": 9,
+          "runs": 157,
+          "wickets": 4,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -17548,20 +17548,29 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 1,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 25,
-              "dismissal": "batting"
+              "runs": 15,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 150,
+              "dismissal": "c Ryan Rickelton b Will Jacks"
             },
             {
               "name": "Aiden Markram",
-              "runs": 1,
-              "balls": 1,
+              "runs": 7,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Akshat Raghuwanshi",
+              "runs": 6,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 600,
               "dismissal": "batting"
             }
           ],
@@ -17592,11 +17601,11 @@
             },
             {
               "name": "Will Jacks",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 20,
-              "wickets": 0,
-              "economy": 20
+              "runs": 33,
+              "wickets": 1,
+              "economy": 18
             },
             {
               "name": "Corbin Bosch",
@@ -17608,11 +17617,11 @@
             },
             {
               "name": "Raghu Sharma",
-              "overs": 0,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 14,
               "wickets": 0,
-              "economy": 0
+              "economy": 14
             }
           ]
         }
@@ -17632,9 +17641,9 @@
         },
         "Will Jacks": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Deepak Chahar": {
           "batting": 0,
@@ -17661,16 +17670,16 @@
           "total": 105
         },
         "Rishabh Pant": {
-          "batting": 1,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 23
         },
         "Aiden Markram": {
-          "batting": 1,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 7
         }
       },
       "isComplete": false
@@ -18103,8 +18112,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3409,
-      "top11Points": 3361,
+      "totalPointsAll": 3431,
+      "top11Points": 3383,
       "players": [
         {
           "name": "Shubman Gill",
@@ -18142,12 +18151,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 240,
+          "batting": 262,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 314,
+          "rawPoints": 336,
           "multiplier": 1,
-          "effectivePoints": 314,
+          "effectivePoints": 336,
           "countsInTop11": true
         },
         {
@@ -18528,8 +18537,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4157,
-      "top11Points": 4157,
+      "totalPointsAll": 4188,
+      "top11Points": 4188,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18589,12 +18598,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 243,
+          "batting": 249,
           "bowling": 20,
           "fielding": 40,
-          "rawPoints": 303,
+          "rawPoints": 309,
           "multiplier": 1,
-          "effectivePoints": 303,
+          "effectivePoints": 309,
           "countsInTop11": true
         },
         {
@@ -18634,11 +18643,11 @@
           "name": "Will Jacks",
           "role": "All-Rounder",
           "batting": 73,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 8,
-          "rawPoints": 81,
+          "rawPoints": 106,
           "multiplier": 1,
-          "effectivePoints": 81,
+          "effectivePoints": 106,
           "countsInTop11": true
         },
         {
