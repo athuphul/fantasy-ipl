@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T16:44:53.563Z",
+  "lastUpdated": "2026-05-04T16:54:53.700Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529290",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 87,
+        "r": 125,
         "w": 0,
-        "o": 7
+        "o": 9.1
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Rohit Sharma": {
-        "batting": 65,
+        "batting": 91,
         "bowling": 0,
         "fielding": 0,
-        "total": 65
+        "total": 91
       },
       "Suryakumar Yadav": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       }
     }
   },
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3162,
-      "top11Points": 3114
+      "totalPointsAll": 3186,
+      "top11Points": 3138
     }
   ],
   "matchHistory": [
@@ -17531,9 +17531,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 87,
+          "r": 125,
           "w": 0,
-          "o": 7
+          "o": 9.1
         },
         {
           "inning": "Lucknow Super Giants",
@@ -17666,26 +17666,26 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 87,
+          "runs": 125,
           "wickets": 0,
-          "overs": 7,
+          "overs": 9.1,
           "batting": [
             {
               "name": "Ryan Rickelton",
-              "runs": 42,
-              "balls": 19,
-              "fours": 4,
-              "sixes": 3,
-              "sr": 221.05,
+              "runs": 66,
+              "balls": 26,
+              "fours": 5,
+              "sixes": 6,
+              "sr": 253.85,
               "dismissal": "batting"
             },
             {
               "name": "Rohit Sharma",
-              "runs": 44,
-              "balls": 23,
-              "fours": 3,
-              "sixes": 4,
-              "sr": 191.3,
+              "runs": 57,
+              "balls": 30,
+              "fours": 4,
+              "sixes": 5,
+              "sr": 190,
               "dismissal": "batting"
             }
           ],
@@ -17708,37 +17708,37 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 1,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 10,
               "wickets": 0,
-              "economy": 6
+              "economy": 7.5
             },
             {
               "name": "Avesh Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
+              "runs": 32,
               "wickets": 0,
-              "economy": 21
+              "economy": 16
             },
             {
               "name": "Manimaran Siddharth",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 39,
               "wickets": 0,
-              "economy": 16
+              "economy": 19.5
             }
           ]
         }
       ],
       "playerScores": {
         "Rohit Sharma": {
-          "batting": 65,
+          "batting": 91,
           "bowling": 0,
           "fielding": 0,
-          "total": 65
+          "total": 91
         },
         "Suryakumar Yadav": {
           "batting": 0,
@@ -17802,9 +17802,9 @@
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         }
       },
       "isComplete": false
@@ -18789,8 +18789,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3162,
-      "top11Points": 3114,
+      "totalPointsAll": 3186,
+      "top11Points": 3138,
       "players": [
         {
           "name": "Travis Head",
@@ -18817,12 +18817,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 256,
+          "batting": 282,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 256,
+          "rawPoints": 282,
           "multiplier": 1.5,
-          "effectivePoints": 384,
+          "effectivePoints": 423,
           "countsInTop11": true
         },
         {
@@ -18873,11 +18873,11 @@
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
-          "bowling": 115,
+          "bowling": 100,
           "fielding": 8,
-          "rawPoints": 130,
+          "rawPoints": 115,
           "multiplier": 1,
-          "effectivePoints": 130,
+          "effectivePoints": 115,
           "countsInTop11": true
         },
         {
