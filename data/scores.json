@@ -1,100 +1,7 @@
 {
-  "lastUpdated": "2026-05-04T17:44:54.442Z",
+  "lastUpdated": "2026-05-04T17:55:11.574Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529290",
-    "name": "Mumbai Indians v Lucknow Super Giants",
-    "status": "Live",
-    "venue": "Wankhede Stadium, Mumbai",
-    "score": [
-      {
-        "inning": "Mumbai Indians",
-        "r": 213,
-        "w": 4,
-        "o": 17.4
-      },
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 228,
-        "w": 5,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Rohit Sharma": {
-        "batting": 124,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 124
-      },
-      "Tilak Varma": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 6
-      },
-      "Suryakumar Yadav": {
-        "batting": 14,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 22
-      },
-      "Will Jacks": {
-        "batting": 1,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 11
-      },
-      "Deepak Chahar": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "Mitchell Marsh": {
-        "batting": 64,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 64
-      },
-      "Nicholas Pooran": {
-        "batting": 105,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 113
-      },
-      "Rishabh Pant": {
-        "batting": 23,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 23
-      },
-      "Aiden Markram": {
-        "batting": 34,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 42
-      },
-      "Mohammed Shami": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 8,
-        "total": 23
-      },
-      "Avesh Khan": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -103,8 +10,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4219,
-      "top11Points": 4219
+      "totalPointsAll": 4230,
+      "top11Points": 4230
     },
     {
       "team": "Tikoo",
@@ -17526,14 +17433,14 @@
       "matchId": "espn_1529290",
       "name": "Mumbai Indians v Lucknow Super Giants",
       "date": "2026-05-04",
-      "status": "Live",
+      "status": "Final",
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 213,
+          "r": 229,
           "w": 4,
-          "o": 17.4
+          "o": 18.4
         },
         {
           "inning": "Lucknow Super Giants",
@@ -17666,9 +17573,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 213,
+          "runs": 229,
           "wickets": 4,
-          "overs": 17.4,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -17708,31 +17615,31 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 18,
-              "balls": 10,
-              "fours": 2,
+              "runs": 23,
+              "balls": 12,
+              "fours": 3,
               "sixes": 1,
-              "sr": 180,
-              "dismissal": "batting"
+              "sr": 191.67,
+              "dismissal": "not out"
             },
             {
               "name": "Will Jacks",
-              "runs": 1,
-              "balls": 1,
+              "runs": 10,
+              "balls": 4,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 250,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 49,
+              "runs": 53,
               "wickets": 1,
-              "economy": 12.78
+              "economy": 13.25
             },
             {
               "name": "Mohsin Khan",
@@ -17752,11 +17659,11 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 45,
+              "runs": 56,
               "wickets": 0,
-              "economy": 15
+              "economy": 15.27
             },
             {
               "name": "Manimaran Siddharth",
@@ -17789,10 +17696,10 @@
           "total": 22
         },
         "Will Jacks": {
-          "batting": 1,
+          "batting": 12,
           "bowling": 10,
           "fielding": 0,
-          "total": 11
+          "total": 22
         },
         "Deepak Chahar": {
           "batting": 0,
@@ -17843,7 +17750,7 @@
           "total": -15
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -18698,8 +18605,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4219,
-      "top11Points": 4219,
+      "totalPointsAll": 4230,
+      "top11Points": 4230,
       "players": [
         {
           "name": "Jos Buttler",
@@ -18803,12 +18710,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 74,
+          "batting": 85,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 92,
+          "rawPoints": 103,
           "multiplier": 1,
-          "effectivePoints": 92,
+          "effectivePoints": 103,
           "countsInTop11": true
         },
         {
