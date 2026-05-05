@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T16:14:56.346Z",
+  "lastUpdated": "2026-05-05T16:25:07.260Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 22,
-        "w": 0,
-        "o": 3
+        "r": 29,
+        "w": 1,
+        "o": 5.2
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Axar Patel": {
         "batting": 2,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 2
+        "total": 7
       },
       "Tristan Stubbs": {
         "batting": 43,
@@ -48,8 +48,8 @@
       "Sameer Rizvi": {
         "batting": 53,
         "bowling": 0,
-        "fielding": 0,
-        "total": 53
+        "fielding": 8,
+        "total": 61
       },
       "Ashutosh Sharma": {
         "batting": 18,
@@ -59,9 +59,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -76,10 +76,10 @@
         "total": 0
       },
       "Sanju Samson": {
-        "batting": 12,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 10
       },
       "Ruturaj Gaikwad": {
         "batting": -3,
@@ -115,8 +115,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4557,
-      "top11Points": 4274
+      "totalPointsAll": 4578,
+      "top11Points": 4295
     },
     {
       "team": "Ritik",
@@ -125,8 +125,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3887,
-      "top11Points": 3851
+      "totalPointsAll": 3895,
+      "top11Points": 3859
     },
     {
       "team": "Kishan",
@@ -135,8 +135,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3698,
-      "top11Points": 3637
+      "totalPointsAll": 3708,
+      "top11Points": 3647
     },
     {
       "team": "Athu",
@@ -17872,9 +17872,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 22,
-          "w": 0,
-          "o": 3
+          "r": 29,
+          "w": 1,
+          "o": 5.2
         }
       ],
       "scorecard": [
@@ -18019,24 +18019,33 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 22,
-          "wickets": 0,
-          "overs": 3,
+          "runs": 29,
+          "wickets": 1,
+          "overs": 5.2,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 10,
-              "balls": 8,
+              "runs": 13,
+              "balls": 14,
               "fours": 0,
               "sixes": 1,
-              "sr": 125,
+              "sr": 92.86,
               "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
               "runs": 6,
-              "balls": 10,
+              "balls": 13,
               "fours": 1,
+              "sixes": 0,
+              "sr": 46.15,
+              "dismissal": "c Sameer Rizvi b Lungi Ngidi"
+            },
+            {
+              "name": "Urvil Patel",
+              "runs": 3,
+              "balls": 5,
+              "fours": 0,
               "sixes": 0,
               "sr": 60,
               "dismissal": "batting"
@@ -18053,11 +18062,19 @@
             },
             {
               "name": "Axar Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 16,
               "wickets": 0,
-              "economy": 12
+              "economy": 8
+            },
+            {
+              "name": "Lungi Ngidi",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 1,
+              "economy": 1.5
             }
           ]
         }
@@ -18077,9 +18094,9 @@
         },
         "Axar Patel": {
           "batting": 2,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 2
+          "total": 7
         },
         "Tristan Stubbs": {
           "batting": 43,
@@ -18090,8 +18107,8 @@
         "Sameer Rizvi": {
           "batting": 53,
           "bowling": 0,
-          "fielding": 0,
-          "total": 53
+          "fielding": 8,
+          "total": 61
         },
         "Ashutosh Sharma": {
           "batting": 18,
@@ -18101,9 +18118,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -18118,10 +18135,10 @@
           "total": 0
         },
         "Sanju Samson": {
-          "batting": 12,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 10
         },
         "Ruturaj Gaikwad": {
           "batting": -3,
@@ -18302,8 +18319,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3887,
-      "top11Points": 3851,
+      "totalPointsAll": 3895,
+      "top11Points": 3859,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18339,6 +18356,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sameer Rizvi",
+          "role": "Batsman",
+          "batting": 323,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 347,
+          "multiplier": 1,
+          "effectivePoints": 347,
+          "countsInTop11": true
+        },
+        {
           "name": "Tilak Varma",
           "role": "Batsman",
           "batting": 286,
@@ -18347,17 +18375,6 @@
           "rawPoints": 342,
           "multiplier": 1,
           "effectivePoints": 342,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sameer Rizvi",
-          "role": "Batsman",
-          "batting": 323,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 339,
-          "multiplier": 1,
-          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -18843,18 +18860,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3698,
-      "top11Points": 3637,
+      "totalPointsAll": 3708,
+      "top11Points": 3647,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 26,
-          "bowling": 245,
+          "bowling": 250,
           "fielding": 16,
-          "rawPoints": 287,
+          "rawPoints": 292,
           "multiplier": 2,
-          "effectivePoints": 574,
+          "effectivePoints": 584,
           "countsInTop11": true
         },
         {
@@ -19268,18 +19285,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4557,
-      "top11Points": 4274,
+      "totalPointsAll": 4578,
+      "top11Points": 4295,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 492,
+          "batting": 490,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 526,
+          "rawPoints": 524,
           "multiplier": 2,
-          "effectivePoints": 1052,
+          "effectivePoints": 1048,
           "countsInTop11": true
         },
         {
@@ -19349,6 +19366,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": -2,
+          "bowling": 225,
+          "fielding": 5,
+          "rawPoints": 228,
+          "multiplier": 1,
+          "effectivePoints": 228,
+          "countsInTop11": true
+        },
+        {
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 40,
@@ -19357,17 +19385,6 @@
           "rawPoints": 214,
           "multiplier": 1,
           "effectivePoints": 214,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": -2,
-          "bowling": 200,
-          "fielding": 5,
-          "rawPoints": 203,
-          "multiplier": 1,
-          "effectivePoints": 203,
           "countsInTop11": true
         },
         {
