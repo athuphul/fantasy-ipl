@@ -1,112 +1,7 @@
 {
-  "lastUpdated": "2026-05-05T17:24:54.297Z",
+  "lastUpdated": "2026-05-05T17:34:55.676Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529291",
-    "name": "Delhi Capitals v Chennai Super Kings",
-    "status": "Live",
-    "venue": "Arun Jaitley Stadium, Delhi",
-    "score": [
-      {
-        "inning": "Delhi Capitals",
-        "r": 155,
-        "w": 7,
-        "o": 20
-      },
-      {
-        "inning": "Chennai Super Kings",
-        "r": 144,
-        "w": 2,
-        "o": 16.2
-      }
-    ],
-    "playerScores": {
-      "KL Rahul": {
-        "batting": 9,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 19
-      },
-      "Nitish Rana": {
-        "batting": 17,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 17
-      },
-      "Axar Patel": {
-        "batting": 2,
-        "bowling": 37,
-        "fielding": 0,
-        "total": 39
-      },
-      "Tristan Stubbs": {
-        "batting": 43,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 43
-      },
-      "Sameer Rizvi": {
-        "batting": 53,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 61
-      },
-      "Ashutosh Sharma": {
-        "batting": 18,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 18
-      },
-      "Lungi Ngidi": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Kuldeep Yadav": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      },
-      "T Natarajan": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      },
-      "Sanju Samson": {
-        "batting": 118,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 118
-      },
-      "Ruturaj Gaikwad": {
-        "batting": -3,
-        "bowling": 0,
-        "fielding": 18,
-        "total": 15
-      },
-      "Kartik Sharma": {
-        "batting": 34,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 42
-      },
-      "Dewald Brevis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 55,
-        "fielding": 0,
-        "total": 55
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -115,8 +10,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4799,
-      "top11Points": 4516
+      "totalPointsAll": 4805,
+      "top11Points": 4522
     },
     {
       "team": "Ritik",
@@ -150,8 +45,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3296,
-      "top11Points": 3248
+      "totalPointsAll": 3311,
+      "top11Points": 3263
     }
   ],
   "matchHistory": [
@@ -17861,7 +17756,7 @@
       "matchId": "espn_1529291",
       "name": "Delhi Capitals v Chennai Super Kings",
       "date": "2026-05-05",
-      "status": "Live",
+      "status": "Final",
       "venue": "Arun Jaitley Stadium, Delhi",
       "score": [
         {
@@ -17872,9 +17767,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 144,
+          "r": 159,
           "w": 2,
-          "o": 16.2
+          "o": 17.3
         }
       ],
       "scorecard": [
@@ -18019,18 +17914,18 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 144,
+          "runs": 159,
           "wickets": 2,
-          "overs": 16.2,
+          "overs": 17.3,
           "batting": [
             {
               "name": "Sanju Samson",
-              "runs": 84,
-              "balls": 50,
+              "runs": 87,
+              "balls": 52,
               "fours": 7,
               "sixes": 6,
-              "sr": 168,
-              "dismissal": "batting"
+              "sr": 167.31,
+              "dismissal": "not out"
             },
             {
               "name": "Ruturaj Gaikwad",
@@ -18052,20 +17947,20 @@
             },
             {
               "name": "Kartik Sharma",
-              "runs": 29,
-              "balls": 26,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 111.54,
-              "dismissal": "batting"
+              "runs": 41,
+              "balls": 31,
+              "fours": 4,
+              "sixes": 2,
+              "sr": 132.26,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
+              "runs": 30,
               "wickets": 0,
               "economy": 7.5
             },
@@ -18095,11 +17990,11 @@
             },
             {
               "name": "T Natarajan",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 29,
+              "runs": 39,
               "wickets": 0,
-              "economy": 14.5
+              "economy": 15.6
             }
           ]
         }
@@ -18160,10 +18055,10 @@
           "total": -15
         },
         "Sanju Samson": {
-          "batting": 118,
+          "batting": 121,
           "bowling": 0,
           "fielding": 0,
-          "total": 118
+          "total": 121
         },
         "Ruturaj Gaikwad": {
           "batting": -3,
@@ -18172,10 +18067,10 @@
           "total": 15
         },
         "Kartik Sharma": {
-          "batting": 34,
+          "batting": 49,
           "bowling": 0,
           "fielding": 8,
-          "total": 42
+          "total": 57
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -18190,7 +18085,7 @@
           "total": 55
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -19172,8 +19067,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3296,
-      "top11Points": 3248,
+      "totalPointsAll": 3311,
+      "top11Points": 3263,
       "players": [
         {
           "name": "Travis Head",
@@ -19244,12 +19139,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 172,
+          "batting": 187,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 180,
+          "rawPoints": 195,
           "multiplier": 1,
-          "effectivePoints": 180,
+          "effectivePoints": 195,
           "countsInTop11": true
         },
         {
@@ -19310,18 +19205,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4799,
-      "top11Points": 4516,
+      "totalPointsAll": 4805,
+      "top11Points": 4522,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 598,
+          "batting": 601,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 632,
+          "rawPoints": 635,
           "multiplier": 2,
-          "effectivePoints": 1264,
+          "effectivePoints": 1270,
           "countsInTop11": true
         },
         {
