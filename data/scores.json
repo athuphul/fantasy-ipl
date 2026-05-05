@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T14:34:57.058Z",
+  "lastUpdated": "2026-05-05T14:44:55.088Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 45,
-        "w": 2,
-        "o": 6.6
+        "r": 56,
+        "w": 3,
+        "o": 8.4
       }
     ],
     "playerScores": {
@@ -22,10 +22,16 @@
         "total": 9
       },
       "Nitish Rana": {
-        "batting": 7,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 10
+      },
+      "Axar Patel": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Sanju Samson": {
         "batting": 0,
@@ -53,9 +59,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
@@ -72,13 +78,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4478,
-      "top11Points": 4195
+      "totalPointsAll": 4503,
+      "top11Points": 4220
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3824,
-      "top11Points": 3788
+      "totalPointsAll": 3827,
+      "top11Points": 3791
     },
     {
       "team": "Kishan",
@@ -87,8 +93,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3683,
-      "top11Points": 3622
+      "totalPointsAll": 3685,
+      "top11Points": 3624
     },
     {
       "team": "Athu",
@@ -17818,17 +17824,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 45,
-          "w": 2,
-          "o": 6.6
+          "r": 56,
+          "w": 3,
+          "o": 8.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 45,
-          "wickets": 2,
-          "overs": 6.6,
+          "runs": 56,
+          "wickets": 3,
+          "overs": 8.4,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -17850,20 +17856,29 @@
             },
             {
               "name": "Nitish Rana",
-              "runs": 6,
-              "balls": 5,
+              "runs": 9,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 120,
+              "sr": 112.5,
               "dismissal": "batting"
             },
             {
               "name": "Karun Nair",
-              "runs": 8,
-              "balls": 9,
-              "fours": 1,
+              "runs": 13,
+              "balls": 13,
+              "fours": 2,
               "sixes": 0,
-              "sr": 88.89,
+              "sr": 100,
+              "dismissal": "c Gurjapneet Singh b Noor Ahmad"
+            },
+            {
+              "name": "Axar Patel",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -17891,6 +17906,22 @@
               "runs": 15,
               "wickets": 0,
               "economy": 7.5
+            },
+            {
+              "name": "Noor Ahmad",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
+            },
+            {
+              "name": "Gurjapneet Singh",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -17903,10 +17934,16 @@
           "total": 9
         },
         "Nitish Rana": {
-          "batting": 7,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 10
+        },
+        "Axar Patel": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Sanju Samson": {
           "batting": 0,
@@ -17934,9 +17971,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -18093,8 +18130,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3824,
-      "top11Points": 3788,
+      "totalPointsAll": 3827,
+      "top11Points": 3791,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18143,12 +18180,12 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 298,
+          "batting": 301,
           "bowling": -10,
           "fielding": 34,
-          "rawPoints": 322,
+          "rawPoints": 325,
           "multiplier": 1,
-          "effectivePoints": 322,
+          "effectivePoints": 325,
           "countsInTop11": true
         },
         {
@@ -18634,18 +18671,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3683,
-      "top11Points": 3622,
+      "totalPointsAll": 3685,
+      "top11Points": 3624,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 24,
+          "batting": 25,
           "bowling": 245,
           "fielding": 16,
-          "rawPoints": 285,
+          "rawPoints": 286,
           "multiplier": 2,
-          "effectivePoints": 570,
+          "effectivePoints": 572,
           "countsInTop11": true
         },
         {
@@ -19059,8 +19096,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4478,
-      "top11Points": 4195,
+      "totalPointsAll": 4503,
+      "top11Points": 4220,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19096,6 +19133,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Noor Ahmad",
+          "role": "Spinner",
+          "batting": 12,
+          "bowling": 287,
+          "fielding": 32,
+          "rawPoints": 331,
+          "multiplier": 1,
+          "effectivePoints": 331,
+          "countsInTop11": true
+        },
+        {
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
@@ -19104,17 +19152,6 @@
           "rawPoints": 325,
           "multiplier": 1,
           "effectivePoints": 325,
-          "countsInTop11": true
-        },
-        {
-          "name": "Noor Ahmad",
-          "role": "Spinner",
-          "batting": 12,
-          "bowling": 262,
-          "fielding": 32,
-          "rawPoints": 306,
-          "multiplier": 1,
-          "effectivePoints": 306,
           "countsInTop11": true
         },
         {
