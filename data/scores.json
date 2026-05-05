@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T14:05:32.205Z",
+  "lastUpdated": "2026-05-05T14:14:54.587Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 8,
+        "r": 19,
         "w": 0,
-        "o": 1
+        "o": 3
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 0,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Sanju Samson": {
         "batting": 0,
@@ -56,8 +56,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4586,
-      "top11Points": 4606
+      "totalPointsAll": 4610,
+      "top11Points": 4630
     },
     {
       "team": "Ritik",
@@ -17812,55 +17812,63 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 8,
+          "r": 19,
           "w": 0,
-          "o": 1
+          "o": 3
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 8,
+          "runs": 19,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 8,
-              "balls": 6,
+              "runs": 9,
+              "balls": 9,
               "fours": 2,
               "sixes": 0,
-              "sr": 133.33,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 10,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
+              "sr": 111.11,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Mukesh Choudhary",
               "overs": 1,
               "maidens": 0,
-              "runs": 8,
+              "runs": 5,
               "wickets": 0,
-              "economy": 8
+              "economy": 5
             }
           ]
         }
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 0,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Sanju Samson": {
           "batting": 0,
@@ -18185,18 +18193,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4586,
-      "top11Points": 4606,
+      "totalPointsAll": 4610,
+      "top11Points": 4630,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 643,
+          "batting": 655,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 669,
+          "rawPoints": 681,
           "multiplier": 2,
-          "effectivePoints": 1338,
+          "effectivePoints": 1362,
           "countsInTop11": true
         },
         {
