@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T15:54:53.944Z",
+  "lastUpdated": "2026-05-05T16:04:54.518Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -12,6 +12,12 @@
         "r": 155,
         "w": 7,
         "o": 20
+      },
+      {
+        "inning": "Chennai Super Kings",
+        "r": 3,
+        "w": 0,
+        "o": 0.6
       }
     ],
     "playerScores": {
@@ -51,17 +57,35 @@
         "fielding": 0,
         "total": 18
       },
-      "Sanju Samson": {
+      "Lungi Ngidi": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
-      "Ruturaj Gaikwad": {
+      "Kuldeep Yadav": {
         "batting": 0,
         "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "T Natarajan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sanju Samson": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 1,
+        "bowling": 0,
         "fielding": 18,
-        "total": 18
+        "total": 19
       },
       "Kartik Sharma": {
         "batting": 0,
@@ -91,8 +115,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4533,
-      "top11Points": 4250
+      "totalPointsAll": 4535,
+      "top11Points": 4252
     },
     {
       "team": "Ritik",
@@ -111,8 +135,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3702,
-      "top11Points": 3641
+      "totalPointsAll": 3704,
+      "top11Points": 3643
     },
     {
       "team": "Athu",
@@ -17845,6 +17869,12 @@
           "r": 155,
           "w": 7,
           "o": 20
+        },
+        {
+          "inning": "Chennai Super Kings",
+          "r": 3,
+          "w": 0,
+          "o": 0.6
         }
       ],
       "scorecard": [
@@ -17986,6 +18016,42 @@
               "economy": 5
             }
           ]
+        },
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 3,
+          "wickets": 0,
+          "overs": 0.6,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mitchell Starc",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 2.4
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -18025,17 +18091,35 @@
           "fielding": 0,
           "total": 18
         },
-        "Sanju Samson": {
+        "Lungi Ngidi": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
-        "Ruturaj Gaikwad": {
+        "Kuldeep Yadav": {
           "batting": 0,
           "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "T Natarajan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sanju Samson": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 1,
+          "bowling": 0,
           "fielding": 18,
-          "total": 18
+          "total": 19
         },
         "Kartik Sharma": {
           "batting": 0,
@@ -18751,8 +18835,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3702,
-      "top11Points": 3641,
+      "totalPointsAll": 3704,
+      "top11Points": 3643,
       "players": [
         {
           "name": "Axar Patel",
@@ -18768,12 +18852,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 293,
+          "batting": 294,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 348,
+          "rawPoints": 349,
           "multiplier": 1.5,
-          "effectivePoints": 522,
+          "effectivePoints": 524,
           "countsInTop11": true
         },
         {
@@ -19176,18 +19260,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4533,
-      "top11Points": 4250,
+      "totalPointsAll": 4535,
+      "top11Points": 4252,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 480,
+          "batting": 481,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 514,
+          "rawPoints": 515,
           "multiplier": 2,
-          "effectivePoints": 1028,
+          "effectivePoints": 1030,
           "countsInTop11": true
         },
         {
