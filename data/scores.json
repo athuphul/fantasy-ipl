@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T15:34:56.525Z",
+  "lastUpdated": "2026-05-05T15:44:53.779Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 132,
-        "w": 5,
-        "o": 18.2
+        "r": 155,
+        "w": 7,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -34,16 +34,22 @@
         "total": 2
       },
       "Tristan Stubbs": {
-        "batting": 42,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 42
-      },
-      "Sameer Rizvi": {
         "batting": 43,
         "bowling": 0,
         "fielding": 0,
         "total": 43
+      },
+      "Sameer Rizvi": {
+        "batting": 53,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 53
+      },
+      "Ashutosh Sharma": {
+        "batting": 18,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 18
       },
       "Sanju Samson": {
         "batting": 0,
@@ -54,8 +60,8 @@
       "Ruturaj Gaikwad": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 18,
+        "total": 18
       },
       "Kartik Sharma": {
         "batting": 0,
@@ -80,8 +86,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4646,
-      "top11Points": 4666
+      "totalPointsAll": 4647,
+      "top11Points": 4667
     },
     {
       "team": "Tikoo",
@@ -95,8 +101,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3877,
-      "top11Points": 3841
+      "totalPointsAll": 3887,
+      "top11Points": 3851
     },
     {
       "team": "Kishan",
@@ -105,8 +111,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3687,
-      "top11Points": 3626
+      "totalPointsAll": 3702,
+      "top11Points": 3641
     },
     {
       "team": "Athu",
@@ -120,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3244,
-      "top11Points": 3196
+      "totalPointsAll": 3262,
+      "top11Points": 3214
     }
   ],
   "matchHistory": [
@@ -17836,17 +17842,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 132,
-          "w": 5,
-          "o": 18.2
+          "r": 155,
+          "w": 7,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 132,
-          "wickets": 5,
-          "overs": 18.2,
+          "runs": 155,
+          "wickets": 7,
+          "overs": 20,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -17895,20 +17901,38 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 37,
-              "balls": 29,
+              "runs": 38,
+              "balls": 31,
               "fours": 1,
               "sixes": 2,
-              "sr": 127.59,
-              "dismissal": "batting"
+              "sr": 122.58,
+              "dismissal": "c Mukesh Choudhary b Jamie Overton"
             },
             {
               "name": "Sameer Rizvi",
-              "runs": 32,
-              "balls": 21,
+              "runs": 40,
+              "balls": 24,
               "fours": 0,
-              "sixes": 3,
-              "sr": 152.38,
+              "sixes": 4,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "runs": 14,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 280,
+              "dismissal": "run out (Ruturaj Gaikwad)"
+            },
+            {
+              "name": "Mitchell Starc",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -17931,11 +17955,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
+              "runs": 49,
               "wickets": 0,
-              "economy": 9.67
+              "economy": 12.25
             },
             {
               "name": "Noor Ahmad",
@@ -17955,11 +17979,11 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 0,
-              "economy": 6
+              "runs": 5,
+              "wickets": 1,
+              "economy": 5
             }
           ]
         }
@@ -17984,16 +18008,22 @@
           "total": 2
         },
         "Tristan Stubbs": {
-          "batting": 42,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 42
-        },
-        "Sameer Rizvi": {
           "batting": 43,
           "bowling": 0,
           "fielding": 0,
           "total": 43
+        },
+        "Sameer Rizvi": {
+          "batting": 53,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 53
+        },
+        "Ashutosh Sharma": {
+          "batting": 18,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 18
         },
         "Sanju Samson": {
           "batting": 0,
@@ -18004,8 +18034,8 @@
         "Ruturaj Gaikwad": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 18,
+          "total": 18
         },
         "Kartik Sharma": {
           "batting": 0,
@@ -18180,8 +18210,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3877,
-      "top11Points": 3841,
+      "totalPointsAll": 3887,
+      "top11Points": 3851,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18228,6 +18258,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Sameer Rizvi",
+          "role": "Batsman",
+          "batting": 323,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 339,
+          "multiplier": 1,
+          "effectivePoints": 339,
+          "countsInTop11": true
+        },
+        {
           "name": "Nitish Rana",
           "role": "Batsman",
           "batting": 308,
@@ -18236,17 +18277,6 @@
           "rawPoints": 332,
           "multiplier": 1,
           "effectivePoints": 332,
-          "countsInTop11": true
-        },
-        {
-          "name": "Sameer Rizvi",
-          "role": "Batsman",
-          "batting": 313,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 329,
-          "multiplier": 1,
-          "effectivePoints": 329,
           "countsInTop11": true
         },
         {
@@ -18318,8 +18348,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4646,
-      "top11Points": 4666,
+      "totalPointsAll": 4647,
+      "top11Points": 4667,
       "players": [
         {
           "name": "KL Rahul",
@@ -18357,12 +18387,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 326,
+          "batting": 327,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 366,
+          "rawPoints": 367,
           "multiplier": 1,
-          "effectivePoints": 366,
+          "effectivePoints": 367,
           "countsInTop11": true
         },
         {
@@ -18721,8 +18751,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3687,
-      "top11Points": 3626,
+      "totalPointsAll": 3702,
+      "top11Points": 3641,
       "players": [
         {
           "name": "Axar Patel",
@@ -18736,6 +18766,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ruturaj Gaikwad",
+          "role": "Batsman",
+          "batting": 293,
+          "bowling": 0,
+          "fielding": 55,
+          "rawPoints": 348,
+          "multiplier": 1.5,
+          "effectivePoints": 522,
+          "countsInTop11": true
+        },
+        {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
           "batting": 376,
@@ -18744,17 +18785,6 @@
           "rawPoints": 518,
           "multiplier": 1,
           "effectivePoints": 518,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ruturaj Gaikwad",
-          "role": "Batsman",
-          "batting": 293,
-          "bowling": 0,
-          "fielding": 45,
-          "rawPoints": 338,
-          "multiplier": 1.5,
-          "effectivePoints": 507,
           "countsInTop11": true
         },
         {
@@ -19008,8 +19038,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3244,
-      "top11Points": 3196,
+      "totalPointsAll": 3262,
+      "top11Points": 3214,
       "players": [
         {
           "name": "Travis Head",
@@ -19089,6 +19119,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 102,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 118,
+          "multiplier": 1,
+          "effectivePoints": 118,
+          "countsInTop11": true
+        },
+        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
@@ -19097,17 +19138,6 @@
           "rawPoints": 115,
           "multiplier": 1,
           "effectivePoints": 115,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 84,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 100,
-          "multiplier": 1,
-          "effectivePoints": 100,
           "countsInTop11": true
         },
         {
