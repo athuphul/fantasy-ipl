@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T14:14:54.587Z",
+  "lastUpdated": "2026-05-05T14:25:06.766Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -9,17 +9,23 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 19,
-        "w": 0,
-        "o": 3
+        "r": 36,
+        "w": 1,
+        "o": 5
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 12,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 14
+      },
+      "Nitish Rana": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Sanju Samson": {
         "batting": 0,
@@ -42,8 +48,8 @@
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -56,8 +62,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4610,
-      "top11Points": 4630
+      "totalPointsAll": 4614,
+      "top11Points": 4634
     },
     {
       "team": "Ritik",
@@ -71,8 +77,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3817,
-      "top11Points": 3781
+      "totalPointsAll": 3823,
+      "top11Points": 3787
     },
     {
       "team": "Kishan",
@@ -91,8 +97,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3431,
-      "top11Points": 3383
+      "totalPointsAll": 3439,
+      "top11Points": 3391
     },
     {
       "team": "Tanay",
@@ -17812,34 +17818,43 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 19,
-          "w": 0,
-          "o": 3
+          "r": 36,
+          "w": 1,
+          "o": 5
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 19,
-          "wickets": 0,
-          "overs": 3,
+          "runs": 36,
+          "wickets": 1,
+          "overs": 5,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 9,
-              "balls": 9,
+              "runs": 19,
+              "balls": 15,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 126.67,
+              "dismissal": "c Dewald Brevis b Mukesh Choudhary"
+            },
+            {
+              "name": "KL Rahul",
+              "runs": 12,
+              "balls": 12,
               "fours": 2,
               "sixes": 0,
               "sr": 100,
               "dismissal": "batting"
             },
             {
-              "name": "KL Rahul",
-              "runs": 10,
-              "balls": 9,
-              "fours": 2,
+              "name": "Nitish Rana",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
               "sixes": 0,
-              "sr": 111.11,
+              "sr": 166.67,
               "dismissal": "batting"
             }
           ],
@@ -17854,21 +17869,35 @@
             },
             {
               "name": "Mukesh Choudhary",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 1,
+              "economy": 7.5
+            },
+            {
+              "name": "Anshul Kamboj",
               "overs": 1,
               "maidens": 0,
-              "runs": 5,
+              "runs": 7,
               "wickets": 0,
-              "economy": 5
+              "economy": 7
             }
           ]
         }
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 12,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 14
+        },
+        "Nitish Rana": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Sanju Samson": {
           "batting": 0,
@@ -17891,8 +17920,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -18055,8 +18084,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3817,
-      "top11Points": 3781,
+      "totalPointsAll": 3823,
+      "top11Points": 3787,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18105,12 +18134,12 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 291,
+          "batting": 297,
           "bowling": -10,
           "fielding": 34,
-          "rawPoints": 315,
+          "rawPoints": 321,
           "multiplier": 1,
-          "effectivePoints": 315,
+          "effectivePoints": 321,
           "countsInTop11": true
         },
         {
@@ -18193,18 +18222,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4610,
-      "top11Points": 4630,
+      "totalPointsAll": 4614,
+      "top11Points": 4634,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 655,
+          "batting": 657,
           "bowling": 0,
           "fielding": 26,
-          "rawPoints": 681,
+          "rawPoints": 683,
           "multiplier": 2,
-          "effectivePoints": 1362,
+          "effectivePoints": 1366,
           "countsInTop11": true
         },
         {
@@ -18331,8 +18360,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3431,
-      "top11Points": 3383,
+      "totalPointsAll": 3439,
+      "top11Points": 3391,
       "players": [
         {
           "name": "Shubman Gill",
@@ -18405,10 +18434,10 @@
           "role": "Batsman",
           "batting": 82,
           "bowling": 0,
-          "fielding": 80,
-          "rawPoints": 162,
+          "fielding": 88,
+          "rawPoints": 170,
           "multiplier": 1,
-          "effectivePoints": 162,
+          "effectivePoints": 170,
           "countsInTop11": true
         },
         {
