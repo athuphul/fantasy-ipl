@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T14:44:55.088Z",
+  "lastUpdated": "2026-05-05T14:54:56.648Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529291",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 56,
-        "w": 3,
-        "o": 8.4
+        "r": 69,
+        "w": 4,
+        "o": 10.4
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 9
       },
       "Nitish Rana": {
-        "batting": 10,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 17
       },
       "Axar Patel": {
-        "batting": 1,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 2
+      },
+      "Tristan Stubbs": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
       },
       "Sanju Samson": {
         "batting": 0,
@@ -48,8 +54,8 @@
       "Kartik Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Dewald Brevis": {
         "batting": 0,
@@ -59,17 +65,22 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 70,
         "fielding": 0,
-        "total": 25
+        "total": 70
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4604,
-      "top11Points": 4624
+      "totalPointsAll": 4613,
+      "top11Points": 4633
+    },
+    {
+      "team": "Tikoo",
+      "totalPointsAll": 4548,
+      "top11Points": 4265
     },
     {
       "team": "Ritik",
@@ -77,14 +88,9 @@
       "top11Points": 4230
     },
     {
-      "team": "Tikoo",
-      "totalPointsAll": 4503,
-      "top11Points": 4220
-    },
-    {
       "team": "Aakash",
-      "totalPointsAll": 3827,
-      "top11Points": 3791
+      "totalPointsAll": 3834,
+      "top11Points": 3798
     },
     {
       "team": "Kishan",
@@ -93,8 +99,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3685,
-      "top11Points": 3624
+      "totalPointsAll": 3687,
+      "top11Points": 3626
     },
     {
       "team": "Athu",
@@ -108,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3236,
-      "top11Points": 3188
+      "totalPointsAll": 3244,
+      "top11Points": 3196
     }
   ],
   "matchHistory": [
@@ -17824,17 +17830,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 56,
-          "w": 3,
-          "o": 8.4
+          "r": 69,
+          "w": 4,
+          "o": 10.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 56,
-          "wickets": 3,
-          "overs": 8.4,
+          "runs": 69,
+          "wickets": 4,
+          "overs": 10.4,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -17856,12 +17862,12 @@
             },
             {
               "name": "Nitish Rana",
-              "runs": 9,
-              "balls": 8,
-              "fours": 1,
+              "runs": 15,
+              "balls": 13,
+              "fours": 2,
               "sixes": 0,
-              "sr": 112.5,
-              "dismissal": "batting"
+              "sr": 115.38,
+              "dismissal": "c Kartik Sharma b Noor Ahmad"
             },
             {
               "name": "Karun Nair",
@@ -17874,11 +17880,20 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 1,
-              "balls": 1,
+              "runs": 2,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tristan Stubbs",
+              "runs": 7,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 140,
               "dismissal": "batting"
             }
           ],
@@ -17909,19 +17924,19 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
-              "wickets": 1,
-              "economy": 7
+              "runs": 12,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Gurjapneet Singh",
-              "overs": 0.2,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 2,
+              "runs": 11,
               "wickets": 0,
-              "economy": 6
+              "economy": 7.33
             }
           ]
         }
@@ -17934,16 +17949,22 @@
           "total": 9
         },
         "Nitish Rana": {
-          "batting": 10,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 17
         },
         "Axar Patel": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 2
+        },
+        "Tristan Stubbs": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
         },
         "Sanju Samson": {
           "batting": 0,
@@ -17960,8 +17981,8 @@
         "Kartik Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -17971,9 +17992,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 70,
           "fielding": 0,
-          "total": 25
+          "total": 70
         }
       },
       "isComplete": false
@@ -18130,8 +18151,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3827,
-      "top11Points": 3791,
+      "totalPointsAll": 3834,
+      "top11Points": 3798,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18180,12 +18201,12 @@
         {
           "name": "Nitish Rana",
           "role": "Batsman",
-          "batting": 301,
+          "batting": 308,
           "bowling": -10,
           "fielding": 34,
-          "rawPoints": 325,
+          "rawPoints": 332,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 332,
           "countsInTop11": true
         },
         {
@@ -18268,8 +18289,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4604,
-      "top11Points": 4624,
+      "totalPointsAll": 4613,
+      "top11Points": 4633,
       "players": [
         {
           "name": "KL Rahul",
@@ -18329,12 +18350,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 284,
+          "batting": 293,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 324,
+          "rawPoints": 333,
           "multiplier": 1,
-          "effectivePoints": 324,
+          "effectivePoints": 333,
           "countsInTop11": true
         },
         {
@@ -18671,18 +18692,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3685,
-      "top11Points": 3624,
+      "totalPointsAll": 3687,
+      "top11Points": 3626,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 25,
+          "batting": 26,
           "bowling": 245,
           "fielding": 16,
-          "rawPoints": 286,
+          "rawPoints": 287,
           "multiplier": 2,
-          "effectivePoints": 572,
+          "effectivePoints": 574,
           "countsInTop11": true
         },
         {
@@ -18958,8 +18979,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3236,
-      "top11Points": 3188,
+      "totalPointsAll": 3244,
+      "top11Points": 3196,
       "players": [
         {
           "name": "Travis Head",
@@ -19032,10 +19053,10 @@
           "role": "Wicket Keeper",
           "batting": 138,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 138,
+          "fielding": 8,
+          "rawPoints": 146,
           "multiplier": 1,
-          "effectivePoints": 138,
+          "effectivePoints": 146,
           "countsInTop11": true
         },
         {
@@ -19096,8 +19117,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4503,
-      "top11Points": 4220,
+      "totalPointsAll": 4548,
+      "top11Points": 4265,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19136,11 +19157,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 287,
+          "bowling": 332,
           "fielding": 32,
-          "rawPoints": 331,
+          "rawPoints": 376,
           "multiplier": 1,
-          "effectivePoints": 331,
+          "effectivePoints": 376,
           "countsInTop11": true
         },
         {
