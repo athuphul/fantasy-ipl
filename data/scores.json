@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T16:04:57.149Z",
+  "lastUpdated": "2026-05-06T16:14:56.005Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 14,
-        "w": 2,
-        "o": 2.1
+        "r": 29,
+        "w": 3,
+        "o": 3.5
       }
     ],
     "playerScores": {
@@ -75,13 +75,13 @@
         "fielding": 8,
         "total": 14
       },
-      "Shashank Singh": {
-        "batting": 0,
+      "Marcus Stoinis": {
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 8
       },
-      "Marcus Stoinis": {
+      "Shashank Singh": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -140,8 +140,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3666,
-      "top11Points": 3666
+      "totalPointsAll": 3674,
+      "top11Points": 3674
     },
     {
       "team": "Ashwin",
@@ -18207,9 +18207,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 14,
-          "w": 2,
-          "o": 2.1
+          "r": 29,
+          "w": 3,
+          "o": 3.5
         }
       ],
       "scorecard": [
@@ -18310,9 +18310,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 14,
-          "wickets": 2,
-          "overs": 2.1,
+          "runs": 29,
+          "wickets": 3,
+          "overs": 3.5,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -18334,34 +18334,51 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 13,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 144.44,
               "dismissal": "batting"
             },
             {
               "name": "Shreyas Iyer",
               "runs": 5,
-              "balls": 3,
+              "balls": 5,
               "fours": 1,
               "sixes": 0,
-              "sr": 166.67,
+              "sr": 100,
+              "dismissal": "c Pat Cummins b Eshan Malinga"
+            },
+            {
+              "name": "Marcus Stoinis",
+              "runs": 6,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 17,
               "wickets": 1,
-              "economy": 4
+              "economy": 8.5
             },
             {
               "name": "Nitish Kumar Reddy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "Eshan Malinga",
               "overs": 1,
               "maidens": 0,
               "runs": 6,
@@ -18426,13 +18443,13 @@
           "fielding": 8,
           "total": 14
         },
-        "Shashank Singh": {
-          "batting": 0,
+        "Marcus Stoinis": {
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 8
         },
-        "Marcus Stoinis": {
+        "Shashank Singh": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -19025,8 +19042,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3666,
-      "top11Points": 3666,
+      "totalPointsAll": 3674,
+      "top11Points": 3674,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -19097,12 +19114,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 208,
+          "batting": 216,
           "bowling": 25,
           "fielding": 18,
-          "rawPoints": 251,
+          "rawPoints": 259,
           "multiplier": 1,
-          "effectivePoints": 251,
+          "effectivePoints": 259,
           "countsInTop11": true
         },
         {
