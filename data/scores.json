@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:45:13.027Z",
+  "lastUpdated": "2026-05-06T14:55:08.055Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 107,
+        "r": 130,
         "w": 2,
-        "o": 9
+        "o": 11.2
       }
     ],
     "playerScores": {
@@ -28,16 +28,16 @@
         "total": 62
       },
       "Ishan Kishan": {
-        "batting": 20,
+        "batting": 30,
         "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 30
       },
       "Heinrich Klaasen": {
-        "batting": 17,
+        "batting": 35,
         "bowling": 0,
         "fielding": 0,
-        "total": 17
+        "total": 35
       },
       "Prabhsimran Singh": {
         "batting": 0,
@@ -77,9 +77,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 30,
         "fielding": 0,
-        "total": 20
+        "total": 30
       }
     }
   },
@@ -96,13 +96,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4250,
-      "top11Points": 4250
+      "totalPointsAll": 4260,
+      "top11Points": 4260
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3915,
-      "top11Points": 3879
+      "totalPointsAll": 3925,
+      "top11Points": 3889
     },
     {
       "team": "Manav",
@@ -116,8 +116,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3611,
-      "top11Points": 3614
+      "totalPointsAll": 3629,
+      "top11Points": 3632
     },
     {
       "team": "Ashwin",
@@ -18177,17 +18177,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 107,
+          "r": 130,
           "w": 2,
-          "o": 9
+          "o": 11.2
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 107,
+          "runs": 130,
           "wickets": 2,
-          "overs": 9,
+          "overs": 11.2,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -18209,20 +18209,20 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 17,
-              "balls": 13,
-              "fours": 1,
+              "runs": 26,
+              "balls": 19,
+              "fours": 2,
               "sixes": 1,
-              "sr": 130.77,
+              "sr": 136.84,
               "dismissal": "batting"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 14,
-              "balls": 9,
-              "fours": 1,
+              "runs": 26,
+              "balls": 17,
+              "fours": 2,
               "sixes": 1,
-              "sr": 155.56,
+              "sr": 152.94,
               "dismissal": "batting"
             }
           ],
@@ -18253,11 +18253,19 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 20,
+              "runs": 24,
               "wickets": 1,
-              "economy": 10
+              "economy": 8
+            },
+            {
+              "name": "Vijaykumar Vyshak",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 12.75
             }
           ]
         }
@@ -18276,16 +18284,16 @@
           "total": 62
         },
         "Ishan Kishan": {
-          "batting": 20,
+          "batting": 30,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 30
         },
         "Heinrich Klaasen": {
-          "batting": 17,
+          "batting": 35,
           "bowling": 0,
           "fielding": 0,
-          "total": 17
+          "total": 35
         },
         "Prabhsimran Singh": {
           "batting": 0,
@@ -18325,9 +18333,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 30,
           "fielding": 0,
-          "total": 20
+          "total": 30
         }
       },
       "isComplete": false
@@ -18335,18 +18343,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3611,
-      "top11Points": 3614,
+      "totalPointsAll": 3629,
+      "top11Points": 3632,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 598,
+          "batting": 616,
           "bowling": 0,
           "fielding": 80,
-          "rawPoints": 678,
+          "rawPoints": 696,
           "multiplier": 1,
-          "effectivePoints": 678,
+          "effectivePoints": 696,
           "countsInTop11": true
         },
         {
@@ -18484,8 +18492,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3915,
-      "top11Points": 3879,
+      "totalPointsAll": 3925,
+      "top11Points": 3889,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18579,11 +18587,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 204,
+          "bowling": 214,
           "fielding": 16,
-          "rawPoints": 220,
+          "rawPoints": 230,
           "multiplier": 1,
-          "effectivePoints": 220,
+          "effectivePoints": 230,
           "countsInTop11": true
         },
         {
@@ -19185,8 +19193,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4250,
-      "top11Points": 4250,
+      "totalPointsAll": 4260,
+      "top11Points": 4260,
       "players": [
         {
           "name": "Jos Buttler",
@@ -19213,12 +19221,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 529,
+          "batting": 539,
           "bowling": 0,
           "fielding": 60,
-          "rawPoints": 589,
+          "rawPoints": 599,
           "multiplier": 1,
-          "effectivePoints": 589,
+          "effectivePoints": 599,
           "countsInTop11": true
         },
         {
