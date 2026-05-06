@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:14:58.521Z",
+  "lastUpdated": "2026-05-06T14:25:10.729Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -9,23 +9,29 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 44,
-        "w": 0,
-        "o": 2.5
+        "r": 65,
+        "w": 1,
+        "o": 4.5
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
-        "batting": 52,
+        "batting": 60,
         "bowling": 0,
         "fielding": 0,
-        "total": 52
+        "total": 60
       },
       "Travis Head": {
-        "batting": 18,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 49
+      },
+      "Ishan Kishan": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Prabhsimran Singh": {
         "batting": 0,
@@ -36,8 +42,8 @@
       "Shreyas Iyer": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Shashank Singh": {
         "batting": 0,
@@ -59,9 +65,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -74,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4730,
-      "top11Points": 4750
+      "totalPointsAll": 4750,
+      "top11Points": 4770
     },
     {
       "team": "Tikoo",
@@ -84,8 +90,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4230,
-      "top11Points": 4230
+      "totalPointsAll": 4231,
+      "top11Points": 4231
     },
     {
       "team": "Aakash",
@@ -94,8 +100,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3772,
-      "top11Points": 3711
+      "totalPointsAll": 3762,
+      "top11Points": 3701
     },
     {
       "team": "Kishan",
@@ -114,8 +120,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3347,
-      "top11Points": 3299
+      "totalPointsAll": 3409,
+      "top11Points": 3361
     }
   ],
   "matchHistory": [
@@ -18165,69 +18171,92 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 44,
-          "w": 0,
-          "o": 2.5
+          "r": 65,
+          "w": 1,
+          "o": 4.5
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 44,
-          "wickets": 0,
-          "overs": 2.5,
+          "runs": 65,
+          "wickets": 1,
+          "overs": 4.5,
           "batting": [
             {
               "name": "Abhishek Sharma",
-              "runs": 29,
-              "balls": 10,
+              "runs": 35,
+              "balls": 13,
               "fours": 2,
-              "sixes": 3,
-              "sr": 290,
-              "dismissal": "batting"
+              "sixes": 4,
+              "sr": 269.23,
+              "dismissal": "c Shreyas Iyer b Lockie Ferguson"
             },
             {
               "name": "Travis Head",
-              "runs": 14,
-              "balls": 7,
-              "fours": 0,
+              "runs": 27,
+              "balls": 12,
+              "fours": 3,
               "sixes": 2,
-              "sr": 200,
+              "sr": 225,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ishan Kishan",
+              "runs": 1,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 25,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 23,
+              "runs": 27,
               "wickets": 0,
-              "economy": 12.55
+              "economy": 13.5
             },
             {
               "name": "Marco Jansen",
+              "overs": 1.5,
+              "maidens": 0,
+              "runs": 32,
+              "wickets": 0,
+              "economy": 17.45
+            },
+            {
+              "name": "Lockie Ferguson",
               "overs": 1,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 0,
-              "economy": 21
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
             }
           ]
         }
       ],
       "playerScores": {
         "Abhishek Sharma": {
-          "batting": 52,
+          "batting": 60,
           "bowling": 0,
           "fielding": 0,
-          "total": 52
+          "total": 60
         },
         "Travis Head": {
-          "batting": 18,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 49
+        },
+        "Ishan Kishan": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Prabhsimran Singh": {
           "batting": 0,
@@ -18238,8 +18267,8 @@
         "Shreyas Iyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Shashank Singh": {
           "batting": 0,
@@ -18261,9 +18290,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -18564,8 +18593,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4730,
-      "top11Points": 4750,
+      "totalPointsAll": 4750,
+      "top11Points": 4770,
       "players": [
         {
           "name": "KL Rahul",
@@ -18581,12 +18610,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 737,
+          "batting": 745,
           "bowling": 12,
           "fielding": 32,
-          "rawPoints": 781,
+          "rawPoints": 789,
           "multiplier": 1.5,
-          "effectivePoints": 1172,
+          "effectivePoints": 1184,
           "countsInTop11": true
         },
         {
@@ -18594,10 +18623,10 @@
           "role": "Batsman",
           "batting": 473,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 513,
+          "fielding": 48,
+          "rawPoints": 521,
           "multiplier": 1,
-          "effectivePoints": 513,
+          "effectivePoints": 521,
           "countsInTop11": true
         },
         {
@@ -18967,8 +18996,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3772,
-      "top11Points": 3711,
+      "totalPointsAll": 3762,
+      "top11Points": 3701,
       "players": [
         {
           "name": "Axar Patel",
@@ -19029,11 +19058,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 255,
+          "bowling": 245,
           "fielding": 24,
-          "rawPoints": 280,
+          "rawPoints": 270,
           "multiplier": 1,
-          "effectivePoints": 280,
+          "effectivePoints": 270,
           "countsInTop11": true
         },
         {
@@ -19127,8 +19156,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4230,
-      "top11Points": 4230,
+      "totalPointsAll": 4231,
+      "top11Points": 4231,
       "players": [
         {
           "name": "Jos Buttler",
@@ -19155,12 +19184,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 509,
+          "batting": 510,
           "bowling": 0,
           "fielding": 60,
-          "rawPoints": 569,
+          "rawPoints": 570,
           "multiplier": 1,
-          "effectivePoints": 569,
+          "effectivePoints": 570,
           "countsInTop11": true
         },
         {
@@ -19254,18 +19283,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3347,
-      "top11Points": 3299,
+      "totalPointsAll": 3409,
+      "top11Points": 3361,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 484,
+          "batting": 515,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 484,
+          "rawPoints": 515,
           "multiplier": 2,
-          "effectivePoints": 968,
+          "effectivePoints": 1030,
           "countsInTop11": true
         },
         {
