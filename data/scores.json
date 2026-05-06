@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:25:10.729Z",
+  "lastUpdated": "2026-05-06T14:35:01.755Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 65,
-        "w": 1,
-        "o": 4.5
+        "r": 86,
+        "w": 2,
+        "o": 6.6
       }
     ],
     "playerScores": {
@@ -22,12 +22,18 @@
         "total": 60
       },
       "Travis Head": {
-        "batting": 49,
+        "batting": 62,
         "bowling": 0,
         "fielding": 0,
-        "total": 49
+        "total": 62
       },
       "Ishan Kishan": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
+      },
+      "Heinrich Klaasen": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
@@ -59,9 +65,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "bowling": -15,
+        "fielding": 8,
+        "total": -7
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -71,9 +77,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
@@ -85,18 +91,18 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4805,
-      "top11Points": 4522
+      "totalPointsAll": 4798,
+      "top11Points": 4515
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4231,
-      "top11Points": 4231
+      "totalPointsAll": 4240,
+      "top11Points": 4240
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3895,
-      "top11Points": 3859
+      "totalPointsAll": 3920,
+      "top11Points": 3884
     },
     {
       "team": "Manav",
@@ -110,8 +116,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3594,
-      "top11Points": 3597
+      "totalPointsAll": 3595,
+      "top11Points": 3598
     },
     {
       "team": "Ashwin",
@@ -120,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3409,
-      "top11Points": 3361
+      "totalPointsAll": 3435,
+      "top11Points": 3387
     }
   ],
   "matchHistory": [
@@ -18171,17 +18177,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 65,
-          "w": 1,
-          "o": 4.5
+          "r": 86,
+          "w": 2,
+          "o": 6.6
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 65,
-          "wickets": 1,
-          "overs": 4.5,
+          "runs": 86,
+          "wickets": 2,
+          "overs": 6.6,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -18194,20 +18200,29 @@
             },
             {
               "name": "Travis Head",
-              "runs": 27,
-              "balls": 12,
+              "runs": 38,
+              "balls": 19,
               "fours": 3,
-              "sixes": 2,
-              "sr": 225,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 200,
+              "dismissal": "c Marco Jansen b Yuzvendra Chahal"
             },
             {
               "name": "Ishan Kishan",
+              "runs": 9,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Heinrich Klaasen",
               "runs": 1,
-              "balls": 4,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 25,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -18222,19 +18237,27 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
               "runs": 32,
               "wickets": 0,
-              "economy": 17.45
+              "economy": 16
             },
             {
               "name": "Lockie Ferguson",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 1,
+              "economy": 10
+            },
+            {
+              "name": "Yuzvendra Chahal",
               "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 7,
               "wickets": 1,
-              "economy": 6
+              "economy": 7
             }
           ]
         }
@@ -18247,12 +18270,18 @@
           "total": 60
         },
         "Travis Head": {
-          "batting": 49,
+          "batting": 62,
           "bowling": 0,
           "fielding": 0,
-          "total": 49
+          "total": 62
         },
         "Ishan Kishan": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
+        },
+        "Heinrich Klaasen": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
@@ -18284,9 +18313,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "bowling": -15,
+          "fielding": 8,
+          "total": -7
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -18296,9 +18325,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -18306,18 +18335,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3594,
-      "top11Points": 3597,
+      "totalPointsAll": 3595,
+      "top11Points": 3598,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 581,
+          "batting": 582,
           "bowling": 0,
           "fielding": 80,
-          "rawPoints": 661,
+          "rawPoints": 662,
           "multiplier": 1,
-          "effectivePoints": 661,
+          "effectivePoints": 662,
           "countsInTop11": true
         },
         {
@@ -18455,8 +18484,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3895,
-      "top11Points": 3859,
+      "totalPointsAll": 3920,
+      "top11Points": 3884,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18550,11 +18579,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 184,
+          "bowling": 209,
           "fielding": 16,
-          "rawPoints": 200,
+          "rawPoints": 225,
           "multiplier": 1,
-          "effectivePoints": 200,
+          "effectivePoints": 225,
           "countsInTop11": true
         },
         {
@@ -19156,8 +19185,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4231,
-      "top11Points": 4231,
+      "totalPointsAll": 4240,
+      "top11Points": 4240,
       "players": [
         {
           "name": "Jos Buttler",
@@ -19184,12 +19213,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 510,
+          "batting": 519,
           "bowling": 0,
           "fielding": 60,
-          "rawPoints": 570,
+          "rawPoints": 579,
           "multiplier": 1,
-          "effectivePoints": 570,
+          "effectivePoints": 579,
           "countsInTop11": true
         },
         {
@@ -19283,18 +19312,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3409,
-      "top11Points": 3361,
+      "totalPointsAll": 3435,
+      "top11Points": 3387,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 515,
+          "batting": 528,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 515,
+          "rawPoints": 528,
           "multiplier": 2,
-          "effectivePoints": 1030,
+          "effectivePoints": 1056,
           "countsInTop11": true
         },
         {
@@ -19421,8 +19450,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4805,
-      "top11Points": 4522,
+      "totalPointsAll": 4798,
+      "top11Points": 4515,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19516,11 +19545,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 40,
-          "bowling": 150,
-          "fielding": 24,
-          "rawPoints": 214,
+          "bowling": 135,
+          "fielding": 32,
+          "rawPoints": 207,
           "multiplier": 1,
-          "effectivePoints": 214,
+          "effectivePoints": 207,
           "countsInTop11": true
         },
         {
