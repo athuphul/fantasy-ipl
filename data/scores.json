@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T16:14:56.005Z",
+  "lastUpdated": "2026-05-06T16:25:07.292Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 29,
+        "r": 57,
         "w": 3,
-        "o": 3.5
+        "o": 5.3
       }
     ],
     "playerScores": {
@@ -76,10 +76,10 @@
         "total": 14
       },
       "Marcus Stoinis": {
-        "batting": 8,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 43
       },
       "Shashank Singh": {
         "batting": 0,
@@ -134,14 +134,14 @@
       "top11Points": 3806
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 3709,
+      "top11Points": 3709
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 3689,
       "top11Points": 3692
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 3674,
-      "top11Points": 3674
     },
     {
       "team": "Ashwin",
@@ -18207,9 +18207,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 29,
+          "r": 57,
           "w": 3,
-          "o": 3.5
+          "o": 5.3
         }
       ],
       "scorecard": [
@@ -18310,9 +18310,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 29,
+          "runs": 57,
           "wickets": 3,
-          "overs": 3.5,
+          "overs": 5.3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -18334,11 +18334,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 13,
-              "balls": 9,
-              "fours": 1,
+              "runs": 22,
+              "balls": 12,
+              "fours": 3,
               "sixes": 1,
-              "sr": 144.44,
+              "sr": 183.33,
               "dismissal": "batting"
             },
             {
@@ -18352,11 +18352,11 @@
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 6,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 150,
+              "runs": 22,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 220,
               "dismissal": "batting"
             }
           ],
@@ -18379,11 +18379,19 @@
             },
             {
               "name": "Eshan Malinga",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 1,
+              "economy": 11.25
+            },
+            {
+              "name": "Sakib Hussain",
               "overs": 1,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 1,
-              "economy": 6
+              "runs": 19,
+              "wickets": 0,
+              "economy": 19
             }
           ]
         }
@@ -18444,10 +18452,10 @@
           "total": 14
         },
         "Marcus Stoinis": {
-          "batting": 8,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 43
         },
         "Shashank Singh": {
           "batting": 0,
@@ -19042,8 +19050,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3674,
-      "top11Points": 3674,
+      "totalPointsAll": 3709,
+      "top11Points": 3709,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -19114,12 +19122,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 216,
+          "batting": 251,
           "bowling": 25,
           "fielding": 18,
-          "rawPoints": 259,
+          "rawPoints": 294,
           "multiplier": 1,
-          "effectivePoints": 259,
+          "effectivePoints": 294,
           "countsInTop11": true
         },
         {
