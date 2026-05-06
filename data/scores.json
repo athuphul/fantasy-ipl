@@ -1,112 +1,7 @@
 {
-  "lastUpdated": "2026-05-06T17:34:53.765Z",
+  "lastUpdated": "2026-05-06T17:44:55.665Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529292",
-    "name": "Sunrisers Hyderabad v Punjab Kings",
-    "status": "Live",
-    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-    "score": [
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 235,
-        "w": 4,
-        "o": 20
-      },
-      {
-        "inning": "Punjab Kings",
-        "r": 187,
-        "w": 7,
-        "o": 19.1
-      }
-    ],
-    "playerScores": {
-      "Abhishek Sharma": {
-        "batting": 60,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 68
-      },
-      "Travis Head": {
-        "batting": 62,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 62
-      },
-      "Ishan Kishan": {
-        "batting": 80,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 88
-      },
-      "Heinrich Klaasen": {
-        "batting": 95,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 95
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 50,
-        "bowling": 45,
-        "fielding": 8,
-        "total": 103
-      },
-      "Harsh Dubey": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      },
-      "Priyansh Arya": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
-      "Prabhsimran Singh": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 3
-      },
-      "Shreyas Iyer": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 14
-      },
-      "Marcus Stoinis": {
-        "batting": 50,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 50
-      },
-      "Shashank Singh": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
-      },
-      "Marco Jansen": {
-        "batting": 21,
-        "bowling": -15,
-        "fielding": 16,
-        "total": 22
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -150,8 +45,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3420,
-      "top11Points": 3372
+      "totalPointsAll": 3428,
+      "top11Points": 3380
     }
   ],
   "matchHistory": [
@@ -18196,7 +18091,7 @@
       "matchId": "espn_1529292",
       "name": "Sunrisers Hyderabad v Punjab Kings",
       "date": "2026-05-06",
-      "status": "Live",
+      "status": "Final",
       "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
       "score": [
         {
@@ -18207,9 +18102,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 187,
+          "r": 202,
           "w": 7,
-          "o": 19.1
+          "o": 20
         }
       ],
       "scorecard": [
@@ -18310,9 +18205,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 187,
+          "runs": 202,
           "wickets": 7,
-          "overs": 19.1,
+          "overs": 20,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -18334,12 +18229,12 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 95,
-              "balls": 55,
-              "fours": 6,
-              "sixes": 7,
-              "sr": 172.73,
-              "dismissal": "batting"
+              "runs": 107,
+              "balls": 59,
+              "fours": 7,
+              "sixes": 8,
+              "sr": 181.36,
+              "dismissal": "not out"
             },
             {
               "name": "Shreyas Iyer",
@@ -18380,11 +18275,20 @@
             {
               "name": "Marco Jansen",
               "runs": 19,
-              "balls": 15,
+              "balls": 16,
               "fours": 0,
               "sixes": 1,
-              "sr": 126.67,
-              "dismissal": "batting"
+              "sr": 118.75,
+              "dismissal": "c Harsh Dubey b Shivang Kumar"
+            },
+            {
+              "name": "Vijaykumar Vyshak",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -18422,11 +18326,11 @@
             },
             {
               "name": "Shivang Kumar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
-              "wickets": 1,
-              "economy": 10
+              "runs": 45,
+              "wickets": 2,
+              "economy": 11.25
             },
             {
               "name": "Harsh Dubey",
@@ -18473,8 +18377,8 @@
         "Harsh Dubey": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 0,
-          "total": -15
+          "fielding": 8,
+          "total": -7
         },
         "Priyansh Arya": {
           "batting": 1,
@@ -18525,7 +18429,7 @@
           "total": 30
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -19507,8 +19411,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3420,
-      "top11Points": 3372,
+      "totalPointsAll": 3428,
+      "top11Points": 3380,
       "players": [
         {
           "name": "Travis Head",
@@ -19570,10 +19474,10 @@
           "role": "All-Rounder",
           "batting": 10,
           "bowling": 210,
-          "fielding": 16,
-          "rawPoints": 236,
+          "fielding": 24,
+          "rawPoints": 244,
           "multiplier": 1,
-          "effectivePoints": 236,
+          "effectivePoints": 244,
           "countsInTop11": true
         },
         {
