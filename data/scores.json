@@ -1,12 +1,81 @@
 {
-  "lastUpdated": "2026-05-05T18:15:05.170Z",
+  "lastUpdated": "2026-05-06T14:05:05.347Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529292",
+    "name": "Sunrisers Hyderabad v Punjab Kings",
+    "status": "Live",
+    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+    "score": [
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 8,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Abhishek Sharma": {
+        "batting": 9,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 9
+      },
+      "Travis Head": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shreyas Iyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shashank Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marcus Stoinis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4652,
-      "top11Points": 4672
+      "totalPointsAll": 4665,
+      "top11Points": 4685
     },
     {
       "team": "Tikoo",
@@ -18086,6 +18155,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529292",
+      "name": "Sunrisers Hyderabad v Punjab Kings",
+      "date": "2026-05-06",
+      "status": "Live",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "score": [
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 8,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Sunrisers Hyderabad",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Abhishek Sharma",
+              "runs": 7,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 175,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Travis Head",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 12
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Abhishek Sharma": {
+          "batting": 9,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 9
+        },
+        "Travis Head": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shreyas Iyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shashank Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marcus Stoinis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -18377,8 +18556,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4652,
-      "top11Points": 4672,
+      "totalPointsAll": 4665,
+      "top11Points": 4685,
       "players": [
         {
           "name": "KL Rahul",
@@ -18394,12 +18573,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 685,
+          "batting": 694,
           "bowling": 12,
           "fielding": 32,
-          "rawPoints": 729,
+          "rawPoints": 738,
           "multiplier": 1.5,
-          "effectivePoints": 1094,
+          "effectivePoints": 1107,
           "countsInTop11": true
         },
         {
