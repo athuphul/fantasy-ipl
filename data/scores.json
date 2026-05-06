@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T15:34:58.116Z",
+  "lastUpdated": "2026-05-06T15:44:58.678Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 231,
-        "w": 3,
-        "o": 19.4
+        "r": 235,
+        "w": 4,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -34,10 +34,10 @@
         "total": 80
       },
       "Heinrich Klaasen": {
-        "batting": 88,
+        "batting": 95,
         "bowling": 0,
         "fielding": 0,
-        "total": 88
+        "total": 95
       },
       "Nitish Kumar Reddy": {
         "batting": 50,
@@ -72,8 +72,8 @@
       "Marco Jansen": {
         "batting": 0,
         "bowling": -15,
-        "fielding": 8,
-        "total": -7
+        "fielding": 16,
+        "total": 1
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -103,8 +103,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4798,
-      "top11Points": 4515
+      "totalPointsAll": 4806,
+      "top11Points": 4523
     },
     {
       "team": "Ritik",
@@ -123,8 +123,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3682,
-      "top11Points": 3685
+      "totalPointsAll": 3689,
+      "top11Points": 3692
     },
     {
       "team": "Kishan",
@@ -18189,17 +18189,17 @@
       "score": [
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 231,
-          "w": 3,
-          "o": 19.4
+          "r": 235,
+          "w": 4,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 231,
-          "wickets": 3,
-          "overs": 19.4,
+          "runs": 235,
+          "wickets": 4,
+          "overs": 20,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -18230,12 +18230,12 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 63,
-              "balls": 40,
-              "fours": 2,
+              "runs": 69,
+              "balls": 43,
+              "fours": 3,
               "sixes": 4,
-              "sr": 157.5,
-              "dismissal": "batting"
+              "sr": 160.47,
+              "dismissal": "c Marco Jansen b Vijaykumar Vyshak"
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -18244,7 +18244,7 @@
               "fours": 2,
               "sixes": 2,
               "sr": 223.08,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -18282,11 +18282,11 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 48,
-              "wickets": 0,
-              "economy": 13.71
+              "runs": 54,
+              "wickets": 1,
+              "economy": 13.5
             }
           ]
         }
@@ -18311,10 +18311,10 @@
           "total": 80
         },
         "Heinrich Klaasen": {
-          "batting": 88,
+          "batting": 95,
           "bowling": 0,
           "fielding": 0,
-          "total": 88
+          "total": 95
         },
         "Nitish Kumar Reddy": {
           "batting": 50,
@@ -18349,8 +18349,8 @@
         "Marco Jansen": {
           "batting": 0,
           "bowling": -15,
-          "fielding": 8,
-          "total": -7
+          "fielding": 16,
+          "total": 1
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -18376,18 +18376,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3682,
-      "top11Points": 3685,
+      "totalPointsAll": 3689,
+      "top11Points": 3692,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 669,
+          "batting": 676,
           "bowling": 0,
           "fielding": 80,
-          "rawPoints": 749,
+          "rawPoints": 756,
           "multiplier": 1,
-          "effectivePoints": 749,
+          "effectivePoints": 756,
           "countsInTop11": true
         },
         {
@@ -19491,8 +19491,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4798,
-      "top11Points": 4515,
+      "totalPointsAll": 4806,
+      "top11Points": 4523,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19587,10 +19587,10 @@
           "role": "All-Rounder",
           "batting": 40,
           "bowling": 135,
-          "fielding": 32,
-          "rawPoints": 207,
+          "fielding": 40,
+          "rawPoints": 215,
           "multiplier": 1,
-          "effectivePoints": 207,
+          "effectivePoints": 215,
           "countsInTop11": true
         },
         {
