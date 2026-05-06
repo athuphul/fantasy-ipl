@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T16:54:53.350Z",
+  "lastUpdated": "2026-05-06T17:04:53.448Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 110,
-        "w": 4,
-        "o": 11.3
+        "r": 121,
+        "w": 6,
+        "o": 13
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
         "batting": 60,
         "bowling": 0,
-        "fielding": 0,
-        "total": 60
+        "fielding": 8,
+        "total": 68
       },
       "Travis Head": {
         "batting": 62,
@@ -48,8 +48,8 @@
       "Nitish Kumar Reddy": {
         "batting": 50,
         "bowling": 45,
-        "fielding": 0,
-        "total": 95
+        "fielding": 8,
+        "total": 103
       },
       "Harsh Dubey": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": 50
       },
       "Shashank Singh": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Marco Jansen": {
-        "batting": 0,
+        "batting": 1,
         "bowling": -15,
         "fielding": 16,
-        "total": 1
+        "total": 2
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -110,13 +110,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4756,
-      "top11Points": 4776
+      "totalPointsAll": 4768,
+      "top11Points": 4788
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4806,
-      "top11Points": 4523
+      "totalPointsAll": 4807,
+      "top11Points": 4524
     },
     {
       "team": "Ritik",
@@ -130,8 +130,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3887,
-      "top11Points": 3826
+      "totalPointsAll": 3895,
+      "top11Points": 3834
     },
     {
       "team": "Kishan",
@@ -145,8 +145,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3440,
-      "top11Points": 3392
+      "totalPointsAll": 3445,
+      "top11Points": 3397
     },
     {
       "team": "Tanay",
@@ -18207,9 +18207,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 110,
-          "w": 4,
-          "o": 11.3
+          "r": 121,
+          "w": 6,
+          "o": 13
         }
       ],
       "scorecard": [
@@ -18310,9 +18310,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 110,
-          "wickets": 4,
-          "overs": 11.3,
+          "runs": 121,
+          "wickets": 6,
+          "overs": 13,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -18334,11 +18334,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 42,
-              "balls": 29,
-              "fours": 3,
+              "runs": 48,
+              "balls": 33,
+              "fours": 4,
               "sixes": 3,
-              "sr": 144.83,
+              "sr": 145.45,
               "dismissal": "batting"
             },
             {
@@ -18362,21 +18362,39 @@
             {
               "name": "Suryansh Shedge",
               "runs": 25,
-              "balls": 16,
+              "balls": 17,
               "fours": 1,
               "sixes": 2,
-              "sr": 156.25,
+              "sr": 147.06,
+              "dismissal": "c Abhishek Sharma b Pat Cummins"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 4,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "c Nitish Reddy b Sakib Hussain"
+            },
+            {
+              "name": "Marco Jansen",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 18,
-              "wickets": 1,
-              "economy": 7.2
+              "runs": 22,
+              "wickets": 2,
+              "economy": 7.33
             },
             {
               "name": "Nitish Kumar Reddy",
@@ -18388,19 +18406,19 @@
             },
             {
               "name": "Eshan Malinga",
-              "overs": 2,
+              "overs": 2.1,
               "maidens": 0,
               "runs": 15,
               "wickets": 1,
-              "economy": 7.5
+              "economy": 6.92
             },
             {
               "name": "Sakib Hussain",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 0,
-              "economy": 19
+              "runs": 26,
+              "wickets": 1,
+              "economy": 13
             },
             {
               "name": "Shivang Kumar",
@@ -18425,8 +18443,8 @@
         "Abhishek Sharma": {
           "batting": 60,
           "bowling": 0,
-          "fielding": 0,
-          "total": 60
+          "fielding": 8,
+          "total": 68
         },
         "Travis Head": {
           "batting": 62,
@@ -18449,8 +18467,8 @@
         "Nitish Kumar Reddy": {
           "batting": 50,
           "bowling": 45,
-          "fielding": 0,
-          "total": 95
+          "fielding": 8,
+          "total": 103
         },
         "Harsh Dubey": {
           "batting": 0,
@@ -18483,16 +18501,16 @@
           "total": 50
         },
         "Shashank Singh": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Marco Jansen": {
-          "batting": 0,
+          "batting": 1,
           "bowling": -15,
           "fielding": 16,
-          "total": 1
+          "total": 2
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -18799,8 +18817,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4756,
-      "top11Points": 4776,
+      "totalPointsAll": 4768,
+      "top11Points": 4788,
       "players": [
         {
           "name": "KL Rahul",
@@ -18818,10 +18836,10 @@
           "role": "Opener",
           "batting": 745,
           "bowling": 12,
-          "fielding": 32,
-          "rawPoints": 789,
+          "fielding": 40,
+          "rawPoints": 797,
           "multiplier": 1.5,
-          "effectivePoints": 1184,
+          "effectivePoints": 1196,
           "countsInTop11": true
         },
         {
@@ -18937,8 +18955,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3440,
-      "top11Points": 3392,
+      "totalPointsAll": 3445,
+      "top11Points": 3397,
       "players": [
         {
           "name": "Shubman Gill",
@@ -18998,12 +19016,12 @@
         {
           "name": "Shashank Singh",
           "role": "Batsman",
-          "batting": 94,
+          "batting": 99,
           "bowling": 87,
           "fielding": 8,
-          "rawPoints": 189,
+          "rawPoints": 194,
           "multiplier": 1,
-          "effectivePoints": 189,
+          "effectivePoints": 194,
           "countsInTop11": true
         },
         {
@@ -19202,8 +19220,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3887,
-      "top11Points": 3826,
+      "totalPointsAll": 3895,
+      "top11Points": 3834,
       "players": [
         {
           "name": "Axar Patel",
@@ -19221,10 +19239,10 @@
           "role": "All-Rounder",
           "batting": 333,
           "bowling": 160,
-          "fielding": 56,
-          "rawPoints": 549,
+          "fielding": 64,
+          "rawPoints": 557,
           "multiplier": 1,
-          "effectivePoints": 549,
+          "effectivePoints": 557,
           "countsInTop11": true
         },
         {
@@ -19627,8 +19645,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4806,
-      "top11Points": 4523,
+      "totalPointsAll": 4807,
+      "top11Points": 4524,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19721,12 +19739,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 40,
+          "batting": 41,
           "bowling": 135,
           "fielding": 40,
-          "rawPoints": 215,
+          "rawPoints": 216,
           "multiplier": 1,
-          "effectivePoints": 215,
+          "effectivePoints": 216,
           "countsInTop11": true
         },
         {
