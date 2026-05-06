@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T17:24:54.856Z",
+  "lastUpdated": "2026-05-06T17:34:53.765Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529292",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 157,
-        "w": 6,
-        "o": 16.5
+        "r": 187,
+        "w": 7,
+        "o": 19.1
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Harsh Dubey": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Priyansh Arya": {
         "batting": 1,
@@ -88,10 +88,10 @@
         "total": 5
       },
       "Marco Jansen": {
-        "batting": 9,
+        "batting": 21,
         "bowling": -15,
         "fielding": 16,
-        "total": 10
+        "total": 22
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -115,8 +115,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4815,
-      "top11Points": 4532
+      "totalPointsAll": 4827,
+      "top11Points": 4544
     },
     {
       "team": "Ritik",
@@ -150,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3435,
-      "top11Points": 3387
+      "totalPointsAll": 3420,
+      "top11Points": 3372
     }
   ],
   "matchHistory": [
@@ -18207,9 +18207,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 157,
-          "w": 6,
-          "o": 16.5
+          "r": 187,
+          "w": 7,
+          "o": 19.1
         }
       ],
       "scorecard": [
@@ -18310,9 +18310,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 157,
-          "wickets": 6,
-          "overs": 16.5,
+          "runs": 187,
+          "wickets": 7,
+          "overs": 19.1,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -18334,11 +18334,11 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 77,
-              "balls": 49,
-              "fours": 4,
-              "sixes": 6,
-              "sr": 157.14,
+              "runs": 95,
+              "balls": 55,
+              "fours": 6,
+              "sixes": 7,
+              "sr": 172.73,
               "dismissal": "batting"
             },
             {
@@ -18379,11 +18379,11 @@
             },
             {
               "name": "Marco Jansen",
-              "runs": 9,
-              "balls": 9,
+              "runs": 19,
+              "balls": 15,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 126.67,
               "dismissal": "batting"
             }
           ],
@@ -18414,9 +18414,9 @@
             },
             {
               "name": "Sakib Hussain",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
+              "runs": 40,
               "wickets": 1,
               "economy": 10
             },
@@ -18430,11 +18430,11 @@
             },
             {
               "name": "Harsh Dubey",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 17,
+              "runs": 36,
               "wickets": 0,
-              "economy": 17
+              "economy": 18
             }
           ]
         }
@@ -18472,9 +18472,9 @@
         },
         "Harsh Dubey": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Priyansh Arya": {
           "batting": 1,
@@ -18507,10 +18507,10 @@
           "total": 5
         },
         "Marco Jansen": {
-          "batting": 9,
+          "batting": 21,
           "bowling": -15,
           "fielding": 16,
-          "total": 10
+          "total": 22
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -19507,8 +19507,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3435,
-      "top11Points": 3387,
+      "totalPointsAll": 3420,
+      "top11Points": 3372,
       "players": [
         {
           "name": "Travis Head",
@@ -19569,11 +19569,11 @@
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
-          "bowling": 225,
+          "bowling": 210,
           "fielding": 16,
-          "rawPoints": 251,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 251,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -19645,8 +19645,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4815,
-      "top11Points": 4532,
+      "totalPointsAll": 4827,
+      "top11Points": 4544,
       "players": [
         {
           "name": "Sanju Samson",
@@ -19715,6 +19715,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 61,
+          "bowling": 135,
+          "fielding": 40,
+          "rawPoints": 236,
+          "multiplier": 1,
+          "effectivePoints": 236,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -2,
@@ -19734,17 +19745,6 @@
           "rawPoints": 230,
           "multiplier": 1,
           "effectivePoints": 230,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 49,
-          "bowling": 135,
-          "fielding": 40,
-          "rawPoints": 224,
-          "multiplier": 1,
-          "effectivePoints": 224,
           "countsInTop11": true
         },
         {
