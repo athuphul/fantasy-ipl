@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T16:54:58.634Z",
+  "lastUpdated": "2026-05-07T17:05:13.904Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529293",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 191,
-        "w": 2,
-        "o": 17.5
+        "r": 209,
+        "w": 3,
+        "o": 19
       }
     ],
     "playerScores": {
@@ -22,16 +22,22 @@
         "total": 188
       },
       "Nicholas Pooran": {
-        "batting": 39,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 39
+        "total": 49
       },
       "Rishabh Pant": {
-        "batting": 21,
+        "batting": 32,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 32
+      },
+      "Aiden Markram": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Virat Kohli": {
         "batting": 0,
@@ -66,20 +72,20 @@
       "Krunal Pandya": {
         "batting": 0,
         "bowling": 30,
-        "fielding": 0,
-        "total": 30
+        "fielding": 8,
+        "total": 38
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 15,
         "fielding": 0,
-        "total": 25
+        "total": 15
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -102,8 +108,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4321,
-      "top11Points": 4321
+      "totalPointsAll": 4322,
+      "top11Points": 4322
     },
     {
       "team": "Aakash",
@@ -112,13 +118,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3945,
-      "top11Points": 3884
+      "totalPointsAll": 3943,
+      "top11Points": 3882
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3780,
-      "top11Points": 3780
+      "totalPointsAll": 3790,
+      "top11Points": 3790
     },
     {
       "team": "Athu",
@@ -127,8 +133,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3466,
-      "top11Points": 3418
+      "totalPointsAll": 3477,
+      "top11Points": 3429
     },
     {
       "team": "Tanay",
@@ -18527,17 +18533,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 191,
-          "w": 2,
-          "o": 17.5
+          "r": 209,
+          "w": 3,
+          "o": 19
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 191,
-          "wickets": 2,
-          "overs": 17.5,
+          "runs": 209,
+          "wickets": 3,
+          "overs": 19,
           "batting": [
             {
               "name": "Mitchell Marsh",
@@ -18559,30 +18565,48 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 29,
-              "balls": 17,
-              "fours": 3,
+              "runs": 38,
+              "balls": 23,
+              "fours": 4,
               "sixes": 1,
-              "sr": 170.59,
+              "sr": 165.22,
+              "dismissal": "c Krunal Pandya b Rasikh Salam Dar"
+            },
+            {
+              "name": "Rishabh Pant",
+              "runs": 26,
+              "balls": 9,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 288.89,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Aiden Markram",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
+              "runs": 34,
               "wickets": 0,
-              "economy": 8
+              "economy": 8.5
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 49,
               "wickets": 1,
-              "economy": 9.79
+              "economy": 12.25
             },
             {
               "name": "Krunal Pandya",
@@ -18594,11 +18618,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 37,
-              "wickets": 0,
-              "economy": 12.33
+              "runs": 47,
+              "wickets": 1,
+              "economy": 12.26
             },
             {
               "name": "Suyash Sharma",
@@ -18627,16 +18651,22 @@
           "total": 188
         },
         "Nicholas Pooran": {
-          "batting": 39,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 39
+          "total": 49
         },
         "Rishabh Pant": {
-          "batting": 21,
+          "batting": 32,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 32
+        },
+        "Aiden Markram": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Virat Kohli": {
           "batting": 0,
@@ -18671,20 +18701,20 @@
         "Krunal Pandya": {
           "batting": 0,
           "bowling": 30,
-          "fielding": 0,
-          "total": 30
+          "fielding": 8,
+          "total": 38
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 15,
           "fielding": 0,
-          "total": 25
+          "total": 15
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -19123,8 +19153,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3466,
-      "top11Points": 3418,
+      "totalPointsAll": 3477,
+      "top11Points": 3429,
       "players": [
         {
           "name": "Shubman Gill",
@@ -19162,12 +19192,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 283,
+          "batting": 294,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 357,
+          "rawPoints": 368,
           "multiplier": 1,
-          "effectivePoints": 357,
+          "effectivePoints": 368,
           "countsInTop11": true
         },
         {
@@ -19261,8 +19291,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3780,
-      "top11Points": 3780,
+      "totalPointsAll": 3790,
+      "top11Points": 3790,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -19290,11 +19320,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 30,
-          "bowling": 541,
+          "bowling": 536,
           "fielding": 8,
-          "rawPoints": 579,
+          "rawPoints": 574,
           "multiplier": 1,
-          "effectivePoints": 579,
+          "effectivePoints": 574,
           "countsInTop11": true
         },
         {
@@ -19311,12 +19341,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 219,
+          "batting": 229,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 261,
+          "rawPoints": 271,
           "multiplier": 1.5,
-          "effectivePoints": 392,
+          "effectivePoints": 407,
           "countsInTop11": true
         },
         {
@@ -19388,8 +19418,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3945,
-      "top11Points": 3884,
+      "totalPointsAll": 3943,
+      "top11Points": 3882,
       "players": [
         {
           "name": "Axar Patel",
@@ -19440,10 +19470,10 @@
           "role": "All-Rounder",
           "batting": 58,
           "bowling": 282,
-          "fielding": 8,
-          "rawPoints": 348,
+          "fielding": 16,
+          "rawPoints": 356,
           "multiplier": 1,
-          "effectivePoints": 348,
+          "effectivePoints": 356,
           "countsInTop11": true
         },
         {
@@ -19461,11 +19491,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 260,
+          "bowling": 250,
           "fielding": 32,
-          "rawPoints": 287,
+          "rawPoints": 277,
           "multiplier": 1,
-          "effectivePoints": 287,
+          "effectivePoints": 277,
           "countsInTop11": true
         },
         {
@@ -19548,8 +19578,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4321,
-      "top11Points": 4321,
+      "totalPointsAll": 4322,
+      "top11Points": 4322,
       "players": [
         {
           "name": "Jos Buttler",
@@ -19609,12 +19639,12 @@
         {
           "name": "Aiden Markram",
           "role": "Opener",
-          "batting": 276,
+          "batting": 277,
           "bowling": 20,
           "fielding": 48,
-          "rawPoints": 344,
+          "rawPoints": 345,
           "multiplier": 1,
-          "effectivePoints": 344,
+          "effectivePoints": 345,
           "countsInTop11": true
         },
         {
