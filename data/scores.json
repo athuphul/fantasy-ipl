@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T15:35:09.745Z",
+  "lastUpdated": "2026-05-07T15:44:54.770Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529293",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 98,
+        "r": 114,
         "w": 1,
-        "o": 9.6
+        "o": 11.5
       }
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 124,
+        "batting": 122,
         "bowling": 0,
         "fielding": 0,
-        "total": 124
+        "total": 122
       },
       "Nicholas Pooran": {
-        "batting": 1,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 16
       },
       "Virat Kohli": {
         "batting": 0,
@@ -42,8 +42,8 @@
       "Rajat Patidar": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 37,
+        "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 0
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -86,8 +86,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4892,
-      "top11Points": 4912
+      "totalPointsAll": 4890,
+      "top11Points": 4910
     },
     {
       "team": "Tikoo",
@@ -106,13 +106,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3917,
-      "top11Points": 3856
+      "totalPointsAll": 3880,
+      "top11Points": 3819
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3730,
-      "top11Points": 3730
+      "totalPointsAll": 3752,
+      "top11Points": 3752
     },
     {
       "team": "Athu",
@@ -126,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3436,
-      "top11Points": 3388
+      "totalPointsAll": 3428,
+      "top11Points": 3380
     }
   ],
   "matchHistory": [
@@ -18521,43 +18521,34 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 98,
+          "r": 114,
           "w": 1,
-          "o": 9.6
+          "o": 11.5
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 98,
+          "runs": 114,
           "wickets": 1,
-          "overs": 9.6,
+          "overs": 11.5,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 78,
-              "balls": 34,
+              "runs": 76,
+              "balls": 32,
               "fours": 7,
               "sixes": 7,
-              "sr": 229.41,
+              "sr": 237.5,
               "dismissal": "batting"
             },
             {
               "name": "Arshin Kulkarni",
               "runs": 17,
-              "balls": 24,
+              "balls": 22,
               "fours": 1,
               "sixes": 0,
-              "sr": 70.83,
-              "dismissal": "c Rajat Patidar b Krunal Pandya"
-            },
-            {
-              "name": "Nicholas Pooran",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sr": 77.27,
               "dismissal": "batting"
             }
           ],
@@ -18580,11 +18571,11 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 1,
-              "economy": 7
+              "runs": 18,
+              "wickets": 0,
+              "economy": 9
             },
             {
               "name": "Rasikh Salam Dar",
@@ -18607,16 +18598,16 @@
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 124,
+          "batting": 122,
           "bowling": 0,
           "fielding": 0,
-          "total": 124
+          "total": 122
         },
         "Nicholas Pooran": {
-          "batting": 1,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 16
         },
         "Virat Kohli": {
           "batting": 0,
@@ -18633,8 +18624,8 @@
         "Rajat Patidar": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -18650,9 +18641,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 37,
+          "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 0
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -18965,8 +18956,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4892,
-      "top11Points": 4912,
+      "totalPointsAll": 4890,
+      "top11Points": 4910,
       "players": [
         {
           "name": "KL Rahul",
@@ -19004,12 +18995,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 450,
+          "batting": 448,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 474,
+          "rawPoints": 472,
           "multiplier": 1,
-          "effectivePoints": 474,
+          "effectivePoints": 472,
           "countsInTop11": true
         },
         {
@@ -19241,8 +19232,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3730,
-      "top11Points": 3730,
+      "totalPointsAll": 3752,
+      "top11Points": 3752,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -19289,6 +19280,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Nicholas Pooran",
+          "role": "Wicket Keeper",
+          "batting": 196,
+          "bowling": 0,
+          "fielding": 42,
+          "rawPoints": 238,
+          "multiplier": 1.5,
+          "effectivePoints": 357,
+          "countsInTop11": true
+        },
+        {
           "name": "Washington Sundar",
           "role": "All-Rounder",
           "batting": 279,
@@ -19297,17 +19299,6 @@
           "rawPoints": 336,
           "multiplier": 1,
           "effectivePoints": 336,
-          "countsInTop11": true
-        },
-        {
-          "name": "Nicholas Pooran",
-          "role": "Wicket Keeper",
-          "batting": 181,
-          "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 223,
-          "multiplier": 1.5,
-          "effectivePoints": 335,
           "countsInTop11": true
         },
         {
@@ -19368,8 +19359,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3917,
-      "top11Points": 3856,
+      "totalPointsAll": 3880,
+      "top11Points": 3819,
       "players": [
         {
           "name": "Axar Patel",
@@ -19419,11 +19410,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 58,
-          "bowling": 289,
+          "bowling": 252,
           "fielding": 8,
-          "rawPoints": 355,
+          "rawPoints": 318,
           "multiplier": 1,
-          "effectivePoints": 355,
+          "effectivePoints": 318,
           "countsInTop11": true
         },
         {
@@ -19655,8 +19646,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3436,
-      "top11Points": 3388,
+      "totalPointsAll": 3428,
+      "top11Points": 3380,
       "players": [
         {
           "name": "Travis Head",
@@ -19685,10 +19676,10 @@
           "role": "Batsman",
           "batting": 404,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 444,
+          "fielding": 32,
+          "rawPoints": 436,
           "multiplier": 1,
-          "effectivePoints": 444,
+          "effectivePoints": 436,
           "countsInTop11": true
         },
         {
