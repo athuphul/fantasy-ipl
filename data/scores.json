@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T14:34:57.576Z",
+  "lastUpdated": "2026-05-07T14:45:00.002Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529293",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 56,
+        "r": 80,
         "w": 0,
-        "o": 5
+        "o": 6.4
       }
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 75,
+        "batting": 109,
         "bowling": 0,
         "fielding": 0,
-        "total": 75
+        "total": 109
       },
       "Virat Kohli": {
         "batting": 0,
@@ -65,9 +65,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -80,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4843,
-      "top11Points": 4863
+      "totalPointsAll": 4877,
+      "top11Points": 4897
     },
     {
       "team": "Tikoo",
@@ -100,8 +100,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3895,
-      "top11Points": 3834
+      "totalPointsAll": 3885,
+      "top11Points": 3824
     },
     {
       "team": "Kishan",
@@ -18515,34 +18515,34 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 56,
+          "r": 80,
           "w": 0,
-          "o": 5
+          "o": 6.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 56,
+          "runs": 80,
           "wickets": 0,
-          "overs": 5,
+          "overs": 6.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 46,
-              "balls": 18,
-              "fours": 2,
-              "sixes": 6,
-              "sr": 255.56,
+              "runs": 65,
+              "balls": 26,
+              "fours": 5,
+              "sixes": 7,
+              "sr": 250,
               "dismissal": "batting"
             },
             {
               "name": "Arshin Kulkarni",
-              "runs": 8,
-              "balls": 12,
-              "fours": 0,
+              "runs": 13,
+              "balls": 16,
+              "fours": 1,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 81.25,
               "dismissal": "batting"
             }
           ],
@@ -18557,11 +18557,11 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 25,
               "wickets": 0,
-              "economy": 13
+              "economy": 12.5
             },
             {
               "name": "Krunal Pandya",
@@ -18578,16 +18578,24 @@
               "runs": 16,
               "wickets": 0,
               "economy": 16
+            },
+            {
+              "name": "Suyash Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 75,
+          "batting": 109,
           "bowling": 0,
           "fielding": 0,
-          "total": 75
+          "total": 109
         },
         "Virat Kohli": {
           "batting": 0,
@@ -18633,9 +18641,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -18936,8 +18944,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4843,
-      "top11Points": 4863,
+      "totalPointsAll": 4877,
+      "top11Points": 4897,
       "players": [
         {
           "name": "KL Rahul",
@@ -18975,12 +18983,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 401,
+          "batting": 435,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 425,
+          "rawPoints": 459,
           "multiplier": 1,
-          "effectivePoints": 425,
+          "effectivePoints": 459,
           "countsInTop11": true
         },
         {
@@ -19339,8 +19347,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3895,
-      "top11Points": 3834,
+      "totalPointsAll": 3885,
+      "top11Points": 3824,
       "players": [
         {
           "name": "Axar Patel",
@@ -19412,11 +19420,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 235,
+          "bowling": 225,
           "fielding": 32,
-          "rawPoints": 262,
+          "rawPoints": 252,
           "multiplier": 1,
-          "effectivePoints": 262,
+          "effectivePoints": 252,
           "countsInTop11": true
         },
         {
