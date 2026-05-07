@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T14:14:58.530Z",
+  "lastUpdated": "2026-05-07T14:24:58.148Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529293",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 12,
+        "r": 21,
         "w": 0,
-        "o": 1.3
+        "o": 2.5
       }
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 1,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 25
       },
       "Virat Kohli": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -80,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4769,
-      "top11Points": 4789
+      "totalPointsAll": 4793,
+      "top11Points": 4813
     },
     {
       "team": "Tikoo",
@@ -105,8 +105,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3716,
-      "top11Points": 3716
+      "totalPointsAll": 3728,
+      "top11Points": 3728
     },
     {
       "team": "Athu",
@@ -18515,55 +18515,63 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 12,
+          "r": 21,
           "w": 0,
-          "o": 1.3
+          "o": 2.5
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 12,
+          "runs": 21,
           "wickets": 0,
-          "overs": 1.3,
+          "overs": 2.5,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 1,
-              "balls": 2,
+              "runs": 19,
+              "balls": 9,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sixes": 3,
+              "sr": 211.11,
               "dismissal": "batting"
             },
             {
               "name": "Arshin Kulkarni",
-              "runs": 2,
-              "balls": 3,
+              "runs": 7,
+              "balls": 9,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 77.78,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
+              "runs": 14,
               "wickets": 0,
-              "economy": 3.6
+              "economy": 7
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 1,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 25
         },
         "Virat Kohli": {
           "batting": 0,
@@ -18603,9 +18611,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -18912,8 +18920,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4769,
-      "top11Points": 4789,
+      "totalPointsAll": 4793,
+      "top11Points": 4813,
       "players": [
         {
           "name": "KL Rahul",
@@ -18949,6 +18957,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mitchell Marsh",
+          "role": "All-Rounder",
+          "batting": 351,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 375,
+          "multiplier": 1,
+          "effectivePoints": 375,
+          "countsInTop11": true
+        },
+        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 327,
@@ -18968,17 +18987,6 @@
           "rawPoints": 363,
           "multiplier": 1,
           "effectivePoints": 363,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mitchell Marsh",
-          "role": "All-Rounder",
-          "batting": 327,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 351,
-          "multiplier": 1,
-          "effectivePoints": 351,
           "countsInTop11": true
         },
         {
@@ -19188,8 +19196,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3716,
-      "top11Points": 3716,
+      "totalPointsAll": 3728,
+      "top11Points": 3728,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -19203,6 +19211,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Bhuvneshwar Kumar",
+          "role": "Fast Bowler",
+          "batting": 30,
+          "bowling": 548,
+          "fielding": 8,
+          "rawPoints": 586,
+          "multiplier": 1,
+          "effectivePoints": 586,
+          "countsInTop11": true
+        },
+        {
           "name": "Virat Kohli",
           "role": "Opener",
           "batting": 541,
@@ -19211,17 +19230,6 @@
           "rawPoints": 581,
           "multiplier": 1,
           "effectivePoints": 581,
-          "countsInTop11": true
-        },
-        {
-          "name": "Bhuvneshwar Kumar",
-          "role": "Fast Bowler",
-          "batting": 30,
-          "bowling": 536,
-          "fielding": 8,
-          "rawPoints": 574,
-          "multiplier": 1,
-          "effectivePoints": 574,
           "countsInTop11": true
         },
         {
