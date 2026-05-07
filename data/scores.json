@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-07T18:35:10.689Z",
+  "lastUpdated": "2026-05-07T18:45:14.794Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 4942,
-      "top11Points": 4962
+      "totalPointsAll": 5019,
+      "top11Points": 5039
     },
     {
       "team": "Tikoo",
@@ -15,18 +15,18 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4322,
-      "top11Points": 4322
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 3962,
-      "top11Points": 3926
+      "totalPointsAll": 4330,
+      "top11Points": 4330
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3949,
-      "top11Points": 3888
+      "totalPointsAll": 3976,
+      "top11Points": 3915
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 3950,
+      "top11Points": 3914
     },
     {
       "team": "Kishan",
@@ -35,18 +35,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3714,
-      "top11Points": 3717
+      "totalPointsAll": 3734,
+      "top11Points": 3737
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3537,
-      "top11Points": 3489
+      "totalPointsAll": 3532,
+      "top11Points": 3484
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3508,
-      "top11Points": 3460
+      "totalPointsAll": 3519,
+      "top11Points": 3471
     }
   ],
   "matchHistory": [
@@ -18446,9 +18446,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 150,
-          "w": 5,
-          "o": 14.6
+          "r": 174,
+          "w": 6,
+          "o": 16.5
         }
       ],
       "scorecard": [
@@ -18557,9 +18557,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 150,
-          "wickets": 5,
-          "overs": 14.6,
+          "runs": 174,
+          "wickets": 6,
+          "overs": 16.5,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -18591,11 +18591,11 @@
             {
               "name": "Rajat Patidar",
               "runs": 61,
-              "balls": 30,
+              "balls": 31,
               "fours": 3,
               "sixes": 6,
-              "sr": 203.33,
-              "dismissal": "batting"
+              "sr": 196.77,
+              "dismissal": "c Aiden Markram b Shahbaz Ahmed"
             },
             {
               "name": "Jitesh Sharma",
@@ -18608,22 +18608,40 @@
             },
             {
               "name": "Tim David",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 40,
+              "balls": 17,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 235.29,
+              "dismissal": "c Digvesh Singh Rathi b Shahbaz Ahmed"
+            },
+            {
+              "name": "Krunal Pandya",
+              "runs": 22,
+              "balls": 13,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 169.23,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Romario Shepherd",
+              "runs": 9,
+              "balls": 6,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
+              "runs": 33,
               "wickets": 1,
-              "economy": 6.33
+              "economy": 8.25
             },
             {
               "name": "Prince Yadav",
@@ -18635,19 +18653,27 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 50,
               "wickets": 0,
-              "economy": 11
+              "economy": 12.5
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 32,
+              "runs": 41,
               "wickets": 0,
-              "economy": 16
+              "economy": 13.67
+            },
+            {
+              "name": "Shahbaz Ahmed",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 33,
+              "wickets": 2,
+              "economy": 11
             }
           ]
         }
@@ -18674,26 +18700,26 @@
         "Aiden Markram": {
           "batting": 1,
           "bowling": 0,
-          "fielding": 0,
-          "total": 1
+          "fielding": 8,
+          "total": 9
         },
         "Shahbaz Ahmed": {
+          "batting": 0,
+          "bowling": 45,
+          "fielding": 0,
+          "total": 45
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": -10,
+          "fielding": 8,
+          "total": -2
+        },
+        "Mohammed Shami": {
           "batting": 0,
           "bowling": 25,
           "fielding": 0,
           "total": 25
-        },
-        "Digvesh Rathi": {
-          "batting": 0,
-          "bowling": -15,
-          "fielding": 0,
-          "total": -15
-        },
-        "Mohammed Shami": {
-          "batting": 0,
-          "bowling": 37,
-          "fielding": 0,
-          "total": 37
         },
         "Virat Kohli": {
           "batting": -5,
@@ -18708,10 +18734,10 @@
           "total": 39
         },
         "Rajat Patidar": {
-          "batting": 101,
+          "batting": 96,
           "bowling": 0,
           "fielding": 8,
-          "total": 109
+          "total": 104
         },
         "Jitesh Sharma": {
           "batting": 1,
@@ -18720,22 +18746,22 @@
           "total": 1
         },
         "Tim David": {
-          "batting": 1,
+          "batting": 65,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 65
         },
         "Krunal Pandya": {
-          "batting": 5,
+          "batting": 32,
           "bowling": 30,
           "fielding": 8,
-          "total": 43
+          "total": 70
         },
         "Romario Shepherd": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 11
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -18761,8 +18787,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3714,
-      "top11Points": 3717,
+      "totalPointsAll": 3734,
+      "top11Points": 3737,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -18878,11 +18904,11 @@
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
           "batting": 11,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "rawPoints": 36,
+          "rawPoints": 56,
           "multiplier": 1,
-          "effectivePoints": 36,
+          "effectivePoints": 56,
           "countsInTop11": true
         },
         {
@@ -18910,8 +18936,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3962,
-      "top11Points": 3926,
+      "totalPointsAll": 3950,
+      "top11Points": 3914,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -18983,11 +19009,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 34,
-          "bowling": 256,
+          "bowling": 244,
           "fielding": 24,
-          "rawPoints": 314,
+          "rawPoints": 302,
           "multiplier": 1,
-          "effectivePoints": 314,
+          "effectivePoints": 302,
           "countsInTop11": true
         },
         {
@@ -19048,8 +19074,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 4942,
-      "top11Points": 4962,
+      "totalPointsAll": 5019,
+      "top11Points": 5039,
       "players": [
         {
           "name": "KL Rahul",
@@ -19120,12 +19146,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 287,
+          "batting": 351,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 295,
+          "rawPoints": 359,
           "multiplier": 1,
-          "effectivePoints": 295,
+          "effectivePoints": 359,
           "countsInTop11": true
         },
         {
@@ -19143,11 +19169,11 @@
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
-          "bowling": 69,
-          "fielding": 24,
-          "rawPoints": 95,
+          "bowling": 74,
+          "fielding": 32,
+          "rawPoints": 108,
           "multiplier": 1,
-          "effectivePoints": 95,
+          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
@@ -19186,8 +19212,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3508,
-      "top11Points": 3460,
+      "totalPointsAll": 3519,
+      "top11Points": 3471,
       "players": [
         {
           "name": "Shubman Gill",
@@ -19236,12 +19262,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 82,
+          "batting": 93,
           "bowling": 125,
           "fielding": 8,
-          "rawPoints": 215,
+          "rawPoints": 226,
           "multiplier": 1,
-          "effectivePoints": 215,
+          "effectivePoints": 226,
           "countsInTop11": true
         },
         {
@@ -19451,8 +19477,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3949,
-      "top11Points": 3888,
+      "totalPointsAll": 3976,
+      "top11Points": 3915,
       "players": [
         {
           "name": "Axar Patel",
@@ -19501,12 +19527,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 63,
+          "batting": 90,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 361,
+          "rawPoints": 388,
           "multiplier": 1,
-          "effectivePoints": 361,
+          "effectivePoints": 388,
           "countsInTop11": true
         },
         {
@@ -19611,8 +19637,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4322,
-      "top11Points": 4322,
+      "totalPointsAll": 4330,
+      "top11Points": 4330,
       "players": [
         {
           "name": "Jos Buttler",
@@ -19674,10 +19700,10 @@
           "role": "Opener",
           "batting": 277,
           "bowling": 20,
-          "fielding": 48,
-          "rawPoints": 345,
+          "fielding": 56,
+          "rawPoints": 353,
           "multiplier": 1,
-          "effectivePoints": 345,
+          "effectivePoints": 353,
           "countsInTop11": true
         },
         {
@@ -19738,8 +19764,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3537,
-      "top11Points": 3489,
+      "totalPointsAll": 3532,
+      "top11Points": 3484,
       "players": [
         {
           "name": "Travis Head",
@@ -19755,12 +19781,12 @@
         {
           "name": "Rajat Patidar",
           "role": "Batsman",
-          "batting": 505,
+          "batting": 500,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 545,
+          "rawPoints": 540,
           "multiplier": 1,
-          "effectivePoints": 545,
+          "effectivePoints": 540,
           "countsInTop11": true
         },
         {
