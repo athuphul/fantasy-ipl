@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T17:05:13.904Z",
+  "lastUpdated": "2026-05-07T17:14:55.247Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529293",
@@ -12,6 +12,12 @@
         "r": 209,
         "w": 3,
         "o": 19
+      },
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 2,
+        "w": 0,
+        "o": 0.2
       }
     ],
     "playerScores": {
@@ -28,16 +34,34 @@
         "total": 49
       },
       "Rishabh Pant": {
-        "batting": 32,
+        "batting": 55,
         "bowling": 0,
         "fielding": 0,
-        "total": 32
+        "total": 55
       },
       "Aiden Markram": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
         "total": 1
+      },
+      "Shahbaz Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Shami": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Virat Kohli": {
         "batting": 0,
@@ -133,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3477,
-      "top11Points": 3429
+      "totalPointsAll": 3500,
+      "top11Points": 3452
     },
     {
       "team": "Tanay",
@@ -18536,6 +18560,12 @@
           "r": 209,
           "w": 3,
           "o": 19
+        },
+        {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 2,
+          "w": 0,
+          "o": 0.2
         }
       ],
       "scorecard": [
@@ -18574,12 +18604,12 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 26,
-              "balls": 9,
+              "runs": 32,
+              "balls": 10,
               "fours": 4,
-              "sixes": 1,
-              "sr": 288.89,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 320,
+              "dismissal": "not out"
             },
             {
               "name": "Aiden Markram",
@@ -18588,7 +18618,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -18618,11 +18648,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 47,
+              "runs": 53,
               "wickets": 1,
-              "economy": 12.26
+              "economy": 13.25
             },
             {
               "name": "Suyash Sharma",
@@ -18641,6 +18671,42 @@
               "economy": 16
             }
           ]
+        },
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "batting": [
+            {
+              "name": "Jacob Bethell",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 9
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -18657,16 +18723,34 @@
           "total": 49
         },
         "Rishabh Pant": {
-          "batting": 32,
+          "batting": 55,
           "bowling": 0,
           "fielding": 0,
-          "total": 32
+          "total": 55
         },
         "Aiden Markram": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
           "total": 1
+        },
+        "Shahbaz Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Shami": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Virat Kohli": {
           "batting": 0,
@@ -19153,8 +19237,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3477,
-      "top11Points": 3429,
+      "totalPointsAll": 3500,
+      "top11Points": 3452,
       "players": [
         {
           "name": "Shubman Gill",
@@ -19192,12 +19276,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 294,
+          "batting": 317,
           "bowling": 0,
           "fielding": 74,
-          "rawPoints": 368,
+          "rawPoints": 391,
           "multiplier": 1,
-          "effectivePoints": 368,
+          "effectivePoints": 391,
           "countsInTop11": true
         },
         {
