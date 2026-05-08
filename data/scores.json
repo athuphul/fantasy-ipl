@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T16:25:01.309Z",
+  "lastUpdated": "2026-05-08T16:34:56.759Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 45,
+        "r": 68,
         "w": 2,
-        "o": 6.2
+        "o": 8.1
       }
     ],
     "playerScores": {
@@ -82,10 +82,10 @@
         "total": 24
       },
       "Finn Allen": {
-        "batting": 29,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 57
       },
       "Cameron Green": {
         "batting": 12,
@@ -153,8 +153,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3865,
-      "top11Points": 3868
+      "totalPointsAll": 3907,
+      "top11Points": 3910
     },
     {
       "team": "Kishan",
@@ -18922,9 +18922,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 45,
+          "r": 68,
           "w": 2,
-          "o": 6.2
+          "o": 8.1
         }
       ],
       "scorecard": [
@@ -19078,9 +19078,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 45,
+          "runs": 68,
           "wickets": 2,
-          "overs": 6.2,
+          "overs": 8.1,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -19093,11 +19093,11 @@
             },
             {
               "name": "Finn Allen",
-              "runs": 25,
-              "balls": 19,
-              "fours": 4,
-              "sixes": 0,
-              "sr": 131.58,
+              "runs": 43,
+              "balls": 26,
+              "fours": 5,
+              "sixes": 2,
+              "sr": 165.38,
               "dismissal": "batting"
             },
             {
@@ -19112,10 +19112,10 @@
             {
               "name": "Cameron Green",
               "runs": 10,
-              "balls": 8,
+              "balls": 10,
               "fours": 0,
               "sixes": 1,
-              "sr": 125,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -19146,11 +19146,19 @@
             },
             {
               "name": "Vipraj Nigam",
-              "overs": 0.3,
+              "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 13,
               "wickets": 0,
-              "economy": 12
+              "economy": 13
+            },
+            {
+              "name": "Kuldeep Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
             }
           ]
         }
@@ -19217,10 +19225,10 @@
           "total": 24
         },
         "Finn Allen": {
-          "batting": 29,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 57
         },
         "Cameron Green": {
           "batting": 12,
@@ -19264,8 +19272,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3865,
-      "top11Points": 3868,
+      "totalPointsAll": 3907,
+      "top11Points": 3910,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19301,6 +19309,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Finn Allen",
+          "role": "Wicket Keeper",
+          "batting": 225,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 225,
+          "multiplier": 1.5,
+          "effectivePoints": 338,
+          "countsInTop11": true
+        },
+        {
           "name": "Anukul Roy",
           "role": "All-Rounder",
           "batting": 45,
@@ -19331,17 +19350,6 @@
           "rawPoints": 300,
           "multiplier": 1,
           "effectivePoints": 300,
-          "countsInTop11": true
-        },
-        {
-          "name": "Finn Allen",
-          "role": "Wicket Keeper",
-          "batting": 197,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 197,
-          "multiplier": 1.5,
-          "effectivePoints": 296,
           "countsInTop11": true
         },
         {
