@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T15:24:54.526Z",
+  "lastUpdated": "2026-05-08T15:34:58.203Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 116,
-        "w": 5,
-        "o": 17.1
+        "r": 129,
+        "w": 6,
+        "o": 18.4
       }
     ],
     "playerScores": {
@@ -40,16 +40,22 @@
         "total": 2
       },
       "Axar Patel": {
-        "batting": -4,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": -4
+        "total": 1
       },
       "Ashutosh Sharma": {
-        "batting": -6,
+        "batting": 48,
         "bowling": 0,
         "fielding": 0,
-        "total": -6
+        "total": 48
+      },
+      "Vipraj Nigam": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -78,20 +84,26 @@
       "Anukul Roy": {
         "batting": 0,
         "bowling": 55,
-        "fielding": 0,
-        "total": 55
+        "fielding": 8,
+        "total": 63
       },
       "Vaibhav Arora": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 25,
         "fielding": 0,
-        "total": 5
+        "total": 25
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 12,
         "fielding": 0,
-        "total": 20
+        "total": 12
+      },
+      "Finn Allen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -108,18 +120,18 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4335,
-      "top11Points": 4335
+      "totalPointsAll": 4355,
+      "top11Points": 4355
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3977,
-      "top11Points": 3941
+      "totalPointsAll": 3969,
+      "top11Points": 3933
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3980,
-      "top11Points": 3919
+      "totalPointsAll": 3990,
+      "top11Points": 3929
     },
     {
       "team": "Kishan",
@@ -128,8 +140,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3789,
-      "top11Points": 3792
+      "totalPointsAll": 3797,
+      "top11Points": 3800
     },
     {
       "team": "Ashwin",
@@ -138,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3559,
-      "top11Points": 3511
+      "totalPointsAll": 3614,
+      "top11Points": 3566
     }
   ],
   "matchHistory": [
@@ -18886,17 +18898,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 116,
-          "w": 5,
-          "o": 17.1
+          "r": 129,
+          "w": 6,
+          "o": 18.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 116,
-          "wickets": 5,
-          "overs": 17.1,
+          "runs": 129,
+          "wickets": 6,
+          "overs": 18.4,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -18945,20 +18957,29 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 6,
-              "balls": 16,
+              "runs": 11,
+              "balls": 22,
               "fours": 0,
               "sixes": 0,
-              "sr": 37.5,
-              "dismissal": "batting"
+              "sr": 50,
+              "dismissal": "c Anukul Roy b Vaibhav Arora"
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 4,
-              "balls": 13,
+              "runs": 39,
+              "balls": 27,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 144.44,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vipraj Nigam",
+              "runs": 1,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 30.77,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -18973,35 +18994,35 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
-              "wickets": 0,
-              "economy": 8
+              "runs": 29,
+              "wickets": 1,
+              "economy": 9.67
             },
             {
               "name": "Sunil Narine",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 15,
+              "runs": 17,
               "wickets": 1,
-              "economy": 4.29
+              "economy": 4.25
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 12,
+              "runs": 22,
               "wickets": 1,
-              "economy": 6
+              "economy": 7.33
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 12,
+              "runs": 28,
               "wickets": 0,
-              "economy": 4
+              "economy": 7
             },
             {
               "name": "Cameron Green",
@@ -19040,16 +19061,22 @@
           "total": 2
         },
         "Axar Patel": {
-          "batting": -4,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": -4
+          "total": 1
         },
         "Ashutosh Sharma": {
-          "batting": -6,
+          "batting": 48,
           "bowling": 0,
           "fielding": 0,
-          "total": -6
+          "total": 48
+        },
+        "Vipraj Nigam": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -19078,20 +19105,26 @@
         "Anukul Roy": {
           "batting": 0,
           "bowling": 55,
-          "fielding": 0,
-          "total": 55
+          "fielding": 8,
+          "total": 63
         },
         "Vaibhav Arora": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 25,
           "fielding": 0,
-          "total": 5
+          "total": 25
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 12,
           "fielding": 0,
-          "total": 20
+          "total": 12
+        },
+        "Finn Allen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -19099,8 +19132,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3789,
-      "top11Points": 3792,
+      "totalPointsAll": 3797,
+      "top11Points": 3800,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19140,10 +19173,10 @@
           "role": "All-Rounder",
           "batting": 45,
           "bowling": 217,
-          "fielding": 50,
-          "rawPoints": 312,
+          "fielding": 58,
+          "rawPoints": 320,
           "multiplier": 1,
-          "effectivePoints": 312,
+          "effectivePoints": 320,
           "countsInTop11": true
         },
         {
@@ -19248,8 +19281,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3977,
-      "top11Points": 3941,
+      "totalPointsAll": 3969,
+      "top11Points": 3933,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -19332,11 +19365,11 @@
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
           "batting": -5,
-          "bowling": 285,
+          "bowling": 277,
           "fielding": 16,
-          "rawPoints": 296,
+          "rawPoints": 288,
           "multiplier": 1,
-          "effectivePoints": 296,
+          "effectivePoints": 288,
           "countsInTop11": true
         },
         {
@@ -19789,18 +19822,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3980,
-      "top11Points": 3919,
+      "totalPointsAll": 3990,
+      "top11Points": 3929,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 22,
+          "batting": 27,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 320,
+          "rawPoints": 325,
           "multiplier": 2,
-          "effectivePoints": 640,
+          "effectivePoints": 650,
           "countsInTop11": true
         },
         {
@@ -19949,8 +19982,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4335,
-      "top11Points": 4335,
+      "totalPointsAll": 4355,
+      "top11Points": 4355,
       "players": [
         {
           "name": "Jos Buttler",
@@ -20022,11 +20055,11 @@
           "name": "Vaibhav Arora",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 250,
+          "bowling": 270,
           "fielding": 26,
-          "rawPoints": 277,
+          "rawPoints": 297,
           "multiplier": 1,
-          "effectivePoints": 277,
+          "effectivePoints": 297,
           "countsInTop11": true
         },
         {
@@ -20076,8 +20109,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3559,
-      "top11Points": 3511,
+      "totalPointsAll": 3614,
+      "top11Points": 3566,
       "players": [
         {
           "name": "Travis Head",
@@ -20157,6 +20190,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 150,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 166,
+          "multiplier": 1,
+          "effectivePoints": 166,
+          "countsInTop11": true
+        },
+        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
@@ -20168,25 +20212,14 @@
           "countsInTop11": true
         },
         {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 96,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 112,
-          "multiplier": 1,
-          "effectivePoints": 112,
-          "countsInTop11": true
-        },
-        {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
-          "batting": 14,
+          "batting": 15,
           "bowling": 45,
           "fielding": 0,
-          "rawPoints": 59,
+          "rawPoints": 60,
           "multiplier": 1,
-          "effectivePoints": 59,
+          "effectivePoints": 60,
           "countsInTop11": true
         },
         {
