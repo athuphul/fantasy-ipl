@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T14:14:54.370Z",
+  "lastUpdated": "2026-05-08T14:24:53.803Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -9,17 +9,23 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 33,
-        "w": 0,
-        "o": 3.3
+        "r": 54,
+        "w": 1,
+        "o": 5.2
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 10,
+        "batting": 32,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 32
+      },
+      "Nitish Rana": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -30,8 +36,8 @@
       "Cameron Green": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Rinku Singh": {
         "batting": 0,
@@ -68,8 +74,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5039,
-      "top11Points": 5059
+      "totalPointsAll": 5083,
+      "top11Points": 5103
     },
     {
       "team": "Tikoo",
@@ -108,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3532,
-      "top11Points": 3484
+      "totalPointsAll": 3540,
+      "top11Points": 3492
     }
   ],
   "matchHistory": [
@@ -18856,34 +18862,43 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 33,
-          "w": 0,
-          "o": 3.3
+          "r": 54,
+          "w": 1,
+          "o": 5.2
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 33,
-          "wickets": 0,
-          "overs": 3.3,
+          "runs": 54,
+          "wickets": 1,
+          "overs": 5.2,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 24,
-              "balls": 12,
-              "fours": 2,
+              "runs": 31,
+              "balls": 18,
+              "fours": 3,
               "sixes": 2,
-              "sr": 200,
+              "sr": 172.22,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 9,
-              "balls": 8,
-              "fours": 1,
+              "runs": 23,
+              "balls": 14,
+              "fours": 4,
               "sixes": 0,
-              "sr": 112.5,
+              "sr": 164.29,
+              "dismissal": "c Cameron Green b Kartik Tyagi"
+            },
+            {
+              "name": "Nitish Rana",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -18898,29 +18913,43 @@
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 10,
+              "runs": 15,
               "wickets": 0,
               "economy": 10
             },
             {
               "name": "Sunil Narine",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 5,
+              "runs": 11,
               "wickets": 0,
-              "economy": 15
+              "economy": 11
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
             }
           ]
         }
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 10,
+          "batting": 32,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 32
+        },
+        "Nitish Rana": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -18931,8 +18960,8 @@
         "Cameron Green": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Rinku Singh": {
           "batting": 0,
@@ -19257,18 +19286,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5039,
-      "top11Points": 5059,
+      "totalPointsAll": 5083,
+      "top11Points": 5103,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 662,
+          "batting": 684,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 698,
+          "rawPoints": 720,
           "multiplier": 2,
-          "effectivePoints": 1396,
+          "effectivePoints": 1440,
           "countsInTop11": true
         },
         {
@@ -19947,8 +19976,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3532,
-      "top11Points": 3484,
+      "totalPointsAll": 3540,
+      "top11Points": 3492,
       "players": [
         {
           "name": "Travis Head",
@@ -19988,10 +20017,10 @@
           "role": "All-Rounder",
           "batting": 270,
           "bowling": 50,
-          "fielding": 48,
-          "rawPoints": 368,
+          "fielding": 56,
+          "rawPoints": 376,
           "multiplier": 1,
-          "effectivePoints": 368,
+          "effectivePoints": 376,
           "countsInTop11": true
         },
         {
