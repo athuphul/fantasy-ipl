@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T14:04:56.126Z",
+  "lastUpdated": "2026-05-08T14:14:54.370Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 7,
+        "r": 33,
         "w": 0,
-        "o": 1
+        "o": 3.3
       }
     ],
     "playerScores": {
       "KL Rahul": {
-        "batting": 1,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 10
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -68,8 +68,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5021,
-      "top11Points": 5041
+      "totalPointsAll": 5039,
+      "top11Points": 5059
     },
     {
       "team": "Tikoo",
@@ -18856,63 +18856,71 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 7,
+          "r": 33,
           "w": 0,
-          "o": 1
+          "o": 3.3
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 7,
+          "runs": 33,
           "wickets": 0,
-          "overs": 1,
+          "overs": 3.3,
           "batting": [
             {
               "name": "Pathum Nissanka",
-              "runs": 6,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 120,
+              "runs": 24,
+              "balls": 12,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
+              "runs": 9,
+              "balls": 8,
+              "fours": 1,
               "sixes": 0,
-              "sr": 50,
+              "sr": 112.5,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Anukul Roy",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 18,
               "wickets": 0,
-              "economy": 7
+              "economy": 9
             },
             {
               "name": "Vaibhav Arora",
-              "overs": 0.1,
+              "overs": 1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 10,
               "wickets": 0,
-              "economy": 0
+              "economy": 10
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "KL Rahul": {
-          "batting": 1,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 10
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -19249,18 +19257,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5021,
-      "top11Points": 5041,
+      "totalPointsAll": 5039,
+      "top11Points": 5059,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 653,
+          "batting": 662,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 689,
+          "rawPoints": 698,
           "multiplier": 2,
-          "effectivePoints": 1378,
+          "effectivePoints": 1396,
           "countsInTop11": true
         },
         {
