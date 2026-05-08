@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T16:04:54.940Z",
+  "lastUpdated": "2026-05-08T16:14:54.358Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Kolkata Knight Riders",
-        "r": 17,
-        "w": 0,
-        "o": 2
+        "r": 32,
+        "w": 2,
+        "o": 4
       }
     ],
     "playerScores": {
@@ -76,22 +76,22 @@
         "total": 0
       },
       "Ajinkya Rahane": {
-        "batting": 7,
+        "batting": 16,
         "bowling": 0,
         "fielding": 8,
-        "total": 15
+        "total": 24
       },
       "Finn Allen": {
-        "batting": 13,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 19
       },
       "Cameron Green": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 25,
         "fielding": 8,
-        "total": 33
+        "total": 34
       },
       "Rinku Singh": {
         "batting": 0,
@@ -153,8 +153,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3832,
-      "top11Points": 3835
+      "totalPointsAll": 3850,
+      "top11Points": 3853
     },
     {
       "team": "Kishan",
@@ -168,8 +168,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3616,
-      "top11Points": 3568
+      "totalPointsAll": 3617,
+      "top11Points": 3569
     }
   ],
   "matchHistory": [
@@ -18922,9 +18922,9 @@
         },
         {
           "inning": "Kolkata Knight Riders",
-          "r": 17,
-          "w": 0,
-          "o": 2
+          "r": 32,
+          "w": 2,
+          "o": 4
         }
       ],
       "scorecard": [
@@ -19075,6 +19075,59 @@
               "economy": 12
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 32,
+          "wickets": 2,
+          "overs": 4,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 13,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 144.44,
+              "dismissal": "run out (Mitchell Starc)"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 16,
+              "balls": 9,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 177.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mitchell Starc",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 18,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Axar Patel",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 9
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -19133,22 +19186,22 @@
           "total": 0
         },
         "Ajinkya Rahane": {
-          "batting": 7,
+          "batting": 16,
           "bowling": 0,
           "fielding": 8,
-          "total": 15
+          "total": 24
         },
         "Finn Allen": {
-          "batting": 13,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 19
         },
         "Cameron Green": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 25,
           "fielding": 8,
-          "total": 33
+          "total": 34
         },
         "Rinku Singh": {
           "batting": 0,
@@ -19186,8 +19239,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3832,
-      "top11Points": 3835,
+      "totalPointsAll": 3850,
+      "top11Points": 3853,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19258,23 +19311,23 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 241,
+          "batting": 250,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 281,
+          "rawPoints": 290,
           "multiplier": 1,
-          "effectivePoints": 281,
+          "effectivePoints": 290,
           "countsInTop11": true
         },
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 181,
+          "batting": 187,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 181,
+          "rawPoints": 187,
           "multiplier": 1.5,
-          "effectivePoints": 272,
+          "effectivePoints": 281,
           "countsInTop11": true
         },
         {
@@ -20163,8 +20216,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3616,
-      "top11Points": 3568,
+      "totalPointsAll": 3617,
+      "top11Points": 3569,
       "players": [
         {
           "name": "Travis Head",
@@ -20202,12 +20255,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 270,
+          "batting": 271,
           "bowling": 75,
           "fielding": 56,
-          "rawPoints": 401,
+          "rawPoints": 402,
           "multiplier": 1,
-          "effectivePoints": 401,
+          "effectivePoints": 402,
           "countsInTop11": true
         },
         {
