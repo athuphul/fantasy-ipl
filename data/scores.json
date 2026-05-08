@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T15:54:55.316Z",
+  "lastUpdated": "2026-05-08T16:04:54.940Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -12,6 +12,12 @@
         "r": 142,
         "w": 8,
         "o": 20
+      },
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 17,
+        "w": 0,
+        "o": 2
       }
     ],
     "playerScores": {
@@ -63,11 +69,23 @@
         "fielding": 0,
         "total": 1
       },
-      "Ajinkya Rahane": {
+      "Kuldeep Yadav": {
         "batting": 0,
         "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ajinkya Rahane": {
+        "batting": 7,
+        "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 15
+      },
+      "Finn Allen": {
+        "batting": 13,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 13
       },
       "Cameron Green": {
         "batting": 0,
@@ -104,12 +122,6 @@
         "bowling": 12,
         "fielding": 0,
         "total": 12
-      },
-      "Finn Allen": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       }
     }
   },
@@ -140,14 +152,14 @@
       "top11Points": 3929
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 3832,
+      "top11Points": 3835
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 3824,
       "top11Points": 3824
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 3805,
-      "top11Points": 3808
     },
     {
       "team": "Ashwin",
@@ -18907,6 +18919,12 @@
           "r": 142,
           "w": 8,
           "o": 20
+        },
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 17,
+          "w": 0,
+          "o": 2
         }
       ],
       "scorecard": [
@@ -19108,11 +19126,23 @@
           "fielding": 0,
           "total": 1
         },
-        "Ajinkya Rahane": {
+        "Kuldeep Yadav": {
           "batting": 0,
           "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ajinkya Rahane": {
+          "batting": 7,
+          "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 15
+        },
+        "Finn Allen": {
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 13
         },
         "Cameron Green": {
           "batting": 0,
@@ -19149,12 +19179,6 @@
           "bowling": 12,
           "fielding": 0,
           "total": 12
-        },
-        "Finn Allen": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         }
       },
       "isComplete": false
@@ -19162,8 +19186,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3805,
-      "top11Points": 3808,
+      "totalPointsAll": 3832,
+      "top11Points": 3835,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19234,12 +19258,23 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 234,
+          "batting": 241,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 274,
+          "rawPoints": 281,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 281,
+          "countsInTop11": true
+        },
+        {
+          "name": "Finn Allen",
+          "role": "Wicket Keeper",
+          "batting": 181,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 181,
+          "multiplier": 1.5,
+          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
@@ -19251,17 +19286,6 @@
           "rawPoints": 266,
           "multiplier": 1,
           "effectivePoints": 266,
-          "countsInTop11": true
-        },
-        {
-          "name": "Finn Allen",
-          "role": "Wicket Keeper",
-          "batting": 168,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 168,
-          "multiplier": 1.5,
-          "effectivePoints": 252,
           "countsInTop11": true
         },
         {
