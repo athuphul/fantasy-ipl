@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T15:15:09.629Z",
+  "lastUpdated": "2026-05-08T15:24:54.526Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 98,
+        "r": 116,
         "w": 5,
-        "o": 15.2
+        "o": 17.1
       }
     ],
     "playerScores": {
@@ -40,16 +40,16 @@
         "total": 2
       },
       "Axar Patel": {
-        "batting": -5,
+        "batting": -4,
         "bowling": 0,
         "fielding": 0,
-        "total": -5
+        "total": -4
       },
       "Ashutosh Sharma": {
-        "batting": 3,
+        "batting": -6,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": -6
       },
       "Ajinkya Rahane": {
         "batting": 0,
@@ -118,8 +118,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 3978,
-      "top11Points": 3917
+      "totalPointsAll": 3980,
+      "top11Points": 3919
     },
     {
       "team": "Kishan",
@@ -138,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3568,
-      "top11Points": 3520
+      "totalPointsAll": 3559,
+      "top11Points": 3511
     }
   ],
   "matchHistory": [
@@ -18886,17 +18886,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 98,
+          "r": 116,
           "w": 5,
-          "o": 15.2
+          "o": 17.1
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 98,
+          "runs": 116,
           "wickets": 5,
-          "overs": 15.2,
+          "overs": 17.1,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -18945,20 +18945,20 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 5,
-              "balls": 13,
+              "runs": 6,
+              "balls": 16,
               "fours": 0,
               "sixes": 0,
-              "sr": 38.46,
+              "sr": 37.5,
               "dismissal": "batting"
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 3,
-              "balls": 8,
+              "runs": 4,
+              "balls": 13,
               "fours": 0,
               "sixes": 0,
-              "sr": 37.5,
+              "sr": 30.77,
               "dismissal": "batting"
             }
           ],
@@ -18981,19 +18981,19 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
               "runs": 15,
               "wickets": 1,
-              "economy": 5
+              "economy": 4.29
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 12,
               "wickets": 1,
-              "economy": 8.57
+              "economy": 6
             },
             {
               "name": "Varun Chakaravarthy",
@@ -19040,16 +19040,16 @@
           "total": 2
         },
         "Axar Patel": {
-          "batting": -5,
+          "batting": -4,
           "bowling": 0,
           "fielding": 0,
-          "total": -5
+          "total": -4
         },
         "Ashutosh Sharma": {
-          "batting": 3,
+          "batting": -6,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": -6
         },
         "Ajinkya Rahane": {
           "batting": 0,
@@ -19789,18 +19789,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3978,
-      "top11Points": 3917,
+      "totalPointsAll": 3980,
+      "top11Points": 3919,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 21,
+          "batting": 22,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 319,
+          "rawPoints": 320,
           "multiplier": 2,
-          "effectivePoints": 638,
+          "effectivePoints": 640,
           "countsInTop11": true
         },
         {
@@ -20076,8 +20076,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3568,
-      "top11Points": 3520,
+      "totalPointsAll": 3559,
+      "top11Points": 3511,
       "players": [
         {
           "name": "Travis Head",
@@ -20157,17 +20157,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 105,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 121,
-          "multiplier": 1,
-          "effectivePoints": 121,
-          "countsInTop11": true
-        },
-        {
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
@@ -20176,6 +20165,17 @@
           "rawPoints": 115,
           "multiplier": 1,
           "effectivePoints": 115,
+          "countsInTop11": true
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 96,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 112,
+          "multiplier": 1,
+          "effectivePoints": 112,
           "countsInTop11": true
         },
         {
