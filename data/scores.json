@@ -1,12 +1,75 @@
 {
-  "lastUpdated": "2026-05-07T18:55:14.547Z",
+  "lastUpdated": "2026-05-08T14:04:56.126Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529294",
+    "name": "Delhi Capitals v Kolkata Knight Riders",
+    "status": "Live",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "score": [
+      {
+        "inning": "Delhi Capitals",
+        "r": 7,
+        "w": 0,
+        "o": 1
+      }
+    ],
+    "playerScores": {
+      "KL Rahul": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Ajinkya Rahane": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Vaibhav Arora": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5019,
-      "top11Points": 5039
+      "totalPointsAll": 5021,
+      "top11Points": 5041
     },
     {
       "team": "Tikoo",
@@ -19,14 +82,14 @@
       "top11Points": 4330
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 3962,
-      "top11Points": 3926
+      "team": "Manav",
+      "totalPointsAll": 3988,
+      "top11Points": 3927
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 3949,
-      "top11Points": 3888
+      "team": "Aakash",
+      "totalPointsAll": 3950,
+      "top11Points": 3914
     },
     {
       "team": "Kishan",
@@ -39,14 +102,14 @@
       "top11Points": 3737
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 3541,
+      "top11Points": 3493
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 3532,
       "top11Points": 3484
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 3513,
-      "top11Points": 3465
     }
   ],
   "matchHistory": [
@@ -18435,7 +18498,7 @@
       "matchId": "espn_1529293",
       "name": "Lucknow Super Giants v Royal Challengers Bengaluru",
       "date": "2026-05-07",
-      "status": "Live",
+      "status": "Final",
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "score": [
         {
@@ -18446,9 +18509,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 196,
+          "r": 203,
           "w": 6,
-          "o": 18.3
+          "o": 19
         }
       ],
       "scorecard": [
@@ -18557,9 +18620,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 196,
+          "runs": 203,
           "wickets": 6,
-          "overs": 18.3,
+          "overs": 19,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -18617,39 +18680,39 @@
             },
             {
               "name": "Krunal Pandya",
-              "runs": 9,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 90,
-              "dismissal": "batting"
+              "runs": 28,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 175,
+              "dismissal": "not out"
             },
             {
               "name": "Romario Shepherd",
-              "runs": 4,
-              "balls": 1,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 400,
-              "dismissal": "batting"
+              "runs": 23,
+              "balls": 15,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 153.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
+              "runs": 33,
               "wickets": 1,
-              "economy": 6.33
+              "economy": 8.25
             },
             {
               "name": "Prince Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 21,
+              "runs": 33,
               "wickets": 3,
-              "economy": 7
+              "economy": 8.25
             },
             {
               "name": "Mayank Yadav",
@@ -18661,19 +18724,19 @@
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 41,
+              "runs": 50,
               "wickets": 0,
-              "economy": 13.67
+              "economy": 12.5
             },
             {
               "name": "Shahbaz Ahmed",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 29,
+              "runs": 33,
               "wickets": 2,
-              "economy": 10.88
+              "economy": 11
             }
           ]
         }
@@ -18717,9 +18780,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 37,
+          "bowling": 25,
           "fielding": 0,
-          "total": 37
+          "total": 25
         },
         "Virat Kohli": {
           "batting": -5,
@@ -18752,16 +18815,16 @@
           "total": 65
         },
         "Krunal Pandya": {
-          "batting": 5,
+          "batting": 44,
           "bowling": 30,
           "fielding": 8,
-          "total": 43
+          "total": 82
         },
         "Romario Shepherd": {
-          "batting": 5,
+          "batting": 33,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 33
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -18780,6 +18843,118 @@
           "bowling": -5,
           "fielding": 0,
           "total": -5
+        }
+      },
+      "isComplete": true
+    },
+    {
+      "matchId": "espn_1529294",
+      "name": "Delhi Capitals v Kolkata Knight Riders",
+      "date": "2026-05-08",
+      "status": "Live",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "score": [
+        {
+          "inning": "Delhi Capitals",
+          "r": 7,
+          "w": 0,
+          "o": 1
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Delhi Capitals",
+          "runs": 7,
+          "wickets": 0,
+          "overs": 1,
+          "batting": [
+            {
+              "name": "Pathum Nissanka",
+              "runs": 6,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 120,
+              "dismissal": "batting"
+            },
+            {
+              "name": "KL Rahul",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Anukul Roy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Vaibhav Arora",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "KL Rahul": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Ajinkya Rahane": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Vaibhav Arora": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -18936,8 +19111,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3962,
-      "top11Points": 3926,
+      "totalPointsAll": 3950,
+      "top11Points": 3914,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -19009,11 +19184,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 34,
-          "bowling": 256,
+          "bowling": 244,
           "fielding": 24,
-          "rawPoints": 314,
+          "rawPoints": 302,
           "multiplier": 1,
-          "effectivePoints": 314,
+          "effectivePoints": 302,
           "countsInTop11": true
         },
         {
@@ -19074,18 +19249,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5019,
-      "top11Points": 5039,
+      "totalPointsAll": 5021,
+      "top11Points": 5041,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 652,
+          "batting": 653,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 688,
+          "rawPoints": 689,
           "multiplier": 2,
-          "effectivePoints": 1376,
+          "effectivePoints": 1378,
           "countsInTop11": true
         },
         {
@@ -19212,8 +19387,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3513,
-      "top11Points": 3465,
+      "totalPointsAll": 3541,
+      "top11Points": 3493,
       "players": [
         {
           "name": "Shubman Gill",
@@ -19262,12 +19437,12 @@
         {
           "name": "Romario Shepherd",
           "role": "All-Rounder",
-          "batting": 87,
+          "batting": 115,
           "bowling": 125,
           "fielding": 8,
-          "rawPoints": 220,
+          "rawPoints": 248,
           "multiplier": 1,
-          "effectivePoints": 220,
+          "effectivePoints": 248,
           "countsInTop11": true
         },
         {
@@ -19477,8 +19652,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 3949,
-      "top11Points": 3888,
+      "totalPointsAll": 3988,
+      "top11Points": 3927,
       "players": [
         {
           "name": "Axar Patel",
@@ -19527,12 +19702,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 63,
+          "batting": 102,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 361,
+          "rawPoints": 400,
           "multiplier": 1,
-          "effectivePoints": 361,
+          "effectivePoints": 400,
           "countsInTop11": true
         },
         {
