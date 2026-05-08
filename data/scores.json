@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T15:34:58.203Z",
+  "lastUpdated": "2026-05-08T15:44:56.962Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529294",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 129,
-        "w": 6,
-        "o": 18.4
+        "r": 142,
+        "w": 8,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -52,6 +52,12 @@
         "total": 48
       },
       "Vipraj Nigam": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Lungi Ngidi": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
@@ -60,8 +66,8 @@
       "Ajinkya Rahane": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Cameron Green": {
         "batting": 0,
@@ -115,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4827,
-      "top11Points": 4544
+      "totalPointsAll": 4828,
+      "top11Points": 4545
     },
     {
       "team": "Ritik",
@@ -140,8 +146,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 3797,
-      "top11Points": 3800
+      "totalPointsAll": 3805,
+      "top11Points": 3808
     },
     {
       "team": "Ashwin",
@@ -150,8 +156,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3614,
-      "top11Points": 3566
+      "totalPointsAll": 3616,
+      "top11Points": 3568
     }
   ],
   "matchHistory": [
@@ -18898,17 +18904,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 129,
-          "w": 6,
-          "o": 18.4
+          "r": 142,
+          "w": 8,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 129,
-          "wickets": 6,
-          "overs": 18.4,
+          "runs": 142,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Pathum Nissanka",
@@ -18967,20 +18973,38 @@
             {
               "name": "Ashutosh Sharma",
               "runs": 39,
-              "balls": 27,
+              "balls": 28,
               "fours": 3,
               "sixes": 3,
-              "sr": 144.44,
-              "dismissal": "batting"
+              "sr": 139.29,
+              "dismissal": "c Ajinkya Rahane b Kartik Tyagi"
             },
             {
               "name": "Vipraj Nigam",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Mitchell Starc",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "run out (Angkrish Raghuvanshi/Kartik Tyagi)"
+            },
+            {
+              "name": "Lungi Ngidi",
               "runs": 1,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -19010,11 +19034,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 22,
-              "wickets": 1,
-              "economy": 7.33
+              "runs": 25,
+              "wickets": 2,
+              "economy": 6.25
             },
             {
               "name": "Varun Chakaravarthy",
@@ -19073,6 +19097,12 @@
           "total": 48
         },
         "Vipraj Nigam": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Lungi Ngidi": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
@@ -19081,8 +19111,8 @@
         "Ajinkya Rahane": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Cameron Green": {
           "batting": 0,
@@ -19132,8 +19162,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 3797,
-      "top11Points": 3800,
+      "totalPointsAll": 3805,
+      "top11Points": 3808,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19202,22 +19232,22 @@
           "countsInTop11": true
         },
         {
+          "name": "Ajinkya Rahane",
+          "role": "Batsman",
+          "batting": 234,
+          "bowling": 0,
+          "fielding": 40,
+          "rawPoints": 274,
+          "multiplier": 1,
+          "effectivePoints": 274,
+          "countsInTop11": true
+        },
+        {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 190,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 266,
-          "multiplier": 1,
-          "effectivePoints": 266,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ajinkya Rahane",
-          "role": "Batsman",
-          "batting": 234,
-          "bowling": 0,
-          "fielding": 32,
           "rawPoints": 266,
           "multiplier": 1,
           "effectivePoints": 266,
@@ -20109,8 +20139,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3614,
-      "top11Points": 3566,
+      "totalPointsAll": 3616,
+      "top11Points": 3568,
       "players": [
         {
           "name": "Travis Head",
@@ -20214,12 +20244,12 @@
         {
           "name": "Vipraj Nigam",
           "role": "All-Rounder",
-          "batting": 15,
+          "batting": 17,
           "bowling": 45,
           "fielding": 0,
-          "rawPoints": 60,
+          "rawPoints": 62,
           "multiplier": 1,
-          "effectivePoints": 60,
+          "effectivePoints": 62,
           "countsInTop11": true
         },
         {
@@ -20247,8 +20277,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4827,
-      "top11Points": 4544,
+      "totalPointsAll": 4828,
+      "top11Points": 4545,
       "players": [
         {
           "name": "Sanju Samson",
@@ -20330,12 +20360,12 @@
         {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
-          "batting": -2,
+          "batting": -1,
           "bowling": 230,
           "fielding": 5,
-          "rawPoints": 233,
+          "rawPoints": 234,
           "multiplier": 1,
-          "effectivePoints": 233,
+          "effectivePoints": 234,
           "countsInTop11": true
         },
         {
