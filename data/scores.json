@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-05-08T18:24:56.040Z",
+  "lastUpdated": "2026-05-09T14:04:54.772Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529295",
+    "name": "Rajasthan Royals v Gujarat Titans",
+    "status": "Live",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 7,
+        "w": 0,
+        "o": 0.2
+      }
+    ],
+    "playerScores": {
+      "Yashasvi Jaiswal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dhruv Jurel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shimron Hetmyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ravindra Jadeja": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tushar Deshpande": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Sudharsan": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -30,8 +93,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 3969,
-      "top11Points": 3933
+      "totalPointsAll": 3981,
+      "top11Points": 3945
     },
     {
       "team": "Kishan",
@@ -19153,6 +19216,110 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529295",
+      "name": "Rajasthan Royals v Gujarat Titans",
+      "date": "2026-05-09",
+      "status": "Live",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "score": [
+        {
+          "inning": "Gujarat Titans",
+          "r": 7,
+          "w": 0,
+          "o": 0.2
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Gujarat Titans",
+          "runs": 7,
+          "wickets": 0,
+          "overs": 0.2,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 36
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Yashasvi Jaiswal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dhruv Jurel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shimron Hetmyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ravindra Jadeja": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tushar Deshpande": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -19306,18 +19473,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 3969,
-      "top11Points": 3933,
+      "totalPointsAll": 3981,
+      "top11Points": 3945,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 544,
+          "batting": 550,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 578,
+          "rawPoints": 584,
           "multiplier": 2,
-          "effectivePoints": 1156,
+          "effectivePoints": 1168,
           "countsInTop11": true
         },
         {
