@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T16:24:54.854Z",
+  "lastUpdated": "2026-05-09T16:35:25.647Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 40,
-        "w": 1,
-        "o": 3.2
+        "r": 68,
+        "w": 2,
+        "o": 5.3
       },
       {
         "inning": "Gujarat Titans",
@@ -34,16 +34,16 @@
         "total": 60
       },
       "Dhruv Jurel": {
-        "batting": 0,
+        "batting": 29,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 29
       },
       "Shimron Hetmyer": {
-        "batting": 0,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 7
       },
       "Ravindra Jadeja": {
         "batting": 0,
@@ -107,9 +107,9 @@
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 10,
         "fielding": 0,
-        "total": 20
+        "total": 10
       },
       "Sai Kishore": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5105,
-      "top11Points": 5125
+      "totalPointsAll": 5095,
+      "top11Points": 5115
     },
     {
       "team": "Tikoo",
@@ -147,8 +147,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4064,
-      "top11Points": 4003
+      "totalPointsAll": 4093,
+      "top11Points": 4032
     },
     {
       "team": "Kishan",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3857,
-      "top11Points": 3809
+      "totalPointsAll": 3864,
+      "top11Points": 3816
     },
     {
       "team": "Tanay",
@@ -19280,9 +19280,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 40,
-          "w": 1,
-          "o": 3.2
+          "r": 68,
+          "w": 2,
+          "o": 5.3
         },
         {
           "inning": "Gujarat Titans",
@@ -19406,9 +19406,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 40,
-          "wickets": 1,
-          "overs": 3.2,
+          "runs": 68,
+          "wickets": 2,
+          "overs": 5.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -19430,30 +19430,39 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 22,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 3,
+              "sr": 314.29,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shimron Hetmyer",
+              "runs": 6,
+              "balls": 6,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 45,
               "wickets": 1,
-              "economy": 11.5
+              "economy": 15
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 1.3,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 17,
+              "runs": 23,
               "wickets": 1,
-              "economy": 11.33
+              "economy": 9.2
             }
           ]
         }
@@ -19472,16 +19481,16 @@
           "total": 60
         },
         "Dhruv Jurel": {
-          "batting": 0,
+          "batting": 29,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 29
         },
         "Shimron Hetmyer": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 7
         },
         "Ravindra Jadeja": {
           "batting": 0,
@@ -19545,9 +19554,9 @@
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 10,
           "fielding": 0,
-          "total": 20
+          "total": 10
         },
         "Sai Kishore": {
           "batting": 0,
@@ -19848,8 +19857,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5105,
-      "top11Points": 5125,
+      "totalPointsAll": 5095,
+      "top11Points": 5115,
       "players": [
         {
           "name": "KL Rahul",
@@ -19899,11 +19908,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 364,
+          "bowling": 354,
           "fielding": 24,
-          "rawPoints": 383,
+          "rawPoints": 373,
           "multiplier": 1,
-          "effectivePoints": 383,
+          "effectivePoints": 373,
           "countsInTop11": true
         },
         {
@@ -19986,8 +19995,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3857,
-      "top11Points": 3809,
+      "totalPointsAll": 3864,
+      "top11Points": 3816,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20069,12 +20078,12 @@
         {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
-          "batting": 72,
+          "batting": 79,
           "bowling": 0,
           "fielding": 50,
-          "rawPoints": 122,
+          "rawPoints": 129,
           "multiplier": 1,
-          "effectivePoints": 122,
+          "effectivePoints": 129,
           "countsInTop11": true
         },
         {
@@ -20251,8 +20260,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4064,
-      "top11Points": 4003,
+      "totalPointsAll": 4093,
+      "top11Points": 4032,
       "players": [
         {
           "name": "Axar Patel",
@@ -20279,12 +20288,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 376,
+          "batting": 405,
           "bowling": 0,
           "fielding": 142,
-          "rawPoints": 518,
+          "rawPoints": 547,
           "multiplier": 1,
-          "effectivePoints": 518,
+          "effectivePoints": 547,
           "countsInTop11": true
         },
         {
