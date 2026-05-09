@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T15:54:53.707Z",
+  "lastUpdated": "2026-05-09T16:04:55.170Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Sawai Mansingh Stadium, Jaipur",
     "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 7,
+        "w": 0,
+        "o": 0.2
+      },
       {
         "inning": "Gujarat Titans",
         "r": 229,
@@ -16,9 +22,15 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 8,
+        "total": 9
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
         "total": 8
       },
       "Dhruv Jurel": {
@@ -51,12 +63,6 @@
         "fielding": 8,
         "total": -2
       },
-      "Vaibhav Sooryavanshi": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
       "Sai Sudharsan": {
         "batting": 80,
         "bowling": 0,
@@ -76,16 +82,34 @@
         "total": 16
       },
       "Washington Sundar": {
-        "batting": 59,
+        "batting": 55,
         "bowling": 0,
         "fielding": 0,
-        "total": 59
+        "total": 55
       },
       "Rahul Tewatia": {
         "batting": 18,
         "bowling": 0,
         "fielding": 0,
         "total": 18
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -97,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4866,
-      "top11Points": 4565
+      "totalPointsAll": 4874,
+      "top11Points": 4573
     },
     {
       "team": "Ritik",
@@ -106,13 +130,13 @@
       "top11Points": 4379
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 4091,
-      "top11Points": 4094
+      "team": "Aakash",
+      "totalPointsAll": 4131,
+      "top11Points": 4095
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4130,
+      "team": "Athu",
+      "totalPointsAll": 4091,
       "top11Points": 4094
     },
     {
@@ -122,8 +146,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3923,
-      "top11Points": 3923
+      "totalPointsAll": 3919,
+      "top11Points": 3919
     },
     {
       "team": "Ashwin",
@@ -19249,6 +19273,12 @@
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "score": [
         {
+          "inning": "Rajasthan Royals",
+          "r": 7,
+          "w": 0,
+          "o": 0.2
+        },
+        {
           "inning": "Gujarat Titans",
           "r": 229,
           "w": 4,
@@ -19291,12 +19321,12 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 36,
-              "balls": 18,
+              "runs": 37,
+              "balls": 20,
               "fours": 2,
               "sixes": 3,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 185,
+              "dismissal": "not out"
             },
             {
               "name": "Jason Holder",
@@ -19314,7 +19344,7 @@
               "fours": 0,
               "sixes": 2,
               "sr": 350,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -19328,11 +19358,11 @@
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 51,
+              "runs": 52,
               "wickets": 0,
-              "economy": 13.91
+              "economy": 13
             },
             {
               "name": "Brijesh Sharma",
@@ -19367,13 +19397,55 @@
               "economy": 11
             }
           ]
+        },
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 7,
+          "wickets": 0,
+          "overs": 0.2,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 6,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 300,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 14
+            }
+          ]
         }
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
+          "total": 9
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
           "total": 8
         },
         "Dhruv Jurel": {
@@ -19406,12 +19478,6 @@
           "fielding": 8,
           "total": -2
         },
-        "Vaibhav Sooryavanshi": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
         "Sai Sudharsan": {
           "batting": 80,
           "bowling": 0,
@@ -19431,16 +19497,34 @@
           "total": 16
         },
         "Washington Sundar": {
-          "batting": 59,
+          "batting": 55,
           "bowling": 0,
           "fielding": 0,
-          "total": 59
+          "total": 55
         },
         "Rahul Tewatia": {
           "batting": 18,
           "bowling": 0,
           "fielding": 0,
           "total": 18
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -19597,8 +19681,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4130,
-      "top11Points": 4094,
+      "totalPointsAll": 4131,
+      "top11Points": 4095,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -19614,12 +19698,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 446,
+          "batting": 447,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 470,
+          "rawPoints": 471,
           "multiplier": 1,
-          "effectivePoints": 470,
+          "effectivePoints": 471,
           "countsInTop11": true
         },
         {
@@ -20011,8 +20095,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3923,
-      "top11Points": 3923,
+      "totalPointsAll": 3919,
+      "top11Points": 3919,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20072,12 +20156,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 338,
+          "batting": 334,
           "bowling": 25,
           "fielding": 32,
-          "rawPoints": 395,
+          "rawPoints": 391,
           "multiplier": 1,
-          "effectivePoints": 395,
+          "effectivePoints": 391,
           "countsInTop11": true
         },
         {
@@ -20563,8 +20647,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4866,
-      "top11Points": 4565,
+      "totalPointsAll": 4874,
+      "top11Points": 4573,
       "players": [
         {
           "name": "Sanju Samson",
@@ -20580,12 +20664,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 643,
+          "batting": 651,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 643,
+          "rawPoints": 651,
           "multiplier": 1,
-          "effectivePoints": 643,
+          "effectivePoints": 651,
           "countsInTop11": true
         },
         {
