@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T15:34:56.027Z",
+  "lastUpdated": "2026-05-09T15:44:54.538Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 204,
-        "w": 3,
-        "o": 18
+        "r": 228,
+        "w": 4,
+        "o": 19.5
       }
     ],
     "playerScores": {
@@ -80,6 +80,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 20
+      },
+      "Rahul Tewatia": {
+        "batting": 18,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 18
       }
     }
   },
@@ -91,7 +97,7 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4848,
+      "totalPointsAll": 4866,
       "top11Points": 4565
     },
     {
@@ -19244,17 +19250,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 204,
-          "w": 3,
-          "o": 18
+          "r": 228,
+          "w": 4,
+          "o": 19.5
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 204,
-          "wickets": 3,
-          "overs": 18,
+          "runs": 228,
+          "wickets": 4,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -19411,6 +19417,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 20
+        },
+        "Rahul Tewatia": {
+          "batting": 18,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 18
         }
       },
       "isComplete": false
@@ -20533,7 +20545,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4848,
+      "totalPointsAll": 4866,
       "top11Points": 4565,
       "players": [
         {
@@ -20658,6 +20670,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Rahul Tewatia",
+          "role": "All-Rounder",
+          "batting": 101,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 117,
+          "multiplier": 1,
+          "effectivePoints": 117,
+          "countsInTop11": false
+        },
+        {
           "name": "Blessing Muzarabani",
           "role": "Fast Bowler",
           "batting": 0,
@@ -20666,17 +20689,6 @@
           "rawPoints": 110,
           "multiplier": 1,
           "effectivePoints": 110,
-          "countsInTop11": false
-        },
-        {
-          "name": "Rahul Tewatia",
-          "role": "All-Rounder",
-          "batting": 83,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 99,
-          "multiplier": 1,
-          "effectivePoints": 99,
           "countsInTop11": false
         },
         {
