@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T14:34:54.883Z",
+  "lastUpdated": "2026-05-09T14:44:56.626Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 82,
+        "r": 98,
         "w": 0,
-        "o": 6
+        "o": 8
       }
     ],
     "playerScores": {
@@ -41,27 +41,27 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Tushar Deshpande": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Sai Sudharsan": {
-        "batting": 29,
+        "batting": 63,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 63
       },
       "Shubman Gill": {
-        "batting": 8,
+        "batting": 59,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 59
       }
     }
   },
@@ -87,14 +87,14 @@
       "top11Points": 4094
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 4080,
+      "top11Points": 4044
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 4064,
       "top11Points": 4003
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 4027,
-      "top11Points": 3991
     },
     {
       "team": "Kishan",
@@ -102,14 +102,14 @@
       "top11Points": 3814
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 3734,
+      "top11Points": 3686
+    },
+    {
       "team": "Tanay",
       "totalPointsAll": 3638,
       "top11Points": 3591
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 3637,
-      "top11Points": 3589
     }
   ],
   "matchHistory": [
@@ -19226,61 +19226,77 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 82,
+          "r": 98,
           "w": 0,
-          "o": 6
+          "o": 8
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 82,
+          "runs": 98,
           "wickets": 0,
-          "overs": 6,
+          "overs": 8,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 24,
-              "balls": 18,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 133.33,
+              "runs": 48,
+              "balls": 28,
+              "fours": 6,
+              "sixes": 2,
+              "sr": 171.43,
               "dismissal": "batting"
             },
             {
               "name": "Shubman Gill",
-              "runs": 7,
-              "balls": 5,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 140,
+              "runs": 41,
+              "balls": 22,
+              "fours": 6,
+              "sixes": 1,
+              "sr": 186.36,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 33,
               "wickets": 0,
-              "economy": 18
+              "economy": 16.5
             },
             {
               "name": "Tushar Deshpande",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 23,
               "wickets": 0,
-              "economy": 7.8
+              "economy": 11.5
             },
             {
               "name": "Brijesh Sharma",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 26,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Yash Raj Punja",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 11.14
+            },
+            {
+              "name": "Ravindra Jadeja",
               "overs": 1,
               "maidens": 0,
-              "runs": 11,
+              "runs": 6,
               "wickets": 0,
-              "economy": 11
+              "economy": 6
             }
           ]
         }
@@ -19312,27 +19328,27 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Tushar Deshpande": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Sai Sudharsan": {
-          "batting": 29,
+          "batting": 63,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 63
         },
         "Shubman Gill": {
-          "batting": 8,
+          "batting": 59,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 59
         }
       },
       "isComplete": false
@@ -19489,29 +19505,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4027,
-      "top11Points": 3991,
+      "totalPointsAll": 4080,
+      "top11Points": 4044,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 573,
+          "batting": 607,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 607,
+          "rawPoints": 641,
           "multiplier": 2,
-          "effectivePoints": 1214,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 15,
-          "bowling": 410,
-          "fielding": 42,
-          "rawPoints": 467,
-          "multiplier": 1,
-          "effectivePoints": 467,
+          "effectivePoints": 1282,
           "countsInTop11": true
         },
         {
@@ -19523,6 +19528,17 @@
           "rawPoints": 462,
           "multiplier": 1,
           "effectivePoints": 462,
+          "countsInTop11": true
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 15,
+          "bowling": 395,
+          "fielding": 42,
+          "rawPoints": 452,
+          "multiplier": 1,
+          "effectivePoints": 452,
           "countsInTop11": true
         },
         {
@@ -19765,18 +19781,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3637,
-      "top11Points": 3589,
+      "totalPointsAll": 3734,
+      "top11Points": 3686,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 510,
+          "batting": 561,
           "bowling": 0,
           "fielding": 66,
-          "rawPoints": 576,
+          "rawPoints": 627,
           "multiplier": 2,
-          "effectivePoints": 1152,
+          "effectivePoints": 1254,
           "countsInTop11": true
         },
         {
@@ -19846,17 +19862,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Tushar Deshpande",
-          "role": "Fast Bowler",
-          "batting": 46,
-          "bowling": 65,
-          "fielding": 13,
-          "rawPoints": 124,
-          "multiplier": 1,
-          "effectivePoints": 124,
-          "countsInTop11": true
-        },
-        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 72,
@@ -19865,6 +19870,17 @@
           "rawPoints": 122,
           "multiplier": 1,
           "effectivePoints": 122,
+          "countsInTop11": true
+        },
+        {
+          "name": "Tushar Deshpande",
+          "role": "Fast Bowler",
+          "batting": 46,
+          "bowling": 60,
+          "fielding": 13,
+          "rawPoints": 119,
+          "multiplier": 1,
+          "effectivePoints": 119,
           "countsInTop11": true
         },
         {
