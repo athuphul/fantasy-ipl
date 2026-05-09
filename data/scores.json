@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T16:44:53.082Z",
+  "lastUpdated": "2026-05-09T16:54:55.333Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 81,
-        "w": 3,
-        "o": 6.4
+        "r": 92,
+        "w": 5,
+        "o": 8.5
       },
       {
         "inning": "Gujarat Titans",
@@ -34,10 +34,10 @@
         "total": 60
       },
       "Dhruv Jurel": {
-        "batting": 29,
+        "batting": 46,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 46
       },
       "Shimron Hetmyer": {
         "batting": 7,
@@ -46,10 +46,10 @@
         "total": 7
       },
       "Ravindra Jadeja": {
-        "batting": 14,
+        "batting": 27,
         "bowling": 25,
         "fielding": 0,
-        "total": 39
+        "total": 52
       },
       "Jofra Archer": {
         "batting": 0,
@@ -95,15 +95,15 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 50,
         "fielding": 0,
-        "total": 0
+        "total": 50
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -132,13 +132,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4379,
-      "top11Points": 4379
+      "totalPointsAll": 4429,
+      "top11Points": 4429
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4116,
-      "top11Points": 4119
+      "totalPointsAll": 4136,
+      "top11Points": 4139
     },
     {
       "team": "Aakash",
@@ -147,13 +147,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4093,
-      "top11Points": 4032
+      "totalPointsAll": 4110,
+      "top11Points": 4049
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3947,
-      "top11Points": 3947
+      "totalPointsAll": 3973,
+      "top11Points": 3973
     },
     {
       "team": "Ashwin",
@@ -19280,9 +19280,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 81,
-          "w": 3,
-          "o": 6.4
+          "r": 92,
+          "w": 5,
+          "o": 8.5
         },
         {
           "inning": "Gujarat Titans",
@@ -19406,9 +19406,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 81,
-          "wickets": 3,
-          "overs": 6.4,
+          "runs": 92,
+          "wickets": 5,
+          "overs": 8.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -19430,20 +19430,47 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 22,
-              "balls": 7,
+              "runs": 24,
+              "balls": 10,
               "fours": 1,
               "sixes": 3,
-              "sr": 314.29,
-              "dismissal": "batting"
+              "sr": 240,
+              "dismissal": "b Rashid Khan"
             },
             {
               "name": "Shimron Hetmyer",
               "runs": 6,
-              "balls": 6,
+              "balls": 7,
               "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 85.71,
+              "dismissal": "c Jason Holder b Kagiso Rabada"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 18,
+              "balls": 11,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 163.64,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Donovan Ferreira",
+              "runs": 4,
+              "balls": 2,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 200,
+              "dismissal": "b Rashid Khan"
+            },
+            {
+              "name": "Shubham Dubey",
+              "runs": 1,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 25,
               "dismissal": "batting"
             }
           ],
@@ -19458,11 +19485,35 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 1,
-              "economy": 9.2
+              "runs": 33,
+              "wickets": 2,
+              "economy": 11
+            },
+            {
+              "name": "Ravisrinivasan Sai Kishore",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 2,
+              "economy": 5
+            },
+            {
+              "name": "Washington Sundar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 2
             }
           ]
         }
@@ -19481,10 +19532,10 @@
           "total": 60
         },
         "Dhruv Jurel": {
-          "batting": 29,
+          "batting": 46,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 46
         },
         "Shimron Hetmyer": {
           "batting": 7,
@@ -19493,10 +19544,10 @@
           "total": 7
         },
         "Ravindra Jadeja": {
-          "batting": 14,
+          "batting": 27,
           "bowling": 25,
           "fielding": 0,
-          "total": 39
+          "total": 52
         },
         "Jofra Archer": {
           "batting": 0,
@@ -19542,15 +19593,15 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 50,
           "fielding": 0,
-          "total": 0
+          "total": 50
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -19570,8 +19621,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4116,
-      "top11Points": 4119,
+      "totalPointsAll": 4136,
+      "top11Points": 4139,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19599,11 +19650,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 467,
+          "bowling": 487,
           "fielding": 24,
-          "rawPoints": 528,
+          "rawPoints": 548,
           "multiplier": 1,
-          "effectivePoints": 528,
+          "effectivePoints": 548,
           "countsInTop11": true
         },
         {
@@ -20133,18 +20184,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3947,
-      "top11Points": 3947,
+      "totalPointsAll": 3973,
+      "top11Points": 3973,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 177,
+          "batting": 190,
           "bowling": 247,
           "fielding": 18,
-          "rawPoints": 442,
+          "rawPoints": 455,
           "multiplier": 2,
-          "effectivePoints": 884,
+          "effectivePoints": 910,
           "countsInTop11": true
         },
         {
@@ -20260,8 +20311,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4093,
-      "top11Points": 4032,
+      "totalPointsAll": 4110,
+      "top11Points": 4049,
       "players": [
         {
           "name": "Axar Patel",
@@ -20275,6 +20326,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dhruv Jurel",
+          "role": "Wicket Keeper",
+          "batting": 422,
+          "bowling": 0,
+          "fielding": 142,
+          "rawPoints": 564,
+          "multiplier": 1,
+          "effectivePoints": 564,
+          "countsInTop11": true
+        },
+        {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 333,
@@ -20283,17 +20345,6 @@
           "rawPoints": 557,
           "multiplier": 1,
           "effectivePoints": 557,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dhruv Jurel",
-          "role": "Wicket Keeper",
-          "batting": 405,
-          "bowling": 0,
-          "fielding": 142,
-          "rawPoints": 547,
-          "multiplier": 1,
-          "effectivePoints": 547,
           "countsInTop11": true
         },
         {
@@ -20420,8 +20471,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4379,
-      "top11Points": 4379,
+      "totalPointsAll": 4429,
+      "top11Points": 4429,
       "players": [
         {
           "name": "Jos Buttler",
@@ -20471,11 +20522,11 @@
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 37,
-          "bowling": 337,
+          "bowling": 387,
           "fielding": 24,
-          "rawPoints": 398,
+          "rawPoints": 448,
           "multiplier": 1,
-          "effectivePoints": 398,
+          "effectivePoints": 448,
           "countsInTop11": true
         },
         {
