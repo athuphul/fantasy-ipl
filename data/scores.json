@@ -1,124 +1,7 @@
 {
-  "lastUpdated": "2026-05-09T17:34:54.805Z",
+  "lastUpdated": "2026-05-09T17:44:54.339Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529295",
-    "name": "Rajasthan Royals v Gujarat Titans",
-    "status": "Live",
-    "venue": "Sawai Mansingh Stadium, Jaipur",
-    "score": [
-      {
-        "inning": "Rajasthan Royals",
-        "r": 152,
-        "w": 9,
-        "o": 16.2
-      },
-      {
-        "inning": "Gujarat Titans",
-        "r": 229,
-        "w": 4,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Yashasvi Jaiswal": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 11
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 60,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 60
-      },
-      "Dhruv Jurel": {
-        "batting": 46,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 46
-      },
-      "Shimron Hetmyer": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Ravindra Jadeja": {
-        "batting": 50,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 75
-      },
-      "Jofra Archer": {
-        "batting": 6,
-        "bowling": -15,
-        "fielding": 8,
-        "total": -1
-      },
-      "Tushar Deshpande": {
-        "batting": 1,
-        "bowling": -10,
-        "fielding": 8,
-        "total": -1
-      },
-      "Sai Sudharsan": {
-        "batting": 80,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 80
-      },
-      "Shubman Gill": {
-        "batting": 119,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 127
-      },
-      "Jos Buttler": {
-        "batting": 16,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 24
-      },
-      "Washington Sundar": {
-        "batting": 55,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 75
-      },
-      "Rahul Tewatia": {
-        "batting": 18,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 18
-      },
-      "Rashid Khan": {
-        "batting": 0,
-        "bowling": 120,
-        "fielding": 0,
-        "total": 120
-      },
-      "Kagiso Rabada": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      },
-      "Mohammed Siraj": {
-        "batting": 0,
-        "bowling": 15,
-        "fielding": 0,
-        "total": 15
-      },
-      "Sai Kishore": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -152,8 +35,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4039,
-      "top11Points": 4039
+      "totalPointsAll": 4047,
+      "top11Points": 4047
     },
     {
       "team": "Ashwin",
@@ -19275,14 +19158,14 @@
       "matchId": "espn_1529295",
       "name": "Rajasthan Royals v Gujarat Titans",
       "date": "2026-05-09",
-      "status": "Live",
+      "status": "Final",
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "score": [
         {
           "inning": "Rajasthan Royals",
           "r": 152,
-          "w": 9,
-          "o": 16.2
+          "w": 10,
+          "o": 16.3
         },
         {
           "inning": "Gujarat Titans",
@@ -19407,8 +19290,8 @@
         {
           "innings": "Rajasthan Royals",
           "runs": 152,
-          "wickets": 9,
-          "overs": 16.2,
+          "wickets": 10,
+          "overs": 16.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -19494,11 +19377,11 @@
             {
               "name": "Tushar Deshpande",
               "runs": 1,
-              "balls": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
-              "dismissal": "batting"
+              "sr": 33.33,
+              "dismissal": "c Washington Sundar b Jason Holder"
             },
             {
               "name": "Brijesh Sharma",
@@ -19507,7 +19390,7 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -19553,11 +19436,11 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 2.2,
+              "overs": 2.3,
               "maidens": 0,
               "runs": 12,
-              "wickets": 2,
-              "economy": 5.14
+              "wickets": 3,
+              "economy": 4.8
             }
           ]
         }
@@ -19626,8 +19509,8 @@
         "Washington Sundar": {
           "batting": 55,
           "bowling": 20,
-          "fielding": 0,
-          "total": 75
+          "fielding": 8,
+          "total": 83
         },
         "Rahul Tewatia": {
           "batting": 18,
@@ -19660,7 +19543,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -20228,8 +20111,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4039,
-      "top11Points": 4039,
+      "totalPointsAll": 4047,
+      "top11Points": 4047,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20280,10 +20163,10 @@
           "role": "All-Rounder",
           "batting": 334,
           "bowling": 45,
-          "fielding": 32,
-          "rawPoints": 411,
+          "fielding": 40,
+          "rawPoints": 419,
           "multiplier": 1,
-          "effectivePoints": 411,
+          "effectivePoints": 419,
           "countsInTop11": true
         },
         {
