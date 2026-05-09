@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T15:04:54.504Z",
+  "lastUpdated": "2026-05-09T15:14:54.109Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529295",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 136,
-        "w": 1,
-        "o": 12.1
+        "r": 164,
+        "w": 2,
+        "o": 14.4
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Ravindra Jadeja": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Jofra Archer": {
         "batting": 0,
@@ -51,6 +51,12 @@
         "fielding": 0,
         "total": -5
       },
+      "Vaibhav Sooryavanshi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "Sai Sudharsan": {
         "batting": 80,
         "bowling": 0,
@@ -58,16 +64,22 @@
         "total": 80
       },
       "Shubman Gill": {
-        "batting": 92,
+        "batting": 99,
         "bowling": 0,
         "fielding": 0,
-        "total": 92
+        "total": 99
       },
       "Jos Buttler": {
         "batting": 16,
         "bowling": 0,
         "fielding": 0,
         "total": 16
+      },
+      "Washington Sundar": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -104,13 +116,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 3814,
-      "top11Points": 3814
+      "totalPointsAll": 3866,
+      "top11Points": 3866
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3800,
-      "top11Points": 3752
+      "totalPointsAll": 3814,
+      "top11Points": 3766
     },
     {
       "team": "Tanay",
@@ -19232,17 +19244,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 136,
-          "w": 1,
-          "o": 12.1
+          "r": 164,
+          "w": 2,
+          "o": 14.4
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 136,
-          "wickets": 1,
-          "overs": 12.1,
+          "runs": 164,
+          "wickets": 2,
+          "overs": 14.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -19255,20 +19267,29 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 61,
-              "balls": 33,
-              "fours": 7,
+              "runs": 67,
+              "balls": 35,
+              "fours": 8,
               "sixes": 2,
-              "sr": 184.85,
+              "sr": 191.43,
               "dismissal": "batting"
             },
             {
               "name": "Jos Buttler",
               "runs": 13,
-              "balls": 7,
+              "balls": 10,
               "fours": 1,
               "sixes": 1,
-              "sr": 185.71,
+              "sr": 130,
+              "dismissal": "c Donovan Ferreira b Ravindra Jadeja"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 2,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -19299,19 +19320,19 @@
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
+              "runs": 37,
               "wickets": 1,
-              "economy": 8.57
+              "economy": 9.25
             },
             {
               "name": "Ravindra Jadeja",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 0,
-              "economy": 9.67
+              "runs": 31,
+              "wickets": 1,
+              "economy": 8.86
             }
           ]
         }
@@ -19337,9 +19358,9 @@
         },
         "Ravindra Jadeja": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Jofra Archer": {
           "batting": 0,
@@ -19353,6 +19374,12 @@
           "fielding": 0,
           "total": -5
         },
+        "Vaibhav Sooryavanshi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Sai Sudharsan": {
           "batting": 80,
           "bowling": 0,
@@ -19360,16 +19387,22 @@
           "total": 80
         },
         "Shubman Gill": {
-          "batting": 92,
+          "batting": 99,
           "bowling": 0,
           "fielding": 0,
-          "total": 92
+          "total": 99
         },
         "Jos Buttler": {
           "batting": 16,
           "bowling": 0,
           "fielding": 0,
           "total": 16
+        },
+        "Washington Sundar": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -19802,18 +19835,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3800,
-      "top11Points": 3752,
+      "totalPointsAll": 3814,
+      "top11Points": 3766,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 594,
+          "batting": 601,
           "bowling": 0,
           "fielding": 66,
-          "rawPoints": 660,
+          "rawPoints": 667,
           "multiplier": 2,
-          "effectivePoints": 1320,
+          "effectivePoints": 1334,
           "countsInTop11": true
         },
         {
@@ -19940,18 +19973,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 3814,
-      "top11Points": 3814,
+      "totalPointsAll": 3866,
+      "top11Points": 3866,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
           "batting": 163,
-          "bowling": 222,
+          "bowling": 247,
           "fielding": 18,
-          "rawPoints": 403,
+          "rawPoints": 428,
           "multiplier": 2,
-          "effectivePoints": 806,
+          "effectivePoints": 856,
           "countsInTop11": true
         },
         {
@@ -20001,12 +20034,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 279,
+          "batting": 281,
           "bowling": 25,
           "fielding": 32,
-          "rawPoints": 336,
+          "rawPoints": 338,
           "multiplier": 1,
-          "effectivePoints": 336,
+          "effectivePoints": 338,
           "countsInTop11": true
         },
         {
