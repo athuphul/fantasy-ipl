@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T11:04:54.438Z",
+  "lastUpdated": "2026-05-10T11:14:53.344Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 121,
-        "w": 4,
-        "o": 10.3
+        "r": 131,
+        "w": 5,
+        "o": 12.3
       }
     ],
     "playerScores": {
@@ -64,16 +64,22 @@
         "total": 1
       },
       "Rishabh Pant": {
-        "batting": 15,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 17
       },
       "Aiden Markram": {
         "batting": 2,
         "bowling": 0,
         "fielding": 0,
         "total": 2
+      },
+      "Shahbaz Ahmed": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -101,8 +107,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4136,
-      "top11Points": 4139
+      "totalPointsAll": 4137,
+      "top11Points": 4140
     },
     {
       "team": "Aakash",
@@ -121,8 +127,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3904,
-      "top11Points": 3856
+      "totalPointsAll": 3906,
+      "top11Points": 3858
     },
     {
       "team": "Tanay",
@@ -19635,17 +19641,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 121,
-          "w": 4,
-          "o": 10.3
+          "r": 131,
+          "w": 5,
+          "o": 12.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 121,
-          "wickets": 4,
-          "overs": 10.3,
+          "runs": 131,
+          "wickets": 5,
+          "overs": 12.3,
           "batting": [
             {
               "name": "Josh Inglis",
@@ -19676,22 +19682,40 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 13,
-              "balls": 10,
+              "runs": 15,
+              "balls": 12,
               "fours": 2,
               "sixes": 0,
-              "sr": 130,
+              "sr": 125,
+              "dismissal": "b Jamie Overton"
+            },
+            {
+              "name": "Aiden Markram",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Akshat Raghuwanshi",
+              "runs": 5,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 35,
+              "runs": 40,
               "wickets": 0,
-              "economy": 17.5
+              "economy": 15
             },
             {
               "name": "Mukesh Choudhary",
@@ -19719,10 +19743,10 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
-              "wickets": 1,
+              "runs": 12,
+              "wickets": 2,
               "economy": 6
             }
           ]
@@ -19778,16 +19802,22 @@
           "total": 1
         },
         "Rishabh Pant": {
-          "batting": 15,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 17
         },
         "Aiden Markram": {
           "batting": 2,
           "bowling": 0,
           "fielding": 0,
           "total": 2
+        },
+        "Shahbaz Ahmed": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -19801,8 +19831,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4136,
-      "top11Points": 4139,
+      "totalPointsAll": 4137,
+      "top11Points": 4140,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19917,12 +19947,12 @@
         {
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
-          "batting": 11,
+          "batting": 12,
           "bowling": 45,
           "fielding": 0,
-          "rawPoints": 56,
+          "rawPoints": 57,
           "multiplier": 1,
-          "effectivePoints": 56,
+          "effectivePoints": 57,
           "countsInTop11": true
         },
         {
@@ -20226,8 +20256,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3904,
-      "top11Points": 3856,
+      "totalPointsAll": 3906,
+      "top11Points": 3858,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20265,12 +20295,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 332,
+          "batting": 334,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 414,
+          "rawPoints": 416,
           "multiplier": 1,
-          "effectivePoints": 414,
+          "effectivePoints": 416,
           "countsInTop11": true
         },
         {
