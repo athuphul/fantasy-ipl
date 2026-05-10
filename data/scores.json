@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T16:44:57.057Z",
+  "lastUpdated": "2026-05-10T16:54:53.937Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 54,
+        "r": 65,
         "w": 3,
-        "o": 7.3
+        "o": 9
       },
       {
         "inning": "Mumbai Indians",
@@ -28,10 +28,10 @@
         "total": 3
       },
       "Devdutt Padikkal": {
-        "batting": 7,
+        "batting": 15,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 15
       },
       "Rajat Patidar": {
         "batting": 9,
@@ -40,10 +40,10 @@
         "total": 25
       },
       "Krunal Pandya": {
-        "batting": 14,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 22
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -101,21 +101,21 @@
       },
       "Will Jacks": {
         "batting": 11,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 11
+        "total": 23
       },
       "Deepak Chahar": {
         "batting": 1,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 26
+        "total": 51
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       }
     }
   },
@@ -132,8 +132,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4528,
-      "top11Points": 4528
+      "totalPointsAll": 4560,
+      "top11Points": 4560
     },
     {
       "team": "Athu",
@@ -142,17 +142,17 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4198,
-      "top11Points": 4198
+      "totalPointsAll": 4206,
+      "top11Points": 4206
+    },
+    {
+      "team": "Manav",
+      "totalPointsAll": 4292,
+      "top11Points": 4180
     },
     {
       "team": "Aakash",
       "totalPointsAll": 4208,
-      "top11Points": 4172
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 4259,
       "top11Points": 4172
     },
     {
@@ -20046,9 +20046,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 54,
+          "r": 65,
           "w": 3,
-          "o": 7.3
+          "o": 9
         },
         {
           "inning": "Mumbai Indians",
@@ -20199,17 +20199,17 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 54,
+          "runs": 65,
           "wickets": 3,
-          "overs": 7.3,
+          "overs": 9,
           "batting": [
             {
               "name": "Jacob Bethell",
-              "runs": 11,
-              "balls": 6,
+              "runs": 20,
+              "balls": 19,
               "fours": 2,
               "sixes": 0,
-              "sr": 183.33,
+              "sr": 105.26,
               "dismissal": "batting"
             },
             {
@@ -20223,30 +20223,64 @@
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 6,
-              "balls": 7,
+              "runs": 12,
+              "balls": 11,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 109.09,
+              "dismissal": "c Ryan Rickelton b Deepak Chahar"
+            },
+            {
+              "name": "Rajat Patidar",
+              "runs": 8,
+              "balls": 8,
               "fours": 1,
               "sixes": 0,
-              "sr": 85.71,
+              "sr": 100,
+              "dismissal": "c Ryan Rickelton b Corbin Bosch"
+            },
+            {
+              "name": "Krunal Pandya",
+              "runs": 19,
+              "balls": 15,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 126.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 1.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 1,
-              "economy": 10.5
+              "runs": 27,
+              "wickets": 2,
+              "economy": 9
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 10,
               "wickets": 0,
-              "economy": 4
+              "economy": 5
+            },
+            {
+              "name": "Corbin Bosch",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 1,
+              "economy": 6.5
+            },
+            {
+              "name": "Will Jacks",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 6.5
             }
           ]
         }
@@ -20259,10 +20293,10 @@
           "total": 3
         },
         "Devdutt Padikkal": {
-          "batting": 7,
+          "batting": 15,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 15
         },
         "Rajat Patidar": {
           "batting": 9,
@@ -20271,10 +20305,10 @@
           "total": 25
         },
         "Krunal Pandya": {
-          "batting": 14,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 22
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -20332,21 +20366,21 @@
         },
         "Will Jacks": {
           "batting": 11,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 11
+          "total": 23
         },
         "Deepak Chahar": {
           "batting": 1,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 26
+          "total": 51
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         }
       },
       "isComplete": false
@@ -20917,8 +20951,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4198,
-      "top11Points": 4198,
+      "totalPointsAll": 4206,
+      "top11Points": 4206,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20956,12 +20990,12 @@
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 471,
+          "batting": 479,
           "bowling": 0,
           "fielding": 80,
-          "rawPoints": 551,
+          "rawPoints": 559,
           "multiplier": 1,
-          "effectivePoints": 551,
+          "effectivePoints": 559,
           "countsInTop11": true
         },
         {
@@ -21044,8 +21078,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4259,
-      "top11Points": 4172,
+      "totalPointsAll": 4292,
+      "top11Points": 4180,
       "players": [
         {
           "name": "Axar Patel",
@@ -21094,12 +21128,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 116,
+          "batting": 124,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 414,
+          "rawPoints": 422,
           "multiplier": 1,
-          "effectivePoints": 414,
+          "effectivePoints": 422,
           "countsInTop11": true
         },
         {
@@ -21172,11 +21206,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 42,
+          "bowling": 67,
           "fielding": 8,
-          "rawPoints": 58,
+          "rawPoints": 83,
           "multiplier": 1,
-          "effectivePoints": 58,
+          "effectivePoints": 83,
           "countsInTop11": false
         },
         {
@@ -21204,8 +21238,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4528,
-      "top11Points": 4528,
+      "totalPointsAll": 4560,
+      "top11Points": 4560,
       "players": [
         {
           "name": "Jos Buttler",
@@ -21288,11 +21322,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 107,
+          "bowling": 127,
           "fielding": 18,
-          "rawPoints": 133,
+          "rawPoints": 153,
           "multiplier": 1,
-          "effectivePoints": 133,
+          "effectivePoints": 153,
           "countsInTop11": true
         },
         {
@@ -21310,11 +21344,11 @@
           "name": "Will Jacks",
           "role": "All-Rounder",
           "batting": 96,
-          "bowling": 10,
+          "bowling": 22,
           "fielding": 8,
-          "rawPoints": 114,
+          "rawPoints": 126,
           "multiplier": 1,
-          "effectivePoints": 114,
+          "effectivePoints": 126,
           "countsInTop11": true
         },
         {
