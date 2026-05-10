@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T14:04:57.297Z",
+  "lastUpdated": "2026-05-10T14:14:53.464Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 4,
-        "w": 0,
-        "o": 0.5
+        "r": 28,
+        "w": 1,
+        "o": 2.4
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Rajat Patidar": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": 2,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 28
       }
     }
   },
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5117,
-      "top11Points": 4816
+      "totalPointsAll": 5118,
+      "top11Points": 4817
     },
     {
       "team": "Ritik",
@@ -115,13 +115,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3948,
+      "totalPointsAll": 3949,
       "top11Points": 3874
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3698,
-      "top11Points": 3651
+      "totalPointsAll": 3729,
+      "top11Points": 3682
     }
   ],
   "matchHistory": [
@@ -19624,14 +19624,14 @@
       "matchId": "espn_1529296",
       "name": "Chennai Super Kings v Lucknow Super Giants",
       "date": "2026-05-10",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 192,
+          "r": 208,
           "w": 5,
-          "o": 18.4
+          "o": 19.2
         },
         {
           "inning": "Lucknow Super Giants",
@@ -19783,9 +19783,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 192,
+          "runs": 208,
           "wickets": 5,
-          "overs": 18.4,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -19834,20 +19834,20 @@
             },
             {
               "name": "Shivam Dube",
-              "runs": 2,
-              "balls": 4,
+              "runs": 3,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 60,
               "dismissal": "batting"
             },
             {
               "name": "Prashant Veer",
-              "runs": 17,
-              "balls": 11,
+              "runs": 18,
+              "balls": 12,
               "fours": 0,
               "sixes": 2,
-              "sr": 154.55,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
@@ -19878,11 +19878,11 @@
             },
             {
               "name": "Avesh Khan",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 43,
+              "runs": 45,
               "wickets": 1,
-              "economy": 11.73
+              "economy": 11.25
             },
             {
               "name": "Shahbaz Ahmed",
@@ -19921,16 +19921,16 @@
           "total": 24
         },
         "Shivam Dube": {
-          "batting": 2,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 3
         },
         "Prashant Veer": {
-          "batting": 26,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 27
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -19993,7 +19993,7 @@
           "total": 8
         }
       },
-      "isComplete": false
+      "isComplete": true
     },
     {
       "matchId": "espn_1529297",
@@ -20004,17 +20004,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 4,
-          "w": 0,
-          "o": 0.5
+          "r": 28,
+          "w": 1,
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 4,
-          "wickets": 0,
-          "overs": 0.5,
+          "runs": 28,
+          "wickets": 1,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -20023,26 +20023,43 @@
               "fours": 0,
               "sixes": 0,
               "sr": 50,
-              "dismissal": "c Rajat Patidar b Bhuvneshwar Kumar"
+              "dismissal": "c"
             },
             {
               "name": "Rohit Sharma",
-              "runs": 2,
-              "balls": 2,
+              "runs": 22,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 244.44,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 1,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 33.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 4,
+              "runs": 6,
               "wickets": 1,
               "economy": 4
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
             }
           ]
         }
@@ -20057,8 +20074,8 @@
         "Rajat Patidar": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -20103,10 +20120,10 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": 2,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 28
         }
       },
       "isComplete": false
@@ -20539,7 +20556,7 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3948,
+      "totalPointsAll": 3949,
       "top11Points": 3874,
       "players": [
         {
@@ -20655,12 +20672,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 84,
+          "batting": 85,
           "bowling": -10,
           "fielding": 0,
-          "rawPoints": 74,
+          "rawPoints": 75,
           "multiplier": 1,
-          "effectivePoints": 74,
+          "effectivePoints": 75,
           "countsInTop11": false
         },
         {
@@ -21091,8 +21108,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3698,
-      "top11Points": 3651,
+      "totalPointsAll": 3729,
+      "top11Points": 3682,
       "players": [
         {
           "name": "Travis Head",
@@ -21110,21 +21127,21 @@
           "role": "Batsman",
           "batting": 500,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 548,
+          "fielding": 40,
+          "rawPoints": 540,
           "multiplier": 1,
-          "effectivePoints": 548,
+          "effectivePoints": 540,
           "countsInTop11": true
         },
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 317,
+          "batting": 343,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 317,
+          "rawPoints": 343,
           "multiplier": 1.5,
-          "effectivePoints": 476,
+          "effectivePoints": 515,
           "countsInTop11": true
         },
         {
@@ -21229,8 +21246,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5117,
-      "top11Points": 4816,
+      "totalPointsAll": 5118,
+      "top11Points": 4817,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21323,12 +21340,12 @@
         {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 198,
+          "batting": 199,
           "bowling": 10,
           "fielding": 24,
-          "rawPoints": 232,
+          "rawPoints": 233,
           "multiplier": 1,
-          "effectivePoints": 232,
+          "effectivePoints": 233,
           "countsInTop11": true
         },
         {
