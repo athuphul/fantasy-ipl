@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T13:24:53.325Z",
+  "lastUpdated": "2026-05-10T13:34:54.225Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 149,
+        "r": 157,
         "w": 3,
-        "o": 12.5
+        "o": 14.2
       },
       {
         "inning": "Lucknow Super Giants",
@@ -28,22 +28,22 @@
         "total": 68
       },
       "Ruturaj Gaikwad": {
-        "batting": 43,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 43
+        "total": 54
       },
       "Kartik Sharma": {
-        "batting": 12,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 9
       },
       "Dewald Brevis": {
-        "batting": 0,
+        "batting": 7,
         "bowling": 0,
         "fielding": 18,
-        "total": 18
+        "total": 25
       },
       "Shivam Dube": {
         "batting": 0,
@@ -83,27 +83,27 @@
       },
       "Shahbaz Ahmed": {
         "batting": 57,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 57
+        "total": 102
       },
       "Mohammed Shami": {
         "batting": -5,
-        "bowling": -5,
+        "bowling": 0,
         "fielding": 0,
-        "total": -10
+        "total": -5
       },
       "Avesh Khan": {
         "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "bowling": -15,
+        "fielding": 8,
+        "total": -7
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 10,
+        "bowling": 15,
         "fielding": 0,
-        "total": 10
+        "total": 15
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -116,8 +116,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5122,
-      "top11Points": 5142
+      "totalPointsAll": 5127,
+      "top11Points": 5147
     },
     {
       "team": "Tikoo",
@@ -131,18 +131,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4193,
-      "top11Points": 4196
+      "totalPointsAll": 4238,
+      "top11Points": 4241
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4174,
-      "top11Points": 4113
+      "totalPointsAll": 4191,
+      "top11Points": 4130
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4129,
-      "top11Points": 4093
+      "totalPointsAll": 4134,
+      "top11Points": 4098
     },
     {
       "team": "Kishan",
@@ -151,13 +151,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3916,
-      "top11Points": 3868
+      "totalPointsAll": 3923,
+      "top11Points": 3875
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3650,
-      "top11Points": 3603
+      "totalPointsAll": 3640,
+      "top11Points": 3593
     }
   ],
   "matchHistory": [
@@ -19665,9 +19665,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 149,
+          "r": 157,
           "w": 3,
-          "o": 12.5
+          "o": 14.2
         },
         {
           "inning": "Lucknow Super Giants",
@@ -19819,9 +19819,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 149,
+          "runs": 157,
           "wickets": 3,
-          "overs": 12.5,
+          "overs": 14.2,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -19834,63 +19834,81 @@
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 32,
-              "balls": 19,
-              "fours": 2,
+              "runs": 42,
+              "balls": 28,
+              "fours": 3,
               "sixes": 2,
-              "sr": 168.42,
-              "dismissal": "batting"
+              "sr": 150,
+              "dismissal": "b Shahbaz Ahmed"
             },
             {
               "name": "Urvil Patel",
               "runs": 65,
-              "balls": 22,
+              "balls": 23,
               "fours": 2,
               "sixes": 8,
-              "sr": 295.45,
+              "sr": 282.61,
+              "dismissal": "c Avesh Khan b Shahbaz Ahmed"
+            },
+            {
+              "name": "Kartik Sharma",
+              "runs": 14,
+              "balls": 15,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 93.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Dewald Brevis",
+              "runs": 6,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 85.71,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 31,
+              "runs": 37,
               "wickets": 0,
-              "economy": 10.33
+              "economy": 9.25
             },
             {
               "name": "Prince Yadav",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
               "runs": 19,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 7.6
             },
             {
               "name": "Digvesh Rathi",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 37,
+              "runs": 41,
               "wickets": 1,
-              "economy": 18.5
+              "economy": 13.67
             },
             {
               "name": "Avesh Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 25,
+              "runs": 30,
               "wickets": 0,
-              "economy": 25
+              "economy": 15
             },
             {
               "name": "Shahbaz Ahmed",
-              "overs": 1.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 12
+              "runs": 30,
+              "wickets": 2,
+              "economy": 10
             }
           ]
         }
@@ -19903,22 +19921,22 @@
           "total": 68
         },
         "Ruturaj Gaikwad": {
-          "batting": 43,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 43
+          "total": 54
         },
         "Kartik Sharma": {
-          "batting": 12,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 9
         },
         "Dewald Brevis": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 18,
-          "total": 18
+          "total": 25
         },
         "Shivam Dube": {
           "batting": 0,
@@ -19958,27 +19976,27 @@
         },
         "Shahbaz Ahmed": {
           "batting": 57,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 57
+          "total": 102
         },
         "Mohammed Shami": {
           "batting": -5,
-          "bowling": -5,
+          "bowling": 0,
           "fielding": 0,
-          "total": -10
+          "total": -5
         },
         "Avesh Khan": {
           "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "bowling": -15,
+          "fielding": 8,
+          "total": -7
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 10,
+          "bowling": 15,
           "fielding": 0,
-          "total": 10
+          "total": 15
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -19992,8 +20010,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4193,
-      "top11Points": 4196,
+      "totalPointsAll": 4238,
+      "top11Points": 4241,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -20109,11 +20127,11 @@
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
           "batting": 68,
-          "bowling": 45,
+          "bowling": 90,
           "fielding": 0,
-          "rawPoints": 113,
+          "rawPoints": 158,
           "multiplier": 1,
-          "effectivePoints": 113,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
@@ -20141,8 +20159,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4129,
-      "top11Points": 4093,
+      "totalPointsAll": 4134,
+      "top11Points": 4098,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20214,11 +20232,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 29,
-          "bowling": 239,
+          "bowling": 244,
           "fielding": 24,
-          "rawPoints": 292,
+          "rawPoints": 297,
           "multiplier": 1,
-          "effectivePoints": 292,
+          "effectivePoints": 297,
           "countsInTop11": true
         },
         {
@@ -20279,8 +20297,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5122,
-      "top11Points": 5142,
+      "totalPointsAll": 5127,
+      "top11Points": 5147,
       "players": [
         {
           "name": "KL Rahul",
@@ -20363,11 +20381,11 @@
           "name": "Digvesh Rathi",
           "role": "Spinner",
           "batting": 2,
-          "bowling": 84,
+          "bowling": 89,
           "fielding": 32,
-          "rawPoints": 118,
+          "rawPoints": 123,
           "multiplier": 1,
-          "effectivePoints": 118,
+          "effectivePoints": 123,
           "countsInTop11": true
         },
         {
@@ -20417,8 +20435,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3916,
-      "top11Points": 3868,
+      "totalPointsAll": 3923,
+      "top11Points": 3875,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20476,6 +20494,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dewald Brevis",
+          "role": "Batsman",
+          "batting": 89,
+          "bowling": 0,
+          "fielding": 106,
+          "rawPoints": 195,
+          "multiplier": 1,
+          "effectivePoints": 195,
+          "countsInTop11": true
+        },
+        {
           "name": "Shashank Singh",
           "role": "Batsman",
           "batting": 99,
@@ -20484,17 +20513,6 @@
           "rawPoints": 194,
           "multiplier": 1,
           "effectivePoints": 194,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dewald Brevis",
-          "role": "Batsman",
-          "batting": 82,
-          "bowling": 0,
-          "fielding": 106,
-          "rawPoints": 188,
-          "multiplier": 1,
-          "effectivePoints": 188,
           "countsInTop11": true
         },
         {
@@ -20682,8 +20700,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4174,
-      "top11Points": 4113,
+      "totalPointsAll": 4191,
+      "top11Points": 4130,
       "players": [
         {
           "name": "Axar Patel",
@@ -20699,12 +20717,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 333,
+          "batting": 344,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 388,
+          "rawPoints": 399,
           "multiplier": 1.5,
-          "effectivePoints": 582,
+          "effectivePoints": 599,
           "countsInTop11": true
         },
         {
@@ -20969,8 +20987,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3650,
-      "top11Points": 3603,
+      "totalPointsAll": 3640,
+      "top11Points": 3593,
       "players": [
         {
           "name": "Travis Head",
@@ -21041,12 +21059,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 199,
+          "batting": 196,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 207,
+          "rawPoints": 204,
           "multiplier": 1,
-          "effectivePoints": 207,
+          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
@@ -21064,11 +21082,11 @@
           "name": "Avesh Khan",
           "role": "Fast Bowler",
           "batting": 7,
-          "bowling": 100,
-          "fielding": 8,
-          "rawPoints": 115,
+          "bowling": 85,
+          "fielding": 16,
+          "rawPoints": 108,
           "multiplier": 1,
-          "effectivePoints": 115,
+          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
