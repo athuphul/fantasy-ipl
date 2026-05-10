@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T14:54:53.835Z",
+  "lastUpdated": "2026-05-10T15:04:56.869Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 79,
+        "r": 102,
         "w": 3,
-        "o": 9.3
+        "o": 12
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -82,10 +82,10 @@
         "total": -5
       },
       "Tilak Varma": {
-        "batting": 20,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 20
+        "total": 26
       }
     }
   },
@@ -117,13 +117,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4194,
-      "top11Points": 4133
+      "totalPointsAll": 4199,
+      "top11Points": 4138
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4154,
-      "top11Points": 4118
+      "totalPointsAll": 4160,
+      "top11Points": 4124
     },
     {
       "team": "Ashwin",
@@ -20016,17 +20016,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 79,
+          "r": 102,
           "w": 3,
-          "o": 9.3
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 79,
+          "runs": 102,
           "wickets": 3,
-          "overs": 9.3,
+          "overs": 12,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -20048,11 +20048,11 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 17,
-              "balls": 15,
+              "runs": 28,
+              "balls": 22,
               "fours": 3,
-              "sixes": 0,
-              "sr": 113.33,
+              "sixes": 1,
+              "sr": 127.27,
               "dismissal": "batting"
             },
             {
@@ -20066,11 +20066,11 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 19,
-              "balls": 18,
+              "runs": 25,
+              "balls": 23,
               "fours": 1,
               "sixes": 0,
-              "sr": 105.56,
+              "sr": 108.7,
               "dismissal": "batting"
             }
           ],
@@ -20109,11 +20109,19 @@
             },
             {
               "name": "Krunal Pandya",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 7.5
+            },
+            {
+              "name": "Suyash Sharma",
               "overs": 1,
               "maidens": 0,
-              "runs": 8,
+              "runs": 10,
               "wickets": 0,
-              "economy": 8
+              "economy": 10
             }
           ]
         }
@@ -20151,9 +20159,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -20186,10 +20194,10 @@
           "total": -5
         },
         "Tilak Varma": {
-          "batting": 20,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 20
+          "total": 26
         }
       },
       "isComplete": false
@@ -20346,8 +20354,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4154,
-      "top11Points": 4118,
+      "totalPointsAll": 4160,
+      "top11Points": 4124,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20385,12 +20393,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 306,
+          "batting": 312,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 362,
+          "rawPoints": 368,
           "multiplier": 1,
-          "effectivePoints": 362,
+          "effectivePoints": 368,
           "countsInTop11": true
         },
         {
@@ -20887,8 +20895,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4194,
-      "top11Points": 4133,
+      "totalPointsAll": 4199,
+      "top11Points": 4138,
       "players": [
         {
           "name": "Axar Patel",
@@ -20938,11 +20946,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 102,
-          "bowling": 282,
+          "bowling": 287,
           "fielding": 16,
-          "rawPoints": 400,
+          "rawPoints": 405,
           "multiplier": 1,
-          "effectivePoints": 400,
+          "effectivePoints": 405,
           "countsInTop11": true
         },
         {
