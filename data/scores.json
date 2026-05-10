@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T10:34:56.544Z",
+  "lastUpdated": "2026-05-10T10:45:05.477Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 89,
-        "w": 1,
-        "o": 5.4
+        "r": 94,
+        "w": 2,
+        "o": 7
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Mitchell Marsh": {
         "batting": 12,
@@ -62,6 +62,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 1
+      },
+      "Rishabh Pant": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -73,8 +79,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4926,
-      "top11Points": 4625
+      "totalPointsAll": 4951,
+      "top11Points": 4650
     },
     {
       "team": "Ritik",
@@ -103,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3889,
-      "top11Points": 3841
+      "totalPointsAll": 3891,
+      "top11Points": 3843
     },
     {
       "team": "Tanay",
@@ -19617,17 +19623,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 89,
-          "w": 1,
-          "o": 5.4
+          "r": 94,
+          "w": 2,
+          "o": 7
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 89,
-          "wickets": 1,
-          "overs": 5.4,
+          "runs": 94,
+          "wickets": 2,
+          "overs": 7,
           "batting": [
             {
               "name": "Josh Inglis",
@@ -19718,9 +19724,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Mitchell Marsh": {
           "batting": 12,
@@ -19733,6 +19739,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 1
+        },
+        "Rishabh Pant": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -20165,8 +20177,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3889,
-      "top11Points": 3841,
+      "totalPointsAll": 3891,
+      "top11Points": 3843,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20204,12 +20216,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 317,
+          "batting": 319,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 399,
+          "rawPoints": 401,
           "multiplier": 1,
-          "effectivePoints": 399,
+          "effectivePoints": 401,
           "countsInTop11": true
         },
         {
@@ -20855,8 +20867,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4926,
-      "top11Points": 4625,
+      "totalPointsAll": 4951,
+      "top11Points": 4650,
       "players": [
         {
           "name": "Sanju Samson",
@@ -20895,11 +20907,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 317,
+          "bowling": 342,
           "fielding": 32,
-          "rawPoints": 361,
+          "rawPoints": 386,
           "multiplier": 1,
-          "effectivePoints": 361,
+          "effectivePoints": 386,
           "countsInTop11": true
         },
         {
