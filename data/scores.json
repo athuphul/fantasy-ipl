@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T17:14:54.323Z",
+  "lastUpdated": "2026-05-10T17:25:11.076Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 94,
+        "r": 110,
         "w": 4,
-        "o": 12.5
+        "o": 14
       },
       {
         "inning": "Mumbai Indians",
@@ -40,16 +40,16 @@
         "total": 25
       },
       "Krunal Pandya": {
-        "batting": 52,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 52
+        "total": 54
       },
       "Jitesh Sharma": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 16
       },
       "Tim David": {
         "batting": 0,
@@ -96,8 +96,8 @@
       "Tilak Varma": {
         "batting": 74,
         "bowling": 0,
-        "fielding": 0,
-        "total": 74
+        "fielding": 8,
+        "total": 82
       },
       "Will Jacks": {
         "batting": 11,
@@ -142,8 +142,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4322,
-      "top11Points": 4210
+      "totalPointsAll": 4332,
+      "top11Points": 4220
     },
     {
       "team": "Kishan",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4208,
-      "top11Points": 4172
+      "totalPointsAll": 4216,
+      "top11Points": 4180
     },
     {
       "team": "Ashwin",
@@ -20046,9 +20046,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 94,
+          "r": 110,
           "w": 4,
-          "o": 12.5
+          "o": 14
         },
         {
           "inning": "Mumbai Indians",
@@ -20199,18 +20199,18 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 94,
+          "runs": 110,
           "wickets": 4,
-          "overs": 12.5,
+          "overs": 14,
           "batting": [
             {
               "name": "Jacob Bethell",
-              "runs": 25,
-              "balls": 24,
+              "runs": 27,
+              "balls": 27,
               "fours": 2,
               "sixes": 0,
-              "sr": 104.17,
-              "dismissal": "batting"
+              "sr": 100,
+              "dismissal": "c Tilak Varma b Corbin Bosch"
             },
             {
               "name": "Virat Kohli",
@@ -20241,11 +20241,20 @@
             },
             {
               "name": "Krunal Pandya",
-              "runs": 40,
-              "balls": 25,
+              "runs": 42,
+              "balls": 27,
               "fours": 3,
               "sixes": 2,
-              "sr": 160,
+              "sr": 155.56,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jitesh Sharma",
+              "runs": 6,
+              "balls": 7,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 85.71,
               "dismissal": "batting"
             }
           ],
@@ -20268,11 +20277,11 @@
             },
             {
               "name": "Corbin Bosch",
-              "overs": 2,
-              "maidens": 0,
+              "overs": 3,
+              "maidens": 1,
               "runs": 13,
-              "wickets": 1,
-              "economy": 6.5
+              "wickets": 2,
+              "economy": 4.33
             },
             {
               "name": "Will Jacks",
@@ -20284,19 +20293,19 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 21,
               "wickets": 0,
-              "economy": 12
+              "economy": 10.5
             },
             {
               "name": "Raj Bawa",
-              "overs": 1,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 8,
+              "runs": 15,
               "wickets": 0,
-              "economy": 8
+              "economy": 10
             }
           ]
         }
@@ -20321,16 +20330,16 @@
           "total": 25
         },
         "Krunal Pandya": {
-          "batting": 52,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 52
+          "total": 54
         },
         "Jitesh Sharma": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 16
         },
         "Tim David": {
           "batting": 0,
@@ -20377,8 +20386,8 @@
         "Tilak Varma": {
           "batting": 74,
           "bowling": 0,
-          "fielding": 0,
-          "total": 74
+          "fielding": 8,
+          "total": 82
         },
         "Will Jacks": {
           "batting": 11,
@@ -20553,8 +20562,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4208,
-      "top11Points": 4172,
+      "totalPointsAll": 4216,
+      "top11Points": 4180,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20594,10 +20603,10 @@
           "role": "Batsman",
           "batting": 360,
           "bowling": 0,
-          "fielding": 56,
-          "rawPoints": 416,
+          "fielding": 64,
+          "rawPoints": 424,
           "multiplier": 1,
-          "effectivePoints": 416,
+          "effectivePoints": 424,
           "countsInTop11": true
         },
         {
@@ -21094,8 +21103,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4322,
-      "top11Points": 4210,
+      "totalPointsAll": 4332,
+      "top11Points": 4220,
       "players": [
         {
           "name": "Axar Patel",
@@ -21144,12 +21153,12 @@
         {
           "name": "Krunal Pandya",
           "role": "All-Rounder",
-          "batting": 154,
+          "batting": 156,
           "bowling": 282,
           "fielding": 16,
-          "rawPoints": 452,
+          "rawPoints": 454,
           "multiplier": 1,
-          "effectivePoints": 452,
+          "effectivePoints": 454,
           "countsInTop11": true
         },
         {
@@ -21199,12 +21208,12 @@
         {
           "name": "Jitesh Sharma",
           "role": "Wicket Keeper",
-          "batting": 60,
+          "batting": 68,
           "bowling": 0,
           "fielding": 98,
-          "rawPoints": 158,
+          "rawPoints": 166,
           "multiplier": 1,
-          "effectivePoints": 158,
+          "effectivePoints": 166,
           "countsInTop11": true
         },
         {
