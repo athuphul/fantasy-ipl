@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T12:34:56.106Z",
+  "lastUpdated": "2026-05-10T12:44:53.525Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 46,
+        "r": 86,
         "w": 1,
-        "o": 3.5
+        "o": 5.3
       },
       {
         "inning": "Lucknow Super Giants",
@@ -28,10 +28,10 @@
         "total": 68
       },
       "Ruturaj Gaikwad": {
-        "batting": 21,
+        "batting": 22,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 22
       },
       "Kartik Sharma": {
         "batting": 0,
@@ -141,8 +141,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4141,
-      "top11Points": 4080
+      "totalPointsAll": 4143,
+      "top11Points": 4082
     },
     {
       "team": "Kishan",
@@ -19665,9 +19665,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 46,
+          "r": 86,
           "w": 1,
-          "o": 3.5
+          "o": 5.3
         },
         {
           "inning": "Lucknow Super Giants",
@@ -19816,6 +19816,67 @@
               "economy": 9
             }
           ]
+        },
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 86,
+          "wickets": 1,
+          "overs": 5.3,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 28,
+              "balls": 14,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 200,
+              "dismissal": "b Digvesh Singh Rathi"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 18,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Urvil Patel",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 20,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 1,
+              "economy": 12
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -19826,10 +19887,10 @@
           "total": 68
         },
         "Ruturaj Gaikwad": {
-          "batting": 21,
+          "batting": 22,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 22
         },
         "Kartik Sharma": {
           "batting": 0,
@@ -20605,8 +20666,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4141,
-      "top11Points": 4080,
+      "totalPointsAll": 4143,
+      "top11Points": 4082,
       "players": [
         {
           "name": "Axar Patel",
@@ -20644,12 +20705,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 311,
+          "batting": 312,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 366,
+          "rawPoints": 367,
           "multiplier": 1.5,
-          "effectivePoints": 549,
+          "effectivePoints": 551,
           "countsInTop11": true
         },
         {
