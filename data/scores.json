@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T15:24:53.948Z",
+  "lastUpdated": "2026-05-10T15:34:53.919Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 132,
+        "r": 149,
         "w": 5,
-        "o": 15.2
+        "o": 17.1
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Romario Shepherd": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": 45,
         "fielding": 0,
-        "total": 12
+        "total": 45
       },
       "Krunal Pandya": {
         "batting": 0,
@@ -53,17 +53,23 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 105,
+        "bowling": 97,
         "fielding": 0,
-        "total": 105
+        "total": 97
       },
       "Josh Hazlewood": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Suyash Sharma": {
         "batting": 0,
         "bowling": -5,
         "fielding": 0,
         "total": -5
       },
-      "Suyash Sharma": {
+      "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -82,16 +88,16 @@
         "total": -5
       },
       "Tilak Varma": {
-        "batting": 37,
+        "batting": 73,
         "bowling": 0,
         "fielding": 0,
-        "total": 37
+        "total": 73
       },
       "Will Jacks": {
-        "batting": 5,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 11
       }
     }
   },
@@ -108,8 +114,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4522,
-      "top11Points": 4522
+      "totalPointsAll": 4528,
+      "top11Points": 4528
     },
     {
       "team": "Athu",
@@ -117,14 +123,14 @@
       "top11Points": 4231
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 4161,
-      "top11Points": 4161
+      "team": "Aakash",
+      "totalPointsAll": 4207,
+      "top11Points": 4171
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4171,
-      "top11Points": 4135
+      "team": "Kishan",
+      "totalPointsAll": 4153,
+      "top11Points": 4153
     },
     {
       "team": "Manav",
@@ -133,8 +139,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3961,
-      "top11Points": 3886
+      "totalPointsAll": 3994,
+      "top11Points": 3919
     },
     {
       "team": "Tanay",
@@ -20022,17 +20028,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 132,
+          "r": 149,
           "w": 5,
-          "o": 15.2
+          "o": 17.1
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 132,
+          "runs": 149,
           "wickets": 5,
-          "overs": 15.2,
+          "overs": 17.1,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -20072,55 +20078,64 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 34,
-              "balls": 28,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 121.43,
+              "runs": 56,
+              "balls": 40,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 140,
               "dismissal": "batting"
             },
             {
               "name": "Will Jacks",
-              "runs": 4,
-              "balls": 3,
+              "runs": 10,
+              "balls": 10,
               "fours": 1,
               "sixes": 0,
-              "sr": 133.33,
+              "sr": 100,
+              "dismissal": "c Jacob Bethell b Romario Shepherd"
+            },
+            {
+              "name": "Raj Bawa",
+              "runs": 10,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 142.86,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 17,
+              "runs": 21,
               "wickets": 3,
-              "economy": 5.67
+              "economy": 6.3
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
+              "runs": 27,
               "wickets": 0,
-              "economy": 10.5
+              "economy": 9
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 24,
+              "runs": 37,
               "wickets": 1,
-              "economy": 12
+              "economy": 12.33
             },
             {
               "name": "Romario Shepherd",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 6.5
+              "runs": 18,
+              "wickets": 1,
+              "economy": 6
             },
             {
               "name": "Krunal Pandya",
@@ -20132,11 +20147,11 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 21,
               "wickets": 0,
-              "economy": 10
+              "economy": 10.5
             }
           ]
         }
@@ -20168,9 +20183,9 @@
         },
         "Romario Shepherd": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": 45,
           "fielding": 0,
-          "total": 12
+          "total": 45
         },
         "Krunal Pandya": {
           "batting": 0,
@@ -20180,17 +20195,23 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 105,
+          "bowling": 97,
           "fielding": 0,
-          "total": 105
+          "total": 97
         },
         "Josh Hazlewood": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Suyash Sharma": {
           "batting": 0,
           "bowling": -5,
           "fielding": 0,
           "total": -5
         },
-        "Suyash Sharma": {
+        "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -20209,16 +20230,16 @@
           "total": -5
         },
         "Tilak Varma": {
-          "batting": 37,
+          "batting": 73,
           "bowling": 0,
           "fielding": 0,
-          "total": 37
+          "total": 73
         },
         "Will Jacks": {
-          "batting": 5,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 11
         }
       },
       "isComplete": false
@@ -20375,8 +20396,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4171,
-      "top11Points": 4135,
+      "totalPointsAll": 4207,
+      "top11Points": 4171,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20414,12 +20435,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 323,
+          "batting": 359,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 379,
+          "rawPoints": 415,
           "multiplier": 1,
-          "effectivePoints": 379,
+          "effectivePoints": 415,
           "countsInTop11": true
         },
         {
@@ -20651,8 +20672,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3961,
-      "top11Points": 3886,
+      "totalPointsAll": 3994,
+      "top11Points": 3919,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20702,11 +20723,11 @@
           "name": "Romario Shepherd",
           "role": "All-Rounder",
           "batting": 115,
-          "bowling": 137,
+          "bowling": 170,
           "fielding": 8,
-          "rawPoints": 260,
+          "rawPoints": 293,
           "multiplier": 1,
-          "effectivePoints": 260,
+          "effectivePoints": 293,
           "countsInTop11": true
         },
         {
@@ -20789,8 +20810,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4161,
-      "top11Points": 4161,
+      "totalPointsAll": 4153,
+      "top11Points": 4153,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20807,11 +20828,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 30,
-          "bowling": 641,
+          "bowling": 633,
           "fielding": 8,
-          "rawPoints": 679,
+          "rawPoints": 671,
           "multiplier": 1,
-          "effectivePoints": 679,
+          "effectivePoints": 671,
           "countsInTop11": true
         },
         {
@@ -20989,11 +21010,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 245,
+          "bowling": 250,
           "fielding": 32,
-          "rawPoints": 272,
+          "rawPoints": 277,
           "multiplier": 1,
-          "effectivePoints": 272,
+          "effectivePoints": 277,
           "countsInTop11": true
         },
         {
@@ -21011,11 +21032,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 195,
+          "bowling": 190,
           "fielding": 0,
-          "rawPoints": 195,
+          "rawPoints": 190,
           "multiplier": 1,
-          "effectivePoints": 195,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
@@ -21076,8 +21097,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4522,
-      "top11Points": 4522,
+      "totalPointsAll": 4528,
+      "top11Points": 4528,
       "players": [
         {
           "name": "Jos Buttler",
@@ -21181,12 +21202,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 90,
+          "batting": 96,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 108,
+          "rawPoints": 114,
           "multiplier": 1,
-          "effectivePoints": 108,
+          "effectivePoints": 114,
           "countsInTop11": true
         },
         {
