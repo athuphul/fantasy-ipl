@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T11:55:05.583Z",
+  "lastUpdated": "2026-05-10T12:04:54.379Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 196,
-        "w": 6,
-        "o": 19.2
+        "r": 203,
+        "w": 8,
+        "o": 20
       }
     ],
     "playerScores": {
       "Sanju Samson": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 18,
+        "total": 18
       },
       "Ruturaj Gaikwad": {
         "batting": 0,
@@ -76,10 +76,22 @@
         "total": 6
       },
       "Shahbaz Ahmed": {
-        "batting": 19,
+        "batting": 57,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 57
+      },
+      "Mohammed Shami": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Avesh Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -97,8 +109,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 4995,
-      "top11Points": 4694
+      "totalPointsAll": 5015,
+      "top11Points": 4714
     },
     {
       "team": "Ritik",
@@ -107,13 +119,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4155,
-      "top11Points": 4158
+      "totalPointsAll": 4193,
+      "top11Points": 4196
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4139,
-      "top11Points": 4103
+      "totalPointsAll": 4134,
+      "top11Points": 4098
     },
     {
       "team": "Manav",
@@ -19641,17 +19653,17 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 196,
-          "w": 6,
-          "o": 19.2
+          "r": 203,
+          "w": 8,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 196,
-          "wickets": 6,
-          "overs": 19.2,
+          "runs": 203,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Josh Inglis",
@@ -19709,21 +19721,39 @@
             },
             {
               "name": "Shahbaz Ahmed",
-              "runs": 16,
-              "balls": 13,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 123.08,
-              "dismissal": "batting"
+              "runs": 43,
+              "balls": 25,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 172,
+              "dismissal": "not out"
             },
             {
               "name": "Himmat Singh",
-              "runs": 16,
-              "balls": 10,
+              "runs": 17,
+              "balls": 12,
               "fours": 1,
               "sixes": 1,
-              "sr": 160,
-              "dismissal": "batting"
+              "sr": 141.67,
+              "dismissal": "b Anshul Kamboj"
+            },
+            {
+              "name": "Mohammed Shami",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "run out (Sanju Samson/Anshul Kamboj)"
+            },
+            {
+              "name": "Avesh Khan",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -19737,19 +19767,19 @@
             },
             {
               "name": "Mukesh Choudhary",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 42,
+              "runs": 45,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.25
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 38,
-              "wickets": 1,
-              "economy": 12.67
+              "runs": 47,
+              "wickets": 2,
+              "economy": 11.75
             },
             {
               "name": "Noor Ahmad",
@@ -19761,11 +19791,11 @@
             },
             {
               "name": "Jamie Overton",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
+              "runs": 36,
               "wickets": 3,
-              "economy": 6.33
+              "economy": 9
             }
           ]
         }
@@ -19774,8 +19804,8 @@
         "Sanju Samson": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 18,
+          "total": 18
         },
         "Ruturaj Gaikwad": {
           "batting": 0,
@@ -19832,10 +19862,22 @@
           "total": 6
         },
         "Shahbaz Ahmed": {
-          "batting": 19,
+          "batting": 57,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 57
+        },
+        "Mohammed Shami": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Avesh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -19849,8 +19891,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4155,
-      "top11Points": 4158,
+      "totalPointsAll": 4193,
+      "top11Points": 4196,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -19965,12 +20007,12 @@
         {
           "name": "Shahbaz Ahmed",
           "role": "All-Rounder",
-          "batting": 30,
+          "batting": 68,
           "bowling": 45,
           "fielding": 0,
-          "rawPoints": 75,
+          "rawPoints": 113,
           "multiplier": 1,
-          "effectivePoints": 75,
+          "effectivePoints": 113,
           "countsInTop11": true
         },
         {
@@ -19998,8 +20040,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4139,
-      "top11Points": 4103,
+      "totalPointsAll": 4134,
+      "top11Points": 4098,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20070,12 +20112,12 @@
         {
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
-          "batting": 34,
+          "batting": 29,
           "bowling": 244,
           "fielding": 24,
-          "rawPoints": 302,
+          "rawPoints": 297,
           "multiplier": 1,
-          "effectivePoints": 302,
+          "effectivePoints": 297,
           "countsInTop11": true
         },
         {
@@ -20964,18 +21006,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 4995,
-      "top11Points": 4694,
+      "totalPointsAll": 5015,
+      "top11Points": 4714,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 601,
           "bowling": 0,
-          "fielding": 42,
-          "rawPoints": 643,
+          "fielding": 52,
+          "rawPoints": 653,
           "multiplier": 2,
-          "effectivePoints": 1286,
+          "effectivePoints": 1306,
           "countsInTop11": true
         },
         {
