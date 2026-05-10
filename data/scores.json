@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T14:14:53.464Z",
+  "lastUpdated": "2026-05-10T14:24:53.626Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 28,
-        "w": 1,
-        "o": 2.4
+        "r": 34,
+        "w": 3,
+        "o": 4.1
       }
     ],
     "playerScores": {
@@ -53,15 +53,15 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 105,
         "fielding": 0,
-        "total": 25
+        "total": 105
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -70,10 +70,22 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": 28,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
+        "total": 43
+      },
+      "Suryakumar Yadav": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Tilak Varma": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
@@ -95,23 +107,23 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4238,
-      "top11Points": 4241
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 4191,
-      "top11Points": 4130
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 4134,
-      "top11Points": 4098
+      "totalPointsAll": 4228,
+      "top11Points": 4231
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4073,
-      "top11Points": 4073
+      "totalPointsAll": 4153,
+      "top11Points": 4153
+    },
+    {
+      "team": "Manav",
+      "totalPointsAll": 4186,
+      "top11Points": 4125
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 4135,
+      "top11Points": 4099
     },
     {
       "team": "Ashwin",
@@ -120,8 +132,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3729,
-      "top11Points": 3682
+      "totalPointsAll": 3751,
+      "top11Points": 3704
     }
   ],
   "matchHistory": [
@@ -20004,17 +20016,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 28,
-          "w": 1,
-          "o": 2.4
+          "r": 34,
+          "w": 3,
+          "o": 4.1
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 28,
-          "wickets": 1,
-          "overs": 2.4,
+          "runs": 34,
+          "wickets": 3,
+          "overs": 4.1,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -20028,38 +20040,56 @@
             {
               "name": "Rohit Sharma",
               "runs": 22,
-              "balls": 9,
+              "balls": 10,
               "fours": 2,
               "sixes": 2,
-              "sr": 244.44,
-              "dismissal": "not out"
+              "sr": 220,
+              "dismissal": "c"
             },
             {
               "name": "Naman Dhir",
-              "runs": 1,
-              "balls": 3,
+              "runs": 5,
+              "balls": 8,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 62.5,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 0,
+              "dismissal": "c"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 1.3,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 1,
-              "economy": 4
+              "runs": 10,
+              "wickets": 3,
+              "economy": 4.61
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 21,
               "wickets": 0,
-              "economy": 16
+              "economy": 10.5
             }
           ]
         }
@@ -20103,15 +20133,15 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 105,
           "fielding": 0,
-          "total": 25
+          "total": 105
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -20120,10 +20150,22 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": 28,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
+          "total": 43
+        },
+        "Suryakumar Yadav": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Tilak Varma": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -20131,8 +20173,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4238,
-      "top11Points": 4241,
+      "totalPointsAll": 4228,
+      "top11Points": 4231,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -20146,17 +20188,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Suryakumar Yadav",
-          "role": "Batsman",
-          "batting": 253,
-          "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 277,
-          "multiplier": 2,
-          "effectivePoints": 554,
-          "countsInTop11": true
-        },
-        {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
@@ -20165,6 +20196,17 @@
           "rawPoints": 548,
           "multiplier": 1,
           "effectivePoints": 548,
+          "countsInTop11": true
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "batting": 248,
+          "bowling": 0,
+          "fielding": 24,
+          "rawPoints": 272,
+          "multiplier": 2,
+          "effectivePoints": 544,
           "countsInTop11": true
         },
         {
@@ -20280,8 +20322,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4134,
-      "top11Points": 4098,
+      "totalPointsAll": 4135,
+      "top11Points": 4099,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20330,12 +20372,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 286,
+          "batting": 287,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 342,
+          "rawPoints": 343,
           "multiplier": 1,
-          "effectivePoints": 342,
+          "effectivePoints": 343,
           "countsInTop11": true
         },
         {
@@ -20694,8 +20736,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4073,
-      "top11Points": 4073,
+      "totalPointsAll": 4153,
+      "top11Points": 4153,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20712,11 +20754,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 30,
-          "bowling": 561,
+          "bowling": 641,
           "fielding": 8,
-          "rawPoints": 599,
+          "rawPoints": 679,
           "multiplier": 1,
-          "effectivePoints": 599,
+          "effectivePoints": 679,
           "countsInTop11": true
         },
         {
@@ -20821,8 +20863,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4191,
-      "top11Points": 4130,
+      "totalPointsAll": 4186,
+      "top11Points": 4125,
       "players": [
         {
           "name": "Axar Patel",
@@ -20894,11 +20936,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 250,
+          "bowling": 245,
           "fielding": 32,
-          "rawPoints": 277,
+          "rawPoints": 272,
           "multiplier": 1,
-          "effectivePoints": 277,
+          "effectivePoints": 272,
           "countsInTop11": true
         },
         {
@@ -21108,8 +21150,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3729,
-      "top11Points": 3682,
+      "totalPointsAll": 3751,
+      "top11Points": 3704,
       "players": [
         {
           "name": "Travis Head",
@@ -21136,12 +21178,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 343,
+          "batting": 358,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 343,
+          "rawPoints": 358,
           "multiplier": 1.5,
-          "effectivePoints": 515,
+          "effectivePoints": 537,
           "countsInTop11": true
         },
         {
