@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T16:05:08.198Z",
+  "lastUpdated": "2026-05-10T16:14:53.575Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
     "score": [
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 17,
+        "w": 1,
+        "o": 1.4
+      },
       {
         "inning": "Mumbai Indians",
         "r": 166,
@@ -16,10 +22,16 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 0,
+        "batting": -5,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 3
+      },
+      "Devdutt Padikkal": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -69,12 +81,6 @@
         "fielding": 0,
         "total": -5
       },
-      "Devdutt Padikkal": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
       "Rohit Sharma": {
         "batting": 43,
         "bowling": 0,
@@ -101,9 +107,15 @@
       },
       "Deepak Chahar": {
         "batting": 1,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 26
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 0
       }
     }
   },
@@ -130,8 +142,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4196,
-      "top11Points": 4196
+      "totalPointsAll": 4197,
+      "top11Points": 4197
     },
     {
       "team": "Aakash",
@@ -140,7 +152,7 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4220,
+      "totalPointsAll": 4245,
       "top11Points": 4158
     },
     {
@@ -20033,6 +20045,12 @@
       "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
       "score": [
         {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 17,
+          "w": 1,
+          "o": 1.4
+        },
+        {
           "inning": "Mumbai Indians",
           "r": 166,
           "w": 7,
@@ -20111,12 +20129,21 @@
             },
             {
               "name": "Corbin Bosch",
-              "runs": 1,
-              "balls": 1,
+              "runs": 5,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
+            },
+            {
+              "name": "Deepak Chahar",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -20138,11 +20165,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 37,
+              "runs": 42,
               "wickets": 1,
-              "economy": 12.33
+              "economy": 10.5
             },
             {
               "name": "Romario Shepherd",
@@ -20169,14 +20196,73 @@
               "economy": 10.5
             }
           ]
+        },
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 17,
+          "wickets": 1,
+          "overs": 1.4,
+          "batting": [
+            {
+              "name": "Jacob Bethell",
+              "runs": 11,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 183.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Raj Bawa b Deepak Chahar"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 5,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Deepak Chahar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 1,
+              "economy": 14
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 3.6
+            }
+          ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 0,
+          "batting": -5,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 3
+        },
+        "Devdutt Padikkal": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -20226,12 +20312,6 @@
           "fielding": 0,
           "total": -5
         },
-        "Devdutt Padikkal": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
         "Rohit Sharma": {
           "batting": 43,
           "bowling": 0,
@@ -20258,9 +20338,15 @@
         },
         "Deepak Chahar": {
           "batting": 1,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 26
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 0
         }
       },
       "isComplete": false
@@ -20831,8 +20917,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4196,
-      "top11Points": 4196,
+      "totalPointsAll": 4197,
+      "top11Points": 4197,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20859,23 +20945,23 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 536,
+          "batting": 531,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 584,
+          "rawPoints": 579,
           "multiplier": 1,
-          "effectivePoints": 584,
+          "effectivePoints": 579,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 464,
+          "batting": 470,
           "bowling": 0,
           "fielding": 80,
-          "rawPoints": 544,
+          "rawPoints": 550,
           "multiplier": 1,
-          "effectivePoints": 544,
+          "effectivePoints": 550,
           "countsInTop11": true
         },
         {
@@ -20958,7 +21044,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4220,
+      "totalPointsAll": 4245,
       "top11Points": 4158,
       "players": [
         {
@@ -21086,11 +21172,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 17,
+          "bowling": 42,
           "fielding": 8,
-          "rawPoints": 33,
+          "rawPoints": 58,
           "multiplier": 1,
-          "effectivePoints": 33,
+          "effectivePoints": 58,
           "countsInTop11": false
         },
         {
