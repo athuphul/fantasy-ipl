@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T12:14:53.719Z",
+  "lastUpdated": "2026-05-10T12:24:54.081Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
     "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 26,
+        "w": 0,
+        "o": 1.5
+      },
       {
         "inning": "Lucknow Super Giants",
         "r": 203,
@@ -16,16 +22,16 @@
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 0,
+        "batting": 16,
         "bowling": 0,
         "fielding": 18,
-        "total": 18
+        "total": 34
       },
       "Ruturaj Gaikwad": {
-        "batting": 0,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 16
       },
       "Kartik Sharma": {
         "batting": 0,
@@ -93,6 +99,12 @@
         "fielding": 0,
         "total": 0
       },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "Sarfaraz Khan": {
         "batting": 0,
         "bowling": 0,
@@ -109,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5015,
-      "top11Points": 4714
+      "totalPointsAll": 5047,
+      "top11Points": 4746
     },
     {
       "team": "Ritik",
@@ -129,8 +141,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4110,
-      "top11Points": 4049
+      "totalPointsAll": 4134,
+      "top11Points": 4073
     },
     {
       "team": "Kishan",
@@ -19652,6 +19664,12 @@
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
+          "inning": "Chennai Super Kings",
+          "r": 26,
+          "w": 0,
+          "o": 1.5
+        },
+        {
           "inning": "Lucknow Super Giants",
           "r": 203,
           "w": 8,
@@ -19802,16 +19820,16 @@
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 0,
+          "batting": 16,
           "bowling": 0,
           "fielding": 18,
-          "total": 18
+          "total": 34
         },
         "Ruturaj Gaikwad": {
-          "batting": 0,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 16
         },
         "Kartik Sharma": {
           "batting": 0,
@@ -19874,6 +19892,12 @@
           "total": -5
         },
         "Avesh Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Digvesh Rathi": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -20581,8 +20605,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4110,
-      "top11Points": 4049,
+      "totalPointsAll": 4134,
+      "top11Points": 4073,
       "players": [
         {
           "name": "Axar Patel",
@@ -20620,12 +20644,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 290,
+          "batting": 306,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 345,
+          "rawPoints": 361,
           "multiplier": 1.5,
-          "effectivePoints": 518,
+          "effectivePoints": 542,
           "countsInTop11": true
         },
         {
@@ -21006,18 +21030,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5015,
-      "top11Points": 4714,
+      "totalPointsAll": 5047,
+      "top11Points": 4746,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 601,
+          "batting": 617,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 653,
+          "rawPoints": 669,
           "multiplier": 2,
-          "effectivePoints": 1306,
+          "effectivePoints": 1338,
           "countsInTop11": true
         },
         {
