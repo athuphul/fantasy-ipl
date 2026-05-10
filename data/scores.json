@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T10:25:12.733Z",
+  "lastUpdated": "2026-05-10T10:34:56.544Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 73,
-        "w": 0,
-        "o": 4.4
+        "r": 89,
+        "w": 1,
+        "o": 5.4
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Dewald Brevis": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Shivam Dube": {
         "batting": 0,
@@ -52,6 +52,12 @@
         "total": 0
       },
       "Mitchell Marsh": {
+        "batting": 12,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 12
+      },
+      "Nicholas Pooran": {
         "batting": 1,
         "bowling": 0,
         "fielding": 0,
@@ -62,8 +68,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5101,
-      "top11Points": 5121
+      "totalPointsAll": 5112,
+      "top11Points": 5132
     },
     {
       "team": "Tikoo",
@@ -92,13 +98,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4047,
-      "top11Points": 4047
+      "totalPointsAll": 4048,
+      "top11Points": 4048
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3881,
-      "top11Points": 3833
+      "totalPointsAll": 3889,
+      "top11Points": 3841
     },
     {
       "team": "Tanay",
@@ -19611,45 +19617,70 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 73,
-          "w": 0,
-          "o": 4.4
+          "r": 89,
+          "w": 1,
+          "o": 5.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 73,
-          "wickets": 0,
-          "overs": 4.4,
+          "runs": 89,
+          "wickets": 1,
+          "overs": 5.4,
           "batting": [
             {
               "name": "Josh Inglis",
-              "runs": 15,
-              "balls": 4,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 375,
+              "runs": 76,
+              "balls": 24,
+              "fours": 9,
+              "sixes": 6,
+              "sr": 316.67,
               "dismissal": "batting"
             },
             {
               "name": "Mitchell Marsh",
+              "runs": 10,
+              "balls": 10,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 100,
+              "dismissal": "c Dewald Brevis b Anshul Kamboj"
+            },
+            {
+              "name": "Nicholas Pooran",
               "runs": 1,
-              "balls": 2,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akeal Hosein",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 35,
               "wickets": 0,
-              "economy": 16
+              "economy": 17.5
+            },
+            {
+              "name": "Mukesh Choudhary",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 26,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Anshul Kamboj",
+              "overs": 1.4,
+              "maidens": 0,
+              "runs": 28,
+              "wickets": 1,
+              "economy": 16.8
             }
           ]
         }
@@ -19676,8 +19707,8 @@
         "Dewald Brevis": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Shivam Dube": {
           "batting": 0,
@@ -19692,6 +19723,12 @@
           "total": 0
         },
         "Mitchell Marsh": {
+          "batting": 12,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 12
+        },
+        "Nicholas Pooran": {
           "batting": 1,
           "bowling": 0,
           "fielding": 0,
@@ -19990,8 +20027,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5101,
-      "top11Points": 5121,
+      "totalPointsAll": 5112,
+      "top11Points": 5132,
       "players": [
         {
           "name": "KL Rahul",
@@ -20018,12 +20055,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 515,
+          "batting": 526,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 539,
+          "rawPoints": 550,
           "multiplier": 1,
-          "effectivePoints": 539,
+          "effectivePoints": 550,
           "countsInTop11": true
         },
         {
@@ -20128,8 +20165,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3881,
-      "top11Points": 3833,
+      "totalPointsAll": 3889,
+      "top11Points": 3841,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20202,10 +20239,10 @@
           "role": "Batsman",
           "batting": 82,
           "bowling": 0,
-          "fielding": 88,
-          "rawPoints": 170,
+          "fielding": 96,
+          "rawPoints": 178,
           "multiplier": 1,
-          "effectivePoints": 170,
+          "effectivePoints": 178,
           "countsInTop11": true
         },
         {
@@ -20266,8 +20303,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4047,
-      "top11Points": 4047,
+      "totalPointsAll": 4048,
+      "top11Points": 4048,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -20327,12 +20364,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 229,
+          "batting": 230,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 271,
+          "rawPoints": 272,
           "multiplier": 1.5,
-          "effectivePoints": 407,
+          "effectivePoints": 408,
           "countsInTop11": true
         },
         {
