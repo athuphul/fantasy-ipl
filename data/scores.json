@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T15:14:53.465Z",
+  "lastUpdated": "2026-05-10T15:24:53.948Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529297",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 125,
-        "w": 4,
-        "o": 14
+        "r": 132,
+        "w": 5,
+        "o": 15.2
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Romario Shepherd": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       },
       "Krunal Pandya": {
         "batting": 0,
@@ -82,16 +82,16 @@
         "total": -5
       },
       "Tilak Varma": {
-        "batting": 26,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 37
       },
       "Will Jacks": {
-        "batting": 7,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 5
       }
     }
   },
@@ -108,8 +108,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4524,
-      "top11Points": 4524
+      "totalPointsAll": 4522,
+      "top11Points": 4522
     },
     {
       "team": "Athu",
@@ -122,19 +122,19 @@
       "top11Points": 4161
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 4171,
+      "top11Points": 4135
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 4194,
       "top11Points": 4133
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4160,
-      "top11Points": 4124
-    },
-    {
       "team": "Ashwin",
-      "totalPointsAll": 3949,
-      "top11Points": 3874
+      "totalPointsAll": 3961,
+      "top11Points": 3886
     },
     {
       "team": "Tanay",
@@ -20022,17 +20022,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 125,
-          "w": 4,
-          "o": 14
+          "r": 132,
+          "w": 5,
+          "o": 15.2
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 125,
-          "wickets": 4,
-          "overs": 14,
+          "runs": 132,
+          "wickets": 5,
+          "overs": 15.2,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -20054,12 +20054,12 @@
             },
             {
               "name": "Naman Dhir",
-              "runs": 27,
-              "balls": 21,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 128.57,
-              "dismissal": "batting"
+              "runs": 47,
+              "balls": 32,
+              "fours": 5,
+              "sixes": 2,
+              "sr": 146.88,
+              "dismissal": "b Rasikh Salam Dar"
             },
             {
               "name": "Suryakumar Yadav",
@@ -20072,11 +20072,20 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 25,
-              "balls": 23,
+              "runs": 34,
+              "balls": 28,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 121.43,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Will Jacks",
+              "runs": 4,
+              "balls": 3,
               "fours": 1,
               "sixes": 0,
-              "sr": 108.7,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
@@ -20099,27 +20108,27 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
+              "runs": 24,
+              "wickets": 1,
               "economy": 12
             },
             {
               "name": "Romario Shepherd",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 13,
               "wickets": 0,
-              "economy": 4
+              "economy": 6.5
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 26,
               "wickets": 0,
-              "economy": 7.64
+              "economy": 8.67
             },
             {
               "name": "Suyash Sharma",
@@ -20159,9 +20168,9 @@
         },
         "Romario Shepherd": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         },
         "Krunal Pandya": {
           "batting": 0,
@@ -20200,16 +20209,16 @@
           "total": -5
         },
         "Tilak Varma": {
-          "batting": 26,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 37
         },
         "Will Jacks": {
-          "batting": 7,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 5
         }
       },
       "isComplete": false
@@ -20366,8 +20375,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4160,
-      "top11Points": 4124,
+      "totalPointsAll": 4171,
+      "top11Points": 4135,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20405,12 +20414,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 312,
+          "batting": 323,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 368,
+          "rawPoints": 379,
           "multiplier": 1,
-          "effectivePoints": 368,
+          "effectivePoints": 379,
           "countsInTop11": true
         },
         {
@@ -20642,8 +20651,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3949,
-      "top11Points": 3874,
+      "totalPointsAll": 3961,
+      "top11Points": 3886,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20693,11 +20702,11 @@
           "name": "Romario Shepherd",
           "role": "All-Rounder",
           "batting": 115,
-          "bowling": 125,
+          "bowling": 137,
           "fielding": 8,
-          "rawPoints": 248,
+          "rawPoints": 260,
           "multiplier": 1,
-          "effectivePoints": 248,
+          "effectivePoints": 260,
           "countsInTop11": true
         },
         {
@@ -21067,8 +21076,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4524,
-      "top11Points": 4524,
+      "totalPointsAll": 4522,
+      "top11Points": 4522,
       "players": [
         {
           "name": "Jos Buttler",
@@ -21172,12 +21181,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 92,
+          "batting": 90,
           "bowling": 10,
           "fielding": 8,
-          "rawPoints": 110,
+          "rawPoints": 108,
           "multiplier": 1,
-          "effectivePoints": 110,
+          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
