@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T12:24:54.081Z",
+  "lastUpdated": "2026-05-10T12:34:56.106Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529296",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 26,
-        "w": 0,
-        "o": 1.5
+        "r": 46,
+        "w": 1,
+        "o": 3.5
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Sanju Samson": {
-        "batting": 16,
+        "batting": 50,
         "bowling": 0,
         "fielding": 18,
-        "total": 34
+        "total": 68
       },
       "Ruturaj Gaikwad": {
-        "batting": 16,
+        "batting": 21,
         "bowling": 0,
         "fielding": 0,
-        "total": 16
+        "total": 21
       },
       "Kartik Sharma": {
         "batting": 0,
@@ -89,9 +89,9 @@
       },
       "Mohammed Shami": {
         "batting": -5,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": -5
+        "total": -10
       },
       "Avesh Khan": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Digvesh Rathi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Sarfaraz Khan": {
         "batting": 0,
@@ -116,13 +116,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5112,
-      "top11Points": 5132
+      "totalPointsAll": 5137,
+      "top11Points": 5157
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5047,
-      "top11Points": 4746
+      "totalPointsAll": 5115,
+      "top11Points": 4814
     },
     {
       "team": "Ritik",
@@ -136,13 +136,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4134,
-      "top11Points": 4098
+      "totalPointsAll": 4129,
+      "top11Points": 4093
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4134,
-      "top11Points": 4073
+      "totalPointsAll": 4141,
+      "top11Points": 4080
     },
     {
       "team": "Kishan",
@@ -19665,9 +19665,9 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 26,
-          "w": 0,
-          "o": 1.5
+          "r": 46,
+          "w": 1,
+          "o": 3.5
         },
         {
           "inning": "Lucknow Super Giants",
@@ -19820,16 +19820,16 @@
       ],
       "playerScores": {
         "Sanju Samson": {
-          "batting": 16,
+          "batting": 50,
           "bowling": 0,
           "fielding": 18,
-          "total": 34
+          "total": 68
         },
         "Ruturaj Gaikwad": {
-          "batting": 16,
+          "batting": 21,
           "bowling": 0,
           "fielding": 0,
-          "total": 16
+          "total": 21
         },
         "Kartik Sharma": {
           "batting": 0,
@@ -19887,9 +19887,9 @@
         },
         "Mohammed Shami": {
           "batting": -5,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": -10
         },
         "Avesh Khan": {
           "batting": 0,
@@ -19899,9 +19899,9 @@
         },
         "Digvesh Rathi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Sarfaraz Khan": {
           "batting": 0,
@@ -20064,8 +20064,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4134,
-      "top11Points": 4098,
+      "totalPointsAll": 4129,
+      "top11Points": 4093,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -20137,11 +20137,11 @@
           "name": "Mohammed Shami",
           "role": "Fast Bowler",
           "batting": 29,
-          "bowling": 244,
+          "bowling": 239,
           "fielding": 24,
-          "rawPoints": 297,
+          "rawPoints": 292,
           "multiplier": 1,
-          "effectivePoints": 297,
+          "effectivePoints": 292,
           "countsInTop11": true
         },
         {
@@ -20202,8 +20202,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5112,
-      "top11Points": 5132,
+      "totalPointsAll": 5137,
+      "top11Points": 5157,
       "players": [
         {
           "name": "KL Rahul",
@@ -20283,6 +20283,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Digvesh Rathi",
+          "role": "Spinner",
+          "batting": 2,
+          "bowling": 99,
+          "fielding": 32,
+          "rawPoints": 133,
+          "multiplier": 1,
+          "effectivePoints": 133,
+          "countsInTop11": true
+        },
+        {
           "name": "T Natarajan",
           "role": "Fast Bowler",
           "batting": 1,
@@ -20291,17 +20302,6 @@
           "rawPoints": 112,
           "multiplier": 1,
           "effectivePoints": 112,
-          "countsInTop11": true
-        },
-        {
-          "name": "Digvesh Rathi",
-          "role": "Spinner",
-          "batting": 2,
-          "bowling": 74,
-          "fielding": 32,
-          "rawPoints": 108,
-          "multiplier": 1,
-          "effectivePoints": 108,
           "countsInTop11": true
         },
         {
@@ -20605,8 +20605,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4134,
-      "top11Points": 4073,
+      "totalPointsAll": 4141,
+      "top11Points": 4080,
       "players": [
         {
           "name": "Axar Patel",
@@ -20644,12 +20644,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 306,
+          "batting": 311,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 361,
+          "rawPoints": 366,
           "multiplier": 1.5,
-          "effectivePoints": 542,
+          "effectivePoints": 549,
           "countsInTop11": true
         },
         {
@@ -21030,18 +21030,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5047,
-      "top11Points": 4746,
+      "totalPointsAll": 5115,
+      "top11Points": 4814,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 617,
+          "batting": 651,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 669,
+          "rawPoints": 703,
           "multiplier": 2,
-          "effectivePoints": 1338,
+          "effectivePoints": 1406,
           "countsInTop11": true
         },
         {
