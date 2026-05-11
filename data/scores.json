@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T16:45:09.295Z",
+  "lastUpdated": "2026-05-11T16:55:20.512Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 47,
+        "r": 74,
         "w": 3,
-        "o": 6
+        "o": 8.1
       }
     ],
     "playerScores": {
@@ -82,16 +82,16 @@
         "total": 6
       },
       "Tristan Stubbs": {
-        "batting": -1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": -1
+        "total": 3
       },
       "Axar Patel": {
-        "batting": 9,
+        "batting": 41,
         "bowling": 0,
         "fielding": 8,
-        "total": 17
+        "total": 49
       },
       "David Miller": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5263,
-      "top11Points": 5278
+      "totalPointsAll": 5267,
+      "top11Points": 5282
     },
     {
       "team": "Tikoo",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4504,
-      "top11Points": 4392
+      "totalPointsAll": 4568,
+      "top11Points": 4456
     },
     {
       "team": "Athu",
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 47,
+          "r": 74,
           "w": 3,
-          "o": 6
+          "o": 8.1
         }
       ],
       "scorecard": [
@@ -20573,9 +20573,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 47,
+          "runs": 74,
           "wickets": 3,
-          "overs": 6,
+          "overs": 8.1,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20606,20 +20606,20 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 8,
-              "balls": 12,
+              "runs": 12,
+              "balls": 17,
               "fours": 1,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "batting"
+              "sr": 70.59,
+              "dismissal": "run out (Cooper Connolly)"
             },
             {
               "name": "Axar Patel",
-              "runs": 7,
-              "balls": 3,
-              "fours": 0,
+              "runs": 25,
+              "balls": 13,
+              "fours": 4,
               "sixes": 1,
-              "sr": 233.33,
+              "sr": 192.31,
               "dismissal": "batting"
             }
           ],
@@ -20642,11 +20642,19 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 19,
               "wickets": 0,
-              "economy": 10.8
+              "economy": 9.5
+            },
+            {
+              "name": "Ben Dwarshuis",
+              "overs": 1.2,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 12.75
             }
           ]
         }
@@ -20713,16 +20721,16 @@
           "total": 6
         },
         "Tristan Stubbs": {
-          "batting": -1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": -1
+          "total": 3
         },
         "Axar Patel": {
-          "batting": 9,
+          "batting": 41,
           "bowling": 0,
           "fielding": 8,
-          "total": 17
+          "total": 49
         },
         "David Miller": {
           "batting": 0,
@@ -21041,8 +21049,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5263,
-      "top11Points": 5278,
+      "totalPointsAll": 5267,
+      "top11Points": 5282,
       "players": [
         {
           "name": "KL Rahul",
@@ -21102,12 +21110,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 328,
+          "batting": 332,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 368,
+          "rawPoints": 372,
           "multiplier": 1,
-          "effectivePoints": 368,
+          "effectivePoints": 372,
           "countsInTop11": true
         },
         {
@@ -21444,18 +21452,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4504,
-      "top11Points": 4392,
+      "totalPointsAll": 4568,
+      "top11Points": 4456,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 36,
+          "batting": 68,
           "bowling": 319,
           "fielding": 24,
-          "rawPoints": 379,
+          "rawPoints": 411,
           "multiplier": 2,
-          "effectivePoints": 758,
+          "effectivePoints": 822,
           "countsInTop11": true
         },
         {
