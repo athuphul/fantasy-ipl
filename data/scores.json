@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-05-10T18:24:53.052Z",
+  "lastUpdated": "2026-05-11T14:05:07.419Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529298",
+    "name": "Punjab Kings v Delhi Capitals",
+    "status": "Live",
+    "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+    "score": [
+      {
+        "inning": "Punjab Kings",
+        "r": 17,
+        "w": 0,
+        "o": 0.4
+      }
+    ],
+    "playerScores": {
+      "Priyansh Arya": {
+        "batting": 16,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 16
+      },
+      "Prabhsimran Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Abishek Porel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "KL Rahul": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tristan Stubbs": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "David Miller": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Axar Patel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Auqib Nabi Dar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Lungi Ngidi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -40,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 3997,
-      "top11Points": 3922
+      "totalPointsAll": 4013,
+      "top11Points": 3938
     },
     {
       "team": "Tanay",
@@ -20319,6 +20388,116 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529298",
+      "name": "Punjab Kings v Delhi Capitals",
+      "date": "2026-05-11",
+      "status": "Live",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "score": [
+        {
+          "inning": "Punjab Kings",
+          "r": 17,
+          "w": 0,
+          "o": 0.4
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Punjab Kings",
+          "runs": 17,
+          "wickets": 0,
+          "overs": 0.4,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 12,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 300,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mitchell Starc",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 25.5
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Priyansh Arya": {
+          "batting": 16,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 16
+        },
+        "Prabhsimran Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Abishek Porel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "KL Rahul": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tristan Stubbs": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "David Miller": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Axar Patel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Auqib Nabi Dar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Lungi Ngidi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -20748,8 +20927,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 3997,
-      "top11Points": 3922,
+      "totalPointsAll": 4013,
+      "top11Points": 3938,
       "players": [
         {
           "name": "Shubman Gill",
@@ -20776,12 +20955,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 454,
+          "batting": 470,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 454,
+          "rawPoints": 470,
           "multiplier": 1,
-          "effectivePoints": 454,
+          "effectivePoints": 470,
           "countsInTop11": true
         },
         {
