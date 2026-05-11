@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T17:24:53.889Z",
+  "lastUpdated": "2026-05-11T17:34:56.479Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 138,
-        "w": 4,
-        "o": 13.5
+        "r": 154,
+        "w": 5,
+        "o": 15.5
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Marcus Stoinis": {
         "batting": 1,
-        "bowling": 0,
+        "bowling": 15,
         "fielding": 0,
-        "total": 1
+        "total": 16
       },
       "Shashank Singh": {
         "batting": -5,
@@ -88,16 +88,22 @@
         "total": 3
       },
       "Axar Patel": {
-        "batting": 83,
+        "batting": 88,
         "bowling": 0,
         "fielding": 8,
-        "total": 91
+        "total": 96
       },
       "David Miller": {
         "batting": 35,
         "bowling": 0,
         "fielding": 8,
         "total": 43
+      },
+      "Ashutosh Sharma": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -110,12 +116,6 @@
         "bowling": -5,
         "fielding": 0,
         "total": -5
-      },
-      "Ashutosh Sharma": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       }
     }
   },
@@ -137,18 +137,18 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4652,
-      "top11Points": 4540
+      "totalPointsAll": 4662,
+      "top11Points": 4550
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 4237,
+      "top11Points": 4237
     },
     {
       "team": "Athu",
       "totalPointsAll": 4228,
       "top11Points": 4231
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 4222,
-      "top11Points": 4222
     },
     {
       "team": "Aakash",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3776,
-      "top11Points": 3729
+      "totalPointsAll": 3779,
+      "top11Points": 3732
     }
   ],
   "matchHistory": [
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 138,
-          "w": 4,
-          "o": 13.5
+          "r": 154,
+          "w": 5,
+          "o": 15.5
         }
       ],
       "scorecard": [
@@ -20573,9 +20573,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 138,
-          "wickets": 4,
-          "overs": 13.5,
+          "runs": 154,
+          "wickets": 5,
+          "overs": 15.5,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20615,12 +20615,12 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 52,
-              "balls": 28,
-              "fours": 7,
+              "runs": 56,
+              "balls": 30,
+              "fours": 8,
               "sixes": 2,
-              "sr": 185.71,
-              "dismissal": "batting"
+              "sr": 186.67,
+              "dismissal": "c Ben Dwarshuis b Marcus Stoinis"
             },
             {
               "name": "David Miller",
@@ -20667,11 +20667,11 @@
             },
             {
               "name": "Marcus Stoinis",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 21,
-              "wickets": 0,
-              "economy": 12.6
+              "runs": 25,
+              "wickets": 1,
+              "economy": 12.5
             }
           ]
         }
@@ -20697,9 +20697,9 @@
         },
         "Marcus Stoinis": {
           "batting": 1,
-          "bowling": 0,
+          "bowling": 15,
           "fielding": 0,
-          "total": 1
+          "total": 16
         },
         "Shashank Singh": {
           "batting": -5,
@@ -20744,16 +20744,22 @@
           "total": 3
         },
         "Axar Patel": {
-          "batting": 83,
+          "batting": 88,
           "bowling": 0,
           "fielding": 8,
-          "total": 91
+          "total": 96
         },
         "David Miller": {
           "batting": 35,
           "bowling": 0,
           "fielding": 8,
           "total": 43
+        },
+        "Ashutosh Sharma": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -20766,12 +20772,6 @@
           "bowling": -5,
           "fielding": 0,
           "total": -5
-        },
-        "Ashutosh Sharma": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         }
       },
       "isComplete": false
@@ -21342,8 +21342,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4222,
-      "top11Points": 4222,
+      "totalPointsAll": 4237,
+      "top11Points": 4237,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21415,11 +21415,11 @@
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
           "batting": 259,
-          "bowling": 25,
+          "bowling": 40,
           "fielding": 18,
-          "rawPoints": 302,
+          "rawPoints": 317,
           "multiplier": 1,
-          "effectivePoints": 302,
+          "effectivePoints": 317,
           "countsInTop11": true
         },
         {
@@ -21469,18 +21469,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4652,
-      "top11Points": 4540,
+      "totalPointsAll": 4662,
+      "top11Points": 4550,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 110,
+          "batting": 115,
           "bowling": 319,
           "fielding": 24,
-          "rawPoints": 453,
+          "rawPoints": 458,
           "multiplier": 2,
-          "effectivePoints": 906,
+          "effectivePoints": 916,
           "countsInTop11": true
         },
         {
@@ -21756,8 +21756,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3776,
-      "top11Points": 3729,
+      "totalPointsAll": 3779,
+      "top11Points": 3732,
       "players": [
         {
           "name": "Travis Head",
@@ -21839,12 +21839,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 150,
+          "batting": 153,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 166,
+          "rawPoints": 169,
           "multiplier": 1,
-          "effectivePoints": 166,
+          "effectivePoints": 169,
           "countsInTop11": true
         },
         {
