@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T16:24:54.230Z",
+  "lastUpdated": "2026-05-11T16:34:53.207Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 14,
+        "r": 35,
         "w": 2,
-        "o": 2.3
+        "o": 4.2
       }
     ],
     "playerScores": {
@@ -54,14 +54,14 @@
       "Marco Jansen": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -70,22 +70,22 @@
         "total": 0
       },
       "KL Rahul": {
+        "batting": 11,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 11
+      },
+      "Abishek Porel": {
         "batting": 6,
         "bowling": 0,
         "fielding": 0,
         "total": 6
       },
-      "Abishek Porel": {
-        "batting": 1,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 1
-      },
       "Tristan Stubbs": {
-        "batting": 0,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 7
       },
       "David Miller": {
         "batting": 0,
@@ -122,13 +122,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5254,
-      "top11Points": 5269
+      "totalPointsAll": 5271,
+      "top11Points": 5286
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5121,
-      "top11Points": 4820
+      "totalPointsAll": 5129,
+      "top11Points": 4828
     },
     {
       "team": "Ritik",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4416,
-      "top11Points": 4304
+      "totalPointsAll": 4441,
+      "top11Points": 4329
     },
     {
       "team": "Athu",
@@ -147,8 +147,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4217,
-      "top11Points": 4217
+      "totalPointsAll": 4222,
+      "top11Points": 4222
     },
     {
       "team": "Aakash",
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 14,
+          "r": 35,
           "w": 2,
-          "o": 2.3
+          "o": 4.2
         }
       ],
       "scorecard": [
@@ -20573,37 +20573,54 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 14,
+          "runs": 35,
           "wickets": 2,
-          "overs": 2.3,
+          "overs": 4.2,
           "batting": [
             {
               "name": "KL Rahul",
-              "runs": 5,
-              "balls": 5,
-              "fours": 1,
+              "runs": 9,
+              "balls": 8,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 112.5,
+              "dismissal": "c Marco Jansen b Arshdeep Singh"
             },
             {
               "name": "Abishek Porel",
-              "runs": 1,
+              "runs": 5,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 83.33,
+              "dismissal": "b Yash Thakur"
+            },
+            {
+              "name": "Sahil Parakh",
+              "runs": 0,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
+              "overs": 1.3,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 6.67
+            },
+            {
+              "name": "Yash Thakur",
               "overs": 1,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 6
+              "runs": 4,
+              "wickets": 1,
+              "economy": 4
             }
           ]
         }
@@ -20642,14 +20659,14 @@
         "Marco Jansen": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -20658,22 +20675,22 @@
           "total": 0
         },
         "KL Rahul": {
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 11
+        },
+        "Abishek Porel": {
           "batting": 6,
           "bowling": 0,
           "fielding": 0,
           "total": 6
         },
-        "Abishek Porel": {
-          "batting": 1,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 1
-        },
         "Tristan Stubbs": {
-          "batting": 0,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 7
         },
         "David Miller": {
           "batting": 0,
@@ -20998,18 +21015,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5254,
-      "top11Points": 5269,
+      "totalPointsAll": 5271,
+      "top11Points": 5286,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 690,
+          "batting": 695,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 726,
+          "rawPoints": 731,
           "multiplier": 2,
-          "effectivePoints": 1452,
+          "effectivePoints": 1462,
           "countsInTop11": true
         },
         {
@@ -21059,12 +21076,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 329,
+          "batting": 336,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 369,
+          "rawPoints": 376,
           "multiplier": 1,
-          "effectivePoints": 369,
+          "effectivePoints": 376,
           "countsInTop11": true
         },
         {
@@ -21274,8 +21291,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4217,
-      "top11Points": 4217,
+      "totalPointsAll": 4222,
+      "top11Points": 4222,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21379,12 +21396,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 29,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 29,
+          "rawPoints": 34,
           "multiplier": 1,
-          "effectivePoints": 29,
+          "effectivePoints": 34,
           "countsInTop11": true
         },
         {
@@ -21401,8 +21418,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4416,
-      "top11Points": 4304,
+      "totalPointsAll": 4441,
+      "top11Points": 4329,
       "players": [
         {
           "name": "Axar Patel",
@@ -21460,6 +21477,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Arshdeep Singh",
+          "role": "Fast Bowler",
+          "batting": 1,
+          "bowling": 300,
+          "fielding": 24,
+          "rawPoints": 325,
+          "multiplier": 1,
+          "effectivePoints": 325,
+          "countsInTop11": true
+        },
+        {
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
@@ -21468,17 +21496,6 @@
           "rawPoints": 302,
           "multiplier": 1,
           "effectivePoints": 302,
-          "countsInTop11": true
-        },
-        {
-          "name": "Arshdeep Singh",
-          "role": "Fast Bowler",
-          "batting": 1,
-          "bowling": 275,
-          "fielding": 24,
-          "rawPoints": 300,
-          "multiplier": 1,
-          "effectivePoints": 300,
           "countsInTop11": true
         },
         {
@@ -21826,8 +21843,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5121,
-      "top11Points": 4820,
+      "totalPointsAll": 5129,
+      "top11Points": 4828,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21911,10 +21928,10 @@
           "role": "All-Rounder",
           "batting": 61,
           "bowling": 135,
-          "fielding": 40,
-          "rawPoints": 236,
+          "fielding": 48,
+          "rawPoints": 244,
           "multiplier": 1,
-          "effectivePoints": 236,
+          "effectivePoints": 244,
           "countsInTop11": true
         },
         {
