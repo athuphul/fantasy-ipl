@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T17:15:05.642Z",
+  "lastUpdated": "2026-05-11T17:24:53.889Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 113,
+        "r": 138,
         "w": 4,
-        "o": 12
+        "o": 13.5
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 8,
-        "total": 8
+        "total": 3
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -82,22 +82,22 @@
         "total": 6
       },
       "Tristan Stubbs": {
-        "batting": -1,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": -1
+        "total": 3
       },
       "Axar Patel": {
-        "batting": 9,
+        "batting": 83,
         "bowling": 0,
         "fielding": 8,
-        "total": 17
+        "total": 91
       },
       "David Miller": {
-        "batting": 33,
+        "batting": 35,
         "bowling": 0,
         "fielding": 8,
-        "total": 41
+        "total": 43
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -122,13 +122,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5263,
-      "top11Points": 5278
+      "totalPointsAll": 5267,
+      "top11Points": 5282
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5162,
-      "top11Points": 4861
+      "totalPointsAll": 5159,
+      "top11Points": 4858
     },
     {
       "team": "Ritik",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4504,
-      "top11Points": 4392
+      "totalPointsAll": 4652,
+      "top11Points": 4540
     },
     {
       "team": "Athu",
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 113,
+          "r": 138,
           "w": 4,
-          "o": 12
+          "o": 13.5
         }
       ],
       "scorecard": [
@@ -20573,9 +20573,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 113,
+          "runs": 138,
           "wickets": 4,
-          "overs": 12,
+          "overs": 13.5,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20606,20 +20606,29 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 8,
-              "balls": 12,
+              "runs": 12,
+              "balls": 17,
               "fours": 1,
               "sixes": 0,
-              "sr": 66.67,
-              "dismissal": "batting"
+              "sr": 70.59,
+              "dismissal": "run out (Cooper Connolly)"
             },
             {
               "name": "Axar Patel",
-              "runs": 7,
-              "balls": 3,
-              "fours": 0,
+              "runs": 52,
+              "balls": 28,
+              "fours": 7,
+              "sixes": 2,
+              "sr": 185.71,
+              "dismissal": "batting"
+            },
+            {
+              "name": "David Miller",
+              "runs": 26,
+              "balls": 17,
+              "fours": 2,
               "sixes": 1,
-              "sr": 233.33,
+              "sr": 152.94,
               "dismissal": "batting"
             }
           ],
@@ -20634,19 +20643,35 @@
             },
             {
               "name": "Yash Thakur",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 33,
               "wickets": 1,
               "economy": 11
             },
             {
               "name": "Marco Jansen",
-              "overs": 0.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 9,
+              "runs": 30,
               "wickets": 0,
-              "economy": 10.8
+              "economy": 10
+            },
+            {
+              "name": "Ben Dwarshuis",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 34,
+              "wickets": 0,
+              "economy": 11.33
+            },
+            {
+              "name": "Marcus Stoinis",
+              "overs": 1.4,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 0,
+              "economy": 12.6
             }
           ]
         }
@@ -20684,9 +20709,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 8,
-          "total": 8
+          "total": 3
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -20713,22 +20738,22 @@
           "total": 6
         },
         "Tristan Stubbs": {
-          "batting": -1,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": -1
+          "total": 3
         },
         "Axar Patel": {
-          "batting": 9,
+          "batting": 83,
           "bowling": 0,
           "fielding": 8,
-          "total": 17
+          "total": 91
         },
         "David Miller": {
-          "batting": 33,
+          "batting": 35,
           "bowling": 0,
           "fielding": 8,
-          "total": 41
+          "total": 43
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -21041,8 +21066,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5263,
-      "top11Points": 5278,
+      "totalPointsAll": 5267,
+      "top11Points": 5282,
       "players": [
         {
           "name": "KL Rahul",
@@ -21102,12 +21127,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 328,
+          "batting": 332,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 368,
+          "rawPoints": 372,
           "multiplier": 1,
-          "effectivePoints": 368,
+          "effectivePoints": 372,
           "countsInTop11": true
         },
         {
@@ -21444,18 +21469,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4504,
-      "top11Points": 4392,
+      "totalPointsAll": 4652,
+      "top11Points": 4540,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 36,
+          "batting": 110,
           "bowling": 319,
           "fielding": 24,
-          "rawPoints": 379,
+          "rawPoints": 453,
           "multiplier": 2,
-          "effectivePoints": 758,
+          "effectivePoints": 906,
           "countsInTop11": true
         },
         {
@@ -21869,8 +21894,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5162,
-      "top11Points": 4861,
+      "totalPointsAll": 5159,
+      "top11Points": 4858,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21950,25 +21975,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 61,
-          "bowling": 135,
-          "fielding": 48,
-          "rawPoints": 244,
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 207,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 239,
           "multiplier": 1,
-          "effectivePoints": 244,
+          "effectivePoints": 239,
           "countsInTop11": true
         },
         {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 205,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 237,
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 61,
+          "bowling": 130,
+          "fielding": 48,
+          "rawPoints": 239,
           "multiplier": 1,
-          "effectivePoints": 237,
+          "effectivePoints": 239,
           "countsInTop11": true
         },
         {
