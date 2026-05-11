@@ -1,128 +1,11 @@
 {
-  "lastUpdated": "2026-05-11T17:54:53.696Z",
+  "lastUpdated": "2026-05-11T18:04:54.936Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529298",
-    "name": "Punjab Kings v Delhi Capitals",
-    "status": "Live",
-    "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
-    "score": [
-      {
-        "inning": "Punjab Kings",
-        "r": 210,
-        "w": 5,
-        "o": 20
-      },
-      {
-        "inning": "Delhi Capitals",
-        "r": 205,
-        "w": 7,
-        "o": 18.5
-      }
-    ],
-    "playerScores": {
-      "Priyansh Arya": {
-        "batting": 85,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 85
-      },
-      "Prabhsimran Singh": {
-        "batting": 21,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 29
-      },
-      "Shreyas Iyer": {
-        "batting": 85,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 85
-      },
-      "Marcus Stoinis": {
-        "batting": 1,
-        "bowling": 10,
-        "fielding": 0,
-        "total": 11
-      },
-      "Shashank Singh": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Marco Jansen": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 8,
-        "total": 3
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "KL Rahul": {
-        "batting": 11,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 11
-      },
-      "Abishek Porel": {
-        "batting": 6,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 6
-      },
-      "Tristan Stubbs": {
-        "batting": 3,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 3
-      },
-      "Axar Patel": {
-        "batting": 88,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 96
-      },
-      "David Miller": {
-        "batting": 82,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 90
-      },
-      "Ashutosh Sharma": {
-        "batting": 21,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 21
-      },
-      "Auqib Nabi Dar": {
-        "batting": 0,
-        "bowling": 5,
-        "fielding": 0,
-        "total": 5
-      },
-      "Lungi Ngidi": {
-        "batting": 0,
-        "bowling": -5,
-        "fielding": 0,
-        "total": -5
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5267,
+      "totalPointsAll": 5280,
       "top11Points": 5282
     },
     {
@@ -162,8 +45,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3797,
-      "top11Points": 3750
+      "totalPointsAll": 3821,
+      "top11Points": 3774
     }
   ],
   "matchHistory": [
@@ -20441,7 +20324,7 @@
       "matchId": "espn_1529298",
       "name": "Punjab Kings v Delhi Capitals",
       "date": "2026-05-11",
-      "status": "Live",
+      "status": "Final",
       "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
       "score": [
         {
@@ -20452,9 +20335,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 205,
+          "r": 216,
           "w": 7,
-          "o": 18.5
+          "o": 19
         }
       ],
       "scorecard": [
@@ -20573,9 +20456,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 205,
+          "runs": 216,
           "wickets": 7,
-          "overs": 18.5,
+          "overs": 19,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20633,21 +20516,30 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 17,
-              "balls": 7,
+              "runs": 24,
+              "balls": 10,
               "fours": 2,
-              "sixes": 1,
-              "sr": 242.86,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 240,
+              "dismissal": "c (sub)Praveen Dubey b Yash Thakur"
             },
             {
               "name": "Madhav Tiwari",
-              "runs": 6,
-              "balls": 3,
+              "runs": 18,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 225,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Auqib Nabi Dar",
+              "runs": 10,
+              "balls": 2,
               "fours": 1,
-              "sixes": 0,
-              "sr": 200,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 500,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -20661,11 +20553,11 @@
             },
             {
               "name": "Yash Thakur",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
-              "wickets": 1,
-              "economy": 11
+              "runs": 55,
+              "wickets": 2,
+              "economy": 13.75
             },
             {
               "name": "Marco Jansen",
@@ -20685,11 +20577,11 @@
             },
             {
               "name": "Marcus Stoinis",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 36,
+              "runs": 44,
               "wickets": 1,
-              "economy": 14.4
+              "economy": 14.67
             }
           ]
         }
@@ -20774,16 +20666,16 @@
           "total": 90
         },
         "Ashutosh Sharma": {
-          "batting": 21,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 45
         },
         "Auqib Nabi Dar": {
-          "batting": 0,
+          "batting": 13,
           "bowling": 5,
           "fielding": 0,
-          "total": 5
+          "total": 18
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -20792,7 +20684,7 @@
           "total": -5
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -21084,7 +20976,7 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5267,
+      "totalPointsAll": 5280,
       "top11Points": 5282,
       "players": [
         {
@@ -21211,12 +21103,12 @@
         {
           "name": "Auqib Nabi Dar",
           "role": "All-Rounder",
-          "batting": 5,
+          "batting": 18,
           "bowling": -20,
           "fielding": 0,
-          "rawPoints": -15,
+          "rawPoints": -2,
           "multiplier": 1,
-          "effectivePoints": -15,
+          "effectivePoints": -2,
           "countsInTop11": false
         }
       ]
@@ -21774,8 +21666,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3797,
-      "top11Points": 3750,
+      "totalPointsAll": 3821,
+      "top11Points": 3774,
       "players": [
         {
           "name": "Travis Head",
@@ -21857,12 +21749,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 171,
+          "batting": 195,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 187,
+          "rawPoints": 211,
           "multiplier": 1,
-          "effectivePoints": 187,
+          "effectivePoints": 211,
           "countsInTop11": true
         },
         {
