@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T17:04:53.432Z",
+  "lastUpdated": "2026-05-11T17:15:05.642Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 81,
+        "r": 113,
         "w": 4,
-        "o": 9.3
+        "o": 12
       }
     ],
     "playerScores": {
@@ -82,22 +82,22 @@
         "total": 6
       },
       "Tristan Stubbs": {
-        "batting": 3,
+        "batting": -1,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": -1
       },
       "Axar Patel": {
-        "batting": 41,
+        "batting": 9,
         "bowling": 0,
         "fielding": 8,
-        "total": 49
+        "total": 17
       },
       "David Miller": {
-        "batting": 7,
+        "batting": 33,
         "bowling": 0,
         "fielding": 8,
-        "total": 15
+        "total": 41
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -122,13 +122,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5267,
-      "top11Points": 5282
+      "totalPointsAll": 5263,
+      "top11Points": 5278
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5136,
-      "top11Points": 4835
+      "totalPointsAll": 5162,
+      "top11Points": 4861
     },
     {
       "team": "Ritik",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4568,
-      "top11Points": 4456
+      "totalPointsAll": 4504,
+      "top11Points": 4392
     },
     {
       "team": "Athu",
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 81,
+          "r": 113,
           "w": 4,
-          "o": 9.3
+          "o": 12
         }
       ],
       "scorecard": [
@@ -20573,9 +20573,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 81,
+          "runs": 113,
           "wickets": 4,
-          "overs": 9.3,
+          "overs": 12,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20606,20 +20606,20 @@
             },
             {
               "name": "Tristan Stubbs",
-              "runs": 12,
-              "balls": 17,
+              "runs": 8,
+              "balls": 12,
               "fours": 1,
               "sixes": 0,
-              "sr": 70.59,
-              "dismissal": "run out (Cooper Connolly)"
+              "sr": 66.67,
+              "dismissal": "batting"
             },
             {
               "name": "Axar Patel",
-              "runs": 25,
-              "balls": 13,
-              "fours": 4,
+              "runs": 7,
+              "balls": 3,
+              "fours": 0,
               "sixes": 1,
-              "sr": 192.31,
+              "sr": 233.33,
               "dismissal": "batting"
             }
           ],
@@ -20642,19 +20642,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 2,
+              "overs": 0.5,
               "maidens": 0,
-              "runs": 19,
+              "runs": 9,
               "wickets": 0,
-              "economy": 9.5
-            },
-            {
-              "name": "Ben Dwarshuis",
-              "overs": 1.2,
-              "maidens": 0,
-              "runs": 17,
-              "wickets": 0,
-              "economy": 12.75
+              "economy": 10.8
             }
           ]
         }
@@ -20721,22 +20713,22 @@
           "total": 6
         },
         "Tristan Stubbs": {
-          "batting": 3,
+          "batting": -1,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": -1
         },
         "Axar Patel": {
-          "batting": 41,
+          "batting": 9,
           "bowling": 0,
           "fielding": 8,
-          "total": 49
+          "total": 17
         },
         "David Miller": {
-          "batting": 7,
+          "batting": 33,
           "bowling": 0,
           "fielding": 8,
-          "total": 15
+          "total": 41
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -21049,8 +21041,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5267,
-      "top11Points": 5282,
+      "totalPointsAll": 5263,
+      "top11Points": 5278,
       "players": [
         {
           "name": "KL Rahul",
@@ -21110,12 +21102,12 @@
         {
           "name": "Tristan Stubbs",
           "role": "Batsman",
-          "batting": 332,
+          "batting": 328,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 372,
+          "rawPoints": 368,
           "multiplier": 1,
-          "effectivePoints": 372,
+          "effectivePoints": 368,
           "countsInTop11": true
         },
         {
@@ -21452,18 +21444,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4568,
-      "top11Points": 4456,
+      "totalPointsAll": 4504,
+      "top11Points": 4392,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 68,
+          "batting": 36,
           "bowling": 319,
           "fielding": 24,
-          "rawPoints": 411,
+          "rawPoints": 379,
           "multiplier": 2,
-          "effectivePoints": 822,
+          "effectivePoints": 758,
           "countsInTop11": true
         },
         {
@@ -21877,8 +21869,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5136,
-      "top11Points": 4835,
+      "totalPointsAll": 5162,
+      "top11Points": 4861,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21969,6 +21961,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 205,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 237,
+          "multiplier": 1,
+          "effectivePoints": 237,
+          "countsInTop11": true
+        },
+        {
           "name": "Shivam Dube",
           "role": "All-Rounder",
           "batting": 199,
@@ -21977,17 +21980,6 @@
           "rawPoints": 233,
           "multiplier": 1,
           "effectivePoints": 233,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 179,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 211,
-          "multiplier": 1,
-          "effectivePoints": 211,
           "countsInTop11": true
         },
         {
