@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T16:04:55.057Z",
+  "lastUpdated": "2026-05-11T16:14:54.573Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -12,6 +12,12 @@
         "r": 210,
         "w": 5,
         "o": 20
+      },
+      {
+        "inning": "Delhi Capitals",
+        "r": 6,
+        "w": 0,
+        "o": 0.5
       }
     ],
     "playerScores": {
@@ -28,10 +34,10 @@
         "total": 21
       },
       "Shreyas Iyer": {
-        "batting": 83,
+        "batting": 85,
         "bowling": 0,
         "fielding": 0,
-        "total": 83
+        "total": 85
       },
       "Marcus Stoinis": {
         "batting": 1,
@@ -45,17 +51,35 @@
         "fielding": 0,
         "total": -5
       },
-      "Abishek Porel": {
+      "Marco Jansen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
       "KL Rahul": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 6
+      },
+      "Abishek Porel": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -72,8 +96,8 @@
       "Axar Patel": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -83,9 +107,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": -10,
+        "bowling": -5,
         "fielding": 0,
-        "total": -10
+        "total": -5
       },
       "Ashutosh Sharma": {
         "batting": 0,
@@ -98,13 +122,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5240,
-      "top11Points": 5255
+      "totalPointsAll": 5254,
+      "top11Points": 5269
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5116,
-      "top11Points": 4815
+      "totalPointsAll": 5121,
+      "top11Points": 4820
     },
     {
       "team": "Ritik",
@@ -113,8 +137,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4400,
-      "top11Points": 4288
+      "totalPointsAll": 4416,
+      "top11Points": 4304
     },
     {
       "team": "Athu",
@@ -123,8 +147,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4216,
-      "top11Points": 4216
+      "totalPointsAll": 4217,
+      "top11Points": 4217
     },
     {
       "team": "Aakash",
@@ -20425,6 +20449,12 @@
           "r": 210,
           "w": 5,
           "o": 20
+        },
+        {
+          "inning": "Delhi Capitals",
+          "r": 6,
+          "w": 0,
+          "o": 0.5
         }
       ],
       "scorecard": [
@@ -20454,12 +20484,12 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 57,
-              "balls": 34,
+              "runs": 59,
+              "balls": 36,
               "fours": 5,
               "sixes": 3,
-              "sr": 167.65,
-              "dismissal": "batting"
+              "sr": 163.89,
+              "dismissal": "not out"
             },
             {
               "name": "Cooper Connolly",
@@ -20473,21 +20503,39 @@
             {
               "name": "Marcus Stoinis",
               "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "c Madhav Tiwari b Mitchell Starc"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 0,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 0,
+              "dismissal": "c Axar Patel b Mitchell Starc"
+            },
+            {
+              "name": "Suryansh Shedge",
+              "runs": 21,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 262.5,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 41,
-              "wickets": 0,
-              "economy": 13.67
+              "runs": 57,
+              "wickets": 2,
+              "economy": 14.25
             },
             {
               "name": "Auqib Nabi Dar",
@@ -20499,11 +20547,11 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 39,
+              "runs": 46,
               "wickets": 0,
-              "economy": 13
+              "economy": 11.5
             },
             {
               "name": "Mukesh Kumar",
@@ -20522,6 +20570,42 @@
               "economy": 10
             }
           ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 6,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "KL Rahul",
+              "runs": 5,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Abishek Porel",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Arshdeep Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -20538,10 +20622,10 @@
           "total": 21
         },
         "Shreyas Iyer": {
-          "batting": 83,
+          "batting": 85,
           "bowling": 0,
           "fielding": 0,
-          "total": 83
+          "total": 85
         },
         "Marcus Stoinis": {
           "batting": 1,
@@ -20555,17 +20639,35 @@
           "fielding": 0,
           "total": -5
         },
-        "Abishek Porel": {
+        "Marco Jansen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
         "KL Rahul": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 6
+        },
+        "Abishek Porel": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -20582,8 +20684,8 @@
         "Axar Patel": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -20593,9 +20695,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": -10,
+          "bowling": -5,
           "fielding": 0,
-          "total": -10
+          "total": -5
         },
         "Ashutosh Sharma": {
           "batting": 0,
@@ -20896,18 +20998,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5240,
-      "top11Points": 5255,
+      "totalPointsAll": 5254,
+      "top11Points": 5269,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 684,
+          "batting": 690,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 720,
+          "rawPoints": 726,
           "multiplier": 2,
-          "effectivePoints": 1440,
+          "effectivePoints": 1452,
           "countsInTop11": true
         },
         {
@@ -20924,12 +21026,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 562,
+          "batting": 564,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 610,
+          "rawPoints": 612,
           "multiplier": 1,
-          "effectivePoints": 610,
+          "effectivePoints": 612,
           "countsInTop11": true
         },
         {
@@ -21172,8 +21274,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4216,
-      "top11Points": 4216,
+      "totalPointsAll": 4217,
+      "top11Points": 4217,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21277,12 +21379,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 28,
+          "batting": 29,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 28,
+          "rawPoints": 29,
           "multiplier": 1,
-          "effectivePoints": 28,
+          "effectivePoints": 29,
           "countsInTop11": true
         },
         {
@@ -21299,18 +21401,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4400,
-      "top11Points": 4288,
+      "totalPointsAll": 4416,
+      "top11Points": 4304,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 27,
           "bowling": 319,
-          "fielding": 16,
-          "rawPoints": 362,
+          "fielding": 24,
+          "rawPoints": 370,
           "multiplier": 2,
-          "effectivePoints": 724,
+          "effectivePoints": 740,
           "countsInTop11": true
         },
         {
@@ -21724,8 +21826,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5116,
-      "top11Points": 4815,
+      "totalPointsAll": 5121,
+      "top11Points": 4820,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21797,11 +21899,11 @@
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -1,
-          "bowling": 240,
+          "bowling": 245,
           "fielding": 5,
-          "rawPoints": 244,
+          "rawPoints": 249,
           "multiplier": 1,
-          "effectivePoints": 244,
+          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
