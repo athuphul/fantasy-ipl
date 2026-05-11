@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T15:05:08.559Z",
+  "lastUpdated": "2026-05-11T15:14:54.316Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 115,
+        "r": 129,
         "w": 2,
-        "o": 10.4
+        "o": 12.4
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 21
       },
       "Shreyas Iyer": {
-        "batting": 26,
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 0
       },
       "Abishek Porel": {
         "batting": 0,
@@ -80,8 +80,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5183,
-      "top11Points": 5198
+      "totalPointsAll": 5157,
+      "top11Points": 5172
     },
     {
       "team": "Tikoo",
@@ -20404,26 +20404,26 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 115,
+          "r": 129,
           "w": 2,
-          "o": 10.4
+          "o": 12.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 115,
+          "runs": 129,
           "wickets": 2,
-          "overs": 10.4,
+          "overs": 12.4,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 56,
-              "balls": 33,
-              "fours": 2,
+              "runs": 52,
+              "balls": 29,
+              "fours": 1,
               "sixes": 6,
-              "sr": 169.7,
-              "dismissal": "c Sahil Parakh b Madhav Tiwari"
+              "sr": 179.31,
+              "dismissal": "batting"
             },
             {
               "name": "Prabhsimran Singh",
@@ -20436,39 +20436,30 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 18,
-              "balls": 12,
-              "fours": 3,
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 150,
-              "dismissal": "batting"
-            },
-            {
-              "name": "Cooper Connolly",
-              "runs": 7,
-              "balls": 6,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 116.67,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 32,
+              "runs": 22,
               "wickets": 0,
-              "economy": 16
+              "economy": 22
             },
             {
               "name": "Auqib Nabi Dar",
-              "overs": 4,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 32,
+              "runs": 23,
               "wickets": 0,
-              "economy": 8
+              "economy": 7.26
             },
             {
               "name": "Lungi Ngidi",
@@ -20485,14 +20476,6 @@
               "runs": 17,
               "wickets": 1,
               "economy": 8.5
-            },
-            {
-              "name": "Madhav Tiwari",
-              "overs": 1.4,
-              "maidens": 0,
-              "runs": 13,
-              "wickets": 1,
-              "economy": 7.8
             }
           ]
         }
@@ -20511,10 +20494,10 @@
           "total": 21
         },
         "Shreyas Iyer": {
-          "batting": 26,
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 0
         },
         "Abishek Porel": {
           "batting": 0,
@@ -20851,8 +20834,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5183,
-      "top11Points": 5198,
+      "totalPointsAll": 5157,
+      "top11Points": 5172,
       "players": [
         {
           "name": "KL Rahul",
@@ -20877,17 +20860,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Shreyas Iyer",
-          "role": "Batsman",
-          "batting": 505,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 553,
-          "multiplier": 1,
-          "effectivePoints": 553,
-          "countsInTop11": true
-        },
-        {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
           "batting": 526,
@@ -20896,6 +20868,17 @@
           "rawPoints": 550,
           "multiplier": 1,
           "effectivePoints": 550,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batsman",
+          "batting": 479,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 527,
+          "multiplier": 1,
+          "effectivePoints": 527,
           "countsInTop11": true
         },
         {
