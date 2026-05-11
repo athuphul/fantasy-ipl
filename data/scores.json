@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T17:34:56.479Z",
+  "lastUpdated": "2026-05-11T17:44:54.598Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529298",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Delhi Capitals",
-        "r": 154,
-        "w": 5,
-        "o": 15.5
+        "r": 175,
+        "w": 6,
+        "o": 17
       }
     ],
     "playerScores": {
@@ -94,16 +94,16 @@
         "total": 96
       },
       "David Miller": {
-        "batting": 35,
+        "batting": 51,
         "bowling": 0,
         "fielding": 8,
-        "total": 43
+        "total": 59
       },
       "Ashutosh Sharma": {
-        "batting": 3,
+        "batting": 8,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 8
       },
       "Auqib Nabi Dar": {
         "batting": 0,
@@ -127,8 +127,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5159,
-      "top11Points": 4858
+      "totalPointsAll": 5175,
+      "top11Points": 4874
     },
     {
       "team": "Ritik",
@@ -162,8 +162,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3779,
-      "top11Points": 3732
+      "totalPointsAll": 3784,
+      "top11Points": 3737
     }
   ],
   "matchHistory": [
@@ -20452,9 +20452,9 @@
         },
         {
           "inning": "Delhi Capitals",
-          "r": 154,
-          "w": 5,
-          "o": 15.5
+          "r": 175,
+          "w": 6,
+          "o": 17
         }
       ],
       "scorecard": [
@@ -20573,9 +20573,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 154,
-          "wickets": 5,
-          "overs": 15.5,
+          "runs": 175,
+          "wickets": 6,
+          "overs": 17,
           "batting": [
             {
               "name": "KL Rahul",
@@ -20624,22 +20624,31 @@
             },
             {
               "name": "David Miller",
-              "runs": 26,
-              "balls": 17,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 152.94,
+              "runs": 39,
+              "balls": 25,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 156,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "runs": 7,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 16,
+              "runs": 21,
               "wickets": 2,
-              "economy": 5.33
+              "economy": 5.25
             },
             {
               "name": "Yash Thakur",
@@ -20651,11 +20660,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
+              "runs": 45,
               "wickets": 0,
-              "economy": 10
+              "economy": 11.25
             },
             {
               "name": "Ben Dwarshuis",
@@ -20750,16 +20759,16 @@
           "total": 96
         },
         "David Miller": {
-          "batting": 35,
+          "batting": 51,
           "bowling": 0,
           "fielding": 8,
-          "total": 43
+          "total": 59
         },
         "Ashutosh Sharma": {
-          "batting": 3,
+          "batting": 8,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 8
         },
         "Auqib Nabi Dar": {
           "batting": 0,
@@ -21756,8 +21765,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3779,
-      "top11Points": 3732,
+      "totalPointsAll": 3784,
+      "top11Points": 3737,
       "players": [
         {
           "name": "Travis Head",
@@ -21839,12 +21848,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 153,
+          "batting": 158,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 169,
+          "rawPoints": 174,
           "multiplier": 1,
-          "effectivePoints": 169,
+          "effectivePoints": 174,
           "countsInTop11": true
         },
         {
@@ -21894,8 +21903,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5159,
-      "top11Points": 4858,
+      "totalPointsAll": 5175,
+      "top11Points": 4874,
       "players": [
         {
           "name": "Sanju Samson",
@@ -21964,6 +21973,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 223,
+          "bowling": 0,
+          "fielding": 32,
+          "rawPoints": 255,
+          "multiplier": 1,
+          "effectivePoints": 255,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -1,
@@ -21972,17 +21992,6 @@
           "rawPoints": 249,
           "multiplier": 1,
           "effectivePoints": 249,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 207,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 239,
-          "multiplier": 1,
-          "effectivePoints": 239,
           "countsInTop11": true
         },
         {
