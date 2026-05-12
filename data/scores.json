@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:54:53.920Z",
+  "lastUpdated": "2026-05-12T17:04:55.312Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 56,
-        "w": 5,
-        "o": 9.4
+        "r": 60,
+        "w": 7,
+        "o": 10.5
       }
     ],
     "playerScores": {
@@ -36,14 +36,14 @@
       "Jos Buttler": {
         "batting": -2,
         "bowling": 0,
-        "fielding": 8,
-        "total": 6
+        "fielding": 24,
+        "total": 22
       },
       "Washington Sundar": {
         "batting": 74,
         "bowling": 0,
-        "fielding": 0,
-        "total": 74
+        "fielding": 8,
+        "total": 82
       },
       "Rahul Tewatia": {
         "batting": 5,
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 90,
+        "bowling": 97,
         "fielding": 0,
-        "total": 90
+        "total": 97
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -94,16 +94,16 @@
         "total": 30
       },
       "Heinrich Klaasen": {
-        "batting": 7,
+        "batting": 11,
         "bowling": 0,
         "fielding": 16,
-        "total": 23
+        "total": 27
       },
       "Nitish Kumar Reddy": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       }
     }
   },
@@ -120,13 +120,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4628,
-      "top11Points": 4628
+      "totalPointsAll": 4652,
+      "top11Points": 4652
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4662,
-      "top11Points": 4550
+      "totalPointsAll": 4664,
+      "top11Points": 4552
     },
     {
       "team": "Aakash",
@@ -135,13 +135,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4341,
-      "top11Points": 4344
+      "totalPointsAll": 4352,
+      "top11Points": 4355
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4306,
-      "top11Points": 4306
+      "totalPointsAll": 4314,
+      "top11Points": 4314
     },
     {
       "team": "Ashwin",
@@ -20806,9 +20806,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 56,
-          "w": 5,
-          "o": 9.4
+          "r": 60,
+          "w": 7,
+          "o": 10.5
         }
       ],
       "scorecard": [
@@ -20935,9 +20935,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 56,
-          "wickets": 5,
-          "overs": 9.4,
+          "runs": 60,
+          "wickets": 7,
+          "overs": 10.5,
           "batting": [
             {
               "name": "Travis Head",
@@ -20977,20 +20977,47 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 6,
-              "balls": 5,
-              "fours": 1,
+              "runs": 14,
+              "balls": 16,
+              "fours": 2,
               "sixes": 0,
-              "sr": 120,
-              "dismissal": "batting"
+              "sr": 87.5,
+              "dismissal": "c Jos Buttler b Jason Holder"
             },
             {
               "name": "Salil Arora",
+              "runs": 16,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 123.08,
+              "dismissal": "c Jos Buttler b Prasidh Krishna"
+            },
+            {
+              "name": "Nitish Kumar Reddy",
               "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "c Washington Sundar b Jason Holder"
+            },
+            {
+              "name": "Pat Cummins",
+              "runs": 1,
               "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 200,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shivang Kumar",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -21005,11 +21032,27 @@
             },
             {
               "name": "Kagiso Rabada",
+              "overs": 4,
+              "maidens": 0,
+              "runs": 28,
+              "wickets": 3,
+              "economy": 7
+            },
+            {
+              "name": "Jason Holder",
               "overs": 3,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 3,
-              "economy": 7.67
+              "runs": 19,
+              "wickets": 2,
+              "economy": 6.33
+            },
+            {
+              "name": "Prasidh Krishna",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 1,
+              "economy": 2
             }
           ]
         }
@@ -21030,14 +21073,14 @@
         "Jos Buttler": {
           "batting": -2,
           "bowling": 0,
-          "fielding": 8,
-          "total": 6
+          "fielding": 24,
+          "total": 22
         },
         "Washington Sundar": {
           "batting": 74,
           "bowling": 0,
-          "fielding": 0,
-          "total": 74
+          "fielding": 8,
+          "total": 82
         },
         "Rahul Tewatia": {
           "batting": 5,
@@ -21053,9 +21096,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 90,
+          "bowling": 97,
           "fielding": 0,
-          "total": 90
+          "total": 97
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -21088,16 +21131,16 @@
           "total": 30
         },
         "Heinrich Klaasen": {
-          "batting": 7,
+          "batting": 11,
           "bowling": 0,
           "fielding": 16,
-          "total": 23
+          "total": 27
         },
         "Nitish Kumar Reddy": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         }
       },
       "isComplete": false
@@ -21105,29 +21148,29 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4341,
-      "top11Points": 4344,
+      "totalPointsAll": 4352,
+      "top11Points": 4355,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 683,
+          "batting": 687,
           "bowling": 0,
           "fielding": 96,
-          "rawPoints": 779,
+          "rawPoints": 783,
           "multiplier": 1,
-          "effectivePoints": 779,
+          "effectivePoints": 783,
           "countsInTop11": true
         },
         {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 577,
+          "bowling": 584,
           "fielding": 24,
-          "rawPoints": 638,
+          "rawPoints": 645,
           "multiplier": 1,
-          "effectivePoints": 638,
+          "effectivePoints": 645,
           "countsInTop11": true
         },
         {
@@ -21668,8 +21711,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4306,
-      "top11Points": 4306,
+      "totalPointsAll": 4314,
+      "top11Points": 4314,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21720,10 +21763,10 @@
           "role": "All-Rounder",
           "batting": 408,
           "bowling": 45,
-          "fielding": 40,
-          "rawPoints": 493,
+          "fielding": 48,
+          "rawPoints": 501,
           "multiplier": 1,
-          "effectivePoints": 493,
+          "effectivePoints": 501,
           "countsInTop11": true
         },
         {
@@ -21795,8 +21838,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4662,
-      "top11Points": 4550,
+      "totalPointsAll": 4664,
+      "top11Points": 4552,
       "players": [
         {
           "name": "Axar Patel",
@@ -21834,12 +21877,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 333,
+          "batting": 335,
           "bowling": 160,
           "fielding": 64,
-          "rawPoints": 557,
+          "rawPoints": 559,
           "multiplier": 1,
-          "effectivePoints": 557,
+          "effectivePoints": 559,
           "countsInTop11": true
         },
         {
@@ -21955,18 +21998,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4628,
-      "top11Points": 4628,
+      "totalPointsAll": 4652,
+      "top11Points": 4652,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 487,
           "bowling": 0,
-          "fielding": 148,
-          "rawPoints": 635,
+          "fielding": 164,
+          "rawPoints": 651,
           "multiplier": 1.5,
-          "effectivePoints": 953,
+          "effectivePoints": 977,
           "countsInTop11": true
         },
         {
