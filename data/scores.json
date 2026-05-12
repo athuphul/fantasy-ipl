@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T14:34:56.106Z",
+  "lastUpdated": "2026-05-12T14:45:08.730Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 43,
+        "r": 56,
         "w": 2,
-        "o": 6.4
+        "o": 8
       }
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 8,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 9
       },
       "Shubman Gill": {
         "batting": 6,
@@ -42,8 +42,8 @@
       "Ishan Kishan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -53,9 +53,9 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
-        "bowling": 12,
+        "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 0
       }
     }
   },
@@ -72,13 +72,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4586,
-      "top11Points": 4586
+      "totalPointsAll": 4594,
+      "top11Points": 4594
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4674,
-      "top11Points": 4562
+      "totalPointsAll": 4662,
+      "top11Points": 4550
     },
     {
       "team": "Athu",
@@ -92,8 +92,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4248,
-      "top11Points": 4212
+      "totalPointsAll": 4250,
+      "top11Points": 4214
     },
     {
       "team": "Ashwin",
@@ -20752,25 +20752,25 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 43,
+          "r": 56,
           "w": 2,
-          "o": 6.4
+          "o": 8
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 43,
+          "runs": 56,
           "wickets": 2,
-          "overs": 6.4,
+          "overs": 8,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 12,
-              "balls": 13,
+              "runs": 13,
+              "balls": 15,
               "fours": 1,
               "sixes": 0,
-              "sr": 92.31,
+              "sr": 86.67,
               "dismissal": "batting"
             },
             {
@@ -20785,10 +20785,19 @@
             {
               "name": "Jos Buttler",
               "runs": 7,
-              "balls": 10,
+              "balls": 11,
               "fours": 1,
               "sixes": 0,
-              "sr": 70,
+              "sr": 63.64,
+              "dismissal": "c Ishan Kishan b Praful Hinge"
+            },
+            {
+              "name": "Nishant Sindhu",
+              "runs": 16,
+              "balls": 7,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 228.57,
               "dismissal": "batting"
             }
           ],
@@ -20803,29 +20812,29 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 14,
+              "runs": 23,
               "wickets": 0,
-              "economy": 7
+              "economy": 8.63
             },
             {
               "name": "Praful Hinge",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 1,
-              "economy": 2
+              "runs": 10,
+              "wickets": 2,
+              "economy": 5
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 8,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 9
         },
         "Shubman Gill": {
           "batting": 6,
@@ -20848,8 +20857,8 @@
         "Ishan Kishan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -20859,9 +20868,9 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
-          "bowling": 12,
+          "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 0
         }
       },
       "isComplete": false
@@ -21018,18 +21027,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4248,
-      "top11Points": 4212,
+      "totalPointsAll": 4250,
+      "top11Points": 4214,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 632,
+          "batting": 633,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 666,
+          "rawPoints": 667,
           "multiplier": 2,
-          "effectivePoints": 1332,
+          "effectivePoints": 1334,
           "countsInTop11": true
         },
         {
@@ -21559,8 +21568,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4674,
-      "top11Points": 4562,
+      "totalPointsAll": 4662,
+      "top11Points": 4550,
       "players": [
         {
           "name": "Axar Patel",
@@ -21585,17 +21594,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Nitish Kumar Reddy",
-          "role": "All-Rounder",
-          "batting": 333,
-          "bowling": 172,
-          "fielding": 64,
-          "rawPoints": 569,
-          "multiplier": 1,
-          "effectivePoints": 569,
-          "countsInTop11": true
-        },
-        {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
           "batting": 422,
@@ -21604,6 +21602,17 @@
           "rawPoints": 564,
           "multiplier": 1,
           "effectivePoints": 564,
+          "countsInTop11": true
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "role": "All-Rounder",
+          "batting": 333,
+          "bowling": 160,
+          "fielding": 64,
+          "rawPoints": 557,
+          "multiplier": 1,
+          "effectivePoints": 557,
           "countsInTop11": true
         },
         {
@@ -21719,8 +21728,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4586,
-      "top11Points": 4586,
+      "totalPointsAll": 4594,
+      "top11Points": 4594,
       "players": [
         {
           "name": "Jos Buttler",
@@ -21749,10 +21758,10 @@
           "role": "Wicket Keeper",
           "batting": 589,
           "bowling": 0,
-          "fielding": 68,
-          "rawPoints": 657,
+          "fielding": 76,
+          "rawPoints": 665,
           "multiplier": 1,
-          "effectivePoints": 657,
+          "effectivePoints": 665,
           "countsInTop11": true
         },
         {
