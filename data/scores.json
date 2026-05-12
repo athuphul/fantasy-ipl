@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T15:44:57.885Z",
+  "lastUpdated": "2026-05-12T15:54:56.530Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 160,
-        "w": 4,
-        "o": 19.1
+        "r": 168,
+        "w": 5,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -34,10 +34,16 @@
         "total": -2
       },
       "Washington Sundar": {
-        "batting": 39,
+        "batting": 74,
         "bowling": 0,
         "fielding": 0,
-        "total": 39
+        "total": 74
+      },
+      "Rahul Tewatia": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -48,8 +54,8 @@
       "Ishan Kishan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -73,13 +79,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5206,
+      "totalPointsAll": 5211,
       "top11Points": 4905
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4594,
-      "top11Points": 4594
+      "totalPointsAll": 4602,
+      "top11Points": 4602
     },
     {
       "team": "Manav",
@@ -93,8 +99,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4271,
-      "top11Points": 4271
+      "totalPointsAll": 4306,
+      "top11Points": 4306
     },
     {
       "team": "Athu",
@@ -20758,17 +20764,17 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 160,
-          "w": 4,
-          "o": 19.1
+          "r": 168,
+          "w": 5,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 160,
-          "wickets": 4,
-          "overs": 19.1,
+          "runs": 168,
+          "wickets": 5,
+          "overs": 20,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -20808,21 +20814,30 @@
             },
             {
               "name": "Washington Sundar",
-              "runs": 34,
-              "balls": 27,
-              "fours": 5,
-              "sixes": 0,
-              "sr": 125.93,
-              "dismissal": "batting"
+              "runs": 50,
+              "balls": 33,
+              "fours": 7,
+              "sixes": 1,
+              "sr": 151.52,
+              "dismissal": "c Ishan Kishan b Sakib Hussain"
             },
             {
               "name": "Jason Holder",
-              "runs": 4,
-              "balls": 4,
+              "runs": 11,
+              "balls": 10,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 110,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Rahul Tewatia",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -20844,27 +20859,27 @@
             },
             {
               "name": "Praful Hinge",
-              "overs": 2.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 16,
+              "runs": 17,
               "wickets": 2,
-              "economy": 5.65
+              "economy": 5.67
             },
             {
               "name": "Eshan Malinga",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
+              "runs": 46,
               "wickets": 0,
-              "economy": 9.33
+              "economy": 11.5
             },
             {
               "name": "Sakib Hussain",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
-              "wickets": 1,
-              "economy": 9
+              "runs": 37,
+              "wickets": 2,
+              "economy": 9.25
             },
             {
               "name": "Shivang Kumar",
@@ -20897,10 +20912,16 @@
           "total": -2
         },
         "Washington Sundar": {
-          "batting": 39,
+          "batting": 74,
           "bowling": 0,
           "fielding": 0,
-          "total": 39
+          "total": 74
+        },
+        "Rahul Tewatia": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -20911,8 +20932,8 @@
         "Ishan Kishan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -21495,8 +21516,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4271,
-      "top11Points": 4271,
+      "totalPointsAll": 4306,
+      "top11Points": 4306,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21545,12 +21566,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 373,
+          "batting": 408,
           "bowling": 45,
           "fielding": 40,
-          "rawPoints": 458,
+          "rawPoints": 493,
           "multiplier": 1,
-          "effectivePoints": 458,
+          "effectivePoints": 493,
           "countsInTop11": true
         },
         {
@@ -21782,8 +21803,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4594,
-      "top11Points": 4594,
+      "totalPointsAll": 4602,
+      "top11Points": 4602,
       "players": [
         {
           "name": "Jos Buttler",
@@ -21812,10 +21833,10 @@
           "role": "Wicket Keeper",
           "batting": 589,
           "bowling": 0,
-          "fielding": 76,
-          "rawPoints": 665,
+          "fielding": 84,
+          "rawPoints": 673,
           "multiplier": 1,
-          "effectivePoints": 665,
+          "effectivePoints": 673,
           "countsInTop11": true
         },
         {
@@ -22047,7 +22068,7 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5206,
+      "totalPointsAll": 5211,
       "top11Points": 4905,
       "players": [
         {
@@ -22174,12 +22195,12 @@
         {
           "name": "Rahul Tewatia",
           "role": "All-Rounder",
-          "batting": 101,
+          "batting": 106,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 117,
+          "rawPoints": 122,
           "multiplier": 1,
-          "effectivePoints": 117,
+          "effectivePoints": 122,
           "countsInTop11": false
         },
         {
