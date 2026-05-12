@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T17:04:55.312Z",
+  "lastUpdated": "2026-05-12T17:14:55.124Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 60,
-        "w": 7,
-        "o": 10.5
+        "r": 72,
+        "w": 8,
+        "o": 13
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Jos Buttler": {
         "batting": -2,
         "bowling": 0,
-        "fielding": 24,
-        "total": 22
+        "fielding": 32,
+        "total": 30
       },
       "Washington Sundar": {
         "batting": 74,
@@ -71,9 +71,9 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 37,
         "fielding": 0,
-        "total": 25
+        "total": 37
       },
       "Travis Head": {
         "batting": -5,
@@ -115,13 +115,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5236,
-      "top11Points": 4930
+      "totalPointsAll": 5248,
+      "top11Points": 4942
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4652,
-      "top11Points": 4652
+      "totalPointsAll": 4664,
+      "top11Points": 4664
     },
     {
       "team": "Manav",
@@ -20806,9 +20806,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 60,
-          "w": 7,
-          "o": 10.5
+          "r": 72,
+          "w": 8,
+          "o": 13
         }
       ],
       "scorecard": [
@@ -20935,9 +20935,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 60,
-          "wickets": 7,
-          "overs": 10.5,
+          "runs": 72,
+          "wickets": 8,
+          "overs": 13,
           "batting": [
             {
               "name": "Travis Head",
@@ -21004,17 +21004,26 @@
             },
             {
               "name": "Pat Cummins",
-              "runs": 1,
-              "balls": 1,
+              "runs": 9,
+              "balls": 5,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sixes": 1,
+              "sr": 180,
               "dismissal": "batting"
             },
             {
               "name": "Shivang Kumar",
+              "runs": 4,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "c Jos Buttler b Jason Holder"
+            },
+            {
+              "name": "Praful Hinge",
               "runs": 0,
-              "balls": 2,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -21040,19 +21049,19 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 2,
-              "economy": 6.33
+              "runs": 20,
+              "wickets": 3,
+              "economy": 5
             },
             {
               "name": "Prasidh Krishna",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 13,
               "wickets": 1,
-              "economy": 2
+              "economy": 6.5
             }
           ]
         }
@@ -21073,8 +21082,8 @@
         "Jos Buttler": {
           "batting": -2,
           "bowling": 0,
-          "fielding": 24,
-          "total": 22
+          "fielding": 32,
+          "total": 30
         },
         "Washington Sundar": {
           "batting": 74,
@@ -21108,9 +21117,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 37,
           "fielding": 0,
-          "total": 25
+          "total": 37
         },
         "Travis Head": {
           "batting": -5,
@@ -21998,18 +22007,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4652,
-      "top11Points": 4652,
+      "totalPointsAll": 4664,
+      "top11Points": 4664,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 487,
           "bowling": 0,
-          "fielding": 164,
-          "rawPoints": 651,
+          "fielding": 172,
+          "rawPoints": 659,
           "multiplier": 1.5,
-          "effectivePoints": 977,
+          "effectivePoints": 989,
           "countsInTop11": true
         },
         {
@@ -22263,8 +22272,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5236,
-      "top11Points": 4930,
+      "totalPointsAll": 5248,
+      "top11Points": 4942,
       "players": [
         {
           "name": "Sanju Samson",
@@ -22314,11 +22323,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 337,
+          "bowling": 349,
           "fielding": 13,
-          "rawPoints": 350,
+          "rawPoints": 362,
           "multiplier": 1,
-          "effectivePoints": 350,
+          "effectivePoints": 362,
           "countsInTop11": true
         },
         {
