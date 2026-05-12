@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:24:53.147Z",
+  "lastUpdated": "2026-05-12T16:34:53.311Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 25,
-        "w": 3,
-        "o": 3.4
+        "r": 32,
+        "w": 4,
+        "o": 5.5
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "Jos Buttler": {
         "batting": -2,
         "bowling": 0,
-        "fielding": 0,
-        "total": -2
+        "fielding": 8,
+        "total": 6
       },
       "Washington Sundar": {
         "batting": 74,
@@ -59,15 +59,15 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 25
+        "total": 50
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Prasidh Krishna": {
         "batting": 0,
@@ -88,16 +88,16 @@
         "total": 8
       },
       "Ishan Kishan": {
-        "batting": 8,
+        "batting": 14,
         "bowling": 0,
         "fielding": 16,
-        "total": 24
+        "total": 30
       },
       "Heinrich Klaasen": {
-        "batting": 1,
+        "batting": 6,
         "bowling": 0,
         "fielding": 16,
-        "total": 17
+        "total": 22
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5317,
-      "top11Points": 5319
+      "totalPointsAll": 5337,
+      "top11Points": 5339
     },
     {
       "team": "Tikoo",
@@ -120,8 +120,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4610,
-      "top11Points": 4610
+      "totalPointsAll": 4628,
+      "top11Points": 4628
     },
     {
       "team": "Manav",
@@ -140,8 +140,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4270,
-      "top11Points": 4273
+      "totalPointsAll": 4300,
+      "top11Points": 4303
     },
     {
       "team": "Ashwin",
@@ -20806,9 +20806,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 25,
-          "w": 3,
-          "o": 3.4
+          "r": 32,
+          "w": 4,
+          "o": 5.5
         }
       ],
       "scorecard": [
@@ -20935,9 +20935,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 25,
-          "wickets": 3,
-          "overs": 3.4,
+          "runs": 32,
+          "wickets": 4,
+          "overs": 5.5,
           "batting": [
             {
               "name": "Travis Head",
@@ -20959,39 +20959,48 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 6,
-              "balls": 3,
-              "fours": 0,
+              "runs": 11,
+              "balls": 7,
+              "fours": 1,
               "sixes": 1,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 157.14,
+              "dismissal": "c Jos Buttler b Kagiso Rabada"
             },
             {
               "name": "Smaran Ravichandran",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 7,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Heinrich Klaasen",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 166.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 1,
+              "overs": 2,
               "maidens": 1,
-              "runs": 0,
+              "runs": 10,
               "wickets": 1,
-              "economy": 0
+              "economy": 5
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 1,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 13,
-              "wickets": 1,
-              "economy": 13
+              "runs": 19,
+              "wickets": 2,
+              "economy": 10.36
             }
           ]
         }
@@ -21012,8 +21021,8 @@
         "Jos Buttler": {
           "batting": -2,
           "bowling": 0,
-          "fielding": 0,
-          "total": -2
+          "fielding": 8,
+          "total": 6
         },
         "Washington Sundar": {
           "batting": 74,
@@ -21035,15 +21044,15 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 25
+          "total": 50
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Prasidh Krishna": {
           "batting": 0,
@@ -21064,16 +21073,16 @@
           "total": 8
         },
         "Ishan Kishan": {
-          "batting": 8,
+          "batting": 14,
           "bowling": 0,
           "fielding": 16,
-          "total": 24
+          "total": 30
         },
         "Heinrich Klaasen": {
-          "batting": 1,
+          "batting": 6,
           "bowling": 0,
           "fielding": 16,
-          "total": 17
+          "total": 22
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
@@ -21087,29 +21096,29 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4270,
-      "top11Points": 4273,
+      "totalPointsAll": 4300,
+      "top11Points": 4303,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 677,
+          "batting": 682,
           "bowling": 0,
           "fielding": 96,
-          "rawPoints": 773,
+          "rawPoints": 778,
           "multiplier": 1,
-          "effectivePoints": 773,
+          "effectivePoints": 778,
           "countsInTop11": true
         },
         {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 512,
+          "bowling": 537,
           "fielding": 24,
-          "rawPoints": 573,
+          "rawPoints": 598,
           "multiplier": 1,
-          "effectivePoints": 573,
+          "effectivePoints": 598,
           "countsInTop11": true
         },
         {
@@ -21374,8 +21383,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5317,
-      "top11Points": 5319,
+      "totalPointsAll": 5337,
+      "top11Points": 5339,
       "players": [
         {
           "name": "KL Rahul",
@@ -21425,11 +21434,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 384,
+          "bowling": 404,
           "fielding": 24,
-          "rawPoints": 403,
+          "rawPoints": 423,
           "multiplier": 1,
-          "effectivePoints": 403,
+          "effectivePoints": 423,
           "countsInTop11": true
         },
         {
@@ -21937,18 +21946,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4610,
-      "top11Points": 4610,
+      "totalPointsAll": 4628,
+      "top11Points": 4628,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
           "batting": 487,
           "bowling": 0,
-          "fielding": 140,
-          "rawPoints": 627,
+          "fielding": 148,
+          "rawPoints": 635,
           "multiplier": 1.5,
-          "effectivePoints": 941,
+          "effectivePoints": 953,
           "countsInTop11": true
         },
         {
@@ -21965,12 +21974,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 597,
+          "batting": 603,
           "bowling": 0,
           "fielding": 84,
-          "rawPoints": 681,
+          "rawPoints": 687,
           "multiplier": 1,
-          "effectivePoints": 681,
+          "effectivePoints": 687,
           "countsInTop11": true
         },
         {
