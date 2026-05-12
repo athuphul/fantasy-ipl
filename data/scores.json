@@ -1,7 +1,58 @@
 {
-  "lastUpdated": "2026-05-11T18:24:54.219Z",
+  "lastUpdated": "2026-05-12T14:04:56.925Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529299",
+    "name": "Gujarat Titans v Sunrisers Hyderabad",
+    "status": "Live",
+    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+    "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 5,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Sai Sudharsan": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Abhishek Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ishan Kishan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Heinrich Klaasen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nitish Kumar Reddy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -35,8 +86,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4232,
-      "top11Points": 4196
+      "totalPointsAll": 4242,
+      "top11Points": 4206
     },
     {
       "team": "Ashwin",
@@ -20685,6 +20736,98 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529299",
+      "name": "Gujarat Titans v Sunrisers Hyderabad",
+      "date": "2026-05-12",
+      "status": "Live",
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+      "score": [
+        {
+          "inning": "Gujarat Titans",
+          "r": 5,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Gujarat Titans",
+          "runs": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 5,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 125,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Pat Cummins",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 6
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sai Sudharsan": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Abhishek Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ishan Kishan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Heinrich Klaasen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nitish Kumar Reddy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -20838,18 +20981,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4232,
-      "top11Points": 4196,
+      "totalPointsAll": 4242,
+      "top11Points": 4206,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 624,
+          "batting": 629,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 658,
+          "rawPoints": 663,
           "multiplier": 2,
-          "effectivePoints": 1316,
+          "effectivePoints": 1326,
           "countsInTop11": true
         },
         {
