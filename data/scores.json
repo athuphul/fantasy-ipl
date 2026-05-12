@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:45:06.992Z",
+  "lastUpdated": "2026-05-12T16:54:53.920Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 48,
-        "w": 4,
-        "o": 8
+        "r": 56,
+        "w": 5,
+        "o": 9.4
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 97,
+        "bowling": 90,
         "fielding": 0,
-        "total": 97
+        "total": 90
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Prasidh Krishna": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Travis Head": {
         "batting": -5,
@@ -94,10 +94,10 @@
         "total": 30
       },
       "Heinrich Klaasen": {
-        "batting": 14,
+        "batting": 7,
         "bowling": 0,
         "fielding": 16,
-        "total": 30
+        "total": 23
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
@@ -115,8 +115,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5211,
-      "top11Points": 4905
+      "totalPointsAll": 5236,
+      "top11Points": 4930
     },
     {
       "team": "Ritik",
@@ -129,14 +129,14 @@
       "top11Points": 4550
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 4355,
-      "top11Points": 4358
-    },
-    {
       "team": "Aakash",
       "totalPointsAll": 4392,
       "top11Points": 4356
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4341,
+      "top11Points": 4344
     },
     {
       "team": "Kishan",
@@ -20806,9 +20806,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 48,
-          "w": 4,
-          "o": 8
+          "r": 56,
+          "w": 5,
+          "o": 9.4
         }
       ],
       "scorecard": [
@@ -20935,9 +20935,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 48,
-          "wickets": 4,
-          "overs": 8,
+          "runs": 56,
+          "wickets": 5,
+          "overs": 9.4,
           "batting": [
             {
               "name": "Travis Head",
@@ -20977,20 +20977,20 @@
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 12,
-              "balls": 10,
-              "fours": 2,
+              "runs": 6,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
               "sr": 120,
               "dismissal": "batting"
             },
             {
               "name": "Salil Arora",
-              "runs": 14,
-              "balls": 9,
-              "fours": 3,
+              "runs": 2,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 155.56,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -21005,19 +21005,11 @@
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 28,
+              "runs": 23,
               "wickets": 3,
-              "economy": 7
-            },
-            {
-              "name": "Jason Holder",
-              "overs": 1.1,
-              "maidens": 0,
-              "runs": 13,
-              "wickets": 0,
-              "economy": 11.14
+              "economy": 7.67
             }
           ]
         }
@@ -21061,9 +21053,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 97,
+          "bowling": 90,
           "fielding": 0,
-          "total": 97
+          "total": 90
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -21073,9 +21065,9 @@
         },
         "Prasidh Krishna": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Travis Head": {
           "batting": -5,
@@ -21096,10 +21088,10 @@
           "total": 30
         },
         "Heinrich Klaasen": {
-          "batting": 14,
+          "batting": 7,
           "bowling": 0,
           "fielding": 16,
-          "total": 30
+          "total": 23
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
@@ -21113,29 +21105,29 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4355,
-      "top11Points": 4358,
+      "totalPointsAll": 4341,
+      "top11Points": 4344,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 690,
+          "batting": 683,
           "bowling": 0,
           "fielding": 96,
-          "rawPoints": 786,
+          "rawPoints": 779,
           "multiplier": 1,
-          "effectivePoints": 786,
+          "effectivePoints": 779,
           "countsInTop11": true
         },
         {
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 584,
+          "bowling": 577,
           "fielding": 24,
-          "rawPoints": 645,
+          "rawPoints": 638,
           "multiplier": 1,
-          "effectivePoints": 645,
+          "effectivePoints": 638,
           "countsInTop11": true
         },
         {
@@ -22228,8 +22220,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5211,
-      "top11Points": 4905,
+      "totalPointsAll": 5236,
+      "top11Points": 4930,
       "players": [
         {
           "name": "Sanju Samson",
@@ -22279,11 +22271,11 @@
           "name": "Prasidh Krishna",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 312,
+          "bowling": 337,
           "fielding": 13,
-          "rawPoints": 325,
+          "rawPoints": 350,
           "multiplier": 1,
-          "effectivePoints": 325,
+          "effectivePoints": 350,
           "countsInTop11": true
         },
         {
