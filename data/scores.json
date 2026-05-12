@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:04:54.590Z",
+  "lastUpdated": "2026-05-12T16:14:53.540Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -12,6 +12,12 @@
         "r": 168,
         "w": 5,
         "o": 20
+      },
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 6,
+        "w": 2,
+        "o": 1.4
       }
     ],
     "playerScores": {
@@ -45,11 +51,41 @@
         "fielding": 0,
         "total": 5
       },
-      "Abhishek Sharma": {
+      "Rashid Khan": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Prasidh Krishna": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Travis Head": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Abhishek Sharma": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
       },
       "Ishan Kishan": {
         "batting": 0,
@@ -74,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5280,
-      "top11Points": 5282
+      "totalPointsAll": 5317,
+      "top11Points": 5319
     },
     {
       "team": "Tikoo",
@@ -104,8 +140,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4244,
-      "top11Points": 4247
+      "totalPointsAll": 4269,
+      "top11Points": 4272
     },
     {
       "team": "Ashwin",
@@ -114,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3821,
-      "top11Points": 3774
+      "totalPointsAll": 3811,
+      "top11Points": 3764
     }
   ],
   "matchHistory": [
@@ -20767,6 +20803,12 @@
           "r": 168,
           "w": 5,
           "o": 20
+        },
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 6,
+          "w": 2,
+          "o": 1.4
         }
       ],
       "scorecard": [
@@ -20890,6 +20932,68 @@
               "economy": 9.5
             }
           ]
+        },
+        {
+          "innings": "Sunrisers Hyderabad",
+          "runs": 6,
+          "wickets": 2,
+          "overs": 1.4,
+          "batting": [
+            {
+              "name": "Travis Head",
+              "runs": 0,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Nishant Sindhu b Mohammed Siraj"
+            },
+            {
+              "name": "Abhishek Sharma",
+              "runs": 6,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 150,
+              "dismissal": "b Kagiso Rabada"
+            },
+            {
+              "name": "Ishan Kishan",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Smaran Ravichandran",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 1,
+              "maidens": 1,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 8.4
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -20923,11 +21027,41 @@
           "fielding": 0,
           "total": 5
         },
-        "Abhishek Sharma": {
+        "Rashid Khan": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Travis Head": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Abhishek Sharma": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
         },
         "Ishan Kishan": {
           "batting": 0,
@@ -20953,8 +21087,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4244,
-      "top11Points": 4247,
+      "totalPointsAll": 4269,
+      "top11Points": 4272,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -20971,11 +21105,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 487,
+          "bowling": 512,
           "fielding": 24,
-          "rawPoints": 548,
+          "rawPoints": 573,
           "multiplier": 1,
-          "effectivePoints": 548,
+          "effectivePoints": 573,
           "countsInTop11": true
         },
         {
@@ -21240,8 +21374,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5280,
-      "top11Points": 5282,
+      "totalPointsAll": 5317,
+      "top11Points": 5319,
       "players": [
         {
           "name": "KL Rahul",
@@ -21257,12 +21391,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 745,
+          "batting": 753,
           "bowling": 12,
           "fielding": 40,
-          "rawPoints": 797,
+          "rawPoints": 805,
           "multiplier": 1.5,
-          "effectivePoints": 1196,
+          "effectivePoints": 1208,
           "countsInTop11": true
         },
         {
@@ -21291,11 +21425,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 359,
+          "bowling": 384,
           "fielding": 24,
-          "rawPoints": 378,
+          "rawPoints": 403,
           "multiplier": 1,
-          "effectivePoints": 378,
+          "effectivePoints": 403,
           "countsInTop11": true
         },
         {
@@ -21930,18 +22064,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3821,
-      "top11Points": 3774,
+      "totalPointsAll": 3811,
+      "top11Points": 3764,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 528,
+          "batting": 523,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 528,
+          "rawPoints": 523,
           "multiplier": 2,
-          "effectivePoints": 1056,
+          "effectivePoints": 1046,
           "countsInTop11": true
         },
         {
