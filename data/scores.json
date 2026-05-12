@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T14:45:08.730Z",
+  "lastUpdated": "2026-05-12T14:55:03.292Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529299",
@@ -9,17 +9,17 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 56,
-        "w": 2,
-        "o": 8
+        "r": 68,
+        "w": 3,
+        "o": 10
       }
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 9,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 23
       },
       "Shubman Gill": {
         "batting": 6,
@@ -32,6 +32,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": -2
+      },
+      "Washington Sundar": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -81,19 +87,19 @@
       "top11Points": 4550
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 4278,
+      "top11Points": 4242
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 4236,
       "top11Points": 4239
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4232,
-      "top11Points": 4232
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 4250,
-      "top11Points": 4214
+      "totalPointsAll": 4237,
+      "top11Points": 4237
     },
     {
       "team": "Ashwin",
@@ -20752,25 +20758,25 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 56,
-          "w": 2,
-          "o": 8
+          "r": 68,
+          "w": 3,
+          "o": 10
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 56,
-          "wickets": 2,
-          "overs": 8,
+          "runs": 68,
+          "wickets": 3,
+          "overs": 10,
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 13,
-              "balls": 15,
-              "fours": 1,
+              "runs": 21,
+              "balls": 19,
+              "fours": 2,
               "sixes": 0,
-              "sr": 86.67,
+              "sr": 110.53,
               "dismissal": "batting"
             },
             {
@@ -20793,11 +20799,11 @@
             },
             {
               "name": "Nishant Sindhu",
-              "runs": 16,
-              "balls": 7,
-              "fours": 2,
+              "runs": 21,
+              "balls": 11,
+              "fours": 3,
               "sixes": 1,
-              "sr": 228.57,
+              "sr": 190.91,
               "dismissal": "batting"
             }
           ],
@@ -20812,11 +20818,11 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 27,
               "wickets": 0,
-              "economy": 8.63
+              "economy": 9
             },
             {
               "name": "Praful Hinge",
@@ -20825,16 +20831,24 @@
               "runs": 10,
               "wickets": 2,
               "economy": 5
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 9,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 23
         },
         "Shubman Gill": {
           "batting": 6,
@@ -20847,6 +20861,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": -2
+        },
+        "Washington Sundar": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -21027,18 +21047,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4250,
-      "top11Points": 4214,
+      "totalPointsAll": 4278,
+      "top11Points": 4242,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 633,
+          "batting": 647,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 667,
+          "rawPoints": 681,
           "multiplier": 2,
-          "effectivePoints": 1334,
+          "effectivePoints": 1362,
           "countsInTop11": true
         },
         {
@@ -21441,8 +21461,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4232,
-      "top11Points": 4232,
+      "totalPointsAll": 4237,
+      "top11Points": 4237,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21491,12 +21511,12 @@
         {
           "name": "Washington Sundar",
           "role": "All-Rounder",
-          "batting": 334,
+          "batting": 339,
           "bowling": 45,
           "fielding": 40,
-          "rawPoints": 419,
+          "rawPoints": 424,
           "multiplier": 1,
-          "effectivePoints": 419,
+          "effectivePoints": 424,
           "countsInTop11": true
         },
         {
