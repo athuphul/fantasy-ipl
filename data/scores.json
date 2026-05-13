@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T16:04:55.231Z",
+  "lastUpdated": "2026-05-13T16:14:55.388Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 87,
-        "w": 2,
-        "o": 10.1
+        "r": 116,
+        "w": 3,
+        "o": 12.2
       }
     ],
     "playerScores": {
@@ -41,9 +41,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 5,
+        "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 0
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 23
       },
       "Cameron Green": {
-        "batting": 11,
+        "batting": 37,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 37
       }
     }
   },
@@ -95,8 +95,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4722,
-      "top11Points": 4610
+      "totalPointsAll": 4717,
+      "top11Points": 4605
     },
     {
       "team": "Athu",
@@ -120,8 +120,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3822,
-      "top11Points": 3775
+      "totalPointsAll": 3848,
+      "top11Points": 3801
     }
   ],
   "matchHistory": [
@@ -21150,17 +21150,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 87,
-          "w": 2,
-          "o": 10.1
+          "r": 116,
+          "w": 3,
+          "o": 12.2
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 87,
-          "wickets": 2,
-          "overs": 10.1,
+          "runs": 116,
+          "wickets": 3,
+          "overs": 12.2,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -21182,21 +21182,21 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 38,
-              "balls": 24,
-              "fours": 3,
+              "runs": 44,
+              "balls": 29,
+              "fours": 4,
               "sixes": 2,
-              "sr": 158.33,
+              "sr": 151.72,
               "dismissal": "batting"
             },
             {
               "name": "Cameron Green",
-              "runs": 15,
-              "balls": 17,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 88.24,
-              "dismissal": "batting"
+              "runs": 32,
+              "balls": 24,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 133.33,
+              "dismissal": "b Rasikh Salam Dar"
             }
           ],
           "bowling": [
@@ -21226,19 +21226,19 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 1.2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
-              "economy": 9
+              "runs": 23,
+              "wickets": 1,
+              "economy": 9.86
             },
             {
               "name": "Krunal Pandya",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
+              "runs": 29,
               "wickets": 0,
-              "economy": 7.5
+              "economy": 9.67
             }
           ]
         }
@@ -21270,9 +21270,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 5,
+          "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 0
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -21299,10 +21299,10 @@
           "total": 23
         },
         "Cameron Green": {
-          "batting": 11,
+          "batting": 37,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 37
         }
       },
       "isComplete": false
@@ -22000,8 +22000,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4722,
-      "top11Points": 4610,
+      "totalPointsAll": 4717,
+      "top11Points": 4605,
       "players": [
         {
           "name": "Axar Patel",
@@ -22051,11 +22051,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 204,
-          "bowling": 287,
+          "bowling": 282,
           "fielding": 16,
-          "rawPoints": 507,
+          "rawPoints": 502,
           "multiplier": 1,
-          "effectivePoints": 507,
+          "effectivePoints": 502,
           "countsInTop11": true
         },
         {
@@ -22287,8 +22287,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3822,
-      "top11Points": 3775,
+      "totalPointsAll": 3848,
+      "top11Points": 3801,
       "players": [
         {
           "name": "Travis Head",
@@ -22326,12 +22326,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 318,
+          "batting": 344,
           "bowling": 75,
           "fielding": 56,
-          "rawPoints": 449,
+          "rawPoints": 475,
           "multiplier": 1,
-          "effectivePoints": 449,
+          "effectivePoints": 475,
           "countsInTop11": true
         },
         {
