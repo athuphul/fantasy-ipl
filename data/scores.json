@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T17:24:54.376Z",
+  "lastUpdated": "2026-05-13T17:35:10.401Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 46,
+        "r": 66,
         "w": 1,
-        "o": 4.1
+        "o": 6
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 21,
+        "batting": 40,
         "bowling": 0,
         "fielding": 0,
-        "total": 21
+        "total": 40
       },
       "Devdutt Padikkal": {
         "batting": 10,
@@ -141,8 +141,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4385,
-      "top11Points": 4385
+      "totalPointsAll": 4404,
+      "top11Points": 4404
     },
     {
       "team": "Aakash",
@@ -21186,9 +21186,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 46,
+          "r": 66,
           "w": 1,
-          "o": 4.1
+          "o": 6
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -21295,37 +21295,46 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 46,
+          "runs": 66,
           "wickets": 1,
-          "overs": 4.1,
+          "overs": 6,
           "batting": [
             {
               "name": "Jacob Bethell",
               "runs": 15,
-              "balls": 11,
+              "balls": 12,
               "fours": 2,
               "sixes": 1,
-              "sr": 136.36,
-              "dismissal": "batting"
+              "sr": 125,
+              "dismissal": "c and b Kartik Tyagi"
             },
             {
               "name": "Virat Kohli",
-              "runs": 17,
-              "balls": 6,
+              "runs": 21,
+              "balls": 10,
               "fours": 4,
               "sixes": 0,
-              "sr": 283.33,
+              "sr": 210,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 8,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Saurabh Dubey",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 16,
+              "runs": 17,
               "wickets": 0,
-              "economy": 8.73
+              "economy": 8.5
             },
             {
               "name": "Vaibhav Arora",
@@ -21334,16 +21343,32 @@
               "runs": 16,
               "wickets": 0,
               "economy": 16
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 9
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 21,
+          "batting": 40,
           "bowling": 0,
           "fielding": 0,
-          "total": 21
+          "total": 40
         },
         "Devdutt Padikkal": {
           "batting": 10,
@@ -21998,8 +22023,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4385,
-      "top11Points": 4385,
+      "totalPointsAll": 4404,
+      "top11Points": 4404,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -22026,12 +22051,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 552,
+          "batting": 571,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 600,
+          "rawPoints": 619,
           "multiplier": 1,
-          "effectivePoints": 600,
+          "effectivePoints": 619,
           "countsInTop11": true
         },
         {
