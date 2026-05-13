@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T15:25:07.335Z",
+  "lastUpdated": "2026-05-13T15:34:54.562Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 18,
-        "w": 0,
-        "o": 1.6
+        "r": 33,
+        "w": 1,
+        "o": 3.4
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Jitesh Sharma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Tim David": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -58,16 +58,16 @@
         "total": 0
       },
       "Ajinkya Rahane": {
-        "batting": 5,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 11
       },
       "Finn Allen": {
-        "batting": 18,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 23
       }
     }
   },
@@ -89,23 +89,23 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4664,
-      "top11Points": 4552
+      "totalPointsAll": 4672,
+      "top11Points": 4560
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4384,
-      "top11Points": 4387
+      "totalPointsAll": 4398,
+      "top11Points": 4401
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 4359,
+      "top11Points": 4359
     },
     {
       "team": "Aakash",
       "totalPointsAll": 4392,
       "top11Points": 4356
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 4314,
-      "top11Points": 4314
     },
     {
       "team": "Ashwin",
@@ -21144,53 +21144,62 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 18,
-          "w": 0,
-          "o": 1.6
+          "r": 33,
+          "w": 1,
+          "o": 3.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 18,
-          "wickets": 0,
-          "overs": 1.6,
+          "runs": 33,
+          "wickets": 1,
+          "overs": 3.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 4,
-              "balls": 6,
-              "fours": 1,
+              "runs": 9,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 66.66,
-              "dismissal": "not out"
+              "sr": 100,
+              "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
-              "runs": 14,
-              "balls": 6,
-              "fours": 2,
+              "runs": 18,
+              "balls": 8,
+              "fours": 3,
               "sixes": 1,
-              "sr": 233.33,
-              "dismissal": "not out"
+              "sr": 225,
+              "dismissal": "c Jitesh Sharma b Bhuvneshwar Kumar"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 10,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 166.67,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
-              "name": "Jacob Duffy",
-              "overs": 1,
+              "name": "Bhuvneshwar Kumar",
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 14
+              "runs": 12,
+              "wickets": 1,
+              "economy": 6
             },
             {
-              "name": "Bhuvneshwar Kumar",
-              "overs": 1,
+              "name": "Jacob Duffy",
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 4,
+              "runs": 25,
               "wickets": 0,
-              "economy": 4
+              "economy": 13.64
             }
           ]
         }
@@ -21211,8 +21220,8 @@
         "Jitesh Sharma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Tim David": {
           "batting": 0,
@@ -21228,9 +21237,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -21239,16 +21248,16 @@
           "total": 0
         },
         "Ajinkya Rahane": {
-          "batting": 5,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 11
         },
         "Finn Allen": {
-          "batting": 18,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 23
         }
       },
       "isComplete": false
@@ -21256,8 +21265,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4384,
-      "top11Points": 4387,
+      "totalPointsAll": 4398,
+      "top11Points": 4401,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -21284,12 +21293,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 366,
+          "batting": 371,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 366,
+          "rawPoints": 371,
           "multiplier": 1.5,
-          "effectivePoints": 549,
+          "effectivePoints": 557,
           "countsInTop11": true
         },
         {
@@ -21326,6 +21335,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ajinkya Rahane",
+          "role": "Batsman",
+          "batting": 261,
+          "bowling": 0,
+          "fielding": 40,
+          "rawPoints": 301,
+          "multiplier": 1,
+          "effectivePoints": 301,
+          "countsInTop11": true
+        },
+        {
           "name": "Ayush Mhatre",
           "role": "Opener",
           "batting": 300,
@@ -21334,17 +21354,6 @@
           "rawPoints": 300,
           "multiplier": 1,
           "effectivePoints": 300,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ajinkya Rahane",
-          "role": "Batsman",
-          "batting": 255,
-          "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 295,
-          "multiplier": 1,
-          "effectivePoints": 295,
           "countsInTop11": true
         },
         {
@@ -21819,8 +21828,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4314,
-      "top11Points": 4314,
+      "totalPointsAll": 4359,
+      "top11Points": 4359,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21837,11 +21846,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 39,
-          "bowling": 676,
+          "bowling": 721,
           "fielding": 8,
-          "rawPoints": 723,
+          "rawPoints": 768,
           "multiplier": 1,
-          "effectivePoints": 723,
+          "effectivePoints": 768,
           "countsInTop11": true
         },
         {
@@ -21946,8 +21955,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4664,
-      "top11Points": 4552,
+      "totalPointsAll": 4672,
+      "top11Points": 4560,
       "players": [
         {
           "name": "Axar Patel",
@@ -22038,6 +22047,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jitesh Sharma",
+          "role": "Wicket Keeper",
+          "batting": 88,
+          "bowling": 0,
+          "fielding": 106,
+          "rawPoints": 194,
+          "multiplier": 1,
+          "effectivePoints": 194,
+          "countsInTop11": true
+        },
+        {
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
@@ -22046,17 +22066,6 @@
           "rawPoints": 190,
           "multiplier": 1,
           "effectivePoints": 190,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jitesh Sharma",
-          "role": "Wicket Keeper",
-          "batting": 88,
-          "bowling": 0,
-          "fielding": 98,
-          "rawPoints": 186,
-          "multiplier": 1,
-          "effectivePoints": 186,
           "countsInTop11": true
         },
         {
