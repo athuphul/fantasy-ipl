@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T17:04:53.868Z",
+  "lastUpdated": "2026-05-13T17:14:54.875Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 0,
+        "r": 34,
         "w": 0,
-        "o": 0.2
+        "o": 2.3
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -53,8 +53,8 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
+        "bowling": 25,
+        "fielding": 5,
         "total": 30
       },
       "Josh Hazlewood": {
@@ -66,8 +66,8 @@
       "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 10,
+        "total": 10
       },
       "Ajinkya Rahane": {
         "batting": 24,
@@ -88,10 +88,10 @@
         "total": 37
       },
       "Rinku Singh": {
-        "batting": 49,
+        "batting": 61,
         "bowling": 0,
         "fielding": 0,
-        "total": 49
+        "total": 61
       },
       "Sunil Narine": {
         "batting": 0,
@@ -121,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5339,
-      "top11Points": 5033
+      "totalPointsAll": 5357,
+      "top11Points": 5051
     },
     {
       "team": "Ritik",
@@ -146,8 +146,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4344,
-      "top11Points": 4344
+      "totalPointsAll": 4354,
+      "top11Points": 4354
     },
     {
       "team": "Ashwin",
@@ -21186,9 +21186,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 0,
+          "r": 34,
           "w": 0,
-          "o": 0.2
+          "o": 2.3
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -21224,12 +21224,12 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 68,
-              "balls": 43,
+              "runs": 71,
+              "balls": 46,
               "fours": 7,
               "sixes": 3,
-              "sr": 158.14,
-              "dismissal": "batting"
+              "sr": 154.35,
+              "dismissal": "run out (Devdutt Padikkal/Bhuvneshwar Kumar)"
             },
             {
               "name": "Cameron Green",
@@ -21242,22 +21242,22 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 39,
-              "balls": 24,
+              "runs": 49,
+              "balls": 29,
               "fours": 3,
-              "sixes": 1,
-              "sr": 162.5,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 168.97,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
+              "runs": 34,
               "wickets": 1,
-              "economy": 8
+              "economy": 8.5
             },
             {
               "name": "Jacob Duffy",
@@ -21269,11 +21269,11 @@
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 35,
               "wickets": 1,
-              "economy": 8.73
+              "economy": 8.75
             },
             {
               "name": "Rasikh Salam Dar",
@@ -21290,6 +21290,42 @@
               "runs": 39,
               "wickets": 0,
               "economy": 9.75
+            }
+          ]
+        },
+        {
+          "innings": "Royal Challengers Bengaluru",
+          "runs": 34,
+          "wickets": 0,
+          "overs": 2.3,
+          "batting": [
+            {
+              "name": "Jacob Bethell",
+              "runs": 0,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Virat Kohli",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Saurabh Dubey",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -21327,8 +21363,8 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 30,
-          "fielding": 0,
+          "bowling": 25,
+          "fielding": 5,
           "total": 30
         },
         "Josh Hazlewood": {
@@ -21340,8 +21376,8 @@
         "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 10,
+          "total": 10
         },
         "Ajinkya Rahane": {
           "batting": 24,
@@ -21362,10 +21398,10 @@
           "total": 37
         },
         "Rinku Singh": {
-          "batting": 49,
+          "batting": 61,
           "bowling": 0,
           "fielding": 0,
-          "total": 49
+          "total": 61
         },
         "Sunil Narine": {
           "batting": 0,
@@ -21954,8 +21990,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4344,
-      "top11Points": 4344,
+      "totalPointsAll": 4354,
+      "top11Points": 4354,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -21972,8 +22008,8 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 39,
-          "bowling": 706,
-          "fielding": 8,
+          "bowling": 701,
+          "fielding": 13,
           "rawPoints": 753,
           "multiplier": 1,
           "effectivePoints": 753,
@@ -21995,10 +22031,10 @@
           "role": "Batsman",
           "batting": 479,
           "bowling": 0,
-          "fielding": 80,
-          "rawPoints": 559,
+          "fielding": 90,
+          "rawPoints": 569,
           "multiplier": 1,
-          "effectivePoints": 559,
+          "effectivePoints": 569,
           "countsInTop11": true
         },
         {
@@ -22506,8 +22542,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5339,
-      "top11Points": 5033,
+      "totalPointsAll": 5357,
+      "top11Points": 5051,
       "players": [
         {
           "name": "Sanju Samson",
@@ -22534,12 +22570,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 366,
+          "batting": 378,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 438,
+          "rawPoints": 450,
           "multiplier": 1.5,
-          "effectivePoints": 657,
+          "effectivePoints": 675,
           "countsInTop11": true
         },
         {
