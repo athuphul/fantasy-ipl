@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T17:45:05.575Z",
+  "lastUpdated": "2026-05-13T17:55:00.326Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 81,
+        "r": 101,
         "w": 1,
-        "o": 8
+        "o": 10
       },
       {
         "inning": "Kolkata Knight Riders",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Virat Kohli": {
-        "batting": 24,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 24
+        "total": 49
       },
       "Devdutt Padikkal": {
-        "batting": 10,
+        "batting": 33,
         "bowling": 0,
         "fielding": 10,
-        "total": 20
+        "total": 43
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -95,9 +95,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Anukul Roy": {
         "batting": 0,
@@ -135,14 +135,14 @@
       "top11Points": 4593
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 4436,
+      "top11Points": 4436
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 4411,
       "top11Points": 4414
-    },
-    {
-      "team": "Kishan",
-      "totalPointsAll": 4388,
-      "top11Points": 4388
     },
     {
       "team": "Aakash",
@@ -151,8 +151,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4105,
-      "top11Points": 4030
+      "totalPointsAll": 4112,
+      "top11Points": 4037
     },
     {
       "team": "Tanay",
@@ -21186,9 +21186,9 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 81,
+          "r": 101,
           "w": 1,
-          "o": 8
+          "o": 10
         },
         {
           "inning": "Kolkata Knight Riders",
@@ -21295,9 +21295,9 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 81,
+          "runs": 101,
           "wickets": 1,
-          "overs": 8,
+          "overs": 10,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -21310,20 +21310,20 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 20,
-              "balls": 9,
+              "runs": 38,
+              "balls": 25,
               "fours": 4,
-              "sixes": 0,
-              "sr": 222.22,
+              "sixes": 1,
+              "sr": 152,
               "dismissal": "batting"
             },
             {
               "name": "Devdutt Padikkal",
-              "runs": 8,
-              "balls": 5,
-              "fours": 2,
+              "runs": 23,
+              "balls": 14,
+              "fours": 5,
               "sixes": 0,
-              "sr": 160,
+              "sr": 164.29,
               "dismissal": "batting"
             }
           ],
@@ -21346,35 +21346,51 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 19,
               "wickets": 1,
-              "economy": 9
+              "economy": 9.5
             },
             {
               "name": "Sunil Narine",
-              "overs": 0.2,
+              "overs": 2,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 7.5
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
+            },
+            {
+              "name": "Anukul Roy",
+              "overs": 0.3,
               "maidens": 0,
               "runs": 1,
               "wickets": 0,
-              "economy": 3
+              "economy": 2
             }
           ]
         }
       ],
       "playerScores": {
         "Virat Kohli": {
-          "batting": 24,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 24
+          "total": 49
         },
         "Devdutt Padikkal": {
-          "batting": 10,
+          "batting": 33,
           "bowling": 0,
           "fielding": 10,
-          "total": 20
+          "total": 43
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -21438,9 +21454,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Anukul Roy": {
           "batting": 0,
@@ -21885,8 +21901,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4105,
-      "top11Points": 4030,
+      "totalPointsAll": 4112,
+      "top11Points": 4037,
       "players": [
         {
           "name": "Shubman Gill",
@@ -21903,11 +21919,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 354,
+          "bowling": 359,
           "fielding": 24,
-          "rawPoints": 423,
+          "rawPoints": 428,
           "multiplier": 1.5,
-          "effectivePoints": 635,
+          "effectivePoints": 642,
           "countsInTop11": true
         },
         {
@@ -22023,8 +22039,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4388,
-      "top11Points": 4388,
+      "totalPointsAll": 4436,
+      "top11Points": 4436,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -22051,23 +22067,23 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 555,
+          "batting": 580,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 603,
+          "rawPoints": 628,
           "multiplier": 1,
-          "effectivePoints": 603,
+          "effectivePoints": 628,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 489,
+          "batting": 512,
           "bowling": 0,
           "fielding": 90,
-          "rawPoints": 579,
+          "rawPoints": 602,
           "multiplier": 1,
-          "effectivePoints": 579,
+          "effectivePoints": 602,
           "countsInTop11": true
         },
         {
