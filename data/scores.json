@@ -1,13 +1,75 @@
 {
-  "lastUpdated": "2026-05-13T15:15:06.302Z",
+  "lastUpdated": "2026-05-13T15:25:07.335Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
     "name": "Royal Challengers Bengaluru v Kolkata Knight Riders",
     "status": "Live",
     "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-    "score": [],
-    "playerScores": {}
+    "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 18,
+        "w": 0,
+        "o": 1.6
+      }
+    ],
+    "playerScores": {
+      "Virat Kohli": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rajat Patidar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jitesh Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tim David": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Krunal Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Josh Hazlewood": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ajinkya Rahane": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
+      "Finn Allen": {
+        "batting": 18,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 18
+      }
+    }
   },
   "leaderboard": [
     {
@@ -31,14 +93,14 @@
       "top11Points": 4552
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 4384,
+      "top11Points": 4387
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 4392,
       "top11Points": 4356
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4352,
-      "top11Points": 4355
     },
     {
       "team": "Kishan",
@@ -21079,16 +21141,123 @@
       "date": "2026-05-13",
       "status": "Live",
       "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-      "score": [],
-      "scorecard": [],
-      "playerScores": {},
+      "score": [
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 18,
+          "w": 0,
+          "o": 1.6
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 18,
+          "wickets": 0,
+          "overs": 1.6,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 4,
+              "balls": 6,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 66.66,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 14,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 233.33,
+              "dismissal": "not out"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jacob Duffy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 14
+            },
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 4,
+              "wickets": 0,
+              "economy": 4
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Virat Kohli": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rajat Patidar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jitesh Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tim David": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Krunal Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Josh Hazlewood": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ajinkya Rahane": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
+        "Finn Allen": {
+          "batting": 18,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 18
+        }
+      },
       "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4352,
-      "top11Points": 4355,
+      "totalPointsAll": 4384,
+      "top11Points": 4387,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -21113,6 +21282,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Finn Allen",
+          "role": "Wicket Keeper",
+          "batting": 366,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 366,
+          "multiplier": 1.5,
+          "effectivePoints": 549,
+          "countsInTop11": true
+        },
+        {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
           "batting": 248,
@@ -21121,17 +21301,6 @@
           "rawPoints": 272,
           "multiplier": 2,
           "effectivePoints": 544,
-          "countsInTop11": true
-        },
-        {
-          "name": "Finn Allen",
-          "role": "Wicket Keeper",
-          "batting": 348,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 348,
-          "multiplier": 1.5,
-          "effectivePoints": 522,
           "countsInTop11": true
         },
         {
@@ -21170,12 +21339,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 250,
+          "batting": 255,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 290,
+          "rawPoints": 295,
           "multiplier": 1,
-          "effectivePoints": 290,
+          "effectivePoints": 295,
           "countsInTop11": true
         },
         {
