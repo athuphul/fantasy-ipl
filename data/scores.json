@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T15:34:54.562Z",
+  "lastUpdated": "2026-05-13T15:44:53.120Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 33,
-        "w": 1,
-        "o": 3.4
+        "r": 54,
+        "w": 2,
+        "o": 5.4
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Josh Hazlewood": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Ajinkya Rahane": {
         "batting": 11,
@@ -68,6 +68,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 23
+      },
+      "Cameron Green": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       }
     }
   },
@@ -89,8 +95,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4672,
-      "top11Points": 4560
+      "totalPointsAll": 4697,
+      "top11Points": 4585
     },
     {
       "team": "Athu",
@@ -114,8 +120,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3811,
-      "top11Points": 3764
+      "totalPointsAll": 3813,
+      "top11Points": 3766
     }
   ],
   "matchHistory": [
@@ -21144,17 +21150,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 33,
-          "w": 1,
-          "o": 3.4
+          "r": 54,
+          "w": 2,
+          "o": 5.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 33,
-          "wickets": 1,
-          "overs": 3.4,
+          "runs": 54,
+          "wickets": 2,
+          "overs": 5.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -21243,9 +21249,9 @@
         },
         "Josh Hazlewood": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Ajinkya Rahane": {
           "batting": 11,
@@ -21258,6 +21264,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 23
+        },
+        "Cameron Green": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         }
       },
       "isComplete": false
@@ -21955,8 +21967,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4672,
-      "top11Points": 4560,
+      "totalPointsAll": 4697,
+      "top11Points": 4585,
       "players": [
         {
           "name": "Axar Patel",
@@ -22028,11 +22040,11 @@
           "name": "Josh Hazlewood",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 275,
+          "bowling": 300,
           "fielding": 32,
-          "rawPoints": 302,
+          "rawPoints": 327,
           "multiplier": 1,
-          "effectivePoints": 302,
+          "effectivePoints": 327,
           "countsInTop11": true
         },
         {
@@ -22242,8 +22254,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3811,
-      "top11Points": 3764,
+      "totalPointsAll": 3813,
+      "top11Points": 3766,
       "players": [
         {
           "name": "Travis Head",
@@ -22281,12 +22293,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 307,
+          "batting": 309,
           "bowling": 75,
           "fielding": 56,
-          "rawPoints": 438,
+          "rawPoints": 440,
           "multiplier": 1,
-          "effectivePoints": 438,
+          "effectivePoints": 440,
           "countsInTop11": true
         },
         {
