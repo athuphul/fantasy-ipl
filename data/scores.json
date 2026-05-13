@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T15:44:53.120Z",
+  "lastUpdated": "2026-05-13T15:55:09.864Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529300",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 54,
+        "r": 69,
         "w": 2,
-        "o": 5.4
+        "o": 8
       }
     ],
     "playerScores": {
@@ -54,14 +54,14 @@
       "Josh Hazlewood": {
         "batting": 0,
         "bowling": 25,
-        "fielding": 0,
-        "total": 25
+        "fielding": 8,
+        "total": 33
       },
       "Ajinkya Rahane": {
-        "batting": 11,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 24
       },
       "Finn Allen": {
         "batting": 23,
@@ -95,13 +95,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4697,
-      "top11Points": 4585
+      "totalPointsAll": 4705,
+      "top11Points": 4593
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4398,
-      "top11Points": 4401
+      "totalPointsAll": 4411,
+      "top11Points": 4414
     },
     {
       "team": "Kishan",
@@ -21150,26 +21150,26 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 54,
+          "r": 69,
           "w": 2,
-          "o": 5.4
+          "o": 8
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 54,
+          "runs": 69,
           "wickets": 2,
-          "overs": 5.4,
+          "overs": 8,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 9,
-              "balls": 9,
-              "fours": 2,
-              "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "runs": 19,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 146.15,
+              "dismissal": "c and b Josh Hazlewood"
             },
             {
               "name": "Finn Allen",
@@ -21182,11 +21182,20 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 10,
-              "balls": 6,
-              "fours": 0,
+              "runs": 16,
+              "balls": 9,
+              "fours": 1,
               "sixes": 1,
-              "sr": 166.67,
+              "sr": 177.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
               "dismissal": "batting"
             }
           ],
@@ -21201,11 +21210,27 @@
             },
             {
               "name": "Jacob Duffy",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 25,
+              "runs": 31,
               "wickets": 0,
-              "economy": 13.64
+              "economy": 15.5
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "Rasikh Salam Dar",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 7.2
             }
           ]
         }
@@ -21250,14 +21275,14 @@
         "Josh Hazlewood": {
           "batting": 0,
           "bowling": 25,
-          "fielding": 0,
-          "total": 25
+          "fielding": 8,
+          "total": 33
         },
         "Ajinkya Rahane": {
-          "batting": 11,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 24
         },
         "Finn Allen": {
           "batting": 23,
@@ -21277,8 +21302,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4398,
-      "top11Points": 4401,
+      "totalPointsAll": 4411,
+      "top11Points": 4414,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -21336,6 +21361,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ajinkya Rahane",
+          "role": "Batsman",
+          "batting": 274,
+          "bowling": 0,
+          "fielding": 40,
+          "rawPoints": 314,
+          "multiplier": 1,
+          "effectivePoints": 314,
+          "countsInTop11": true
+        },
+        {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": -10,
@@ -21344,17 +21380,6 @@
           "rawPoints": 307,
           "multiplier": 1,
           "effectivePoints": 307,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ajinkya Rahane",
-          "role": "Batsman",
-          "batting": 261,
-          "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 301,
-          "multiplier": 1,
-          "effectivePoints": 301,
           "countsInTop11": true
         },
         {
@@ -21967,8 +21992,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4697,
-      "top11Points": 4585,
+      "totalPointsAll": 4705,
+      "top11Points": 4593,
       "players": [
         {
           "name": "Axar Patel",
@@ -22041,10 +22066,10 @@
           "role": "Fast Bowler",
           "batting": -5,
           "bowling": 300,
-          "fielding": 32,
-          "rawPoints": 327,
+          "fielding": 40,
+          "rawPoints": 335,
           "multiplier": 1,
-          "effectivePoints": 327,
+          "effectivePoints": 335,
           "countsInTop11": true
         },
         {
