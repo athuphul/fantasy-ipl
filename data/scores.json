@@ -1,106 +1,7 @@
 {
-  "lastUpdated": "2026-05-14T17:44:55.296Z",
+  "lastUpdated": "2026-05-14T17:54:53.380Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529301",
-    "name": "Punjab Kings v Mumbai Indians",
-    "status": "Live",
-    "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
-    "score": [
-      {
-        "inning": "Punjab Kings",
-        "r": 200,
-        "w": 8,
-        "o": 20
-      },
-      {
-        "inning": "Mumbai Indians",
-        "r": 185,
-        "w": 4,
-        "o": 18.5
-      }
-    ],
-    "playerScores": {
-      "Priyansh Arya": {
-        "batting": 26,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 34
-      },
-      "Prabhsimran Singh": {
-        "batting": 91,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 91
-      },
-      "Shreyas Iyer": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
-      },
-      "Shashank Singh": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Marco Jansen": {
-        "batting": 2,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 22
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 8,
-        "total": 28
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 30,
-        "fielding": 0,
-        "total": 30
-      },
-      "Rohit Sharma": {
-        "batting": 24,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 24
-      },
-      "Tilak Varma": {
-        "batting": 63,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 63
-      },
-      "Will Jacks": {
-        "batting": 22,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 30
-      },
-      "Deepak Chahar": {
-        "batting": 0,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 50
-      },
-      "Shardul Thakur": {
-        "batting": 0,
-        "bowling": 120,
-        "fielding": 0,
-        "total": 120
-      },
-      "Jasprit Bumrah": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -109,13 +10,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5379,
-      "top11Points": 5073
+      "totalPointsAll": 5374,
+      "top11Points": 5068
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4775,
-      "top11Points": 4775
+      "totalPointsAll": 4754,
+      "top11Points": 4754
     },
     {
       "team": "Manav",
@@ -129,8 +30,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4485,
-      "top11Points": 4449
+      "totalPointsAll": 4515,
+      "top11Points": 4479
     },
     {
       "team": "Athu",
@@ -21474,7 +21375,7 @@
       "matchId": "espn_1529301",
       "name": "Punjab Kings v Mumbai Indians",
       "date": "2026-05-14",
-      "status": "Live",
+      "status": "Final",
       "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
       "score": [
         {
@@ -21485,9 +21386,9 @@
         },
         {
           "inning": "Mumbai Indians",
-          "r": 185,
+          "r": 205,
           "w": 4,
-          "o": 18.5
+          "o": 19.5
         }
       ],
       "scorecard": [
@@ -21649,9 +21550,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 185,
+          "runs": 205,
           "wickets": 4,
-          "overs": 18.5,
+          "overs": 19.5,
           "batting": [
             {
               "name": "Rohit Sharma",
@@ -21682,20 +21583,29 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 44,
-              "balls": 23,
-              "fours": 5,
-              "sixes": 2,
-              "sr": 191.3,
+              "runs": 56,
+              "balls": 27,
+              "fours": 6,
+              "sixes": 3,
+              "sr": 207.41,
               "dismissal": "batting"
             },
             {
               "name": "Sherfane Rutherford",
               "runs": 20,
-              "balls": 18,
+              "balls": 21,
               "fours": 1,
               "sixes": 1,
-              "sr": 111.11,
+              "sr": 95.24,
+              "dismissal": "c Xavier Bartlett b Azmatullah Omarzai"
+            },
+            {
+              "name": "Will Jacks",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -21710,19 +21620,19 @@
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 34,
-              "wickets": 1,
-              "economy": 11.33
+              "runs": 36,
+              "wickets": 2,
+              "economy": 9
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 3.3,
               "maidens": 0,
-              "runs": 33,
+              "runs": 44,
               "wickets": 1,
-              "economy": 11
+              "economy": 12.57
             },
             {
               "name": "Xavier Bartlett",
@@ -21770,9 +21680,9 @@
         },
         "Marco Jansen": {
           "batting": 2,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "total": 22
+          "total": 17
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -21793,16 +21703,16 @@
           "total": 24
         },
         "Tilak Varma": {
-          "batting": 63,
+          "batting": 93,
           "bowling": 0,
           "fielding": 0,
-          "total": 63
+          "total": 93
         },
         "Will Jacks": {
-          "batting": 22,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 30
+          "total": 9
         },
         "Deepak Chahar": {
           "batting": 0,
@@ -21823,7 +21733,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -21977,8 +21887,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4485,
-      "top11Points": 4449,
+      "totalPointsAll": 4515,
+      "top11Points": 4479,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -21994,12 +21904,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 423,
+          "batting": 453,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 495,
+          "rawPoints": 525,
           "multiplier": 1,
-          "effectivePoints": 495,
+          "effectivePoints": 525,
           "countsInTop11": true
         },
         {
@@ -22678,8 +22588,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4775,
-      "top11Points": 4775,
+      "totalPointsAll": 4754,
+      "top11Points": 4754,
       "players": [
         {
           "name": "Jos Buttler",
@@ -22759,17 +22669,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Will Jacks",
-          "role": "All-Rounder",
-          "batting": 118,
-          "bowling": 22,
-          "fielding": 16,
-          "rawPoints": 156,
-          "multiplier": 1,
-          "effectivePoints": 156,
-          "countsInTop11": true
-        },
-        {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 8,
@@ -22778,6 +22677,17 @@
           "rawPoints": 153,
           "multiplier": 1,
           "effectivePoints": 153,
+          "countsInTop11": true
+        },
+        {
+          "name": "Will Jacks",
+          "role": "All-Rounder",
+          "batting": 97,
+          "bowling": 22,
+          "fielding": 16,
+          "rawPoints": 135,
+          "multiplier": 1,
+          "effectivePoints": 135,
           "countsInTop11": true
         },
         {
@@ -22943,8 +22853,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5379,
-      "top11Points": 5073,
+      "totalPointsAll": 5374,
+      "top11Points": 5068,
       "players": [
         {
           "name": "Sanju Samson",
@@ -23027,11 +22937,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 63,
-          "bowling": 150,
+          "bowling": 145,
           "fielding": 48,
-          "rawPoints": 261,
+          "rawPoints": 256,
           "multiplier": 1,
-          "effectivePoints": 261,
+          "effectivePoints": 256,
           "countsInTop11": true
         },
         {
