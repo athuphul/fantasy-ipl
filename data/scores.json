@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T15:14:56.102Z",
+  "lastUpdated": "2026-05-14T15:24:54.701Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 135,
-        "w": 5,
-        "o": 14.3
+        "r": 140,
+        "w": 6,
+        "o": 16
       }
     ],
     "playerScores": {
@@ -39,6 +39,12 @@
         "fielding": 0,
         "total": 2
       },
+      "Marco Jansen": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
@@ -59,15 +65,15 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 80,
         "fielding": 0,
-        "total": 50
+        "total": 80
       },
       "Jasprit Bumrah": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       }
     }
   },
@@ -79,13 +85,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5357,
-      "top11Points": 5051
+      "totalPointsAll": 5359,
+      "top11Points": 5053
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4745,
-      "top11Points": 4745
+      "totalPointsAll": 4750,
+      "top11Points": 4750
     },
     {
       "team": "Manav",
@@ -94,8 +100,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4549,
-      "top11Points": 4549
+      "totalPointsAll": 4579,
+      "top11Points": 4579
     },
     {
       "team": "Athu",
@@ -21449,17 +21455,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 135,
-          "w": 5,
-          "o": 14.3
+          "r": 140,
+          "w": 6,
+          "o": 16
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 135,
-          "wickets": 5,
-          "overs": 14.3,
+          "runs": 140,
+          "wickets": 6,
+          "overs": 16,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -21482,11 +21488,11 @@
             {
               "name": "Cooper Connolly",
               "runs": 21,
-              "balls": 19,
+              "balls": 22,
               "fours": 2,
               "sixes": 1,
-              "sr": 110.53,
-              "dismissal": "batting"
+              "sr": 95.45,
+              "dismissal": "b Raj Bawa"
             },
             {
               "name": "Shreyas Iyer",
@@ -21496,6 +21502,42 @@
               "sixes": 0,
               "sr": 200,
               "dismissal": "b Shardul Thakur"
+            },
+            {
+              "name": "Suryansh Shedge",
+              "runs": 8,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 160,
+              "dismissal": "c Raj Bawa b Shardul Thakur"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "lbw b Corbin Bosch"
+            },
+            {
+              "name": "Azmatullah Omarzai",
+              "runs": 14,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Marco Jansen",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -21509,26 +21551,26 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 19,
+              "runs": 24,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 8
             },
             {
               "name": "Shardul Thakur",
-              "overs": 1.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
-              "wickets": 2,
-              "economy": 15.6
+              "runs": 32,
+              "wickets": 3,
+              "economy": 10.67
             },
             {
               "name": "Corbin Bosch",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
+              "runs": 21,
+              "wickets": 1,
               "economy": 7
             },
             {
@@ -21546,6 +21588,14 @@
               "runs": 9,
               "wickets": 0,
               "economy": 9
+            },
+            {
+              "name": "Raj Bawa",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 1,
+              "economy": 11
             }
           ]
         }
@@ -21575,6 +21625,12 @@
           "fielding": 0,
           "total": 2
         },
+        "Marco Jansen": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
@@ -21595,15 +21651,15 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 80,
           "fielding": 0,
-          "total": 50
+          "total": 80
         },
         "Jasprit Bumrah": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         }
       },
       "isComplete": false
@@ -22174,8 +22230,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4549,
-      "top11Points": 4549,
+      "totalPointsAll": 4579,
+      "top11Points": 4579,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -22258,11 +22314,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 5,
-          "bowling": 155,
+          "bowling": 185,
           "fielding": 0,
-          "rawPoints": 160,
+          "rawPoints": 190,
           "multiplier": 1,
-          "effectivePoints": 160,
+          "effectivePoints": 190,
           "countsInTop11": true
         },
         {
@@ -22461,8 +22517,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4745,
-      "top11Points": 4745,
+      "totalPointsAll": 4750,
+      "top11Points": 4750,
       "players": [
         {
           "name": "Jos Buttler",
@@ -22545,11 +22601,11 @@
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 127,
+          "bowling": 132,
           "fielding": 18,
-          "rawPoints": 153,
+          "rawPoints": 158,
           "multiplier": 1,
-          "effectivePoints": 153,
+          "effectivePoints": 158,
           "countsInTop11": true
         },
         {
@@ -22726,8 +22782,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5357,
-      "top11Points": 5051,
+      "totalPointsAll": 5359,
+      "top11Points": 5053,
       "players": [
         {
           "name": "Sanju Samson",
@@ -22820,12 +22876,12 @@
         {
           "name": "Marco Jansen",
           "role": "All-Rounder",
-          "batting": 61,
+          "batting": 63,
           "bowling": 130,
           "fielding": 48,
-          "rawPoints": 239,
+          "rawPoints": 241,
           "multiplier": 1,
-          "effectivePoints": 239,
+          "effectivePoints": 241,
           "countsInTop11": true
         },
         {
