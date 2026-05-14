@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T15:24:54.701Z",
+  "lastUpdated": "2026-05-14T15:34:56.017Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 140,
-        "w": 6,
-        "o": 16
+        "r": 160,
+        "w": 7,
+        "o": 17.4
       }
     ],
     "playerScores": {
@@ -59,15 +59,15 @@
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 45,
+        "bowling": 25,
         "fielding": 0,
-        "total": 45
+        "total": 25
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 80,
+        "bowling": 120,
         "fielding": 0,
-        "total": 80
+        "total": 120
       },
       "Jasprit Bumrah": {
         "batting": 0,
@@ -94,14 +94,14 @@
       "top11Points": 4750
     },
     {
-      "team": "Manav",
-      "totalPointsAll": 4759,
-      "top11Points": 4602
+      "team": "Kishan",
+      "totalPointsAll": 4619,
+      "top11Points": 4619
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 4579,
-      "top11Points": 4579
+      "team": "Manav",
+      "totalPointsAll": 4739,
+      "top11Points": 4602
     },
     {
       "team": "Athu",
@@ -21455,17 +21455,17 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 140,
-          "w": 6,
-          "o": 16
+          "r": 160,
+          "w": 7,
+          "o": 17.4
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 140,
-          "wickets": 6,
-          "overs": 16,
+          "runs": 160,
+          "wickets": 7,
+          "overs": 17.4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -21523,31 +21523,40 @@
             },
             {
               "name": "Azmatullah Omarzai",
-              "runs": 14,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 140,
+              "runs": 38,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 4,
+              "sr": 237.5,
               "dismissal": "batting"
             },
             {
               "name": "Marco Jansen",
               "runs": 2,
-              "balls": 5,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 40,
+              "sr": 28.57,
+              "dismissal": "b Shardul Thakur"
+            },
+            {
+              "name": "Vishnu Vinod",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 3,
+              "overs": 3.5,
               "maidens": 0,
-              "runs": 17,
+              "runs": 36,
               "wickets": 1,
-              "economy": 5.67
+              "economy": 9.39
             },
             {
               "name": "Jasprit Bumrah",
@@ -21559,11 +21568,11 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
-              "wickets": 3,
-              "economy": 10.67
+              "runs": 39,
+              "wickets": 4,
+              "economy": 9.75
             },
             {
               "name": "Corbin Bosch",
@@ -21645,15 +21654,15 @@
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 45,
+          "bowling": 25,
           "fielding": 0,
-          "total": 45
+          "total": 25
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 80,
+          "bowling": 120,
           "fielding": 0,
-          "total": 80
+          "total": 120
         },
         "Jasprit Bumrah": {
           "batting": 0,
@@ -22230,8 +22239,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4579,
-      "top11Points": 4579,
+      "totalPointsAll": 4619,
+      "top11Points": 4619,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -22314,11 +22323,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 5,
-          "bowling": 185,
+          "bowling": 225,
           "fielding": 0,
-          "rawPoints": 190,
+          "rawPoints": 230,
           "multiplier": 1,
-          "effectivePoints": 190,
+          "effectivePoints": 230,
           "countsInTop11": true
         },
         {
@@ -22357,7 +22366,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4759,
+      "totalPointsAll": 4739,
       "top11Points": 4602,
       "players": [
         {
@@ -22485,11 +22494,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 112,
+          "bowling": 92,
           "fielding": 8,
-          "rawPoints": 128,
+          "rawPoints": 108,
           "multiplier": 1,
-          "effectivePoints": 128,
+          "effectivePoints": 108,
           "countsInTop11": false
         },
         {
