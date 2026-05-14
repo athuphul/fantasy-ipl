@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T17:04:53.768Z",
+  "lastUpdated": "2026-05-14T17:14:53.972Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Mumbai Indians",
-        "r": 116,
+        "r": 125,
         "w": 3,
-        "o": 12.5
+        "o": 14.1
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Marco Jansen": {
         "batting": 2,
-        "bowling": 10,
+        "bowling": 20,
         "fielding": 0,
-        "total": 12
+        "total": 22
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 24
       },
       "Tilak Varma": {
-        "batting": 6,
+        "batting": 46,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 46
       },
       "Will Jacks": {
         "batting": 0,
@@ -109,8 +109,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5369,
-      "top11Points": 5063
+      "totalPointsAll": 5379,
+      "top11Points": 5073
     },
     {
       "team": "Ritik",
@@ -128,14 +128,14 @@
       "top11Points": 4619
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 4483,
+      "top11Points": 4447
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 4414,
       "top11Points": 4417
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 4443,
-      "top11Points": 4407
     },
     {
       "team": "Ashwin",
@@ -21485,9 +21485,9 @@
         },
         {
           "inning": "Mumbai Indians",
-          "r": 116,
+          "r": 125,
           "w": 3,
-          "o": 12.5
+          "o": 14.1
         }
       ],
       "scorecard": [
@@ -21649,9 +21649,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 116,
+          "runs": 125,
           "wickets": 3,
-          "overs": 12.5,
+          "overs": 14.1,
           "batting": [
             {
               "name": "Rohit Sharma",
@@ -21682,63 +21682,63 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 5,
-              "balls": 4,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 125,
+              "runs": 30,
+              "balls": 16,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 187.5,
               "dismissal": "batting"
             },
             {
               "name": "Sherfane Rutherford",
-              "runs": 2,
-              "balls": 4,
-              "fours": 0,
+              "runs": 13,
+              "balls": 16,
+              "fours": 1,
               "sixes": 0,
-              "sr": 50,
+              "sr": 81.25,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 8,
+              "runs": 14,
               "wickets": 0,
-              "economy": 4
+              "economy": 5.6
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 21,
+              "runs": 34,
               "wickets": 1,
-              "economy": 10.5
+              "economy": 11.33
             },
             {
               "name": "Marco Jansen",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 28,
+              "runs": 33,
               "wickets": 1,
-              "economy": 14
+              "economy": 11
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
+              "runs": 34,
               "wickets": 0,
-              "economy": 10.4
+              "economy": 11.33
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 7,
+              "runs": 12,
               "wickets": 1,
-              "economy": 3.5
+              "economy": 4
             }
           ]
         }
@@ -21770,9 +21770,9 @@
         },
         "Marco Jansen": {
           "batting": 2,
-          "bowling": 10,
+          "bowling": 20,
           "fielding": 0,
-          "total": 12
+          "total": 22
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -21793,10 +21793,10 @@
           "total": 24
         },
         "Tilak Varma": {
-          "batting": 6,
+          "batting": 46,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 46
         },
         "Will Jacks": {
           "batting": 0,
@@ -21977,8 +21977,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4443,
-      "top11Points": 4407,
+      "totalPointsAll": 4483,
+      "top11Points": 4447,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -21989,6 +21989,17 @@
           "rawPoints": 738,
           "multiplier": 2,
           "effectivePoints": 1476,
+          "countsInTop11": true
+        },
+        {
+          "name": "Tilak Varma",
+          "role": "Batsman",
+          "batting": 406,
+          "bowling": 0,
+          "fielding": 72,
+          "rawPoints": 478,
+          "multiplier": 1,
+          "effectivePoints": 478,
           "countsInTop11": true
         },
         {
@@ -22011,17 +22022,6 @@
           "rawPoints": 466,
           "multiplier": 1,
           "effectivePoints": 466,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tilak Varma",
-          "role": "Batsman",
-          "batting": 366,
-          "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 438,
-          "multiplier": 1,
-          "effectivePoints": 438,
           "countsInTop11": true
         },
         {
@@ -22943,8 +22943,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5369,
-      "top11Points": 5063,
+      "totalPointsAll": 5379,
+      "top11Points": 5073,
       "players": [
         {
           "name": "Sanju Samson",
@@ -23027,11 +23027,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 63,
-          "bowling": 140,
+          "bowling": 150,
           "fielding": 48,
-          "rawPoints": 251,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 251,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
