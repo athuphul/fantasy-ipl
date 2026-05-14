@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T14:24:56.409Z",
+  "lastUpdated": "2026-05-14T14:34:54.971Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 46,
-        "w": 0,
-        "o": 5.1
+        "r": 59,
+        "w": 1,
+        "o": 7.2
       }
     ],
     "playerScores": {
       "Priyansh Arya": {
-        "batting": 6,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 6
+        "total": 26
       },
       "Prabhsimran Singh": {
-        "batting": 1,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 28
       },
       "Tilak Varma": {
         "batting": 0,
@@ -41,9 +41,9 @@
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -72,12 +72,12 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4655,
-      "top11Points": 4655
+      "totalPointsAll": 4682,
+      "top11Points": 4682
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4714,
+      "totalPointsAll": 4759,
       "top11Points": 4602
     },
     {
@@ -97,8 +97,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4129,
-      "top11Points": 4054
+      "totalPointsAll": 4149,
+      "top11Points": 4074
     },
     {
       "team": "Tanay",
@@ -21437,61 +21437,77 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 46,
-          "w": 0,
-          "o": 5.1
+          "r": 59,
+          "w": 1,
+          "o": 7.2
         }
       ],
       "scorecard": [
         {
           "innings": "Punjab Kings",
-          "runs": 46,
-          "wickets": 0,
-          "overs": 5.1,
+          "runs": 59,
+          "wickets": 1,
+          "overs": 7.2,
           "batting": [
             {
               "name": "Priyansh Arya",
-              "runs": 5,
-              "balls": 4,
-              "fours": 1,
+              "runs": 22,
+              "balls": 17,
+              "fours": 4,
               "sixes": 0,
-              "sr": 125,
-              "dismissal": "batting"
+              "sr": 129.41,
+              "dismissal": "b Deepak Chahar"
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
+              "runs": 23,
+              "balls": 16,
+              "fours": 5,
               "sixes": 0,
-              "sr": 100,
+              "sr": 143.75,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 0.5,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 6,
+              "runs": 12,
+              "wickets": 1,
+              "economy": 4.8
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 19,
               "wickets": 0,
-              "economy": 7.2
+              "economy": 9.5
+            },
+            {
+              "name": "Shardul Thakur",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
             }
           ]
         }
       ],
       "playerScores": {
         "Priyansh Arya": {
-          "batting": 6,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 6
+          "total": 26
         },
         "Prabhsimran Singh": {
-          "batting": 1,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 28
         },
         "Tilak Varma": {
           "batting": 0,
@@ -21507,9 +21523,9 @@
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -21954,8 +21970,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4129,
-      "top11Points": 4054,
+      "totalPointsAll": 4149,
+      "top11Points": 4074,
       "players": [
         {
           "name": "Shubman Gill",
@@ -21982,12 +21998,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 545,
+          "batting": 565,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 545,
+          "rawPoints": 565,
           "multiplier": 1,
-          "effectivePoints": 545,
+          "effectivePoints": 565,
           "countsInTop11": true
         },
         {
@@ -22219,7 +22235,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4714,
+      "totalPointsAll": 4759,
       "top11Points": 4602,
       "players": [
         {
@@ -22347,11 +22363,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 8,
-          "bowling": 67,
+          "bowling": 112,
           "fielding": 8,
-          "rawPoints": 83,
+          "rawPoints": 128,
           "multiplier": 1,
-          "effectivePoints": 83,
+          "effectivePoints": 128,
           "countsInTop11": false
         },
         {
@@ -22379,8 +22395,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4655,
-      "top11Points": 4655,
+      "totalPointsAll": 4682,
+      "top11Points": 4682,
       "players": [
         {
           "name": "Jos Buttler",
@@ -22418,12 +22434,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 544,
+          "batting": 571,
           "bowling": 0,
           "fielding": 53,
-          "rawPoints": 597,
+          "rawPoints": 624,
           "multiplier": 1,
-          "effectivePoints": 597,
+          "effectivePoints": 624,
           "countsInTop11": true
         },
         {
