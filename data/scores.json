@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T16:14:59.262Z",
+  "lastUpdated": "2026-05-14T16:24:53.746Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Mumbai Indians",
-        "r": 23,
+        "r": 46,
         "w": 0,
-        "o": 2.4
+        "o": 4.6
       }
     ],
     "playerScores": {
@@ -53,9 +53,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -64,10 +64,10 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": 1,
+        "batting": -4,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": -4
       },
       "Tilak Varma": {
         "batting": 0,
@@ -118,14 +118,14 @@
       "top11Points": 4753
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 4784,
+      "top11Points": 4622
+    },
+    {
       "team": "Kishan",
       "totalPointsAll": 4619,
       "top11Points": 4619
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 4764,
-      "top11Points": 4602
     },
     {
       "team": "Athu",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3849,
-      "top11Points": 3802
+      "totalPointsAll": 3841,
+      "top11Points": 3794
     }
   ],
   "matchHistory": [
@@ -21485,9 +21485,9 @@
         },
         {
           "inning": "Mumbai Indians",
-          "r": 23,
+          "r": 46,
           "w": 0,
-          "o": 2.4
+          "o": 4.6
         }
       ],
       "scorecard": [
@@ -21649,37 +21649,61 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 23,
+          "runs": 46,
           "wickets": 0,
-          "overs": 2.4,
+          "overs": 4.6,
           "batting": [
             {
               "name": "Rohit Sharma",
-              "runs": 1,
-              "balls": 4,
+              "runs": 6,
+              "balls": 13,
               "fours": 0,
               "sixes": 0,
-              "sr": 25,
+              "sr": 46.15,
               "dismissal": "batting"
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 40,
+              "balls": 17,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 235.29,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 0.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 2,
+              "runs": 8,
               "wickets": 0,
-              "economy": 2.4
+              "economy": 4
+            },
+            {
+              "name": "Azmatullah Omarzai",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Marco Jansen",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Xavier Bartlett",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -21717,9 +21741,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -21728,10 +21752,10 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": 1,
+          "batting": -4,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": -4
         },
         "Tilak Varma": {
           "batting": 0,
@@ -22459,8 +22483,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4764,
-      "top11Points": 4602,
+      "totalPointsAll": 4784,
+      "top11Points": 4622,
       "players": [
         {
           "name": "Axar Patel",
@@ -22521,11 +22545,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 345,
+          "bowling": 365,
           "fielding": 24,
-          "rawPoints": 370,
+          "rawPoints": 390,
           "multiplier": 1,
-          "effectivePoints": 370,
+          "effectivePoints": 390,
           "countsInTop11": true
         },
         {
@@ -22746,8 +22770,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3849,
-      "top11Points": 3802,
+      "totalPointsAll": 3841,
+      "top11Points": 3794,
       "players": [
         {
           "name": "Travis Head",
@@ -22774,12 +22798,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 359,
+          "batting": 354,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 359,
+          "rawPoints": 354,
           "multiplier": 1.5,
-          "effectivePoints": 539,
+          "effectivePoints": 531,
           "countsInTop11": true
         },
         {
