@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T16:54:56.345Z",
+  "lastUpdated": "2026-05-14T17:04:53.768Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Mumbai Indians",
-        "r": 90,
+        "r": 116,
         "w": 3,
-        "o": 10.1
+        "o": 12.5
       }
     ],
     "playerScores": {
@@ -59,21 +59,21 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Rohit Sharma": {
-        "batting": 28,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
+        "total": 24
       },
       "Tilak Varma": {
-        "batting": 5,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 6
       },
       "Will Jacks": {
         "batting": 0,
@@ -134,8 +134,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4397,
-      "top11Points": 4361
+      "totalPointsAll": 4443,
+      "top11Points": 4407
     },
     {
       "team": "Ashwin",
@@ -144,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3889,
-      "top11Points": 3842
+      "totalPointsAll": 3883,
+      "top11Points": 3836
     }
   ],
   "matchHistory": [
@@ -21485,9 +21485,9 @@
         },
         {
           "inning": "Mumbai Indians",
-          "r": 90,
+          "r": 116,
           "w": 3,
-          "o": 10.1
+          "o": 12.5
         }
       ],
       "scorecard": [
@@ -21649,18 +21649,18 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 90,
+          "runs": 116,
           "wickets": 3,
-          "overs": 10.1,
+          "overs": 12.5,
           "batting": [
             {
               "name": "Rohit Sharma",
-              "runs": 24,
-              "balls": 24,
+              "runs": 25,
+              "balls": 26,
               "fours": 0,
               "sixes": 2,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 96.15,
+              "dismissal": "b Yuzvendra Chahal"
             },
             {
               "name": "Ryan Rickelton",
@@ -21682,11 +21682,20 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 4,
-              "balls": 1,
+              "runs": 5,
+              "balls": 4,
               "fours": 1,
               "sixes": 0,
-              "sr": 400,
+              "sr": 125,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Sherfane Rutherford",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -21717,19 +21726,19 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 25,
+              "runs": 26,
               "wickets": 0,
-              "economy": 12.5
+              "economy": 10.4
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
-              "wickets": 0,
-              "economy": 3
+              "runs": 7,
+              "wickets": 1,
+              "economy": 3.5
             }
           ]
         }
@@ -21773,21 +21782,21 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Rohit Sharma": {
-          "batting": 28,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
+          "total": 24
         },
         "Tilak Varma": {
-          "batting": 5,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 6
         },
         "Will Jacks": {
           "batting": 0,
@@ -21968,8 +21977,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4397,
-      "top11Points": 4361,
+      "totalPointsAll": 4443,
+      "top11Points": 4407,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -22007,12 +22016,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 365,
+          "batting": 366,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 437,
+          "rawPoints": 438,
           "multiplier": 1,
-          "effectivePoints": 437,
+          "effectivePoints": 438,
           "countsInTop11": true
         },
         {
@@ -22063,11 +22072,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 214,
+          "bowling": 259,
           "fielding": 24,
-          "rawPoints": 238,
+          "rawPoints": 283,
           "multiplier": 1,
-          "effectivePoints": 238,
+          "effectivePoints": 283,
           "countsInTop11": true
         },
         {
@@ -22796,8 +22805,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3889,
-      "top11Points": 3842,
+      "totalPointsAll": 3883,
+      "top11Points": 3836,
       "players": [
         {
           "name": "Travis Head",
@@ -22813,12 +22822,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 386,
+          "batting": 382,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 386,
+          "rawPoints": 382,
           "multiplier": 1.5,
-          "effectivePoints": 579,
+          "effectivePoints": 573,
           "countsInTop11": true
         },
         {
