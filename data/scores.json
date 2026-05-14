@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T15:54:54.007Z",
+  "lastUpdated": "2026-05-14T16:04:54.916Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -12,6 +12,12 @@
         "r": 200,
         "w": 8,
         "o": 20
+      },
+      {
+        "inning": "Mumbai Indians",
+        "r": 2,
+        "w": 0,
+        "o": 0.2
       }
     ],
     "playerScores": {
@@ -44,6 +50,24 @@
         "bowling": 0,
         "fielding": 0,
         "total": 2
+      },
+      "Arshdeep Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yuzvendra Chahal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rohit Sharma": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Tilak Varma": {
         "batting": 0,
@@ -120,8 +144,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3847,
-      "top11Points": 3800
+      "totalPointsAll": 3849,
+      "top11Points": 3802
     }
   ],
   "matchHistory": [
@@ -21458,6 +21482,12 @@
           "r": 200,
           "w": 8,
           "o": 20
+        },
+        {
+          "inning": "Mumbai Indians",
+          "r": 2,
+          "w": 0,
+          "o": 0.2
         }
       ],
       "scorecard": [
@@ -21541,12 +21571,12 @@
             },
             {
               "name": "Vishnu Vinod",
-              "runs": 13,
-              "balls": 6,
+              "runs": 15,
+              "balls": 8,
               "fours": 1,
               "sixes": 1,
-              "sr": 216.67,
-              "dismissal": "batting"
+              "sr": 187.5,
+              "dismissal": "not out"
             },
             {
               "name": "Xavier Bartlett",
@@ -21555,7 +21585,7 @@
               "fours": 2,
               "sixes": 1,
               "sr": 257.14,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -21569,11 +21599,11 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 33,
+              "runs": 35,
               "wickets": 0,
-              "economy": 9
+              "economy": 8.75
             },
             {
               "name": "Shardul Thakur",
@@ -21648,6 +21678,24 @@
           "bowling": 0,
           "fielding": 0,
           "total": 2
+        },
+        "Arshdeep Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yuzvendra Chahal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rohit Sharma": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Tilak Varma": {
           "batting": 0,
@@ -22662,8 +22710,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3847,
-      "top11Points": 3800,
+      "totalPointsAll": 3849,
+      "top11Points": 3802,
       "players": [
         {
           "name": "Travis Head",
@@ -22690,12 +22738,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 358,
+          "batting": 359,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 358,
+          "rawPoints": 359,
           "multiplier": 1.5,
-          "effectivePoints": 537,
+          "effectivePoints": 539,
           "countsInTop11": true
         },
         {
