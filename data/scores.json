@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T16:24:53.746Z",
+  "lastUpdated": "2026-05-14T16:34:53.309Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529301",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Mumbai Indians",
-        "r": 46,
-        "w": 0,
-        "o": 4.6
+        "r": 69,
+        "w": 1,
+        "o": 7
       }
     ],
     "playerScores": {
       "Priyansh Arya": {
         "batting": 26,
         "bowling": 0,
-        "fielding": 0,
-        "total": 26
+        "fielding": 8,
+        "total": 34
       },
       "Prabhsimran Singh": {
         "batting": 91,
@@ -64,10 +64,10 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": -4,
+        "batting": 11,
         "bowling": 0,
         "fielding": 0,
-        "total": -4
+        "total": 11
       },
       "Tilak Varma": {
         "batting": 0,
@@ -139,13 +139,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4151,
-      "top11Points": 4076
+      "totalPointsAll": 4159,
+      "top11Points": 4084
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3841,
-      "top11Points": 3794
+      "totalPointsAll": 3864,
+      "top11Points": 3817
     }
   ],
   "matchHistory": [
@@ -21485,9 +21485,9 @@
         },
         {
           "inning": "Mumbai Indians",
-          "r": 46,
-          "w": 0,
-          "o": 4.6
+          "r": 69,
+          "w": 1,
+          "o": 7
         }
       ],
       "scorecard": [
@@ -21649,26 +21649,35 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 46,
-          "wickets": 0,
-          "overs": 4.6,
+          "runs": 69,
+          "wickets": 1,
+          "overs": 7,
           "batting": [
             {
               "name": "Rohit Sharma",
-              "runs": 6,
-              "balls": 13,
+              "runs": 14,
+              "balls": 17,
               "fours": 0,
-              "sixes": 0,
-              "sr": 46.15,
+              "sixes": 1,
+              "sr": 82.35,
               "dismissal": "batting"
             },
             {
               "name": "Ryan Rickelton",
-              "runs": 40,
-              "balls": 17,
+              "runs": 48,
+              "balls": 23,
               "fours": 4,
-              "sixes": 3,
-              "sr": 235.29,
+              "sixes": 4,
+              "sr": 208.7,
+              "dismissal": "c Priyansh Arya b Azmatullah Omarzai"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 7,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 350,
               "dismissal": "batting"
             }
           ],
@@ -21683,11 +21692,11 @@
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
-              "wickets": 0,
-              "economy": 11
+              "runs": 21,
+              "wickets": 1,
+              "economy": 10.5
             },
             {
               "name": "Marco Jansen",
@@ -21699,11 +21708,19 @@
             },
             {
               "name": "Xavier Bartlett",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
+              "runs": 25,
               "wickets": 0,
-              "economy": 12
+              "economy": 12.5
+            },
+            {
+              "name": "Yuzvendra Chahal",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -21712,8 +21729,8 @@
         "Priyansh Arya": {
           "batting": 26,
           "bowling": 0,
-          "fielding": 0,
-          "total": 26
+          "fielding": 8,
+          "total": 34
         },
         "Prabhsimran Singh": {
           "batting": 91,
@@ -21752,10 +21769,10 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": -4,
+          "batting": 11,
           "bowling": 0,
           "fielding": 0,
-          "total": -4
+          "total": 11
         },
         "Tilak Varma": {
           "batting": 0,
@@ -22218,8 +22235,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4151,
-      "top11Points": 4076,
+      "totalPointsAll": 4159,
+      "top11Points": 4084,
       "players": [
         {
           "name": "Shubman Gill",
@@ -22248,10 +22265,10 @@
           "role": "Opener",
           "batting": 565,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 565,
+          "fielding": 8,
+          "rawPoints": 573,
           "multiplier": 1,
-          "effectivePoints": 565,
+          "effectivePoints": 573,
           "countsInTop11": true
         },
         {
@@ -22770,8 +22787,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3841,
-      "top11Points": 3794,
+      "totalPointsAll": 3864,
+      "top11Points": 3817,
       "players": [
         {
           "name": "Travis Head",
@@ -22798,12 +22815,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 354,
+          "batting": 369,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 354,
+          "rawPoints": 369,
           "multiplier": 1.5,
-          "effectivePoints": 531,
+          "effectivePoints": 554,
           "countsInTop11": true
         },
         {
