@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T17:05:00.382Z",
+  "lastUpdated": "2026-05-15T17:14:54.062Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529302",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 124,
-        "w": 0,
-        "o": 10
+        "r": 135,
+        "w": 1,
+        "o": 11.4
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 130,
+        "batting": 138,
         "bowling": 0,
         "fielding": 8,
-        "total": 138
+        "total": 146
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5490,
-      "top11Points": 5492
+      "totalPointsAll": 5498,
+      "top11Points": 5500
     },
     {
       "team": "Tikoo",
@@ -21849,9 +21849,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 124,
-          "w": 0,
-          "o": 10
+          "r": 135,
+          "w": 1,
+          "o": 11.4
         },
         {
           "inning": "Chennai Super Kings",
@@ -21976,37 +21976,46 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 124,
-          "wickets": 0,
-          "overs": 10,
+          "runs": 135,
+          "wickets": 1,
+          "overs": 11.4,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 83,
-              "balls": 34,
-              "fours": 8,
+              "runs": 90,
+              "balls": 38,
+              "fours": 9,
               "sixes": 7,
-              "sr": 244.12,
+              "sr": 236.84,
               "dismissal": "batting"
             },
             {
               "name": "Josh Inglis",
-              "runs": 32,
-              "balls": 26,
+              "runs": 36,
+              "balls": 32,
               "fours": 3,
               "sixes": 1,
-              "sr": 123.08,
+              "sr": 112.5,
+              "dismissal": "c Urvil Patel b Mukesh Choudhary"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 1,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 0,
-              "economy": 10
+              "runs": 16,
+              "wickets": 1,
+              "economy": 9.6
             },
             {
               "name": "Spencer Johnson",
@@ -22026,11 +22035,11 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 14,
+              "runs": 19,
               "wickets": 0,
-              "economy": 7
+              "economy": 6.33
             },
             {
               "name": "Gurjapneet Singh",
@@ -22045,10 +22054,10 @@
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 130,
+          "batting": 138,
           "bowling": 0,
           "fielding": 8,
-          "total": 138
+          "total": 146
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -22421,8 +22430,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5490,
-      "top11Points": 5492,
+      "totalPointsAll": 5498,
+      "top11Points": 5500,
       "players": [
         {
           "name": "KL Rahul",
@@ -22449,12 +22458,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 656,
+          "batting": 664,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 688,
+          "rawPoints": 696,
           "multiplier": 1,
-          "effectivePoints": 688,
+          "effectivePoints": 696,
           "countsInTop11": true
         },
         {
