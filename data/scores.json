@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T16:54:56.796Z",
+  "lastUpdated": "2026-05-15T17:05:00.382Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529302",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 109,
+        "r": 124,
         "w": 0,
-        "o": 8
+        "o": 10
       },
       {
         "inning": "Chennai Super Kings",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 97,
+        "batting": 130,
         "bowling": 0,
         "fielding": 8,
-        "total": 105
+        "total": 138
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -101,22 +101,22 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 12,
         "fielding": 0,
-        "total": 0
+        "total": 12
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5457,
-      "top11Points": 5459
+      "totalPointsAll": 5490,
+      "top11Points": 5492
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5474,
-      "top11Points": 5168
+      "totalPointsAll": 5486,
+      "top11Points": 5180
     },
     {
       "team": "Ritik",
@@ -21849,9 +21849,9 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 109,
+          "r": 124,
           "w": 0,
-          "o": 8
+          "o": 10
         },
         {
           "inning": "Chennai Super Kings",
@@ -21976,26 +21976,26 @@
         },
         {
           "innings": "Lucknow Super Giants",
-          "runs": 109,
+          "runs": 124,
           "wickets": 0,
-          "overs": 8,
+          "overs": 10,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 56,
-              "balls": 22,
-              "fours": 6,
-              "sixes": 5,
-              "sr": 254.55,
+              "runs": 83,
+              "balls": 34,
+              "fours": 8,
+              "sixes": 7,
+              "sr": 244.12,
               "dismissal": "batting"
             },
             {
               "name": "Josh Inglis",
-              "runs": 21,
-              "balls": 14,
-              "fours": 2,
+              "runs": 32,
+              "balls": 26,
+              "fours": 3,
               "sixes": 1,
-              "sr": 150,
+              "sr": 123.08,
               "dismissal": "batting"
             }
           ],
@@ -22023,16 +22023,32 @@
               "runs": 39,
               "wickets": 0,
               "economy": 19.5
+            },
+            {
+              "name": "Noor Ahmad",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 7
+            },
+            {
+              "name": "Gurjapneet Singh",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 24,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 97,
+          "batting": 130,
           "bowling": 0,
           "fielding": 8,
-          "total": 105
+          "total": 138
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -22108,9 +22124,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 12,
           "fielding": 0,
-          "total": 0
+          "total": 12
         }
       },
       "isComplete": false
@@ -22405,8 +22421,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5457,
-      "top11Points": 5459,
+      "totalPointsAll": 5490,
+      "top11Points": 5492,
       "players": [
         {
           "name": "KL Rahul",
@@ -22433,12 +22449,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 623,
+          "batting": 656,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 655,
+          "rawPoints": 688,
           "multiplier": 1,
-          "effectivePoints": 655,
+          "effectivePoints": 688,
           "countsInTop11": true
         },
         {
@@ -23233,8 +23249,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5474,
-      "top11Points": 5168,
+      "totalPointsAll": 5486,
+      "top11Points": 5180,
       "players": [
         {
           "name": "Sanju Samson",
@@ -23273,11 +23289,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 362,
+          "bowling": 374,
           "fielding": 32,
-          "rawPoints": 406,
+          "rawPoints": 418,
           "multiplier": 1,
-          "effectivePoints": 406,
+          "effectivePoints": 418,
           "countsInTop11": true
         },
         {
