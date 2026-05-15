@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T14:54:53.542Z",
+  "lastUpdated": "2026-05-15T15:04:56.070Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529302",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 69,
+        "r": 86,
         "w": 3,
-        "o": 9
+        "o": 11.1
       }
     ],
     "playerScores": {
@@ -70,16 +70,16 @@
         "total": 15
       },
       "Kartik Sharma": {
+        "batting": 20,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 20
+      },
+      "Dewald Brevis": {
         "batting": 10,
         "bowling": 0,
         "fielding": 0,
         "total": 10
-      },
-      "Dewald Brevis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       }
     }
   },
@@ -121,13 +121,13 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4159,
-      "top11Points": 4084
+      "totalPointsAll": 4169,
+      "top11Points": 4094
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3893,
-      "top11Points": 3846
+      "totalPointsAll": 3903,
+      "top11Points": 3856
     }
   ],
   "matchHistory": [
@@ -21825,17 +21825,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 69,
+          "r": 86,
           "w": 3,
-          "o": 9
+          "o": 11.1
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 69,
+          "runs": 86,
           "wickets": 3,
-          "overs": 9,
+          "overs": 11.1,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -21866,20 +21866,20 @@
             },
             {
               "name": "Kartik Sharma",
-              "runs": 9,
-              "balls": 8,
+              "runs": 17,
+              "balls": 14,
               "fours": 1,
-              "sixes": 0,
-              "sr": 112.5,
+              "sixes": 1,
+              "sr": 121.43,
               "dismissal": "batting"
             },
             {
               "name": "Dewald Brevis",
-              "runs": 0,
-              "balls": 0,
+              "runs": 8,
+              "balls": 4,
               "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sixes": 1,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -21894,11 +21894,11 @@
             },
             {
               "name": "Akash Maharaj Singh",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 17,
+              "runs": 26,
               "wickets": 3,
-              "economy": 5.1
+              "economy": 6.5
             },
             {
               "name": "Prince Yadav",
@@ -21915,6 +21915,14 @@
               "runs": 14,
               "wickets": 0,
               "economy": 14
+            },
+            {
+              "name": "Shahbaz Ahmed",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
@@ -21975,16 +21983,16 @@
           "total": 15
         },
         "Kartik Sharma": {
+          "batting": 20,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 20
+        },
+        "Dewald Brevis": {
           "batting": 10,
           "bowling": 0,
           "fielding": 0,
           "total": 10
-        },
-        "Dewald Brevis": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         }
       },
       "isComplete": false
@@ -22417,8 +22425,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4159,
-      "top11Points": 4084,
+      "totalPointsAll": 4169,
+      "top11Points": 4094,
       "players": [
         {
           "name": "Shubman Gill",
@@ -22478,12 +22486,12 @@
         {
           "name": "Dewald Brevis",
           "role": "Batsman",
-          "batting": 88,
+          "batting": 98,
           "bowling": 0,
           "fielding": 106,
-          "rawPoints": 194,
+          "rawPoints": 204,
           "multiplier": 1,
-          "effectivePoints": 194,
+          "effectivePoints": 204,
           "countsInTop11": true
         },
         {
@@ -22969,8 +22977,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3893,
-      "top11Points": 3846,
+      "totalPointsAll": 3903,
+      "top11Points": 3856,
       "players": [
         {
           "name": "Travis Head",
@@ -23041,12 +23049,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 218,
+          "batting": 228,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 226,
+          "rawPoints": 236,
           "multiplier": 1,
-          "effectivePoints": 226,
+          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
