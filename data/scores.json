@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T16:04:54.052Z",
+  "lastUpdated": "2026-05-15T16:14:54.801Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529302",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
     "score": [
+      {
+        "inning": "Lucknow Super Giants",
+        "r": 10,
+        "w": 0,
+        "o": 0.4
+      },
       {
         "inning": "Chennai Super Kings",
         "r": 187,
@@ -16,10 +22,10 @@
     ],
     "playerScores": {
       "Mitchell Marsh": {
-        "batting": 0,
+        "batting": 11,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 19
       },
       "Nicholas Pooran": {
         "batting": 0,
@@ -82,29 +88,35 @@
         "total": 34
       },
       "Shivam Dube": {
-        "batting": 36,
+        "batting": -3,
         "bowling": 0,
         "fielding": 0,
-        "total": 36
+        "total": -3
       },
       "Prashant Veer": {
-        "batting": 14,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 9
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5360,
-      "top11Points": 5362
+      "totalPointsAll": 5371,
+      "top11Points": 5373
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5456,
-      "top11Points": 5150
+      "totalPointsAll": 5417,
+      "top11Points": 5111
     },
     {
       "team": "Ritik",
@@ -133,8 +145,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4207,
-      "top11Points": 4128
+      "totalPointsAll": 4202,
+      "top11Points": 4123
     },
     {
       "team": "Tanay",
@@ -21836,6 +21848,12 @@
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "score": [
         {
+          "inning": "Lucknow Super Giants",
+          "r": 10,
+          "w": 0,
+          "o": 0.4
+        },
+        {
           "inning": "Chennai Super Kings",
           "r": 187,
           "w": 5,
@@ -21896,31 +21914,31 @@
             },
             {
               "name": "Shivam Dube",
-              "runs": 26,
-              "balls": 15,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 173.33,
+              "runs": 7,
+              "balls": 10,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 70,
               "dismissal": "batting"
             },
             {
               "name": "Prashant Veer",
-              "runs": 13,
-              "balls": 10,
+              "runs": 8,
+              "balls": 6,
               "fours": 1,
               "sixes": 0,
-              "sr": 130,
+              "sr": 133.33,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 4,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 41,
+              "runs": 34,
               "wickets": 1,
-              "economy": 10.25
+              "economy": 10.2
             },
             {
               "name": "Akash Maharaj Singh",
@@ -21932,11 +21950,11 @@
             },
             {
               "name": "Prince Yadav",
-              "overs": 3.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 43,
+              "runs": 26,
               "wickets": 0,
-              "economy": 11.22
+              "economy": 8.67
             },
             {
               "name": "Mayank Yadav",
@@ -21959,10 +21977,10 @@
       ],
       "playerScores": {
         "Mitchell Marsh": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 19
         },
         "Nicholas Pooran": {
           "batting": 0,
@@ -22025,16 +22043,22 @@
           "total": 34
         },
         "Shivam Dube": {
-          "batting": 36,
+          "batting": -3,
           "bowling": 0,
           "fielding": 0,
-          "total": 36
+          "total": -3
         },
         "Prashant Veer": {
-          "batting": 14,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 9
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -22329,8 +22353,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5360,
-      "top11Points": 5362,
+      "totalPointsAll": 5371,
+      "top11Points": 5373,
       "players": [
         {
           "name": "KL Rahul",
@@ -22368,12 +22392,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 526,
+          "batting": 537,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 558,
+          "rawPoints": 569,
           "multiplier": 1,
-          "effectivePoints": 558,
+          "effectivePoints": 569,
           "countsInTop11": true
         },
         {
@@ -22467,8 +22491,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4207,
-      "top11Points": 4128,
+      "totalPointsAll": 4202,
+      "top11Points": 4123,
       "players": [
         {
           "name": "Shubman Gill",
@@ -22572,12 +22596,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 99,
+          "batting": 94,
           "bowling": -10,
           "fielding": 0,
-          "rawPoints": 89,
+          "rawPoints": 84,
           "multiplier": 1,
-          "effectivePoints": 89,
+          "effectivePoints": 84,
           "countsInTop11": true
         },
         {
@@ -23157,8 +23181,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5456,
-      "top11Points": 5150,
+      "totalPointsAll": 5417,
+      "top11Points": 5111,
       "players": [
         {
           "name": "Sanju Samson",
@@ -23238,17 +23262,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 235,
-          "bowling": 10,
-          "fielding": 24,
-          "rawPoints": 269,
-          "multiplier": 1,
-          "effectivePoints": 269,
-          "countsInTop11": true
-        },
-        {
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 63,
@@ -23268,6 +23281,17 @@
           "rawPoints": 249,
           "multiplier": 1,
           "effectivePoints": 249,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 196,
+          "bowling": 10,
+          "fielding": 24,
+          "rawPoints": 230,
+          "multiplier": 1,
+          "effectivePoints": 230,
           "countsInTop11": true
         },
         {
