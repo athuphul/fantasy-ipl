@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T15:54:53.444Z",
+  "lastUpdated": "2026-05-16T16:05:07.290Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -12,6 +12,12 @@
         "r": 247,
         "w": 2,
         "o": 20
+      },
+      {
+        "inning": "Gujarat Titans",
+        "r": 14,
+        "w": 0,
+        "o": 0.5
       }
     ],
     "playerScores": {
@@ -33,13 +39,43 @@
         "fielding": 0,
         "total": 83
       },
-      "Shubman Gill": {
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Matheesha Pathirana": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
       "Sai Sudharsan": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
+      },
+      "Shubman Gill": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -116,8 +152,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4535,
-      "top11Points": 4499
+      "totalPointsAll": 4555,
+      "top11Points": 4519
     },
     {
       "team": "Ashwin",
@@ -22146,6 +22182,12 @@
           "r": 247,
           "w": 2,
           "o": 20
+        },
+        {
+          "inning": "Gujarat Titans",
+          "r": 14,
+          "w": 0,
+          "o": 0.5
         }
       ],
       "scorecard": [
@@ -22242,6 +22284,42 @@
               "economy": 22
             }
           ]
+        },
+        {
+          "innings": "Gujarat Titans",
+          "runs": 14,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 8,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Saurabh Dubey",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -22263,13 +22341,43 @@
           "fielding": 0,
           "total": 83
         },
-        "Shubman Gill": {
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Matheesha Pathirana": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
         "Sai Sudharsan": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
+        },
+        "Shubman Gill": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -22466,18 +22574,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4535,
-      "top11Points": 4499,
+      "totalPointsAll": 4555,
+      "top11Points": 4519,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 704,
+          "batting": 714,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 738,
+          "rawPoints": 748,
           "multiplier": 2,
-          "effectivePoints": 1476,
+          "effectivePoints": 1496,
           "countsInTop11": true
         },
         {
