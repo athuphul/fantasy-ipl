@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T15:04:53.222Z",
+  "lastUpdated": "2026-05-16T15:14:53.170Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 143,
+        "r": 176,
         "w": 2,
-        "o": 12
+        "o": 14.4
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 142
       },
       "Cameron Green": {
-        "batting": 1,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 24
       },
       "Shubman Gill": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Rashid Khan": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 8,
-        "total": 8
+        "total": -7
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Sai Kishore": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 15,
         "fielding": 0,
-        "total": 20
+        "total": 15
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -96,8 +96,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4770,
-      "top11Points": 4770
+      "totalPointsAll": 4755,
+      "top11Points": 4755
     },
     {
       "team": "Athu",
@@ -106,7 +106,7 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4834,
+      "totalPointsAll": 4829,
       "top11Points": 4652
     },
     {
@@ -126,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3986,
-      "top11Points": 3939
+      "totalPointsAll": 4009,
+      "top11Points": 3962
     }
   ],
   "matchHistory": [
@@ -22143,17 +22143,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 143,
+          "r": 176,
           "w": 2,
-          "o": 12
+          "o": 14.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 143,
+          "runs": 176,
           "wickets": 2,
-          "overs": 12,
+          "overs": 14.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -22175,20 +22175,20 @@
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 31,
-              "balls": 21,
-              "fours": 0,
-              "sixes": 3,
-              "sr": 147.62,
+              "runs": 43,
+              "balls": 25,
+              "fours": 1,
+              "sixes": 4,
+              "sr": 172,
               "dismissal": "batting"
             },
             {
               "name": "Cameron Green",
-              "runs": 1,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 19,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 211.11,
               "dismissal": "batting"
             }
           ],
@@ -22219,19 +22219,19 @@
             },
             {
               "name": "Rashid Khan",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 18,
+              "runs": 32,
               "wickets": 0,
-              "economy": 18
+              "economy": 16
             },
             {
               "name": "Ravisrinivasan Sai Kishore",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 21,
+              "runs": 37,
               "wickets": 1,
-              "economy": 10.5
+              "economy": 13.06
             },
             {
               "name": "Arshad Khan",
@@ -22258,10 +22258,10 @@
           "total": 142
         },
         "Cameron Green": {
-          "batting": 1,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 24
         },
         "Shubman Gill": {
           "batting": 0,
@@ -22289,9 +22289,9 @@
         },
         "Rashid Khan": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 8,
-          "total": 8
+          "total": -7
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -22301,9 +22301,9 @@
         },
         "Sai Kishore": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "total": 20
+          "total": 15
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -23007,7 +23007,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4834,
+      "totalPointsAll": 4829,
       "top11Points": 4652,
       "players": [
         {
@@ -23157,18 +23157,18 @@
           "name": "Sai Kishore",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 20,
+          "bowling": 15,
           "fielding": 0,
-          "rawPoints": 20,
+          "rawPoints": 15,
           "multiplier": 1,
-          "effectivePoints": 20,
+          "effectivePoints": 15,
           "countsInTop11": false
         }
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4770,
-      "top11Points": 4770,
+      "totalPointsAll": 4755,
+      "top11Points": 4755,
       "players": [
         {
           "name": "Jos Buttler",
@@ -23218,11 +23218,11 @@
           "name": "Rashid Khan",
           "role": "Spinner",
           "batting": 37,
-          "bowling": 457,
+          "bowling": 442,
           "fielding": 32,
-          "rawPoints": 526,
+          "rawPoints": 511,
           "multiplier": 1,
-          "effectivePoints": 526,
+          "effectivePoints": 511,
           "countsInTop11": true
         },
         {
@@ -23294,8 +23294,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3986,
-      "top11Points": 3939,
+      "totalPointsAll": 4009,
+      "top11Points": 3962,
       "players": [
         {
           "name": "Travis Head",
@@ -23333,12 +23333,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 345,
+          "batting": 368,
           "bowling": 70,
           "fielding": 56,
-          "rawPoints": 471,
+          "rawPoints": 494,
           "multiplier": 1,
-          "effectivePoints": 471,
+          "effectivePoints": 494,
           "countsInTop11": true
         },
         {
