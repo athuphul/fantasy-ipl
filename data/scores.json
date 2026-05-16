@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T14:04:56.969Z",
+  "lastUpdated": "2026-05-16T14:14:56.838Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 5,
+        "r": 25,
         "w": 0,
-        "o": 1
+        "o": 2.6
       }
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 2,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 12
       },
       "Finn Allen": {
-        "batting": 3,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 18
       },
       "Shubman Gill": {
         "batting": 0,
@@ -110,8 +110,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4440,
-      "top11Points": 4443
+      "totalPointsAll": 4473,
+      "top11Points": 4476
     },
     {
       "team": "Ashwin",
@@ -22137,61 +22137,69 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 5,
+          "r": 25,
           "w": 0,
-          "o": 1
+          "o": 2.6
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 5,
+          "runs": 25,
           "wickets": 0,
-          "overs": 1,
+          "overs": 2.6,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 2,
-              "balls": 4,
+              "runs": 10,
+              "balls": 10,
               "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "sixes": 1,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
-              "runs": 3,
-              "balls": 2,
-              "fours": 0,
+              "runs": 16,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 150,
+              "sr": 177.78,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 17,
               "wickets": 0,
-              "economy": 5
+              "economy": 8.5
+            },
+            {
+              "name": "Kagiso Rabada",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 7.71
             }
           ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 2,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 12
         },
         "Finn Allen": {
-          "batting": 3,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 18
         },
         "Shubman Gill": {
           "batting": 0,
@@ -22247,8 +22255,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4440,
-      "top11Points": 4443,
+      "totalPointsAll": 4473,
+      "top11Points": 4476,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -22275,12 +22283,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 374,
+          "batting": 389,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 374,
+          "rawPoints": 389,
           "multiplier": 1.5,
-          "effectivePoints": 561,
+          "effectivePoints": 584,
           "countsInTop11": true
         },
         {
@@ -22297,12 +22305,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 276,
+          "batting": 286,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 324,
+          "rawPoints": 334,
           "multiplier": 1,
-          "effectivePoints": 324,
+          "effectivePoints": 334,
           "countsInTop11": true
         },
         {
