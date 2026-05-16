@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T14:14:56.838Z",
+  "lastUpdated": "2026-05-16T14:24:52.840Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 25,
-        "w": 0,
-        "o": 2.6
+        "r": 46,
+        "w": 1,
+        "o": 4.4
       }
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 12,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 17
       },
       "Finn Allen": {
-        "batting": 18,
+        "batting": 51,
         "bowling": 0,
         "fielding": 0,
-        "total": 18
+        "total": 51
       },
       "Shubman Gill": {
         "batting": 0,
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Sai Kishore": {
         "batting": 0,
@@ -71,17 +71,17 @@
       },
       "Mohammed Siraj": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5498,
-      "top11Points": 5500
+      "totalPointsAll": 5523,
+      "top11Points": 5525
     },
     {
       "team": "Tikoo",
@@ -104,14 +104,14 @@
       "top11Points": 4630
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 4522,
+      "top11Points": 4525
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 4535,
       "top11Points": 4499
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4473,
-      "top11Points": 4476
     },
     {
       "team": "Ashwin",
@@ -22137,69 +22137,78 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 25,
-          "w": 0,
-          "o": 2.6
+          "r": 46,
+          "w": 1,
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 25,
-          "wickets": 0,
-          "overs": 2.6,
+          "runs": 46,
+          "wickets": 1,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 10,
-              "balls": 10,
-              "fours": 0,
+              "runs": 14,
+              "balls": 14,
+              "fours": 1,
               "sixes": 1,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "b Mohammed Siraj"
             },
             {
               "name": "Finn Allen",
-              "runs": 16,
-              "balls": 9,
+              "runs": 30,
+              "balls": 13,
               "fours": 2,
+              "sixes": 2,
+              "sr": 230.77,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Angkrish Raghuvanshi",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 177.78,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 0,
-              "economy": 8.5
+              "runs": 24,
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 9,
+              "runs": 22,
               "wickets": 0,
-              "economy": 7.71
+              "economy": 11
             }
           ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 12,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 17
         },
         "Finn Allen": {
-          "batting": 18,
+          "batting": 51,
           "bowling": 0,
           "fielding": 0,
-          "total": 18
+          "total": 51
         },
         "Shubman Gill": {
           "batting": 0,
@@ -22233,9 +22242,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Sai Kishore": {
           "batting": 0,
@@ -22245,9 +22254,9 @@
         },
         "Mohammed Siraj": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -22255,8 +22264,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4473,
-      "top11Points": 4476,
+      "totalPointsAll": 4522,
+      "top11Points": 4525,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -22273,22 +22282,22 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 584,
+          "bowling": 579,
           "fielding": 24,
-          "rawPoints": 645,
+          "rawPoints": 640,
           "multiplier": 1,
-          "effectivePoints": 645,
+          "effectivePoints": 640,
           "countsInTop11": true
         },
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 389,
+          "batting": 422,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 389,
+          "rawPoints": 422,
           "multiplier": 1.5,
-          "effectivePoints": 584,
+          "effectivePoints": 633,
           "countsInTop11": true
         },
         {
@@ -22305,12 +22314,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 286,
+          "batting": 291,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 334,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 334,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -22542,8 +22551,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5498,
-      "top11Points": 5500,
+      "totalPointsAll": 5523,
+      "top11Points": 5525,
       "players": [
         {
           "name": "KL Rahul",
@@ -22593,11 +22602,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 404,
+          "bowling": 429,
           "fielding": 32,
-          "rawPoints": 431,
+          "rawPoints": 456,
           "multiplier": 1,
-          "effectivePoints": 431,
+          "effectivePoints": 456,
           "countsInTop11": true
         },
         {
