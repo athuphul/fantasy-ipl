@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T14:54:55.784Z",
+  "lastUpdated": "2026-05-16T15:04:53.222Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 122,
-        "w": 1,
-        "o": 10.1
+        "r": 143,
+        "w": 2,
+        "o": 12
       }
     ],
     "playerScores": {
@@ -22,10 +22,16 @@
         "total": 17
       },
       "Finn Allen": {
-        "batting": 87,
+        "batting": 142,
         "bowling": 0,
         "fielding": 0,
-        "total": 87
+        "total": 142
+      },
+      "Cameron Green": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Shubman Gill": {
         "batting": 0,
@@ -54,8 +60,8 @@
       "Rashid Khan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Kagiso Rabada": {
         "batting": 0,
@@ -65,9 +71,9 @@
       },
       "Sai Kishore": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -90,23 +96,23 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4762,
-      "top11Points": 4762
+      "totalPointsAll": 4770,
+      "top11Points": 4770
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4659,
+      "top11Points": 4662
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4814,
+      "totalPointsAll": 4834,
       "top11Points": 4652
     },
     {
       "team": "Kishan",
       "totalPointsAll": 4630,
       "top11Points": 4630
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4576,
-      "top11Points": 4579
     },
     {
       "team": "Aakash",
@@ -120,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 3985,
-      "top11Points": 3938
+      "totalPointsAll": 3986,
+      "top11Points": 3939
     }
   ],
   "matchHistory": [
@@ -22137,17 +22143,17 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 122,
-          "w": 1,
-          "o": 10.1
+          "r": 143,
+          "w": 2,
+          "o": 12
         }
       ],
       "scorecard": [
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 122,
-          "wickets": 1,
-          "overs": 10.1,
+          "runs": 143,
+          "wickets": 2,
+          "overs": 12,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -22160,20 +22166,29 @@
             },
             {
               "name": "Finn Allen",
-              "runs": 51,
-              "balls": 22,
-              "fours": 3,
-              "sixes": 4,
-              "sr": 231.82,
-              "dismissal": "batting"
+              "runs": 93,
+              "balls": 35,
+              "fours": 4,
+              "sixes": 10,
+              "sr": 265.71,
+              "dismissal": "c Rashid Khan b Sai Kishore"
             },
             {
               "name": "Angkrish Raghuvanshi",
-              "runs": 16,
-              "balls": 12,
+              "runs": 31,
+              "balls": 21,
               "fours": 0,
-              "sixes": 2,
-              "sr": 133.33,
+              "sixes": 3,
+              "sr": 147.62,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -22196,11 +22211,11 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 26,
               "wickets": 0,
-              "economy": 11
+              "economy": 13
             },
             {
               "name": "Rashid Khan",
@@ -22209,6 +22224,22 @@
               "runs": 18,
               "wickets": 0,
               "economy": 18
+            },
+            {
+              "name": "Ravisrinivasan Sai Kishore",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 1,
+              "economy": 10.5
+            },
+            {
+              "name": "Arshad Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 22,
+              "wickets": 0,
+              "economy": 22
             }
           ]
         }
@@ -22221,10 +22252,16 @@
           "total": 17
         },
         "Finn Allen": {
-          "batting": 87,
+          "batting": 142,
           "bowling": 0,
           "fielding": 0,
-          "total": 87
+          "total": 142
+        },
+        "Cameron Green": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Shubman Gill": {
           "batting": 0,
@@ -22253,8 +22290,8 @@
         "Rashid Khan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Kagiso Rabada": {
           "batting": 0,
@@ -22264,9 +22301,9 @@
         },
         "Sai Kishore": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -22280,8 +22317,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4576,
-      "top11Points": 4579,
+      "totalPointsAll": 4659,
+      "top11Points": 4662,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -22297,12 +22334,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 458,
+          "batting": 513,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 458,
+          "rawPoints": 513,
           "multiplier": 1.5,
-          "effectivePoints": 687,
+          "effectivePoints": 770,
           "countsInTop11": true
         },
         {
@@ -22970,7 +23007,7 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4814,
+      "totalPointsAll": 4834,
       "top11Points": 4652,
       "players": [
         {
@@ -23120,18 +23157,18 @@
           "name": "Sai Kishore",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "rawPoints": 0,
+          "rawPoints": 20,
           "multiplier": 1,
-          "effectivePoints": 0,
+          "effectivePoints": 20,
           "countsInTop11": false
         }
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4762,
-      "top11Points": 4762,
+      "totalPointsAll": 4770,
+      "top11Points": 4770,
       "players": [
         {
           "name": "Jos Buttler",
@@ -23182,10 +23219,10 @@
           "role": "Spinner",
           "batting": 37,
           "bowling": 457,
-          "fielding": 24,
-          "rawPoints": 518,
+          "fielding": 32,
+          "rawPoints": 526,
           "multiplier": 1,
-          "effectivePoints": 518,
+          "effectivePoints": 526,
           "countsInTop11": true
         },
         {
@@ -23257,8 +23294,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 3985,
-      "top11Points": 3938,
+      "totalPointsAll": 3986,
+      "top11Points": 3939,
       "players": [
         {
           "name": "Travis Head",
@@ -23296,12 +23333,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 344,
+          "batting": 345,
           "bowling": 70,
           "fielding": 56,
-          "rawPoints": 470,
+          "rawPoints": 471,
           "multiplier": 1,
-          "effectivePoints": 470,
+          "effectivePoints": 471,
           "countsInTop11": true
         },
         {
