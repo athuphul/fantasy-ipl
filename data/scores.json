@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T16:24:55.230Z",
+  "lastUpdated": "2026-05-16T16:34:52.727Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529303",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Gujarat Titans",
-        "r": 49,
-        "w": 0,
-        "o": 3.6
+        "r": 52,
+        "w": 1,
+        "o": 5.1
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Anukul Roy": {
         "batting": 0,
@@ -76,16 +76,16 @@
         "total": 39
       },
       "Shubman Gill": {
-        "batting": 9,
+        "batting": 10,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 10
       },
       "Jos Buttler": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 1
       },
       "Washington Sundar": {
         "batting": 0,
@@ -132,8 +132,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4755,
-      "top11Points": 4755
+      "totalPointsAll": 4756,
+      "top11Points": 4756
     },
     {
       "team": "Athu",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4234,
-      "top11Points": 4146
+      "totalPointsAll": 4273,
+      "top11Points": 4185
     },
     {
       "team": "Tanay",
@@ -22185,9 +22185,9 @@
         },
         {
           "inning": "Gujarat Titans",
-          "r": 49,
-          "w": 0,
-          "o": 3.6
+          "r": 52,
+          "w": 1,
+          "o": 5.1
         }
       ],
       "scorecard": [
@@ -22287,9 +22287,9 @@
         },
         {
           "innings": "Gujarat Titans",
-          "runs": 49,
-          "wickets": 0,
-          "overs": 3.6,
+          "runs": 52,
+          "wickets": 1,
+          "overs": 5.1,
           "batting": [
             {
               "name": "Sai Sudharsan",
@@ -22302,20 +22302,29 @@
             },
             {
               "name": "Shubman Gill",
-              "runs": 7,
-              "balls": 7,
-              "fours": 0,
+              "runs": 12,
+              "balls": 13,
+              "fours": 1,
               "sixes": 1,
-              "sr": 100,
+              "sr": 92.31,
               "dismissal": "batting"
             },
             {
               "name": "Nishant Sindhu",
               "runs": 1,
-              "balls": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 25,
+              "dismissal": "c Manish Pandey b Sunil Narine"
+            },
+            {
+              "name": "Jos Buttler",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -22346,11 +22355,19 @@
             },
             {
               "name": "Matheesha Pathirana",
-              "overs": 0.5,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 3,
+              "runs": 8,
               "wickets": 0,
-              "economy": 3.6
+              "economy": 6.86
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 1,
+              "economy": 1
             }
           ]
         }
@@ -22382,9 +22399,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Anukul Roy": {
           "batting": 0,
@@ -22411,16 +22428,16 @@
           "total": 39
         },
         "Shubman Gill": {
-          "batting": 9,
+          "batting": 10,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 10
         },
         "Jos Buttler": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 1
         },
         "Washington Sundar": {
           "batting": 0,
@@ -22883,29 +22900,29 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4234,
-      "top11Points": 4146,
+      "totalPointsAll": 4273,
+      "top11Points": 4185,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 636,
+          "batting": 637,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 718,
+          "rawPoints": 719,
           "multiplier": 2,
-          "effectivePoints": 1436,
+          "effectivePoints": 1438,
           "countsInTop11": true
         },
         {
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 366,
+          "bowling": 391,
           "fielding": 24,
-          "rawPoints": 435,
+          "rawPoints": 460,
           "multiplier": 1.5,
-          "effectivePoints": 653,
+          "effectivePoints": 690,
           "countsInTop11": true
         },
         {
@@ -23308,18 +23325,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4755,
-      "top11Points": 4755,
+      "totalPointsAll": 4756,
+      "top11Points": 4756,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 487,
+          "batting": 488,
           "bowling": 0,
           "fielding": 172,
-          "rawPoints": 659,
+          "rawPoints": 660,
           "multiplier": 1.5,
-          "effectivePoints": 989,
+          "effectivePoints": 990,
           "countsInTop11": true
         },
         {
