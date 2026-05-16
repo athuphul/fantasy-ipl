@@ -1,7 +1,82 @@
 {
-  "lastUpdated": "2026-05-15T18:24:53.014Z",
+  "lastUpdated": "2026-05-16T14:04:56.969Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529303",
+    "name": "Kolkata Knight Riders v Gujarat Titans",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 5,
+        "w": 0,
+        "o": 1
+      }
+    ],
+    "playerScores": {
+      "Ajinkya Rahane": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
+      },
+      "Finn Allen": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Shubman Gill": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Sudharsan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jos Buttler": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Washington Sundar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rashid Khan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kagiso Rabada": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sai Kishore": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -35,8 +110,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4434,
-      "top11Points": 4437
+      "totalPointsAll": 4440,
+      "top11Points": 4443
     },
     {
       "team": "Ashwin",
@@ -22052,12 +22127,128 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529303",
+      "name": "Kolkata Knight Riders v Gujarat Titans",
+      "date": "2026-05-16",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Kolkata Knight Riders",
+          "r": 5,
+          "w": 0,
+          "o": 1
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 5,
+          "wickets": 0,
+          "overs": 1,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 3,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 150,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Siraj",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 5
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Ajinkya Rahane": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
+        },
+        "Finn Allen": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Shubman Gill": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Sudharsan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jos Buttler": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Washington Sundar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rashid Khan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kagiso Rabada": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sai Kishore": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4434,
-      "top11Points": 4437,
+      "totalPointsAll": 4440,
+      "top11Points": 4443,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -22084,12 +22275,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 371,
+          "batting": 374,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 371,
+          "rawPoints": 374,
           "multiplier": 1.5,
-          "effectivePoints": 557,
+          "effectivePoints": 561,
           "countsInTop11": true
         },
         {
@@ -22106,12 +22297,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 274,
+          "batting": 276,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 322,
+          "rawPoints": 324,
           "multiplier": 1,
-          "effectivePoints": 322,
+          "effectivePoints": 324,
           "countsInTop11": true
         },
         {
