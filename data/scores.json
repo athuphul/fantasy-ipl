@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T11:14:55.676Z",
+  "lastUpdated": "2026-05-17T11:24:54.435Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 163,
+        "r": 189,
         "w": 3,
-        "o": 15.4
+        "o": 17.2
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Priyansh Arya": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -53,15 +53,15 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": -15,
+        "bowling": 10,
         "fielding": 0,
-        "total": -15
+        "total": 10
       },
       "Virat Kohli": {
-        "batting": 82,
+        "batting": 83,
         "bowling": 0,
         "fielding": 0,
-        "total": 82
+        "total": 83
       },
       "Devdutt Padikkal": {
         "batting": 65,
@@ -95,8 +95,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4777,
-      "top11Points": 4777
+      "totalPointsAll": 4778,
+      "top11Points": 4778
     },
     {
       "team": "Athu",
@@ -110,13 +110,13 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4645,
-      "top11Points": 4609
+      "totalPointsAll": 4670,
+      "top11Points": 4634
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4581,
-      "top11Points": 4493
+      "totalPointsAll": 4589,
+      "top11Points": 4501
     },
     {
       "team": "Tanay",
@@ -22470,17 +22470,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 163,
+          "r": 189,
           "w": 3,
-          "o": 15.4
+          "o": 17.2
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 163,
+          "runs": 189,
           "wickets": 3,
-          "overs": 15.4,
+          "overs": 17.2,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -22493,12 +22493,12 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 57,
-              "balls": 35,
+              "runs": 58,
+              "balls": 37,
               "fours": 4,
               "sixes": 3,
-              "sr": 162.86,
-              "dismissal": "batting"
+              "sr": 156.76,
+              "dismissal": "c Priyansh Arya b Yuzvendra Chahal"
             },
             {
               "name": "Devdutt Padikkal",
@@ -22511,11 +22511,20 @@
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 25,
-              "balls": 18,
-              "fours": 4,
+              "runs": 47,
+              "balls": 26,
+              "fours": 6,
+              "sixes": 2,
+              "sr": 180.77,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tim David",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
               "sixes": 0,
-              "sr": 138.89,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -22530,11 +22539,11 @@
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 19,
+              "runs": 29,
               "wickets": 0,
-              "economy": 9.5
+              "economy": 10.24
             },
             {
               "name": "Harpreet Brar",
@@ -22554,10 +22563,10 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 28,
-              "wickets": 0,
+              "runs": 42,
+              "wickets": 1,
               "economy": 14
             },
             {
@@ -22581,8 +22590,8 @@
         "Priyansh Arya": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -22610,15 +22619,15 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": -15,
+          "bowling": 10,
           "fielding": 0,
-          "total": -15
+          "total": 10
         },
         "Virat Kohli": {
-          "batting": 82,
+          "batting": 83,
           "bowling": 0,
           "fielding": 0,
-          "total": 82
+          "total": 83
         },
         "Devdutt Padikkal": {
           "batting": 65,
@@ -22787,8 +22796,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4645,
-      "top11Points": 4609,
+      "totalPointsAll": 4670,
+      "top11Points": 4634,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -22882,11 +22891,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 229,
+          "bowling": 254,
           "fielding": 24,
-          "rawPoints": 253,
+          "rawPoints": 278,
           "multiplier": 1,
-          "effectivePoints": 253,
+          "effectivePoints": 278,
           "countsInTop11": true
         },
         {
@@ -23063,8 +23072,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4581,
-      "top11Points": 4493,
+      "totalPointsAll": 4589,
+      "top11Points": 4501,
       "players": [
         {
           "name": "Shubman Gill",
@@ -23093,10 +23102,10 @@
           "role": "Opener",
           "batting": 565,
           "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 573,
+          "fielding": 16,
+          "rawPoints": 581,
           "multiplier": 1,
-          "effectivePoints": 573,
+          "effectivePoints": 581,
           "countsInTop11": true
         },
         {
@@ -23201,8 +23210,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4777,
-      "top11Points": 4777,
+      "totalPointsAll": 4778,
+      "top11Points": 4778,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23218,12 +23227,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 712,
+          "batting": 713,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 760,
+          "rawPoints": 761,
           "multiplier": 1,
-          "effectivePoints": 760,
+          "effectivePoints": 761,
           "countsInTop11": true
         },
         {
