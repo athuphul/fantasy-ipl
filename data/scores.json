@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T12:44:53.366Z",
+  "lastUpdated": "2026-05-17T12:54:53.760Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 78,
+        "r": 89,
         "w": 4,
-        "o": 8.4
+        "o": 10.2
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -40,10 +40,10 @@
         "total": 9
       },
       "Marcus Stoinis": {
-        "batting": 8,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 14
       },
       "Shashank Singh": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -143,8 +143,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4864,
-      "top11Points": 4864
+      "totalPointsAll": 4870,
+      "top11Points": 4870
     },
     {
       "team": "Athu",
@@ -153,8 +153,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4847,
-      "top11Points": 4670
+      "totalPointsAll": 4842,
+      "top11Points": 4665
     },
     {
       "team": "Aakash",
@@ -22518,9 +22518,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 78,
+          "r": 89,
           "w": 4,
-          "o": 8.4
+          "o": 10.2
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -22635,9 +22635,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 78,
+          "runs": 89,
           "wickets": 4,
-          "overs": 8.4,
+          "overs": 10.2,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -22659,12 +22659,12 @@
             },
             {
               "name": "Cooper Connolly",
-              "runs": 35,
-              "balls": 19,
+              "runs": 37,
+              "balls": 22,
               "fours": 3,
               "sixes": 3,
-              "sr": 184.21,
-              "dismissal": "batting"
+              "sr": 168.18,
+              "dismissal": "c Jacob Bethell b Romario Shepherd"
             },
             {
               "name": "Shreyas Iyer",
@@ -22677,11 +22677,20 @@
             },
             {
               "name": "Suryansh Shedge",
-              "runs": 18,
-              "balls": 11,
+              "runs": 35,
+              "balls": 21,
               "fours": 2,
-              "sixes": 1,
-              "sr": 163.64,
+              "sixes": 2,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Marcus Stoinis",
+              "runs": 13,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 144.44,
               "dismissal": "batting"
             }
           ],
@@ -22712,11 +22721,27 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 0.5,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 10,
+              "runs": 28,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.2
+            },
+            {
+              "name": "Romario Shepherd",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 1,
+              "economy": 8
+            },
+            {
+              "name": "Krunal Pandya",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
             }
           ]
         }
@@ -22741,10 +22766,10 @@
           "total": 9
         },
         "Marcus Stoinis": {
-          "batting": 8,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 14
         },
         "Shashank Singh": {
           "batting": 0,
@@ -22814,9 +22839,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -23393,8 +23418,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4864,
-      "top11Points": 4864,
+      "totalPointsAll": 4870,
+      "top11Points": 4870,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23465,12 +23490,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 267,
+          "batting": 273,
           "bowling": 35,
           "fielding": 18,
-          "rawPoints": 320,
+          "rawPoints": 326,
           "multiplier": 1,
-          "effectivePoints": 320,
+          "effectivePoints": 326,
           "countsInTop11": true
         },
         {
@@ -23520,8 +23545,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4847,
-      "top11Points": 4670,
+      "totalPointsAll": 4842,
+      "top11Points": 4665,
       "players": [
         {
           "name": "Axar Patel",
@@ -23626,11 +23651,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 190,
+          "bowling": 185,
           "fielding": 0,
-          "rawPoints": 190,
+          "rawPoints": 185,
           "multiplier": 1,
-          "effectivePoints": 190,
+          "effectivePoints": 185,
           "countsInTop11": true
         },
         {
