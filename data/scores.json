@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-05-17T14:04:51.488Z",
+  "lastUpdated": "2026-05-17T14:14:53.318Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529305",
+    "name": "Delhi Capitals v Rajasthan Royals",
+    "status": "Live",
+    "venue": "Arun Jaitley Stadium, Delhi",
+    "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 30,
+        "w": 1,
+        "o": 2.3
+      }
+    ],
+    "playerScores": {
+      "KL Rahul": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Abishek Porel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tristan Stubbs": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "David Miller": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Axar Patel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Lungi Ngidi": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 15,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 15
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 22,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 22
+      },
+      "Dhruv Jurel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -10,8 +79,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5494,
-      "top11Points": 5188
+      "totalPointsAll": 5541,
+      "top11Points": 5235
     },
     {
       "team": "Kishan",
@@ -35,8 +104,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4670,
-      "top11Points": 4634
+      "totalPointsAll": 4685,
+      "top11Points": 4649
     },
     {
       "team": "Ashwin",
@@ -22746,6 +22815,133 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529305",
+      "name": "Delhi Capitals v Rajasthan Royals",
+      "date": "2026-05-17",
+      "status": "Live",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "score": [
+        {
+          "inning": "Rajasthan Royals",
+          "r": 30,
+          "w": 1,
+          "o": 2.3
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 30,
+          "wickets": 1,
+          "overs": 2.3,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 12,
+              "balls": 9,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 133.33,
+              "dismissal": "c Mitchell Starc b Lungi Ngidi"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 17,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 340,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mitchell Starc",
+              "overs": 1.3,
+              "maidens": 0,
+              "runs": 23,
+              "wickets": 0,
+              "economy": 15.33
+            },
+            {
+              "name": "Lungi Ngidi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 7
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "KL Rahul": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Abishek Porel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tristan Stubbs": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "David Miller": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Axar Patel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Lungi Ngidi": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 15,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 15
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 22,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 22
+        },
+        "Dhruv Jurel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -22899,8 +23095,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4670,
-      "top11Points": 4634,
+      "totalPointsAll": 4685,
+      "top11Points": 4649,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -22927,12 +23123,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 449,
+          "batting": 464,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 473,
+          "rawPoints": 488,
           "multiplier": 1,
-          "effectivePoints": 473,
+          "effectivePoints": 488,
           "countsInTop11": true
         },
         {
@@ -23865,8 +24061,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5494,
-      "top11Points": 5188,
+      "totalPointsAll": 5541,
+      "top11Points": 5235,
       "players": [
         {
           "name": "Sanju Samson",
@@ -23882,12 +24078,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 703,
+          "batting": 725,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 703,
+          "rawPoints": 725,
           "multiplier": 1,
-          "effectivePoints": 703,
+          "effectivePoints": 725,
           "countsInTop11": true
         },
         {
@@ -23957,6 +24153,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": -1,
+          "bowling": 270,
+          "fielding": 5,
+          "rawPoints": 274,
+          "multiplier": 1,
+          "effectivePoints": 274,
+          "countsInTop11": true
+        },
+        {
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 63,
@@ -23965,17 +24172,6 @@
           "rawPoints": 256,
           "multiplier": 1,
           "effectivePoints": 256,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": -1,
-          "bowling": 245,
-          "fielding": 5,
-          "rawPoints": 249,
-          "multiplier": 1,
-          "effectivePoints": 249,
           "countsInTop11": true
         },
         {
