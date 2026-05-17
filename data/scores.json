@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T17:44:54.781Z",
+  "lastUpdated": "2026-05-17T17:54:53.304Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 153,
-        "w": 3,
-        "o": 16.1
+        "r": 175,
+        "w": 4,
+        "o": 18
       },
       {
         "inning": "Rajasthan Royals",
@@ -34,10 +34,10 @@
         "total": 73
       },
       "Axar Patel": {
-        "batting": 31,
+        "batting": 53,
         "bowling": 5,
         "fielding": 16,
-        "total": 52
+        "total": 74
       },
       "Tristan Stubbs": {
         "batting": 4,
@@ -46,10 +46,10 @@
         "total": 12
       },
       "David Miller": {
-        "batting": 0,
+        "batting": 11,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 19
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -60,8 +60,8 @@
       "Yashasvi Jaiswal": {
         "batting": 15,
         "bowling": 0,
-        "fielding": 0,
-        "total": 15
+        "fielding": 8,
+        "total": 23
       },
       "Vaibhav Sooryavanshi": {
         "batting": 72,
@@ -83,9 +83,9 @@
       },
       "Jofra Archer": {
         "batting": 2,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 27
+        "total": 52
       }
     }
   },
@@ -97,8 +97,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5644,
-      "top11Points": 5338
+      "totalPointsAll": 5655,
+      "top11Points": 5349
     },
     {
       "team": "Ritik",
@@ -112,13 +112,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5081,
-      "top11Points": 4904
+      "totalPointsAll": 5125,
+      "top11Points": 4948
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4712,
-      "top11Points": 4676
+      "totalPointsAll": 4745,
+      "top11Points": 4709
     },
     {
       "team": "Athu",
@@ -22843,9 +22843,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 153,
-          "w": 3,
-          "o": 16.1
+          "r": 175,
+          "w": 4,
+          "o": 18
         },
         {
           "inning": "Rajasthan Royals",
@@ -23005,9 +23005,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 153,
-          "wickets": 3,
-          "overs": 16.1,
+          "runs": 175,
+          "wickets": 4,
+          "overs": 18,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -23038,31 +23038,40 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 18,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 180,
+              "runs": 32,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
               "name": "Tristan Stubbs",
               "runs": 4,
-              "balls": 5,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 80,
+              "sr": 66.67,
+              "dismissal": "c Yashasvi Jaiswal b Jofra Archer"
+            },
+            {
+              "name": "David Miller",
+              "runs": 9,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 180,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 28,
-              "wickets": 1,
-              "economy": 9.33
+              "runs": 35,
+              "wickets": 2,
+              "economy": 8.75
             },
             {
               "name": "Adam Milne",
@@ -23095,6 +23104,14 @@
               "runs": 29,
               "wickets": 0,
               "economy": 7.25
+            },
+            {
+              "name": "Donovan Ferreira",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 16
             }
           ]
         }
@@ -23113,10 +23130,10 @@
           "total": 73
         },
         "Axar Patel": {
-          "batting": 31,
+          "batting": 53,
           "bowling": 5,
           "fielding": 16,
-          "total": 52
+          "total": 74
         },
         "Tristan Stubbs": {
           "batting": 4,
@@ -23125,10 +23142,10 @@
           "total": 12
         },
         "David Miller": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 19
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -23139,8 +23156,8 @@
         "Yashasvi Jaiswal": {
           "batting": 15,
           "bowling": 0,
-          "fielding": 0,
-          "total": 15
+          "fielding": 8,
+          "total": 23
         },
         "Vaibhav Sooryavanshi": {
           "batting": 72,
@@ -23162,9 +23179,9 @@
         },
         "Jofra Archer": {
           "batting": 2,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 27
+          "total": 52
         }
       },
       "isComplete": false
@@ -23321,8 +23338,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4712,
-      "top11Points": 4676,
+      "totalPointsAll": 4745,
+      "top11Points": 4709,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23350,11 +23367,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 23,
-          "bowling": 420,
+          "bowling": 445,
           "fielding": 50,
-          "rawPoints": 493,
+          "rawPoints": 518,
           "multiplier": 1,
-          "effectivePoints": 493,
+          "effectivePoints": 518,
           "countsInTop11": true
         },
         {
@@ -23362,10 +23379,10 @@
           "role": "Opener",
           "batting": 464,
           "bowling": 0,
-          "fielding": 24,
-          "rawPoints": 488,
+          "fielding": 32,
+          "rawPoints": 496,
           "multiplier": 1,
-          "effectivePoints": 488,
+          "effectivePoints": 496,
           "countsInTop11": true
         },
         {
@@ -23862,18 +23879,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5081,
-      "top11Points": 4904,
+      "totalPointsAll": 5125,
+      "top11Points": 4948,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 146,
+          "batting": 168,
           "bowling": 324,
           "fielding": 40,
-          "rawPoints": 510,
+          "rawPoints": 532,
           "multiplier": 2,
-          "effectivePoints": 1020,
+          "effectivePoints": 1064,
           "countsInTop11": true
         },
         {
@@ -24287,8 +24304,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5644,
-      "top11Points": 5338,
+      "totalPointsAll": 5655,
+      "top11Points": 5349,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24359,12 +24376,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 254,
+          "batting": 265,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 294,
+          "rawPoints": 305,
           "multiplier": 1,
-          "effectivePoints": 294,
+          "effectivePoints": 305,
           "countsInTop11": true
         },
         {
