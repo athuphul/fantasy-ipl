@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T16:44:56.279Z",
+  "lastUpdated": "2026-05-17T16:54:57.189Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 72,
+        "r": 86,
         "w": 0,
-        "o": 6
+        "o": 7.3
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Abishek Porel": {
-        "batting": 56,
+        "batting": 63,
         "bowling": 0,
         "fielding": 0,
-        "total": 56
+        "total": 63
       },
       "KL Rahul": {
-        "batting": 34,
+        "batting": 45,
         "bowling": 0,
         "fielding": 0,
-        "total": 34
+        "total": 45
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -92,8 +92,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5647,
-      "top11Points": 5649
+      "totalPointsAll": 5669,
+      "top11Points": 5671
     },
     {
       "team": "Tikoo",
@@ -107,8 +107,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4942,
-      "top11Points": 4942
+      "totalPointsAll": 4949,
+      "top11Points": 4949
     },
     {
       "team": "Manav",
@@ -22843,9 +22843,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 72,
+          "r": 86,
           "w": 0,
-          "o": 6
+          "o": 7.3
         },
         {
           "inning": "Rajasthan Royals",
@@ -23005,26 +23005,26 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 72,
+          "runs": 86,
           "wickets": 0,
-          "overs": 6,
+          "overs": 7.3,
           "batting": [
             {
               "name": "Abishek Porel",
-              "runs": 38,
-              "balls": 20,
-              "fours": 6,
+              "runs": 44,
+              "balls": 24,
+              "fours": 7,
               "sixes": 1,
-              "sr": 190,
+              "sr": 183.33,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 26,
-              "balls": 16,
+              "runs": 35,
+              "balls": 22,
               "fours": 1,
-              "sixes": 1,
-              "sr": 162.5,
+              "sixes": 2,
+              "sr": 159.09,
               "dismissal": "batting"
             }
           ],
@@ -23052,22 +23052,38 @@
               "runs": 24,
               "wickets": 0,
               "economy": 12
+            },
+            {
+              "name": "Dasun Shanaka",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Yash Raj Punja",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
       ],
       "playerScores": {
         "Abishek Porel": {
-          "batting": 56,
+          "batting": 63,
           "bowling": 0,
           "fielding": 0,
-          "total": 56
+          "total": 63
         },
         "KL Rahul": {
-          "batting": 34,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "total": 34
+          "total": 45
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -23416,18 +23432,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5647,
-      "top11Points": 5649,
+      "totalPointsAll": 5669,
+      "top11Points": 5671,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 729,
+          "batting": 740,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 765,
+          "rawPoints": 776,
           "multiplier": 2,
-          "effectivePoints": 1530,
+          "effectivePoints": 1552,
           "countsInTop11": true
         },
         {
@@ -23692,8 +23708,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4942,
-      "top11Points": 4942,
+      "totalPointsAll": 4949,
+      "top11Points": 4949,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23797,12 +23813,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 90,
+          "batting": 97,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 90,
+          "rawPoints": 97,
           "multiplier": 1,
-          "effectivePoints": 90,
+          "effectivePoints": 97,
           "countsInTop11": true
         },
         {
