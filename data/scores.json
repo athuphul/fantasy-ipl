@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T14:44:53.256Z",
+  "lastUpdated": "2026-05-17T14:54:53.424Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 92,
+        "r": 102,
         "w": 2,
-        "o": 7.6
+        "o": 9.5
       }
     ],
     "playerScores": {
@@ -36,8 +36,8 @@
       "David Miller": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Axar Patel": {
         "batting": 0,
@@ -58,16 +58,16 @@
         "total": 15
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 54,
+        "batting": 72,
         "bowling": 0,
         "fielding": 0,
-        "total": 54
+        "total": 72
       },
       "Dhruv Jurel": {
-        "batting": 5,
+        "batting": 46,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 46
       },
       "Riyan Parag": {
         "batting": 2,
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5593,
-      "top11Points": 5287
+      "totalPointsAll": 5619,
+      "top11Points": 5313
     },
     {
       "team": "Kishan",
@@ -100,8 +100,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4902,
-      "top11Points": 4725
+      "totalPointsAll": 4943,
+      "top11Points": 4766
     },
     {
       "team": "Athu",
@@ -22831,17 +22831,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 92,
+          "r": 102,
           "w": 2,
-          "o": 7.6
+          "o": 9.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 92,
+          "runs": 102,
           "wickets": 2,
-          "overs": 7.6,
+          "overs": 9.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -22854,18 +22854,27 @@
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 31,
-              "balls": 13,
-              "fours": 4,
-              "sixes": 2,
-              "sr": 238.46,
-              "dismissal": "batting"
+              "runs": 46,
+              "balls": 21,
+              "fours": 5,
+              "sixes": 3,
+              "sr": 219.05,
+              "dismissal": "c David Miller b Madhav Tiwari"
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 4,
-              "balls": 6,
-              "fours": 1,
+              "runs": 29,
+              "balls": 16,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 181.25,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Riyan Parag",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
               "sixes": 0,
               "sr": 66.67,
               "dismissal": "batting"
@@ -22890,11 +22899,35 @@
             },
             {
               "name": "Tripurana Vijay",
-              "overs": 0.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 29,
               "wickets": 0,
-              "economy": 12
+              "economy": 14.5
+            },
+            {
+              "name": "Mukesh Kumar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 17
+            },
+            {
+              "name": "Madhav Tiwari",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "Axar Patel",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -22921,8 +22954,8 @@
         "David Miller": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Axar Patel": {
           "batting": 0,
@@ -22943,16 +22976,16 @@
           "total": 15
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 54,
+          "batting": 72,
           "bowling": 0,
           "fielding": 0,
-          "total": 54
+          "total": 72
         },
         "Dhruv Jurel": {
-          "batting": 5,
+          "batting": 46,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 46
         },
         "Riyan Parag": {
           "batting": 2,
@@ -23656,8 +23689,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4902,
-      "top11Points": 4725,
+      "totalPointsAll": 4943,
+      "top11Points": 4766,
       "players": [
         {
           "name": "Axar Patel",
@@ -23684,12 +23717,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 427,
+          "batting": 468,
           "bowling": 0,
           "fielding": 142,
-          "rawPoints": 569,
+          "rawPoints": 610,
           "multiplier": 1,
-          "effectivePoints": 569,
+          "effectivePoints": 610,
           "countsInTop11": true
         },
         {
@@ -24081,8 +24114,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5593,
-      "top11Points": 5287,
+      "totalPointsAll": 5619,
+      "top11Points": 5313,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24098,12 +24131,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 757,
+          "batting": 775,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 757,
+          "rawPoints": 775,
           "multiplier": 1,
-          "effectivePoints": 757,
+          "effectivePoints": 775,
           "countsInTop11": true
         },
         {
@@ -24140,6 +24173,17 @@
           "countsInTop11": true
         },
         {
+          "name": "David Miller",
+          "role": "Batsman",
+          "batting": 254,
+          "bowling": 0,
+          "fielding": 40,
+          "rawPoints": 294,
+          "multiplier": 1,
+          "effectivePoints": 294,
+          "countsInTop11": true
+        },
+        {
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -1,
@@ -24170,17 +24214,6 @@
           "rawPoints": 287,
           "multiplier": 1,
           "effectivePoints": 287,
-          "countsInTop11": true
-        },
-        {
-          "name": "David Miller",
-          "role": "Batsman",
-          "batting": 254,
-          "bowling": 0,
-          "fielding": 32,
-          "rawPoints": 286,
-          "multiplier": 1,
-          "effectivePoints": 286,
           "countsInTop11": true
         },
         {
