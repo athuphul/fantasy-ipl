@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T16:04:55.773Z",
+  "lastUpdated": "2026-05-17T16:15:07.100Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -8,6 +8,12 @@
     "venue": "Arun Jaitley Stadium, Delhi",
     "score": [
       {
+        "inning": "Delhi Capitals",
+        "r": 12,
+        "w": 0,
+        "o": 0.4
+      },
+      {
         "inning": "Rajasthan Royals",
         "r": 193,
         "w": 8,
@@ -15,23 +21,23 @@
       }
     ],
     "playerScores": {
-      "KL Rahul": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
       "Abishek Porel": {
-        "batting": 0,
+        "batting": 6,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 6
+      },
+      "KL Rahul": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       },
       "Tristan Stubbs": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "David Miller": {
         "batting": 0,
@@ -47,9 +53,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 37,
+        "bowling": 70,
         "fielding": 0,
-        "total": 37
+        "total": 70
       },
       "Yashasvi Jaiswal": {
         "batting": 15,
@@ -64,10 +70,10 @@
         "total": 72
       },
       "Dhruv Jurel": {
-        "batting": 69,
+        "batting": 72,
         "bowling": 0,
         "fielding": 0,
-        "total": 69
+        "total": 72
       },
       "Riyan Parag": {
         "batting": 84,
@@ -86,13 +92,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5571,
-      "top11Points": 5573
+      "totalPointsAll": 5581,
+      "top11Points": 5583
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5611,
-      "top11Points": 5305
+      "totalPointsAll": 5644,
+      "top11Points": 5338
     },
     {
       "team": "Ritik",
@@ -101,13 +107,13 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4886,
-      "top11Points": 4886
+      "totalPointsAll": 4892,
+      "top11Points": 4892
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5008,
-      "top11Points": 4831
+      "totalPointsAll": 5011,
+      "top11Points": 4834
     },
     {
       "team": "Athu",
@@ -22836,6 +22842,12 @@
       "venue": "Arun Jaitley Stadium, Delhi",
       "score": [
         {
+          "inning": "Delhi Capitals",
+          "r": 12,
+          "w": 0,
+          "o": 0.4
+        },
+        {
           "inning": "Rajasthan Royals",
           "r": 193,
           "w": 8,
@@ -22869,12 +22881,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 50,
-              "balls": 36,
+              "runs": 53,
+              "balls": 40,
               "fours": 5,
               "sixes": 2,
-              "sr": 138.89,
-              "dismissal": "batting"
+              "sr": 132.5,
+              "dismissal": "lbw b Lungi Ngidi"
             },
             {
               "name": "Riyan Parag",
@@ -22914,30 +22926,48 @@
             },
             {
               "name": "Dasun Shanaka",
-              "runs": 7,
-              "balls": 5,
+              "runs": 10,
+              "balls": 8,
               "fours": 0,
               "sixes": 1,
-              "sr": 140,
-              "dismissal": "batting"
+              "sr": 125,
+              "dismissal": "c Tristan Stubbs b Mitchell Starc"
+            },
+            {
+              "name": "Jofra Archer",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Adam Milne",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 35,
-              "wickets": 3,
-              "economy": 11.05
+              "runs": 40,
+              "wickets": 4,
+              "economy": 10
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 19,
-              "wickets": 1,
-              "economy": 6.33
+              "runs": 24,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Tripurana Vijay",
@@ -22975,23 +23005,23 @@
         }
       ],
       "playerScores": {
-        "KL Rahul": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
-        },
         "Abishek Porel": {
-          "batting": 0,
+          "batting": 6,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 6
+        },
+        "KL Rahul": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         },
         "Tristan Stubbs": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "David Miller": {
           "batting": 0,
@@ -23007,9 +23037,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 37,
+          "bowling": 70,
           "fielding": 0,
-          "total": 37
+          "total": 70
         },
         "Yashasvi Jaiswal": {
           "batting": 15,
@@ -23024,10 +23054,10 @@
           "total": 72
         },
         "Dhruv Jurel": {
-          "batting": 69,
+          "batting": 72,
           "bowling": 0,
           "fielding": 0,
-          "total": 69
+          "total": 72
         },
         "Riyan Parag": {
           "batting": 84,
@@ -23334,18 +23364,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5571,
-      "top11Points": 5573,
+      "totalPointsAll": 5581,
+      "top11Points": 5583,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 695,
+          "batting": 696,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 731,
+          "rawPoints": 732,
           "multiplier": 2,
-          "effectivePoints": 1462,
+          "effectivePoints": 1464,
           "countsInTop11": true
         },
         {
@@ -23408,10 +23438,10 @@
           "role": "Batsman",
           "batting": 332,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 372,
+          "fielding": 48,
+          "rawPoints": 380,
           "multiplier": 1,
-          "effectivePoints": 372,
+          "effectivePoints": 380,
           "countsInTop11": true
         },
         {
@@ -23610,8 +23640,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4886,
-      "top11Points": 4886,
+      "totalPointsAll": 4892,
+      "top11Points": 4892,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23715,12 +23745,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 34,
+          "batting": 40,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 34,
+          "rawPoints": 40,
           "multiplier": 1,
-          "effectivePoints": 34,
+          "effectivePoints": 40,
           "countsInTop11": true
         },
         {
@@ -23737,8 +23767,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5008,
-      "top11Points": 4831,
+      "totalPointsAll": 5011,
+      "top11Points": 4834,
       "players": [
         {
           "name": "Axar Patel",
@@ -23754,12 +23784,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 491,
+          "batting": 494,
           "bowling": 0,
           "fielding": 142,
-          "rawPoints": 633,
+          "rawPoints": 636,
           "multiplier": 1,
-          "effectivePoints": 633,
+          "effectivePoints": 636,
           "countsInTop11": true
         },
         {
@@ -24162,8 +24192,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5611,
-      "top11Points": 5305,
+      "totalPointsAll": 5644,
+      "top11Points": 5338,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24221,6 +24251,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": -1,
+          "bowling": 315,
+          "fielding": 5,
+          "rawPoints": 319,
+          "multiplier": 1,
+          "effectivePoints": 319,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 254,
@@ -24251,17 +24292,6 @@
           "rawPoints": 287,
           "multiplier": 1,
           "effectivePoints": 287,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": -1,
-          "bowling": 282,
-          "fielding": 5,
-          "rawPoints": 286,
-          "multiplier": 1,
-          "effectivePoints": 286,
           "countsInTop11": true
         },
         {
