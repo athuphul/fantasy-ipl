@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T10:34:55.641Z",
+  "lastUpdated": "2026-05-17T10:44:53.562Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 82,
+        "r": 97,
         "w": 1,
-        "o": 6.6
+        "o": 9
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -58,16 +58,16 @@
         "total": 0
       },
       "Virat Kohli": {
-        "batting": 2,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 49
       },
       "Devdutt Padikkal": {
-        "batting": 61,
+        "batting": 65,
         "bowling": 0,
         "fielding": 0,
-        "total": 61
+        "total": 65
       }
     }
   },
@@ -89,8 +89,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4693,
-      "top11Points": 4693
+      "totalPointsAll": 4744,
+      "top11Points": 4744
     },
     {
       "team": "Athu",
@@ -99,8 +99,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4829,
-      "top11Points": 4652
+      "totalPointsAll": 4834,
+      "top11Points": 4657
     },
     {
       "team": "Aakash",
@@ -22464,45 +22464,94 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 82,
+          "r": 97,
           "w": 1,
-          "o": 6.6
+          "o": 9
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 82,
+          "runs": 97,
           "wickets": 1,
-          "overs": 6.6,
+          "overs": 9,
           "batting": [
             {
               "name": "Jacob Bethell",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
+              "runs": 11,
+              "balls": 7,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 157.14,
+              "dismissal": "b Harpreet Brar"
             },
             {
               "name": "Virat Kohli",
-              "runs": 2,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 50,
+              "runs": 37,
+              "balls": 24,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 154.17,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 45,
+              "balls": 24,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 187.5,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 16,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Azmatullah Omarzai",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 19,
+              "wickets": 0,
+              "economy": 9.5
+            },
+            {
+              "name": "Harpreet Brar",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 19,
+              "wickets": 1,
+              "economy": 9.5
+            },
+            {
+              "name": "Lockie Ferguson",
               "overs": 1,
               "maidens": 0,
-              "runs": 4,
+              "runs": 13,
               "wickets": 0,
-              "economy": 4
+              "economy": 13
+            },
+            {
+              "name": "Yuzvendra Chahal",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 21,
+              "wickets": 0,
+              "economy": 21
+            },
+            {
+              "name": "Shashank Singh",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
             }
           ]
         }
@@ -22540,9 +22589,9 @@
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -22551,16 +22600,16 @@
           "total": 0
         },
         "Virat Kohli": {
-          "batting": 2,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 49
         },
         "Devdutt Padikkal": {
-          "batting": 61,
+          "batting": 65,
           "bowling": 0,
           "fielding": 0,
-          "total": 61
+          "total": 65
         }
       },
       "isComplete": false
@@ -23131,8 +23180,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4693,
-      "top11Points": 4693,
+      "totalPointsAll": 4744,
+      "top11Points": 4744,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23159,23 +23208,23 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 632,
+          "batting": 679,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 680,
+          "rawPoints": 727,
           "multiplier": 1,
-          "effectivePoints": 680,
+          "effectivePoints": 727,
           "countsInTop11": true
         },
         {
           "name": "Devdutt Padikkal",
           "role": "Batsman",
-          "batting": 586,
+          "batting": 590,
           "bowling": 0,
           "fielding": 90,
-          "rawPoints": 676,
+          "rawPoints": 680,
           "multiplier": 1,
-          "effectivePoints": 676,
+          "effectivePoints": 680,
           "countsInTop11": true
         },
         {
@@ -23258,8 +23307,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4829,
-      "top11Points": 4652,
+      "totalPointsAll": 4834,
+      "top11Points": 4657,
       "players": [
         {
           "name": "Axar Patel",
@@ -23320,11 +23369,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 365,
+          "bowling": 370,
           "fielding": 32,
-          "rawPoints": 398,
+          "rawPoints": 403,
           "multiplier": 1,
-          "effectivePoints": 398,
+          "effectivePoints": 403,
           "countsInTop11": true
         },
         {
