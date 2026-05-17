@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T16:24:53.583Z",
+  "lastUpdated": "2026-05-17T16:34:54.183Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 31,
+        "r": 50,
         "w": 0,
-        "o": 2.2
+        "o": 3.6
       },
       {
         "inning": "Rajasthan Royals",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Abishek Porel": {
-        "batting": 14,
+        "batting": 43,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 43
       },
       "KL Rahul": {
-        "batting": 14,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 16
       },
       "Tristan Stubbs": {
         "batting": 0,
@@ -83,17 +83,17 @@
       },
       "Jofra Archer": {
         "batting": 2,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 2
+        "total": -8
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5607,
-      "top11Points": 5609
+      "totalPointsAll": 5611,
+      "top11Points": 5613
     },
     {
       "team": "Tikoo",
@@ -107,8 +107,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4900,
-      "top11Points": 4900
+      "totalPointsAll": 4929,
+      "top11Points": 4929
     },
     {
       "team": "Manav",
@@ -122,8 +122,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4687,
-      "top11Points": 4651
+      "totalPointsAll": 4677,
+      "top11Points": 4641
     },
     {
       "team": "Ashwin",
@@ -22843,9 +22843,9 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 31,
+          "r": 50,
           "w": 0,
-          "o": 2.2
+          "o": 3.6
         },
         {
           "inning": "Rajasthan Royals",
@@ -23002,20 +23002,72 @@
               "economy": 7.75
             }
           ]
+        },
+        {
+          "innings": "Delhi Capitals",
+          "runs": 50,
+          "wickets": 0,
+          "overs": 3.6,
+          "batting": [
+            {
+              "name": "Abishek Porel",
+              "runs": 27,
+              "balls": 14,
+              "fours": 4,
+              "sixes": 1,
+              "sr": 192.86,
+              "dismissal": "batting"
+            },
+            {
+              "name": "KL Rahul",
+              "runs": 15,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 166.67,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 25,
+              "wickets": 0,
+              "economy": 12.5
+            },
+            {
+              "name": "Adam Milne",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Brijesh Sharma",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 13.2
+            }
+          ]
         }
       ],
       "playerScores": {
         "Abishek Porel": {
-          "batting": 14,
+          "batting": 43,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 43
         },
         "KL Rahul": {
-          "batting": 14,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 16
         },
         "Tristan Stubbs": {
           "batting": 0,
@@ -23067,9 +23119,9 @@
         },
         "Jofra Archer": {
           "batting": 2,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 2
+          "total": -8
         }
       },
       "isComplete": false
@@ -23226,8 +23278,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4687,
-      "top11Points": 4651,
+      "totalPointsAll": 4677,
+      "top11Points": 4641,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23266,11 +23318,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 23,
-          "bowling": 395,
+          "bowling": 385,
           "fielding": 50,
-          "rawPoints": 468,
+          "rawPoints": 458,
           "multiplier": 1,
-          "effectivePoints": 468,
+          "effectivePoints": 458,
           "countsInTop11": true
         },
         {
@@ -23364,18 +23416,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5607,
-      "top11Points": 5609,
+      "totalPointsAll": 5611,
+      "top11Points": 5613,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 709,
+          "batting": 711,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 745,
+          "rawPoints": 747,
           "multiplier": 2,
-          "effectivePoints": 1490,
+          "effectivePoints": 1494,
           "countsInTop11": true
         },
         {
@@ -23640,8 +23692,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4900,
-      "top11Points": 4900,
+      "totalPointsAll": 4929,
+      "top11Points": 4929,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23745,12 +23797,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 48,
+          "batting": 77,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 48,
+          "rawPoints": 77,
           "multiplier": 1,
-          "effectivePoints": 48,
+          "effectivePoints": 77,
           "countsInTop11": true
         },
         {
