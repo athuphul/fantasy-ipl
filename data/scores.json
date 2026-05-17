@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T11:04:57.440Z",
+  "lastUpdated": "2026-05-17T11:14:55.676Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 143,
-        "w": 2,
-        "o": 13.6
+        "r": 163,
+        "w": 3,
+        "o": 15.4
       }
     ],
     "playerScores": {
@@ -35,15 +35,15 @@
       },
       "Shashank Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Harpreet Brar": {
         "batting": 0,
-        "bowling": 55,
+        "bowling": 50,
         "fielding": 0,
-        "total": 55
+        "total": 50
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -58,24 +58,30 @@
         "total": -15
       },
       "Virat Kohli": {
-        "batting": 63,
+        "batting": 82,
         "bowling": 0,
         "fielding": 0,
-        "total": 63
+        "total": 82
       },
       "Devdutt Padikkal": {
         "batting": 65,
         "bowling": 0,
         "fielding": 0,
         "total": 65
+      },
+      "Tim David": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5521,
-      "top11Points": 5523
+      "totalPointsAll": 5522,
+      "top11Points": 5524
     },
     {
       "team": "Tikoo",
@@ -89,8 +95,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4758,
-      "top11Points": 4758
+      "totalPointsAll": 4777,
+      "top11Points": 4777
     },
     {
       "team": "Athu",
@@ -109,8 +115,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4591,
-      "top11Points": 4503
+      "totalPointsAll": 4581,
+      "top11Points": 4493
     },
     {
       "team": "Tanay",
@@ -22464,17 +22470,17 @@
       "score": [
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 143,
-          "w": 2,
-          "o": 13.6
+          "r": 163,
+          "w": 3,
+          "o": 15.4
         }
       ],
       "scorecard": [
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 143,
-          "wickets": 2,
-          "overs": 13.6,
+          "runs": 163,
+          "wickets": 3,
+          "overs": 15.4,
           "batting": [
             {
               "name": "Jacob Bethell",
@@ -22487,11 +22493,11 @@
             },
             {
               "name": "Virat Kohli",
-              "runs": 49,
-              "balls": 30,
-              "fours": 3,
+              "runs": 57,
+              "balls": 35,
+              "fours": 4,
               "sixes": 3,
-              "sr": 163.33,
+              "sr": 162.86,
               "dismissal": "batting"
             },
             {
@@ -22505,11 +22511,11 @@
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 9,
-              "balls": 9,
-              "fours": 1,
+              "runs": 25,
+              "balls": 18,
+              "fours": 4,
               "sixes": 0,
-              "sr": 100,
+              "sr": 138.89,
               "dismissal": "batting"
             }
           ],
@@ -22532,19 +22538,19 @@
             },
             {
               "name": "Harpreet Brar",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 35,
               "wickets": 2,
-              "economy": 7.67
+              "economy": 8.75
             },
             {
               "name": "Lockie Ferguson",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 13,
+              "runs": 24,
               "wickets": 0,
-              "economy": 13
+              "economy": 12
             },
             {
               "name": "Yuzvendra Chahal",
@@ -22556,11 +22562,11 @@
             },
             {
               "name": "Shashank Singh",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 19,
+              "runs": 20,
               "wickets": 0,
-              "economy": 11.4
+              "economy": 10
             }
           ]
         }
@@ -22586,15 +22592,15 @@
         },
         "Shashank Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Harpreet Brar": {
           "batting": 0,
-          "bowling": 55,
+          "bowling": 50,
           "fielding": 0,
-          "total": 55
+          "total": 50
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -22609,16 +22615,22 @@
           "total": -15
         },
         "Virat Kohli": {
-          "batting": 63,
+          "batting": 82,
           "bowling": 0,
           "fielding": 0,
-          "total": 63
+          "total": 82
         },
         "Devdutt Padikkal": {
           "batting": 65,
           "bowling": 0,
           "fielding": 0,
           "total": 65
+        },
+        "Tim David": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -22913,8 +22925,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5521,
-      "top11Points": 5523,
+      "totalPointsAll": 5522,
+      "top11Points": 5524,
       "players": [
         {
           "name": "KL Rahul",
@@ -22985,12 +22997,12 @@
         {
           "name": "Tim David",
           "role": "Batsman",
-          "batting": 348,
+          "batting": 349,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 356,
+          "rawPoints": 357,
           "multiplier": 1,
-          "effectivePoints": 356,
+          "effectivePoints": 357,
           "countsInTop11": true
         },
         {
@@ -23051,8 +23063,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4591,
-      "top11Points": 4503,
+      "totalPointsAll": 4581,
+      "top11Points": 4493,
       "players": [
         {
           "name": "Shubman Gill",
@@ -23124,11 +23136,11 @@
           "name": "Shashank Singh",
           "role": "Batsman",
           "batting": 96,
-          "bowling": 87,
+          "bowling": 82,
           "fielding": 8,
-          "rawPoints": 191,
+          "rawPoints": 186,
           "multiplier": 1,
-          "effectivePoints": 191,
+          "effectivePoints": 186,
           "countsInTop11": true
         },
         {
@@ -23179,18 +23191,18 @@
           "name": "Harpreet Brar",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 67,
+          "bowling": 62,
           "fielding": 0,
-          "rawPoints": 67,
+          "rawPoints": 62,
           "multiplier": 1,
-          "effectivePoints": 67,
+          "effectivePoints": 62,
           "countsInTop11": true
         }
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4758,
-      "top11Points": 4758,
+      "totalPointsAll": 4777,
+      "top11Points": 4777,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23204,6 +23216,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Virat Kohli",
+          "role": "Opener",
+          "batting": 712,
+          "bowling": 0,
+          "fielding": 48,
+          "rawPoints": 760,
+          "multiplier": 1,
+          "effectivePoints": 760,
+          "countsInTop11": true
+        },
+        {
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 39,
@@ -23212,17 +23235,6 @@
           "rawPoints": 753,
           "multiplier": 1,
           "effectivePoints": 753,
-          "countsInTop11": true
-        },
-        {
-          "name": "Virat Kohli",
-          "role": "Opener",
-          "batting": 693,
-          "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 741,
-          "multiplier": 1,
-          "effectivePoints": 741,
           "countsInTop11": true
         },
         {
