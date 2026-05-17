@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T12:54:53.760Z",
+  "lastUpdated": "2026-05-17T13:05:06.571Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 89,
-        "w": 4,
-        "o": 10.2
+        "r": 110,
+        "w": 5,
+        "o": 12.3
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -40,16 +40,16 @@
         "total": 9
       },
       "Marcus Stoinis": {
-        "batting": 14,
+        "batting": 23,
         "bowling": 0,
         "fielding": 0,
-        "total": 14
+        "total": 23
       },
       "Shashank Singh": {
-        "batting": 0,
+        "batting": 11,
         "bowling": -5,
         "fielding": 0,
-        "total": -5
+        "total": 6
       },
       "Harpreet Brar": {
         "batting": 0,
@@ -72,8 +72,8 @@
       "Virat Kohli": {
         "batting": 83,
         "bowling": 0,
-        "fielding": 0,
-        "total": 83
+        "fielding": 8,
+        "total": 91
       },
       "Devdutt Padikkal": {
         "batting": 65,
@@ -101,9 +101,9 @@
       },
       "Krunal Pandya": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 5,
         "fielding": 0,
-        "total": 0
+        "total": 5
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
@@ -113,9 +113,9 @@
       },
       "Suyash Sharma": {
         "batting": 0,
-        "bowling": -5,
+        "bowling": 20,
         "fielding": 0,
-        "total": -5
+        "total": 20
       },
       "Josh Hazlewood": {
         "batting": 0,
@@ -137,24 +137,24 @@
       "top11Points": 5188
     },
     {
+      "team": "Kishan",
+      "totalPointsAll": 4887,
+      "top11Points": 4887
+    },
+    {
       "team": "Ritik",
       "totalPointsAll": 4878,
       "top11Points": 4878
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 4870,
-      "top11Points": 4870
+      "team": "Manav",
+      "totalPointsAll": 4872,
+      "top11Points": 4695
     },
     {
       "team": "Athu",
       "totalPointsAll": 4667,
       "top11Points": 4670
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 4842,
-      "top11Points": 4665
     },
     {
       "team": "Aakash",
@@ -163,8 +163,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4625,
-      "top11Points": 4537
+      "totalPointsAll": 4636,
+      "top11Points": 4548
     },
     {
       "team": "Tanay",
@@ -22518,9 +22518,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 89,
-          "w": 4,
-          "o": 10.2
+          "r": 110,
+          "w": 5,
+          "o": 12.3
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -22635,9 +22635,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 89,
-          "wickets": 4,
-          "overs": 10.2,
+          "runs": 110,
+          "wickets": 5,
+          "overs": 12.3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -22678,19 +22678,28 @@
             {
               "name": "Suryansh Shedge",
               "runs": 35,
-              "balls": 21,
+              "balls": 22,
               "fours": 2,
               "sixes": 2,
-              "sr": 166.67,
-              "dismissal": "batting"
+              "sr": 159.09,
+              "dismissal": "c Virat Kohli b Suyash Sharma"
             },
             {
               "name": "Marcus Stoinis",
-              "runs": 13,
-              "balls": 9,
-              "fours": 1,
+              "runs": 21,
+              "balls": 15,
+              "fours": 2,
               "sixes": 0,
-              "sr": 144.44,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shashank Singh",
+              "runs": 9,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 150,
               "dismissal": "batting"
             }
           ],
@@ -22721,11 +22730,11 @@
             },
             {
               "name": "Suyash Sharma",
-              "overs": 2.3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 28,
-              "wickets": 0,
-              "economy": 11.2
+              "runs": 38,
+              "wickets": 1,
+              "economy": 10.36
             },
             {
               "name": "Romario Shepherd",
@@ -22737,11 +22746,11 @@
             },
             {
               "name": "Krunal Pandya",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 15,
               "wickets": 0,
-              "economy": 6
+              "economy": 7.5
             }
           ]
         }
@@ -22766,16 +22775,16 @@
           "total": 9
         },
         "Marcus Stoinis": {
-          "batting": 14,
+          "batting": 23,
           "bowling": 0,
           "fielding": 0,
-          "total": 14
+          "total": 23
         },
         "Shashank Singh": {
-          "batting": 0,
+          "batting": 11,
           "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": 6
         },
         "Harpreet Brar": {
           "batting": 0,
@@ -22798,8 +22807,8 @@
         "Virat Kohli": {
           "batting": 83,
           "bowling": 0,
-          "fielding": 0,
-          "total": 83
+          "fielding": 8,
+          "total": 91
         },
         "Devdutt Padikkal": {
           "batting": 65,
@@ -22827,9 +22836,9 @@
         },
         "Krunal Pandya": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 5,
           "fielding": 0,
-          "total": 0
+          "total": 5
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
@@ -22839,9 +22848,9 @@
         },
         "Suyash Sharma": {
           "batting": 0,
-          "bowling": -5,
+          "bowling": 20,
           "fielding": 0,
-          "total": -5
+          "total": 20
         },
         "Josh Hazlewood": {
           "batting": 0,
@@ -23280,8 +23289,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4625,
-      "top11Points": 4537,
+      "totalPointsAll": 4636,
+      "top11Points": 4548,
       "players": [
         {
           "name": "Shubman Gill",
@@ -23352,12 +23361,12 @@
         {
           "name": "Shashank Singh",
           "role": "Batsman",
-          "batting": 96,
+          "batting": 107,
           "bowling": 82,
           "fielding": 8,
-          "rawPoints": 186,
+          "rawPoints": 197,
           "multiplier": 1,
-          "effectivePoints": 186,
+          "effectivePoints": 197,
           "countsInTop11": true
         },
         {
@@ -23418,8 +23427,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4870,
-      "top11Points": 4870,
+      "totalPointsAll": 4887,
+      "top11Points": 4887,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23448,10 +23457,10 @@
           "role": "Opener",
           "batting": 713,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 761,
+          "fielding": 56,
+          "rawPoints": 769,
           "multiplier": 1,
-          "effectivePoints": 761,
+          "effectivePoints": 769,
           "countsInTop11": true
         },
         {
@@ -23490,12 +23499,12 @@
         {
           "name": "Marcus Stoinis",
           "role": "All-Rounder",
-          "batting": 273,
+          "batting": 282,
           "bowling": 35,
           "fielding": 18,
-          "rawPoints": 326,
+          "rawPoints": 335,
           "multiplier": 1,
-          "effectivePoints": 326,
+          "effectivePoints": 335,
           "countsInTop11": true
         },
         {
@@ -23545,8 +23554,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4842,
-      "top11Points": 4665,
+      "totalPointsAll": 4872,
+      "top11Points": 4695,
       "players": [
         {
           "name": "Axar Patel",
@@ -23596,11 +23605,11 @@
           "name": "Krunal Pandya",
           "role": "All-Rounder",
           "batting": 204,
-          "bowling": 282,
+          "bowling": 287,
           "fielding": 16,
-          "rawPoints": 502,
+          "rawPoints": 507,
           "multiplier": 1,
-          "effectivePoints": 502,
+          "effectivePoints": 507,
           "countsInTop11": true
         },
         {
@@ -23651,11 +23660,11 @@
           "name": "Suyash Sharma",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 185,
+          "bowling": 210,
           "fielding": 0,
-          "rawPoints": 185,
+          "rawPoints": 210,
           "multiplier": 1,
-          "effectivePoints": 185,
+          "effectivePoints": 210,
           "countsInTop11": true
         },
         {
