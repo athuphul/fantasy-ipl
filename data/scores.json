@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T12:04:53.609Z",
+  "lastUpdated": "2026-05-17T12:15:08.589Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Punjab Kings",
-        "r": 6,
-        "w": 1,
-        "o": 1.2
+        "r": 19,
+        "w": 2,
+        "o": 3
       },
       {
         "inning": "Royal Challengers Bengaluru",
@@ -28,16 +28,16 @@
         "total": 3
       },
       "Prabhsimran Singh": {
-        "batting": 1,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 2
       },
       "Shreyas Iyer": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 9
       },
       "Shashank Singh": {
         "batting": 0,
@@ -78,8 +78,8 @@
       "Devdutt Padikkal": {
         "batting": 65,
         "bowling": 0,
-        "fielding": 0,
-        "total": 65
+        "fielding": 8,
+        "total": 73
       },
       "Tim David": {
         "batting": 49,
@@ -107,9 +107,9 @@
       },
       "Bhuvneshwar Kumar": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 70,
         "fielding": 0,
-        "total": 25
+        "total": 70
       },
       "Suyash Sharma": {
         "batting": 0,
@@ -128,8 +128,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5570,
-      "top11Points": 5572
+      "totalPointsAll": 5571,
+      "top11Points": 5573
     },
     {
       "team": "Tikoo",
@@ -138,13 +138,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 4877,
-      "top11Points": 4877
+      "totalPointsAll": 4878,
+      "top11Points": 4878
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4803,
-      "top11Points": 4803
+      "totalPointsAll": 4856,
+      "top11Points": 4856
     },
     {
       "team": "Manav",
@@ -22518,9 +22518,9 @@
       "score": [
         {
           "inning": "Punjab Kings",
-          "r": 6,
-          "w": 1,
-          "o": 1.2
+          "r": 19,
+          "w": 2,
+          "o": 3
         },
         {
           "inning": "Royal Challengers Bengaluru",
@@ -22635,9 +22635,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 6,
-          "wickets": 1,
-          "overs": 1.2,
+          "runs": 19,
+          "wickets": 2,
+          "overs": 3,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -22650,39 +22650,56 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 1,
-              "balls": 1,
+              "runs": 2,
+              "balls": 5,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 40,
+              "dismissal": "c Devdutt Padikkal b Bhuvneshwar Kumar"
             },
             {
               "name": "Cooper Connolly",
-              "runs": 4,
-              "balls": 4,
-              "fours": 1,
+              "runs": 15,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shreyas Iyer",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
-              "wickets": 1,
-              "economy": 5
+              "runs": 8,
+              "wickets": 2,
+              "economy": 4
             },
             {
               "name": "Josh Hazlewood",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 11,
               "wickets": 0,
-              "economy": 3
+              "economy": 11
+            },
+            {
+              "name": "Rasikh Salam Dar",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
             }
           ]
         }
@@ -22695,16 +22712,16 @@
           "total": 3
         },
         "Prabhsimran Singh": {
-          "batting": 1,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 2
         },
         "Shreyas Iyer": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
         },
         "Shashank Singh": {
           "batting": 0,
@@ -22745,8 +22762,8 @@
         "Devdutt Padikkal": {
           "batting": 65,
           "bowling": 0,
-          "fielding": 0,
-          "total": 65
+          "fielding": 8,
+          "total": 73
         },
         "Tim David": {
           "batting": 49,
@@ -22774,9 +22791,9 @@
         },
         "Bhuvneshwar Kumar": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 70,
           "fielding": 0,
-          "total": 25
+          "total": 70
         },
         "Suyash Sharma": {
           "batting": 0,
@@ -23083,8 +23100,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5570,
-      "top11Points": 5572,
+      "totalPointsAll": 5571,
+      "top11Points": 5573,
       "players": [
         {
           "name": "KL Rahul",
@@ -23122,12 +23139,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 569,
+          "batting": 570,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 625,
+          "rawPoints": 626,
           "multiplier": 1,
-          "effectivePoints": 625,
+          "effectivePoints": 626,
           "countsInTop11": true
         },
         {
@@ -23359,8 +23376,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4803,
-      "top11Points": 4803,
+      "totalPointsAll": 4856,
+      "top11Points": 4856,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -23377,11 +23394,11 @@
           "name": "Bhuvneshwar Kumar",
           "role": "Fast Bowler",
           "batting": 39,
-          "bowling": 726,
+          "bowling": 771,
           "fielding": 13,
-          "rawPoints": 778,
+          "rawPoints": 823,
           "multiplier": 1,
-          "effectivePoints": 778,
+          "effectivePoints": 823,
           "countsInTop11": true
         },
         {
@@ -23400,10 +23417,10 @@
           "role": "Batsman",
           "batting": 590,
           "bowling": 0,
-          "fielding": 90,
-          "rawPoints": 680,
+          "fielding": 98,
+          "rawPoints": 688,
           "multiplier": 1,
-          "effectivePoints": 680,
+          "effectivePoints": 688,
           "countsInTop11": true
         },
         {
@@ -23646,8 +23663,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 4877,
-      "top11Points": 4877,
+      "totalPointsAll": 4878,
+      "top11Points": 4878,
       "players": [
         {
           "name": "Jos Buttler",
@@ -23674,12 +23691,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 635,
+          "batting": 636,
           "bowling": 0,
           "fielding": 53,
-          "rawPoints": 688,
+          "rawPoints": 689,
           "multiplier": 1,
-          "effectivePoints": 688,
+          "effectivePoints": 689,
           "countsInTop11": true
         },
         {
