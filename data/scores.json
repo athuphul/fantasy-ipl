@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T14:14:53.318Z",
+  "lastUpdated": "2026-05-17T14:24:56.259Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 30,
+        "r": 48,
         "w": 1,
-        "o": 2.3
+        "o": 4.3
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 45,
         "fielding": 0,
-        "total": 25
+        "total": 45
       },
       "Yashasvi Jaiswal": {
         "batting": 15,
@@ -58,16 +58,16 @@
         "total": 15
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 22,
+        "batting": 54,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 54
       },
       "Dhruv Jurel": {
-        "batting": 0,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 5
       }
     }
   },
@@ -79,8 +79,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5541,
-      "top11Points": 5235
+      "totalPointsAll": 5593,
+      "top11Points": 5287
     },
     {
       "team": "Kishan",
@@ -94,8 +94,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 4897,
-      "top11Points": 4720
+      "totalPointsAll": 4902,
+      "top11Points": 4725
     },
     {
       "team": "Athu",
@@ -22825,17 +22825,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 30,
+          "r": 48,
           "w": 1,
-          "o": 2.3
+          "o": 4.3
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 30,
+          "runs": 48,
           "wickets": 1,
-          "overs": 2.3,
+          "overs": 4.3,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -22848,39 +22848,47 @@
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 17,
-              "balls": 5,
-              "fours": 1,
+              "runs": 31,
+              "balls": 13,
+              "fours": 4,
               "sixes": 2,
-              "sr": 340,
+              "sr": 238.46,
               "dismissal": "batting"
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 0,
-              "balls": 1,
-              "fours": 0,
+              "runs": 4,
+              "balls": 6,
+              "fours": 1,
               "sixes": 0,
-              "sr": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 1.3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 23,
+              "runs": 28,
               "wickets": 0,
-              "economy": 15.33
+              "economy": 14
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 12,
               "wickets": 1,
-              "economy": 7
+              "economy": 6
+            },
+            {
+              "name": "Tripurana Vijay",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -22918,9 +22926,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 45,
           "fielding": 0,
-          "total": 25
+          "total": 45
         },
         "Yashasvi Jaiswal": {
           "batting": 15,
@@ -22929,16 +22937,16 @@
           "total": 15
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 22,
+          "batting": 54,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 54
         },
         "Dhruv Jurel": {
-          "batting": 0,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 5
         }
       },
       "isComplete": false
@@ -23636,8 +23644,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4897,
-      "top11Points": 4720,
+      "totalPointsAll": 4902,
+      "top11Points": 4725,
       "players": [
         {
           "name": "Axar Patel",
@@ -23664,12 +23672,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 422,
+          "batting": 427,
           "bowling": 0,
           "fielding": 142,
-          "rawPoints": 564,
+          "rawPoints": 569,
           "multiplier": 1,
-          "effectivePoints": 564,
+          "effectivePoints": 569,
           "countsInTop11": true
         },
         {
@@ -24061,8 +24069,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5541,
-      "top11Points": 5235,
+      "totalPointsAll": 5593,
+      "top11Points": 5287,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24078,12 +24086,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 725,
+          "batting": 757,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 725,
+          "rawPoints": 757,
           "multiplier": 1,
-          "effectivePoints": 725,
+          "effectivePoints": 757,
           "countsInTop11": true
         },
         {
@@ -24120,6 +24128,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": -1,
+          "bowling": 290,
+          "fielding": 5,
+          "rawPoints": 294,
+          "multiplier": 1,
+          "effectivePoints": 294,
+          "countsInTop11": true
+        },
+        {
           "name": "Sarfaraz Khan",
           "role": "Batsman",
           "batting": 231,
@@ -24150,17 +24169,6 @@
           "rawPoints": 286,
           "multiplier": 1,
           "effectivePoints": 286,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": -1,
-          "bowling": 270,
-          "fielding": 5,
-          "rawPoints": 274,
-          "multiplier": 1,
-          "effectivePoints": 274,
           "countsInTop11": true
         },
         {
