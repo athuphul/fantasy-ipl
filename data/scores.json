@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T11:44:52.998Z",
+  "lastUpdated": "2026-05-17T11:55:07.441Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529304",
@@ -42,14 +42,14 @@
       "Harpreet Brar": {
         "batting": 0,
         "bowling": 50,
-        "fielding": 0,
-        "total": 50
+        "fielding": 8,
+        "total": 58
       },
       "Arshdeep Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Yuzvendra Chahal": {
         "batting": 0,
@@ -76,18 +76,18 @@
         "total": 65
       },
       "Tim David": {
-        "batting": 11,
+        "batting": 49,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 49
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5532,
-      "top11Points": 5534
+      "totalPointsAll": 5570,
+      "top11Points": 5572
     },
     {
       "team": "Tikoo",
@@ -105,14 +105,14 @@
       "top11Points": 4778
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 4849,
+      "top11Points": 4672
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 4667,
       "top11Points": 4670
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 4829,
-      "top11Points": 4652
     },
     {
       "team": "Aakash",
@@ -121,8 +121,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4589,
-      "top11Points": 4501
+      "totalPointsAll": 4597,
+      "top11Points": 4509
     },
     {
       "team": "Tanay",
@@ -22517,39 +22517,39 @@
             },
             {
               "name": "Venkatesh Iyer",
-              "runs": 66,
-              "balls": 33,
-              "fours": 7,
+              "runs": 73,
+              "balls": 40,
+              "fours": 8,
               "sixes": 4,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 182.5,
+              "dismissal": "not out"
             },
             {
               "name": "Tim David",
-              "runs": 9,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 225,
-              "dismissal": "batting"
+              "runs": 28,
+              "balls": 12,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 233.33,
+              "dismissal": "c Harpreet Brar b Arshdeep Singh"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 24,
-              "wickets": 0,
-              "economy": 9.6
+              "runs": 43,
+              "wickets": 1,
+              "economy": 10.75
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 30,
+              "runs": 38,
               "wickets": 0,
-              "economy": 10
+              "economy": 9.5
             },
             {
               "name": "Harpreet Brar",
@@ -22614,14 +22614,14 @@
         "Harpreet Brar": {
           "batting": 0,
           "bowling": 50,
-          "fielding": 0,
-          "total": 50
+          "fielding": 8,
+          "total": 58
         },
         "Arshdeep Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Yuzvendra Chahal": {
           "batting": 0,
@@ -22648,10 +22648,10 @@
           "total": 65
         },
         "Tim David": {
-          "batting": 11,
+          "batting": 49,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 49
         }
       },
       "isComplete": false
@@ -22946,8 +22946,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5532,
-      "top11Points": 5534,
+      "totalPointsAll": 5570,
+      "top11Points": 5572,
       "players": [
         {
           "name": "KL Rahul",
@@ -23005,6 +23005,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Tim David",
+          "role": "Batsman",
+          "batting": 397,
+          "bowling": 0,
+          "fielding": 8,
+          "rawPoints": 405,
+          "multiplier": 1,
+          "effectivePoints": 405,
+          "countsInTop11": true
+        },
+        {
           "name": "Tristan Stubbs",
           "role": "Batsman",
           "batting": 332,
@@ -23013,17 +23024,6 @@
           "rawPoints": 372,
           "multiplier": 1,
           "effectivePoints": 372,
-          "countsInTop11": true
-        },
-        {
-          "name": "Tim David",
-          "role": "Batsman",
-          "batting": 359,
-          "bowling": 0,
-          "fielding": 8,
-          "rawPoints": 367,
-          "multiplier": 1,
-          "effectivePoints": 367,
           "countsInTop11": true
         },
         {
@@ -23084,8 +23084,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4589,
-      "top11Points": 4501,
+      "totalPointsAll": 4597,
+      "top11Points": 4509,
       "players": [
         {
           "name": "Shubman Gill",
@@ -23213,10 +23213,10 @@
           "role": "Spinner",
           "batting": 0,
           "bowling": 62,
-          "fielding": 0,
-          "rawPoints": 62,
+          "fielding": 8,
+          "rawPoints": 70,
           "multiplier": 1,
-          "effectivePoints": 62,
+          "effectivePoints": 70,
           "countsInTop11": true
         }
       ]
@@ -23349,8 +23349,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 4829,
-      "top11Points": 4652,
+      "totalPointsAll": 4849,
+      "top11Points": 4672,
       "players": [
         {
           "name": "Axar Patel",
@@ -23411,11 +23411,11 @@
           "name": "Arshdeep Singh",
           "role": "Fast Bowler",
           "batting": 1,
-          "bowling": 365,
+          "bowling": 385,
           "fielding": 32,
-          "rawPoints": 398,
+          "rawPoints": 418,
           "multiplier": 1,
-          "effectivePoints": 398,
+          "effectivePoints": 418,
           "countsInTop11": true
         },
         {
