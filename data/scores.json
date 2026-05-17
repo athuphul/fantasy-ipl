@@ -1,94 +1,7 @@
 {
-  "lastUpdated": "2026-05-17T17:54:53.304Z",
+  "lastUpdated": "2026-05-17T18:04:56.240Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529305",
-    "name": "Delhi Capitals v Rajasthan Royals",
-    "status": "Live",
-    "venue": "Arun Jaitley Stadium, Delhi",
-    "score": [
-      {
-        "inning": "Delhi Capitals",
-        "r": 175,
-        "w": 4,
-        "o": 18
-      },
-      {
-        "inning": "Rajasthan Royals",
-        "r": 193,
-        "w": 8,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Abishek Porel": {
-        "batting": 75,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 75
-      },
-      "KL Rahul": {
-        "batting": 73,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 73
-      },
-      "Axar Patel": {
-        "batting": 53,
-        "bowling": 5,
-        "fielding": 16,
-        "total": 74
-      },
-      "Tristan Stubbs": {
-        "batting": 4,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 12
-      },
-      "David Miller": {
-        "batting": 11,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 19
-      },
-      "Lungi Ngidi": {
-        "batting": 0,
-        "bowling": 70,
-        "fielding": 0,
-        "total": 70
-      },
-      "Yashasvi Jaiswal": {
-        "batting": 15,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 23
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 72,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 72
-      },
-      "Dhruv Jurel": {
-        "batting": 72,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 80
-      },
-      "Riyan Parag": {
-        "batting": 84,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 84
-      },
-      "Jofra Archer": {
-        "batting": 2,
-        "bowling": 50,
-        "fielding": 0,
-        "total": 52
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -112,8 +25,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5125,
-      "top11Points": 4948
+      "totalPointsAll": 5119,
+      "top11Points": 4942
     },
     {
       "team": "Aakash",
@@ -132,8 +45,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4073,
-      "top11Points": 4026
+      "totalPointsAll": 4096,
+      "top11Points": 4049
     }
   ],
   "matchHistory": [
@@ -22838,14 +22751,14 @@
       "matchId": "espn_1529305",
       "name": "Delhi Capitals v Rajasthan Royals",
       "date": "2026-05-17",
-      "status": "Live",
+      "status": "Final",
       "venue": "Arun Jaitley Stadium, Delhi",
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 175,
-          "w": 4,
-          "o": 18
+          "r": 197,
+          "w": 5,
+          "o": 19.2
         },
         {
           "inning": "Rajasthan Royals",
@@ -23005,9 +22918,9 @@
         },
         {
           "innings": "Delhi Capitals",
-          "runs": 175,
-          "wickets": 4,
-          "overs": 18,
+          "runs": 197,
+          "wickets": 5,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -23038,12 +22951,12 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 32,
-              "balls": 16,
+              "runs": 34,
+              "balls": 18,
               "fours": 2,
               "sixes": 2,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 188.89,
+              "dismissal": "not out"
             },
             {
               "name": "Tristan Stubbs",
@@ -23057,11 +22970,20 @@
             {
               "name": "David Miller",
               "runs": 9,
-              "balls": 5,
+              "balls": 6,
               "fours": 0,
               "sixes": 1,
-              "sr": 180,
-              "dismissal": "batting"
+              "sr": 150,
+              "dismissal": "c Dasun Shanaka b Brijesh Sharma"
+            },
+            {
+              "name": "Ashutosh Sharma",
+              "runs": 18,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 360,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -23075,19 +22997,19 @@
             },
             {
               "name": "Adam Milne",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 31,
+              "runs": 41,
               "wickets": 0,
-              "economy": 10.33
+              "economy": 12.3
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
-              "wickets": 1,
-              "economy": 10.67
+              "runs": 44,
+              "wickets": 2,
+              "economy": 11
             },
             {
               "name": "Dasun Shanaka",
@@ -23130,10 +23052,10 @@
           "total": 73
         },
         "Axar Patel": {
-          "batting": 53,
+          "batting": 50,
           "bowling": 5,
           "fielding": 16,
-          "total": 74
+          "total": 71
         },
         "Tristan Stubbs": {
           "batting": 4,
@@ -23146,6 +23068,12 @@
           "bowling": 0,
           "fielding": 8,
           "total": 19
+        },
+        "Ashutosh Sharma": {
+          "batting": 23,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 23
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -23184,7 +23112,7 @@
           "total": 52
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -23879,18 +23807,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5125,
-      "top11Points": 4948,
+      "totalPointsAll": 5119,
+      "top11Points": 4942,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 168,
+          "batting": 165,
           "bowling": 324,
           "fielding": 40,
-          "rawPoints": 532,
+          "rawPoints": 529,
           "multiplier": 2,
-          "effectivePoints": 1064,
+          "effectivePoints": 1058,
           "countsInTop11": true
         },
         {
@@ -24166,8 +24094,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4073,
-      "top11Points": 4026,
+      "totalPointsAll": 4096,
+      "top11Points": 4049,
       "players": [
         {
           "name": "Travis Head",
@@ -24249,12 +24177,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 195,
+          "batting": 218,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 211,
+          "rawPoints": 234,
           "multiplier": 1,
-          "effectivePoints": 211,
+          "effectivePoints": 234,
           "countsInTop11": true
         },
         {
