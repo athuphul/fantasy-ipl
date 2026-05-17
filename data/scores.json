@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T15:54:52.640Z",
+  "lastUpdated": "2026-05-17T16:04:55.773Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529305",
@@ -30,8 +30,8 @@
       "Tristan Stubbs": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "David Miller": {
         "batting": 0,
@@ -64,10 +64,10 @@
         "total": 72
       },
       "Dhruv Jurel": {
-        "batting": 70,
+        "batting": 69,
         "bowling": 0,
         "fielding": 0,
-        "total": 70
+        "total": 69
       },
       "Riyan Parag": {
         "batting": 84,
@@ -76,18 +76,18 @@
         "total": 84
       },
       "Jofra Archer": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5579,
-      "top11Points": 5581
+      "totalPointsAll": 5571,
+      "top11Points": 5573
     },
     {
       "team": "Tikoo",
@@ -106,8 +106,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5009,
-      "top11Points": 4832
+      "totalPointsAll": 5008,
+      "top11Points": 4831
     },
     {
       "team": "Athu",
@@ -116,8 +116,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4685,
-      "top11Points": 4649
+      "totalPointsAll": 4687,
+      "top11Points": 4651
     },
     {
       "team": "Ashwin",
@@ -22869,11 +22869,11 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 51,
-              "balls": 37,
+              "runs": 50,
+              "balls": 36,
               "fours": 5,
               "sixes": 2,
-              "sr": 137.84,
+              "sr": 138.89,
               "dismissal": "batting"
             },
             {
@@ -22914,31 +22914,22 @@
             },
             {
               "name": "Dasun Shanaka",
-              "runs": 10,
-              "balls": 8,
+              "runs": 7,
+              "balls": 5,
               "fours": 0,
               "sixes": 1,
-              "sr": 125,
-              "dismissal": "c Tristan Stubbs b Mitchell Starc"
-            },
-            {
-              "name": "Jofra Archer",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sr": 140,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 3.5,
+              "overs": 3.1,
               "maidens": 0,
-              "runs": 39,
-              "wickets": 4,
-              "economy": 10.17
+              "runs": 35,
+              "wickets": 3,
+              "economy": 11.05
             },
             {
               "name": "Lungi Ngidi",
@@ -22999,8 +22990,8 @@
         "Tristan Stubbs": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "David Miller": {
           "batting": 0,
@@ -23033,10 +23024,10 @@
           "total": 72
         },
         "Dhruv Jurel": {
-          "batting": 70,
+          "batting": 69,
           "bowling": 0,
           "fielding": 0,
-          "total": 70
+          "total": 69
         },
         "Riyan Parag": {
           "batting": 84,
@@ -23045,10 +23036,10 @@
           "total": 84
         },
         "Jofra Archer": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         }
       },
       "isComplete": false
@@ -23205,8 +23196,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4685,
-      "top11Points": 4649,
+      "totalPointsAll": 4687,
+      "top11Points": 4651,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23244,12 +23235,12 @@
         {
           "name": "Jofra Archer",
           "role": "Fast Bowler",
-          "batting": 21,
+          "batting": 23,
           "bowling": 395,
           "fielding": 50,
-          "rawPoints": 466,
+          "rawPoints": 468,
           "multiplier": 1,
-          "effectivePoints": 466,
+          "effectivePoints": 468,
           "countsInTop11": true
         },
         {
@@ -23343,8 +23334,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5579,
-      "top11Points": 5581,
+      "totalPointsAll": 5571,
+      "top11Points": 5573,
       "players": [
         {
           "name": "KL Rahul",
@@ -23417,10 +23408,10 @@
           "role": "Batsman",
           "batting": 332,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 380,
+          "fielding": 40,
+          "rawPoints": 372,
           "multiplier": 1,
-          "effectivePoints": 380,
+          "effectivePoints": 372,
           "countsInTop11": true
         },
         {
@@ -23746,8 +23737,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5009,
-      "top11Points": 4832,
+      "totalPointsAll": 5008,
+      "top11Points": 4831,
       "players": [
         {
           "name": "Axar Patel",
@@ -23763,12 +23754,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 492,
+          "batting": 491,
           "bowling": 0,
           "fielding": 142,
-          "rawPoints": 634,
+          "rawPoints": 633,
           "multiplier": 1,
-          "effectivePoints": 634,
+          "effectivePoints": 633,
           "countsInTop11": true
         },
         {
