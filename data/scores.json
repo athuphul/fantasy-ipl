@@ -1,7 +1,58 @@
 {
-  "lastUpdated": "2026-05-18T14:04:53.420Z",
+  "lastUpdated": "2026-05-18T14:15:17.251Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529306",
+    "name": "Chennai Super Kings v Sunrisers Hyderabad",
+    "status": "Live",
+    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "score": [
+      {
+        "inning": "Chennai Super Kings",
+        "r": 31,
+        "w": 0,
+        "o": 2.2
+      }
+    ],
+    "playerScores": {
+      "Sanju Samson": {
+        "batting": 49,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 49
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
+      },
+      "Abhishek Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ishan Kishan": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Heinrich Klaasen": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Nitish Kumar Reddy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -10,8 +61,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5655,
-      "top11Points": 5349
+      "totalPointsAll": 5753,
+      "top11Points": 5447
     },
     {
       "team": "Ritik",
@@ -25,8 +76,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5119,
-      "top11Points": 4942
+      "totalPointsAll": 5124,
+      "top11Points": 4947
     },
     {
       "team": "Aakash",
@@ -23113,6 +23164,114 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529306",
+      "name": "Chennai Super Kings v Sunrisers Hyderabad",
+      "date": "2026-05-18",
+      "status": "Live",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "score": [
+        {
+          "inning": "Chennai Super Kings",
+          "r": 31,
+          "w": 0,
+          "o": 2.2
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Chennai Super Kings",
+          "runs": 31,
+          "wickets": 0,
+          "overs": 2.2,
+          "batting": [
+            {
+              "name": "Sanju Samson",
+              "runs": 27,
+              "balls": 12,
+              "fours": 5,
+              "sixes": 1,
+              "sr": 225,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Ruturaj Gaikwad",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Nitish Kumar Reddy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 17,
+              "wickets": 0,
+              "economy": 17
+            },
+            {
+              "name": "Praful Hinge",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Pat Cummins",
+              "overs": 0.2,
+              "maidens": 0,
+              "runs": 1,
+              "wickets": 0,
+              "economy": 3
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sanju Samson": {
+          "batting": 49,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 49
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
+        },
+        "Abhishek Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ishan Kishan": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Heinrich Klaasen": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Nitish Kumar Reddy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -23807,8 +23966,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5119,
-      "top11Points": 4942,
+      "totalPointsAll": 5124,
+      "top11Points": 4947,
       "players": [
         {
           "name": "Axar Patel",
@@ -23835,12 +23994,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 359,
+          "batting": 362,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 414,
+          "rawPoints": 417,
           "multiplier": 1.5,
-          "effectivePoints": 621,
+          "effectivePoints": 626,
           "countsInTop11": true
         },
         {
@@ -24232,18 +24391,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5655,
-      "top11Points": 5349,
+      "totalPointsAll": 5753,
+      "top11Points": 5447,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 674,
+          "batting": 723,
           "bowling": 0,
           "fielding": 52,
-          "rawPoints": 726,
+          "rawPoints": 775,
           "multiplier": 2,
-          "effectivePoints": 1452,
+          "effectivePoints": 1550,
           "countsInTop11": true
         },
         {
