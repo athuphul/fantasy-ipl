@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T17:34:53.403Z",
+  "lastUpdated": "2026-05-18T17:45:12.187Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529306",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Sunrisers Hyderabad",
-        "r": 131,
-        "w": 2,
-        "o": 14.2
+        "r": 143,
+        "w": 3,
+        "o": 16
       }
     ],
     "playerScores": {
       "Sanju Samson": {
         "batting": 49,
         "bowling": 0,
-        "fielding": 0,
-        "total": 49
+        "fielding": 10,
+        "total": 59
       },
       "Ruturaj Gaikwad": {
         "batting": 5,
@@ -59,9 +59,9 @@
       },
       "Noor Ahmad": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Abhishek Sharma": {
         "batting": 31,
@@ -76,22 +76,22 @@
         "total": 7
       },
       "Ishan Kishan": {
-        "batting": 55,
+        "batting": 72,
         "bowling": 0,
         "fielding": 8,
-        "total": 63
+        "total": 80
       },
       "Heinrich Klaasen": {
-        "batting": 46,
+        "batting": 67,
         "bowling": 0,
         "fielding": 0,
-        "total": 46
+        "total": 67
       },
       "Nitish Kumar Reddy": {
-        "batting": 0,
+        "batting": 8,
         "bowling": -15,
         "fielding": 8,
-        "total": -7
+        "total": 1
       }
     }
   },
@@ -103,13 +103,13 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5784,
-      "top11Points": 5478
+      "totalPointsAll": 5824,
+      "top11Points": 5518
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5109,
-      "top11Points": 5109
+      "totalPointsAll": 5126,
+      "top11Points": 5126
     },
     {
       "team": "Kishan",
@@ -118,13 +118,13 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5120,
-      "top11Points": 4943
+      "totalPointsAll": 5128,
+      "top11Points": 4951
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4713,
-      "top11Points": 4716
+      "totalPointsAll": 4734,
+      "top11Points": 4737
     },
     {
       "team": "Aakash",
@@ -23222,9 +23222,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 131,
-          "w": 2,
-          "o": 14.2
+          "r": 143,
+          "w": 3,
+          "o": 16
         }
       ],
       "scorecard": [
@@ -23360,9 +23360,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 131,
-          "wickets": 2,
-          "overs": 14.2,
+          "runs": 143,
+          "wickets": 3,
+          "overs": 16,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -23384,20 +23384,29 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 46,
-              "balls": 31,
+              "runs": 53,
+              "balls": 39,
               "fours": 5,
               "sixes": 2,
-              "sr": 148.39,
+              "sr": 135.9,
               "dismissal": "batting"
             },
             {
               "name": "Heinrich Klaasen",
-              "runs": 34,
-              "balls": 20,
-              "fours": 3,
+              "runs": 47,
+              "balls": 26,
+              "fours": 6,
               "sixes": 2,
-              "sr": 170,
+              "sr": 180.77,
+              "dismissal": "st Sanju Samson b Noor Ahmad"
+            },
+            {
+              "name": "Nitish Kumar Reddy",
+              "runs": 7,
+              "balls": 4,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
@@ -23428,19 +23437,27 @@
             },
             {
               "name": "Noor Ahmad",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 0,
-              "economy": 9.67
+              "runs": 40,
+              "wickets": 1,
+              "economy": 10
             },
             {
               "name": "Akeal Hosein",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
+              "runs": 21,
               "wickets": 1,
-              "economy": 7.5
+              "economy": 7
+            },
+            {
+              "name": "Shivam Dube",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 12
             }
           ]
         }
@@ -23449,8 +23466,8 @@
         "Sanju Samson": {
           "batting": 49,
           "bowling": 0,
-          "fielding": 0,
-          "total": 49
+          "fielding": 10,
+          "total": 59
         },
         "Ruturaj Gaikwad": {
           "batting": 5,
@@ -23484,9 +23501,9 @@
         },
         "Noor Ahmad": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Abhishek Sharma": {
           "batting": 31,
@@ -23501,22 +23518,22 @@
           "total": 7
         },
         "Ishan Kishan": {
-          "batting": 55,
+          "batting": 72,
           "bowling": 0,
           "fielding": 8,
-          "total": 63
+          "total": 80
         },
         "Heinrich Klaasen": {
-          "batting": 46,
+          "batting": 67,
           "bowling": 0,
           "fielding": 0,
-          "total": 46
+          "total": 67
         },
         "Nitish Kumar Reddy": {
-          "batting": 0,
+          "batting": 8,
           "bowling": -15,
           "fielding": 8,
-          "total": -7
+          "total": 1
         }
       },
       "isComplete": false
@@ -23524,18 +23541,18 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4713,
-      "top11Points": 4716,
+      "totalPointsAll": 4734,
+      "top11Points": 4737,
       "players": [
         {
           "name": "Heinrich Klaasen",
           "role": "Wicket Keeper",
-          "batting": 733,
+          "batting": 754,
           "bowling": 0,
           "fielding": 96,
-          "rawPoints": 829,
+          "rawPoints": 850,
           "multiplier": 1,
-          "effectivePoints": 829,
+          "effectivePoints": 850,
           "countsInTop11": true
         },
         {
@@ -24214,8 +24231,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5120,
-      "top11Points": 4943,
+      "totalPointsAll": 5128,
+      "top11Points": 4951,
       "players": [
         {
           "name": "Axar Patel",
@@ -24253,12 +24270,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 335,
+          "batting": 343,
           "bowling": 145,
           "fielding": 72,
-          "rawPoints": 552,
+          "rawPoints": 560,
           "multiplier": 1,
-          "effectivePoints": 552,
+          "effectivePoints": 560,
           "countsInTop11": true
         },
         {
@@ -24374,8 +24391,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5109,
-      "top11Points": 5109,
+      "totalPointsAll": 5126,
+      "top11Points": 5126,
       "players": [
         {
           "name": "Jos Buttler",
@@ -24402,12 +24419,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 658,
+          "batting": 675,
           "bowling": 0,
           "fielding": 92,
-          "rawPoints": 750,
+          "rawPoints": 767,
           "multiplier": 1,
-          "effectivePoints": 750,
+          "effectivePoints": 767,
           "countsInTop11": true
         },
         {
@@ -24639,18 +24656,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5784,
-      "top11Points": 5478,
+      "totalPointsAll": 5824,
+      "top11Points": 5518,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
           "batting": 723,
           "bowling": 0,
-          "fielding": 52,
-          "rawPoints": 775,
+          "fielding": 62,
+          "rawPoints": 785,
           "multiplier": 2,
-          "effectivePoints": 1550,
+          "effectivePoints": 1570,
           "countsInTop11": true
         },
         {
@@ -24679,11 +24696,11 @@
           "name": "Noor Ahmad",
           "role": "Spinner",
           "batting": 12,
-          "bowling": 382,
+          "bowling": 402,
           "fielding": 32,
-          "rawPoints": 426,
+          "rawPoints": 446,
           "multiplier": 1,
-          "effectivePoints": 426,
+          "effectivePoints": 446,
           "countsInTop11": true
         },
         {
