@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T15:45:06.774Z",
+  "lastUpdated": "2026-05-18T15:54:55.212Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529306",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 163,
-        "w": 5,
-        "o": 18.1
+        "r": 176,
+        "w": 6,
+        "o": 19.3
       }
     ],
     "playerScores": {
@@ -34,22 +34,22 @@
         "total": 44
       },
       "Dewald Brevis": {
-        "batting": 8,
+        "batting": 59,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 59
       },
       "Shivam Dube": {
-        "batting": 7,
+        "batting": 31,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 31
       },
       "Prashant Veer": {
-        "batting": 0,
+        "batting": 13,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 13
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Nitish Kumar Reddy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 8,
-        "total": 8
+        "total": -7
       }
     }
   },
@@ -85,8 +85,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5760,
-      "top11Points": 5454
+      "totalPointsAll": 5784,
+      "top11Points": 5478
     },
     {
       "team": "Ritik",
@@ -100,8 +100,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5135,
-      "top11Points": 4958
+      "totalPointsAll": 5120,
+      "top11Points": 4943
     },
     {
       "team": "Aakash",
@@ -109,14 +109,14 @@
       "top11Points": 4709
     },
     {
+      "team": "Ashwin",
+      "totalPointsAll": 4793,
+      "top11Points": 4705
+    },
+    {
       "team": "Athu",
       "totalPointsAll": 4667,
       "top11Points": 4670
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 4729,
-      "top11Points": 4641
     },
     {
       "team": "Tanay",
@@ -23198,17 +23198,17 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 163,
-          "w": 5,
-          "o": 18.1
+          "r": 176,
+          "w": 6,
+          "o": 19.3
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 163,
-          "wickets": 5,
-          "overs": 18.1,
+          "runs": 176,
+          "wickets": 6,
+          "overs": 19.3,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -23248,63 +23248,81 @@
             },
             {
               "name": "Dewald Brevis",
-              "runs": 11,
-              "balls": 13,
-              "fours": 0,
-              "sixes": 1,
-              "sr": 84.62,
-              "dismissal": "batting"
+              "runs": 44,
+              "balls": 27,
+              "fours": 2,
+              "sixes": 4,
+              "sr": 162.96,
+              "dismissal": "b Eshan Malinga"
             },
             {
               "name": "Shivam Dube",
-              "runs": 6,
-              "balls": 6,
-              "fours": 1,
+              "runs": 26,
+              "balls": 23,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 113.04,
+              "dismissal": "b Sakib Hussain"
+            },
+            {
+              "name": "Prashant Veer",
+              "runs": 11,
+              "balls": 7,
+              "fours": 2,
               "sixes": 0,
-              "sr": 100,
+              "sr": 157.14,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Akeal Hosein",
+              "runs": 3,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 300,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Nitish Kumar Reddy",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 22,
+              "runs": 35,
               "wickets": 0,
-              "economy": 18.86
+              "economy": 17.5
             },
             {
               "name": "Praful Hinge",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 29,
+              "runs": 37,
               "wickets": 0,
-              "economy": 14.5
+              "economy": 13.88
             },
             {
               "name": "Pat Cummins",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 16,
+              "runs": 28,
               "wickets": 3,
-              "economy": 5.33
+              "economy": 7
             },
             {
               "name": "Eshan Malinga",
-              "overs": 2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 8,
-              "wickets": 0,
-              "economy": 4
+              "runs": 26,
+              "wickets": 1,
+              "economy": 6.5
             },
             {
               "name": "Sakib Hussain",
-              "overs": 2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 14,
-              "wickets": 1,
-              "economy": 7
+              "runs": 34,
+              "wickets": 2,
+              "economy": 8.5
             },
             {
               "name": "Shivang Kumar",
@@ -23337,22 +23355,22 @@
           "total": 44
         },
         "Dewald Brevis": {
-          "batting": 8,
+          "batting": 59,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 59
         },
         "Shivam Dube": {
-          "batting": 7,
+          "batting": 31,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 31
         },
         "Prashant Veer": {
-          "batting": 0,
+          "batting": 13,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 13
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -23374,9 +23392,9 @@
         },
         "Nitish Kumar Reddy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 8,
-          "total": 8
+          "total": -7
         }
       },
       "isComplete": false
@@ -23809,8 +23827,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4729,
-      "top11Points": 4641,
+      "totalPointsAll": 4793,
+      "top11Points": 4705,
       "players": [
         {
           "name": "Shubman Gill",
@@ -23868,6 +23886,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Dewald Brevis",
+          "role": "Batsman",
+          "batting": 181,
+          "bowling": 0,
+          "fielding": 106,
+          "rawPoints": 287,
+          "multiplier": 1,
+          "effectivePoints": 287,
+          "countsInTop11": true
+        },
+        {
           "name": "Shashank Singh",
           "role": "Batsman",
           "batting": 186,
@@ -23876,17 +23905,6 @@
           "rawPoints": 276,
           "multiplier": 1,
           "effectivePoints": 276,
-          "countsInTop11": true
-        },
-        {
-          "name": "Dewald Brevis",
-          "role": "Batsman",
-          "batting": 130,
-          "bowling": 0,
-          "fielding": 106,
-          "rawPoints": 236,
-          "multiplier": 1,
-          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -23914,12 +23932,12 @@
         {
           "name": "Prashant Veer",
           "role": "All-Rounder",
-          "batting": 99,
+          "batting": 112,
           "bowling": -10,
           "fielding": 0,
-          "rawPoints": 89,
+          "rawPoints": 102,
           "multiplier": 1,
-          "effectivePoints": 89,
+          "effectivePoints": 102,
           "countsInTop11": true
         },
         {
@@ -24074,8 +24092,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5135,
-      "top11Points": 4958,
+      "totalPointsAll": 5120,
+      "top11Points": 4943,
       "players": [
         {
           "name": "Axar Patel",
@@ -24114,11 +24132,11 @@
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
           "batting": 335,
-          "bowling": 160,
+          "bowling": 145,
           "fielding": 72,
-          "rawPoints": 567,
+          "rawPoints": 552,
           "multiplier": 1,
-          "effectivePoints": 567,
+          "effectivePoints": 552,
           "countsInTop11": true
         },
         {
@@ -24499,8 +24517,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5760,
-      "top11Points": 5454,
+      "totalPointsAll": 5784,
+      "top11Points": 5478,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24569,6 +24587,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 284,
+          "bowling": 10,
+          "fielding": 24,
+          "rawPoints": 318,
+          "multiplier": 1,
+          "effectivePoints": 318,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 265,
@@ -24577,17 +24606,6 @@
           "rawPoints": 305,
           "multiplier": 1,
           "effectivePoints": 305,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 260,
-          "bowling": 10,
-          "fielding": 24,
-          "rawPoints": 294,
-          "multiplier": 1,
-          "effectivePoints": 294,
           "countsInTop11": true
         },
         {
