@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T16:04:54.070Z",
+  "lastUpdated": "2026-05-18T16:14:57.942Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529306",
@@ -12,6 +12,12 @@
         "r": 180,
         "w": 7,
         "o": 20
+      },
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 4,
+        "w": 0,
+        "o": 0.3
       }
     ],
     "playerScores": {
@@ -51,7 +57,19 @@
         "fielding": 0,
         "total": 13
       },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
       "Abhishek Sharma": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
+      },
+      "Travis Head": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
@@ -80,8 +98,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5729,
-      "top11Points": 5731
+      "totalPointsAll": 5736,
+      "top11Points": 5738
     },
     {
       "team": "Tikoo",
@@ -23201,6 +23219,12 @@
           "r": 180,
           "w": 7,
           "o": 20
+        },
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 4,
+          "w": 0,
+          "o": 0.3
         }
       ],
       "scorecard": [
@@ -23372,7 +23396,19 @@
           "fielding": 0,
           "total": 13
         },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
         "Abhishek Sharma": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
+        },
+        "Travis Head": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
@@ -23689,8 +23725,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5729,
-      "top11Points": 5731,
+      "totalPointsAll": 5736,
+      "top11Points": 5738,
       "players": [
         {
           "name": "KL Rahul",
@@ -23706,12 +23742,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 753,
+          "batting": 758,
           "bowling": 12,
           "fielding": 40,
-          "rawPoints": 805,
+          "rawPoints": 810,
           "multiplier": 1.5,
-          "effectivePoints": 1208,
+          "effectivePoints": 1215,
           "countsInTop11": true
         },
         {
