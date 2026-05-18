@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T14:15:17.251Z",
+  "lastUpdated": "2026-05-18T14:24:56.883Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529306",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Chennai Super Kings",
-        "r": 31,
-        "w": 0,
-        "o": 2.2
+        "r": 46,
+        "w": 1,
+        "o": 3.6
       }
     ],
     "playerScores": {
@@ -22,10 +22,10 @@
         "total": 49
       },
       "Ruturaj Gaikwad": {
-        "batting": 3,
+        "batting": 5,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 5
       },
       "Abhishek Sharma": {
         "batting": 0,
@@ -36,8 +36,8 @@
       "Ishan Kishan": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Heinrich Klaasen": {
         "batting": 0,
@@ -66,8 +66,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5046,
-      "top11Points": 5046
+      "totalPointsAll": 5054,
+      "top11Points": 5054
     },
     {
       "team": "Kishan",
@@ -76,8 +76,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5124,
-      "top11Points": 4947
+      "totalPointsAll": 5127,
+      "top11Points": 4950
     },
     {
       "team": "Aakash",
@@ -23174,34 +23174,43 @@
       "score": [
         {
           "inning": "Chennai Super Kings",
-          "r": 31,
-          "w": 0,
-          "o": 2.2
+          "r": 46,
+          "w": 1,
+          "o": 3.6
         }
       ],
       "scorecard": [
         {
           "innings": "Chennai Super Kings",
-          "runs": 31,
-          "wickets": 0,
-          "overs": 2.2,
+          "runs": 46,
+          "wickets": 1,
+          "overs": 3.6,
           "batting": [
             {
               "name": "Sanju Samson",
               "runs": 27,
-              "balls": 12,
+              "balls": 13,
               "fours": 5,
               "sixes": 1,
-              "sr": 225,
-              "dismissal": "batting"
+              "sr": 207.69,
+              "dismissal": "c Ishan Kishan b Pat Cummins"
             },
             {
               "name": "Ruturaj Gaikwad",
-              "runs": 3,
-              "balls": 3,
+              "runs": 5,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 83.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Urvil Patel",
+              "runs": 13,
+              "balls": 6,
+              "fours": 0,
+              "sixes": 2,
+              "sr": 216.67,
               "dismissal": "batting"
             }
           ],
@@ -23224,9 +23233,17 @@
             },
             {
               "name": "Pat Cummins",
-              "overs": 0.2,
+              "overs": 1,
               "maidens": 0,
-              "runs": 1,
+              "runs": 13,
+              "wickets": 1,
+              "economy": 13
+            },
+            {
+              "name": "Eshan Malinga",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 3,
               "wickets": 0,
               "economy": 3
             }
@@ -23241,10 +23258,10 @@
           "total": 49
         },
         "Ruturaj Gaikwad": {
-          "batting": 3,
+          "batting": 5,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 5
         },
         "Abhishek Sharma": {
           "batting": 0,
@@ -23255,8 +23272,8 @@
         "Ishan Kishan": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Heinrich Klaasen": {
           "batting": 0,
@@ -23966,8 +23983,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5124,
-      "top11Points": 4947,
+      "totalPointsAll": 5127,
+      "top11Points": 4950,
       "players": [
         {
           "name": "Axar Patel",
@@ -23994,12 +24011,12 @@
         {
           "name": "Ruturaj Gaikwad",
           "role": "Batsman",
-          "batting": 362,
+          "batting": 364,
           "bowling": 0,
           "fielding": 55,
-          "rawPoints": 417,
+          "rawPoints": 419,
           "multiplier": 1.5,
-          "effectivePoints": 626,
+          "effectivePoints": 629,
           "countsInTop11": true
         },
         {
@@ -24126,8 +24143,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5046,
-      "top11Points": 5046,
+      "totalPointsAll": 5054,
+      "top11Points": 5054,
       "players": [
         {
           "name": "Jos Buttler",
@@ -24152,6 +24169,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ishan Kishan",
+          "role": "Wicket Keeper",
+          "batting": 603,
+          "bowling": 0,
+          "fielding": 92,
+          "rawPoints": 695,
+          "multiplier": 1,
+          "effectivePoints": 695,
+          "countsInTop11": true
+        },
+        {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
           "batting": 636,
@@ -24160,17 +24188,6 @@
           "rawPoints": 689,
           "multiplier": 1,
           "effectivePoints": 689,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ishan Kishan",
-          "role": "Wicket Keeper",
-          "batting": 603,
-          "bowling": 0,
-          "fielding": 84,
-          "rawPoints": 687,
-          "multiplier": 1,
-          "effectivePoints": 687,
           "countsInTop11": true
         },
         {
