@@ -1,100 +1,7 @@
 {
-  "lastUpdated": "2026-05-18T18:04:55.486Z",
+  "lastUpdated": "2026-05-18T18:14:58.327Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529306",
-    "name": "Chennai Super Kings v Sunrisers Hyderabad",
-    "status": "Live",
-    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-    "score": [
-      {
-        "inning": "Chennai Super Kings",
-        "r": 180,
-        "w": 7,
-        "o": 20
-      },
-      {
-        "inning": "Sunrisers Hyderabad",
-        "r": 176,
-        "w": 5,
-        "o": 18.4
-      }
-    ],
-    "playerScores": {
-      "Sanju Samson": {
-        "batting": 49,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 59
-      },
-      "Ruturaj Gaikwad": {
-        "batting": 5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 5
-      },
-      "Kartik Sharma": {
-        "batting": 44,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 44
-      },
-      "Dewald Brevis": {
-        "batting": 59,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 59
-      },
-      "Shivam Dube": {
-        "batting": 31,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 31
-      },
-      "Prashant Veer": {
-        "batting": 13,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 13
-      },
-      "Noor Ahmad": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
-      },
-      "Abhishek Sharma": {
-        "batting": 31,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 31
-      },
-      "Travis Head": {
-        "batting": 7,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 7
-      },
-      "Ishan Kishan": {
-        "batting": 79,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 87
-      },
-      "Heinrich Klaasen": {
-        "batting": 67,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 67
-      },
-      "Nitish Kumar Reddy": {
-        "batting": 12,
-        "bowling": -15,
-        "fielding": 8,
-        "total": 5
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -108,8 +15,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5133,
-      "top11Points": 5133
+      "totalPointsAll": 5126,
+      "top11Points": 5126
     },
     {
       "team": "Kishan",
@@ -118,8 +25,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5132,
-      "top11Points": 4955
+      "totalPointsAll": 5128,
+      "top11Points": 4951
     },
     {
       "team": "Athu",
@@ -23211,7 +23118,7 @@
       "matchId": "espn_1529306",
       "name": "Chennai Super Kings v Sunrisers Hyderabad",
       "date": "2026-05-18",
-      "status": "Live",
+      "status": "Final",
       "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
       "score": [
         {
@@ -23222,9 +23129,9 @@
         },
         {
           "inning": "Sunrisers Hyderabad",
-          "r": 176,
+          "r": 181,
           "w": 5,
-          "o": 18.4
+          "o": 19
         }
       ],
       "scorecard": [
@@ -23360,9 +23267,9 @@
         },
         {
           "innings": "Sunrisers Hyderabad",
-          "runs": 176,
+          "runs": 181,
           "wickets": 5,
-          "overs": 18.4,
+          "overs": 19,
           "batting": [
             {
               "name": "Abhishek Sharma",
@@ -23384,11 +23291,11 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 59,
-              "balls": 43,
-              "fours": 6,
+              "runs": 53,
+              "balls": 39,
+              "fours": 5,
               "sixes": 2,
-              "sr": 137.21,
+              "sr": 135.9,
               "dismissal": "batting"
             },
             {
@@ -23402,31 +23309,22 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 11,
-              "balls": 7,
+              "runs": 7,
+              "balls": 4,
               "fours": 1,
               "sixes": 0,
-              "sr": 157.14,
-              "dismissal": "c Urvil Patel b Mukesh Choudhary"
-            },
-            {
-              "name": "Salil Arora",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
+              "sr": 175,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 3.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 2,
-              "economy": 7.26
+              "runs": 21,
+              "wickets": 1,
+              "economy": 7
             },
             {
               "name": "Spencer Johnson",
@@ -23438,11 +23336,11 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 33,
+              "runs": 23,
               "wickets": 0,
-              "economy": 11
+              "economy": 11.5
             },
             {
               "name": "Noor Ahmad",
@@ -23527,10 +23425,10 @@
           "total": 7
         },
         "Ishan Kishan": {
-          "batting": 79,
+          "batting": 72,
           "bowling": 0,
           "fielding": 8,
-          "total": 87
+          "total": 80
         },
         "Heinrich Klaasen": {
           "batting": 67,
@@ -23539,13 +23437,13 @@
           "total": 67
         },
         "Nitish Kumar Reddy": {
-          "batting": 12,
+          "batting": 8,
           "bowling": -15,
           "fielding": 8,
-          "total": 5
+          "total": 1
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -24240,8 +24138,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5132,
-      "top11Points": 4955,
+      "totalPointsAll": 5128,
+      "top11Points": 4951,
       "players": [
         {
           "name": "Axar Patel",
@@ -24279,12 +24177,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 347,
+          "batting": 343,
           "bowling": 145,
           "fielding": 72,
-          "rawPoints": 564,
+          "rawPoints": 560,
           "multiplier": 1,
-          "effectivePoints": 564,
+          "effectivePoints": 560,
           "countsInTop11": true
         },
         {
@@ -24400,8 +24298,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5133,
-      "top11Points": 5133,
+      "totalPointsAll": 5126,
+      "top11Points": 5126,
       "players": [
         {
           "name": "Jos Buttler",
@@ -24428,12 +24326,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 682,
+          "batting": 675,
           "bowling": 0,
           "fielding": 92,
-          "rawPoints": 774,
+          "rawPoints": 767,
           "multiplier": 1,
-          "effectivePoints": 774,
+          "effectivePoints": 767,
           "countsInTop11": true
         },
         {
