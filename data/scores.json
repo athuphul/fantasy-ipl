@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:04:57.487Z",
+  "lastUpdated": "2026-05-19T16:15:09.791Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529307",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Sawai Mansingh Stadium, Jaipur",
     "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 14,
+        "w": 0,
+        "o": 0.4
+      },
       {
         "inning": "Lucknow Super Giants",
         "r": 220,
@@ -16,10 +22,16 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 0,
+        "batting": 15,
         "bowling": 0,
         "fielding": 10,
-        "total": 10
+        "total": 25
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Dhruv Jurel": {
         "batting": 0,
@@ -38,12 +50,6 @@
         "bowling": -15,
         "fielding": 0,
         "total": -15
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Mitchell Marsh": {
         "batting": 132,
@@ -74,6 +80,18 @@
         "bowling": 0,
         "fielding": 0,
         "total": -5
+      },
+      "Shahbaz Ahmed": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -104,14 +122,14 @@
       "top11Points": 4961
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 4800,
+      "top11Points": 4764
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 4839,
       "top11Points": 4751
-    },
-    {
-      "team": "Aakash",
-      "totalPointsAll": 4785,
-      "top11Points": 4749
     },
     {
       "team": "Athu",
@@ -23528,6 +23546,12 @@
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "score": [
         {
+          "inning": "Rajasthan Royals",
+          "r": 14,
+          "w": 0,
+          "o": 0.4
+        },
+        {
           "inning": "Lucknow Super Giants",
           "r": 220,
           "w": 5,
@@ -23650,10 +23674,16 @@
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 0,
+          "batting": 15,
           "bowling": 0,
           "fielding": 10,
-          "total": 10
+          "total": 25
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Dhruv Jurel": {
           "batting": 0,
@@ -23672,12 +23702,6 @@
           "bowling": -15,
           "fielding": 0,
           "total": -15
-        },
-        "Vaibhav Sooryavanshi": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Mitchell Marsh": {
           "batting": 132,
@@ -23708,6 +23732,18 @@
           "bowling": 0,
           "fielding": 0,
           "total": -5
+        },
+        "Shahbaz Ahmed": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -23864,8 +23900,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4785,
-      "top11Points": 4749,
+      "totalPointsAll": 4800,
+      "top11Points": 4764,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23903,12 +23939,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 464,
+          "batting": 479,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 506,
+          "rawPoints": 521,
           "multiplier": 1,
-          "effectivePoints": 506,
+          "effectivePoints": 521,
           "countsInTop11": true
         },
         {
