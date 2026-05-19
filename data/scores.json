@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T15:04:54.631Z",
+  "lastUpdated": "2026-05-19T15:15:01.223Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529307",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 141,
-        "w": 1,
-        "o": 11.4
+        "r": 159,
+        "w": 2,
+        "o": 13.3
       }
     ],
     "playerScores": {
@@ -40,24 +40,30 @@
         "total": -15
       },
       "Mitchell Marsh": {
-        "batting": 74,
+        "batting": 106,
         "bowling": 0,
         "fielding": 0,
-        "total": 74
+        "total": 106
       },
       "Nicholas Pooran": {
-        "batting": 17,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 17
+        "total": 20
+      },
+      "Rishabh Pant": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5849,
-      "top11Points": 5851
+      "totalPointsAll": 5881,
+      "top11Points": 5883
     },
     {
       "team": "Tikoo",
@@ -71,8 +77,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4986,
-      "top11Points": 4986
+      "totalPointsAll": 4991,
+      "top11Points": 4991
     },
     {
       "team": "Manav",
@@ -86,8 +92,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4793,
-      "top11Points": 4705
+      "totalPointsAll": 4796,
+      "top11Points": 4708
     },
     {
       "team": "Aakash",
@@ -23505,25 +23511,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 141,
-          "w": 1,
-          "o": 11.4
+          "r": 159,
+          "w": 2,
+          "o": 13.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 141,
-          "wickets": 1,
-          "overs": 11.4,
+          "runs": 159,
+          "wickets": 2,
+          "overs": 13.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 47,
-              "balls": 23,
-              "fours": 4,
+              "runs": 70,
+              "balls": 37,
+              "fours": 8,
               "sixes": 4,
-              "sr": 204.35,
+              "sr": 189.19,
               "dismissal": "batting"
             },
             {
@@ -23537,11 +23543,20 @@
             },
             {
               "name": "Nicholas Pooran",
-              "runs": 13,
-              "balls": 7,
+              "runs": 16,
+              "balls": 11,
               "fours": 0,
               "sixes": 2,
-              "sr": 185.71,
+              "sr": 145.45,
+              "dismissal": "c Donovan Ferreira b Yash Raj Punja"
+            },
+            {
+              "name": "Rishabh Pant",
+              "runs": 3,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -23556,11 +23571,11 @@
             },
             {
               "name": "Sushant Mishra",
-              "overs": 1.5,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
+              "runs": 35,
               "wickets": 0,
-              "economy": 12.55
+              "economy": 11.67
             },
             {
               "name": "Sandeep Sharma",
@@ -23572,19 +23587,27 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 24,
+              "runs": 26,
               "wickets": 0,
-              "economy": 12
+              "economy": 11.14
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 1,
-              "economy": 11.5
+              "runs": 30,
+              "wickets": 2,
+              "economy": 10
+            },
+            {
+              "name": "Dasun Shanaka",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 0,
+              "economy": 10
             }
           ]
         }
@@ -23615,16 +23638,22 @@
           "total": -15
         },
         "Mitchell Marsh": {
-          "batting": 74,
+          "batting": 106,
           "bowling": 0,
           "fielding": 0,
-          "total": 74
+          "total": 106
         },
         "Nicholas Pooran": {
-          "batting": 17,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 17
+          "total": 20
+        },
+        "Rishabh Pant": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         }
       },
       "isComplete": false
@@ -23919,8 +23948,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5849,
-      "top11Points": 5851,
+      "totalPointsAll": 5881,
+      "top11Points": 5883,
       "players": [
         {
           "name": "KL Rahul",
@@ -23947,12 +23976,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 738,
+          "batting": 770,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 770,
+          "rawPoints": 802,
           "multiplier": 1,
-          "effectivePoints": 770,
+          "effectivePoints": 802,
           "countsInTop11": true
         },
         {
@@ -24057,8 +24086,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4793,
-      "top11Points": 4705,
+      "totalPointsAll": 4796,
+      "top11Points": 4708,
       "players": [
         {
           "name": "Shubman Gill",
@@ -24096,12 +24125,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 334,
+          "batting": 337,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 416,
+          "rawPoints": 419,
           "multiplier": 1,
-          "effectivePoints": 416,
+          "effectivePoints": 419,
           "countsInTop11": true
         },
         {
@@ -24195,8 +24224,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4986,
-      "top11Points": 4986,
+      "totalPointsAll": 4991,
+      "top11Points": 4991,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -24256,12 +24285,12 @@
         {
           "name": "Nicholas Pooran",
           "role": "Wicket Keeper",
-          "batting": 246,
+          "batting": 249,
           "bowling": 0,
           "fielding": 50,
-          "rawPoints": 296,
+          "rawPoints": 299,
           "multiplier": 1.5,
-          "effectivePoints": 444,
+          "effectivePoints": 449,
           "countsInTop11": true
         },
         {
