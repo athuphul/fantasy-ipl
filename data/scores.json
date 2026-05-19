@@ -1,12 +1,57 @@
 {
-  "lastUpdated": "2026-05-18T18:24:52.906Z",
+  "lastUpdated": "2026-05-19T14:05:05.673Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529307",
+    "name": "Rajasthan Royals v Lucknow Super Giants",
+    "status": "Live",
+    "venue": "Sawai Mansingh Stadium, Jaipur",
+    "score": [
+      {
+        "inning": "Lucknow Super Giants",
+        "r": 12,
+        "w": 0,
+        "o": 0.6
+      }
+    ],
+    "playerScores": {
+      "Yashasvi Jaiswal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dhruv Jurel": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sandeep Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Mitchell Marsh": {
+        "batting": 13,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 13
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5775,
-      "top11Points": 5777
+      "totalPointsAll": 5788,
+      "top11Points": 5790
     },
     {
       "team": "Tikoo",
@@ -23444,6 +23489,100 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529307",
+      "name": "Rajasthan Royals v Lucknow Super Giants",
+      "date": "2026-05-19",
+      "status": "Live",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "score": [
+        {
+          "inning": "Lucknow Super Giants",
+          "r": 12,
+          "w": 0,
+          "o": 0.6
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Lucknow Super Giants",
+          "runs": 12,
+          "wickets": 0,
+          "overs": 0.6,
+          "batting": [
+            {
+              "name": "Mitchell Marsh",
+              "runs": 10,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 333.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Josh Inglis",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Jofra Archer",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
+            },
+            {
+              "name": "Sushant Mishra",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Yashasvi Jaiswal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dhruv Jurel": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sandeep Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Mitchell Marsh": {
+          "batting": 13,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 13
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -23735,8 +23874,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5775,
-      "top11Points": 5777,
+      "totalPointsAll": 5788,
+      "top11Points": 5790,
       "players": [
         {
           "name": "KL Rahul",
@@ -23763,12 +23902,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 664,
+          "batting": 677,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 696,
+          "rawPoints": 709,
           "multiplier": 1,
-          "effectivePoints": 696,
+          "effectivePoints": 709,
           "countsInTop11": true
         },
         {
