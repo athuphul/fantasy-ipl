@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T14:24:54.886Z",
+  "lastUpdated": "2026-05-19T14:35:15.210Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529307",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 68,
+        "r": 88,
         "w": 0,
-        "o": 5
+        "o": 6.3
       }
     ],
     "playerScores": {
@@ -29,29 +29,29 @@
       },
       "Jofra Archer": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Sandeep Sharma": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 0
+        "total": -15
       },
       "Mitchell Marsh": {
-        "batting": 19,
+        "batting": 63,
         "bowling": 0,
         "fielding": 0,
-        "total": 19
+        "total": 63
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5794,
-      "top11Points": 5796
+      "totalPointsAll": 5838,
+      "top11Points": 5840
     },
     {
       "team": "Tikoo",
@@ -60,8 +60,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5126,
-      "top11Points": 5126
+      "totalPointsAll": 5111,
+      "top11Points": 5111
     },
     {
       "team": "Kishan",
@@ -79,14 +79,14 @@
       "top11Points": 4737
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4745,
-      "top11Points": 4709
-    },
-    {
       "team": "Ashwin",
       "totalPointsAll": 4793,
       "top11Points": 4705
+    },
+    {
+      "team": "Aakash",
+      "totalPointsAll": 4735,
+      "top11Points": 4699
     },
     {
       "team": "Tanay",
@@ -23499,45 +23499,45 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 68,
+          "r": 88,
           "w": 0,
-          "o": 5
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 68,
+          "runs": 88,
           "wickets": 0,
-          "overs": 5,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 15,
-              "balls": 6,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 250,
+              "runs": 38,
+              "balls": 17,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 223.53,
               "dismissal": "batting"
             },
             {
               "name": "Josh Inglis",
-              "runs": 19,
-              "balls": 11,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 172.73,
+              "runs": 54,
+              "balls": 24,
+              "fours": 6,
+              "sixes": 3,
+              "sr": 225,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 23,
+              "runs": 24,
               "wickets": 0,
-              "economy": 12.55
+              "economy": 12
             },
             {
               "name": "Sushant Mishra",
@@ -23546,6 +23546,30 @@
               "runs": 13,
               "wickets": 0,
               "economy": 13
+            },
+            {
+              "name": "Sandeep Sharma",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 31,
+              "wickets": 0,
+              "economy": 15.5
+            },
+            {
+              "name": "Brijesh Sharma",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 14
+            },
+            {
+              "name": "Yash Raj Punja",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 14.4
             }
           ]
         }
@@ -23565,21 +23589,21 @@
         },
         "Jofra Archer": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Sandeep Sharma": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 0
+          "total": -15
         },
         "Mitchell Marsh": {
-          "batting": 19,
+          "batting": 63,
           "bowling": 0,
           "fielding": 0,
-          "total": 19
+          "total": 63
         }
       },
       "isComplete": false
@@ -23736,8 +23760,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4745,
-      "top11Points": 4709,
+      "totalPointsAll": 4735,
+      "top11Points": 4699,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23765,11 +23789,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 23,
-          "bowling": 445,
+          "bowling": 435,
           "fielding": 50,
-          "rawPoints": 518,
+          "rawPoints": 508,
           "multiplier": 1,
-          "effectivePoints": 518,
+          "effectivePoints": 508,
           "countsInTop11": true
         },
         {
@@ -23874,8 +23898,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5794,
-      "top11Points": 5796,
+      "totalPointsAll": 5838,
+      "top11Points": 5840,
       "players": [
         {
           "name": "KL Rahul",
@@ -23902,12 +23926,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 683,
+          "batting": 727,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 715,
+          "rawPoints": 759,
           "multiplier": 1,
-          "effectivePoints": 715,
+          "effectivePoints": 759,
           "countsInTop11": true
         },
         {
@@ -24437,8 +24461,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5126,
-      "top11Points": 5126,
+      "totalPointsAll": 5111,
+      "top11Points": 5111,
       "players": [
         {
           "name": "Jos Buttler",
@@ -24543,11 +24567,11 @@
           "name": "Sandeep Sharma",
           "role": "Fast Bowler",
           "batting": 0,
-          "bowling": 105,
+          "bowling": 90,
           "fielding": 24,
-          "rawPoints": 129,
+          "rawPoints": 114,
           "multiplier": 1,
-          "effectivePoints": 129,
+          "effectivePoints": 114,
           "countsInTop11": true
         },
         {
