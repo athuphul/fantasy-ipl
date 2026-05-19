@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T14:35:15.210Z",
+  "lastUpdated": "2026-05-19T14:44:57.968Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529307",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 88,
-        "w": 0,
-        "o": 6.3
+        "r": 109,
+        "w": 1,
+        "o": 8.2
       }
     ],
     "playerScores": {
@@ -40,18 +40,18 @@
         "total": -15
       },
       "Mitchell Marsh": {
-        "batting": 63,
+        "batting": 73,
         "bowling": 0,
         "fielding": 0,
-        "total": 63
+        "total": 73
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5838,
-      "top11Points": 5840
+      "totalPointsAll": 5848,
+      "top11Points": 5850
     },
     {
       "team": "Tikoo",
@@ -23499,34 +23499,43 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 88,
-          "w": 0,
-          "o": 6.3
+          "r": 109,
+          "w": 1,
+          "o": 8.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 88,
-          "wickets": 0,
-          "overs": 6.3,
+          "runs": 109,
+          "wickets": 1,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Mitchell Marsh",
-              "runs": 38,
-              "balls": 17,
+              "runs": 46,
+              "balls": 21,
               "fours": 4,
-              "sixes": 3,
-              "sr": 223.53,
+              "sixes": 4,
+              "sr": 219.05,
               "dismissal": "batting"
             },
             {
               "name": "Josh Inglis",
-              "runs": 54,
-              "balls": 24,
-              "fours": 6,
+              "runs": 60,
+              "balls": 29,
+              "fours": 7,
               "sixes": 3,
-              "sr": 225,
+              "sr": 206.9,
+              "dismissal": "b Yash Raj Punja"
+            },
+            {
+              "name": "Nicholas Pooran",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -23557,19 +23566,19 @@
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
+              "runs": 24,
               "wickets": 0,
-              "economy": 14
+              "economy": 12
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 0.5,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
-              "economy": 14.4
+              "runs": 16,
+              "wickets": 1,
+              "economy": 12
             }
           ]
         }
@@ -23600,10 +23609,10 @@
           "total": -15
         },
         "Mitchell Marsh": {
-          "batting": 63,
+          "batting": 73,
           "bowling": 0,
           "fielding": 0,
-          "total": 63
+          "total": 73
         }
       },
       "isComplete": false
@@ -23898,8 +23907,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5838,
-      "top11Points": 5840,
+      "totalPointsAll": 5848,
+      "top11Points": 5850,
       "players": [
         {
           "name": "KL Rahul",
@@ -23926,12 +23935,12 @@
         {
           "name": "Mitchell Marsh",
           "role": "All-Rounder",
-          "batting": 727,
+          "batting": 737,
           "bowling": 0,
           "fielding": 32,
-          "rawPoints": 759,
+          "rawPoints": 769,
           "multiplier": 1,
-          "effectivePoints": 759,
+          "effectivePoints": 769,
           "countsInTop11": true
         },
         {
