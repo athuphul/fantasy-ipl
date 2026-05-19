@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:44:58.161Z",
+  "lastUpdated": "2026-05-19T16:54:56.383Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529307",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 71,
-        "w": 0,
-        "o": 6.1
+        "r": 90,
+        "w": 1,
+        "o": 8.1
       },
       {
         "inning": "Lucknow Super Giants",
@@ -22,22 +22,22 @@
     ],
     "playerScores": {
       "Yashasvi Jaiswal": {
-        "batting": 62,
+        "batting": 63,
         "bowling": 0,
         "fielding": 10,
-        "total": 72
+        "total": 73
       },
       "Vaibhav Sooryavanshi": {
-        "batting": -4,
+        "batting": 55,
         "bowling": 0,
         "fielding": 0,
-        "total": -4
+        "total": 55
       },
       "Dhruv Jurel": {
-        "batting": 0,
+        "batting": 11,
         "bowling": 0,
         "fielding": 10,
-        "total": 10
+        "total": 21
       },
       "Jofra Archer": {
         "batting": 0,
@@ -66,8 +66,8 @@
       "Rishabh Pant": {
         "batting": 46,
         "bowling": 0,
-        "fielding": 0,
-        "total": 46
+        "fielding": 8,
+        "total": 54
       },
       "Abdul Samad": {
         "batting": 0,
@@ -103,8 +103,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5820,
-      "top11Points": 5514
+      "totalPointsAll": 5879,
+      "top11Points": 5573
     },
     {
       "team": "Ritik",
@@ -118,18 +118,18 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5138,
-      "top11Points": 4961
+      "totalPointsAll": 5149,
+      "top11Points": 4972
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4847,
-      "top11Points": 4811
+      "totalPointsAll": 4848,
+      "top11Points": 4812
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4839,
-      "top11Points": 4751
+      "totalPointsAll": 4847,
+      "top11Points": 4759
     },
     {
       "team": "Athu",
@@ -23547,9 +23547,9 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 71,
-          "w": 0,
-          "o": 6.1
+          "r": 90,
+          "w": 1,
+          "o": 8.1
         },
         {
           "inning": "Lucknow Super Giants",
@@ -23673,37 +23673,46 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 71,
-          "wickets": 0,
-          "overs": 6.1,
+          "runs": 90,
+          "wickets": 1,
+          "overs": 8.1,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 38,
-              "balls": 18,
-              "fours": 7,
+              "runs": 43,
+              "balls": 23,
+              "fours": 8,
               "sixes": 1,
-              "sr": 211.11,
-              "dismissal": "batting"
+              "sr": 186.96,
+              "dismissal": "c Rishabh Pant b Akash Singh"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 5,
-              "balls": 10,
-              "fours": 1,
+              "runs": 35,
+              "balls": 18,
+              "fours": 4,
+              "sixes": 3,
+              "sr": 194.44,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 9,
+              "balls": 9,
+              "fours": 2,
               "sixes": 0,
-              "sr": 50,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Akash Maharaj Singh",
-              "overs": 1,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 0,
-              "economy": 23
+              "runs": 38,
+              "wickets": 1,
+              "economy": 16.29
             },
             {
               "name": "Mohsin Khan",
@@ -23715,33 +23724,49 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
+              "runs": 12,
               "wickets": 0,
-              "economy": 3.6
+              "economy": 6
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            },
+            {
+              "name": "Digvesh Rathi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
             }
           ]
         }
       ],
       "playerScores": {
         "Yashasvi Jaiswal": {
-          "batting": 62,
+          "batting": 63,
           "bowling": 0,
           "fielding": 10,
-          "total": 72
+          "total": 73
         },
         "Vaibhav Sooryavanshi": {
-          "batting": -4,
+          "batting": 55,
           "bowling": 0,
           "fielding": 0,
-          "total": -4
+          "total": 55
         },
         "Dhruv Jurel": {
-          "batting": 0,
+          "batting": 11,
           "bowling": 0,
           "fielding": 10,
-          "total": 10
+          "total": 21
         },
         "Jofra Archer": {
           "batting": 0,
@@ -23770,8 +23795,8 @@
         "Rishabh Pant": {
           "batting": 46,
           "bowling": 0,
-          "fielding": 0,
-          "total": 46
+          "fielding": 8,
+          "total": 54
         },
         "Abdul Samad": {
           "batting": 0,
@@ -23952,8 +23977,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4847,
-      "top11Points": 4811,
+      "totalPointsAll": 4848,
+      "top11Points": 4812,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -23969,12 +23994,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 526,
+          "batting": 527,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 568,
+          "rawPoints": 569,
           "multiplier": 1,
-          "effectivePoints": 568,
+          "effectivePoints": 569,
           "countsInTop11": true
         },
         {
@@ -24228,8 +24253,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4839,
-      "top11Points": 4751,
+      "totalPointsAll": 4847,
+      "top11Points": 4759,
       "players": [
         {
           "name": "Shubman Gill",
@@ -24269,10 +24294,10 @@
           "role": "Wicket Keeper",
           "batting": 380,
           "bowling": 0,
-          "fielding": 82,
-          "rawPoints": 462,
+          "fielding": 90,
+          "rawPoints": 470,
           "multiplier": 1,
-          "effectivePoints": 462,
+          "effectivePoints": 470,
           "countsInTop11": true
         },
         {
@@ -24493,8 +24518,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5138,
-      "top11Points": 4961,
+      "totalPointsAll": 5149,
+      "top11Points": 4972,
       "players": [
         {
           "name": "Axar Patel",
@@ -24510,12 +24535,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 494,
+          "batting": 505,
           "bowling": 0,
           "fielding": 160,
-          "rawPoints": 654,
+          "rawPoints": 665,
           "multiplier": 1,
-          "effectivePoints": 654,
+          "effectivePoints": 665,
           "countsInTop11": true
         },
         {
@@ -24918,8 +24943,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5820,
-      "top11Points": 5514,
+      "totalPointsAll": 5879,
+      "top11Points": 5573,
       "players": [
         {
           "name": "Sanju Samson",
@@ -24935,12 +24960,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 771,
+          "batting": 830,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 771,
+          "rawPoints": 830,
           "multiplier": 1,
-          "effectivePoints": 771,
+          "effectivePoints": 830,
           "countsInTop11": true
         },
         {
