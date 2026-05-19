@@ -1,100 +1,7 @@
 {
-  "lastUpdated": "2026-05-19T17:54:53.731Z",
+  "lastUpdated": "2026-05-19T18:05:08.964Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529307",
-    "name": "Rajasthan Royals v Lucknow Super Giants",
-    "status": "Live",
-    "venue": "Sawai Mansingh Stadium, Jaipur",
-    "score": [
-      {
-        "inning": "Rajasthan Royals",
-        "r": 219,
-        "w": 3,
-        "o": 19
-      },
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 220,
-        "w": 5,
-        "o": 20
-      }
-    ],
-    "playerScores": {
-      "Yashasvi Jaiswal": {
-        "batting": 63,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 73
-      },
-      "Vaibhav Sooryavanshi": {
-        "batting": 145,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 145
-      },
-      "Dhruv Jurel": {
-        "batting": 53,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 63
-      },
-      "Jofra Archer": {
-        "batting": 0,
-        "bowling": 25,
-        "fielding": 5,
-        "total": 30
-      },
-      "Sandeep Sharma": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      },
-      "Mitchell Marsh": {
-        "batting": 132,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 132
-      },
-      "Nicholas Pooran": {
-        "batting": 20,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 20
-      },
-      "Rishabh Pant": {
-        "batting": 46,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 54
-      },
-      "Abdul Samad": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
-      "Ayush Badoni": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 10,
-        "total": 5
-      },
-      "Shahbaz Ahmed": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      },
-      "Digvesh Rathi": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
@@ -113,8 +20,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5191,
-      "top11Points": 5014
+      "totalPointsAll": 5210,
+      "top11Points": 5033
     },
     {
       "team": "Kishan",
@@ -23542,14 +23449,14 @@
       "matchId": "espn_1529307",
       "name": "Rajasthan Royals v Lucknow Super Giants",
       "date": "2026-05-19",
-      "status": "Live",
+      "status": "Final",
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 219,
+          "r": 225,
           "w": 3,
-          "o": 19
+          "o": 19.1
         },
         {
           "inning": "Lucknow Super Giants",
@@ -23673,9 +23580,9 @@
         },
         {
           "innings": "Rajasthan Royals",
-          "runs": 219,
+          "runs": 225,
           "wickets": 3,
-          "overs": 19,
+          "overs": 19.1,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -23697,12 +23604,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 46,
-              "balls": 34,
+              "runs": 53,
+              "balls": 38,
               "fours": 3,
-              "sixes": 2,
-              "sr": 135.29,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 139.47,
+              "dismissal": "not out"
             },
             {
               "name": "Lhuan-dre Pretorius",
@@ -23715,12 +23622,12 @@
             },
             {
               "name": "Donovan Ferreira",
-              "runs": 3,
-              "balls": 4,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 75,
-              "dismissal": "batting"
+              "runs": 16,
+              "balls": 10,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 160,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -23742,19 +23649,19 @@
             },
             {
               "name": "Mayank Yadav",
-              "overs": 3.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 44,
+              "runs": 50,
               "wickets": 0,
-              "economy": 12.57
+              "economy": 12.5
             },
             {
               "name": "Prince Yadav",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 35,
+              "runs": 43,
               "wickets": 0,
-              "economy": 11.67
+              "economy": 10.75
             },
             {
               "name": "Digvesh Rathi",
@@ -23763,6 +23670,14 @@
               "runs": 38,
               "wickets": 0,
               "economy": 9.5
+            },
+            {
+              "name": "Shahbaz Ahmed",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 36
             }
           ]
         }
@@ -23781,10 +23696,10 @@
           "total": 145
         },
         "Dhruv Jurel": {
-          "batting": 53,
+          "batting": 72,
           "bowling": 0,
           "fielding": 10,
-          "total": 63
+          "total": 82
         },
         "Jofra Archer": {
           "batting": 0,
@@ -23841,7 +23756,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -24536,8 +24451,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5191,
-      "top11Points": 5014,
+      "totalPointsAll": 5210,
+      "top11Points": 5033,
       "players": [
         {
           "name": "Axar Patel",
@@ -24553,12 +24468,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 547,
+          "batting": 566,
           "bowling": 0,
           "fielding": 160,
-          "rawPoints": 707,
+          "rawPoints": 726,
           "multiplier": 1,
-          "effectivePoints": 707,
+          "effectivePoints": 726,
           "countsInTop11": true
         },
         {
