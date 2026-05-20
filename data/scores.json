@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T18:44:59.901Z",
+  "lastUpdated": "2026-05-20T18:54:57.792Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": null,
   "leaderboard": [
@@ -10,8 +10,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5993,
-      "top11Points": 5687
+      "totalPointsAll": 6001,
+      "top11Points": 5695
     },
     {
       "team": "Ritik",
@@ -30,8 +30,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4871,
-      "top11Points": 4874
+      "totalPointsAll": 4874,
+      "top11Points": 4877
     },
     {
       "team": "Aakash",
@@ -23762,14 +23762,14 @@
       "matchId": "espn_1529308",
       "name": "Kolkata Knight Riders v Mumbai Indians",
       "date": "2026-05-20",
-      "status": "Live",
+      "status": "Final",
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 141,
+          "r": 148,
           "w": 6,
-          "o": 18
+          "o": 18.5
         },
         {
           "inning": "Mumbai Indians",
@@ -23920,9 +23920,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 141,
+          "runs": 148,
           "wickets": 6,
-          "overs": 18,
+          "overs": 18.5,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -23971,21 +23971,30 @@
             },
             {
               "name": "Rinku Singh",
-              "runs": 5,
-              "balls": 3,
-              "fours": 1,
+              "runs": 9,
+              "balls": 5,
+              "fours": 2,
               "sixes": 0,
-              "sr": 166.67,
-              "dismissal": "batting"
+              "sr": 180,
+              "dismissal": "not out"
             },
             {
               "name": "Tejasvi Dahiya",
-              "runs": 6,
-              "balls": 6,
-              "fours": 1,
+              "runs": 11,
+              "balls": 12,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 91.67,
+              "dismissal": "c Ryan Rickelton b Corbin Bosch"
+            },
+            {
+              "name": "Anukul Roy",
+              "runs": 4,
+              "balls": 4,
+              "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -23999,19 +24008,19 @@
             },
             {
               "name": "Jasprit Bumrah",
-              "overs": 3.5,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
+              "runs": 26,
               "wickets": 1,
-              "economy": 6.52
+              "economy": 6.5
             },
             {
               "name": "Corbin Bosch",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 25,
-              "wickets": 2,
-              "economy": 12.5
+              "runs": 30,
+              "wickets": 3,
+              "economy": 10
             },
             {
               "name": "AM Ghazanfar",
@@ -24036,6 +24045,14 @@
               "runs": 23,
               "wickets": 0,
               "economy": 11.5
+            },
+            {
+              "name": "Will Jacks",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 0,
+              "economy": 8.4
             }
           ]
         }
@@ -24060,16 +24077,16 @@
           "total": 67
         },
         "Rinku Singh": {
-          "batting": 6,
+          "batting": 11,
           "bowling": 0,
           "fielding": 10,
-          "total": 16
+          "total": 21
         },
         "Anukul Roy": {
-          "batting": 1,
+          "batting": 4,
           "bowling": 0,
           "fielding": 16,
-          "total": 17
+          "total": 20
         },
         "Sunil Narine": {
           "batting": 0,
@@ -24126,13 +24143,13 @@
           "total": 37
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4871,
-      "top11Points": 4874,
+      "totalPointsAll": 4874,
+      "top11Points": 4877,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24192,12 +24209,12 @@
         {
           "name": "Anukul Roy",
           "role": "All-Rounder",
-          "batting": 46,
+          "batting": 49,
           "bowling": 212,
           "fielding": 82,
-          "rawPoints": 340,
+          "rawPoints": 343,
           "multiplier": 1,
-          "effectivePoints": 340,
+          "effectivePoints": 343,
           "countsInTop11": true
         },
         {
@@ -25246,8 +25263,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5993,
-      "top11Points": 5687,
+      "totalPointsAll": 6001,
+      "top11Points": 5695,
       "players": [
         {
           "name": "Sanju Samson",
@@ -25274,12 +25291,12 @@
         {
           "name": "Rinku Singh",
           "role": "Batsman",
-          "batting": 384,
+          "batting": 389,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 466,
+          "rawPoints": 471,
           "multiplier": 1.5,
-          "effectivePoints": 699,
+          "effectivePoints": 707,
           "countsInTop11": true
         },
         {
