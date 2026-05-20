@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T17:04:56.681Z",
+  "lastUpdated": "2026-05-20T17:14:59.481Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Eden Gardens, Kolkata",
     "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 12,
+        "w": 1,
+        "o": 1.3
+      },
       {
         "inning": "Mumbai Indians",
         "r": 147,
@@ -16,10 +22,16 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
+      },
+      "Finn Allen": {
+        "batting": 10,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 10
       },
       "Cameron Green": {
         "batting": 0,
@@ -50,12 +62,6 @@
         "bowling": 12,
         "fielding": 5,
         "total": 17
-      },
-      "Finn Allen": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Rohit Sharma": {
         "batting": 19,
@@ -89,9 +95,15 @@
       },
       "Deepak Chahar": {
         "batting": 12,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 37
+      },
+      "Jasprit Bumrah": {
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 0
       }
     }
   },
@@ -113,8 +125,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5222,
-      "top11Points": 5039
+      "totalPointsAll": 5247,
+      "top11Points": 5064
     },
     {
       "team": "Kishan",
@@ -127,14 +139,14 @@
       "top11Points": 4841
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 4835,
+      "top11Points": 4838
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 4923,
       "top11Points": 4827
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4818,
-      "top11Points": 4821
     },
     {
       "team": "Tanay",
@@ -23859,6 +23871,12 @@
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
+          "inning": "Kolkata Knight Riders",
+          "r": 12,
+          "w": 1,
+          "o": 1.3
+        },
+        {
           "inning": "Mumbai Indians",
           "r": 147,
           "w": 8,
@@ -24004,14 +24022,73 @@
               "economy": 7
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 12,
+          "wickets": 1,
+          "overs": 1.3,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 8,
+              "balls": 5,
+              "fours": 2,
+              "sixes": 0,
+              "sr": 160,
+              "dismissal": "b Deepak Chahar"
+            },
+            {
+              "name": "Manish Pandey",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Deepak Chahar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 10,
+              "wickets": 1,
+              "economy": 10
+            },
+            {
+              "name": "Jasprit Bumrah",
+              "overs": 0.3,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 4
+            }
+          ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
+        },
+        "Finn Allen": {
+          "batting": 10,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 10
         },
         "Cameron Green": {
           "batting": 0,
@@ -24042,12 +24119,6 @@
           "bowling": 12,
           "fielding": 5,
           "total": 17
-        },
-        "Finn Allen": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Rohit Sharma": {
           "batting": 19,
@@ -24081,9 +24152,15 @@
         },
         "Deepak Chahar": {
           "batting": 12,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 37
+        },
+        "Jasprit Bumrah": {
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 0
         }
       },
       "isComplete": false
@@ -24091,8 +24168,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4818,
-      "top11Points": 4821,
+      "totalPointsAll": 4835,
+      "top11Points": 4838,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24108,12 +24185,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 513,
+          "batting": 523,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 513,
+          "rawPoints": 523,
           "multiplier": 1.5,
-          "effectivePoints": 770,
+          "effectivePoints": 785,
           "countsInTop11": true
         },
         {
@@ -24141,12 +24218,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 291,
+          "batting": 293,
           "bowling": 0,
           "fielding": 48,
-          "rawPoints": 339,
+          "rawPoints": 341,
           "multiplier": 1,
-          "effectivePoints": 339,
+          "effectivePoints": 341,
           "countsInTop11": true
         },
         {
@@ -24781,8 +24858,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5222,
-      "top11Points": 5039,
+      "totalPointsAll": 5247,
+      "top11Points": 5064,
       "players": [
         {
           "name": "Axar Patel",
@@ -24898,11 +24975,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 20,
-          "bowling": 117,
+          "bowling": 142,
           "fielding": 8,
-          "rawPoints": 145,
+          "rawPoints": 170,
           "multiplier": 1,
-          "effectivePoints": 145,
+          "effectivePoints": 170,
           "countsInTop11": true
         },
         {
