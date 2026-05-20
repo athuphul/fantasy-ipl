@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:04:59.895Z",
+  "lastUpdated": "2026-05-20T16:14:58.459Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 82,
-        "w": 4,
-        "o": 12.5
+        "r": 88,
+        "w": 5,
+        "o": 14
       }
     ],
     "playerScores": {
@@ -42,14 +42,14 @@
       "Anukul Roy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Rohit Sharma": {
         "batting": 19,
@@ -64,16 +64,22 @@
         "total": 19
       },
       "Tilak Varma": {
-        "batting": 1,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 12
       },
       "Hardik Pandya": {
-        "batting": 7,
+        "batting": 24,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 24
+      },
+      "Will Jacks": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 5
       }
     }
   },
@@ -90,8 +96,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5111,
-      "top11Points": 5111
+      "totalPointsAll": 5116,
+      "top11Points": 5116
     },
     {
       "team": "Manav",
@@ -105,18 +111,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4849,
-      "top11Points": 4813
+      "totalPointsAll": 4880,
+      "top11Points": 4844
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4809,
+      "top11Points": 4812
     },
     {
       "team": "Ashwin",
       "totalPointsAll": 4885,
       "top11Points": 4789
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4784,
-      "top11Points": 4787
     },
     {
       "team": "Tanay",
@@ -23842,17 +23848,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 82,
-          "w": 4,
-          "o": 12.5
+          "r": 88,
+          "w": 5,
+          "o": 14
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 82,
-          "wickets": 4,
-          "overs": 12.5,
+          "runs": 88,
+          "wickets": 5,
+          "overs": 14,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -23892,20 +23898,29 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 11,
-              "balls": 20,
+              "runs": 20,
+              "balls": 32,
               "fours": 0,
-              "sixes": 0,
-              "sr": 55,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 62.5,
+              "dismissal": "c Anukul Roy b Kartik Tyagi"
             },
             {
               "name": "Hardik Pandya",
-              "runs": 11,
-              "balls": 12,
+              "runs": 21,
+              "balls": 21,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Will Jacks",
+              "runs": 4,
+              "balls": 2,
               "fours": 1,
               "sixes": 0,
-              "sr": 91.67,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
@@ -23936,27 +23951,27 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
+              "runs": 9,
+              "wickets": 1,
+              "economy": 4.5
+            },
+            {
+              "name": "Sunil Narine",
+              "overs": 3,
+              "maidens": 0,
+              "runs": 12,
               "wickets": 0,
               "economy": 4
             },
             {
-              "name": "Sunil Narine",
-              "overs": 2,
-              "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 3
-            },
-            {
               "name": "Varun Chakaravarthy",
-              "overs": 1.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 5,
+              "runs": 17,
               "wickets": 0,
-              "economy": 4.29
+              "economy": 5.67
             }
           ]
         }
@@ -23989,14 +24004,14 @@
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Rohit Sharma": {
           "batting": 19,
@@ -24011,16 +24026,22 @@
           "total": 19
         },
         "Tilak Varma": {
-          "batting": 1,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 12
         },
         "Hardik Pandya": {
-          "batting": 7,
+          "batting": 24,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 24
+        },
+        "Will Jacks": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 5
         }
       },
       "isComplete": false
@@ -24028,8 +24049,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4784,
-      "top11Points": 4787,
+      "totalPointsAll": 4809,
+      "top11Points": 4812,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24091,10 +24112,10 @@
           "role": "All-Rounder",
           "batting": 45,
           "bowling": 212,
-          "fielding": 66,
-          "rawPoints": 323,
+          "fielding": 74,
+          "rawPoints": 331,
           "multiplier": 1,
-          "effectivePoints": 323,
+          "effectivePoints": 331,
           "countsInTop11": true
         },
         {
@@ -24122,12 +24143,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 197,
+          "batting": 214,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 273,
+          "rawPoints": 290,
           "multiplier": 1,
-          "effectivePoints": 273,
+          "effectivePoints": 290,
           "countsInTop11": true
         },
         {
@@ -24177,8 +24198,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4849,
-      "top11Points": 4813,
+      "totalPointsAll": 4880,
+      "top11Points": 4844,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -24216,12 +24237,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 454,
+          "batting": 465,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 526,
+          "rawPoints": 537,
           "multiplier": 1,
-          "effectivePoints": 526,
+          "effectivePoints": 537,
           "countsInTop11": true
         },
         {
@@ -24261,11 +24282,11 @@
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
           "batting": -5,
-          "bowling": 272,
+          "bowling": 292,
           "fielding": 16,
-          "rawPoints": 283,
+          "rawPoints": 303,
           "multiplier": 1,
-          "effectivePoints": 283,
+          "effectivePoints": 303,
           "countsInTop11": true
         },
         {
@@ -24878,8 +24899,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5111,
-      "top11Points": 5111,
+      "totalPointsAll": 5116,
+      "top11Points": 5116,
       "players": [
         {
           "name": "Jos Buttler",
@@ -24972,12 +24993,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 97,
+          "batting": 102,
           "bowling": 22,
           "fielding": 16,
-          "rawPoints": 135,
+          "rawPoints": 140,
           "multiplier": 1,
-          "effectivePoints": 135,
+          "effectivePoints": 140,
           "countsInTop11": true
         },
         {
