@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:55:00.560Z",
+  "lastUpdated": "2026-05-20T17:04:56.681Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -42,8 +42,8 @@
       "Anukul Roy": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -88,10 +88,10 @@
         "total": 17
       },
       "Deepak Chahar": {
-        "batting": 0,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 12
       }
     }
   },
@@ -113,8 +113,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5210,
-      "top11Points": 5033
+      "totalPointsAll": 5222,
+      "top11Points": 5039
     },
     {
       "team": "Kishan",
@@ -133,8 +133,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4810,
-      "top11Points": 4813
+      "totalPointsAll": 4818,
+      "top11Points": 4821
     },
     {
       "team": "Tanay",
@@ -23937,21 +23937,21 @@
             },
             {
               "name": "Corbin Bosch",
-              "runs": 8,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 80,
-              "dismissal": "batting"
+              "runs": 32,
+              "balls": 18,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 177.78,
+              "dismissal": "not out"
             },
             {
               "name": "Deepak Chahar",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 10,
+              "balls": 7,
+              "fours": 2,
               "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "sr": 142.86,
+              "dismissal": "c Anukul Roy b Kartik Tyagi"
             }
           ],
           "bowling": [
@@ -23965,11 +23965,11 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 22,
+              "runs": 34,
               "wickets": 2,
-              "economy": 7.33
+              "economy": 8.5
             },
             {
               "name": "Cameron Green",
@@ -23981,11 +23981,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2.3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 1,
-              "economy": 6
+              "runs": 37,
+              "wickets": 2,
+              "economy": 9.25
             },
             {
               "name": "Sunil Narine",
@@ -24034,8 +24034,8 @@
         "Anukul Roy": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -24080,10 +24080,10 @@
           "total": 17
         },
         "Deepak Chahar": {
-          "batting": 0,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 12
         }
       },
       "isComplete": false
@@ -24091,8 +24091,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4810,
-      "top11Points": 4813,
+      "totalPointsAll": 4818,
+      "top11Points": 4821,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24154,10 +24154,10 @@
           "role": "All-Rounder",
           "batting": 45,
           "bowling": 212,
-          "fielding": 74,
-          "rawPoints": 331,
+          "fielding": 82,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 331,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
@@ -24781,8 +24781,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5210,
-      "top11Points": 5033,
+      "totalPointsAll": 5222,
+      "top11Points": 5039,
       "players": [
         {
           "name": "Axar Patel",
@@ -24895,6 +24895,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
+          "batting": 20,
+          "bowling": 117,
+          "fielding": 8,
+          "rawPoints": 145,
+          "multiplier": 1,
+          "effectivePoints": 145,
+          "countsInTop11": true
+        },
+        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 75,
@@ -24903,17 +24914,6 @@
           "rawPoints": 139,
           "multiplier": 1,
           "effectivePoints": 139,
-          "countsInTop11": true
-        },
-        {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
-          "batting": 8,
-          "bowling": 117,
-          "fielding": 8,
-          "rawPoints": 133,
-          "multiplier": 1,
-          "effectivePoints": 133,
           "countsInTop11": false
         },
         {
