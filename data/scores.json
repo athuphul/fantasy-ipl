@@ -1,7 +1,64 @@
 {
-  "lastUpdated": "2026-05-20T14:04:56.614Z",
+  "lastUpdated": "2026-05-20T14:14:56.265Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529308",
+    "name": "Kolkata Knight Riders v Mumbai Indians",
+    "status": "Live",
+    "venue": "Eden Gardens, Kolkata",
+    "score": [
+      {
+        "inning": "Mumbai Indians",
+        "r": 17,
+        "w": 1,
+        "o": 2.5
+      }
+    ],
+    "playerScores": {
+      "Ajinkya Rahane": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Cameron Green": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Rinku Singh": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sunil Narine": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Anukul Roy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rohit Sharma": {
+        "batting": 11,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 11
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -45,8 +102,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4154,
-      "top11Points": 4107
+      "totalPointsAll": 4196,
+      "top11Points": 4149
     }
   ],
   "matchHistory": [
@@ -23757,6 +23814,129 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529308",
+      "name": "Kolkata Knight Riders v Mumbai Indians",
+      "date": "2026-05-20",
+      "status": "Live",
+      "venue": "Eden Gardens, Kolkata",
+      "score": [
+        {
+          "inning": "Mumbai Indians",
+          "r": 17,
+          "w": 1,
+          "o": 2.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Mumbai Indians",
+          "runs": 17,
+          "wickets": 1,
+          "overs": 2.5,
+          "batting": [
+            {
+              "name": "Ryan Rickelton",
+              "runs": 6,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 85.71,
+              "dismissal": "c Manish Pandey b Cameron Green"
+            },
+            {
+              "name": "Rohit Sharma",
+              "runs": 9,
+              "balls": 8,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 112.5,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Naman Dhir",
+              "runs": 0,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Anukul Roy",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 6,
+              "wickets": 0,
+              "economy": 6
+            },
+            {
+              "name": "Saurabh Dubey",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 3
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 7,
+              "wickets": 1,
+              "economy": 8.4
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Ajinkya Rahane": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Cameron Green": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Rinku Singh": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sunil Narine": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Anukul Roy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rohit Sharma": {
+          "batting": 11,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 11
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -24738,8 +24918,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4154,
-      "top11Points": 4107,
+      "totalPointsAll": 4196,
+      "top11Points": 4149,
       "players": [
         {
           "name": "Travis Head",
@@ -24755,12 +24935,23 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 382,
+          "batting": 393,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 382,
+          "rawPoints": 393,
           "multiplier": 1.5,
-          "effectivePoints": 573,
+          "effectivePoints": 590,
+          "countsInTop11": true
+        },
+        {
+          "name": "Cameron Green",
+          "role": "All-Rounder",
+          "batting": 427,
+          "bowling": 100,
+          "fielding": 56,
+          "rawPoints": 583,
+          "multiplier": 1,
+          "effectivePoints": 583,
           "countsInTop11": true
         },
         {
@@ -24772,17 +24963,6 @@
           "rawPoints": 569,
           "multiplier": 1,
           "effectivePoints": 569,
-          "countsInTop11": true
-        },
-        {
-          "name": "Cameron Green",
-          "role": "All-Rounder",
-          "batting": 427,
-          "bowling": 75,
-          "fielding": 56,
-          "rawPoints": 558,
-          "multiplier": 1,
-          "effectivePoints": 558,
           "countsInTop11": true
         },
         {
