@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T15:54:55.981Z",
+  "lastUpdated": "2026-05-20T16:04:59.895Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 65,
+        "r": 82,
         "w": 4,
-        "o": 10.1
+        "o": 12.5
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 20,
         "fielding": 0,
-        "total": 0
+        "total": 20
       },
       "Anukul Roy": {
         "batting": 0,
@@ -64,16 +64,16 @@
         "total": 19
       },
       "Tilak Varma": {
-        "batting": -3,
+        "batting": 1,
         "bowling": 0,
         "fielding": 0,
-        "total": -3
+        "total": 1
       },
       "Hardik Pandya": {
-        "batting": 8,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 7
       }
     }
   },
@@ -105,18 +105,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4845,
-      "top11Points": 4809
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4785,
-      "top11Points": 4788
+      "totalPointsAll": 4849,
+      "top11Points": 4813
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4855,
-      "top11Points": 4759
+      "totalPointsAll": 4885,
+      "top11Points": 4789
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4784,
+      "top11Points": 4787
     },
     {
       "team": "Tanay",
@@ -23842,17 +23842,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 65,
+          "r": 82,
           "w": 4,
-          "o": 10.1
+          "o": 12.5
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 65,
+          "runs": 82,
           "wickets": 4,
-          "overs": 10.1,
+          "overs": 12.5,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -23892,20 +23892,20 @@
             },
             {
               "name": "Tilak Varma",
-              "runs": 7,
-              "balls": 12,
+              "runs": 11,
+              "balls": 20,
               "fours": 0,
               "sixes": 0,
-              "sr": 58.33,
+              "sr": 55,
               "dismissal": "batting"
             },
             {
               "name": "Hardik Pandya",
-              "runs": 7,
-              "balls": 7,
+              "runs": 11,
+              "balls": 12,
               "fours": 1,
               "sixes": 0,
-              "sr": 100,
+              "sr": 91.67,
               "dismissal": "batting"
             }
           ],
@@ -23944,11 +23944,19 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
+              "runs": 6,
               "wickets": 0,
               "economy": 3
+            },
+            {
+              "name": "Varun Chakaravarthy",
+              "overs": 1.1,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 4.29
             }
           ]
         }
@@ -23974,9 +23982,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 20,
           "fielding": 0,
-          "total": 0
+          "total": 20
         },
         "Anukul Roy": {
           "batting": 0,
@@ -24003,16 +24011,16 @@
           "total": 19
         },
         "Tilak Varma": {
-          "batting": -3,
+          "batting": 1,
           "bowling": 0,
           "fielding": 0,
-          "total": -3
+          "total": 1
         },
         "Hardik Pandya": {
-          "batting": 8,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 7
         }
       },
       "isComplete": false
@@ -24020,8 +24028,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4785,
-      "top11Points": 4788,
+      "totalPointsAll": 4784,
+      "top11Points": 4787,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24114,12 +24122,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 198,
+          "batting": 197,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 274,
+          "rawPoints": 273,
           "multiplier": 1,
-          "effectivePoints": 274,
+          "effectivePoints": 273,
           "countsInTop11": true
         },
         {
@@ -24169,8 +24177,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4845,
-      "top11Points": 4809,
+      "totalPointsAll": 4849,
+      "top11Points": 4813,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -24208,12 +24216,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 450,
+          "batting": 454,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 522,
+          "rawPoints": 526,
           "multiplier": 1,
-          "effectivePoints": 522,
+          "effectivePoints": 526,
           "countsInTop11": true
         },
         {
@@ -24445,8 +24453,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4855,
-      "top11Points": 4759,
+      "totalPointsAll": 4885,
+      "top11Points": 4789,
       "players": [
         {
           "name": "Shubman Gill",
@@ -24463,11 +24471,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 421,
+          "bowling": 441,
           "fielding": 24,
-          "rawPoints": 490,
+          "rawPoints": 510,
           "multiplier": 1.5,
-          "effectivePoints": 735,
+          "effectivePoints": 765,
           "countsInTop11": true
         },
         {
