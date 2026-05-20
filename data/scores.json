@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:44:55.696Z",
+  "lastUpdated": "2026-05-20T16:55:00.560Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 128,
-        "w": 7,
-        "o": 19
+        "r": 147,
+        "w": 8,
+        "o": 20
       }
     ],
     "playerScores": {
@@ -23,21 +23,21 @@
       },
       "Cameron Green": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 55,
         "fielding": 8,
-        "total": 58
+        "total": 63
       },
       "Rinku Singh": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 10,
+        "total": 10
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": 45,
         "fielding": 0,
-        "total": 20
+        "total": 45
       },
       "Anukul Roy": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Varun Chakaravarthy": {
         "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
+        "bowling": 12,
+        "fielding": 5,
+        "total": 17
       },
       "Finn Allen": {
         "batting": 0,
@@ -76,22 +76,22 @@
         "total": 12
       },
       "Hardik Pandya": {
-        "batting": 30,
+        "batting": 25,
         "bowling": 0,
         "fielding": 0,
-        "total": 30
+        "total": 25
       },
       "Will Jacks": {
-        "batting": 5,
+        "batting": 17,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 17
       },
       "Deepak Chahar": {
-        "batting": 12,
+        "batting": 0,
         "bowling": 0,
         "fielding": 0,
-        "total": 12
+        "total": 0
       }
     }
   },
@@ -103,18 +103,18 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5969,
-      "top11Points": 5663
+      "totalPointsAll": 5984,
+      "top11Points": 5678
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5116,
-      "top11Points": 5116
+      "totalPointsAll": 5128,
+      "top11Points": 5128
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5222,
-      "top11Points": 5039
+      "totalPointsAll": 5210,
+      "top11Points": 5033
     },
     {
       "team": "Kishan",
@@ -123,23 +123,23 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4880,
-      "top11Points": 4844
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4815,
-      "top11Points": 4818
+      "totalPointsAll": 4877,
+      "top11Points": 4841
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 4885,
-      "top11Points": 4789
+      "totalPointsAll": 4923,
+      "top11Points": 4827
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4810,
+      "top11Points": 4813
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4241,
-      "top11Points": 4194
+      "totalPointsAll": 4246,
+      "top11Points": 4199
     }
   ],
   "matchHistory": [
@@ -23860,17 +23860,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 128,
-          "w": 7,
-          "o": 19
+          "r": 147,
+          "w": 8,
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 128,
-          "wickets": 7,
-          "overs": 19,
+          "runs": 147,
+          "wickets": 8,
+          "overs": 20,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -23920,19 +23920,37 @@
             {
               "name": "Hardik Pandya",
               "runs": 26,
-              "balls": 23,
+              "balls": 27,
               "fours": 2,
               "sixes": 1,
-              "sr": 113.04,
-              "dismissal": "batting"
+              "sr": 96.3,
+              "dismissal": "b Sunil Narine"
             },
             {
               "name": "Will Jacks",
-              "runs": 4,
-              "balls": 2,
+              "runs": 14,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "run out (Rinku Singh/Varun Chakaravarthy)"
+            },
+            {
+              "name": "Corbin Bosch",
+              "runs": 8,
+              "balls": 10,
               "fours": 1,
               "sixes": 0,
-              "sr": 200,
+              "sr": 80,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Deepak Chahar",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -23955,35 +23973,35 @@
             },
             {
               "name": "Cameron Green",
-              "overs": 2.2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 22,
+              "runs": 23,
               "wickets": 2,
-              "economy": 9.43
+              "economy": 7.67
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 9,
+              "runs": 15,
               "wickets": 1,
-              "economy": 4.5
+              "economy": 6
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
-              "economy": 4
+              "runs": 13,
+              "wickets": 1,
+              "economy": 3.25
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 17,
+              "runs": 28,
               "wickets": 0,
-              "economy": 5.67
+              "economy": 7
             }
           ]
         }
@@ -23997,21 +24015,21 @@
         },
         "Cameron Green": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 55,
           "fielding": 8,
-          "total": 58
+          "total": 63
         },
         "Rinku Singh": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 10,
+          "total": 10
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": 45,
           "fielding": 0,
-          "total": 20
+          "total": 45
         },
         "Anukul Roy": {
           "batting": 0,
@@ -24021,9 +24039,9 @@
         },
         "Varun Chakaravarthy": {
           "batting": 0,
-          "bowling": 20,
-          "fielding": 0,
-          "total": 20
+          "bowling": 12,
+          "fielding": 5,
+          "total": 17
         },
         "Finn Allen": {
           "batting": 0,
@@ -24050,22 +24068,22 @@
           "total": 12
         },
         "Hardik Pandya": {
-          "batting": 30,
+          "batting": 25,
           "bowling": 0,
           "fielding": 0,
-          "total": 30
+          "total": 25
         },
         "Will Jacks": {
-          "batting": 5,
+          "batting": 17,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 17
         },
         "Deepak Chahar": {
-          "batting": 12,
+          "batting": 0,
           "bowling": 0,
           "fielding": 0,
-          "total": 12
+          "total": 0
         }
       },
       "isComplete": false
@@ -24073,8 +24091,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4815,
-      "top11Points": 4818,
+      "totalPointsAll": 4810,
+      "top11Points": 4813,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24167,12 +24185,12 @@
         {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
-          "batting": 220,
+          "batting": 215,
           "bowling": 60,
           "fielding": 16,
-          "rawPoints": 296,
+          "rawPoints": 291,
           "multiplier": 1,
-          "effectivePoints": 296,
+          "effectivePoints": 291,
           "countsInTop11": true
         },
         {
@@ -24222,8 +24240,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4880,
-      "top11Points": 4844,
+      "totalPointsAll": 4877,
+      "top11Points": 4841,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -24306,11 +24324,11 @@
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
           "batting": -5,
-          "bowling": 292,
-          "fielding": 16,
-          "rawPoints": 303,
+          "bowling": 284,
+          "fielding": 21,
+          "rawPoints": 300,
           "multiplier": 1,
-          "effectivePoints": 303,
+          "effectivePoints": 300,
           "countsInTop11": true
         },
         {
@@ -24498,8 +24516,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4885,
-      "top11Points": 4789,
+      "totalPointsAll": 4923,
+      "top11Points": 4827,
       "players": [
         {
           "name": "Shubman Gill",
@@ -24516,11 +24534,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 441,
+          "bowling": 466,
           "fielding": 24,
-          "rawPoints": 510,
+          "rawPoints": 535,
           "multiplier": 1.5,
-          "effectivePoints": 765,
+          "effectivePoints": 803,
           "countsInTop11": true
         },
         {
@@ -24763,8 +24781,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5222,
-      "top11Points": 5039,
+      "totalPointsAll": 5210,
+      "top11Points": 5033,
       "players": [
         {
           "name": "Axar Patel",
@@ -24877,17 +24895,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
-          "batting": 20,
-          "bowling": 117,
-          "fielding": 8,
-          "rawPoints": 145,
-          "multiplier": 1,
-          "effectivePoints": 145,
-          "countsInTop11": true
-        },
-        {
           "name": "Glenn Phillips",
           "role": "All-Rounder",
           "batting": 75,
@@ -24896,6 +24903,17 @@
           "rawPoints": 139,
           "multiplier": 1,
           "effectivePoints": 139,
+          "countsInTop11": true
+        },
+        {
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
+          "batting": 8,
+          "bowling": 117,
+          "fielding": 8,
+          "rawPoints": 133,
+          "multiplier": 1,
+          "effectivePoints": 133,
           "countsInTop11": false
         },
         {
@@ -24923,8 +24941,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5116,
-      "top11Points": 5116,
+      "totalPointsAll": 5128,
+      "top11Points": 5128,
       "players": [
         {
           "name": "Jos Buttler",
@@ -25017,12 +25035,12 @@
         {
           "name": "Will Jacks",
           "role": "All-Rounder",
-          "batting": 102,
+          "batting": 114,
           "bowling": 22,
           "fielding": 16,
-          "rawPoints": 140,
+          "rawPoints": 152,
           "multiplier": 1,
-          "effectivePoints": 140,
+          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -25050,8 +25068,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4241,
-      "top11Points": 4194,
+      "totalPointsAll": 4246,
+      "top11Points": 4199,
       "players": [
         {
           "name": "Travis Head",
@@ -25068,11 +25086,11 @@
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 427,
-          "bowling": 125,
+          "bowling": 130,
           "fielding": 64,
-          "rawPoints": 616,
+          "rawPoints": 621,
           "multiplier": 1,
-          "effectivePoints": 616,
+          "effectivePoints": 621,
           "countsInTop11": true
         },
         {
@@ -25188,8 +25206,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5969,
-      "top11Points": 5663,
+      "totalPointsAll": 5984,
+      "top11Points": 5678,
       "players": [
         {
           "name": "Sanju Samson",
@@ -25218,10 +25236,10 @@
           "role": "Batsman",
           "batting": 378,
           "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 450,
+          "fielding": 82,
+          "rawPoints": 460,
           "multiplier": 1.5,
-          "effectivePoints": 675,
+          "effectivePoints": 690,
           "countsInTop11": true
         },
         {
