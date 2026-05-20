@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T14:14:56.265Z",
+  "lastUpdated": "2026-05-20T14:24:54.137Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 17,
-        "w": 1,
-        "o": 2.5
+        "r": 24,
+        "w": 3,
+        "o": 4
       }
     ],
     "playerScores": {
@@ -23,9 +23,9 @@
       },
       "Cameron Green": {
         "batting": 0,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 25
+        "bowling": 50,
+        "fielding": 8,
+        "total": 58
       },
       "Rinku Singh": {
         "batting": 0,
@@ -52,10 +52,22 @@
         "total": 0
       },
       "Rohit Sharma": {
-        "batting": 11,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 19
+      },
+      "Suryakumar Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tilak Varma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -102,8 +114,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4196,
-      "top11Points": 4149
+      "totalPointsAll": 4241,
+      "top11Points": 4194
     }
   ],
   "matchHistory": [
@@ -23824,17 +23836,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 17,
-          "w": 1,
-          "o": 2.5
+          "r": 24,
+          "w": 3,
+          "o": 4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 17,
-          "wickets": 1,
-          "overs": 2.5,
+          "runs": 24,
+          "wickets": 3,
+          "overs": 4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -23847,17 +23859,35 @@
             },
             {
               "name": "Rohit Sharma",
-              "runs": 9,
-              "balls": 8,
+              "runs": 15,
+              "balls": 13,
               "fours": 0,
-              "sixes": 1,
-              "sr": 112.5,
-              "dismissal": "batting"
+              "sixes": 2,
+              "sr": 115.38,
+              "dismissal": "c Cameron Green b Saurabh Dubey"
             },
             {
               "name": "Naman Dhir",
               "runs": 0,
-              "balls": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Angkrish Raghuvanshi b Cameron Green"
+            },
+            {
+              "name": "Suryakumar Yadav",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 0,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -23875,19 +23905,19 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 3,
-              "wickets": 0,
-              "economy": 3
+              "runs": 10,
+              "wickets": 1,
+              "economy": 5
             },
             {
               "name": "Cameron Green",
-              "overs": 0.5,
+              "overs": 1,
               "maidens": 0,
               "runs": 7,
-              "wickets": 1,
-              "economy": 8.4
+              "wickets": 2,
+              "economy": 7
             }
           ]
         }
@@ -23901,9 +23931,9 @@
         },
         "Cameron Green": {
           "batting": 0,
-          "bowling": 25,
-          "fielding": 0,
-          "total": 25
+          "bowling": 50,
+          "fielding": 8,
+          "total": 58
         },
         "Rinku Singh": {
           "batting": 0,
@@ -23930,10 +23960,22 @@
           "total": 0
         },
         "Rohit Sharma": {
-          "batting": 11,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 19
+        },
+        "Suryakumar Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tilak Varma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -24918,8 +24960,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4196,
-      "top11Points": 4149,
+      "totalPointsAll": 4241,
+      "top11Points": 4194,
       "players": [
         {
           "name": "Travis Head",
@@ -24933,25 +24975,25 @@
           "countsInTop11": true
         },
         {
-          "name": "Rohit Sharma",
-          "role": "Opener",
-          "batting": 393,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 393,
-          "multiplier": 1.5,
-          "effectivePoints": 590,
-          "countsInTop11": true
-        },
-        {
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 427,
-          "bowling": 100,
-          "fielding": 56,
-          "rawPoints": 583,
+          "bowling": 125,
+          "fielding": 64,
+          "rawPoints": 616,
           "multiplier": 1,
-          "effectivePoints": 583,
+          "effectivePoints": 616,
+          "countsInTop11": true
+        },
+        {
+          "name": "Rohit Sharma",
+          "role": "Opener",
+          "batting": 401,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 401,
+          "multiplier": 1.5,
+          "effectivePoints": 602,
           "countsInTop11": true
         },
         {
