@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T17:45:01.589Z",
+  "lastUpdated": "2026-05-20T17:54:55.338Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 60,
+        "r": 73,
         "w": 3,
-        "o": 7.2
+        "o": 9
       },
       {
         "inning": "Mumbai Indians",
@@ -34,10 +34,10 @@
         "total": 10
       },
       "Cameron Green": {
-        "batting": 1,
+        "batting": 4,
         "bowling": 55,
         "fielding": 8,
-        "total": 64
+        "total": 67
       },
       "Rinku Singh": {
         "batting": 0,
@@ -150,8 +150,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4247,
-      "top11Points": 4200
+      "totalPointsAll": 4250,
+      "top11Points": 4203
     }
   ],
   "matchHistory": [
@@ -23872,9 +23872,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 60,
+          "r": 73,
           "w": 3,
-          "o": 7.2
+          "o": 9
         },
         {
           "inning": "Mumbai Indians",
@@ -24025,9 +24025,9 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 60,
+          "runs": 73,
           "wickets": 3,
-          "overs": 7.2,
+          "overs": 9,
           "batting": [
             {
               "name": "Ajinkya Rahane",
@@ -24049,20 +24049,29 @@
             },
             {
               "name": "Manish Pandey",
-              "runs": 16,
-              "balls": 12,
+              "runs": 18,
+              "balls": 13,
               "fours": 3,
               "sixes": 0,
-              "sr": 133.33,
+              "sr": 138.46,
               "dismissal": "batting"
             },
             {
               "name": "Cameron Green",
-              "runs": 1,
-              "balls": 1,
+              "runs": 4,
+              "balls": 8,
               "fours": 0,
               "sixes": 0,
-              "sr": 100,
+              "sr": 50,
+              "dismissal": "c AM Ghazanfar b Corbin Bosch"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 6,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 600,
               "dismissal": "batting"
             }
           ],
@@ -24085,11 +24094,19 @@
             },
             {
               "name": "Corbin Bosch",
-              "overs": 0.5,
+              "overs": 1.2,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 1,
-              "economy": 12
+              "runs": 18,
+              "wickets": 2,
+              "economy": 13.5
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 3,
+              "wickets": 0,
+              "economy": 3
             }
           ]
         }
@@ -24108,10 +24125,10 @@
           "total": 10
         },
         "Cameron Green": {
-          "batting": 1,
+          "batting": 4,
           "bowling": 55,
           "fielding": 8,
-          "total": 64
+          "total": 67
         },
         "Rinku Singh": {
           "batting": 0,
@@ -25162,8 +25179,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4247,
-      "top11Points": 4200,
+      "totalPointsAll": 4250,
+      "top11Points": 4203,
       "players": [
         {
           "name": "Travis Head",
@@ -25179,12 +25196,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 428,
+          "batting": 431,
           "bowling": 130,
           "fielding": 64,
-          "rawPoints": 622,
+          "rawPoints": 625,
           "multiplier": 1,
-          "effectivePoints": 622,
+          "effectivePoints": 625,
           "countsInTop11": true
         },
         {
