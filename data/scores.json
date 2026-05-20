@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T14:24:54.137Z",
+  "lastUpdated": "2026-05-20T14:34:54.500Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529308",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 24,
-        "w": 3,
-        "o": 4
+        "r": 41,
+        "w": 4,
+        "o": 5.4
       }
     ],
     "playerScores": {
@@ -58,16 +58,16 @@
         "total": 19
       },
       "Suryakumar Yadav": {
-        "batting": 0,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 19
       },
       "Tilak Varma": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 0
+        "total": 2
       }
     }
   },
@@ -99,18 +99,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 4848,
-      "top11Points": 4812
+      "totalPointsAll": 4850,
+      "top11Points": 4814
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 4777,
+      "top11Points": 4780
     },
     {
       "team": "Ashwin",
       "totalPointsAll": 4855,
       "top11Points": 4759
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 4739,
-      "top11Points": 4742
     },
     {
       "team": "Tanay",
@@ -23836,17 +23836,17 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 24,
-          "w": 3,
-          "o": 4
+          "r": 41,
+          "w": 4,
+          "o": 5.4
         }
       ],
       "scorecard": [
         {
           "innings": "Mumbai Indians",
-          "runs": 24,
-          "wickets": 3,
-          "overs": 4,
+          "runs": 41,
+          "wickets": 4,
+          "overs": 5.4,
           "batting": [
             {
               "name": "Ryan Rickelton",
@@ -23877,15 +23877,24 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 0,
-              "dismissal": "batting"
+              "runs": 15,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 250,
+              "dismissal": "b Saurabh Dubey"
             },
             {
               "name": "Tilak Varma",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Hardik Pandya",
               "runs": 0,
               "balls": 1,
               "fours": 0,
@@ -23905,19 +23914,19 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 2,
+              "overs": 2.4,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 1,
-              "economy": 5
+              "runs": 17,
+              "wickets": 2,
+              "economy": 6.38
             },
             {
               "name": "Cameron Green",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 7,
+              "runs": 17,
               "wickets": 2,
-              "economy": 7
+              "economy": 8.5
             }
           ]
         }
@@ -23966,16 +23975,16 @@
           "total": 19
         },
         "Suryakumar Yadav": {
-          "batting": 0,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 19
         },
         "Tilak Varma": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 0
+          "total": 2
         }
       },
       "isComplete": false
@@ -23983,8 +23992,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4739,
-      "top11Points": 4742,
+      "totalPointsAll": 4777,
+      "top11Points": 4780,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24022,12 +24031,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 248,
+          "batting": 267,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 272,
+          "rawPoints": 291,
           "multiplier": 2,
-          "effectivePoints": 544,
+          "effectivePoints": 582,
           "countsInTop11": true
         },
         {
@@ -24132,8 +24141,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4848,
-      "top11Points": 4812,
+      "totalPointsAll": 4850,
+      "top11Points": 4814,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -24171,12 +24180,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 453,
+          "batting": 455,
           "bowling": 0,
           "fielding": 72,
-          "rawPoints": 525,
+          "rawPoints": 527,
           "multiplier": 1,
-          "effectivePoints": 525,
+          "effectivePoints": 527,
           "countsInTop11": true
         },
         {
