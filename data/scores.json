@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T14:14:57.893Z",
+  "lastUpdated": "2026-05-21T14:24:58.855Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529309",
@@ -9,23 +9,23 @@
     "score": [
       {
         "inning": "Gujarat Titans",
-        "r": 25,
+        "r": 46,
         "w": 0,
-        "o": 2.2
+        "o": 4.4
       }
     ],
     "playerScores": {
       "Sai Sudharsan": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Shubman Gill": {
         "batting": 8,
         "bowling": 0,
         "fielding": 0,
         "total": 8
-      },
-      "Shubman Gill": {
-        "batting": 25,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 25
       },
       "Sanju Samson": {
         "batting": 0,
@@ -91,14 +91,14 @@
       "top11Points": 4877
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 4973,
-      "top11Points": 4877
+      "team": "Aakash",
+      "totalPointsAll": 4879,
+      "top11Points": 4843
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4893,
-      "top11Points": 4857
+      "team": "Ashwin",
+      "totalPointsAll": 4939,
+      "top11Points": 4843
     },
     {
       "team": "Tanay",
@@ -24211,69 +24211,61 @@
       "score": [
         {
           "inning": "Gujarat Titans",
-          "r": 25,
+          "r": 46,
           "w": 0,
-          "o": 2.2
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Gujarat Titans",
-          "runs": 25,
+          "runs": 46,
           "wickets": 0,
-          "overs": 2.2,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Sai Sudharsan",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
               "runs": 7,
               "balls": 5,
               "fours": 1,
               "sixes": 0,
               "sr": 140,
               "dismissal": "batting"
-            },
-            {
-              "name": "Shubman Gill",
-              "runs": 17,
-              "balls": 11,
-              "fours": 3,
-              "sixes": 0,
-              "sr": 154.55,
-              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 1.4,
-              "maidens": 0,
-              "runs": 14,
-              "wickets": 0,
-              "economy": 8.4
-            },
-            {
-              "name": "Spencer Johnson",
               "overs": 1,
               "maidens": 0,
-              "runs": 15,
+              "runs": 8,
               "wickets": 0,
-              "economy": 15
+              "economy": 8
             }
           ]
         }
       ],
       "playerScores": {
         "Sai Sudharsan": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Shubman Gill": {
           "batting": 8,
           "bowling": 0,
           "fielding": 0,
           "total": 8
-        },
-        "Shubman Gill": {
-          "batting": 25,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 25
         },
         "Sanju Samson": {
           "batting": 0,
@@ -24460,18 +24452,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4893,
-      "top11Points": 4857,
+      "totalPointsAll": 4879,
+      "top11Points": 4843,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 777,
+          "batting": 770,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 811,
+          "rawPoints": 804,
           "multiplier": 2,
-          "effectivePoints": 1622,
+          "effectivePoints": 1608,
           "countsInTop11": true
         },
         {
@@ -24736,18 +24728,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4973,
-      "top11Points": 4877,
+      "totalPointsAll": 4939,
+      "top11Points": 4843,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 771,
+          "batting": 754,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 853,
+          "rawPoints": 836,
           "multiplier": 2,
-          "effectivePoints": 1706,
+          "effectivePoints": 1672,
           "countsInTop11": true
         },
         {
