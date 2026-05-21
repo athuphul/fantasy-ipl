@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T17:14:57.878Z",
+  "lastUpdated": "2026-05-21T17:25:09.608Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529309",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 116,
-        "w": 6,
-        "o": 10.3
+        "r": 138,
+        "w": 8,
+        "o": 12.4
       }
     ],
     "playerScores": {
@@ -30,8 +30,8 @@
       "Shubman Gill": {
         "batting": 92,
         "bowling": 0,
-        "fielding": 10,
-        "total": 102
+        "fielding": 18,
+        "total": 110
       },
       "Jos Buttler": {
         "batting": 95,
@@ -94,22 +94,22 @@
         "total": 22
       },
       "Dewald Brevis": {
-        "batting": 5,
+        "batting": 7,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 7
       },
       "Shivam Dube": {
-        "batting": 52,
+        "batting": 74,
         "bowling": 0,
         "fielding": 8,
-        "total": 60
+        "total": 82
       },
       "Noor Ahmad": {
-        "batting": 0,
+        "batting": 1,
         "bowling": -10,
         "fielding": 0,
-        "total": -10
+        "total": -9
       }
     }
   },
@@ -121,8 +121,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6052,
-      "top11Points": 5751
+      "totalPointsAll": 6075,
+      "top11Points": 5774
     },
     {
       "team": "Ritik",
@@ -141,8 +141,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 5132,
-      "top11Points": 5036
+      "totalPointsAll": 5150,
+      "top11Points": 5054
     },
     {
       "team": "Kishan",
@@ -24271,9 +24271,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 116,
-          "w": 6,
-          "o": 10.3
+          "r": 138,
+          "w": 8,
+          "o": 12.4
         }
       ],
       "scorecard": [
@@ -24382,9 +24382,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 116,
-          "wickets": 6,
-          "overs": 10.3,
+          "runs": 138,
+          "wickets": 8,
+          "overs": 12.4,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -24433,8 +24433,8 @@
             },
             {
               "name": "Dewald Brevis",
-              "runs": 5,
-              "balls": 5,
+              "runs": 7,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
               "sr": 100,
@@ -24442,11 +24442,20 @@
             },
             {
               "name": "Shivam Dube",
-              "runs": 30,
-              "balls": 11,
-              "fours": 3,
-              "sixes": 2,
-              "sr": 272.73,
+              "runs": 47,
+              "balls": 17,
+              "fours": 4,
+              "sixes": 4,
+              "sr": 276.47,
+              "dismissal": "c Shubman Gill b Rashid Khan"
+            },
+            {
+              "name": "Anshul Kamboj",
+              "runs": 7,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 233.33,
               "dismissal": "batting"
             }
           ],
@@ -24477,11 +24486,19 @@
             },
             {
               "name": "Jason Holder",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 27,
               "wickets": 0,
-              "economy": 12.86
+              "economy": 13.5
+            },
+            {
+              "name": "Rashid Khan",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 1,
+              "economy": 14
             }
           ]
         }
@@ -24496,8 +24513,8 @@
         "Shubman Gill": {
           "batting": 92,
           "bowling": 0,
-          "fielding": 10,
-          "total": 102
+          "fielding": 18,
+          "total": 110
         },
         "Jos Buttler": {
           "batting": 95,
@@ -24560,22 +24577,22 @@
           "total": 22
         },
         "Dewald Brevis": {
-          "batting": 5,
+          "batting": 7,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 7
         },
         "Shivam Dube": {
-          "batting": 52,
+          "batting": 74,
           "bowling": 0,
           "fielding": 8,
-          "total": 60
+          "total": 82
         },
         "Noor Ahmad": {
-          "batting": 0,
+          "batting": 1,
           "bowling": -10,
           "fielding": 0,
-          "total": -10
+          "total": -9
         }
       },
       "isComplete": false
@@ -25008,18 +25025,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5132,
-      "top11Points": 5036,
+      "totalPointsAll": 5150,
+      "top11Points": 5054,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
           "batting": 838,
           "bowling": 0,
-          "fielding": 92,
-          "rawPoints": 930,
+          "fielding": 100,
+          "rawPoints": 938,
           "multiplier": 2,
-          "effectivePoints": 1860,
+          "effectivePoints": 1876,
           "countsInTop11": true
         },
         {
@@ -25069,12 +25086,12 @@
         {
           "name": "Dewald Brevis",
           "role": "Batsman",
-          "batting": 186,
+          "batting": 188,
           "bowling": 0,
           "fielding": 106,
-          "rawPoints": 292,
+          "rawPoints": 294,
           "multiplier": 1,
-          "effectivePoints": 292,
+          "effectivePoints": 294,
           "countsInTop11": true
         },
         {
@@ -25698,8 +25715,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6052,
-      "top11Points": 5751,
+      "totalPointsAll": 6075,
+      "top11Points": 5774,
       "players": [
         {
           "name": "Sanju Samson",
@@ -25737,12 +25754,23 @@
         {
           "name": "Noor Ahmad",
           "role": "Spinner",
-          "batting": 12,
+          "batting": 13,
           "bowling": 392,
           "fielding": 32,
-          "rawPoints": 436,
+          "rawPoints": 437,
           "multiplier": 1,
-          "effectivePoints": 436,
+          "effectivePoints": 437,
+          "countsInTop11": true
+        },
+        {
+          "name": "Shivam Dube",
+          "role": "All-Rounder",
+          "batting": 358,
+          "bowling": 10,
+          "fielding": 32,
+          "rawPoints": 400,
+          "multiplier": 1,
+          "effectivePoints": 400,
           "countsInTop11": true
         },
         {
@@ -25754,17 +25782,6 @@
           "rawPoints": 396,
           "multiplier": 1,
           "effectivePoints": 396,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shivam Dube",
-          "role": "All-Rounder",
-          "batting": 336,
-          "bowling": 10,
-          "fielding": 32,
-          "rawPoints": 378,
-          "multiplier": 1,
-          "effectivePoints": 378,
           "countsInTop11": true
         },
         {
