@@ -1,7 +1,64 @@
 {
-  "lastUpdated": "2026-05-21T14:04:56.993Z",
+  "lastUpdated": "2026-05-21T14:14:57.893Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529309",
+    "name": "Gujarat Titans v Chennai Super Kings",
+    "status": "Live",
+    "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+    "score": [
+      {
+        "inning": "Gujarat Titans",
+        "r": 25,
+        "w": 0,
+        "o": 2.2
+      }
+    ],
+    "playerScores": {
+      "Sai Sudharsan": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
+      },
+      "Shubman Gill": {
+        "batting": 25,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 25
+      },
+      "Sanju Samson": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Dewald Brevis": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shivam Dube": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Noor Ahmad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -34,14 +91,14 @@
       "top11Points": 4877
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 4877,
-      "top11Points": 4841
+      "team": "Ashwin",
+      "totalPointsAll": 4973,
+      "top11Points": 4877
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 4923,
-      "top11Points": 4827
+      "team": "Aakash",
+      "totalPointsAll": 4893,
+      "top11Points": 4857
     },
     {
       "team": "Tanay",
@@ -24144,6 +24201,112 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529309",
+      "name": "Gujarat Titans v Chennai Super Kings",
+      "date": "2026-05-21",
+      "status": "Live",
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+      "score": [
+        {
+          "inning": "Gujarat Titans",
+          "r": 25,
+          "w": 0,
+          "o": 2.2
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Gujarat Titans",
+          "runs": 25,
+          "wickets": 0,
+          "overs": 2.2,
+          "batting": [
+            {
+              "name": "Sai Sudharsan",
+              "runs": 7,
+              "balls": 5,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 140,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Shubman Gill",
+              "runs": 17,
+              "balls": 11,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 154.55,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mukesh Choudhary",
+              "overs": 1.4,
+              "maidens": 0,
+              "runs": 14,
+              "wickets": 0,
+              "economy": 8.4
+            },
+            {
+              "name": "Spencer Johnson",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 15,
+              "wickets": 0,
+              "economy": 15
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Sai Sudharsan": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
+        },
+        "Shubman Gill": {
+          "batting": 25,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 25
+        },
+        "Sanju Samson": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Dewald Brevis": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shivam Dube": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Noor Ahmad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -24297,18 +24460,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 4877,
-      "top11Points": 4841,
+      "totalPointsAll": 4893,
+      "top11Points": 4857,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 769,
+          "batting": 777,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 803,
+          "rawPoints": 811,
           "multiplier": 2,
-          "effectivePoints": 1606,
+          "effectivePoints": 1622,
           "countsInTop11": true
         },
         {
@@ -24573,18 +24736,18 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 4923,
-      "top11Points": 4827,
+      "totalPointsAll": 4973,
+      "top11Points": 4877,
       "players": [
         {
           "name": "Shubman Gill",
           "role": "Opener",
-          "batting": 746,
+          "batting": 771,
           "bowling": 0,
           "fielding": 82,
-          "rawPoints": 828,
+          "rawPoints": 853,
           "multiplier": 2,
-          "effectivePoints": 1656,
+          "effectivePoints": 1706,
           "countsInTop11": true
         },
         {
