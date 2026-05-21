@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:04:58.783Z",
+  "lastUpdated": "2026-05-21T16:14:58.966Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529309",
@@ -12,14 +12,20 @@
         "r": 229,
         "w": 4,
         "o": 20
+      },
+      {
+        "inning": "Chennai Super Kings",
+        "r": 0,
+        "w": 1,
+        "o": 0.2
       }
     ],
     "playerScores": {
       "Sai Sudharsan": {
-        "batting": 106,
+        "batting": 114,
         "bowling": 0,
         "fielding": 0,
-        "total": 106
+        "total": 114
       },
       "Shubman Gill": {
         "batting": 92,
@@ -28,10 +34,10 @@
         "total": 92
       },
       "Jos Buttler": {
-        "batting": 68,
+        "batting": 94,
         "bowling": 0,
         "fielding": 0,
-        "total": 68
+        "total": 94
       },
       "Rahul Tewatia": {
         "batting": -5,
@@ -45,17 +51,41 @@
         "fielding": 0,
         "total": 9
       },
-      "Sanju Samson": {
+      "Rashid Khan": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
       },
-      "Ruturaj Gaikwad": {
+      "Kagiso Rabada": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Mohammed Siraj": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Prasidh Krishna": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Sanju Samson": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
+      "Ruturaj Gaikwad": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 10,
+        "total": 10
       },
       "Dewald Brevis": {
         "batting": 0,
@@ -80,28 +110,28 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5907,
-      "top11Points": 5909
+      "totalPointsAll": 5932,
+      "top11Points": 5934
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 5994,
-      "top11Points": 5693
+      "totalPointsAll": 5984,
+      "top11Points": 5683
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5267,
-      "top11Points": 5267
+      "totalPointsAll": 5306,
+      "top11Points": 5306
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5252,
-      "top11Points": 5069
+      "totalPointsAll": 5267,
+      "top11Points": 5084
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5089,
-      "top11Points": 5053
+      "totalPointsAll": 5105,
+      "top11Points": 5069
     },
     {
       "team": "Ashwin",
@@ -24232,6 +24262,12 @@
           "r": 229,
           "w": 4,
           "o": 20
+        },
+        {
+          "inning": "Chennai Super Kings",
+          "r": 0,
+          "w": 1,
+          "o": 0.2
         }
       ],
       "scorecard": [
@@ -24243,12 +24279,12 @@
           "batting": [
             {
               "name": "Sai Sudharsan",
-              "runs": 78,
-              "balls": 51,
+              "runs": 84,
+              "balls": 53,
               "fours": 7,
-              "sixes": 3,
-              "sr": 152.94,
-              "dismissal": "batting"
+              "sixes": 4,
+              "sr": 158.49,
+              "dismissal": "c Matthew Short b Anshul Kamboj"
             },
             {
               "name": "Shubman Gill",
@@ -24261,22 +24297,40 @@
             },
             {
               "name": "Jos Buttler",
-              "runs": 43,
-              "balls": 21,
-              "fours": 2,
+              "runs": 56,
+              "balls": 26,
+              "fours": 5,
               "sixes": 4,
-              "sr": 204.76,
+              "sr": 215.38,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rahul Tewatia",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "run out (Ruturaj Gaikwad)"
+            },
+            {
+              "name": "Washington Sundar",
+              "runs": 7,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 350,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mukesh Choudhary",
-              "overs": 3,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 23,
+              "runs": 35,
               "wickets": 0,
-              "economy": 7.67
+              "economy": 9.55
             },
             {
               "name": "Spencer Johnson",
@@ -24296,10 +24350,10 @@
             },
             {
               "name": "Anshul Kamboj",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 42,
-              "wickets": 0,
+              "runs": 56,
+              "wickets": 1,
               "economy": 14
             },
             {
@@ -24323,10 +24377,10 @@
       ],
       "playerScores": {
         "Sai Sudharsan": {
-          "batting": 106,
+          "batting": 114,
           "bowling": 0,
           "fielding": 0,
-          "total": 106
+          "total": 114
         },
         "Shubman Gill": {
           "batting": 92,
@@ -24335,10 +24389,10 @@
           "total": 92
         },
         "Jos Buttler": {
-          "batting": 68,
+          "batting": 94,
           "bowling": 0,
           "fielding": 0,
-          "total": 68
+          "total": 94
         },
         "Rahul Tewatia": {
           "batting": -5,
@@ -24352,17 +24406,41 @@
           "fielding": 0,
           "total": 9
         },
-        "Sanju Samson": {
+        "Rashid Khan": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
         },
-        "Ruturaj Gaikwad": {
+        "Kagiso Rabada": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Mohammed Siraj": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Prasidh Krishna": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Sanju Samson": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
+        "Ruturaj Gaikwad": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 10,
+          "total": 10
         },
         "Dewald Brevis": {
           "batting": 0,
@@ -24537,18 +24615,18 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5089,
-      "top11Points": 5053,
+      "totalPointsAll": 5105,
+      "top11Points": 5069,
       "players": [
         {
           "name": "Sai Sudharsan",
           "role": "Opener",
-          "batting": 875,
+          "batting": 883,
           "bowling": 0,
           "fielding": 34,
-          "rawPoints": 909,
+          "rawPoints": 917,
           "multiplier": 2,
-          "effectivePoints": 1818,
+          "effectivePoints": 1834,
           "countsInTop11": true
         },
         {
@@ -24675,8 +24753,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5907,
-      "top11Points": 5909,
+      "totalPointsAll": 5932,
+      "top11Points": 5934,
       "players": [
         {
           "name": "KL Rahul",
@@ -24726,11 +24804,11 @@
           "name": "Mohammed Siraj",
           "role": "Fast Bowler",
           "batting": -5,
-          "bowling": 419,
+          "bowling": 444,
           "fielding": 32,
-          "rawPoints": 446,
+          "rawPoints": 471,
           "multiplier": 1,
-          "effectivePoints": 446,
+          "effectivePoints": 471,
           "countsInTop11": true
         },
         {
@@ -25078,8 +25156,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5252,
-      "top11Points": 5069,
+      "totalPointsAll": 5267,
+      "top11Points": 5084,
       "players": [
         {
           "name": "Axar Patel",
@@ -25108,10 +25186,10 @@
           "role": "Batsman",
           "batting": 364,
           "bowling": 0,
-          "fielding": 55,
-          "rawPoints": 419,
+          "fielding": 65,
+          "rawPoints": 429,
           "multiplier": 1.5,
-          "effectivePoints": 629,
+          "effectivePoints": 644,
           "countsInTop11": true
         },
         {
@@ -25238,18 +25316,18 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5267,
-      "top11Points": 5267,
+      "totalPointsAll": 5306,
+      "top11Points": 5306,
       "players": [
         {
           "name": "Jos Buttler",
           "role": "Wicket Keeper",
-          "batting": 636,
+          "batting": 662,
           "bowling": 0,
           "fielding": 172,
-          "rawPoints": 808,
+          "rawPoints": 834,
           "multiplier": 1.5,
-          "effectivePoints": 1212,
+          "effectivePoints": 1251,
           "countsInTop11": true
         },
         {
@@ -25503,18 +25581,18 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 5994,
-      "top11Points": 5693,
+      "totalPointsAll": 5984,
+      "top11Points": 5683,
       "players": [
         {
           "name": "Sanju Samson",
           "role": "Wicket Keeper",
-          "batting": 723,
+          "batting": 718,
           "bowling": 0,
           "fielding": 62,
-          "rawPoints": 785,
+          "rawPoints": 780,
           "multiplier": 2,
-          "effectivePoints": 1570,
+          "effectivePoints": 1560,
           "countsInTop11": true
         },
         {
