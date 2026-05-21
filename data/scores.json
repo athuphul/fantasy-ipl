@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:45:02.398Z",
+  "lastUpdated": "2026-05-21T16:54:56.092Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529309",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Chennai Super Kings",
-        "r": 58,
-        "w": 4,
-        "o": 5.6
+        "r": 70,
+        "w": 5,
+        "o": 7.4
       }
     ],
     "playerScores": {
@@ -59,9 +59,9 @@
       },
       "Kagiso Rabada": {
         "batting": 0,
-        "bowling": 20,
+        "bowling": -10,
         "fielding": 0,
-        "total": 20
+        "total": -10
       },
       "Mohammed Siraj": {
         "batting": 0,
@@ -72,8 +72,8 @@
       "Prasidh Krishna": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 16,
-        "total": 16
+        "fielding": 8,
+        "total": 8
       },
       "Sanju Samson": {
         "batting": -5,
@@ -88,22 +88,22 @@
         "total": 31
       },
       "Kartik Sharma": {
-        "batting": 22,
+        "batting": 9,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 9
       },
       "Dewald Brevis": {
-        "batting": 2,
+        "batting": 3,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 3
       },
       "Shivam Dube": {
-        "batting": 0,
+        "batting": 8,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 16
       },
       "Noor Ahmad": {
         "batting": 0,
@@ -141,8 +141,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 5109,
-      "top11Points": 5013
+      "totalPointsAll": 5110,
+      "top11Points": 5014
     },
     {
       "team": "Kishan",
@@ -151,13 +151,13 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 4894,
-      "top11Points": 4897
+      "totalPointsAll": 4864,
+      "top11Points": 4867
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4272,
-      "top11Points": 4225
+      "totalPointsAll": 4259,
+      "top11Points": 4212
     }
   ],
   "matchHistory": [
@@ -24271,9 +24271,9 @@
         },
         {
           "inning": "Chennai Super Kings",
-          "r": 58,
-          "w": 4,
-          "o": 5.6
+          "r": 70,
+          "w": 5,
+          "o": 7.4
         }
       ],
       "scorecard": [
@@ -24382,9 +24382,9 @@
         },
         {
           "innings": "Chennai Super Kings",
-          "runs": 58,
-          "wickets": 4,
-          "overs": 5.6,
+          "runs": 70,
+          "wickets": 5,
+          "overs": 7.4,
           "batting": [
             {
               "name": "Sanju Samson",
@@ -24397,12 +24397,12 @@
             },
             {
               "name": "Matthew Short",
-              "runs": 24,
-              "balls": 14,
-              "fours": 3,
+              "runs": 19,
+              "balls": 10,
+              "fours": 2,
               "sixes": 1,
-              "sr": 171.43,
-              "dismissal": "c Prasidh Krishna b Kagiso Rabada"
+              "sr": 190,
+              "dismissal": "batting"
             },
             {
               "name": "Ruturaj Gaikwad",
@@ -24424,39 +24424,30 @@
             },
             {
               "name": "Kartik Sharma",
-              "runs": 15,
-              "balls": 10,
-              "fours": 2,
+              "runs": 8,
+              "balls": 5,
+              "fours": 1,
               "sixes": 0,
-              "sr": 150,
-              "dismissal": "batting"
-            },
-            {
-              "name": "Dewald Brevis",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "sr": 160,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Siraj",
-              "overs": 3,
+              "overs": 2.1,
               "maidens": 0,
-              "runs": 26,
+              "runs": 19,
               "wickets": 3,
-              "economy": 8.67
+              "economy": 8.77
             },
             {
               "name": "Kagiso Rabada",
-              "overs": 3,
+              "overs": 2,
               "maidens": 0,
-              "runs": 32,
-              "wickets": 1,
-              "economy": 10.67
+              "runs": 25,
+              "wickets": 0,
+              "economy": 12.5
             }
           ]
         }
@@ -24500,9 +24491,9 @@
         },
         "Kagiso Rabada": {
           "batting": 0,
-          "bowling": 20,
+          "bowling": -10,
           "fielding": 0,
-          "total": 20
+          "total": -10
         },
         "Mohammed Siraj": {
           "batting": 0,
@@ -24513,8 +24504,8 @@
         "Prasidh Krishna": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 16,
-          "total": 16
+          "fielding": 8,
+          "total": 8
         },
         "Sanju Samson": {
           "batting": -5,
@@ -24529,22 +24520,22 @@
           "total": 31
         },
         "Kartik Sharma": {
-          "batting": 22,
+          "batting": 9,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 9
         },
         "Dewald Brevis": {
-          "batting": 2,
+          "batting": 3,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 3
         },
         "Shivam Dube": {
-          "batting": 0,
+          "batting": 8,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 16
         },
         "Noor Ahmad": {
           "batting": 0,
@@ -24558,8 +24549,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 4894,
-      "top11Points": 4897,
+      "totalPointsAll": 4864,
+      "top11Points": 4867,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -24587,11 +24578,11 @@
           "name": "Kagiso Rabada",
           "role": "Fast Bowler",
           "batting": 37,
-          "bowling": 599,
+          "bowling": 569,
           "fielding": 24,
-          "rawPoints": 660,
+          "rawPoints": 630,
           "multiplier": 1,
-          "effectivePoints": 660,
+          "effectivePoints": 630,
           "countsInTop11": true
         },
         {
@@ -24983,8 +24974,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5109,
-      "top11Points": 5013,
+      "totalPointsAll": 5110,
+      "top11Points": 5014,
       "players": [
         {
           "name": "Shubman Gill",
@@ -25044,12 +25035,12 @@
         {
           "name": "Dewald Brevis",
           "role": "Batsman",
-          "batting": 183,
+          "batting": 184,
           "bowling": 0,
           "fielding": 106,
-          "rawPoints": 289,
+          "rawPoints": 290,
           "multiplier": 1,
-          "effectivePoints": 289,
+          "effectivePoints": 290,
           "countsInTop11": true
         },
         {
@@ -25535,8 +25526,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4272,
-      "top11Points": 4225,
+      "totalPointsAll": 4259,
+      "top11Points": 4212,
       "players": [
         {
           "name": "Travis Head",
@@ -25585,12 +25576,12 @@
         {
           "name": "Kartik Sharma",
           "role": "Wicket Keeper",
-          "batting": 376,
+          "batting": 363,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 384,
+          "rawPoints": 371,
           "multiplier": 1,
-          "effectivePoints": 384,
+          "effectivePoints": 371,
           "countsInTop11": true
         },
         {
@@ -25725,21 +25716,21 @@
           "role": "Fast Bowler",
           "batting": 0,
           "bowling": 367,
-          "fielding": 29,
-          "rawPoints": 396,
+          "fielding": 21,
+          "rawPoints": 388,
           "multiplier": 1,
-          "effectivePoints": 396,
+          "effectivePoints": 388,
           "countsInTop11": true
         },
         {
           "name": "Shivam Dube",
           "role": "All-Rounder",
-          "batting": 284,
+          "batting": 292,
           "bowling": 10,
           "fielding": 32,
-          "rawPoints": 326,
+          "rawPoints": 334,
           "multiplier": 1,
-          "effectivePoints": 326,
+          "effectivePoints": 334,
           "countsInTop11": true
         },
         {
