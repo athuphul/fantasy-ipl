@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T16:24:54.892Z",
+  "lastUpdated": "2026-05-22T16:34:57.077Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529310",
@@ -15,17 +15,17 @@
       },
       {
         "inning": "Royal Challengers Bengaluru",
-        "r": 33,
-        "w": 0,
-        "o": 2.4
+        "r": 60,
+        "w": 1,
+        "o": 4.3
       }
     ],
     "playerScores": {
       "Abhishek Sharma": {
         "batting": 95,
         "bowling": 0,
-        "fielding": 0,
-        "total": 95
+        "fielding": 8,
+        "total": 103
       },
       "Travis Head": {
         "batting": 36,
@@ -58,10 +58,10 @@
         "total": 0
       },
       "Virat Kohli": {
-        "batting": 13,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 13
+        "total": 16
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -122,8 +122,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6135,
-      "top11Points": 6137
+      "totalPointsAll": 6147,
+      "top11Points": 6149
     },
     {
       "team": "Tikoo",
@@ -157,8 +157,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 5011,
-      "top11Points": 5011
+      "totalPointsAll": 5014,
+      "top11Points": 5014
     },
     {
       "team": "Tanay",
@@ -24653,9 +24653,9 @@
         },
         {
           "inning": "Royal Challengers Bengaluru",
-          "r": 33,
-          "w": 0,
-          "o": 2.4
+          "r": 60,
+          "w": 1,
+          "o": 4.3
         }
       ],
       "scorecard": [
@@ -24764,45 +24764,62 @@
         },
         {
           "innings": "Royal Challengers Bengaluru",
-          "runs": 33,
-          "wickets": 0,
-          "overs": 2.4,
+          "runs": 60,
+          "wickets": 1,
+          "overs": 4.3,
           "batting": [
             {
               "name": "Venkatesh Iyer",
-              "runs": 21,
-              "balls": 11,
-              "fours": 3,
-              "sixes": 1,
-              "sr": 190.91,
-              "dismissal": "batting"
+              "runs": 44,
+              "balls": 19,
+              "fours": 4,
+              "sixes": 4,
+              "sr": 231.58,
+              "dismissal": "c Abhishek Sharma b Eshan Malinga"
             },
             {
               "name": "Virat Kohli",
-              "runs": 11,
-              "balls": 6,
+              "runs": 14,
+              "balls": 8,
               "fours": 2,
               "sixes": 0,
-              "sr": 183.33,
+              "sr": 175,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Devdutt Padikkal",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Pat Cummins",
-              "overs": 1.5,
+              "overs": 2,
               "maidens": 0,
-              "runs": 28,
+              "runs": 29,
               "wickets": 0,
-              "economy": 15.27
+              "economy": 14.5
             },
             {
               "name": "Eshan Malinga",
+              "overs": 1.3,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 1,
+              "economy": 5.33
+            },
+            {
+              "name": "Shivang Kumar",
               "overs": 1,
               "maidens": 0,
-              "runs": 5,
+              "runs": 23,
               "wickets": 0,
-              "economy": 5
+              "economy": 23
             }
           ]
         }
@@ -24811,8 +24828,8 @@
         "Abhishek Sharma": {
           "batting": 95,
           "bowling": 0,
-          "fielding": 0,
-          "total": 95
+          "fielding": 8,
+          "total": 103
         },
         "Travis Head": {
           "batting": 36,
@@ -24845,10 +24862,10 @@
           "total": 0
         },
         "Virat Kohli": {
-          "batting": 13,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 13
+          "total": 16
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -25197,8 +25214,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6135,
-      "top11Points": 6137,
+      "totalPointsAll": 6147,
+      "top11Points": 6149,
       "players": [
         {
           "name": "KL Rahul",
@@ -25216,10 +25233,10 @@
           "role": "Opener",
           "batting": 879,
           "bowling": 12,
-          "fielding": 40,
-          "rawPoints": 931,
+          "fielding": 48,
+          "rawPoints": 939,
           "multiplier": 1.5,
-          "effectivePoints": 1397,
+          "effectivePoints": 1409,
           "countsInTop11": true
         },
         {
@@ -25473,8 +25490,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5011,
-      "top11Points": 5011,
+      "totalPointsAll": 5014,
+      "top11Points": 5014,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -25501,12 +25518,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 726,
+          "batting": 729,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 782,
+          "rawPoints": 785,
           "multiplier": 1,
-          "effectivePoints": 782,
+          "effectivePoints": 785,
           "countsInTop11": true
         },
         {
