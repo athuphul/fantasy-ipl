@@ -1,12 +1,93 @@
 {
-  "lastUpdated": "2026-05-21T18:25:14.591Z",
+  "lastUpdated": "2026-05-22T14:05:06.740Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529310",
+    "name": "Sunrisers Hyderabad v Royal Challengers Bengaluru",
+    "status": "Live",
+    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+    "score": [
+      {
+        "inning": "Sunrisers Hyderabad",
+        "r": 13,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Abhishek Sharma": {
+        "batting": 8,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 8
+      },
+      "Travis Head": {
+        "batting": 6,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 6
+      },
+      "Virat Kohli": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Rajat Patidar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Krunal Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Devdutt Padikkal": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Jitesh Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Romario Shepherd": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Bhuvneshwar Kumar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Josh Hazlewood": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Suyash Sharma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 5992,
-      "top11Points": 5994
+      "totalPointsAll": 6004,
+      "top11Points": 6006
     },
     {
       "team": "Tikoo",
@@ -45,8 +126,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4272,
-      "top11Points": 4225
+      "totalPointsAll": 4284,
+      "top11Points": 4237
     }
   ],
   "matchHistory": [
@@ -24520,6 +24601,136 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529310",
+      "name": "Sunrisers Hyderabad v Royal Challengers Bengaluru",
+      "date": "2026-05-22",
+      "status": "Live",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "score": [
+        {
+          "inning": "Sunrisers Hyderabad",
+          "r": 13,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Sunrisers Hyderabad",
+          "runs": 13,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Abhishek Sharma",
+              "runs": 6,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 200,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Travis Head",
+              "runs": 5,
+              "balls": 3,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 166.67,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Bhuvneshwar Kumar",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
+            },
+            {
+              "name": "Josh Hazlewood",
+              "overs": 0,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 0,
+              "economy": 0
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Abhishek Sharma": {
+          "batting": 8,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 8
+        },
+        "Travis Head": {
+          "batting": 6,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 6
+        },
+        "Virat Kohli": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Rajat Patidar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Krunal Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Devdutt Padikkal": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Jitesh Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Romario Shepherd": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Bhuvneshwar Kumar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Josh Hazlewood": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Suyash Sharma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -24811,8 +25022,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 5992,
-      "top11Points": 5994,
+      "totalPointsAll": 6004,
+      "top11Points": 6006,
       "players": [
         {
           "name": "KL Rahul",
@@ -24828,12 +25039,12 @@
         {
           "name": "Abhishek Sharma",
           "role": "Opener",
-          "batting": 784,
+          "batting": 792,
           "bowling": 12,
           "fielding": 40,
-          "rawPoints": 836,
+          "rawPoints": 844,
           "multiplier": 1.5,
-          "effectivePoints": 1254,
+          "effectivePoints": 1266,
           "countsInTop11": true
         },
         {
@@ -25501,18 +25712,18 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4272,
-      "top11Points": 4225,
+      "totalPointsAll": 4284,
+      "top11Points": 4237,
       "players": [
         {
           "name": "Travis Head",
           "role": "Opener",
-          "batting": 530,
+          "batting": 536,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 530,
+          "rawPoints": 536,
           "multiplier": 2,
-          "effectivePoints": 1060,
+          "effectivePoints": 1072,
           "countsInTop11": true
         },
         {
