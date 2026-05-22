@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T16:05:07.946Z",
+  "lastUpdated": "2026-05-22T16:15:09.825Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529310",
@@ -12,6 +12,12 @@
         "r": 255,
         "w": 4,
         "o": 20
+      },
+      {
+        "inning": "Royal Challengers Bengaluru",
+        "r": 15,
+        "w": 0,
+        "o": 1.5
       }
     ],
     "playerScores": {
@@ -28,10 +34,10 @@
         "total": 36
       },
       "Ishan Kishan": {
-        "batting": 108,
+        "batting": 112,
         "bowling": 0,
         "fielding": 0,
-        "total": 108
+        "total": 112
       },
       "Heinrich Klaasen": {
         "batting": 88,
@@ -40,16 +46,22 @@
         "total": 88
       },
       "Nitish Kumar Reddy": {
-        "batting": 51,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 51
+        "total": 28
       },
-      "Virat Kohli": {
+      "Harshal Patel": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Virat Kohli": {
+        "batting": 2,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 2
       },
       "Rajat Patidar": {
         "batting": 0,
@@ -66,8 +78,8 @@
       "Devdutt Padikkal": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "Jitesh Sharma": {
         "batting": 0,
@@ -120,13 +132,13 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5525,
-      "top11Points": 5525
+      "totalPointsAll": 5529,
+      "top11Points": 5529
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5369,
-      "top11Points": 5186
+      "totalPointsAll": 5346,
+      "top11Points": 5163
     },
     {
       "team": "Aakash",
@@ -145,8 +157,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 4998,
-      "top11Points": 4998
+      "totalPointsAll": 4992,
+      "top11Points": 4992
     },
     {
       "team": "Tanay",
@@ -24638,6 +24650,12 @@
           "r": 255,
           "w": 4,
           "o": 20
+        },
+        {
+          "inning": "Royal Challengers Bengaluru",
+          "r": 15,
+          "w": 0,
+          "o": 1.5
         }
       ],
       "scorecard": [
@@ -24667,12 +24685,12 @@
             },
             {
               "name": "Ishan Kishan",
-              "runs": 79,
-              "balls": 46,
+              "runs": 78,
+              "balls": 43,
               "fours": 8,
               "sixes": 3,
-              "sr": 171.74,
-              "dismissal": "c Devdutt Padikkal b Rasikh Salam Dar"
+              "sr": 181.4,
+              "dismissal": "batting"
             },
             {
               "name": "Heinrich Klaasen",
@@ -24685,22 +24703,22 @@
             },
             {
               "name": "Nitish Kumar Reddy",
-              "runs": 29,
-              "balls": 12,
-              "fours": 1,
+              "runs": 22,
+              "balls": 7,
+              "fours": 0,
               "sixes": 3,
-              "sr": 241.67,
-              "dismissal": "not out"
+              "sr": 314.29,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Bhuvneshwar Kumar",
-              "overs": 4,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 51,
+              "runs": 50,
               "wickets": 0,
-              "economy": 12.75
+              "economy": 13.64
             },
             {
               "name": "Josh Hazlewood",
@@ -24712,11 +24730,11 @@
             },
             {
               "name": "Rasikh Salam Dar",
-              "overs": 4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 52,
-              "wickets": 2,
-              "economy": 13
+              "runs": 43,
+              "wickets": 1,
+              "economy": 14.33
             },
             {
               "name": "Suyash Sharma",
@@ -24759,10 +24777,10 @@
           "total": 36
         },
         "Ishan Kishan": {
-          "batting": 108,
+          "batting": 112,
           "bowling": 0,
           "fielding": 0,
-          "total": 108
+          "total": 112
         },
         "Heinrich Klaasen": {
           "batting": 88,
@@ -24771,16 +24789,22 @@
           "total": 88
         },
         "Nitish Kumar Reddy": {
-          "batting": 51,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 51
+          "total": 28
         },
-        "Virat Kohli": {
+        "Harshal Patel": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Virat Kohli": {
+          "batting": 2,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 2
         },
         "Rajat Patidar": {
           "batting": 0,
@@ -24797,8 +24821,8 @@
         "Devdutt Padikkal": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Jitesh Sharma": {
           "batting": 0,
@@ -25405,8 +25429,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 4998,
-      "top11Points": 4998,
+      "totalPointsAll": 4992,
+      "top11Points": 4992,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -25433,12 +25457,12 @@
         {
           "name": "Virat Kohli",
           "role": "Opener",
-          "batting": 713,
+          "batting": 715,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 769,
+          "rawPoints": 771,
           "multiplier": 1,
-          "effectivePoints": 769,
+          "effectivePoints": 771,
           "countsInTop11": true
         },
         {
@@ -25446,10 +25470,10 @@
           "role": "Batsman",
           "batting": 590,
           "bowling": 0,
-          "fielding": 106,
-          "rawPoints": 696,
+          "fielding": 98,
+          "rawPoints": 688,
           "multiplier": 1,
-          "effectivePoints": 696,
+          "effectivePoints": 688,
           "countsInTop11": true
         },
         {
@@ -25532,8 +25556,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5369,
-      "top11Points": 5186,
+      "totalPointsAll": 5346,
+      "top11Points": 5163,
       "players": [
         {
           "name": "Axar Patel",
@@ -25571,12 +25595,12 @@
         {
           "name": "Nitish Kumar Reddy",
           "role": "All-Rounder",
-          "batting": 394,
+          "batting": 371,
           "bowling": 145,
           "fielding": 72,
-          "rawPoints": 611,
+          "rawPoints": 588,
           "multiplier": 1,
-          "effectivePoints": 611,
+          "effectivePoints": 588,
           "countsInTop11": true
         },
         {
@@ -25692,8 +25716,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5525,
-      "top11Points": 5525,
+      "totalPointsAll": 5529,
+      "top11Points": 5529,
       "players": [
         {
           "name": "Jos Buttler",
@@ -25720,12 +25744,12 @@
         {
           "name": "Ishan Kishan",
           "role": "Wicket Keeper",
-          "batting": 783,
+          "batting": 787,
           "bowling": 0,
           "fielding": 92,
-          "rawPoints": 875,
+          "rawPoints": 879,
           "multiplier": 1,
-          "effectivePoints": 875,
+          "effectivePoints": 879,
           "countsInTop11": true
         },
         {
