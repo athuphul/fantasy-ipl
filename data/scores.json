@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T15:34:56.948Z",
+  "lastUpdated": "2026-05-23T15:44:55.583Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 172,
-        "w": 5,
-        "o": 17.4
+        "r": 180,
+        "w": 6,
+        "o": 19.2
       }
     ],
     "playerScores": {
@@ -34,16 +34,16 @@
         "total": 29
       },
       "Abdul Samad": {
-        "batting": 10,
+        "batting": 28,
         "bowling": 0,
         "fielding": 0,
-        "total": 10
+        "total": 28
       },
       "Shreyas Iyer": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Prabhsimran Singh": {
         "batting": 0,
@@ -59,15 +59,15 @@
       },
       "Shashank Singh": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 8,
-        "total": 33
+        "total": 58
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -92,13 +92,13 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6177,
-      "top11Points": 6179
+      "totalPointsAll": 6185,
+      "top11Points": 6187
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6108,
-      "top11Points": 5807
+      "totalPointsAll": 6133,
+      "top11Points": 5832
     },
     {
       "team": "Ritik",
@@ -122,8 +122,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 5175,
-      "top11Points": 5073
+      "totalPointsAll": 5218,
+      "top11Points": 5116
     },
     {
       "team": "Kishan",
@@ -24945,26 +24945,26 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 172,
-          "w": 5,
-          "o": 17.4
+          "r": 180,
+          "w": 6,
+          "o": 19.2
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 172,
-          "wickets": 5,
-          "overs": 17.4,
+          "runs": 180,
+          "wickets": 6,
+          "overs": 19.2,
           "batting": [
             {
               "name": "Josh Inglis",
-              "runs": 71,
-              "balls": 42,
+              "runs": 72,
+              "balls": 44,
               "fours": 9,
               "sixes": 2,
-              "sr": 169.05,
-              "dismissal": "batting"
+              "sr": 163.64,
+              "dismissal": "c Shreyas Iyer b Shashank Singh"
             },
             {
               "name": "Arshin Kulkarni",
@@ -25004,22 +25004,40 @@
             },
             {
               "name": "Abdul Samad",
-              "runs": 8,
-              "balls": 6,
+              "runs": 23,
+              "balls": 17,
+              "fours": 1,
+              "sixes": 2,
+              "sr": 135.29,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Mukul Choudhary",
+              "runs": 1,
+              "balls": 3,
               "fours": 0,
-              "sixes": 1,
-              "sr": 133.33,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "c (sub)Praveen Dubey b Marco Jansen"
+            },
+            {
+              "name": "Arjun Tendulkar",
+              "runs": 5,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2,
+              "overs": 2.3,
               "maidens": 0,
-              "runs": 35,
+              "runs": 36,
               "wickets": 0,
-              "economy": 17.5
+              "economy": 14.4
             },
             {
               "name": "Azmatullah Omarzai",
@@ -25031,11 +25049,11 @@
             },
             {
               "name": "Marco Jansen",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 29,
-              "wickets": 1,
-              "economy": 9.67
+              "runs": 33,
+              "wickets": 2,
+              "economy": 8.25
             },
             {
               "name": "Yuzvendra Chahal",
@@ -25047,19 +25065,19 @@
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 20,
+              "runs": 26,
               "wickets": 0,
-              "economy": 10
+              "economy": 8.67
             },
             {
               "name": "Shashank Singh",
-              "overs": 2,
+              "overs": 3,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 0,
-              "economy": 8.5
+              "runs": 29,
+              "wickets": 1,
+              "economy": 9.67
             }
           ]
         }
@@ -25084,16 +25102,16 @@
           "total": 29
         },
         "Abdul Samad": {
-          "batting": 10,
+          "batting": 28,
           "bowling": 0,
           "fielding": 0,
-          "total": 10
+          "total": 28
         },
         "Shreyas Iyer": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Prabhsimran Singh": {
           "batting": 0,
@@ -25109,15 +25127,15 @@
         },
         "Shashank Singh": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 8,
-          "total": 33
+          "total": 58
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -25430,8 +25448,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6177,
-      "top11Points": 6179,
+      "totalPointsAll": 6185,
+      "top11Points": 6187,
       "players": [
         {
           "name": "KL Rahul",
@@ -25471,10 +25489,10 @@
           "role": "Batsman",
           "batting": 570,
           "bowling": 0,
-          "fielding": 56,
-          "rawPoints": 626,
+          "fielding": 64,
+          "rawPoints": 634,
           "multiplier": 1,
-          "effectivePoints": 626,
+          "effectivePoints": 634,
           "countsInTop11": true
         },
         {
@@ -25568,8 +25586,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5175,
-      "top11Points": 5073,
+      "totalPointsAll": 5218,
+      "top11Points": 5116,
       "players": [
         {
           "name": "Shubman Gill",
@@ -25627,6 +25645,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Shashank Singh",
+          "role": "Batsman",
+          "batting": 186,
+          "bowling": 107,
+          "fielding": 8,
+          "rawPoints": 301,
+          "multiplier": 1,
+          "effectivePoints": 301,
+          "countsInTop11": true
+        },
+        {
           "name": "Dewald Brevis",
           "role": "Batsman",
           "batting": 184,
@@ -25635,17 +25664,6 @@
           "rawPoints": 290,
           "multiplier": 1,
           "effectivePoints": 290,
-          "countsInTop11": true
-        },
-        {
-          "name": "Shashank Singh",
-          "role": "Batsman",
-          "batting": 186,
-          "bowling": 82,
-          "fielding": 8,
-          "rawPoints": 276,
-          "multiplier": 1,
-          "effectivePoints": 276,
           "countsInTop11": true
         },
         {
@@ -25660,6 +25678,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 108,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 124,
+          "multiplier": 1,
+          "effectivePoints": 124,
+          "countsInTop11": true
+        },
+        {
           "name": "Tushar Deshpande",
           "role": "Fast Bowler",
           "batting": 47,
@@ -25668,17 +25697,6 @@
           "rawPoints": 123,
           "multiplier": 1,
           "effectivePoints": 123,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": 90,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 106,
-          "multiplier": 1,
-          "effectivePoints": 106,
           "countsInTop11": true
         },
         {
@@ -26258,8 +26276,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6108,
-      "top11Points": 5807,
+      "totalPointsAll": 6133,
+      "top11Points": 5832,
       "players": [
         {
           "name": "Sanju Samson",
@@ -26339,6 +26357,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Marco Jansen",
+          "role": "All-Rounder",
+          "batting": 63,
+          "bowling": 195,
+          "fielding": 56,
+          "rawPoints": 314,
+          "multiplier": 1,
+          "effectivePoints": 314,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 265,
@@ -26347,17 +26376,6 @@
           "rawPoints": 305,
           "multiplier": 1,
           "effectivePoints": 305,
-          "countsInTop11": true
-        },
-        {
-          "name": "Marco Jansen",
-          "role": "All-Rounder",
-          "batting": 63,
-          "bowling": 170,
-          "fielding": 56,
-          "rawPoints": 289,
-          "multiplier": 1,
-          "effectivePoints": 289,
           "countsInTop11": true
         },
         {
