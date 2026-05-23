@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T16:04:57.444Z",
+  "lastUpdated": "2026-05-23T16:14:56.187Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 0,
+        "r": 21,
         "w": 1,
-        "o": 0.1
+        "o": 2
       }
     ],
     "playerScores": {
@@ -57,12 +57,6 @@
         "fielding": 0,
         "total": 0
       },
-      "Shreyas Iyer": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
-      },
       "Priyansh Arya": {
         "batting": -5,
         "bowling": 0,
@@ -70,10 +64,16 @@
         "total": -5
       },
       "Prabhsimran Singh": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 18,
-        "total": 18
+        "total": 20
+      },
+      "Shreyas Iyer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 8
       },
       "Shashank Singh": {
         "batting": 0,
@@ -120,8 +120,8 @@
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5543,
-      "top11Points": 5543
+      "totalPointsAll": 5545,
+      "top11Points": 5545
     },
     {
       "team": "Manav",
@@ -24969,9 +24969,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 0,
+          "r": 21,
           "w": 1,
-          "o": 0.1
+          "o": 2
         }
       ],
       "scorecard": [
@@ -25107,9 +25107,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 0,
+          "runs": 21,
           "wickets": 1,
-          "overs": 0.1,
+          "overs": 2,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -25122,31 +25122,39 @@
             },
             {
               "name": "Prabhsimran Singh",
-              "runs": 0,
-              "balls": 0,
+              "runs": 2,
+              "balls": 3,
               "fours": 0,
               "sixes": 0,
-              "sr": 0,
+              "sr": 66.67,
               "dismissal": "batting"
             },
             {
               "name": "Cooper Connolly",
-              "runs": 0,
-              "balls": 0,
-              "fours": 0,
+              "runs": 18,
+              "balls": 9,
+              "fours": 4,
               "sixes": 0,
-              "sr": 0,
+              "sr": 200,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 0.1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 0,
+              "runs": 11,
               "wickets": 1,
-              "economy": 0
+              "economy": 9.43
+            },
+            {
+              "name": "Prince Yadav",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 11,
+              "wickets": 0,
+              "economy": 11
             }
           ]
         }
@@ -25188,12 +25196,6 @@
           "fielding": 0,
           "total": 0
         },
-        "Shreyas Iyer": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
-        },
         "Priyansh Arya": {
           "batting": -5,
           "bowling": 0,
@@ -25201,10 +25203,16 @@
           "total": -5
         },
         "Prabhsimran Singh": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 18,
-          "total": 18
+          "total": 20
+        },
+        "Shreyas Iyer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 8
         },
         "Shashank Singh": {
           "batting": 0,
@@ -26092,8 +26100,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5543,
-      "top11Points": 5543,
+      "totalPointsAll": 5545,
+      "top11Points": 5545,
       "players": [
         {
           "name": "Jos Buttler",
@@ -26131,12 +26139,12 @@
         {
           "name": "Prabhsimran Singh",
           "role": "Wicket Keeper",
-          "batting": 636,
+          "batting": 638,
           "bowling": 0,
           "fielding": 71,
-          "rawPoints": 707,
+          "rawPoints": 709,
           "multiplier": 1,
-          "effectivePoints": 707,
+          "effectivePoints": 709,
           "countsInTop11": true
         },
         {
