@@ -1,117 +1,12 @@
 {
-  "lastUpdated": "2026-05-23T17:34:56.446Z",
+  "lastUpdated": "2026-05-23T17:44:53.299Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": {
-    "matchId": "espn_1529311",
-    "name": "Lucknow Super Giants v Punjab Kings",
-    "status": "Live",
-    "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
-    "score": [
-      {
-        "inning": "Lucknow Super Giants",
-        "r": 196,
-        "w": 6,
-        "o": 20
-      },
-      {
-        "inning": "Punjab Kings",
-        "r": 187,
-        "w": 3,
-        "o": 17
-      }
-    ],
-    "playerScores": {
-      "Nicholas Pooran": {
-        "batting": 2,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 2
-      },
-      "Ayush Badoni": {
-        "batting": 69,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 69
-      },
-      "Rishabh Pant": {
-        "batting": 29,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 29
-      },
-      "Abdul Samad": {
-        "batting": 56,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 56
-      },
-      "Mohammed Shami": {
-        "batting": 0,
-        "bowling": 45,
-        "fielding": 0,
-        "total": 45
-      },
-      "Digvesh Rathi": {
-        "batting": 0,
-        "bowling": -10,
-        "fielding": 0,
-        "total": -10
-      },
-      "Priyansh Arya": {
-        "batting": -5,
-        "bowling": 0,
-        "fielding": 0,
-        "total": -5
-      },
-      "Prabhsimran Singh": {
-        "batting": 100,
-        "bowling": 0,
-        "fielding": 18,
-        "total": 118
-      },
-      "Shreyas Iyer": {
-        "batting": 133,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 141
-      },
-      "Shashank Singh": {
-        "batting": 0,
-        "bowling": 25,
-        "fielding": 0,
-        "total": 25
-      },
-      "Marco Jansen": {
-        "batting": 0,
-        "bowling": 50,
-        "fielding": 8,
-        "total": 58
-      },
-      "Arshdeep Singh": {
-        "batting": 0,
-        "bowling": -15,
-        "fielding": 0,
-        "total": -15
-      },
-      "Yuzvendra Chahal": {
-        "batting": 0,
-        "bowling": 62,
-        "fielding": 0,
-        "total": 62
-      },
-      "Marcus Stoinis": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
-      }
-    }
-  },
+  "currentMatch": null,
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6308,
-      "top11Points": 6310
+      "totalPointsAll": 6347,
+      "top11Points": 6349
     },
     {
       "team": "Tikoo",
@@ -24958,7 +24853,7 @@
       "matchId": "espn_1529311",
       "name": "Lucknow Super Giants v Punjab Kings",
       "date": "2026-05-23",
-      "status": "Live",
+      "status": "Final",
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "score": [
         {
@@ -24969,9 +24864,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 187,
+          "r": 200,
           "w": 3,
-          "o": 17
+          "o": 18
         }
       ],
       "scorecard": [
@@ -25107,9 +25002,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 187,
+          "runs": 200,
           "wickets": 3,
-          "overs": 17,
+          "overs": 18,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -25140,21 +25035,21 @@
             },
             {
               "name": "Shreyas Iyer",
-              "runs": 94,
-              "balls": 48,
+              "runs": 101,
+              "balls": 51,
               "fours": 11,
-              "sixes": 4,
-              "sr": 195.83,
-              "dismissal": "batting"
+              "sixes": 5,
+              "sr": 198.04,
+              "dismissal": "not out"
             },
             {
               "name": "Suryansh Shedge",
-              "runs": 8,
-              "balls": 6,
+              "runs": 9,
+              "balls": 7,
               "fours": 1,
               "sixes": 0,
-              "sr": 133.33,
-              "dismissal": "batting"
+              "sr": 128.57,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -25176,9 +25071,9 @@
             },
             {
               "name": "Mohsin Khan",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 40,
+              "runs": 48,
               "wickets": 0,
               "economy": 12
             },
@@ -25251,10 +25146,10 @@
           "total": 118
         },
         "Shreyas Iyer": {
-          "batting": 133,
+          "batting": 172,
           "bowling": 0,
           "fielding": 8,
-          "total": 141
+          "total": 180
         },
         "Shashank Singh": {
           "batting": 0,
@@ -25287,7 +25182,7 @@
           "total": 0
         }
       },
-      "isComplete": false
+      "isComplete": true
     }
   ],
   "teamDetails": {
@@ -25579,8 +25474,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6308,
-      "top11Points": 6310,
+      "totalPointsAll": 6347,
+      "top11Points": 6349,
       "players": [
         {
           "name": "KL Rahul",
@@ -25618,12 +25513,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 703,
+          "batting": 742,
           "bowling": 0,
           "fielding": 64,
-          "rawPoints": 767,
+          "rawPoints": 806,
           "multiplier": 1,
-          "effectivePoints": 767,
+          "effectivePoints": 806,
           "countsInTop11": true
         },
         {
