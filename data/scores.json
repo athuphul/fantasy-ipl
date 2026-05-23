@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T15:54:56.415Z",
+  "lastUpdated": "2026-05-23T16:04:57.444Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -12,6 +12,12 @@
         "r": 196,
         "w": 6,
         "o": 20
+      },
+      {
+        "inning": "Punjab Kings",
+        "r": 0,
+        "w": 1,
+        "o": 0.1
       }
     ],
     "playerScores": {
@@ -34,10 +40,22 @@
         "total": 29
       },
       "Abdul Samad": {
-        "batting": 28,
+        "batting": 56,
         "bowling": 0,
         "fielding": 0,
-        "total": 28
+        "total": 56
+      },
+      "Mohammed Shami": {
+        "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Digvesh Rathi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -45,17 +63,17 @@
         "fielding": 8,
         "total": 8
       },
+      "Priyansh Arya": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
       "Prabhsimran Singh": {
         "batting": 0,
         "bowling": 0,
         "fielding": 18,
         "total": 18
-      },
-      "Priyansh Arya": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 0,
-        "total": 0
       },
       "Shashank Singh": {
         "batting": 0,
@@ -112,18 +130,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5167,
-      "top11Points": 5131
+      "totalPointsAll": 5192,
+      "top11Points": 5156
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 5241,
+      "top11Points": 5139
     },
     {
       "team": "Athu",
       "totalPointsAll": 5124,
       "top11Points": 5127
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 5218,
-      "top11Points": 5116
     },
     {
       "team": "Kishan",
@@ -24948,6 +24966,12 @@
           "r": 196,
           "w": 6,
           "o": 20
+        },
+        {
+          "inning": "Punjab Kings",
+          "r": 0,
+          "w": 1,
+          "o": 0.1
         }
       ],
       "scorecard": [
@@ -25004,12 +25028,12 @@
             },
             {
               "name": "Abdul Samad",
-              "runs": 23,
-              "balls": 17,
-              "fours": 1,
-              "sixes": 2,
-              "sr": 135.29,
-              "dismissal": "batting"
+              "runs": 37,
+              "balls": 20,
+              "fours": 3,
+              "sixes": 3,
+              "sr": 185,
+              "dismissal": "not out"
             },
             {
               "name": "Mukul Choudhary",
@@ -25027,17 +25051,17 @@
               "fours": 0,
               "sixes": 0,
               "sr": 100,
-              "dismissal": "batting"
+              "dismissal": "not out"
             }
           ],
           "bowling": [
             {
               "name": "Arshdeep Singh",
-              "overs": 2.3,
+              "overs": 3,
               "maidens": 0,
-              "runs": 36,
+              "runs": 52,
               "wickets": 0,
-              "economy": 14.4
+              "economy": 17.33
             },
             {
               "name": "Azmatullah Omarzai",
@@ -25080,6 +25104,51 @@
               "economy": 9.67
             }
           ]
+        },
+        {
+          "innings": "Punjab Kings",
+          "runs": 0,
+          "wickets": 1,
+          "overs": 0.1,
+          "batting": [
+            {
+              "name": "Priyansh Arya",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "c Arjun Tendulkar b Mohammed Shami"
+            },
+            {
+              "name": "Prabhsimran Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Cooper Connolly",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mohammed Shami",
+              "overs": 0.1,
+              "maidens": 0,
+              "runs": 0,
+              "wickets": 1,
+              "economy": 0
+            }
+          ]
         }
       ],
       "playerScores": {
@@ -25102,10 +25171,22 @@
           "total": 29
         },
         "Abdul Samad": {
-          "batting": 28,
+          "batting": 56,
           "bowling": 0,
           "fielding": 0,
-          "total": 28
+          "total": 56
+        },
+        "Mohammed Shami": {
+          "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Digvesh Rathi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -25113,17 +25194,17 @@
           "fielding": 8,
           "total": 8
         },
+        "Priyansh Arya": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
         "Prabhsimran Singh": {
           "batting": 0,
           "bowling": 0,
           "fielding": 18,
           "total": 18
-        },
-        "Priyansh Arya": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 0,
-          "total": 0
         },
         "Shashank Singh": {
           "batting": 0,
@@ -25310,8 +25391,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5167,
-      "top11Points": 5131,
+      "totalPointsAll": 5192,
+      "top11Points": 5156,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25369,6 +25450,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Shami",
+          "role": "Fast Bowler",
+          "batting": 29,
+          "bowling": 289,
+          "fielding": 24,
+          "rawPoints": 342,
+          "multiplier": 1,
+          "effectivePoints": 342,
+          "countsInTop11": true
+        },
+        {
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
@@ -25388,17 +25480,6 @@
           "rawPoints": 336,
           "multiplier": 1,
           "effectivePoints": 336,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Shami",
-          "role": "Fast Bowler",
-          "batting": 29,
-          "bowling": 264,
-          "fielding": 24,
-          "rawPoints": 317,
-          "multiplier": 1,
-          "effectivePoints": 317,
           "countsInTop11": true
         },
         {
@@ -25586,8 +25667,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5218,
-      "top11Points": 5116,
+      "totalPointsAll": 5241,
+      "top11Points": 5139,
       "players": [
         {
           "name": "Shubman Gill",
@@ -25614,12 +25695,12 @@
         {
           "name": "Priyansh Arya",
           "role": "Opener",
-          "batting": 560,
+          "batting": 555,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 576,
+          "rawPoints": 571,
           "multiplier": 1,
-          "effectivePoints": 576,
+          "effectivePoints": 571,
           "countsInTop11": true
         },
         {
@@ -25667,6 +25748,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abdul Samad",
+          "role": "All-Rounder",
+          "batting": 136,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 152,
+          "multiplier": 1,
+          "effectivePoints": 152,
+          "countsInTop11": true
+        },
+        {
           "name": "Shimron Hetmyer",
           "role": "Batsman",
           "batting": 79,
@@ -25675,17 +25767,6 @@
           "rawPoints": 129,
           "multiplier": 1,
           "effectivePoints": 129,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abdul Samad",
-          "role": "All-Rounder",
-          "batting": 108,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 124,
-          "multiplier": 1,
-          "effectivePoints": 124,
           "countsInTop11": true
         },
         {
