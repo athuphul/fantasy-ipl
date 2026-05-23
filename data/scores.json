@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T14:44:53.454Z",
+  "lastUpdated": "2026-05-23T14:54:53.617Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 76,
+        "r": 94,
         "w": 3,
-        "o": 7.3
+        "o": 9.5
       }
     ],
     "playerScores": {
@@ -28,10 +28,10 @@
         "total": 69
       },
       "Rishabh Pant": {
-        "batting": 7,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 7
+        "total": 16
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -71,9 +71,9 @@
       },
       "Yuzvendra Chahal": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 37,
         "fielding": 0,
-        "total": 25
+        "total": 37
       }
     }
   },
@@ -105,18 +105,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5130,
-      "top11Points": 5094
+      "totalPointsAll": 5142,
+      "top11Points": 5106
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 5152,
+      "top11Points": 5056
     },
     {
       "team": "Kishan",
       "totalPointsAll": 5048,
       "top11Points": 5048
-    },
-    {
-      "team": "Ashwin",
-      "totalPointsAll": 5143,
-      "top11Points": 5047
     },
     {
       "team": "Tanay",
@@ -24933,25 +24933,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 76,
+          "r": 94,
           "w": 3,
-          "o": 7.3
+          "o": 9.5
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 76,
+          "runs": 94,
           "wickets": 3,
-          "overs": 7.3,
+          "overs": 9.5,
           "batting": [
             {
               "name": "Josh Inglis",
-              "runs": 23,
-              "balls": 17,
-              "fours": 4,
+              "runs": 31,
+              "balls": 23,
+              "fours": 5,
               "sixes": 0,
-              "sr": 135.29,
+              "sr": 134.78,
               "dismissal": "batting"
             },
             {
@@ -24983,11 +24983,11 @@
             },
             {
               "name": "Rishabh Pant",
-              "runs": 6,
-              "balls": 4,
-              "fours": 1,
+              "runs": 14,
+              "balls": 10,
+              "fours": 2,
               "sixes": 0,
-              "sr": 150,
+              "sr": 140,
               "dismissal": "batting"
             }
           ],
@@ -25018,19 +25018,19 @@
             },
             {
               "name": "Yuzvendra Chahal",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 5,
+              "runs": 14,
               "wickets": 1,
-              "economy": 5
+              "economy": 7
             },
             {
               "name": "Vijaykumar Vyshak",
-              "overs": 0.5,
+              "overs": 1.5,
               "maidens": 0,
-              "runs": 6,
+              "runs": 14,
               "wickets": 0,
-              "economy": 7.2
+              "economy": 7.64
             }
           ]
         }
@@ -25049,10 +25049,10 @@
           "total": 69
         },
         "Rishabh Pant": {
-          "batting": 7,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 7
+          "total": 16
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -25092,9 +25092,9 @@
         },
         "Yuzvendra Chahal": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 37,
           "fielding": 0,
-          "total": 25
+          "total": 37
         }
       },
       "isComplete": false
@@ -25251,8 +25251,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5130,
-      "top11Points": 5094,
+      "totalPointsAll": 5142,
+      "top11Points": 5106,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25335,11 +25335,11 @@
           "name": "Yuzvendra Chahal",
           "role": "Spinner",
           "batting": 0,
-          "bowling": 279,
+          "bowling": 291,
           "fielding": 24,
-          "rawPoints": 303,
+          "rawPoints": 315,
           "multiplier": 1,
-          "effectivePoints": 303,
+          "effectivePoints": 315,
           "countsInTop11": true
         },
         {
@@ -25527,8 +25527,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5143,
-      "top11Points": 5047,
+      "totalPointsAll": 5152,
+      "top11Points": 5056,
       "players": [
         {
           "name": "Shubman Gill",
@@ -25566,12 +25566,12 @@
         {
           "name": "Rishabh Pant",
           "role": "Wicket Keeper",
-          "batting": 387,
+          "batting": 396,
           "bowling": 0,
           "fielding": 90,
-          "rawPoints": 477,
+          "rawPoints": 486,
           "multiplier": 1,
-          "effectivePoints": 477,
+          "effectivePoints": 486,
           "countsInTop11": true
         },
         {
