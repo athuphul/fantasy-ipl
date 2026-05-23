@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T16:14:56.187Z",
+  "lastUpdated": "2026-05-23T16:25:09.834Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -15,9 +15,9 @@
       },
       {
         "inning": "Punjab Kings",
-        "r": 21,
-        "w": 1,
-        "o": 2
+        "r": 41,
+        "w": 2,
+        "o": 4
       }
     ],
     "playerScores": {
@@ -47,9 +47,9 @@
       },
       "Mohammed Shami": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 25
+        "total": 50
       },
       "Digvesh Rathi": {
         "batting": 0,
@@ -70,10 +70,10 @@
         "total": 20
       },
       "Shreyas Iyer": {
-        "batting": 0,
+        "batting": 21,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 29
       },
       "Shashank Singh": {
         "batting": 0,
@@ -110,8 +110,8 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6185,
-      "top11Points": 6187
+      "totalPointsAll": 6206,
+      "top11Points": 6208
     },
     {
       "team": "Tikoo",
@@ -130,8 +130,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5192,
-      "top11Points": 5156
+      "totalPointsAll": 5217,
+      "top11Points": 5181
     },
     {
       "team": "Ashwin",
@@ -24969,9 +24969,9 @@
         },
         {
           "inning": "Punjab Kings",
-          "r": 21,
-          "w": 1,
-          "o": 2
+          "r": 41,
+          "w": 2,
+          "o": 4
         }
       ],
       "scorecard": [
@@ -25107,9 +25107,9 @@
         },
         {
           "innings": "Punjab Kings",
-          "runs": 21,
-          "wickets": 1,
-          "overs": 2,
+          "runs": 41,
+          "wickets": 2,
+          "overs": 4,
           "batting": [
             {
               "name": "Priyansh Arya",
@@ -25132,21 +25132,21 @@
             {
               "name": "Cooper Connolly",
               "runs": 18,
-              "balls": 9,
+              "balls": 10,
               "fours": 4,
               "sixes": 0,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 180,
+              "dismissal": "b Mohammed Shami"
             }
           ],
           "bowling": [
             {
               "name": "Mohammed Shami",
-              "overs": 1.1,
+              "overs": 1.2,
               "maidens": 0,
               "runs": 11,
-              "wickets": 1,
-              "economy": 9.43
+              "wickets": 2,
+              "economy": 8.25
             },
             {
               "name": "Prince Yadav",
@@ -25186,9 +25186,9 @@
         },
         "Mohammed Shami": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 25
+          "total": 50
         },
         "Digvesh Rathi": {
           "batting": 0,
@@ -25209,10 +25209,10 @@
           "total": 20
         },
         "Shreyas Iyer": {
-          "batting": 0,
+          "batting": 21,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 29
         },
         "Shashank Singh": {
           "batting": 0,
@@ -25399,8 +25399,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5192,
-      "top11Points": 5156,
+      "totalPointsAll": 5217,
+      "top11Points": 5181,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25447,6 +25447,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Mohammed Shami",
+          "role": "Fast Bowler",
+          "batting": 29,
+          "bowling": 314,
+          "fielding": 24,
+          "rawPoints": 367,
+          "multiplier": 1,
+          "effectivePoints": 367,
+          "countsInTop11": true
+        },
+        {
           "name": "Sameer Rizvi",
           "role": "Batsman",
           "batting": 326,
@@ -25455,17 +25466,6 @@
           "rawPoints": 350,
           "multiplier": 1,
           "effectivePoints": 350,
-          "countsInTop11": true
-        },
-        {
-          "name": "Mohammed Shami",
-          "role": "Fast Bowler",
-          "batting": 29,
-          "bowling": 289,
-          "fielding": 24,
-          "rawPoints": 342,
-          "multiplier": 1,
-          "effectivePoints": 342,
           "countsInTop11": true
         },
         {
@@ -25537,8 +25537,8 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6185,
-      "top11Points": 6187,
+      "totalPointsAll": 6206,
+      "top11Points": 6208,
       "players": [
         {
           "name": "KL Rahul",
@@ -25576,12 +25576,12 @@
         {
           "name": "Shreyas Iyer",
           "role": "Batsman",
-          "batting": 570,
+          "batting": 591,
           "bowling": 0,
           "fielding": 64,
-          "rawPoints": 634,
+          "rawPoints": 655,
           "multiplier": 1,
-          "effectivePoints": 634,
+          "effectivePoints": 655,
           "countsInTop11": true
         },
         {
