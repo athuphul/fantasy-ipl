@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T14:14:53.112Z",
+  "lastUpdated": "2026-05-23T14:25:21.740Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529311",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Lucknow Super Giants",
-        "r": 19,
-        "w": 1,
-        "o": 2.2
+        "r": 38,
+        "w": 2,
+        "o": 4.4
       }
     ],
     "playerScores": {
@@ -20,6 +20,12 @@
         "bowling": 0,
         "fielding": 0,
         "total": 2
+      },
+      "Ayush Badoni": {
+        "batting": 20,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 20
       },
       "Shreyas Iyer": {
         "batting": 0,
@@ -47,9 +53,9 @@
       },
       "Marco Jansen": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Arshdeep Singh": {
         "batting": 0,
@@ -73,8 +79,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6075,
-      "top11Points": 5774
+      "totalPointsAll": 6100,
+      "top11Points": 5799
     },
     {
       "team": "Ritik",
@@ -87,14 +93,14 @@
       "top11Points": 5221
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 5075,
+      "top11Points": 5078
+    },
+    {
       "team": "Aakash",
       "totalPointsAll": 5105,
       "top11Points": 5069
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 5055,
-      "top11Points": 5058
     },
     {
       "team": "Kishan",
@@ -24921,25 +24927,25 @@
       "score": [
         {
           "inning": "Lucknow Super Giants",
-          "r": 19,
-          "w": 1,
-          "o": 2.2
+          "r": 38,
+          "w": 2,
+          "o": 4.4
         }
       ],
       "scorecard": [
         {
           "innings": "Lucknow Super Giants",
-          "runs": 19,
-          "wickets": 1,
-          "overs": 2.2,
+          "runs": 38,
+          "wickets": 2,
+          "overs": 4.4,
           "batting": [
             {
               "name": "Josh Inglis",
-              "runs": 16,
-              "balls": 9,
+              "runs": 18,
+              "balls": 11,
               "fours": 4,
               "sixes": 0,
-              "sr": 177.78,
+              "sr": 163.64,
               "dismissal": "batting"
             },
             {
@@ -24954,10 +24960,19 @@
             {
               "name": "Nicholas Pooran",
               "runs": 2,
-              "balls": 6,
+              "balls": 7,
               "fours": 0,
               "sixes": 0,
-              "sr": 33.33,
+              "sr": 28.57,
+              "dismissal": "b Marco Jansen"
+            },
+            {
+              "name": "Ayush Badoni",
+              "runs": 16,
+              "balls": 9,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 177.78,
               "dismissal": "batting"
             }
           ],
@@ -24972,19 +24987,19 @@
             },
             {
               "name": "Azmatullah Omarzai",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 1,
+              "runs": 5,
               "wickets": 1,
-              "economy": 1
+              "economy": 2.5
             },
             {
               "name": "Marco Jansen",
-              "overs": 0.4,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 2,
-              "wickets": 0,
-              "economy": 3
+              "runs": 16,
+              "wickets": 1,
+              "economy": 9.6
             }
           ]
         }
@@ -24995,6 +25010,12 @@
           "bowling": 0,
           "fielding": 0,
           "total": 2
+        },
+        "Ayush Badoni": {
+          "batting": 20,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 20
         },
         "Shreyas Iyer": {
           "batting": 0,
@@ -25022,9 +25043,9 @@
         },
         "Marco Jansen": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Arshdeep Singh": {
           "batting": 0,
@@ -25044,8 +25065,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5055,
-      "top11Points": 5058,
+      "totalPointsAll": 5075,
+      "top11Points": 5078,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25149,12 +25170,12 @@
         {
           "name": "Ayush Badoni",
           "role": "Batsman",
-          "batting": 207,
+          "batting": 227,
           "bowling": 0,
           "fielding": 18,
-          "rawPoints": 225,
+          "rawPoints": 245,
           "multiplier": 1,
-          "effectivePoints": 225,
+          "effectivePoints": 245,
           "countsInTop11": true
         },
         {
@@ -26159,8 +26180,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6075,
-      "top11Points": 5774,
+      "totalPointsAll": 6100,
+      "top11Points": 5799,
       "players": [
         {
           "name": "Sanju Samson",
@@ -26265,11 +26286,11 @@
           "name": "Marco Jansen",
           "role": "All-Rounder",
           "batting": 63,
-          "bowling": 145,
+          "bowling": 170,
           "fielding": 48,
-          "rawPoints": 256,
+          "rawPoints": 281,
           "multiplier": 1,
-          "effectivePoints": 256,
+          "effectivePoints": 281,
           "countsInTop11": true
         },
         {
