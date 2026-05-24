@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T16:44:53.158Z",
+  "lastUpdated": "2026-05-24T16:54:53.353Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 56,
+        "r": 87,
         "w": 1,
-        "o": 6.1
+        "o": 8.2
       },
       {
         "inning": "Delhi Capitals",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 8,
+        "batting": 31,
         "bowling": 0,
         "fielding": 8,
-        "total": 16
+        "total": 39
       },
       "Finn Allen": {
-        "batting": 13,
+        "batting": 30,
         "bowling": 0,
         "fielding": 8,
-        "total": 21
+        "total": 38
       },
       "Cameron Green": {
         "batting": 0,
@@ -101,9 +101,9 @@
       },
       "Auqib Nabi Dar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Lungi Ngidi": {
         "batting": 0,
@@ -122,7 +122,7 @@
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6543,
+      "totalPointsAll": 6538,
       "top11Points": 6545
     },
     {
@@ -136,6 +136,11 @@
       "top11Points": 5774
     },
     {
+      "team": "Athu",
+      "totalPointsAll": 5458,
+      "top11Points": 5461
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 5607,
       "top11Points": 5424
@@ -144,11 +149,6 @@
       "team": "Aakash",
       "totalPointsAll": 5454,
       "top11Points": 5418
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 5409,
-      "top11Points": 5412
     },
     {
       "team": "Ashwin",
@@ -25719,9 +25719,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 56,
+          "r": 87,
           "w": 1,
-          "o": 6.1
+          "o": 8.2
         },
         {
           "inning": "Delhi Capitals",
@@ -25854,43 +25854,76 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 56,
+          "runs": 87,
           "wickets": 1,
-          "overs": 6.1,
+          "overs": 8.2,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 7,
-              "balls": 9,
-              "fours": 1,
-              "sixes": 0,
-              "sr": 77.78,
+              "runs": 25,
+              "balls": 17,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 147.06,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
-              "runs": 10,
-              "balls": 4,
+              "runs": 20,
+              "balls": 13,
+              "fours": 3,
+              "sixes": 1,
+              "sr": 153.85,
+              "dismissal": "b Lungi Ngidi"
+            },
+            {
+              "name": "Manish Pandey",
+              "runs": 12,
+              "balls": 10,
               "fours": 1,
               "sixes": 1,
-              "sr": 250,
+              "sr": 120,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 20,
               "wickets": 0,
-              "economy": 9.43
+              "economy": 10
             },
             {
               "name": "Auqib Nabi Dar",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 23,
+              "wickets": 0,
+              "economy": 11.5
+            },
+            {
+              "name": "Lungi Ngidi",
               "overs": 1,
               "maidens": 0,
-              "runs": 6,
+              "runs": 4,
+              "wickets": 1,
+              "economy": 4
+            },
+            {
+              "name": "Axar Patel",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 8,
+              "wickets": 0,
+              "economy": 8
+            },
+            {
+              "name": "Madhav Tiwari",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 4,
               "wickets": 0,
               "economy": 6
             }
@@ -25899,16 +25932,16 @@
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 8,
+          "batting": 31,
           "bowling": 0,
           "fielding": 8,
-          "total": 16
+          "total": 39
         },
         "Finn Allen": {
-          "batting": 13,
+          "batting": 30,
           "bowling": 0,
           "fielding": 8,
-          "total": 21
+          "total": 38
         },
         "Cameron Green": {
           "batting": 0,
@@ -25978,9 +26011,9 @@
         },
         "Auqib Nabi Dar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Lungi Ngidi": {
           "batting": 0,
@@ -26000,8 +26033,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5409,
-      "top11Points": 5412,
+      "totalPointsAll": 5458,
+      "top11Points": 5461,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -26017,12 +26050,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 536,
+          "batting": 553,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 544,
+          "rawPoints": 561,
           "multiplier": 1.5,
-          "effectivePoints": 816,
+          "effectivePoints": 842,
           "countsInTop11": true
         },
         {
@@ -26050,12 +26083,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 324,
+          "batting": 347,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 380,
+          "rawPoints": 403,
           "multiplier": 1,
-          "effectivePoints": 380,
+          "effectivePoints": 403,
           "countsInTop11": true
         },
         {
@@ -26287,7 +26320,7 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6543,
+      "totalPointsAll": 6538,
       "top11Points": 6545,
       "players": [
         {
@@ -26415,11 +26448,11 @@
           "name": "Auqib Nabi Dar",
           "role": "All-Rounder",
           "batting": 18,
-          "bowling": -20,
+          "bowling": -25,
           "fielding": 0,
-          "rawPoints": -2,
+          "rawPoints": -7,
           "multiplier": 1,
-          "effectivePoints": -2,
+          "effectivePoints": -7,
           "countsInTop11": false
         }
       ]
