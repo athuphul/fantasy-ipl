@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:54:54.659Z",
+  "lastUpdated": "2026-05-24T16:04:54.938Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 201,
+        "r": 203,
         "w": 5,
-        "o": 19.4
+        "o": 20
       }
     ],
     "playerScores": {
@@ -82,10 +82,16 @@
         "total": 34
       },
       "Ashutosh Sharma": {
-        "batting": 26,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 26
+        "total": 27
+      },
+      "Tristan Stubbs": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -132,8 +138,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4456,
-      "top11Points": 4409
+      "totalPointsAll": 4457,
+      "top11Points": 4410
     }
   ],
   "matchHistory": [
@@ -25689,17 +25695,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 201,
+          "r": 203,
           "w": 5,
-          "o": 19.4
+          "o": 20
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 201,
+          "runs": 203,
           "wickets": 5,
-          "overs": 19.4,
+          "overs": 20,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -25748,12 +25754,21 @@
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 17,
-              "balls": 10,
+              "runs": 18,
+              "balls": 11,
               "fours": 2,
               "sixes": 1,
-              "sr": 170,
-              "dismissal": "batting"
+              "sr": 163.64,
+              "dismissal": "not out"
+            },
+            {
+              "name": "Tristan Stubbs",
+              "runs": 0,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -25767,11 +25782,11 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 3.4,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 28,
               "wickets": 2,
-              "economy": 7.36
+              "economy": 7
             },
             {
               "name": "Cameron Green",
@@ -25876,10 +25891,16 @@
           "total": 34
         },
         "Ashutosh Sharma": {
-          "batting": 26,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 26
+          "total": 27
+        },
+        "Tristan Stubbs": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -26864,8 +26885,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4456,
-      "top11Points": 4409,
+      "totalPointsAll": 4457,
+      "top11Points": 4410,
       "players": [
         {
           "name": "Travis Head",
@@ -26936,12 +26957,12 @@
         {
           "name": "Ashutosh Sharma",
           "role": "Batsman",
-          "batting": 244,
+          "batting": 245,
           "bowling": 0,
           "fielding": 16,
-          "rawPoints": 260,
+          "rawPoints": 261,
           "multiplier": 1,
-          "effectivePoints": 260,
+          "effectivePoints": 261,
           "countsInTop11": true
         },
         {
