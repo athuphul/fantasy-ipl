@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T17:24:52.979Z",
+  "lastUpdated": "2026-05-24T17:34:57.864Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 128,
-        "w": 4,
-        "o": 13.2
+        "r": 133,
+        "w": 6,
+        "o": 15
       },
       {
         "inning": "Delhi Capitals",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 86,
+        "batting": 90,
         "bowling": 0,
         "fielding": 8,
-        "total": 94
+        "total": 98
       },
       "Finn Allen": {
         "batting": 30,
@@ -45,17 +45,17 @@
         "fielding": 8,
         "total": 8
       },
+      "Anukul Roy": {
+        "batting": 2,
+        "bowling": 20,
+        "fielding": 0,
+        "total": 22
+      },
       "Sunil Narine": {
         "batting": 0,
         "bowling": 25,
         "fielding": 0,
         "total": 25
-      },
-      "Anukul Roy": {
-        "batting": 0,
-        "bowling": 20,
-        "fielding": 0,
-        "total": 20
       },
       "Varun Chakaravarthy": {
         "batting": 0,
@@ -84,8 +84,8 @@
       "David Miller": {
         "batting": 34,
         "bowling": 0,
-        "fielding": 8,
-        "total": 42
+        "fielding": 16,
+        "total": 50
       },
       "Ashutosh Sharma": {
         "batting": 27,
@@ -113,9 +113,9 @@
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 0,
-        "total": 25
+        "total": 50
       }
     }
   },
@@ -127,8 +127,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6269,
-      "top11Points": 5968
+      "totalPointsAll": 6277,
+      "top11Points": 5976
     },
     {
       "team": "Ritik",
@@ -137,8 +137,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5513,
-      "top11Points": 5516
+      "totalPointsAll": 5519,
+      "top11Points": 5522
     },
     {
       "team": "Aakash",
@@ -152,8 +152,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 5198,
-      "top11Points": 5198
+      "totalPointsAll": 5223,
+      "top11Points": 5223
     },
     {
       "team": "Ashwin",
@@ -25719,9 +25719,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 128,
-          "w": 4,
-          "o": 13.2
+          "r": 133,
+          "w": 6,
+          "o": 15
         },
         {
           "inning": "Delhi Capitals",
@@ -25854,18 +25854,18 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 128,
-          "wickets": 4,
-          "overs": 13.2,
+          "runs": 133,
+          "wickets": 6,
+          "overs": 15,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 59,
-              "balls": 35,
+              "runs": 63,
+              "balls": 39,
               "fours": 4,
               "sixes": 4,
-              "sr": 168.57,
-              "dismissal": "batting"
+              "sr": 161.54,
+              "dismissal": "c David Miller b Kuldeep Yadav"
             },
             {
               "name": "Finn Allen",
@@ -25896,11 +25896,20 @@
             },
             {
               "name": "Rovman Powell",
-              "runs": 13,
-              "balls": 6,
+              "runs": 15,
+              "balls": 9,
               "fours": 1,
               "sixes": 1,
-              "sr": 216.67,
+              "sr": 166.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Rinku Singh",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -25939,29 +25948,29 @@
             },
             {
               "name": "Madhav Tiwari",
-              "overs": 1.1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 15,
+              "runs": 20,
               "wickets": 0,
-              "economy": 12.86
+              "economy": 10
             },
             {
               "name": "Kuldeep Yadav",
-              "overs": 2,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 17,
-              "wickets": 1,
-              "economy": 8.5
+              "runs": 19,
+              "wickets": 2,
+              "economy": 8.14
             }
           ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 86,
+          "batting": 90,
           "bowling": 0,
           "fielding": 8,
-          "total": 94
+          "total": 98
         },
         "Finn Allen": {
           "batting": 30,
@@ -25981,17 +25990,17 @@
           "fielding": 8,
           "total": 8
         },
+        "Anukul Roy": {
+          "batting": 2,
+          "bowling": 20,
+          "fielding": 0,
+          "total": 22
+        },
         "Sunil Narine": {
           "batting": 0,
           "bowling": 25,
           "fielding": 0,
           "total": 25
-        },
-        "Anukul Roy": {
-          "batting": 0,
-          "bowling": 20,
-          "fielding": 0,
-          "total": 20
         },
         "Varun Chakaravarthy": {
           "batting": 0,
@@ -26020,8 +26029,8 @@
         "David Miller": {
           "batting": 34,
           "bowling": 0,
-          "fielding": 8,
-          "total": 42
+          "fielding": 16,
+          "total": 50
         },
         "Ashutosh Sharma": {
           "batting": 27,
@@ -26049,9 +26058,9 @@
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 0,
-          "total": 25
+          "total": 50
         }
       },
       "isComplete": false
@@ -26059,8 +26068,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5513,
-      "top11Points": 5516,
+      "totalPointsAll": 5519,
+      "top11Points": 5522,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -26109,23 +26118,23 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 402,
+          "batting": 406,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 458,
+          "rawPoints": 462,
           "multiplier": 1,
-          "effectivePoints": 458,
+          "effectivePoints": 462,
           "countsInTop11": true
         },
         {
           "name": "Anukul Roy",
           "role": "All-Rounder",
-          "batting": 49,
+          "batting": 51,
           "bowling": 232,
           "fielding": 82,
-          "rawPoints": 363,
+          "rawPoints": 365,
           "multiplier": 1,
-          "effectivePoints": 363,
+          "effectivePoints": 365,
           "countsInTop11": true
         },
         {
@@ -26622,8 +26631,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5198,
-      "top11Points": 5198,
+      "totalPointsAll": 5223,
+      "top11Points": 5223,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -26717,11 +26726,11 @@
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": -1,
-          "bowling": 150,
+          "bowling": 175,
           "fielding": 8,
-          "rawPoints": 157,
+          "rawPoints": 182,
           "multiplier": 1,
-          "effectivePoints": 157,
+          "effectivePoints": 182,
           "countsInTop11": true
         },
         {
@@ -27174,8 +27183,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6269,
-      "top11Points": 5968,
+      "totalPointsAll": 6277,
+      "top11Points": 5976,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27259,10 +27268,10 @@
           "role": "Batsman",
           "batting": 299,
           "bowling": 0,
-          "fielding": 48,
-          "rawPoints": 347,
+          "fielding": 56,
+          "rawPoints": 355,
           "multiplier": 1,
-          "effectivePoints": 347,
+          "effectivePoints": 355,
           "countsInTop11": true
         },
         {
