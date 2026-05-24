@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-05-23T18:24:58.963Z",
+  "lastUpdated": "2026-05-24T10:04:53.419Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
-  "currentMatch": null,
+  "currentMatch": {
+    "matchId": "espn_1529312",
+    "name": "Mumbai Indians v Rajasthan Royals",
+    "status": "Live",
+    "venue": "Wankhede Stadium, Mumbai",
+    "score": [
+      {
+        "inning": "Rajasthan Royals",
+        "r": 8,
+        "w": 0,
+        "o": 0.5
+      }
+    ],
+    "playerScores": {
+      "Suryakumar Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Tilak Varma": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Hardik Pandya": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Will Jacks": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Deepak Chahar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Shardul Thakur": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Yashasvi Jaiswal": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      },
+      "Vaibhav Sooryavanshi": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
+      }
+    }
+  },
   "leaderboard": [
     {
       "team": "Ali",
@@ -10,8 +73,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6133,
-      "top11Points": 5832
+      "totalPointsAll": 6134,
+      "top11Points": 5833
     },
     {
       "team": "Ritik",
@@ -25,8 +88,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5212,
-      "top11Points": 5176
+      "totalPointsAll": 5213,
+      "top11Points": 5177
     },
     {
       "team": "Ashwin",
@@ -25183,6 +25246,110 @@
         }
       },
       "isComplete": true
+    },
+    {
+      "matchId": "espn_1529312",
+      "name": "Mumbai Indians v Rajasthan Royals",
+      "date": "2026-05-24",
+      "status": "Live",
+      "venue": "Wankhede Stadium, Mumbai",
+      "score": [
+        {
+          "inning": "Rajasthan Royals",
+          "r": 8,
+          "w": 0,
+          "o": 0.5
+        }
+      ],
+      "scorecard": [
+        {
+          "innings": "Rajasthan Royals",
+          "runs": 8,
+          "wickets": 0,
+          "overs": 0.5,
+          "batting": [
+            {
+              "name": "Yashasvi Jaiswal",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Vaibhav Sooryavanshi",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Deepak Chahar",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 3
+            }
+          ]
+        }
+      ],
+      "playerScores": {
+        "Suryakumar Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Tilak Varma": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Hardik Pandya": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Will Jacks": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Deepak Chahar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Shardul Thakur": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Yashasvi Jaiswal": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        },
+        "Vaibhav Sooryavanshi": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
+        }
+      },
+      "isComplete": false
     }
   ],
   "teamDetails": {
@@ -25336,8 +25503,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5212,
-      "top11Points": 5176,
+      "totalPointsAll": 5213,
+      "top11Points": 5177,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25353,12 +25520,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 527,
+          "batting": 528,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 569,
+          "rawPoints": 570,
           "multiplier": 1,
-          "effectivePoints": 569,
+          "effectivePoints": 570,
           "countsInTop11": true
         },
         {
@@ -26302,8 +26469,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6133,
-      "top11Points": 5832,
+      "totalPointsAll": 6134,
+      "top11Points": 5833,
       "players": [
         {
           "name": "Sanju Samson",
@@ -26319,12 +26486,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 920,
+          "batting": 921,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 920,
+          "rawPoints": 921,
           "multiplier": 1,
-          "effectivePoints": 920,
+          "effectivePoints": 921,
           "countsInTop11": true
         },
         {
