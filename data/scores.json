@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T14:24:55.827Z",
+  "lastUpdated": "2026-05-24T14:34:52.759Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 40,
-        "w": 0,
-        "o": 4.2
+        "r": 54,
+        "w": 1,
+        "o": 6.3
       }
     ],
     "playerScores": {
@@ -52,24 +52,24 @@
         "total": 0
       },
       "Abishek Porel": {
-        "batting": 11,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 26
       },
       "KL Rahul": {
-        "batting": 2,
+        "batting": 19,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 19
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6351,
-      "top11Points": 6353
+      "totalPointsAll": 6385,
+      "top11Points": 6387
     },
     {
       "team": "Tikoo",
@@ -98,8 +98,8 @@
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 5158,
-      "top11Points": 5158
+      "totalPointsAll": 5173,
+      "top11Points": 5173
     },
     {
       "team": "Ashwin",
@@ -25665,34 +25665,43 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 40,
-          "w": 0,
-          "o": 4.2
+          "r": 54,
+          "w": 1,
+          "o": 6.3
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 40,
-          "wickets": 0,
-          "overs": 4.2,
+          "runs": 54,
+          "wickets": 1,
+          "overs": 6.3,
           "batting": [
             {
               "name": "Abishek Porel",
-              "runs": 9,
-              "balls": 5,
-              "fours": 2,
+              "runs": 22,
+              "balls": 18,
+              "fours": 4,
               "sixes": 0,
-              "sr": 180,
-              "dismissal": "batting"
+              "sr": 122.22,
+              "dismissal": "c Tejasvi Dahiya b Saurabh Dubey"
             },
             {
               "name": "KL Rahul",
-              "runs": 2,
-              "balls": 3,
+              "runs": 16,
+              "balls": 9,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 177.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Sahil Parakh",
+              "runs": 1,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 100,
               "dismissal": "batting"
             }
           ],
@@ -25707,11 +25716,27 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 0.2,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 1,
+              "runs": 4,
+              "wickets": 1,
+              "economy": 2.4
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 14,
               "wickets": 0,
-              "economy": 3
+              "economy": 14
+            },
+            {
+              "name": "Kartik Tyagi",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 13,
+              "wickets": 0,
+              "economy": 13
             }
           ]
         }
@@ -25754,16 +25779,16 @@
           "total": 0
         },
         "Abishek Porel": {
-          "batting": 11,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 26
         },
         "KL Rahul": {
-          "batting": 2,
+          "batting": 19,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 19
         }
       },
       "isComplete": false
@@ -26058,18 +26083,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6351,
-      "top11Points": 6353,
+      "totalPointsAll": 6385,
+      "top11Points": 6387,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 770,
+          "batting": 787,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 806,
+          "rawPoints": 823,
           "multiplier": 2,
-          "effectivePoints": 1612,
+          "effectivePoints": 1646,
           "countsInTop11": true
         },
         {
@@ -26334,8 +26359,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5158,
-      "top11Points": 5158,
+      "totalPointsAll": 5173,
+      "top11Points": 5173,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -26426,6 +26451,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Abishek Porel",
+          "role": "Wicket Keeper",
+          "batting": 135,
+          "bowling": 0,
+          "fielding": 0,
+          "rawPoints": 135,
+          "multiplier": 1,
+          "effectivePoints": 135,
+          "countsInTop11": true
+        },
+        {
           "name": "Kuldeep Yadav",
           "role": "Spinner",
           "batting": -1,
@@ -26434,17 +26470,6 @@
           "rawPoints": 132,
           "multiplier": 1,
           "effectivePoints": 132,
-          "countsInTop11": true
-        },
-        {
-          "name": "Abishek Porel",
-          "role": "Wicket Keeper",
-          "batting": 120,
-          "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 120,
-          "multiplier": 1,
-          "effectivePoints": 120,
           "countsInTop11": true
         },
         {
