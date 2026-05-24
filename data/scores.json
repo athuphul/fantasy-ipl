@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T12:34:54.583Z",
+  "lastUpdated": "2026-05-24T12:44:53.802Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529312",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Mumbai Indians",
-        "r": 22,
-        "w": 2,
-        "o": 2.5
+        "r": 36,
+        "w": 3,
+        "o": 4.2
       },
       {
         "inning": "Rajasthan Royals",
@@ -28,16 +28,16 @@
         "total": -5
       },
       "Suryakumar Yadav": {
-        "batting": 5,
+        "batting": 20,
         "bowling": 0,
         "fielding": 0,
-        "total": 5
+        "total": 20
       },
       "Tilak Varma": {
-        "batting": 0,
+        "batting": 2,
         "bowling": 0,
         "fielding": 16,
-        "total": 16
+        "total": 18
       },
       "Hardik Pandya": {
         "batting": 0,
@@ -72,8 +72,8 @@
       "Vaibhav Sooryavanshi": {
         "batting": 4,
         "bowling": 0,
-        "fielding": 0,
-        "total": 4
+        "fielding": 8,
+        "total": 12
       },
       "Dhruv Jurel": {
         "batting": 45,
@@ -89,9 +89,9 @@
       },
       "Jofra Archer": {
         "batting": 54,
-        "bowling": 50,
+        "bowling": 70,
         "fielding": 0,
-        "total": 104
+        "total": 124
       },
       "Ravindra Jadeja": {
         "batting": 27,
@@ -109,8 +109,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6137,
-      "top11Points": 5836
+      "totalPointsAll": 6145,
+      "top11Points": 5844
     },
     {
       "team": "Ritik",
@@ -119,13 +119,18 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5371,
-      "top11Points": 5335
+      "totalPointsAll": 5393,
+      "top11Points": 5357
     },
     {
       "team": "Manav",
       "totalPointsAll": 5487,
       "top11Points": 5304
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 5164,
+      "top11Points": 5167
     },
     {
       "team": "Kishan",
@@ -136,11 +141,6 @@
       "team": "Ashwin",
       "totalPointsAll": 5241,
       "top11Points": 5139
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 5134,
-      "top11Points": 5137
     },
     {
       "team": "Tanay",
@@ -25292,9 +25292,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 22,
-          "w": 2,
-          "o": 2.5
+          "r": 36,
+          "w": 3,
+          "o": 4.2
         },
         {
           "inning": "Rajasthan Royals",
@@ -25454,9 +25454,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 22,
-          "wickets": 2,
-          "overs": 2.5,
+          "runs": 36,
+          "wickets": 3,
+          "overs": 4.2,
           "batting": [
             {
               "name": "Rohit Sharma",
@@ -25470,11 +25470,11 @@
             {
               "name": "Ryan Rickelton",
               "runs": 12,
-              "balls": 6,
+              "balls": 7,
               "fours": 1,
               "sixes": 1,
-              "sr": 200,
-              "dismissal": "batting"
+              "sr": 171.43,
+              "dismissal": "c Vaibhav Sooryavanshi b Nandre Burger"
             },
             {
               "name": "Naman Dhir",
@@ -25487,29 +25487,38 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 4,
-              "balls": 1,
-              "fours": 1,
+              "runs": 16,
+              "balls": 6,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 266.67,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Tilak Varma",
+              "runs": 2,
+              "balls": 4,
+              "fours": 0,
               "sixes": 0,
-              "sr": 400,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Jofra Archer",
-              "overs": 1.4,
+              "overs": 2.2,
               "maidens": 0,
-              "runs": 10,
+              "runs": 12,
               "wickets": 2,
-              "economy": 6
+              "economy": 5.14
             },
             {
               "name": "Nandre Burger",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 12,
-              "wickets": 0,
+              "runs": 24,
+              "wickets": 1,
               "economy": 12
             }
           ]
@@ -25523,16 +25532,16 @@
           "total": -5
         },
         "Suryakumar Yadav": {
-          "batting": 5,
+          "batting": 20,
           "bowling": 0,
           "fielding": 0,
-          "total": 5
+          "total": 20
         },
         "Tilak Varma": {
-          "batting": 0,
+          "batting": 2,
           "bowling": 0,
           "fielding": 16,
-          "total": 16
+          "total": 18
         },
         "Hardik Pandya": {
           "batting": 0,
@@ -25567,8 +25576,8 @@
         "Vaibhav Sooryavanshi": {
           "batting": 4,
           "bowling": 0,
-          "fielding": 0,
-          "total": 4
+          "fielding": 8,
+          "total": 12
         },
         "Dhruv Jurel": {
           "batting": 45,
@@ -25584,9 +25593,9 @@
         },
         "Jofra Archer": {
           "batting": 54,
-          "bowling": 50,
+          "bowling": 70,
           "fielding": 0,
-          "total": 104
+          "total": 124
         },
         "Ravindra Jadeja": {
           "batting": 27,
@@ -25600,8 +25609,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5134,
-      "top11Points": 5137,
+      "totalPointsAll": 5164,
+      "top11Points": 5167,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25639,12 +25648,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 272,
+          "batting": 287,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 296,
+          "rawPoints": 311,
           "multiplier": 2,
-          "effectivePoints": 592,
+          "effectivePoints": 622,
           "countsInTop11": true
         },
         {
@@ -25749,8 +25758,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5371,
-      "top11Points": 5335,
+      "totalPointsAll": 5393,
+      "top11Points": 5357,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25767,11 +25776,11 @@
           "name": "Jofra Archer",
           "role": "Fast Bowler",
           "batting": 77,
-          "bowling": 520,
+          "bowling": 540,
           "fielding": 55,
-          "rawPoints": 652,
+          "rawPoints": 672,
           "multiplier": 1,
-          "effectivePoints": 652,
+          "effectivePoints": 672,
           "countsInTop11": true
         },
         {
@@ -25788,12 +25797,12 @@
         {
           "name": "Tilak Varma",
           "role": "Batsman",
-          "batting": 465,
+          "batting": 467,
           "bowling": 0,
           "fielding": 88,
-          "rawPoints": 553,
+          "rawPoints": 555,
           "multiplier": 1,
-          "effectivePoints": 553,
+          "effectivePoints": 555,
           "countsInTop11": true
         },
         {
@@ -26715,8 +26724,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6137,
-      "top11Points": 5836,
+      "totalPointsAll": 6145,
+      "top11Points": 5844,
       "players": [
         {
           "name": "Sanju Samson",
@@ -26734,10 +26743,10 @@
           "role": "Opener",
           "batting": 924,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 924,
+          "fielding": 8,
+          "rawPoints": 932,
           "multiplier": 1,
-          "effectivePoints": 924,
+          "effectivePoints": 932,
           "countsInTop11": true
         },
         {
