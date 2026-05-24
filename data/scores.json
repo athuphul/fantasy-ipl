@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T16:54:53.353Z",
+  "lastUpdated": "2026-05-24T17:04:54.278Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 87,
-        "w": 1,
-        "o": 8.2
+        "r": 96,
+        "w": 2,
+        "o": 9.3
       },
       {
         "inning": "Delhi Capitals",
@@ -22,10 +22,10 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 31,
+        "batting": 68,
         "bowling": 0,
         "fielding": 8,
-        "total": 39
+        "total": 76
       },
       "Finn Allen": {
         "batting": 30,
@@ -34,10 +34,10 @@
         "total": 38
       },
       "Cameron Green": {
-        "batting": 0,
+        "batting": 2,
         "bowling": -5,
         "fielding": 0,
-        "total": -5
+        "total": -3
       },
       "Rinku Singh": {
         "batting": 0,
@@ -77,15 +77,15 @@
       },
       "Axar Patel": {
         "batting": 51,
-        "bowling": 0,
+        "bowling": -15,
         "fielding": 0,
-        "total": 51
+        "total": 36
       },
       "David Miller": {
         "batting": 34,
         "bowling": 0,
-        "fielding": 0,
-        "total": 34
+        "fielding": 8,
+        "total": 42
       },
       "Ashutosh Sharma": {
         "batting": 27,
@@ -107,15 +107,15 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 70,
         "fielding": 0,
-        "total": 25
+        "total": 70
       },
       "Kuldeep Yadav": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       }
     }
   },
@@ -127,8 +127,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6216,
-      "top11Points": 5915
+      "totalPointsAll": 6269,
+      "top11Points": 5968
     },
     {
       "team": "Ritik",
@@ -137,13 +137,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5458,
-      "top11Points": 5461
-    },
-    {
-      "team": "Manav",
-      "totalPointsAll": 5607,
-      "top11Points": 5424
+      "totalPointsAll": 5495,
+      "top11Points": 5498
     },
     {
       "team": "Aakash",
@@ -151,19 +146,24 @@
       "top11Points": 5418
     },
     {
+      "team": "Manav",
+      "totalPointsAll": 5577,
+      "top11Points": 5394
+    },
+    {
+      "team": "Kishan",
+      "totalPointsAll": 5198,
+      "top11Points": 5198
+    },
+    {
       "team": "Ashwin",
       "totalPointsAll": 5278,
       "top11Points": 5176
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 5173,
-      "top11Points": 5173
-    },
-    {
       "team": "Tanay",
-      "totalPointsAll": 4457,
-      "top11Points": 4410
+      "totalPointsAll": 4459,
+      "top11Points": 4412
     }
   ],
   "matchHistory": [
@@ -25719,9 +25719,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 87,
-          "w": 1,
-          "o": 8.2
+          "r": 96,
+          "w": 2,
+          "o": 9.3
         },
         {
           "inning": "Delhi Capitals",
@@ -25854,17 +25854,17 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 87,
-          "wickets": 1,
-          "overs": 8.2,
+          "runs": 96,
+          "wickets": 2,
+          "overs": 9.3,
           "batting": [
             {
               "name": "Ajinkya Rahane",
-              "runs": 25,
-              "balls": 17,
-              "fours": 2,
-              "sixes": 2,
-              "sr": 147.06,
+              "runs": 47,
+              "balls": 26,
+              "fours": 3,
+              "sixes": 4,
+              "sr": 180.77,
               "dismissal": "batting"
             },
             {
@@ -25878,11 +25878,29 @@
             },
             {
               "name": "Manish Pandey",
-              "runs": 12,
-              "balls": 10,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 120,
+              "runs": 25,
+              "balls": 16,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 156.25,
+              "dismissal": "c Mitchell Starc b Lungi Ngidi"
+            },
+            {
+              "name": "Cameron Green",
+              "runs": 2,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 66.67,
+              "dismissal": "c David Miller b Kuldeep Yadav"
+            },
+            {
+              "name": "Rovman Powell",
+              "runs": 0,
+              "balls": 0,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 0,
               "dismissal": "batting"
             }
           ],
@@ -25905,37 +25923,45 @@
             },
             {
               "name": "Lungi Ngidi",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 4,
-              "wickets": 1,
-              "economy": 4
+              "runs": 12,
+              "wickets": 2,
+              "economy": 6
             },
             {
               "name": "Axar Patel",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 8,
+              "runs": 29,
               "wickets": 0,
-              "economy": 8
+              "economy": 14.5
             },
             {
               "name": "Madhav Tiwari",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 9,
+              "wickets": 0,
+              "economy": 9
+            },
+            {
+              "name": "Kuldeep Yadav",
               "overs": 0.4,
               "maidens": 0,
-              "runs": 4,
-              "wickets": 0,
-              "economy": 6
+              "runs": 3,
+              "wickets": 1,
+              "economy": 4.5
             }
           ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 31,
+          "batting": 68,
           "bowling": 0,
           "fielding": 8,
-          "total": 39
+          "total": 76
         },
         "Finn Allen": {
           "batting": 30,
@@ -25944,10 +25970,10 @@
           "total": 38
         },
         "Cameron Green": {
-          "batting": 0,
+          "batting": 2,
           "bowling": -5,
           "fielding": 0,
-          "total": -5
+          "total": -3
         },
         "Rinku Singh": {
           "batting": 0,
@@ -25987,15 +26013,15 @@
         },
         "Axar Patel": {
           "batting": 51,
-          "bowling": 0,
+          "bowling": -15,
           "fielding": 0,
-          "total": 51
+          "total": 36
         },
         "David Miller": {
           "batting": 34,
           "bowling": 0,
-          "fielding": 0,
-          "total": 34
+          "fielding": 8,
+          "total": 42
         },
         "Ashutosh Sharma": {
           "batting": 27,
@@ -26017,15 +26043,15 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 70,
           "fielding": 0,
-          "total": 25
+          "total": 70
         },
         "Kuldeep Yadav": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         }
       },
       "isComplete": false
@@ -26033,8 +26059,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5458,
-      "top11Points": 5461,
+      "totalPointsAll": 5495,
+      "top11Points": 5498,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -26083,12 +26109,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 347,
+          "batting": 384,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 403,
+          "rawPoints": 440,
           "multiplier": 1,
-          "effectivePoints": 403,
+          "effectivePoints": 440,
           "countsInTop11": true
         },
         {
@@ -26596,8 +26622,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5173,
-      "top11Points": 5173,
+      "totalPointsAll": 5198,
+      "top11Points": 5198,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -26688,6 +26714,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Kuldeep Yadav",
+          "role": "Spinner",
+          "batting": -1,
+          "bowling": 150,
+          "fielding": 8,
+          "rawPoints": 157,
+          "multiplier": 1,
+          "effectivePoints": 157,
+          "countsInTop11": true
+        },
+        {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
           "batting": 135,
@@ -26696,17 +26733,6 @@
           "rawPoints": 135,
           "multiplier": 1,
           "effectivePoints": 135,
-          "countsInTop11": true
-        },
-        {
-          "name": "Kuldeep Yadav",
-          "role": "Spinner",
-          "batting": -1,
-          "bowling": 125,
-          "fielding": 8,
-          "rawPoints": 132,
-          "multiplier": 1,
-          "effectivePoints": 132,
           "countsInTop11": true
         },
         {
@@ -26723,18 +26749,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5607,
-      "top11Points": 5424,
+      "totalPointsAll": 5577,
+      "top11Points": 5394,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
           "batting": 216,
-          "bowling": 324,
+          "bowling": 309,
           "fielding": 40,
-          "rawPoints": 580,
+          "rawPoints": 565,
           "multiplier": 2,
-          "effectivePoints": 1160,
+          "effectivePoints": 1130,
           "countsInTop11": true
         },
         {
@@ -27010,8 +27036,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4457,
-      "top11Points": 4410,
+      "totalPointsAll": 4459,
+      "top11Points": 4412,
       "players": [
         {
           "name": "Travis Head",
@@ -27027,12 +27053,12 @@
         {
           "name": "Cameron Green",
           "role": "All-Rounder",
-          "batting": 431,
+          "batting": 433,
           "bowling": 125,
           "fielding": 64,
-          "rawPoints": 620,
+          "rawPoints": 622,
           "multiplier": 1,
-          "effectivePoints": 620,
+          "effectivePoints": 622,
           "countsInTop11": true
         },
         {
@@ -27148,8 +27174,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6216,
-      "top11Points": 5915,
+      "totalPointsAll": 6269,
+      "top11Points": 5968,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27221,11 +27247,11 @@
           "name": "Lungi Ngidi",
           "role": "Fast Bowler",
           "batting": -1,
-          "bowling": 340,
+          "bowling": 385,
           "fielding": 5,
-          "rawPoints": 344,
+          "rawPoints": 389,
           "multiplier": 1,
-          "effectivePoints": 344,
+          "effectivePoints": 389,
           "countsInTop11": true
         },
         {
@@ -27233,10 +27259,10 @@
           "role": "Batsman",
           "batting": 299,
           "bowling": 0,
-          "fielding": 40,
-          "rawPoints": 339,
+          "fielding": 48,
+          "rawPoints": 347,
           "multiplier": 1,
-          "effectivePoints": 339,
+          "effectivePoints": 347,
           "countsInTop11": true
         },
         {
