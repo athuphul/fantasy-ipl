@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T12:04:53.705Z",
+  "lastUpdated": "2026-05-24T12:15:11.986Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529312",
@@ -24,14 +24,14 @@
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 16,
+        "total": 16
       },
       "Hardik Pandya": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 8,
-        "total": 8
+        "fielding": 0,
+        "total": 0
       },
       "Will Jacks": {
         "batting": 0,
@@ -47,9 +47,9 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 25,
+        "bowling": 50,
         "fielding": 10,
-        "total": 35
+        "total": 60
       },
       "Yashasvi Jaiswal": {
         "batting": 39,
@@ -82,10 +82,10 @@
         "total": 54
       },
       "Ravindra Jadeja": {
-        "batting": 27,
+        "batting": 2,
         "bowling": 0,
         "fielding": 0,
-        "total": 27
+        "total": 2
       }
     }
   },
@@ -112,8 +112,8 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5313,
-      "top11Points": 5277
+      "totalPointsAll": 5321,
+      "top11Points": 5285
     },
     {
       "team": "Ashwin",
@@ -121,14 +121,14 @@
       "top11Points": 5139
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 5137,
-      "top11Points": 5137
+      "team": "Athu",
+      "totalPointsAll": 5124,
+      "top11Points": 5127
     },
     {
-      "team": "Athu",
-      "totalPointsAll": 5132,
-      "top11Points": 5135
+      "team": "Kishan",
+      "totalPointsAll": 5112,
+      "top11Points": 5112
     },
     {
       "team": "Tanay",
@@ -25349,11 +25349,11 @@
             {
               "name": "Jofra Archer",
               "runs": 32,
-              "balls": 14,
+              "balls": 15,
               "fours": 1,
               "sixes": 3,
-              "sr": 228.57,
-              "dismissal": "batting"
+              "sr": 213.33,
+              "dismissal": "c Tilak Varma b Shardul Thakur"
             },
             {
               "name": "Shubham Dubey",
@@ -25362,7 +25362,25 @@
               "fours": 0,
               "sixes": 0,
               "sr": 83.33,
-              "dismissal": "c Hardik Pandya b Shardul Thakur"
+              "dismissal": "c Naman Dhir b Shardul Thakur"
+            },
+            {
+              "name": "Ravindra Jadeja",
+              "runs": 2,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Nandre Burger",
+              "runs": 1,
+              "balls": 1,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 100,
+              "dismissal": "batting"
             }
           ],
           "bowling": [
@@ -25400,19 +25418,19 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 2.4,
+              "overs": 3,
               "maidens": 0,
-              "runs": 26,
-              "wickets": 1,
-              "economy": 9.75
+              "runs": 27,
+              "wickets": 2,
+              "economy": 9
             },
             {
               "name": "Corbin Bosch",
-              "overs": 3,
+              "overs": 3.2,
               "maidens": 0,
-              "runs": 22,
+              "runs": 25,
               "wickets": 1,
-              "economy": 7.33
+              "economy": 7.5
             }
           ]
         }
@@ -25427,14 +25445,14 @@
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 16,
+          "total": 16
         },
         "Hardik Pandya": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 8,
-          "total": 8
+          "fielding": 0,
+          "total": 0
         },
         "Will Jacks": {
           "batting": 0,
@@ -25450,9 +25468,9 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 25,
+          "bowling": 50,
           "fielding": 10,
-          "total": 35
+          "total": 60
         },
         "Yashasvi Jaiswal": {
           "batting": 39,
@@ -25485,10 +25503,10 @@
           "total": 54
         },
         "Ravindra Jadeja": {
-          "batting": 27,
+          "batting": 2,
           "bowling": 0,
           "fielding": 0,
-          "total": 27
+          "total": 2
         }
       },
       "isComplete": false
@@ -25496,8 +25514,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5132,
-      "top11Points": 5135,
+      "totalPointsAll": 5124,
+      "top11Points": 5127,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25566,17 +25584,6 @@
           "countsInTop11": true
         },
         {
-          "name": "Hardik Pandya",
-          "role": "All-Rounder",
-          "batting": 215,
-          "bowling": 72,
-          "fielding": 24,
-          "rawPoints": 311,
-          "multiplier": 1,
-          "effectivePoints": 311,
-          "countsInTop11": true
-        },
-        {
           "name": "Ravi Bishnoi",
           "role": "Spinner",
           "batting": -10,
@@ -25585,6 +25592,17 @@
           "rawPoints": 307,
           "multiplier": 1,
           "effectivePoints": 307,
+          "countsInTop11": true
+        },
+        {
+          "name": "Hardik Pandya",
+          "role": "All-Rounder",
+          "batting": 215,
+          "bowling": 72,
+          "fielding": 16,
+          "rawPoints": 303,
+          "multiplier": 1,
+          "effectivePoints": 303,
           "countsInTop11": true
         },
         {
@@ -25645,8 +25663,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5313,
-      "top11Points": 5277,
+      "totalPointsAll": 5321,
+      "top11Points": 5285,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25686,10 +25704,10 @@
           "role": "Batsman",
           "batting": 465,
           "bowling": 0,
-          "fielding": 80,
-          "rawPoints": 545,
+          "fielding": 88,
+          "rawPoints": 553,
           "multiplier": 1,
-          "effectivePoints": 545,
+          "effectivePoints": 553,
           "countsInTop11": true
         },
         {
@@ -26059,18 +26077,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5137,
-      "top11Points": 5137,
+      "totalPointsAll": 5112,
+      "top11Points": 5112,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 240,
+          "batting": 215,
           "bowling": 247,
           "fielding": 18,
-          "rawPoints": 505,
+          "rawPoints": 480,
           "multiplier": 2,
-          "effectivePoints": 1010,
+          "effectivePoints": 960,
           "countsInTop11": true
         },
         {
@@ -26143,11 +26161,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 5,
-          "bowling": 250,
+          "bowling": 275,
           "fielding": 10,
-          "rawPoints": 265,
+          "rawPoints": 290,
           "multiplier": 1,
-          "effectivePoints": 265,
+          "effectivePoints": 290,
           "countsInTop11": true
         },
         {
