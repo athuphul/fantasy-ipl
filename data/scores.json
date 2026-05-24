@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:44:53.203Z",
+  "lastUpdated": "2026-05-24T15:54:54.659Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 176,
-        "w": 4,
-        "o": 18.2
+        "r": 201,
+        "w": 5,
+        "o": 19.4
       }
     ],
     "playerScores": {
@@ -54,8 +54,8 @@
       "Finn Allen": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Abishek Porel": {
         "batting": 26,
@@ -76,16 +76,16 @@
         "total": 51
       },
       "David Miller": {
-        "batting": 15,
+        "batting": 34,
         "bowling": 0,
         "fielding": 0,
-        "total": 15
+        "total": 34
       },
       "Ashutosh Sharma": {
-        "batting": 2,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 26
       }
     }
   },
@@ -97,8 +97,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6172,
-      "top11Points": 5871
+      "totalPointsAll": 6191,
+      "top11Points": 5890
     },
     {
       "team": "Ritik",
@@ -117,8 +117,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5370,
-      "top11Points": 5373
+      "totalPointsAll": 5382,
+      "top11Points": 5385
     },
     {
       "team": "Ashwin",
@@ -132,8 +132,8 @@
     },
     {
       "team": "Tanay",
-      "totalPointsAll": 4432,
-      "top11Points": 4385
+      "totalPointsAll": 4456,
+      "top11Points": 4409
     }
   ],
   "matchHistory": [
@@ -25689,17 +25689,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 176,
-          "w": 4,
-          "o": 18.2
+          "r": 201,
+          "w": 5,
+          "o": 19.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 176,
-          "wickets": 4,
-          "overs": 18.2,
+          "runs": 201,
+          "wickets": 5,
+          "overs": 19.4,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -25739,20 +25739,20 @@
             },
             {
               "name": "David Miller",
-              "runs": 13,
-              "balls": 12,
+              "runs": 28,
+              "balls": 19,
               "fours": 0,
-              "sixes": 1,
-              "sr": 108.33,
-              "dismissal": "batting"
+              "sixes": 3,
+              "sr": 147.37,
+              "dismissal": "c Finn Allen b Saurabh Dubey"
             },
             {
               "name": "Ashutosh Sharma",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 17,
+              "balls": 10,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 170,
               "dismissal": "batting"
             }
           ],
@@ -25767,11 +25767,11 @@
             },
             {
               "name": "Saurabh Dubey",
-              "overs": 2.2,
+              "overs": 3.4,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 1,
-              "economy": 2.57
+              "runs": 27,
+              "wickets": 2,
+              "economy": 7.36
             },
             {
               "name": "Cameron Green",
@@ -25783,11 +25783,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 43,
+              "runs": 55,
               "wickets": 0,
-              "economy": 14.33
+              "economy": 13.75
             },
             {
               "name": "Sunil Narine",
@@ -25848,8 +25848,8 @@
         "Finn Allen": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Abishek Porel": {
           "batting": 26,
@@ -25870,16 +25870,16 @@
           "total": 51
         },
         "David Miller": {
-          "batting": 15,
+          "batting": 34,
           "bowling": 0,
           "fielding": 0,
-          "total": 15
+          "total": 34
         },
         "Ashutosh Sharma": {
-          "batting": 2,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 26
         }
       },
       "isComplete": false
@@ -25887,8 +25887,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5370,
-      "top11Points": 5373,
+      "totalPointsAll": 5382,
+      "top11Points": 5385,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25906,10 +25906,10 @@
           "role": "Wicket Keeper",
           "batting": 523,
           "bowling": 0,
-          "fielding": 0,
-          "rawPoints": 523,
+          "fielding": 8,
+          "rawPoints": 531,
           "multiplier": 1.5,
-          "effectivePoints": 785,
+          "effectivePoints": 797,
           "countsInTop11": true
         },
         {
@@ -26864,8 +26864,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4432,
-      "top11Points": 4385,
+      "totalPointsAll": 4456,
+      "top11Points": 4409,
       "players": [
         {
           "name": "Travis Head",
@@ -26934,6 +26934,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Ashutosh Sharma",
+          "role": "Batsman",
+          "batting": 244,
+          "bowling": 0,
+          "fielding": 16,
+          "rawPoints": 260,
+          "multiplier": 1,
+          "effectivePoints": 260,
+          "countsInTop11": true
+        },
+        {
           "name": "Harsh Dubey",
           "role": "All-Rounder",
           "batting": 10,
@@ -26942,17 +26953,6 @@
           "rawPoints": 244,
           "multiplier": 1,
           "effectivePoints": 244,
-          "countsInTop11": true
-        },
-        {
-          "name": "Ashutosh Sharma",
-          "role": "Batsman",
-          "batting": 220,
-          "bowling": 0,
-          "fielding": 16,
-          "rawPoints": 236,
-          "multiplier": 1,
-          "effectivePoints": 236,
           "countsInTop11": true
         },
         {
@@ -27002,8 +27002,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6172,
-      "top11Points": 5871,
+      "totalPointsAll": 6191,
+      "top11Points": 5890,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27074,12 +27074,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 280,
+          "batting": 299,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 320,
+          "rawPoints": 339,
           "multiplier": 1,
-          "effectivePoints": 320,
+          "effectivePoints": 339,
           "countsInTop11": true
         },
         {
