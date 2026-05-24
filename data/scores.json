@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T10:34:58.646Z",
+  "lastUpdated": "2026-05-24T10:44:53.924Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529312",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 46,
-        "w": 2,
-        "o": 5.3
+        "r": 65,
+        "w": 3,
+        "o": 7.2
       }
     ],
     "playerScores": {
@@ -24,8 +24,8 @@
       "Tilak Varma": {
         "batting": 0,
         "bowling": 0,
-        "fielding": 0,
-        "total": 0
+        "fielding": 8,
+        "total": 8
       },
       "Hardik Pandya": {
         "batting": 0,
@@ -35,15 +35,15 @@
       },
       "Will Jacks": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 45,
         "fielding": 0,
-        "total": 0
+        "total": 45
       },
       "Deepak Chahar": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Shardul Thakur": {
         "batting": 0,
@@ -52,28 +52,28 @@
         "total": 0
       },
       "Yashasvi Jaiswal": {
-        "batting": 25,
+        "batting": 39,
         "bowling": 0,
         "fielding": 0,
-        "total": 25
+        "total": 39
       },
       "Vaibhav Sooryavanshi": {
-        "batting": 2,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 4
       },
       "Dhruv Jurel": {
-        "batting": 9,
+        "batting": 14,
         "bowling": 0,
         "fielding": 0,
-        "total": 9
+        "total": 14
       },
       "Riyan Parag": {
-        "batting": 8,
+        "batting": 18,
         "bowling": 0,
         "fielding": 0,
-        "total": 8
+        "total": 18
       }
     }
   },
@@ -85,23 +85,23 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6135,
-      "top11Points": 5834
+      "totalPointsAll": 6137,
+      "top11Points": 5836
     },
     {
       "team": "Ritik",
-      "totalPointsAll": 5659,
-      "top11Points": 5659
+      "totalPointsAll": 5724,
+      "top11Points": 5724
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5398,
-      "top11Points": 5215
+      "totalPointsAll": 5428,
+      "top11Points": 5245
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5237,
-      "top11Points": 5201
+      "totalPointsAll": 5259,
+      "top11Points": 5223
     },
     {
       "team": "Ashwin",
@@ -25268,53 +25268,96 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 46,
-          "w": 2,
-          "o": 5.3
+          "r": 65,
+          "w": 3,
+          "o": 7.2
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 46,
-          "wickets": 2,
-          "overs": 5.3,
+          "runs": 65,
+          "wickets": 3,
+          "overs": 7.2,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
-              "runs": 16,
-              "balls": 10,
-              "fours": 0,
-              "sixes": 2,
-              "sr": 160,
-              "dismissal": "batting"
+              "runs": 27,
+              "balls": 17,
+              "fours": 1,
+              "sixes": 3,
+              "sr": 158.82,
+              "dismissal": "c Corbin Bosch b Will Jacks"
             },
             {
               "name": "Vaibhav Sooryavanshi",
-              "runs": 2,
-              "balls": 3,
+              "runs": 4,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
               "sr": 66.67,
+              "dismissal": "c Naman Dhir b Deepak Chahar"
+            },
+            {
+              "name": "Dhruv Jurel",
+              "runs": 12,
+              "balls": 10,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 120,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Riyan Parag",
+              "runs": 14,
+              "balls": 8,
+              "fours": 2,
+              "sixes": 1,
+              "sr": 175,
+              "dismissal": "c Tilak Varma b AM Ghazanfar"
+            },
+            {
+              "name": "Dasun Shanaka",
+              "runs": 5,
+              "balls": 4,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 125,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Deepak Chahar",
-              "overs": 1.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 15,
-              "wickets": 0,
-              "economy": 12.86
+              "runs": 27,
+              "wickets": 1,
+              "economy": 9
             },
             {
               "name": "Will Jacks",
+              "overs": 2,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 1,
+              "economy": 6
+            },
+            {
+              "name": "AM Ghazanfar",
+              "overs": 1.3,
+              "maidens": 0,
+              "runs": 22,
+              "wickets": 1,
+              "economy": 14.67
+            },
+            {
+              "name": "Raghu Sharma",
               "overs": 1,
               "maidens": 0,
-              "runs": 4,
+              "runs": 6,
               "wickets": 0,
-              "economy": 4
+              "economy": 6
             }
           ]
         }
@@ -25329,8 +25372,8 @@
         "Tilak Varma": {
           "batting": 0,
           "bowling": 0,
-          "fielding": 0,
-          "total": 0
+          "fielding": 8,
+          "total": 8
         },
         "Hardik Pandya": {
           "batting": 0,
@@ -25340,15 +25383,15 @@
         },
         "Will Jacks": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 45,
           "fielding": 0,
-          "total": 0
+          "total": 45
         },
         "Deepak Chahar": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Shardul Thakur": {
           "batting": 0,
@@ -25357,28 +25400,28 @@
           "total": 0
         },
         "Yashasvi Jaiswal": {
-          "batting": 25,
+          "batting": 39,
           "bowling": 0,
           "fielding": 0,
-          "total": 25
+          "total": 39
         },
         "Vaibhav Sooryavanshi": {
-          "batting": 2,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 4
         },
         "Dhruv Jurel": {
-          "batting": 9,
+          "batting": 14,
           "bowling": 0,
           "fielding": 0,
-          "total": 9
+          "total": 14
         },
         "Riyan Parag": {
-          "batting": 8,
+          "batting": 18,
           "bowling": 0,
           "fielding": 0,
-          "total": 8
+          "total": 18
         }
       },
       "isComplete": false
@@ -25535,8 +25578,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5237,
-      "top11Points": 5201,
+      "totalPointsAll": 5259,
+      "top11Points": 5223,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25552,12 +25595,12 @@
         {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
-          "batting": 552,
+          "batting": 566,
           "bowling": 0,
           "fielding": 42,
-          "rawPoints": 594,
+          "rawPoints": 608,
           "multiplier": 1,
-          "effectivePoints": 594,
+          "effectivePoints": 608,
           "countsInTop11": true
         },
         {
@@ -25576,10 +25619,10 @@
           "role": "Batsman",
           "batting": 465,
           "bowling": 0,
-          "fielding": 72,
-          "rawPoints": 537,
+          "fielding": 80,
+          "rawPoints": 545,
           "multiplier": 1,
-          "effectivePoints": 537,
+          "effectivePoints": 545,
           "countsInTop11": true
         },
         {
@@ -26076,8 +26119,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5398,
-      "top11Points": 5215,
+      "totalPointsAll": 5428,
+      "top11Points": 5245,
       "players": [
         {
           "name": "Axar Patel",
@@ -26093,12 +26136,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 575,
+          "batting": 580,
           "bowling": 0,
           "fielding": 160,
-          "rawPoints": 735,
+          "rawPoints": 740,
           "multiplier": 1,
-          "effectivePoints": 735,
+          "effectivePoints": 740,
           "countsInTop11": true
         },
         {
@@ -26193,11 +26236,11 @@
           "name": "Deepak Chahar",
           "role": "Fast Bowler",
           "batting": 20,
-          "bowling": 147,
+          "bowling": 172,
           "fielding": 8,
-          "rawPoints": 175,
+          "rawPoints": 200,
           "multiplier": 1,
-          "effectivePoints": 175,
+          "effectivePoints": 200,
           "countsInTop11": true
         },
         {
@@ -26236,8 +26279,8 @@
       ]
     },
     "Ritik": {
-      "totalPointsAll": 5659,
-      "top11Points": 5659,
+      "totalPointsAll": 5724,
+      "top11Points": 5724,
       "players": [
         {
           "name": "Jos Buttler",
@@ -26253,12 +26296,12 @@
         {
           "name": "Riyan Parag",
           "role": "Batsman",
-          "batting": 379,
+          "batting": 389,
           "bowling": 50,
           "fielding": 32,
-          "rawPoints": 461,
+          "rawPoints": 471,
           "multiplier": 2,
-          "effectivePoints": 922,
+          "effectivePoints": 942,
           "countsInTop11": true
         },
         {
@@ -26317,6 +26360,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Will Jacks",
+          "role": "All-Rounder",
+          "batting": 114,
+          "bowling": 67,
+          "fielding": 16,
+          "rawPoints": 197,
+          "multiplier": 1,
+          "effectivePoints": 197,
+          "countsInTop11": true
+        },
+        {
           "name": "Jasprit Bumrah",
           "role": "Fast Bowler",
           "batting": 8,
@@ -26325,17 +26379,6 @@
           "rawPoints": 190,
           "multiplier": 1,
           "effectivePoints": 190,
-          "countsInTop11": true
-        },
-        {
-          "name": "Will Jacks",
-          "role": "All-Rounder",
-          "batting": 114,
-          "bowling": 22,
-          "fielding": 16,
-          "rawPoints": 152,
-          "multiplier": 1,
-          "effectivePoints": 152,
           "countsInTop11": true
         },
         {
@@ -26501,8 +26544,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6135,
-      "top11Points": 5834,
+      "totalPointsAll": 6137,
+      "top11Points": 5836,
       "players": [
         {
           "name": "Sanju Samson",
@@ -26518,12 +26561,12 @@
         {
           "name": "Vaibhav Sooryavanshi",
           "role": "Opener",
-          "batting": 922,
+          "batting": 924,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 922,
+          "rawPoints": 924,
           "multiplier": 1,
-          "effectivePoints": 922,
+          "effectivePoints": 924,
           "countsInTop11": true
         },
         {
