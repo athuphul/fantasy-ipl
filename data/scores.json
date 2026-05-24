@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T16:34:53.780Z",
+  "lastUpdated": "2026-05-24T16:44:53.158Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Kolkata Knight Riders",
-        "r": 43,
-        "w": 0,
-        "o": 4
+        "r": 56,
+        "w": 1,
+        "o": 6.1
       },
       {
         "inning": "Delhi Capitals",
@@ -22,16 +22,16 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": -2,
+        "batting": 8,
         "bowling": 0,
         "fielding": 8,
-        "total": 6
+        "total": 16
       },
       "Finn Allen": {
-        "batting": 19,
+        "batting": 13,
         "bowling": 0,
         "fielding": 8,
-        "total": 27
+        "total": 21
       },
       "Cameron Green": {
         "batting": 0,
@@ -107,9 +107,9 @@
       },
       "Lungi Ngidi": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 0
+        "total": 25
       },
       "Kuldeep Yadav": {
         "batting": 0,
@@ -127,8 +127,8 @@
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6191,
-      "top11Points": 5890
+      "totalPointsAll": 6216,
+      "top11Points": 5915
     },
     {
       "team": "Ritik",
@@ -147,8 +147,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5408,
-      "top11Points": 5411
+      "totalPointsAll": 5409,
+      "top11Points": 5412
     },
     {
       "team": "Ashwin",
@@ -25719,9 +25719,9 @@
       "score": [
         {
           "inning": "Kolkata Knight Riders",
-          "r": 43,
-          "w": 0,
-          "o": 4
+          "r": 56,
+          "w": 1,
+          "o": 6.1
         },
         {
           "inning": "Delhi Capitals",
@@ -25854,37 +25854,37 @@
         },
         {
           "innings": "Kolkata Knight Riders",
-          "runs": 43,
-          "wickets": 0,
-          "overs": 4,
+          "runs": 56,
+          "wickets": 1,
+          "overs": 6.1,
           "batting": [
             {
               "name": "Ajinkya Rahane",
               "runs": 7,
-              "balls": 10,
+              "balls": 9,
               "fours": 1,
               "sixes": 0,
-              "sr": 70,
+              "sr": 77.78,
               "dismissal": "batting"
             },
             {
               "name": "Finn Allen",
-              "runs": 15,
-              "balls": 7,
-              "fours": 2,
+              "runs": 10,
+              "balls": 4,
+              "fours": 1,
               "sixes": 1,
-              "sr": 214.29,
+              "sr": 250,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Mitchell Starc",
-              "overs": 1.5,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 16,
+              "runs": 11,
               "wickets": 0,
-              "economy": 8.73
+              "economy": 9.43
             },
             {
               "name": "Auqib Nabi Dar",
@@ -25899,16 +25899,16 @@
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": -2,
+          "batting": 8,
           "bowling": 0,
           "fielding": 8,
-          "total": 6
+          "total": 16
         },
         "Finn Allen": {
-          "batting": 19,
+          "batting": 13,
           "bowling": 0,
           "fielding": 8,
-          "total": 27
+          "total": 21
         },
         "Cameron Green": {
           "batting": 0,
@@ -25984,9 +25984,9 @@
         },
         "Lungi Ngidi": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 0
+          "total": 25
         },
         "Kuldeep Yadav": {
           "batting": 0,
@@ -26000,8 +26000,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5408,
-      "top11Points": 5411,
+      "totalPointsAll": 5409,
+      "top11Points": 5412,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -26017,12 +26017,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 542,
+          "batting": 536,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 550,
+          "rawPoints": 544,
           "multiplier": 1.5,
-          "effectivePoints": 825,
+          "effectivePoints": 816,
           "countsInTop11": true
         },
         {
@@ -26050,12 +26050,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 314,
+          "batting": 324,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 370,
+          "rawPoints": 380,
           "multiplier": 1,
-          "effectivePoints": 370,
+          "effectivePoints": 380,
           "countsInTop11": true
         },
         {
@@ -27115,8 +27115,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6191,
-      "top11Points": 5890,
+      "totalPointsAll": 6216,
+      "top11Points": 5915,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27185,6 +27185,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Lungi Ngidi",
+          "role": "Fast Bowler",
+          "batting": -1,
+          "bowling": 340,
+          "fielding": 5,
+          "rawPoints": 344,
+          "multiplier": 1,
+          "effectivePoints": 344,
+          "countsInTop11": true
+        },
+        {
           "name": "David Miller",
           "role": "Batsman",
           "batting": 299,
@@ -27193,17 +27204,6 @@
           "rawPoints": 339,
           "multiplier": 1,
           "effectivePoints": 339,
-          "countsInTop11": true
-        },
-        {
-          "name": "Lungi Ngidi",
-          "role": "Fast Bowler",
-          "batting": -1,
-          "bowling": 315,
-          "fielding": 5,
-          "rawPoints": 319,
-          "multiplier": 1,
-          "effectivePoints": 319,
           "countsInTop11": true
         },
         {
