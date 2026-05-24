@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:14:53.701Z",
+  "lastUpdated": "2026-05-24T15:24:54.153Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 135,
+        "r": 148,
         "w": 3,
-        "o": 14
+        "o": 15.3
       }
     ],
     "playerScores": {
@@ -23,9 +23,9 @@
       },
       "Cameron Green": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -5,
         "fielding": 0,
-        "total": 0
+        "total": -5
       },
       "Rinku Singh": {
         "batting": 0,
@@ -35,21 +35,27 @@
       },
       "Sunil Narine": {
         "batting": 0,
+        "bowling": 25,
+        "fielding": 0,
+        "total": 25
+      },
+      "Anukul Roy": {
+        "batting": 0,
         "bowling": 20,
         "fielding": 0,
         "total": 20
       },
-      "Anukul Roy": {
+      "Varun Chakaravarthy": {
+        "batting": 0,
+        "bowling": 20,
+        "fielding": 0,
+        "total": 20
+      },
+      "Finn Allen": {
         "batting": 0,
         "bowling": 0,
         "fielding": 0,
         "total": 0
-      },
-      "Varun Chakaravarthy": {
-        "batting": 0,
-        "bowling": 12,
-        "fielding": 0,
-        "total": 12
       },
       "Abishek Porel": {
         "batting": 26,
@@ -58,35 +64,35 @@
         "total": 26
       },
       "KL Rahul": {
-        "batting": 86,
+        "batting": 98,
         "bowling": 0,
         "fielding": 0,
-        "total": 86
+        "total": 98
       },
       "Axar Patel": {
-        "batting": 2,
+        "batting": 26,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 26
       },
       "David Miller": {
-        "batting": 3,
+        "batting": 4,
         "bowling": 0,
         "fielding": 0,
-        "total": 3
+        "total": 4
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6519,
-      "top11Points": 6521
+      "totalPointsAll": 6543,
+      "top11Points": 6545
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6148,
-      "top11Points": 5847
+      "totalPointsAll": 6149,
+      "top11Points": 5848
     },
     {
       "team": "Ritik",
@@ -95,18 +101,23 @@
     },
     {
       "team": "Aakash",
-      "totalPointsAll": 5441,
-      "top11Points": 5405
-    },
-    {
-      "team": "Athu",
-      "totalPointsAll": 5350,
-      "top11Points": 5353
+      "totalPointsAll": 5449,
+      "top11Points": 5413
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5509,
-      "top11Points": 5326
+      "totalPointsAll": 5557,
+      "top11Points": 5374
+    },
+    {
+      "team": "Athu",
+      "totalPointsAll": 5370,
+      "top11Points": 5373
+    },
+    {
+      "team": "Ashwin",
+      "totalPointsAll": 5278,
+      "top11Points": 5176
     },
     {
       "team": "Kishan",
@@ -114,14 +125,9 @@
       "top11Points": 5173
     },
     {
-      "team": "Ashwin",
-      "totalPointsAll": 5271,
-      "top11Points": 5169
-    },
-    {
       "team": "Tanay",
-      "totalPointsAll": 4435,
-      "top11Points": 4388
+      "totalPointsAll": 4430,
+      "top11Points": 4383
     }
   ],
   "matchHistory": [
@@ -25677,17 +25683,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 135,
+          "r": 148,
           "w": 3,
-          "o": 14
+          "o": 15.3
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 135,
+          "runs": 148,
           "wickets": 3,
-          "overs": 14,
+          "overs": 15.3,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -25700,12 +25706,12 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 50,
-              "balls": 25,
-              "fours": 3,
+              "runs": 60,
+              "balls": 30,
+              "fours": 5,
               "sixes": 4,
               "sr": 200,
-              "dismissal": "batting"
+              "dismissal": "c Rovman Powell b Anukul Roy"
             },
             {
               "name": "Sahil Parakh",
@@ -25718,22 +25724,31 @@
             },
             {
               "name": "Axar Patel",
-              "runs": 2,
-              "balls": 4,
+              "runs": 23,
+              "balls": 18,
+              "fours": 3,
+              "sixes": 0,
+              "sr": 127.78,
+              "dismissal": "batting"
+            },
+            {
+              "name": "David Miller",
+              "runs": 4,
+              "balls": 6,
               "fours": 0,
               "sixes": 0,
-              "sr": 50,
+              "sr": 66.67,
               "dismissal": "batting"
             }
           ],
           "bowling": [
             {
               "name": "Anukul Roy",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 10,
-              "wickets": 0,
-              "economy": 10
+              "runs": 23,
+              "wickets": 1,
+              "economy": 11.5
             },
             {
               "name": "Saurabh Dubey",
@@ -25745,35 +25760,35 @@
             },
             {
               "name": "Cameron Green",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 14,
+              "runs": 21,
               "wickets": 0,
-              "economy": 14
+              "economy": 10.5
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1.4,
+              "overs": 2,
               "maidens": 0,
-              "runs": 25,
+              "runs": 33,
               "wickets": 0,
-              "economy": 15
+              "economy": 16.5
             },
             {
               "name": "Sunil Narine",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
+              "runs": 38,
               "wickets": 1,
-              "economy": 10.67
+              "economy": 9.5
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 2,
+              "overs": 2.5,
               "maidens": 0,
-              "runs": 14,
+              "runs": 17,
               "wickets": 0,
-              "economy": 7
+              "economy": 6
             }
           ]
         }
@@ -25787,9 +25802,9 @@
         },
         "Cameron Green": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -5,
           "fielding": 0,
-          "total": 0
+          "total": -5
         },
         "Rinku Singh": {
           "batting": 0,
@@ -25799,21 +25814,27 @@
         },
         "Sunil Narine": {
           "batting": 0,
+          "bowling": 25,
+          "fielding": 0,
+          "total": 25
+        },
+        "Anukul Roy": {
+          "batting": 0,
           "bowling": 20,
           "fielding": 0,
           "total": 20
         },
-        "Anukul Roy": {
+        "Varun Chakaravarthy": {
+          "batting": 0,
+          "bowling": 20,
+          "fielding": 0,
+          "total": 20
+        },
+        "Finn Allen": {
           "batting": 0,
           "bowling": 0,
           "fielding": 0,
           "total": 0
-        },
-        "Varun Chakaravarthy": {
-          "batting": 0,
-          "bowling": 12,
-          "fielding": 0,
-          "total": 12
         },
         "Abishek Porel": {
           "batting": 26,
@@ -25822,22 +25843,22 @@
           "total": 26
         },
         "KL Rahul": {
-          "batting": 86,
+          "batting": 98,
           "bowling": 0,
           "fielding": 0,
-          "total": 86
+          "total": 98
         },
         "Axar Patel": {
-          "batting": 2,
+          "batting": 26,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 26
         },
         "David Miller": {
-          "batting": 3,
+          "batting": 4,
           "bowling": 0,
           "fielding": 0,
-          "total": 3
+          "total": 4
         }
       },
       "isComplete": false
@@ -25845,8 +25866,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5350,
-      "top11Points": 5353,
+      "totalPointsAll": 5370,
+      "top11Points": 5373,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25904,6 +25925,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Anukul Roy",
+          "role": "All-Rounder",
+          "batting": 49,
+          "bowling": 232,
+          "fielding": 82,
+          "rawPoints": 363,
+          "multiplier": 1,
+          "effectivePoints": 363,
+          "countsInTop11": true
+        },
+        {
           "name": "Hardik Pandya",
           "role": "All-Rounder",
           "batting": 271,
@@ -25912,17 +25944,6 @@
           "rawPoints": 359,
           "multiplier": 1,
           "effectivePoints": 359,
-          "countsInTop11": true
-        },
-        {
-          "name": "Anukul Roy",
-          "role": "All-Rounder",
-          "batting": 49,
-          "bowling": 212,
-          "fielding": 82,
-          "rawPoints": 343,
-          "multiplier": 1,
-          "effectivePoints": 343,
           "countsInTop11": true
         },
         {
@@ -25994,8 +26015,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5441,
-      "top11Points": 5405,
+      "totalPointsAll": 5449,
+      "top11Points": 5413,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -26089,11 +26110,11 @@
           "name": "Varun Chakaravarthy",
           "role": "Spinner",
           "batting": -5,
-          "bowling": 296,
+          "bowling": 304,
           "fielding": 21,
-          "rawPoints": 312,
+          "rawPoints": 320,
           "multiplier": 1,
-          "effectivePoints": 312,
+          "effectivePoints": 320,
           "countsInTop11": true
         },
         {
@@ -26132,18 +26153,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6519,
-      "top11Points": 6521,
+      "totalPointsAll": 6543,
+      "top11Points": 6545,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 854,
+          "batting": 866,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 890,
+          "rawPoints": 902,
           "multiplier": 2,
-          "effectivePoints": 1780,
+          "effectivePoints": 1804,
           "countsInTop11": true
         },
         {
@@ -26270,8 +26291,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5271,
-      "top11Points": 5169,
+      "totalPointsAll": 5278,
+      "top11Points": 5176,
       "players": [
         {
           "name": "Shubman Gill",
@@ -26288,11 +26309,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 486,
+          "bowling": 491,
           "fielding": 24,
-          "rawPoints": 555,
+          "rawPoints": 560,
           "multiplier": 1.5,
-          "effectivePoints": 833,
+          "effectivePoints": 840,
           "countsInTop11": true
         },
         {
@@ -26535,18 +26556,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5509,
-      "top11Points": 5326,
+      "totalPointsAll": 5557,
+      "top11Points": 5374,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 167,
+          "batting": 191,
           "bowling": 324,
           "fielding": 40,
-          "rawPoints": 531,
+          "rawPoints": 555,
           "multiplier": 2,
-          "effectivePoints": 1062,
+          "effectivePoints": 1110,
           "countsInTop11": true
         },
         {
@@ -26822,8 +26843,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4435,
-      "top11Points": 4388,
+      "totalPointsAll": 4430,
+      "top11Points": 4383,
       "players": [
         {
           "name": "Travis Head",
@@ -26840,11 +26861,11 @@
           "name": "Cameron Green",
           "role": "All-Rounder",
           "batting": 431,
-          "bowling": 130,
+          "bowling": 125,
           "fielding": 64,
-          "rawPoints": 625,
+          "rawPoints": 620,
           "multiplier": 1,
-          "effectivePoints": 625,
+          "effectivePoints": 620,
           "countsInTop11": true
         },
         {
@@ -26960,8 +26981,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6148,
-      "top11Points": 5847,
+      "totalPointsAll": 6149,
+      "top11Points": 5848,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27054,12 +27075,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 268,
+          "batting": 269,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 308,
+          "rawPoints": 309,
           "multiplier": 1,
-          "effectivePoints": 308,
+          "effectivePoints": 309,
           "countsInTop11": true
         },
         {
