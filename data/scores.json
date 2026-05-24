@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T16:04:54.938Z",
+  "lastUpdated": "2026-05-24T16:15:14.587Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -7,6 +7,12 @@
     "status": "Live",
     "venue": "Eden Gardens, Kolkata",
     "score": [
+      {
+        "inning": "Kolkata Knight Riders",
+        "r": 1,
+        "w": 0,
+        "o": 0.3
+      },
       {
         "inning": "Delhi Capitals",
         "r": 203,
@@ -16,10 +22,16 @@
     ],
     "playerScores": {
       "Ajinkya Rahane": {
-        "batting": 0,
+        "batting": 1,
         "bowling": 0,
         "fielding": 8,
-        "total": 8
+        "total": 9
+      },
+      "Finn Allen": {
+        "batting": 5,
+        "bowling": 0,
+        "fielding": 8,
+        "total": 13
       },
       "Cameron Green": {
         "batting": 0,
@@ -50,12 +62,6 @@
         "bowling": 25,
         "fielding": 0,
         "total": 25
-      },
-      "Finn Allen": {
-        "batting": 0,
-        "bowling": 0,
-        "fielding": 8,
-        "total": 8
       },
       "Abishek Porel": {
         "batting": 26,
@@ -92,6 +98,24 @@
         "bowling": 0,
         "fielding": 0,
         "total": 0
+      },
+      "Auqib Nabi Dar": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Lungi Ngidi": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
+      },
+      "Kuldeep Yadav": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -123,8 +147,8 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5382,
-      "top11Points": 5385
+      "totalPointsAll": 5390,
+      "top11Points": 5393
     },
     {
       "team": "Ashwin",
@@ -25694,6 +25718,12 @@
       "venue": "Eden Gardens, Kolkata",
       "score": [
         {
+          "inning": "Kolkata Knight Riders",
+          "r": 1,
+          "w": 0,
+          "o": 0.3
+        },
+        {
           "inning": "Delhi Capitals",
           "r": 203,
           "w": 5,
@@ -25821,14 +25851,56 @@
               "economy": 8.75
             }
           ]
+        },
+        {
+          "innings": "Kolkata Knight Riders",
+          "runs": 1,
+          "wickets": 0,
+          "overs": 0.3,
+          "batting": [
+            {
+              "name": "Ajinkya Rahane",
+              "runs": 1,
+              "balls": 3,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 33.33,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Finn Allen",
+              "runs": 4,
+              "balls": 1,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 400,
+              "dismissal": "batting"
+            }
+          ],
+          "bowling": [
+            {
+              "name": "Mitchell Starc",
+              "overs": 0.4,
+              "maidens": 0,
+              "runs": 5,
+              "wickets": 0,
+              "economy": 7.5
+            }
+          ]
         }
       ],
       "playerScores": {
         "Ajinkya Rahane": {
-          "batting": 0,
+          "batting": 1,
           "bowling": 0,
           "fielding": 8,
-          "total": 8
+          "total": 9
+        },
+        "Finn Allen": {
+          "batting": 5,
+          "bowling": 0,
+          "fielding": 8,
+          "total": 13
         },
         "Cameron Green": {
           "batting": 0,
@@ -25859,12 +25931,6 @@
           "bowling": 25,
           "fielding": 0,
           "total": 25
-        },
-        "Finn Allen": {
-          "batting": 0,
-          "bowling": 0,
-          "fielding": 8,
-          "total": 8
         },
         "Abishek Porel": {
           "batting": 26,
@@ -25901,6 +25967,24 @@
           "bowling": 0,
           "fielding": 0,
           "total": 0
+        },
+        "Auqib Nabi Dar": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Lungi Ngidi": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
+        },
+        "Kuldeep Yadav": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -25908,8 +25992,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5382,
-      "top11Points": 5385,
+      "totalPointsAll": 5390,
+      "top11Points": 5393,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25925,12 +26009,12 @@
         {
           "name": "Finn Allen",
           "role": "Wicket Keeper",
-          "batting": 523,
+          "batting": 528,
           "bowling": 0,
           "fielding": 8,
-          "rawPoints": 531,
+          "rawPoints": 536,
           "multiplier": 1.5,
-          "effectivePoints": 797,
+          "effectivePoints": 804,
           "countsInTop11": true
         },
         {
@@ -25958,12 +26042,12 @@
         {
           "name": "Ajinkya Rahane",
           "role": "Batsman",
-          "batting": 316,
+          "batting": 317,
           "bowling": 0,
           "fielding": 56,
-          "rawPoints": 372,
+          "rawPoints": 373,
           "multiplier": 1,
-          "effectivePoints": 372,
+          "effectivePoints": 373,
           "countsInTop11": true
         },
         {
