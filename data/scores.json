@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T11:05:05.222Z",
+  "lastUpdated": "2026-05-24T11:14:52.582Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529312",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Rajasthan Royals",
-        "r": 100,
-        "w": 4,
-        "o": 10.6
+        "r": 119,
+        "w": 5,
+        "o": 12.5
       }
     ],
     "playerScores": {
@@ -64,16 +64,22 @@
         "total": 4
       },
       "Dhruv Jurel": {
-        "batting": 29,
+        "batting": 45,
         "bowling": 0,
         "fielding": 0,
-        "total": 29
+        "total": 45
       },
       "Riyan Parag": {
         "batting": 18,
         "bowling": 0,
         "fielding": 0,
         "total": 18
+      },
+      "Jofra Archer": {
+        "batting": 0,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 0
       }
     }
   },
@@ -95,8 +101,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5443,
-      "top11Points": 5260
+      "totalPointsAll": 5459,
+      "top11Points": 5276
     },
     {
       "team": "Aakash",
@@ -25268,17 +25274,17 @@
       "score": [
         {
           "inning": "Rajasthan Royals",
-          "r": 100,
-          "w": 4,
-          "o": 10.6
+          "r": 119,
+          "w": 5,
+          "o": 12.5
         }
       ],
       "scorecard": [
         {
           "innings": "Rajasthan Royals",
-          "runs": 100,
-          "wickets": 4,
-          "overs": 10.6,
+          "runs": 119,
+          "wickets": 5,
+          "overs": 12.5,
           "batting": [
             {
               "name": "Yashasvi Jaiswal",
@@ -25300,12 +25306,12 @@
             },
             {
               "name": "Dhruv Jurel",
-              "runs": 25,
-              "balls": 19,
-              "fours": 2,
-              "sixes": 1,
-              "sr": 131.58,
-              "dismissal": "batting"
+              "runs": 38,
+              "balls": 26,
+              "fours": 3,
+              "sixes": 2,
+              "sr": 146.15,
+              "dismissal": "b Corbin Bosch"
             },
             {
               "name": "Riyan Parag",
@@ -25327,8 +25333,17 @@
             },
             {
               "name": "Donovan Ferreira",
+              "runs": 2,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 40,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Jofra Archer",
               "runs": 0,
-              "balls": 2,
+              "balls": 1,
               "fours": 0,
               "sixes": 0,
               "sr": 0,
@@ -25354,11 +25369,11 @@
             },
             {
               "name": "AM Ghazanfar",
-              "overs": 2.1,
+              "overs": 3,
               "maidens": 0,
-              "runs": 34,
+              "runs": 45,
               "wickets": 1,
-              "economy": 15.69
+              "economy": 15
             },
             {
               "name": "Raghu Sharma",
@@ -25378,11 +25393,11 @@
             },
             {
               "name": "Corbin Bosch",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 6,
-              "wickets": 0,
-              "economy": 6
+              "runs": 10,
+              "wickets": 1,
+              "economy": 5
             }
           ]
         }
@@ -25437,16 +25452,22 @@
           "total": 4
         },
         "Dhruv Jurel": {
-          "batting": 29,
+          "batting": 45,
           "bowling": 0,
           "fielding": 0,
-          "total": 29
+          "total": 45
         },
         "Riyan Parag": {
           "batting": 18,
           "bowling": 0,
           "fielding": 0,
           "total": 18
+        },
+        "Jofra Archer": {
+          "batting": 0,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 0
         }
       },
       "isComplete": false
@@ -26144,8 +26165,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5443,
-      "top11Points": 5260,
+      "totalPointsAll": 5459,
+      "top11Points": 5276,
       "players": [
         {
           "name": "Axar Patel",
@@ -26161,12 +26182,12 @@
         {
           "name": "Dhruv Jurel",
           "role": "Wicket Keeper",
-          "batting": 595,
+          "batting": 611,
           "bowling": 0,
           "fielding": 160,
-          "rawPoints": 755,
+          "rawPoints": 771,
           "multiplier": 1,
-          "effectivePoints": 755,
+          "effectivePoints": 771,
           "countsInTop11": true
         },
         {
