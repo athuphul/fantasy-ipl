@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T14:44:52.929Z",
+  "lastUpdated": "2026-05-24T14:54:54.086Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 70,
-        "w": 1,
-        "o": 8.1
+        "r": 88,
+        "w": 2,
+        "o": 10
       }
     ],
     "playerScores": {
@@ -35,9 +35,9 @@
       },
       "Sunil Narine": {
         "batting": 0,
-        "bowling": 0,
+        "bowling": -10,
         "fielding": 0,
-        "total": 0
+        "total": -10
       },
       "Anukul Roy": {
         "batting": 0,
@@ -58,18 +58,24 @@
         "total": 26
       },
       "KL Rahul": {
-        "batting": 22,
+        "batting": 42,
         "bowling": 0,
         "fielding": 0,
-        "total": 22
+        "total": 42
+      },
+      "Axar Patel": {
+        "batting": 1,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 1
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6391,
-      "top11Points": 6393
+      "totalPointsAll": 6431,
+      "top11Points": 6433
     },
     {
       "team": "Tikoo",
@@ -93,8 +99,8 @@
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5505,
-      "top11Points": 5322
+      "totalPointsAll": 5507,
+      "top11Points": 5324
     },
     {
       "team": "Kishan",
@@ -103,8 +109,8 @@
     },
     {
       "team": "Ashwin",
-      "totalPointsAll": 5241,
-      "top11Points": 5139
+      "totalPointsAll": 5226,
+      "top11Points": 5124
     },
     {
       "team": "Tanay",
@@ -25665,17 +25671,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 70,
-          "w": 1,
-          "o": 8.1
+          "r": 88,
+          "w": 2,
+          "o": 10
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 70,
-          "wickets": 1,
-          "overs": 8.1,
+          "runs": 88,
+          "wickets": 2,
+          "overs": 10,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -25688,20 +25694,20 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 19,
-              "balls": 14,
-              "fours": 1,
-              "sixes": 1,
-              "sr": 135.71,
+              "runs": 31,
+              "balls": 19,
+              "fours": 2,
+              "sixes": 2,
+              "sr": 163.16,
               "dismissal": "batting"
             },
             {
               "name": "Sahil Parakh",
-              "runs": 12,
-              "balls": 8,
-              "fours": 1,
+              "runs": 19,
+              "balls": 14,
+              "fours": 2,
               "sixes": 1,
-              "sr": 150,
+              "sr": 135.71,
               "dismissal": "batting"
             }
           ],
@@ -25740,19 +25746,19 @@
             },
             {
               "name": "Sunil Narine",
-              "overs": 1,
+              "overs": 2,
               "maidens": 0,
-              "runs": 11,
+              "runs": 24,
               "wickets": 0,
-              "economy": 11
+              "economy": 12
             },
             {
               "name": "Varun Chakaravarthy",
-              "overs": 0.4,
+              "overs": 1.3,
               "maidens": 0,
-              "runs": 2,
+              "runs": 8,
               "wickets": 0,
-              "economy": 3
+              "economy": 5.33
             }
           ]
         }
@@ -25778,9 +25784,9 @@
         },
         "Sunil Narine": {
           "batting": 0,
-          "bowling": 0,
+          "bowling": -10,
           "fielding": 0,
-          "total": 0
+          "total": -10
         },
         "Anukul Roy": {
           "batting": 0,
@@ -25801,10 +25807,16 @@
           "total": 26
         },
         "KL Rahul": {
-          "batting": 22,
+          "batting": 42,
           "bowling": 0,
           "fielding": 0,
-          "total": 22
+          "total": 42
+        },
+        "Axar Patel": {
+          "batting": 1,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 1
         }
       },
       "isComplete": false
@@ -26099,18 +26111,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6391,
-      "top11Points": 6393,
+      "totalPointsAll": 6431,
+      "top11Points": 6433,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 790,
+          "batting": 810,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 826,
+          "rawPoints": 846,
           "multiplier": 2,
-          "effectivePoints": 1652,
+          "effectivePoints": 1692,
           "countsInTop11": true
         },
         {
@@ -26237,8 +26249,8 @@
       ]
     },
     "Ashwin": {
-      "totalPointsAll": 5241,
-      "top11Points": 5139,
+      "totalPointsAll": 5226,
+      "top11Points": 5124,
       "players": [
         {
           "name": "Shubman Gill",
@@ -26255,11 +26267,11 @@
           "name": "Sunil Narine",
           "role": "All-Rounder",
           "batting": 45,
-          "bowling": 466,
+          "bowling": 456,
           "fielding": 24,
-          "rawPoints": 535,
+          "rawPoints": 525,
           "multiplier": 1.5,
-          "effectivePoints": 803,
+          "effectivePoints": 788,
           "countsInTop11": true
         },
         {
@@ -26502,18 +26514,18 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5505,
-      "top11Points": 5322,
+      "totalPointsAll": 5507,
+      "top11Points": 5324,
       "players": [
         {
           "name": "Axar Patel",
           "role": "All-Rounder",
-          "batting": 165,
+          "batting": 166,
           "bowling": 324,
           "fielding": 40,
-          "rawPoints": 529,
+          "rawPoints": 530,
           "multiplier": 2,
-          "effectivePoints": 1058,
+          "effectivePoints": 1060,
           "countsInTop11": true
         },
         {
