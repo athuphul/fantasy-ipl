@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T14:04:55.417Z",
+  "lastUpdated": "2026-05-24T14:14:54.160Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 9,
+        "r": 20,
         "w": 0,
-        "o": 0.5
+        "o": 2.4
       }
     ],
     "playerScores": {
@@ -52,24 +52,24 @@
         "total": 0
       },
       "Abishek Porel": {
-        "batting": 11,
+        "batting": 12,
         "bowling": 0,
         "fielding": 0,
-        "total": 11
+        "total": 12
       },
       "KL Rahul": {
-        "batting": 1,
+        "batting": 16,
         "bowling": 0,
         "fielding": 0,
-        "total": 1
+        "total": 16
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6349,
-      "top11Points": 6351
+      "totalPointsAll": 6379,
+      "top11Points": 6381
     },
     {
       "team": "Tikoo",
@@ -88,18 +88,18 @@
     },
     {
       "team": "Athu",
-      "totalPointsAll": 5338,
-      "top11Points": 5341
+      "totalPointsAll": 5342,
+      "top11Points": 5345
     },
     {
       "team": "Manav",
-      "totalPointsAll": 5495,
-      "top11Points": 5312
+      "totalPointsAll": 5505,
+      "top11Points": 5322
     },
     {
       "team": "Kishan",
-      "totalPointsAll": 5151,
-      "top11Points": 5151
+      "totalPointsAll": 5159,
+      "top11Points": 5159
     },
     {
       "team": "Ashwin",
@@ -25256,9 +25256,9 @@
       "score": [
         {
           "inning": "Mumbai Indians",
-          "r": 157,
-          "w": 7,
-          "o": 17.2
+          "r": 169,
+          "w": 9,
+          "o": 19
         },
         {
           "inning": "Rajasthan Royals",
@@ -25418,9 +25418,9 @@
         },
         {
           "innings": "Mumbai Indians",
-          "runs": 157,
-          "wickets": 7,
-          "overs": 17.2,
+          "runs": 169,
+          "wickets": 9,
+          "overs": 19,
           "batting": [
             {
               "name": "Rohit Sharma",
@@ -25451,12 +25451,12 @@
             },
             {
               "name": "Suryakumar Yadav",
-              "runs": 58,
-              "balls": 39,
+              "runs": 60,
+              "balls": 42,
               "fours": 3,
               "sixes": 4,
-              "sr": 148.72,
-              "dismissal": "batting"
+              "sr": 142.86,
+              "dismissal": "c and b Nandre Burger"
             },
             {
               "name": "Tilak Varma",
@@ -25488,10 +25488,37 @@
             {
               "name": "Corbin Bosch",
               "runs": 2,
-              "balls": 3,
+              "balls": 4,
               "fours": 0,
               "sixes": 0,
-              "sr": 66.67,
+              "sr": 50,
+              "dismissal": "c Donovan Ferreira b Yash Raj Punja"
+            },
+            {
+              "name": "Shardul Thakur",
+              "runs": 9,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 0,
+              "sr": 128.57,
+              "dismissal": "batting"
+            },
+            {
+              "name": "Deepak Chahar",
+              "runs": 8,
+              "balls": 5,
+              "fours": 0,
+              "sixes": 1,
+              "sr": 160,
+              "dismissal": "lbw b Brijesh Sharma"
+            },
+            {
+              "name": "AM Ghazanfar",
+              "runs": 1,
+              "balls": 2,
+              "fours": 0,
+              "sixes": 0,
+              "sr": 50,
               "dismissal": "batting"
             }
           ],
@@ -25506,19 +25533,19 @@
             },
             {
               "name": "Nandre Burger",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 32,
-              "wickets": 1,
-              "economy": 10.67
+              "runs": 43,
+              "wickets": 2,
+              "economy": 10.75
             },
             {
               "name": "Brijesh Sharma",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 23,
-              "wickets": 1,
-              "economy": 7.67
+              "runs": 26,
+              "wickets": 2,
+              "economy": 6.5
             },
             {
               "name": "Ravindra Jadeja",
@@ -25530,19 +25557,19 @@
             },
             {
               "name": "Yash Raj Punja",
-              "overs": 3.1,
+              "overs": 4,
               "maidens": 0,
-              "runs": 40,
-              "wickets": 1,
-              "economy": 12.63
+              "runs": 44,
+              "wickets": 2,
+              "economy": 11
             },
             {
               "name": "Dasun Shanaka",
-              "overs": 1,
+              "overs": 1.1,
               "maidens": 0,
-              "runs": 15,
+              "runs": 19,
               "wickets": 0,
-              "economy": 15
+              "economy": 16.29
             }
           ]
         }
@@ -25555,10 +25582,10 @@
           "total": -5
         },
         "Suryakumar Yadav": {
-          "batting": 79,
+          "batting": 81,
           "bowling": 0,
           "fielding": 0,
-          "total": 79
+          "total": 81
         },
         "Tilak Varma": {
           "batting": 3,
@@ -25579,16 +25606,16 @@
           "total": 56
         },
         "Shardul Thakur": {
-          "batting": 3,
+          "batting": 10,
           "bowling": 45,
           "fielding": 10,
-          "total": 58
+          "total": 65
         },
         "Deepak Chahar": {
-          "batting": 0,
+          "batting": 10,
           "bowling": 45,
           "fielding": 0,
-          "total": 45
+          "total": 55
         },
         "Yashasvi Jaiswal": {
           "batting": 39,
@@ -25638,34 +25665,34 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 9,
+          "r": 20,
           "w": 0,
-          "o": 0.5
+          "o": 2.4
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 9,
+          "runs": 20,
           "wickets": 0,
-          "overs": 0.5,
+          "overs": 2.4,
           "batting": [
             {
               "name": "Abishek Porel",
-              "runs": 9,
-              "balls": 5,
+              "runs": 10,
+              "balls": 10,
               "fours": 2,
               "sixes": 0,
-              "sr": 180,
+              "sr": 100,
               "dismissal": "batting"
             },
             {
               "name": "KL Rahul",
-              "runs": 1,
-              "balls": 1,
-              "fours": 0,
-              "sixes": 0,
-              "sr": 100,
+              "runs": 13,
+              "balls": 7,
+              "fours": 1,
+              "sixes": 1,
+              "sr": 185.71,
               "dismissal": "batting"
             }
           ],
@@ -25677,6 +25704,22 @@
               "runs": 10,
               "wickets": 0,
               "economy": 10
+            },
+            {
+              "name": "Saurabh Dubey",
+              "overs": 1,
+              "maidens": 0,
+              "runs": 2,
+              "wickets": 0,
+              "economy": 2
+            },
+            {
+              "name": "Cameron Green",
+              "overs": 0.5,
+              "maidens": 0,
+              "runs": 12,
+              "wickets": 0,
+              "economy": 14.4
             }
           ]
         }
@@ -25719,16 +25762,16 @@
           "total": 0
         },
         "Abishek Porel": {
-          "batting": 11,
+          "batting": 12,
           "bowling": 0,
           "fielding": 0,
-          "total": 11
+          "total": 12
         },
         "KL Rahul": {
-          "batting": 1,
+          "batting": 16,
           "bowling": 0,
           "fielding": 0,
-          "total": 1
+          "total": 16
         }
       },
       "isComplete": false
@@ -25736,8 +25779,8 @@
   ],
   "teamDetails": {
     "Athu": {
-      "totalPointsAll": 5338,
-      "top11Points": 5341,
+      "totalPointsAll": 5342,
+      "top11Points": 5345,
       "players": [
         {
           "name": "Heinrich Klaasen",
@@ -25764,12 +25807,12 @@
         {
           "name": "Suryakumar Yadav",
           "role": "Batsman",
-          "batting": 346,
+          "batting": 348,
           "bowling": 0,
           "fielding": 24,
-          "rawPoints": 370,
+          "rawPoints": 372,
           "multiplier": 2,
-          "effectivePoints": 740,
+          "effectivePoints": 744,
           "countsInTop11": true
         },
         {
@@ -26023,18 +26066,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6349,
-      "top11Points": 6351,
+      "totalPointsAll": 6379,
+      "top11Points": 6381,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 769,
+          "batting": 784,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 805,
+          "rawPoints": 820,
           "multiplier": 2,
-          "effectivePoints": 1610,
+          "effectivePoints": 1640,
           "countsInTop11": true
         },
         {
@@ -26299,8 +26342,8 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5151,
-      "top11Points": 5151,
+      "totalPointsAll": 5159,
+      "top11Points": 5159,
       "players": [
         {
           "name": "Ravindra Jadeja",
@@ -26382,12 +26425,12 @@
         {
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
-          "batting": 8,
+          "batting": 15,
           "bowling": 270,
           "fielding": 10,
-          "rawPoints": 288,
+          "rawPoints": 295,
           "multiplier": 1,
-          "effectivePoints": 288,
+          "effectivePoints": 295,
           "countsInTop11": true
         },
         {
@@ -26404,12 +26447,12 @@
         {
           "name": "Abishek Porel",
           "role": "Wicket Keeper",
-          "batting": 120,
+          "batting": 121,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 120,
+          "rawPoints": 121,
           "multiplier": 1,
-          "effectivePoints": 120,
+          "effectivePoints": 121,
           "countsInTop11": true
         },
         {
@@ -26426,8 +26469,8 @@
       ]
     },
     "Manav": {
-      "totalPointsAll": 5495,
-      "top11Points": 5312,
+      "totalPointsAll": 5505,
+      "top11Points": 5322,
       "players": [
         {
           "name": "Axar Patel",
@@ -26507,6 +26550,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Deepak Chahar",
+          "role": "Fast Bowler",
+          "batting": 30,
+          "bowling": 192,
+          "fielding": 8,
+          "rawPoints": 230,
+          "multiplier": 1,
+          "effectivePoints": 230,
+          "countsInTop11": true
+        },
+        {
           "name": "Quinton de Kock",
           "role": "Opener",
           "batting": 199,
@@ -26515,17 +26569,6 @@
           "rawPoints": 225,
           "multiplier": 1,
           "effectivePoints": 225,
-          "countsInTop11": true
-        },
-        {
-          "name": "Deepak Chahar",
-          "role": "Fast Bowler",
-          "batting": 20,
-          "bowling": 192,
-          "fielding": 8,
-          "rawPoints": 220,
-          "multiplier": 1,
-          "effectivePoints": 220,
           "countsInTop11": true
         },
         {
