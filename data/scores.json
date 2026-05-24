@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:04:53.833Z",
+  "lastUpdated": "2026-05-24T15:14:53.701Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529313",
@@ -9,9 +9,9 @@
     "score": [
       {
         "inning": "Delhi Capitals",
-        "r": 115,
-        "w": 2,
-        "o": 12.1
+        "r": 135,
+        "w": 3,
+        "o": 14
       }
     ],
     "playerScores": {
@@ -58,29 +58,35 @@
         "total": 26
       },
       "KL Rahul": {
-        "batting": 62,
+        "batting": 86,
         "bowling": 0,
         "fielding": 0,
-        "total": 62
+        "total": 86
       },
       "Axar Patel": {
         "batting": 2,
         "bowling": 0,
         "fielding": 0,
         "total": 2
+      },
+      "David Miller": {
+        "batting": 3,
+        "bowling": 0,
+        "fielding": 0,
+        "total": 3
       }
     }
   },
   "leaderboard": [
     {
       "team": "Ali",
-      "totalPointsAll": 6471,
-      "top11Points": 6473
+      "totalPointsAll": 6519,
+      "top11Points": 6521
     },
     {
       "team": "Tikoo",
-      "totalPointsAll": 6145,
-      "top11Points": 5844
+      "totalPointsAll": 6148,
+      "top11Points": 5847
     },
     {
       "team": "Ritik",
@@ -25671,17 +25677,17 @@
       "score": [
         {
           "inning": "Delhi Capitals",
-          "r": 115,
-          "w": 2,
-          "o": 12.1
+          "r": 135,
+          "w": 3,
+          "o": 14
         }
       ],
       "scorecard": [
         {
           "innings": "Delhi Capitals",
-          "runs": 115,
-          "wickets": 2,
-          "overs": 12.1,
+          "runs": 135,
+          "wickets": 3,
+          "overs": 14,
           "batting": [
             {
               "name": "Abishek Porel",
@@ -25694,11 +25700,11 @@
             },
             {
               "name": "KL Rahul",
-              "runs": 43,
-              "balls": 23,
+              "runs": 50,
+              "balls": 25,
               "fours": 3,
-              "sixes": 3,
-              "sr": 186.96,
+              "sixes": 4,
+              "sr": 200,
               "dismissal": "batting"
             },
             {
@@ -25747,11 +25753,11 @@
             },
             {
               "name": "Kartik Tyagi",
-              "overs": 1.2,
+              "overs": 1.4,
               "maidens": 0,
-              "runs": 18,
+              "runs": 25,
               "wickets": 0,
-              "economy": 13.5
+              "economy": 15
             },
             {
               "name": "Sunil Narine",
@@ -25816,16 +25822,22 @@
           "total": 26
         },
         "KL Rahul": {
-          "batting": 62,
+          "batting": 86,
           "bowling": 0,
           "fielding": 0,
-          "total": 62
+          "total": 86
         },
         "Axar Patel": {
           "batting": 2,
           "bowling": 0,
           "fielding": 0,
           "total": 2
+        },
+        "David Miller": {
+          "batting": 3,
+          "bowling": 0,
+          "fielding": 0,
+          "total": 3
         }
       },
       "isComplete": false
@@ -26120,18 +26132,18 @@
       ]
     },
     "Ali": {
-      "totalPointsAll": 6471,
-      "top11Points": 6473,
+      "totalPointsAll": 6519,
+      "top11Points": 6521,
       "players": [
         {
           "name": "KL Rahul",
           "role": "Wicket Keeper",
-          "batting": 830,
+          "batting": 854,
           "bowling": 0,
           "fielding": 36,
-          "rawPoints": 866,
+          "rawPoints": 890,
           "multiplier": 2,
-          "effectivePoints": 1732,
+          "effectivePoints": 1780,
           "countsInTop11": true
         },
         {
@@ -26948,8 +26960,8 @@
       ]
     },
     "Tikoo": {
-      "totalPointsAll": 6145,
-      "top11Points": 5844,
+      "totalPointsAll": 6148,
+      "top11Points": 5847,
       "players": [
         {
           "name": "Sanju Samson",
@@ -27042,12 +27054,12 @@
         {
           "name": "David Miller",
           "role": "Batsman",
-          "batting": 265,
+          "batting": 268,
           "bowling": 0,
           "fielding": 40,
-          "rawPoints": 305,
+          "rawPoints": 308,
           "multiplier": 1,
-          "effectivePoints": 305,
+          "effectivePoints": 308,
           "countsInTop11": true
         },
         {
