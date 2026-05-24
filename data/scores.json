@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T12:15:11.986Z",
+  "lastUpdated": "2026-05-24T12:24:55.551Z",
   "iplSeriesId": "87c62aac-bc3c-4738-ab93-19da0690488f",
   "currentMatch": {
     "matchId": "espn_1529312",
@@ -8,6 +8,12 @@
     "venue": "Wankhede Stadium, Mumbai",
     "score": [
       {
+        "inning": "Mumbai Indians",
+        "r": 1,
+        "w": 1,
+        "o": 1
+      },
+      {
         "inning": "Rajasthan Royals",
         "r": 205,
         "w": 8,
@@ -15,6 +21,12 @@
       }
     ],
     "playerScores": {
+      "Rohit Sharma": {
+        "batting": -5,
+        "bowling": 0,
+        "fielding": 0,
+        "total": -5
+      },
       "Suryakumar Yadav": {
         "batting": 0,
         "bowling": 0,
@@ -47,9 +59,9 @@
       },
       "Shardul Thakur": {
         "batting": 0,
-        "bowling": 50,
+        "bowling": 45,
         "fielding": 10,
-        "total": 60
+        "total": 55
       },
       "Yashasvi Jaiswal": {
         "batting": 39,
@@ -77,15 +89,15 @@
       },
       "Jofra Archer": {
         "batting": 54,
-        "bowling": 0,
+        "bowling": 25,
         "fielding": 0,
-        "total": 54
+        "total": 79
       },
       "Ravindra Jadeja": {
-        "batting": 2,
+        "batting": 27,
         "bowling": 0,
         "fielding": 0,
-        "total": 2
+        "total": 27
       }
     }
   },
@@ -106,14 +118,19 @@
       "top11Points": 5724
     },
     {
+      "team": "Aakash",
+      "totalPointsAll": 5346,
+      "top11Points": 5310
+    },
+    {
       "team": "Manav",
       "totalPointsAll": 5479,
       "top11Points": 5296
     },
     {
-      "team": "Aakash",
-      "totalPointsAll": 5321,
-      "top11Points": 5285
+      "team": "Kishan",
+      "totalPointsAll": 5157,
+      "top11Points": 5157
     },
     {
       "team": "Ashwin",
@@ -126,14 +143,9 @@
       "top11Points": 5127
     },
     {
-      "team": "Kishan",
-      "totalPointsAll": 5112,
-      "top11Points": 5112
-    },
-    {
       "team": "Tanay",
-      "totalPointsAll": 4443,
-      "top11Points": 4396
+      "totalPointsAll": 4435,
+      "top11Points": 4388
     }
   ],
   "matchHistory": [
@@ -25279,6 +25291,12 @@
       "venue": "Wankhede Stadium, Mumbai",
       "score": [
         {
+          "inning": "Mumbai Indians",
+          "r": 1,
+          "w": 1,
+          "o": 1
+        },
+        {
           "inning": "Rajasthan Royals",
           "r": 205,
           "w": 8,
@@ -25366,21 +25384,21 @@
             },
             {
               "name": "Ravindra Jadeja",
-              "runs": 2,
-              "balls": 2,
-              "fours": 0,
+              "runs": 19,
+              "balls": 11,
+              "fours": 3,
               "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sr": 172.73,
+              "dismissal": "not out"
             },
             {
               "name": "Nandre Burger",
-              "runs": 1,
-              "balls": 1,
+              "runs": 10,
+              "balls": 3,
               "fours": 0,
-              "sixes": 0,
-              "sr": 100,
-              "dismissal": "batting"
+              "sixes": 1,
+              "sr": 333.33,
+              "dismissal": "not out"
             }
           ],
           "bowling": [
@@ -25418,24 +25436,30 @@
             },
             {
               "name": "Shardul Thakur",
-              "overs": 3,
+              "overs": 4,
               "maidens": 0,
-              "runs": 27,
+              "runs": 41,
               "wickets": 2,
-              "economy": 9
+              "economy": 10.25
             },
             {
               "name": "Corbin Bosch",
-              "overs": 3.2,
+              "overs": 4,
               "maidens": 0,
-              "runs": 25,
+              "runs": 38,
               "wickets": 1,
-              "economy": 7.5
+              "economy": 9.5
             }
           ]
         }
       ],
       "playerScores": {
+        "Rohit Sharma": {
+          "batting": -5,
+          "bowling": 0,
+          "fielding": 0,
+          "total": -5
+        },
         "Suryakumar Yadav": {
           "batting": 0,
           "bowling": 0,
@@ -25468,9 +25492,9 @@
         },
         "Shardul Thakur": {
           "batting": 0,
-          "bowling": 50,
+          "bowling": 45,
           "fielding": 10,
-          "total": 60
+          "total": 55
         },
         "Yashasvi Jaiswal": {
           "batting": 39,
@@ -25498,15 +25522,15 @@
         },
         "Jofra Archer": {
           "batting": 54,
-          "bowling": 0,
+          "bowling": 25,
           "fielding": 0,
-          "total": 54
+          "total": 79
         },
         "Ravindra Jadeja": {
-          "batting": 2,
+          "batting": 27,
           "bowling": 0,
           "fielding": 0,
-          "total": 2
+          "total": 27
         }
       },
       "isComplete": false
@@ -25663,8 +25687,8 @@
       ]
     },
     "Aakash": {
-      "totalPointsAll": 5321,
-      "top11Points": 5285,
+      "totalPointsAll": 5346,
+      "top11Points": 5310,
       "players": [
         {
           "name": "Sai Sudharsan",
@@ -25678,6 +25702,17 @@
           "countsInTop11": true
         },
         {
+          "name": "Jofra Archer",
+          "role": "Fast Bowler",
+          "batting": 77,
+          "bowling": 495,
+          "fielding": 55,
+          "rawPoints": 627,
+          "multiplier": 1,
+          "effectivePoints": 627,
+          "countsInTop11": true
+        },
+        {
           "name": "Yashasvi Jaiswal",
           "role": "Opener",
           "batting": 566,
@@ -25686,17 +25721,6 @@
           "rawPoints": 608,
           "multiplier": 1,
           "effectivePoints": 608,
-          "countsInTop11": true
-        },
-        {
-          "name": "Jofra Archer",
-          "role": "Fast Bowler",
-          "batting": 77,
-          "bowling": 470,
-          "fielding": 55,
-          "rawPoints": 602,
-          "multiplier": 1,
-          "effectivePoints": 602,
           "countsInTop11": true
         },
         {
@@ -26077,18 +26101,18 @@
       ]
     },
     "Kishan": {
-      "totalPointsAll": 5112,
-      "top11Points": 5112,
+      "totalPointsAll": 5157,
+      "top11Points": 5157,
       "players": [
         {
           "name": "Ravindra Jadeja",
           "role": "All-Rounder",
-          "batting": 215,
+          "batting": 240,
           "bowling": 247,
           "fielding": 18,
-          "rawPoints": 480,
+          "rawPoints": 505,
           "multiplier": 2,
-          "effectivePoints": 960,
+          "effectivePoints": 1010,
           "countsInTop11": true
         },
         {
@@ -26161,11 +26185,11 @@
           "name": "Shardul Thakur",
           "role": "Fast Bowler",
           "batting": 5,
-          "bowling": 275,
+          "bowling": 270,
           "fielding": 10,
-          "rawPoints": 290,
+          "rawPoints": 285,
           "multiplier": 1,
-          "effectivePoints": 290,
+          "effectivePoints": 285,
           "countsInTop11": true
         },
         {
@@ -26491,8 +26515,8 @@
       ]
     },
     "Tanay": {
-      "totalPointsAll": 4443,
-      "top11Points": 4396,
+      "totalPointsAll": 4435,
+      "top11Points": 4388,
       "players": [
         {
           "name": "Travis Head",
@@ -26530,12 +26554,12 @@
         {
           "name": "Rohit Sharma",
           "role": "Opener",
-          "batting": 401,
+          "batting": 396,
           "bowling": 0,
           "fielding": 0,
-          "rawPoints": 401,
+          "rawPoints": 396,
           "multiplier": 1.5,
-          "effectivePoints": 602,
+          "effectivePoints": 594,
           "countsInTop11": true
         },
         {
