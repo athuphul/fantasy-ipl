@@ -1031,6 +1031,18 @@ tbody tr {
   font-weight: 600;
 }
 
+.schedule-stage {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  background: var(--manager-tag-bg);
+  vertical-align: middle;
+}
+
 .schedule-meta {
   font-size: 0.7rem;
   color: var(--text-muted);

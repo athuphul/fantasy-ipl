@@ -505,6 +505,96 @@ function findScheduleMatchForEvent(eventName, eventDate) {
   });
 }
 
+function getPlayoffScheduleEntries() {
+  const schedule = JSON.parse(fs.readFileSync(SCHEDULE_FILE, 'utf8'));
+  return schedule.filter(m => m.cricbuzzId);
+}
+
+function hasPendingPlayoffEntries(existing) {
+  return getPlayoffScheduleEntries().some(sm => !isPlayoffEntryComplete(existing, sm));
+}
+
+function isPlayoffEntryComplete(existing, scheduleMatch) {
+  const matchId = `cb_${scheduleMatch.cricbuzzId}`;
+  const entry = existing.matchHistory.find(m => m.matchId === matchId);
+  return entry?.isComplete === true;
+}
+
+async function processPlayoffScheduleEntries(existing, allPlayers) {
+  const playoffEntries = getPlayoffScheduleEntries();
+  if (playoffEntries.length === 0) return false;
+
+  let updated = false;
+  for (const sm of playoffEntries) {
+    const matchId = `cb_${sm.cricbuzzId}`;
+    if (isPlayoffEntryComplete(existing, sm)) {
+      continue;
+    }
+
+    const homeFull = TEAM_SHORT_TO_FULL[sm.home];
+    const awayFull = TEAM_SHORT_TO_FULL[sm.away];
+    console.log(`\n  [PLAYOFF] ${sm.stage}: ${homeFull} v ${awayFull} (Cricbuzz ${sm.cricbuzzId})`);
+
+    const cbResult = await fetchCricbuzzScorecard(sm.cricbuzzId);
+    if (!cbResult?.scorecard?.length) {
+      console.log('  Playoff scorecard not available yet');
+      continue;
+    }
+
+    const scorecard = cbResult.scorecard;
+    const hasFullScorecard = scorecard.length >= 2
+      && scorecard.every(inn => (inn.batting || []).length >= 2);
+    if (!hasFullScorecard) {
+      console.log('  Playoff scorecard incomplete, skipping');
+      continue;
+    }
+
+    normalizeScorecardNames(scorecard, allPlayers);
+    const playerScores = computePointsFromScorecard(scorecard, allPlayers);
+    correctFieldingFromScorecard(scorecard, playerScores, allPlayers);
+    await supplementRunOuts(playerScores, `${homeFull} v ${awayFull}`, sm.date, allPlayers);
+
+    const score = scorecard.map(inn => ({
+      inning: inn.innings,
+      r: inn.runs || 0,
+      w: inn.wickets || 0,
+      o: inn.overs || 0,
+    }));
+
+    const matchEntry = {
+      matchId,
+      name: `${homeFull} v ${awayFull}, ${sm.stage}`,
+      date: sm.date,
+      status: cbResult.status || 'Final',
+      venue: sm.venue || '',
+      score,
+      scorecard,
+      playerScores,
+      isComplete: true,
+    };
+
+    const idx = existing.matchHistory.findIndex(m => m.matchId === matchId);
+    if (idx >= 0) {
+      existing.matchHistory[idx] = matchEntry;
+    } else {
+      existing.matchHistory.push(matchEntry);
+    }
+
+    saveFantasyScores(matchId, playerScores);
+    saveMatchScore(matchId, {
+      name: matchEntry.name,
+      date: sm.date,
+      status: matchEntry.status,
+      venue: matchEntry.venue,
+      score,
+    });
+    console.log(`  Playoff match saved (${sm.stage})`);
+    updated = true;
+  }
+
+  return updated;
+}
+
 async function supplementRunOuts(playerScores, eventName, eventDate, allPlayers) {
   if (CRICAPI_KEYS.length === 0) return;
 
@@ -1255,7 +1345,10 @@ async function main() {
   const todayMatches = getScheduleForToday();
   const inWindow = todayMatches.length > 0 && isMatchWindowNow(todayMatches);
 
-  if (!inWindow && !hasStaleUpdates) {
+  // Backfill playoff matches from Cricbuzz (not always on ESPN header)
+  const playoffUpdated = await processPlayoffScheduleEntries(existing, allPlayers);
+
+  if (!inWindow && !hasStaleUpdates && !playoffUpdated) {
     if (todayMatches.length === 0) {
       console.log(`\nNo matches scheduled today (${getTodayIST()}). Exiting.`);
     } else {
@@ -1264,9 +1357,11 @@ async function main() {
     return;
   }
 
-  if (!inWindow && hasStaleUpdates) {
-    // We updated stale matches but no live match to check — just write and exit
-    console.log(`\nNo live match window, but updated ${staleMatches.length} stale match(es). Writing output.`);
+  if (!inWindow && (hasStaleUpdates || playoffUpdated)) {
+    const reason = hasStaleUpdates && playoffUpdated
+      ? 'stale and playoff'
+      : hasStaleUpdates ? 'stale' : 'playoff';
+    console.log(`\nNo live match window, but updated ${reason} match(es). Writing output.`);
     const output = buildOutput(existing, teams, null);
     writeAndPush(output);
     console.log(`\n=== Final Leaderboard ===`);
@@ -1486,6 +1581,7 @@ async function main() {
 
   // Write, commit, push
   console.log(`\n=== Building output and writing ===`);
+  await processPlayoffScheduleEntries(existing, allPlayers);
   const output = buildOutput(existing, teams, currentMatch);
   writeAndPush(output);
 

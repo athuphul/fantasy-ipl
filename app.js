@@ -1229,7 +1229,7 @@ function renderAllMatches() {
       lastDate = m.date;
       html += `<div class="schedule-row${dateLabel ? '' : ' same-day'}">
         <div class="schedule-date">${dateLabel}</div>
-        <div class="schedule-teams">${teamLogo(m.home, 18)} <span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span> ${teamLogo(m.away, 18)}</div>
+        <div class="schedule-teams">${teamLogo(m.home, 18)} <span class="ipl-badge">${m.home}</span> vs <span class="ipl-badge">${m.away}</span> ${teamLogo(m.away, 18)}${m.stage ? ` <span class="schedule-stage">${m.stage}</span>` : ''}</div>
         <div class="schedule-meta">${localTime} &middot; ${m.venue}</div>
       </div>`;
     }
